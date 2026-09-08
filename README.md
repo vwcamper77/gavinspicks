@@ -18,7 +18,7 @@ Open http://localhost:3000. Open this repository folder in VS Code.
 1. Import `vwcamper77/gavinspicks` from GitHub.
 2. Framework: **Next.js**. Root directory: repository root (`./`).
 3. Use the default `npm run build`; leave Output Directory unset. Node.js 22.x.
-4. No environment variables or database are required for this initial feed.
+4. The listing feed is versioned in Git. Visitor sold reports use the connected private Vercel Blob store and its server-only BLOB_READ_WRITE_TOKEN.
 5. Deploy, then add your domain under Project → Settings → Domains and follow the DNS records Vercel supplies.
 
 The existing GitHub-connected Vercel project serves https://www.gavinspicks.com (verified 8 September 2026). Pushes to main trigger deployment; do not create a duplicate project.
@@ -38,6 +38,7 @@ Read `UPDATE_PROTOCOL.md` before updating. Preserve first discovery times, keep 
 
 ## Validation
 
+
 ```sh
 npm test
 npm run typecheck
@@ -49,3 +50,7 @@ npm run build
 `social/` contains a GP avatar, an Instagram launch card, matching bios, launch captions, video scripts and a first-week plan. Instagram and TikTok accounts are not yet created; handle availability, owner email and verification are outstanding. Nothing has been posted. Proposed monetisation is documented as a hypothesis; billing and paid memberships are not implemented.
 
 Seller photographs remain remote source references. Obtain appropriate permission before re-uploading dealer photos for promotional social content.
+
+## Visitor sold reports
+
+“Mark as sold” queues a private report for the next hourly seller/photo recheck. It does not immediately remove a car. One pending report per listing is stored centrally; duplicate clicks do not create duplicate reports. The API accepts only known listing IDs and stores no visitor identity. Errors are shown honestly. The hourly updater reads and resolves reports using scripts/sold-reports.mjs; see UPDATE_PROTOCOL.md.
