@@ -22,7 +22,7 @@ const zero = {
 };
 const close = (a, b) => assert.ok(Math.abs(a - b) < 0.00001, `${a} != ${b}`);
 
-test('flat market with no costs breaks even; discount affects purchase only', () => {
+void test('flat market with no costs breaks even; discount affects purchase only', () => {
   close(predict(50000, zero).last.net, 0);
   const result = predict(50000, { ...zero, discount: 10 });
   close(result.purchase, 45000);
@@ -30,7 +30,7 @@ test('flat market with no costs breaks even; discount affects purchase only', ()
   close(result.last.net, 5000);
 });
 
-test('growth, costs, fees and discounting reconcile against cash flows', () => {
+void test('growth, costs, fees and discounting reconcile against cash flows', () => {
   const r = predict(50000, {
     ...zero,
     growth: 10,
@@ -49,7 +49,7 @@ test('growth, costs, fees and discounting reconcile against cash flows', () => {
   close(r.breakEven * 0.95 - 50000 - r.last.cumulativeCost, 0);
 });
 
-test('premium and mileage adjustments compound without changing the starting price', () => {
+void test('premium and mileage adjustments compound without changing the starting price', () => {
   const r = predict(50000, {
     ...zero,
     desirability: 10,
@@ -62,7 +62,7 @@ test('premium and mileage adjustments compound without changing the starting pri
   close(r.last.base, 50000 * 1.1 * 0.9 * 1.2 * 0.98 ** 5);
 });
 
-test('scenario order and input safety hold at boundary values', () => {
+void test('scenario order and input safety hold at boundary values', () => {
   const r = predict(50000, {
     ...defaultInputs,
     growth: -30,
@@ -82,9 +82,22 @@ test('scenario order and input safety hold at boundary values', () => {
   assert.throws(() => predict(0, defaultInputs));
 });
 
-test('historical trend requires all six positive observations', () => {
+void test('historical trend requires all six positive observations', () => {
   assert.equal(historicalGrowth([100, null, 120, 130, 140, 150]), null);
   assert.equal(historicalGrowth([100, 110, 120, 130, 140, 0]), null);
   assert.equal(historicalGrowth([100, 110]), null);
   close(historicalGrowth([100, 110, 121, 133.1, 146.41, 161.051]), 10);
+});
+
+void test('default storage and selling commission are zero',()=>{
+ assert.equal(defaultInputs.storage,0);
+ assert.equal(defaultInputs.saleFee,0);
+});
+void test('break-even growth reconciles to zero profit including mileage and premiums',()=>{
+ const inputs={...defaultInputs,discount:5,maintenance:750,servicing:900,desirability:4,owners:-3,saleFee:2};
+ const r=predict(50000,inputs);
+ close(predict(50000,{...inputs,growth:r.breakEvenGrowth}).last.net,0);
+ const higher=predict(50000,{...inputs,maintenance:3000});
+ assert.ok(higher.last.net<r.last.net);
+ assert.equal(higher.last.base,r.last.base);
 });

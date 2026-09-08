@@ -21,12 +21,12 @@ export const defaultInputs: PredictorInputs = {
   growth: 0,
   spread: 5,
   discountRate: 4,
-  storage: 1200,
-  maintenance: 1500,
-  servicing: 1000,
+  storage: 0,
+  maintenance: 500,
+  servicing: 600,
   other: 0,
   costInflation: 2,
-  saleFee: 5,
+  saleFee: 0,
   annualMiles: 3000,
   mileagePenalty: 1,
   desirability: 0,
@@ -115,6 +115,20 @@ export function predict(price: number, raw: PredictorInputs) {
     premium,
     annualCost,
     breakEven: (purchase + last.cumulativeCost) / (1 - input.saleFee / 100),
+    breakEvenGrowth:
+      (Math.pow(
+        (purchase + last.cumulativeCost) /
+          (1 - input.saleFee / 100) /
+          (price *
+            premium *
+            Math.pow(
+              1 - input.mileagePenalty / 100,
+              (input.annualMiles * 5) / 10000,
+            )),
+        1 / 5,
+      ) -
+        1) *
+      100,
     marketValue: price * Math.pow(1 + input.growth / 100, 5),
     mileageFactor: Math.pow(
       1 - input.mileagePenalty / 100,

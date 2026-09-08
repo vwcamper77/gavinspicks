@@ -1,5 +1,5 @@
 'use client';
-
+/* oxlint-disable jsx-a11y/prefer-tag-over-role -- SVG exposes a labelled graphic. */
 import { useId, useRef, useState } from 'react';
 import { TrendingUp, ArrowUpRight } from 'lucide-react';
 import {
@@ -11,14 +11,18 @@ import {
 } from '@/components/ui/dialog';
 import {
   defaultInputs,
-  historicalGrowth,
   inputBounds,
   predict,
   type PredictorInputs,
 } from '@/lib/future-predictor';
-
+import {
+  marketProfile,
+  chartSales,
+  ownershipAppeal,
+} from '@/lib/market-evidence';
 type Car = {
   id: string;
+  modelId?: string;
   title: string;
   price: number;
   mileage: number | null;
@@ -55,19 +59,14 @@ const fields: [keyof PredictorInputs, string, string][] = [
     'Converts future cash flows to today’s money; separate from purchase discount.',
   ],
   [
-    'storage',
-    'Storage (£ / year)',
-    'Illustrative £1,200 budget. Enter your garage or storage quote.',
-  ],
-  [
     'maintenance',
     'Repairs & maintenance (£ / year)',
-    'Illustrative £1,500 reserve; excludes scheduled servicing.',
+    'Editable annual repair allowance, separate from scheduled servicing.',
   ],
   [
     'servicing',
     'Scheduled servicing (£ / year)',
-    'Illustrative £1,000 budget. Replace with a specialist quote for this car.',
+    'Model-specific planning budget; replace with a specialist quote including periodic major services.',
   ],
   [
     'other',
@@ -82,7 +81,7 @@ const fields: [keyof PredictorInputs, string, string][] = [
   [
     'saleFee',
     'Selling costs (%)',
-    'Illustrative deduction from the eventual sale price.',
+    '0% assumes a private sale. Enter commission if using an auction or intermediary.',
   ],
   [
     'annualMiles',
@@ -111,87 +110,72 @@ const fields: [keyof PredictorInputs, string, string][] = [
   ],
 ];
 
-function Calculator({ car, year }: { car: Car; year: number }) {
+function Calculator({ car, asOf }: { car: Car; asOf: string }) {
+  const year = new Date(asOf).getUTCFullYear();
   const prefix = useId();
-  const [inputs, setInputs] = useState(defaultInputs);
-  const [history, setHistory] = useState<(number | null)[]>(
-    Array(6).fill(null),
-  );
-  const [sources, setSources] = useState<string[]>(Array(6).fill(''));
+  const profile = marketProfile(car);
+  const initial = {
+    ...defaultInputs,
+    servicing: profile?.servicing ?? 600,
+    maintenance: profile?.lowMaintenance ?? 500,
+  };
+  const [inputs, setInputs] = useState(initial);
+  const [usability, setUsability] = useState(profile?.usability ?? 5);
+  const [fun, setFun] = useState(profile?.fun ?? 5);
+  const [useWeight, setUseWeight] = useState(50);
+  const [drivingDays, setDrivingDays] = useState(100);
   const result = predict(car.price, inputs);
-  const growth = historicalGrowth(history);
-  const historyReady =
-    growth !== null && sources.every((s) => /^https?:\/\/\S+$/.test(s));
+  const last = result.last;
+  const low = predict(car.price, {
+    ...inputs,
+    maintenance: profile?.lowMaintenance ?? 500,
+  });
+  const high = predict(car.price, {
+    ...inputs,
+    maintenance: profile?.highMaintenance ?? 2000,
+  });
+  const appeal = ownershipAppeal(usability, fun, useWeight);
+  const sales = chartSales(profile?.sales ?? [], asOf);
+  const start = new Date(asOf);
+  start.setUTCFullYear(year - 5);
+  const end = new Date(asOf);
+  end.setUTCFullYear(year + 5);
+  const dateX = (date: string) =>
+    66 +
+    ((new Date(date).getTime() - start.getTime()) /
+      (end.getTime() - start.getTime())) *
+      610;
+  const x = (i: number) => {
+    const d = new Date(asOf);
+    d.setUTCFullYear(year - 5 + i);
+    return dateX(d.toISOString());
+  };
   const maxValue =
-    Math.max(
-      ...result.years.map((y) => y.high),
-      ...history.map((v) => v || 0),
-    ) * 1.12;
-  const x = (index: number) => 66 + index * 61;
-  const y = (value: number) => 224 - (value / maxValue) * 180;
+    Math.max(...result.years.map((r) => r.high), ...sales.map((s) => s.price)) *
+    1.12;
+  const y = (v: number) => 224 - (v / maxValue) * 180;
   const path = (key: 'low' | 'base' | 'high') =>
     result.years
       .map((r, i) => `${i ? 'L' : 'M'}${x(i + 5)},${y(r[key])}`)
       .join(' ');
-  const historicalPath = history
-    .map((value, i) =>
-      value === null
-        ? ''
-        : `${i > 0 && history[i - 1] !== null ? 'L' : 'M'}${x(i)},${y(value)}`,
-    )
-    .join(' ');
-  const last = result.last;
   return (
     <div className="predictor-body">
       <div className="predictor-evidence">
-        Scenario calculator · Low evidence confidence · No verified five-year
-        price series
+        {sales.length} matched UK sale{' '}
+        {sales.length === 1 ? 'observation' : 'observations'} in the past five
+        years ·{' '}
+        {profile ? `Researched ${profile.checkedAt}` : 'Research pending'} ·
+        Scenario assumptions, not a fitted forecast
       </div>
-      <div className="predictor-results" aria-live="polite" aria-atomic="true">
-        <div>
-          <span>Base resale in {year + 5}</span>
-          <strong>{money(last.base)}</strong>
-          <small>
-            {money(last.low)}–{money(last.high)} scenario range
-          </small>
-        </div>
-        <div>
-          <span>Five-year ownership budget</span>
-          <strong>{money(last.cumulativeCost)}</strong>
-          <small>Storage + repairs + servicing + other</small>
-        </div>
-        <div>
-          <span>Net gain / loss after costs</span>
-          <strong className={last.net < 0 ? 'predictor-negative' : ''}>
-            {money(last.net)}
-          </strong>
-          <small>Sale proceeds less purchase and ownership</small>
-        </div>
-      </div>
-      <p className="predictor-verdict">
-        Under your assumptions, this car’s resale value{' '}
-        {last.base > car.price + 1
-          ? 'rises'
-          : last.base < car.price - 1
-            ? 'falls'
-            : 'stays flat'}{' '}
-        by {((last.base / car.price - 1) * 100).toFixed(1)}% over five years.{' '}
-        {last.net < 0
-          ? 'It does not cover the purchase and ownership costs.'
-          : 'It covers the entered purchase and ownership costs.'}{' '}
-        This is a scenario outcome, not a data-qualified prediction.
-      </p>
       <section
         className="predictor-chart"
-        aria-label="Five-year history and five-year forecast"
+        aria-label="Five-year sale history and five-year scenarios"
       >
-        <h3>Where has it been? Where could it go?</h3>
-        {/* SVG is the semantic graphic; an img would lose accessible data points. */}
-        {/* oxlint-disable-next-line jsx-a11y/prefer-tag-over-role */}
+        <h3>Past sale prices → possible future values</h3>
         <svg
           viewBox="0 0 730 270"
           role="img"
-          aria-label={`Price graph from ${year - 5} to ${year + 5}. Historical series ${history.some((v) => v !== null) ? 'contains user-entered values' : 'unavailable'}. Base resale ${money(last.base)}; downside ${money(last.low)}; upside ${money(last.high)}.`}
+          aria-label={`Five-year price chart: ${sales.length} matched UK completed sales; current asking price ${money(car.price)}; base year-five value ${money(last.base)}. Individual sales and source details follow.`}
         >
           <rect x="66" y="28" width="305" height="196" fill="#f0f2ef" />
           {[0, 0.5, 1].map((f) => (
@@ -217,32 +201,29 @@ function Calculator({ car, year }: { car: Car; year: number }) {
             strokeDasharray="4 4"
           />
           <text x="83" y="20">
-            HISTORY · USER ENTERED
+            HISTORY · COMPLETED SALES
           </text>
           <text x="405" y="20">
-            FUTURE · SCENARIOS
+            FUTURE · ASSUMPTIONS
           </text>
-          {!history.some((v) => v !== null) && (
+          {!sales.length && (
             <text x="215" y="125" textAnchor="middle">
-              Verified history unavailable
+              Matched UK price data unavailable
             </text>
           )}
-          <path
-            d={historicalPath}
-            fill="none"
-            stroke="#65756d"
-            strokeWidth="2"
-          />
-          {history.map(
-            (v, i) =>
-              v !== null && (
-                <circle key={i} cx={x(i)} cy={y(v)} r="4" fill="#65756d">
-                  <title>
-                    {year - 5 + i}: {money(v)} (user entered)
-                  </title>
-                </circle>
-              ),
-          )}
+          {sales.map((s) => (
+            <circle
+              key={s.url}
+              cx={dateX(s.date)}
+              cy={y(s.price)}
+              r="5"
+              fill="#65756d"
+            >
+              <title>
+                {s.date}: {money(s.price)} · {s.fees} · {s.note}
+              </title>
+            </circle>
+          ))}
           {(['low', 'base', 'high'] as const).map((key) => (
             <path
               key={key}
@@ -259,8 +240,10 @@ function Calculator({ car, year }: { car: Car; year: number }) {
               strokeDasharray={key === 'base' ? undefined : '6 4'}
             />
           ))}
-          <circle cx={x(5)} cy={y(car.price)} r="4" fill="#154b3b">
-            <title>Current asking price {money(car.price)}</title>
+          <circle cx={x(5)} cy={y(car.price)} r="5" fill="#154b3b">
+            <title>
+              Current asking price {money(car.price)}; not a completed sale
+            </title>
           </circle>
           {Array.from({ length: 11 }, (_, i) => (
             <text key={i} x={x(i)} y="246" textAnchor="middle">
@@ -269,25 +252,287 @@ function Calculator({ car, year }: { car: Car; year: number }) {
           ))}
         </svg>
         <div className="predictor-legend">
-          <span>Grey: entered history</span>
+          <span>Grey dots: individual sales</span>
           <span>Terracotta: downside</span>
           <span>Green: base</span>
           <span>Gold: upside</span>
         </div>
         <p>
-          Scroll the graph sideways on a small screen to see all years. Future
-          lines start at today’s asking price, not a verified market valuation.
-          Missing historical years are left blank. Historical guide values and
-          asking prices may differ.
+          Same calendar date each year; sale dots use exact dates within the
+          rolling five-year window. Dots are not joined: these are different
+          cars, not a like-for-like price index. Future lines start at this
+          advert’s asking price, which may exceed achievable market value. No
+          invented values fill missing years.
+        </p>
+      </section>
+      <div className="predictor-results" aria-live="polite">
+        <div>
+          <span>Possible resale in {year + 5}</span>
+          <strong>{money(last.base)}</strong>
+          <small>
+            {money(last.low)}–{money(last.high)} scenario range
+          </small>
+        </div>
+        <div>
+          <span>Net after service & maintenance*</span>
+          <strong className={last.net < 0 ? 'predictor-negative' : ''}>
+            {money(last.net)}
+          </strong>
+          <small>
+            Gross value change: {money(last.base - result.purchase)}
+          </small>
+        </div>
+        <div>
+          <span>Your ownership appeal</span>
+          <strong>{appeal.toFixed(1)} / 10</strong>
+          <small>
+            Usability {usability}/10 · fun {fun}/10 · subjective
+          </small>
+        </div>
+      </div>
+      <p className="predictor-verdict">
+        {last.net >= 0
+          ? 'This scenario covers the purchase and entered costs.'
+          : `This scenario leaves a ${money(-last.net)} ownership cost over five years.`}{' '}
+        {appeal >= 7
+          ? 'Strong personal ownership appeal can still make it a rewarding car to keep and drive.'
+          : 'Use the practicality and fun settings to judge how well it fits your life.'}{' '}
+        Financial break-even needs {result.breakEvenGrowth.toFixed(1)}% annual
+        market growth under these assumptions.
+      </p>
+      <section className="predictor-section" aria-label="Market scenarios">
+        <h3>Where could the market move?</h3>
+        <div className="predictor-options">
+          {[
+            [-3, 'Softer demand'],
+            [0, 'Flat market'],
+            [3, 'Recovery'],
+            [6, 'Strong demand'],
+          ].map(([rate, label]) => (
+            <button
+              key={rate}
+              className="predictor-action"
+              aria-pressed={inputs.growth === rate}
+              onClick={() => setInputs((v) => ({ ...v, growth: Number(rate) }))}
+            >
+              {label} · {Number(rate) > 0 ? '+' : ''}
+              {rate}% / yr
+            </button>
+          ))}
+        </div>
+        <p>
+          These are editable what-if rates, with equal visibility and no
+          assigned probabilities. Scarcity, specification and provenance may
+          support demand; the purchase price and individual condition matter.
+          Sparse auction observations cannot establish an annual market trend.
         </p>
       </section>
       <details className="predictor-section" open>
-        <summary>Adjust your five-year assumptions</summary>
+        <summary>Past sales, differences and sources</summary>
         <p>
-          All defaults below are illustrative planning assumptions. Premiums
-          start at zero because the asking price already reflects this car’s
-          current attributes. Enter only the change you expect over the next
-          five years.
+          Achieved prices as published. Buyer fees are identified where
+          established; mileage, condition, gearbox, upgrades and selling venue
+          can make large differences. Research is a sample, not the complete
+          market.
+        </p>
+        {profile?.sales.map((s) => (
+          <article className="predictor-sale" key={s.url}>
+            <div>
+              <strong>
+                {new Intl.NumberFormat('en-GB', {
+                  style: 'currency',
+                  currency: s.currency,
+                  maximumFractionDigits: 0,
+                }).format(s.price)}
+              </strong>
+              <span>
+                {s.date} ·{' '}
+                {s.mileage === null
+                  ? 'Mileage not established'
+                  : `${s.mileage.toLocaleString('en-GB')} miles`}{' '}
+                ·{' '}
+                {s.match === 'variant'
+                  ? 'Same variant; different car'
+                  : s.match === 'overseas'
+                    ? 'Overseas context only'
+                    : 'Related specification; not charted'}
+              </span>
+            </div>
+            <p>
+              {s.note} {s.fees}.
+            </p>
+            <a href={s.url} target="_blank" rel="noreferrer">
+              Read sale evidence ↗
+            </a>
+          </article>
+        ))}
+        {(!profile || !profile.sales.length || profile.researchNote) && (
+          <p>
+            {profile?.researchNote ??
+              'No sufficiently matched completed sale price established yet. This is a research gap, not evidence of no demand.'}{' '}
+            {profile?.researchSource && (
+              <a href={profile.researchSource} target="_blank" rel="noreferrer">
+                Research source ↗
+              </a>
+            )}
+          </p>
+        )}
+      </details>
+      <section className="predictor-section">
+        <h3>Own it. Use it. Enjoy it.</h3>
+        <p>
+          {profile?.appealReason ??
+            'Set the scores after considering passenger space, luggage, access, comfort, weather suitability and the driving experience you want.'}
+        </p>
+        <div className="predictor-inputs">
+          <label>
+            Usability · {usability}/10
+            <input
+              aria-label="Usability score"
+              type="range"
+              min="1"
+              max="10"
+              value={usability}
+              onChange={(e) => setUsability(Number(e.target.value))}
+            />
+            <small>
+              1: occasional-use compromise · 10: fits everyday needs.
+            </small>
+          </label>
+          <label>
+            Fun · {fun}/10
+            <input
+              aria-label="Fun score"
+              type="range"
+              min="1"
+              max="10"
+              value={fun}
+              onChange={(e) => setFun(Number(e.target.value))}
+            />
+            <small>
+              1: little personal appeal · 10: a drive you look forward to.
+            </small>
+          </label>
+          <label>
+            Usability weighting · {useWeight}%
+            <input
+              aria-label="Usability weighting"
+              type="range"
+              min="0"
+              max="100"
+              step="10"
+              value={useWeight}
+              onChange={(e) => setUseWeight(Number(e.target.value))}
+            />
+            <small>Remaining {100 - useWeight}% goes to fun.</small>
+          </label>
+          <label>
+            Days driven each year
+            <input
+              aria-label="Days driven each year"
+              type="number"
+              min="1"
+              max="365"
+              value={drivingDays}
+              onChange={(e) =>
+                setDrivingDays(
+                  Math.min(365, Math.max(1, e.target.valueAsNumber || 1)),
+                )
+              }
+            />
+            <small>
+              Annual mileage is set separately below; keep both consistent.
+            </small>
+          </label>
+        </div>
+        <p className="predictor-verdict">
+          {last.net < 0
+            ? `${money(-last.net / (drivingDays * 5))} per driving day to enjoy it, based on the modelled net ownership cost.`
+            : `The scenario shows a ${money(last.net)} surplus alongside ${drivingDays * 5} driving days.`}{' '}
+          Fuel, tax, insurance and finance are excluded unless added below.
+        </p>
+        <p>
+          Starting scores are editorial suggestions about the model, not
+          road-test results or measured reliability. Adjust them for your needs
+          and this particular car. Appeal = usability × {useWeight}% + fun ×{' '}
+          {100 - useWeight}%. Enjoyment complements the financial result; it
+          never changes the predicted sale price or turns a cash loss into
+          profit.
+        </p>
+      </section>
+      <section className="predictor-section">
+        <h3>Servicing plus a maintenance factor</h3>
+        <p>
+          Garage / storage: £0. First-year servicing budget:{' '}
+          {money(inputs.servicing)}. Budgets below are illustrative planning
+          allowances, not specialist quotes or probabilities of failure.
+        </p>
+        <div className="predictor-options">
+          {[
+            ['Low maintenance', profile?.lowMaintenance ?? 500],
+            ['High maintenance', profile?.highMaintenance ?? 2000],
+          ].map(([label, value]) => (
+            <button
+              key={label}
+              className="predictor-action"
+              aria-pressed={inputs.maintenance === value}
+              onClick={() =>
+                setInputs((v) => ({ ...v, maintenance: Number(value) }))
+              }
+            >
+              {label} · {money(Number(value))}/yr
+            </button>
+          ))}
+        </div>
+        <div className="predictor-results">
+          <div>
+            <span>Low maintenance · five-year net</span>
+            <strong>{money(low.last.net)}</strong>
+          </div>
+          <div>
+            <span>High maintenance · five-year net</span>
+            <strong>{money(high.last.net)}</strong>
+          </div>
+          <div>
+            <span>Selected five-year cost budget</span>
+            <strong>{money(last.cumulativeCost)}</strong>
+            <small>*Plus any optional costs and selling fee you enter.</small>
+          </div>
+        </div>
+        <p>
+          Low maintenance assumes a sorted example with modest repairs; high
+          maintenance allows more work. Neither caps actual repair bills. Annual
+          service budgets should include an allowance for periodic major
+          services. Defaults assume no selling commission.
+        </p>
+      </section>
+      <section className="predictor-section">
+        <h3>How rare is it in the UK?</h3>
+        <strong className="predictor-rarity">
+          {profile?.rarity.label ?? 'UK allocation not established'}
+        </strong>
+        <p>
+          {profile?.rarity.note ??
+            'Original deliveries need researching for this exact variant.'}{' '}
+          {profile?.rarity.source && (
+            <a href={profile.rarity.source} target="_blank" rel="noreferrer">
+              Rarity source ↗
+            </a>
+          )}
+        </p>
+        <p>
+          UK supply, worldwide production and cars remaining today are different
+          measures. Scarcity alone does not prove buyer demand or add an
+          automatic price premium.
+        </p>
+      </section>
+      <details className="predictor-section">
+        <summary>Adjust every financial assumption</summary>
+        <p>
+          All rates and budgets are editable assumptions. Premiums are changes
+          from today’s attributes, which are already reflected in the asking
+          price. No model-specific premium coefficient has been statistically
+          established.
         </p>
         <div className="predictor-inputs">
           {fields.map(([key, label, hint]) => (
@@ -299,16 +544,17 @@ function Calculator({ car, year }: { car: Car; year: number }) {
                 min={inputBounds[key][0]}
                 max={inputBounds[key][1]}
                 step={
-                  key === 'annualMiles' ||
-                  ['storage', 'maintenance', 'servicing', 'other'].includes(key)
+                  ['annualMiles', 'maintenance', 'servicing', 'other'].includes(
+                    key,
+                  )
                     ? 1
                     : 0.1
                 }
                 value={inputs[key]}
                 onChange={(e) => {
                   const n = e.target.valueAsNumber;
-                  setInputs((previous) => ({
-                    ...previous,
+                  setInputs((v) => ({
+                    ...v,
                     [key]: Number.isFinite(n)
                       ? Math.min(
                           inputBounds[key][1],
@@ -322,96 +568,9 @@ function Calculator({ car, year }: { car: Car; year: number }) {
             </label>
           ))}
         </div>
-        <button
-          className="predictor-action"
-          onClick={() => setInputs(defaultInputs)}
-        >
-          Reset assumptions
+        <button className="predictor-action" onClick={() => setInputs(initial)}>
+          Reset financial assumptions
         </button>
-      </details>
-      <details className="predictor-section">
-        <summary>Past five years: values, sources and trend</summary>
-        <p>
-          No verified annual series is available for this exact variant. Enter
-          six annual GBP values for a consistent UK model, gearbox and
-          condition, using the same annual valuation date. Add a source URL for
-          each observation. Entries stay in this calculator while it is open;
-          they are not independently verified or published.
-        </p>
-        <div className="predictor-history">
-          {history.map((value, i) => (
-            <div key={i}>
-              <label>
-                {year - 5 + i} value (£)
-                <input
-                  type="number"
-                  min="1"
-                  max="10000000"
-                  placeholder="No data"
-                  value={value ?? ''}
-                  onChange={(e) => {
-                    const n = e.target.valueAsNumber;
-                    setHistory((old) =>
-                      old.map((v, j) =>
-                        j === i
-                          ? Number.isFinite(n) && n > 0
-                            ? Math.min(10000000, n)
-                            : null
-                          : v,
-                      ),
-                    );
-                  }}
-                />
-              </label>
-              <label>
-                Source URL
-                <input
-                  type="url"
-                  placeholder="https://…"
-                  value={sources[i]}
-                  onChange={(e) =>
-                    setSources((old) =>
-                      old.map((v, j) => (j === i ? e.target.value : v)),
-                    )
-                  }
-                />
-              </label>
-            </div>
-          ))}
-        </div>
-        <p>
-          {growth === null
-            ? 'Five-year annualised change: unavailable until all six values are entered.'
-            : `User-entered annualised change: ${growth.toFixed(2)}%. ${historyReady ? 'Source references supplied; not independently verified.' : 'Add a valid source URL for every year before using this trend.'}`}
-        </p>
-        <button
-          className="predictor-action"
-          disabled={
-            !historyReady || growth === null || growth < -30 || growth > 30
-          }
-          onClick={() => {
-            if (historyReady && growth !== null)
-              setInputs((old) => ({ ...old, growth }));
-          }}
-        >
-          Use entered trend as base scenario
-        </button>
-        {growth !== null && (growth < -30 || growth > 30) && (
-          <p>
-            Trend exceeds the calculator’s −30% to +30% annual range; check the
-            values and comparability.
-          </p>
-        )}
-        <p>
-          Past growth does not establish future growth.{' '}
-          <a
-            href="https://www.hagerty.co.uk/valuation/tool/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Research UK guide values ↗
-          </a>
-        </p>
       </details>
       <details className="predictor-section" open>
         <summary>Every pound explained</summary>
@@ -542,47 +701,37 @@ function Calculator({ car, year }: { car: Car; year: number }) {
           are included unless entered in Other.
         </p>
       </details>
+
       <section className="predictor-section">
-        <h3>Evidence behind this car</h3>
+        <h3>This particular car</h3>
         <p>
-          <strong>Quantitative:</strong> {money(car.price)} advertised;{' '}
-          {car.mileage === null
-            ? 'mileage unknown'
-            : `${car.mileage.toLocaleString('en-GB')} advertised miles`}
-          ; {car.gearbox}.{' '}
+          {money(car.price)} advertised ·{' '}
+          {car.mileage?.toLocaleString('en-GB') ?? 'Unknown'} miles ·{' '}
+          {car.gearbox}.{' '}
           <a href={car.url} target="_blank" rel="noreferrer">
             Seller’s advert ↗
-          </a>{' '}
-          · checked{' '}
-          {new Date(car.checkedAt).toLocaleDateString('en-GB', {
-            timeZone: 'Europe/London',
-          })}
-          .
+          </a>
         </p>
+        <p>{car.notes}</p>
         <p>
-          <strong>Qualitative:</strong> {car.notes}
-        </p>
-        <p>
-          <strong>Not yet evidenced:</strong> matched UK completed sales across
-          five years, owner count, independent mechanical condition, complete
-          servicing invoices and measured premium coefficients. Seller
-          photography checks are not a mechanical inspection. No statistical
-          confidence score or investment rating is assigned.
+          Advert checked {car.checkedAt.slice(0, 10)}. Mechanical condition,
+          complete invoices and ownership provenance still need checking for
+          this car. Editorial appeal is not a mechanical inspection.
         </p>
       </section>
     </div>
   );
 }
-
 export default function FuturePredictor({
   car,
-  year,
+  asOf,
 }: {
   car: Car;
-  year: number;
+  asOf: string;
 }) {
   const [open, setOpen] = useState(false);
   const titleRef = useRef<HTMLHeadingElement>(null);
+  const profile = marketProfile(car);
   return (
     <Dialog open={open} onOpenChange={setOpen}>
       <DialogTrigger
@@ -594,16 +743,21 @@ export default function FuturePredictor({
           Gavlar’s Future Predictors
           <ArrowUpRight size={17} />
         </span>
-        <small>5-year value · ownership costs · price drivers</small>
+        <small>5-year value · past sales · UK rarity</small>
+        <small>
+          {profile
+            ? `Usability ${profile.usability}/10 · fun ${profile.fun}/10 · editorial`
+            : 'Usability & fun · personalise your scores'}
+        </small>
       </DialogTrigger>
       <DialogContent className="predictor-popup" initialFocus={titleRef}>
         <DialogTitle ref={titleRef} tabIndex={-1}>
           Gavlar’s Future Predictors
         </DialogTitle>
         <DialogDescription>
-          {car.title} · Five years of ownership, every assumption visible.
+          {car.title} · The money, the market and the joy of owning it.
         </DialogDescription>
-        {open && <Calculator car={car} year={year} />}
+        {open && <Calculator car={car} asOf={asOf} />}
       </DialogContent>
     </Dialog>
   );
