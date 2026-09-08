@@ -1,11 +1,20 @@
+import models from '../data/models.json' with {type:'json'};
+
 export type ListingCheck = {
  id?: string; url?: string;
  status: string; photoChecked: boolean; priceVerified: boolean;
  availableVerified: boolean; specVerified: boolean; ukVerified: boolean;
- price: number; year: number; checkedAt: string;
+ price: number; year: number; checkedAt: string; mileage?: number | null; ownerCount?: number | null;
  modelId?: string; make?: string; model?: string; generation?: string;
  bodyStyle?: string; transmission?: string; factoryTransmission?: boolean; engine?: string;
 };
+const mileageLimitedMakes = new Set(['renault','subaru','mitsubishi']);
+const mileageLimitedModels = new Set(models.filter(m=>mileageLimitedMakes.has(m.make.toLowerCase())).map(m=>m.id));
+function matchesMileagePolicy(l: ListingCheck): boolean {
+ if (!mileageLimitedModels.has(l.modelId ?? '') && !mileageLimitedMakes.has(l.make?.trim().toLowerCase() ?? '')) return true;
+ return typeof l.mileage === 'number' && Number.isFinite(l.mileage) && l.mileage >= 0 && l.mileage < 30000 &&
+  typeof l.ownerCount === 'number' && Number.isInteger(l.ownerCount) && l.ownerCount >= 1 && l.ownerCount <= 2;
+}
 function matchesModelPolicy(l: ListingCheck): boolean {
  if (!Number.isInteger(l.year)) return false;
  if (l.make === 'BMW' && l.model === 'M5' && l.modelId !== 'model-071') return false;
@@ -41,6 +50,6 @@ export function isLiveListing(l: ListingCheck, now: number): boolean {
  l.priceVerified === true && l.availableVerified === true &&
  l.specVerified === true && l.ukVerified === true &&
  Number.isFinite(l.price) && l.price >= 10000 && l.price <= 100000 &&
- matchesModelPolicy(l) &&
+ matchesModelPolicy(l) && matchesMileagePolicy(l) &&
  Number.isFinite(checked) && checked <= now + 60000 && now - checked <= 86400000;
 }

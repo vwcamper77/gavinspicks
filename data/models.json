@@ -425,8 +425,10 @@
     "to": 1999,
     "guideMin": 25000,
     "guideMax": 40000,
-    "note": "Low production · manual",
-    "group": "Lightweights"
+    "note": "Low production · manual · strictly under 30,000 miles · maximum two total owners; prioritise £10k–£30k",
+    "group": "Lightweights",
+    "maxMileageExclusive": 30000,
+    "maxOwnerCount": 2
   },
   {
     "id": "model-040",
@@ -436,8 +438,14 @@
     "to": 2005,
     "guideMin": 30000,
     "guideMax": 65000,
-    "note": "Mid-engined · manual",
-    "group": "Lightweights"
+    "note": "Mid-engined · manual · strictly under 30,000 miles · maximum two total owners; prioritise £10k–£30k",
+    "group": "Lightweights",
+    "maxMileageExclusive": 30000,
+    "searchVariants": [
+      "Renault Clio V6 Phase 1",
+      "Renault Clio V6 Phase 2"
+    ],
+    "maxOwnerCount": 2
   },
   {
     "id": "model-041",
@@ -845,5 +853,240 @@
     "guideMax": 100000,
     "note": "Factory manual · exceptional original examples only, including ST170 Estate; ordinary trims are not limited editions; range is search budget",
     "group": "Sports classics"
+  },
+  {
+    "id": "model-078",
+    "make": "Renault",
+    "name": "Clio 182 Trophy",
+    "from": 2005,
+    "to": 2005,
+    "guideMin": 10000,
+    "guideMax": 100000,
+    "note": "Strictly under 30,000 miles · factory manual · verify exact edition, original specification and provenance; range is search budget · maximum two total owners; prioritise £10k–£30k",
+    "group": "Rare hot hatches & rally specials",
+    "searchVariants": [
+      "Renault Clio 182 Trophy"
+    ],
+    "maxMileageExclusive": 30000,
+    "maxOwnerCount": 2
+  },
+  {
+    "id": "model-079",
+    "make": "Renault",
+    "name": "Clio Williams 2 / Williams 3",
+    "from": 1995,
+    "to": 1996,
+    "guideMin": 10000,
+    "guideMax": 100000,
+    "note": "Strictly under 30,000 miles · factory manual · verify exact edition, original specification and provenance; range is search budget · maximum two total owners; prioritise £10k–£30k",
+    "group": "Rare hot hatches & rally specials",
+    "searchVariants": [
+      "Renault Clio Williams 2",
+      "Renault Clio Williams 3"
+    ],
+    "maxMileageExclusive": 30000,
+    "maxOwnerCount": 2
+  },
+  {
+    "id": "model-080",
+    "make": "Renault",
+    "name": "Clio 172 Cup / 182 Cup / R27 F1 Team",
+    "from": 2002,
+    "to": 2008,
+    "guideMin": 10000,
+    "guideMax": 100000,
+    "note": "Strictly under 30,000 miles · factory manual · verify exact edition, original specification and provenance; range is search budget · maximum two total owners; prioritise £10k–£30k",
+    "group": "Rare hot hatches & rally specials",
+    "searchVariants": [
+      "Renault Clio 172 Cup",
+      "Renault Clio 182 Cup",
+      "Renault Clio R27 F1 Team"
+    ],
+    "maxMileageExclusive": 30000,
+    "maxOwnerCount": 2
+  },
+  {
+    "id": "model-081",
+    "make": "Renault",
+    "name": "Megane R26 / R26.R",
+    "from": 2006,
+    "to": 2009,
+    "guideMin": 10000,
+    "guideMax": 100000,
+    "note": "Strictly under 30,000 miles · factory manual · verify exact edition, original specification and provenance; range is search budget · maximum two total owners; prioritise £10k–£30k",
+    "group": "Rare hot hatches & rally specials",
+    "searchVariants": [
+      "Renault Megane R26 F1 Team",
+      "Renault Megane R26.R"
+    ],
+    "maxMileageExclusive": 30000,
+    "maxOwnerCount": 2
+  },
+  {
+    "id": "model-082",
+    "make": "Subaru",
+    "name": "Impreza P1",
+    "from": 2000,
+    "to": 2001,
+    "guideMin": 10000,
+    "guideMax": 100000,
+    "note": "Strictly under 30,000 miles · factory manual · verify exact edition, original specification and provenance; range is search budget · maximum two total owners; prioritise £10k–£30k",
+    "group": "Rare hot hatches & rally specials",
+    "searchVariants": [
+      "Subaru Impreza P1"
+    ],
+    "maxMileageExclusive": 30000,
+    "maxOwnerCount": 2
+  },
+  {
+    "id": "model-083",
+    "make": "Subaru",
+    "name": "Impreza RB5",
+    "from": 1999,
+    "to": 2000,
+    "guideMin": 10000,
+    "guideMax": 100000,
+    "note": "Strictly under 30,000 miles · factory manual · verify exact edition, original specification and provenance; range is search budget · maximum two total owners; prioritise £10k–£30k",
+    "group": "Rare hot hatches & rally specials",
+    "searchVariants": [
+      "Subaru Impreza RB5"
+    ],
+    "maxMileageExclusive": 30000,
+    "maxOwnerCount": 2
+  },
+  {
+    "id": "model-084",
+    "make": "Subaru",
+    "name": "Impreza WR1",
+    "from": 2004,
+    "to": 2004,
+    "guideMin": 10000,
+    "guideMax": 100000,
+    "note": "Strictly under 30,000 miles · factory manual · verify exact edition, original specification and provenance; range is search budget · maximum two total owners; prioritise £10k–£30k",
+    "group": "Rare hot hatches & rally specials",
+    "searchVariants": [
+      "Subaru Impreza WR1"
+    ],
+    "maxMileageExclusive": 30000,
+    "maxOwnerCount": 2
+  },
+  {
+    "id": "model-085",
+    "make": "Subaru",
+    "name": "Impreza RB320",
+    "from": 2007,
+    "to": 2007,
+    "guideMin": 10000,
+    "guideMax": 100000,
+    "note": "Strictly under 30,000 miles · factory manual · verify exact edition, original specification and provenance; range is search budget · maximum two total owners; prioritise £10k–£30k",
+    "group": "Rare hot hatches & rally specials",
+    "searchVariants": [
+      "Subaru Impreza RB320"
+    ],
+    "maxMileageExclusive": 30000,
+    "maxOwnerCount": 2
+  },
+  {
+    "id": "model-086",
+    "make": "Subaru",
+    "name": "Impreza 22B / Type R / Type RA",
+    "from": 1995,
+    "to": 2000,
+    "guideMin": 10000,
+    "guideMax": 100000,
+    "note": "Strictly under 30,000 miles · factory manual · verify exact edition, original specification and provenance; range is search budget · maximum two total owners; prioritise £10k–£30k",
+    "group": "Rare hot hatches & rally specials",
+    "searchVariants": [
+      "Subaru Impreza 22B",
+      "Subaru Impreza STI Type R",
+      "Subaru Impreza STI Type RA"
+    ],
+    "maxMileageExclusive": 30000,
+    "maxOwnerCount": 2
+  },
+  {
+    "id": "model-087",
+    "make": "Subaru",
+    "name": "Impreza S202 / S203 / S204",
+    "from": 2002,
+    "to": 2006,
+    "guideMin": 10000,
+    "guideMax": 100000,
+    "note": "Strictly under 30,000 miles · factory manual · verify exact edition, original specification and provenance; range is search budget · maximum two total owners; prioritise £10k–£30k",
+    "group": "Rare hot hatches & rally specials",
+    "searchVariants": [
+      "Subaru Impreza S202",
+      "Subaru Impreza S203",
+      "Subaru Impreza S204"
+    ],
+    "maxMileageExclusive": 30000,
+    "maxOwnerCount": 2
+  },
+  {
+    "id": "model-088",
+    "make": "Mitsubishi",
+    "name": "Lancer Evolution VI Tommi Makinen Edition",
+    "from": 1999,
+    "to": 2001,
+    "guideMin": 10000,
+    "guideMax": 100000,
+    "note": "Strictly under 30,000 miles · factory manual · verify exact edition, original specification and provenance; range is search budget · maximum two total owners; prioritise £10k–£30k",
+    "group": "Rare hot hatches & rally specials",
+    "searchVariants": [
+      "Mitsubishi Evo VI Tommi Makinen Edition"
+    ],
+    "maxMileageExclusive": 30000,
+    "maxOwnerCount": 2
+  },
+  {
+    "id": "model-089",
+    "make": "Mitsubishi",
+    "name": "Lancer Evolution VIII MR / FQ",
+    "from": 2003,
+    "to": 2005,
+    "guideMin": 10000,
+    "guideMax": 100000,
+    "note": "Strictly under 30,000 miles · factory manual · verify exact edition, original specification and provenance; range is search budget · maximum two total owners; prioritise £10k–£30k",
+    "group": "Rare hot hatches & rally specials",
+    "searchVariants": [
+      "Mitsubishi Evo VIII MR FQ320",
+      "Mitsubishi Evo VIII FQ400"
+    ],
+    "maxMileageExclusive": 30000,
+    "maxOwnerCount": 2
+  },
+  {
+    "id": "model-090",
+    "make": "Mitsubishi",
+    "name": "Lancer Evolution IX MR / FQ",
+    "from": 2005,
+    "to": 2007,
+    "guideMin": 10000,
+    "guideMax": 100000,
+    "note": "Strictly under 30,000 miles · factory manual · verify exact edition, original specification and provenance; range is search budget · maximum two total owners; prioritise £10k–£30k",
+    "group": "Rare hot hatches & rally specials",
+    "searchVariants": [
+      "Mitsubishi Evo IX MR FQ360",
+      "Mitsubishi Evo IX FQ340"
+    ],
+    "maxMileageExclusive": 30000,
+    "maxOwnerCount": 2
+  },
+  {
+    "id": "model-091",
+    "make": "Mitsubishi",
+    "name": "Lancer Evolution X FQ manual",
+    "from": 2008,
+    "to": 2010,
+    "guideMin": 10000,
+    "guideMax": 100000,
+    "note": "Strictly under 30,000 miles · factory manual · verify exact edition, original specification and provenance; range is search budget · maximum two total owners; prioritise £10k–£30k",
+    "group": "Rare hot hatches & rally specials",
+    "searchVariants": [
+      "Mitsubishi Evo X FQ360 manual",
+      "Mitsubishi Evo X FQ400 manual"
+    ],
+    "maxMileageExclusive": 30000,
+    "maxOwnerCount": 2
   }
 ]

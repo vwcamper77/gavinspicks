@@ -13,15 +13,15 @@ if (args.some((arg) => !['--all','--priority'].includes(arg)) || (all && priorit
 const offset = all ? 0 : state.lastCompletedIndex;
 if (!Number.isInteger(offset) || offset < 0 || offset > models.length) throw new Error('Invalid lastCompletedIndex');
 const start = offset % models.length;
-const selected = priority ? models.filter(m=>['model-056','model-070','model-072','model-075','model-076'].includes(m.id)) : Array.from({ length: all ? models.length : Math.min(12, models.length) }, (_, i) => models[(start + i) % models.length]);
-const variants = (model) => model.id === 'model-070'
+const selected = priority ? models.filter(m=>['model-056','model-070','model-072','model-075','model-076','model-078','model-082','model-085','model-088'].includes(m.id)) : Array.from({ length: all ? models.length : Math.min(12, models.length) }, (_, i) => models[(start + i) % models.length]);
+const variants = (model) => model.searchVariants ?? (model.id === 'model-070'
   ? ['Ford Focus RS Mk1', 'Ford Focus RS Mk2', 'Ford Focus RS500']
   : model.id === 'model-077'
     ? ['Ford Focus ST170 original low mileage', 'Ford Focus ST170 Estate', 'Ford Focus ST225 ST2 ST3 original low mileage']
-    : [`${model.make} ${model.name}`];
+    : [`${model.make} ${model.name}`]);
 
 const searches = selected.flatMap((model) => variants(model).flatMap((variant) => {
-  const query = `${variant} UK for sale`;
+  const query = `${variant} UK for sale${model.maxMileageExclusive ? ` under ${model.maxMileageExclusive} miles` : ""}${model.maxOwnerCount ? " low owners" : ""}`;
   const jobs = config.sources.map((source) => ({
     modelId: model.id, variant, source: source.id,
     query: `site:${source.site} ${query}`,
