@@ -27,6 +27,7 @@ The domain has not been purchased, configured or verified by this project. No Ve
 
 - `data/models.json`: 70 model search targets; guide prices are indicative.
 - `data/feed.json`: verified listing evidence and activity history.
+- `data/history.json`: recovered watch links, kept separate from current verified listings.
 - `data/discovery-queue.json`: discovery URLs that still require advert/photo verification.
 - `lib/eligibility.ts`: shared server/client gate. Sold, POA, unavailable, missing checks, out-of-range and stale results are suppressed. Checks expire after 24 hours.
 - `/api/feed`: current qualifying results, with no-store caching. Browser refreshes every minute.
