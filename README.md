@@ -38,6 +38,7 @@ Read `UPDATE_PROTOCOL.md` before updating. Preserve first discovery times, keep 
 
 ## Validation
 
+Facebook group, eBay UK and Auto Trader discovery is part of the owner-hosted hourly workflow. `node scripts/discovery-plan.mjs` generates explicit queries for the next 12 models; `--all` covers the full watchlist. Sources and optional Facebook group URLs live in `data/discovery-sources.json`. These are browser/web searches, not authenticated marketplace API integrations. Facebook coverage depends on public indexing or the owner's accessible browser session. The updater records actual coverage in `data/discovery-coverage.json` after executing searches; generation alone does not search or publish listings.
 
 ```sh
 npm test
