@@ -17,8 +17,8 @@ export async function shareImage(id:string|null){
   </div>
   <div style={{display:'flex',flexDirection:'column',flex:1,padding:'38px 34px',justifyContent:'space-between',borderLeft:'3px solid #d19a45'}}>
    <div style={{display:'flex',alignItems:'center',gap:14}}><img src={logo} alt="" width={86} height={86}/><div style={{display:'flex',fontSize:22,color:'#e9b869',letterSpacing:2}}>GAVIN’S PICKS</div></div>
-   <div style={{display:'flex',flexDirection:'column',gap:20}}><div style={{display:'flex',fontSize:car?43:60,fontWeight:700,lineHeight:1.08}}>{car?car.title:'The ones worth finding.'}</div><div style={{display:'flex',fontSize:car?35:26,color:'#e9b869'}}>{car?`£${car.price.toLocaleString('en-GB')}`:'Manuals. Limited runs. Modern classics.'}</div></div>
-   <div style={{display:'flex',flexDirection:'column',gap:12}}><div style={{display:'flex',fontSize:22}}>{car?'A proper corker. See why Gavin picked it.':'Know someone who’d love this?'}</div><div style={{display:'flex',fontSize:18,color:'#b8c9be'}}>gavinspicks.com</div></div>
+   <div style={{display:'flex',flexDirection:'column',gap:20}}><div style={{display:'flex',fontSize:car?43:60,fontWeight:700,lineHeight:1.08}}>{car?car.title:'Rare finds. Available now.'}</div><div style={{display:'flex',fontSize:car?35:26,color:'#e9b869'}}>{car?`£${car.price.toLocaleString('en-GB')}`:'Selected cars. Properly good finds.'}</div></div>
+   <div style={{display:'flex',flexDirection:'column',gap:12}}><div style={{display:'flex',fontSize:22}}>{car?'A proper corker. See why Gavin picked it.':'Handpicked by Gavin. Available to buy.'}</div><div style={{display:'flex',fontSize:18,color:'#b8c9be'}}>gavinspicks.com</div></div>
   </div>
  </div>,{width:1200,height:630,headers:{'Cache-Control':'public, max-age=300, s-maxage=300'}});
 }
