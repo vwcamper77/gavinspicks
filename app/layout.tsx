@@ -1,4 +1,4 @@
 import type {Metadata} from 'next';
 import './globals.css';
-export const metadata:Metadata={title:'Gavin’s Picks — Cars',description:'Verified UK manual and limited-production car finds, 1995–2010 plus named BMW 1M and Audi ur-quattro exceptions, £10,000–£100,000.'};
+export const metadata:Metadata={metadataBase:new URL('https://www.gavinspicks.com'),icons:{icon:'/supercar-logo.png',apple:'/supercar-logo.png'},openGraph:{title:'Gavin’s Picks — The ones worth finding.',description:'Proper corkers. Manuals, limited runs and modern classics, picked by Gavin.',url:'/',siteName:'Gavin’s Picks',type:'website',images:[{url:'/api/share-image',width:1200,height:630,alt:'Gavin’s Picks — The ones worth finding'}]},twitter:{card:'summary_large_image',images:['/api/share-image']},title:'Gavin’s Picks — Cars',description:'Verified UK manual and limited-production car finds, 1995–2010 plus named BMW 1M and Audi ur-quattro exceptions, £10,000–£100,000.'};
 export default function RootLayout({children}:{children:React.ReactNode}){return <html lang="en-GB"><body>{children}</body></html>}

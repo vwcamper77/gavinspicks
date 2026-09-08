@@ -69,3 +69,7 @@ TT model reference: https://press.audi.co.uk/models/audi-tt-quattro-sport--2005-
 ## Card previews and seller galleries
 Use `Gavin Says...` with a two-line teaser and a clear invitation to open the note. Keep notes, advert evidence, photo evidence and check times inside that dialog under Worth knowing; do not restore a second View verification control on the card.
 For each listing preserve an `images` array of original seller-photo URLs, with the existing `image` hero first. Capture 4–8 distinct images from the exact advert where available, including cabin and exterior views. Check that each image belongs to the same vehicle, exclude related stock/logos, deduplicate resized copies, and retain seller hosting. Do not invent images or refresh availability checks just because gallery URLs were collected. If only one usable image is accessible, keep a truthful single-image card. Update galleries when the seller changes them and preserve arrays during feed imports.
+
+## Sharing and branding
+
+Keep listing IDs stable: `/cars/<id>` is the permanent share link for that car. The share page and its preview use the same eligibility/24-hour freshness rule as the feed; never keep an expired or rejected car advertised as current merely to preserve a share link. Share buttons open a user-controlled popup, never send messages automatically. Preserve `public/supercar-logo.png`, sharing components and Open Graph metadata when refreshing inventory. The owner has requested portrait-based branding; no portrait has been supplied yet, so do not invent or substitute a face.
