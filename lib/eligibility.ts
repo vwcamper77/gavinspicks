@@ -11,6 +11,8 @@ export type ListingCheck = {
 const mileageLimitedMakes = new Set(['renault','subaru','mitsubishi']);
 const mileageLimitedModels = new Set(models.filter(m=>mileageLimitedMakes.has(m.make.toLowerCase())).map(m=>m.id));
 function matchesMileagePolicy(l: ListingCheck): boolean {
+ if (typeof l.mileage !== 'number' || !Number.isFinite(l.mileage) || l.mileage < 0 || l.mileage >= 50000) return false;
+ if (l.modelId === 'model-072' && (l.price < 45000 || l.price > 55000)) return false;
  if (!mileageLimitedModels.has(l.modelId ?? '') && !mileageLimitedMakes.has(l.make?.trim().toLowerCase() ?? '')) return true;
  return typeof l.mileage === 'number' && Number.isFinite(l.mileage) && l.mileage >= 0 && l.mileage < 30000 &&
   typeof l.ownerCount === 'number' && Number.isInteger(l.ownerCount) && l.ownerCount >= 1 && l.ownerCount <= 2;

@@ -2,14 +2,14 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import {isLiveListing} from '../lib/eligibility.ts';
 const now=Date.parse('2026-09-08T12:00:00Z');
-const valid={status:'available',photoChecked:true,priceVerified:true,availableVerified:true,specVerified:true,ukVerified:true,price:50000,year:2005,checkedAt:new Date(now).toISOString()};
+const valid={mileage:25000,status:'available',photoChecked:true,priceVerified:true,availableVerified:true,specVerified:true,ukVerified:true,price:50000,year:2005,checkedAt:new Date(now).toISOString()};
 test('Renault Subaru and Mitsubishi require mileage below 30000 and at most two total owners',()=>{
  for(const identity of [{make:'Renault'},{make:' subaru '},{make:'MITSUBISHI'},{modelId:'model-039'},{modelId:'model-040'},{modelId:'model-078'},{modelId:'model-082'},{modelId:'model-088'}]){
   for(const ownerCount of [1,2]) for(const mileage of [0,10000,29999]) assert.equal(isLiveListing({...valid,...identity,mileage,ownerCount},now),true);
   for(const mileage of [undefined,null,-1,30000,30001,NaN,Infinity,'25000']) assert.equal(isLiveListing({...valid,...identity,mileage,ownerCount:1},now),false);
   for(const ownerCount of [undefined,null,0,-1,3,2.5,NaN,Infinity,'1']) assert.equal(isLiveListing({...valid,...identity,mileage:15000,ownerCount},now),false);
  }
- assert.equal(isLiveListing({...valid,make:'Ford',mileage:53227},now),true);
+ assert.equal(isLiveListing({...valid,make:'Ford',mileage:53227},now),false);
 });
 test('eligible listing passes exact budget and year boundaries',()=>{for(const price of [10000,100000])for(const year of [1995,2010])assert.equal(isLiveListing({...valid,price,year},now),true);});
 test('unavailable statuses and missing verification are rejected',()=>{for(const status of ['sold','POA','reserved','deposit taken','under offer','unverified'])assert.equal(isLiveListing({...valid,status},now),false);for(const key of ['photoChecked','priceVerified','availableVerified','specVerified','ukVerified'])assert.equal(isLiveListing({...valid,[key]:false},now),false);});
@@ -46,4 +46,11 @@ test('owner-rejected cars remain hidden after fresh checks or reimport under a n
  for(const id of ['vision-vn06lwy','bp-10652']) assert.equal(isLiveListing({...valid,id},now),false);
  for(const url of ['https://www.visioncarsales.co.uk/vehicle/name/bmw-z4-z4-m-roadster/?ref=search','https://bpcarsalesltd.co.uk/used/cars/honda-s2000-20-roadster-2dr-10652/']) assert.equal(isLiveListing({...valid,id:'reimported',url},now),false);
  assert.equal(isLiveListing({...valid,id:'different-s2000',url:'https://example.com/other-car'},now),true);
+});
+
+test('every make requires known mileage below 50000; 1M value band is enforced',()=>{
+ for(const mileage of [undefined,null,-1,50000,50001,NaN,Infinity,'25000']) assert.equal(isLiveListing({...valid,mileage},now),false);
+ assert.equal(isLiveListing({...valid,mileage:49999},now),true);
+ for(const price of [44999,55001,64995]) assert.equal(isLiveListing({...exceptions[1],price},now),false);
+ for(const price of [45000,55000]) assert.equal(isLiveListing({...exceptions[1],price},now),true);
 });
