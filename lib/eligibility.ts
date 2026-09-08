@@ -1,4 +1,5 @@
 export type ListingCheck = {
+ id?: string; url?: string;
  status: string; photoChecked: boolean; priceVerified: boolean;
  availableVerified: boolean; specVerified: boolean; ukVerified: boolean;
  price: number; year: number; checkedAt: string;
@@ -20,9 +21,23 @@ function matchesModelPolicy(l: ListingCheck): boolean {
   l.bodyStyle === 'Coupe' && l.transmission === 'manual' && l.factoryTransmission === true;
  return l.year >= 1995 && l.year <= 2010;
 }
+// Owner's editorial decisions apply to these specific cars, not the entire models.
+// Keep across feed imports; only the owner can reverse these exclusions.
+const editorialExclusions = [
+ {id:'vision-vn06lwy', host:'visioncarsales.co.uk', path:'/vehicle/name/bmw-z4-z4-m-roadster'},
+ {id:'bp-10652', host:'bpcarsalesltd.co.uk', path:'/used/cars/honda-s2000-20-roadster-2dr-10652'},
+];
+function isEditoriallyExcluded(l: ListingCheck): boolean {
+ if (editorialExclusions.some(e=>e.id===l.id)) return true;
+ if (!l.url) return false;
+ try {
+  const u=new URL(l.url);
+  return editorialExclusions.some(e=>e.host===u.hostname.replace(/^www\./,'') && e.path===u.pathname.replace(/\/+$/,''));
+ } catch { return false; }
+}
 export function isLiveListing(l: ListingCheck, now: number): boolean {
  const checked = Date.parse(l.checkedAt);
- return l.status === 'available' && l.photoChecked === true &&
+ return !isEditoriallyExcluded(l) && l.status === 'available' && l.photoChecked === true &&
  l.priceVerified === true && l.availableVerified === true &&
  l.specVerified === true && l.ukVerified === true &&
  Number.isFinite(l.price) && l.price >= 10000 && l.price <= 100000 &&

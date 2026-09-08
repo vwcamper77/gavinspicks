@@ -33,3 +33,9 @@ test('exceptions cannot bypass price, availability, evidence or freshness checks
   assert.equal(isLiveListing({...l,checkedAt:new Date(now-86400001).toISOString()},now),false);
  }
 });
+
+test('owner-rejected cars remain hidden after fresh checks or reimport under a new ID',()=>{
+ for(const id of ['vision-vn06lwy','bp-10652']) assert.equal(isLiveListing({...valid,id},now),false);
+ for(const url of ['https://www.visioncarsales.co.uk/vehicle/name/bmw-z4-z4-m-roadster/?ref=search','https://bpcarsalesltd.co.uk/used/cars/honda-s2000-20-roadster-2dr-10652/']) assert.equal(isLiveListing({...valid,id:'reimported',url},now),false);
+ assert.equal(isLiveListing({...valid,id:'different-s2000',url:'https://example.com/other-car'},now),true);
+});

@@ -7,12 +7,13 @@ const [models, state, config] = await Promise.all([
 ]);
 const args = process.argv.slice(2);
 const all = args.includes('--all');
-if (args.some((arg) => arg !== '--all')) throw new Error('Usage: node scripts/discovery-plan.mjs [--all]');
+const priority = args.includes('--priority');
+if (args.some((arg) => !['--all','--priority'].includes(arg)) || (all && priority)) throw new Error('Usage: node scripts/discovery-plan.mjs [--all | --priority]');
 // lastCompletedIndex is the count of model rows completed, hence the next zero-based offset.
 const offset = all ? 0 : state.lastCompletedIndex;
 if (!Number.isInteger(offset) || offset < 0 || offset > models.length) throw new Error('Invalid lastCompletedIndex');
 const start = offset % models.length;
-const selected = Array.from({ length: all ? models.length : Math.min(12, models.length) }, (_, i) => models[(start + i) % models.length]);
+const selected = priority ? models.filter(m=>['model-056','model-072','model-075'].includes(m.id)) : Array.from({ length: all ? models.length : Math.min(12, models.length) }, (_, i) => models[(start + i) % models.length]);
 const variants = (model) => model.id === 'model-070'
   ? ['Ford Focus RS Mk1', 'Ford Focus RS Mk2', 'Ford Focus RS500']
   : [`${model.make} ${model.name}`];
@@ -46,6 +47,7 @@ const searches = selected.flatMap((model) => variants(model).flatMap((variant) =
 console.log(JSON.stringify({
   generatedAt: new Date().toISOString(),
   instruction: 'Search plan only. Execute searches and inspect adverts; pending does not mean checked. Preserve the existing eligibility gate.',
-  nextCompletedIndex: (start + selected.length) % models.length,
+  nextCompletedIndex: priority ? state.lastCompletedIndex : (start + selected.length) % models.length,
+  mode: priority ? "priority" : all ? "all" : "rotation",
   searches,
 }, null, 2));
