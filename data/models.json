@@ -766,7 +766,40 @@
     "to": 2010,
     "guideMin": 10000,
     "guideMax": 100000,
-    "note": "Original manual-classics search",
+    "note": "Factory manual · Mk1, Mk2 and RS500 searched separately",
     "group": "Existing watches"
+  },
+  {
+    "id": "model-071",
+    "make": "BMW",
+    "name": "M5 Touring E61 5.0 V10 SMG",
+    "to": 2010,
+    "guideMin": 10000,
+    "guideMax": 100000,
+    "note": "Specific factory SMG exception · E61 Touring only; no E60 saloon or other M5 generations",
+    "group": "Authorised exceptions",
+    "from": 2007
+  },
+  {
+    "id": "model-072",
+    "make": "BMW",
+    "name": "1M Coupe",
+    "to": 2012,
+    "guideMin": 10000,
+    "guideMax": 100000,
+    "note": "Explicit year exception · genuine E82 1M Coupe, factory six-speed manual only",
+    "group": "Authorised exceptions",
+    "from": 2011
+  },
+  {
+    "id": "model-073",
+    "make": "Audi",
+    "name": "ur-quattro",
+    "to": 1991,
+    "guideMin": 10000,
+    "guideMax": 100000,
+    "note": "Explicit year exception · original turbo quattro coupe, factory manual; not later quattro-badged models",
+    "group": "Authorised exceptions",
+    "from": 1980
   }
 ]

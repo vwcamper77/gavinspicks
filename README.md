@@ -1,6 +1,6 @@
 # Gavin’s Picks
 
-UK manual and rare modern-classic car discovery, 1995–2010, £10,000–£100,000.
+UK manual and rare modern-classic car discovery, 1995–2010 plus named BMW 1M and Audi ur-quattro exceptions, £10,000–£100,000.
 
 ## Run locally / VS Code
 
@@ -21,11 +21,11 @@ Open http://localhost:3000. Open this repository folder in VS Code.
 4. No environment variables or database are required for this initial feed.
 5. Deploy, then add your domain under Project → Settings → Domains and follow the DNS records Vercel supplies.
 
-The domain has not been purchased, configured or verified by this project. No Vercel deployment has been created here.
+The existing GitHub-connected Vercel project serves https://www.gavinspicks.com (verified 8 September 2026). Pushes to main trigger deployment; do not create a duplicate project.
 
 ## Feed and scheduled updates
 
-- `data/models.json`: 70 model search targets; guide prices are indicative.
+- `data/models.json`: 73 model search targets; guide prices are indicative.
 - `data/feed.json`: verified listing evidence and activity history.
 - `data/history.json`: recovered watch links, kept separate from current verified listings.
 - `data/discovery-queue.json`: discovery URLs that still require advert/photo verification.
