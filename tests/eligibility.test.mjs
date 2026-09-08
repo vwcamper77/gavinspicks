@@ -9,7 +9,7 @@ test('Renault Subaru and Mitsubishi require mileage below 30000 and at most two 
   for(const mileage of [undefined,null,-1,30000,30001,NaN,Infinity,'25000']) assert.equal(isLiveListing({...valid,...identity,mileage,ownerCount:1},now),false);
   for(const ownerCount of [undefined,null,0,-1,3,2.5,NaN,Infinity,'1']) assert.equal(isLiveListing({...valid,...identity,mileage:15000,ownerCount},now),false);
  }
- assert.equal(isLiveListing({...valid,make:'Ford',mileage:53227},now),false);
+ assert.equal(isLiveListing({...valid,make:'Ford',mileage:53227},now),true);
 });
 test('eligible listing passes exact budget and year boundaries',()=>{for(const price of [10000,100000])for(const year of [1995,2010])assert.equal(isLiveListing({...valid,price,year},now),true);});
 test('unavailable statuses and missing verification are rejected',()=>{for(const status of ['sold','POA','reserved','deposit taken','under offer','unverified'])assert.equal(isLiveListing({...valid,status},now),false);for(const key of ['photoChecked','priceVerified','availableVerified','specVerified','ukVerified'])assert.equal(isLiveListing({...valid,[key]:false},now),false);});
@@ -48,9 +48,13 @@ test('owner-rejected cars remain hidden after fresh checks or reimport under a n
  assert.equal(isLiveListing({...valid,id:'different-s2000',url:'https://example.com/other-car'},now),true);
 });
 
-test('every make requires known mileage below 50000; 1M value band is enforced',()=>{
- for(const mileage of [undefined,null,-1,50000,50001,NaN,Infinity,'25000']) assert.equal(isLiveListing({...valid,mileage},now),false);
- assert.equal(isLiveListing({...valid,mileage:49999},now),true);
+test('rare picks are not subject to a blanket mileage cap; 1M value band remains',()=>{
+ for(const mileage of [49999,50000,69133,82500,null]) assert.equal(isLiveListing({...valid,modelId:'model-075',mileage},now),true);
  for(const price of [44999,55001,64995]) assert.equal(isLiveListing({...exceptions[1],price},now),false);
  for(const price of [45000,55000]) assert.equal(isLiveListing({...exceptions[1],price},now),true);
+});
+
+test('previous TT and other rare picks remain eligible at their recorded mileage',()=>{
+ for(const [modelId,mileage] of [['model-075',69133],['model-056',52000]]) assert.equal(isLiveListing({...valid,modelId,mileage},now),true);
+ assert.equal(isLiveListing({...exceptions[0],mileage:82500},now),true);
 });
