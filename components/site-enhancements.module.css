@@ -1,0 +1,47 @@
+.portalHost{display:grid;gap:24px;margin:22px 0 30px}
+.mapPanel,.signupPanel{display:grid;grid-template-columns:minmax(0,1fr) minmax(320px,1.15fr);gap:28px;padding:26px;border:1px solid rgba(16,40,32,.16);background:#f7f5ee;border-radius:18px;align-items:center}
+.mapCopy h2,.signupPanel h2,.modal h2{margin:.15rem 0 .7rem;font-size:clamp(1.7rem,3vw,2.5rem);line-height:1.02;color:#102820}
+.mapCopy p,.signupPanel p,.modal p{margin:.3rem 0 1rem;color:#4f5b56;line-height:1.55}
+.kicker{font-size:.74rem!important;font-weight:800;letter-spacing:.12em;color:#9a6b24!important;margin:0 0 .45rem!important}
+.newSearches{display:grid;gap:6px;padding:14px 16px;background:#fff;border-radius:12px;border:1px solid rgba(16,40,32,.12)}
+.newSearches strong{color:#102820}.newSearches span{font-size:.9rem;color:#52605a}
+.mapWrap{background:#102820;border-radius:16px;padding:10px 10px 8px;min-height:420px}
+.mapWrap svg{width:100%;height:420px;display:block}
+.mapLand{fill:#d7ddd7;stroke:#9aa89f;stroke-width:2}
+.markerHalo{fill:rgba(233,184,105,.28)}
+.marker{fill:#e9b869;stroke:#102820;stroke-width:1.5;cursor:pointer}
+.marker:hover{fill:#fff2cb}
+.mapLegend{font-size:.76rem;color:#c5d0ca;text-align:center;padding:0 6px 5px}
+.signupPanel{grid-template-columns:.75fr 1.25fr;background:#102820;color:#fff}
+.signupPanel h2,.signupPanel p,.signupPanel .kicker{color:#fff}
+.signupPanel .kicker{color:#e9b869!important}
+.leadForm,.leadFormCompact{display:grid;gap:12px;background:#fff;color:#102820;padding:18px;border-radius:14px}
+.formGrid{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.formGrid label{display:grid;gap:5px;font-size:.8rem;font-weight:700}
+.formGrid label span{font-weight:400;color:#78827e}
+.formGrid input,.formGrid select{width:100%;box-sizing:border-box;border:1px solid #ccd4d0;border-radius:9px;padding:10px 11px;background:#fff;color:#102820;font:inherit}
+.formGrid input:focus,.formGrid select:focus{outline:2px solid #d3a65d;outline-offset:1px}
+.wide{grid-column:1/-1}
+.consent{display:flex;gap:8px;align-items:flex-start;font-size:.78rem;line-height:1.35;color:#53605b}
+.consent input{margin-top:2px}
+.leadForm button,.leadFormCompact button,.floatingSignup{border:0;background:#d19a45;color:#102820;font-weight:800;border-radius:10px;padding:11px 15px;cursor:pointer}
+.leadForm button:hover,.leadFormCompact button:hover,.floatingSignup:hover{background:#e5b66c}
+.leadForm button:disabled,.leadFormCompact button:disabled{opacity:.6;cursor:wait}
+.leadForm small,.leadFormCompact small{color:#78827e;font-size:.72rem;line-height:1.35}
+.saved{display:grid;gap:5px;background:#fff;color:#102820;padding:18px;border-radius:14px}
+.saved strong{font-size:1.1rem}.saved span{color:#53605b}
+.error{color:#a33a2b!important;font-size:.8rem!important;margin:0!important}
+.honeypot{position:absolute!important;left:-10000px!important;width:1px!important;height:1px!important;opacity:0!important}
+.floatingSignup{position:fixed;right:18px;bottom:18px;z-index:40;box-shadow:0 8px 28px rgba(0,0,0,.2)}
+.overlay{position:fixed;inset:0;background:rgba(5,16,12,.72);z-index:100;display:grid;place-items:center;padding:18px}
+.modal{position:relative;width:min(700px,100%);max-height:92vh;overflow:auto;background:#f7f5ee;border-radius:18px;padding:24px;box-shadow:0 28px 80px rgba(0,0,0,.35)}
+.close{position:absolute;right:14px;top:10px;border:0;background:transparent;font-size:2rem;line-height:1;color:#53605b;cursor:pointer}
+.whyLink{display:inline-flex;align-items:center;margin:4px 0 9px;color:#8a5d18;font-weight:800;text-decoration:none}
+.whyLink:hover{text-decoration:underline}
+@media (max-width:800px){
+  .mapPanel,.signupPanel{grid-template-columns:1fr;padding:18px;gap:18px}
+  .mapWrap{min-height:340px}.mapWrap svg{height:340px}
+  .formGrid{grid-template-columns:1fr}.wide{grid-column:auto}
+  .floatingSignup{right:12px;bottom:12px}
+  .modal{padding:20px 16px}
+}
