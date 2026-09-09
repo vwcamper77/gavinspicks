@@ -777,13 +777,22 @@
       "under20000Added": 0,
       "marketSalesAdded": 3,
       "publication": {
-        "status": "validated-awaiting-deployment",
+        "status": "verified-live",
         "validation": {
           "tests": "25 passed",
           "typecheck": "passed",
           "build": "passed",
           "eligibleListings": 17,
           "marketAudit": "Completed; thin evidence and UK-allocation gaps remain explicit."
+        },
+        "commit": "348ec0f35cadf26cb84c9d90ab01898c91ad9a89",
+        "deployment": "https://gavinspicks-i100g8p5c-vwcamper77s-projects.vercel.app",
+        "deploymentId": "dpl_qNe1H6K4kLtxQMuBBbxq3C2BYAxr",
+        "verifiedAt": "2026-09-09T11:57:52.082243Z",
+        "verification": "Vercel READY at source commit with production aliases. Live API verified 17 cars, retained TT/Z4 M/E61/DB9, excluded unavailable R8 and two unverified cars, R8 price £54,995. TT share page visually checked.",
+        "reports": {
+          "ph-20982794": "Rechecked still advertised in dealer stock; report resolved after publication.",
+          "911uk-134502": "Guest limit blocked verification; report remains pending."
         }
       }
     }
