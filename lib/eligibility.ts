@@ -12,13 +12,16 @@ const mileageLimitedMakes = new Set(['renault','subaru','mitsubishi']);
 const mileageLimitedModels = new Set(models.filter(m=>mileageLimitedMakes.has(m.make.toLowerCase())).map(m=>m.id));
 function matchesMileagePolicy(l: ListingCheck): boolean {
  if (l.modelId === 'model-072' && (l.price < 45000 || l.price > 55000)) return false;
+ if (l.modelId === 'model-096' || l.modelId === 'model-097') {
+  return typeof l.mileage === 'number' && Number.isFinite(l.mileage) && l.mileage >= 0 && l.mileage <= 50000;
+ }
  if (!mileageLimitedModels.has(l.modelId ?? '') && !mileageLimitedMakes.has(l.make?.trim().toLowerCase() ?? '')) return true;
  return typeof l.mileage === 'number' && Number.isFinite(l.mileage) && l.mileage >= 0 && l.mileage < 30000 &&
   typeof l.ownerCount === 'number' && Number.isInteger(l.ownerCount) && l.ownerCount >= 1 && l.ownerCount <= 2;
 }
 function matchesModelPolicy(l: ListingCheck): boolean {
  if (!Number.isInteger(l.year)) return false;
- if (l.make === 'BMW' && l.model === 'M5' && l.modelId !== 'model-071') return false;
+ if (l.make === 'BMW' && l.model === 'M5' && !['model-071','model-097'].includes(l.modelId ?? '')) return false;
  if (l.modelId === 'model-071') return l.year >= 2007 && l.year <= 2010 &&
   l.make === 'BMW' && l.model === 'M5' && l.generation === 'E61' &&
   l.bodyStyle === 'Touring' && l.engine === '5.0 V10' &&
@@ -29,6 +32,8 @@ function matchesModelPolicy(l: ListingCheck): boolean {
  if (l.modelId === 'model-073') return l.year >= 1980 && l.year <= 1991 &&
   l.make === 'Audi' && l.model === 'ur-quattro' && l.generation === 'original' &&
   l.bodyStyle === 'Coupe' && l.transmission === 'manual' && l.factoryTransmission === true;
+ if (l.modelId === 'model-096') return l.year >= 2000 && l.year <= 2006;
+ if (l.modelId === 'model-097') return l.year >= 1998 && l.year <= 2003;
  return l.year >= 1995 && l.year <= 2010;
 }
 // Owner's editorial decisions apply to these specific cars, not the entire models.
