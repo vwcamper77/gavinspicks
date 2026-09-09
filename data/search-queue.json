@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-09T22:35:57.440Z",
+  "generatedAt": "2026-09-09T22:39:56.227Z",
   "modelCount": 96,
   "sourceCount": 13,
   "jobCount": 1482,
@@ -12422,11 +12422,11 @@
       "query": "site:facebook.com/groups BMW Z4 M Coupe UK for sale",
       "priority": true,
       "cadenceHours": 6,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "searched",
+      "lastSearchedAt": "2026-09-09T22:34:18Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "Public indexed Facebook-group query executed; no plausible current advert URL was returned and no private-group access was attempted."
     },
     {
       "id": "model-056:ebay:bmw-z4-m-coupe",
@@ -12439,10 +12439,13 @@
       "query": "site:ebay.co.uk/itm BMW Z4 M Coupe UK for sale",
       "priority": true,
       "cadenceHours": 1,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
-      "candidateUrls": [],
+      "status": "searched",
+      "lastSearchedAt": "2026-09-09T22:34:18Z",
+      "lastResultCount": 2,
+      "candidateUrls": [
+        "https://www.ebay.co.uk/itm/800309038343",
+        "https://www.ebay.co.uk/itm/157708719903"
+      ],
       "limitation": null
     },
     {
@@ -12456,11 +12459,11 @@
       "query": "site:autotrader.co.uk/car-details BMW Z4 M Coupe UK for sale",
       "priority": true,
       "cadenceHours": 1,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "searched",
+      "lastSearchedAt": "2026-09-09T22:34:18Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "Query returned current category inventory but no direct car-detail URL suitable for the verification queue."
     },
     {
       "id": "model-056:pistonheads:bmw-z4-m-coupe",
@@ -12473,11 +12476,11 @@
       "query": "site:pistonheads.com/buy BMW Z4 M Coupe UK for sale",
       "priority": true,
       "cadenceHours": 1,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "searched",
+      "lastSearchedAt": "2026-09-09T22:34:18Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "Current category inventory was visible; the direct listing returned by indexed search was already unavailable and was rejected."
     },
     {
       "id": "model-056:car-and-classic:bmw-z4-m-coupe",
@@ -12490,10 +12493,13 @@
       "query": "site:carandclassic.com BMW Z4 M Coupe UK for sale",
       "priority": true,
       "cadenceHours": 1,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
-      "candidateUrls": [],
+      "status": "searched",
+      "lastSearchedAt": "2026-09-09T22:34:18Z",
+      "lastResultCount": 2,
+      "candidateUrls": [
+        "https://www.carandclassic.com/car/C2127428",
+        "https://www.carandclassic.com/car/C1248397"
+      ],
       "limitation": null
     },
     {
@@ -12507,11 +12513,11 @@
       "query": "site:collectingcars.com BMW Z4 M Coupe UK for sale",
       "priority": true,
       "cadenceHours": 3,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "searched",
+      "lastSearchedAt": "2026-09-09T22:34:18Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "No plausible current qualifying advert URL returned."
     },
     {
       "id": "model-056:bonhams-cars:bmw-z4-m-coupe",
@@ -12524,11 +12530,11 @@
       "query": "site:cars.bonhams.com BMW Z4 M Coupe UK for sale",
       "priority": true,
       "cadenceHours": 3,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "searched",
+      "lastSearchedAt": "2026-09-09T22:34:18Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "No plausible current qualifying advert URL returned."
     },
     {
       "id": "model-056:classic-trader:bmw-z4-m-coupe",
@@ -12541,11 +12547,11 @@
       "query": "site:classic-trader.com BMW Z4 M Coupe UK for sale",
       "priority": true,
       "cadenceHours": 3,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "searched",
+      "lastSearchedAt": "2026-09-09T22:34:18Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "No plausible current UK advert URL returned."
     },
     {
       "id": "model-056:gumtree:bmw-z4-m-coupe",
@@ -12558,11 +12564,11 @@
       "query": "site:gumtree.com BMW Z4 M Coupe UK for sale",
       "priority": true,
       "cadenceHours": 1,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "searched",
+      "lastSearchedAt": "2026-09-09T22:34:18Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "No plausible current qualifying advert URL returned."
     },
     {
       "id": "model-056:911uk:bmw-z4-m-coupe",
@@ -12575,11 +12581,11 @@
       "query": "site:911uk.com BMW Z4 M Coupe UK for sale",
       "priority": true,
       "cadenceHours": 6,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "searched",
+      "lastSearchedAt": "2026-09-09T22:34:18Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "No relevant current advert URL returned."
     },
     {
       "id": "model-056:ferrarichat:bmw-z4-m-coupe",
@@ -12592,11 +12598,11 @@
       "query": "site:ferrarichat.com BMW Z4 M Coupe UK for sale",
       "priority": true,
       "cadenceHours": 6,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "searched",
+      "lastSearchedAt": "2026-09-09T22:34:18Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "No relevant current advert URL returned."
     },
     {
       "id": "model-056:lamborghini-talk:bmw-z4-m-coupe",
@@ -12609,11 +12615,11 @@
       "query": "site:lamborghini-talk.com BMW Z4 M Coupe UK for sale",
       "priority": true,
       "cadenceHours": 6,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "blocked",
+      "lastSearchedAt": "2026-09-09T22:34:18Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "Public search access to lamborghini-talk.com was blocked by robots.txt; no bypass attempted."
     },
     {
       "id": "model-056:specialist-dealers:bmw-z4-m-coupe",
@@ -12626,11 +12632,13 @@
       "query": "BMW Z4 M Coupe UK for sale specialist dealer current stock",
       "priority": true,
       "cadenceHours": 1,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
-      "candidateUrls": [],
-      "limitation": null
+      "status": "searched",
+      "lastSearchedAt": "2026-09-09T22:34:18Z",
+      "lastResultCount": 1,
+      "candidateUrls": [
+        "https://rsvautomotive.co.uk/cars/bmw-z4-m-z4-m-coupe/"
+      ],
+      "limitation": "Current dealer advert found; this vehicle is already represented in the verified feed and is not a new discovery."
     },
     {
       "id": "model-057:facebook-groups:bmw-z4-m-roadster",
@@ -15516,11 +15524,11 @@
       "query": "site:facebook.com/groups Ford Focus RS Mk1 UK for sale",
       "priority": true,
       "cadenceHours": 6,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "searched",
+      "lastSearchedAt": "2026-09-09T22:34:18Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "Public indexed Facebook-group query executed; no plausible current advert URL was returned and no private-group access was attempted."
     },
     {
       "id": "model-070:ebay:ford-focus-rs-mk1",
@@ -15533,11 +15541,11 @@
       "query": "site:ebay.co.uk/itm Ford Focus RS Mk1 UK for sale",
       "priority": true,
       "cadenceHours": 1,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "searched",
+      "lastSearchedAt": "2026-09-09T22:34:18Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "Returned results were parts, models or sold/ended cars and were rejected before verification."
     },
     {
       "id": "model-070:autotrader:ford-focus-rs-mk1",
@@ -15550,11 +15558,11 @@
       "query": "site:autotrader.co.uk/car-details Ford Focus RS Mk1 UK for sale",
       "priority": true,
       "cadenceHours": 1,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "searched",
+      "lastSearchedAt": "2026-09-09T22:34:18Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "No direct current car-detail URL suitable for verification was returned."
     },
     {
       "id": "model-070:pistonheads:ford-focus-rs-mk1",
@@ -15567,11 +15575,11 @@
       "query": "site:pistonheads.com/buy Ford Focus RS Mk1 UK for sale",
       "priority": true,
       "cadenceHours": 1,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "searched",
+      "lastSearchedAt": "2026-09-09T22:34:18Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "Current category coverage was visible but no direct Mk1 advert URL was returned by this query."
     },
     {
       "id": "model-070:car-and-classic:ford-focus-rs-mk1",
@@ -15584,11 +15592,13 @@
       "query": "site:carandclassic.com Ford Focus RS Mk1 UK for sale",
       "priority": true,
       "cadenceHours": 1,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
-      "candidateUrls": [],
-      "limitation": null
+      "status": "searched",
+      "lastSearchedAt": "2026-09-09T22:34:18Z",
+      "lastResultCount": 1,
+      "candidateUrls": [
+        "https://www.carandclassic.com/car/C2118328"
+      ],
+      "limitation": "A current KGF Classic Cars Mk1 advert was surfaced from live related inventory and queued for direct verification."
     },
     {
       "id": "model-070:collecting-cars:ford-focus-rs-mk1",
@@ -15601,11 +15611,11 @@
       "query": "site:collectingcars.com Ford Focus RS Mk1 UK for sale",
       "priority": true,
       "cadenceHours": 3,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "searched",
+      "lastSearchedAt": "2026-09-09T22:34:18Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "No plausible current qualifying advert URL returned."
     },
     {
       "id": "model-070:bonhams-cars:ford-focus-rs-mk1",
@@ -15618,11 +15628,11 @@
       "query": "site:cars.bonhams.com Ford Focus RS Mk1 UK for sale",
       "priority": true,
       "cadenceHours": 3,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "searched",
+      "lastSearchedAt": "2026-09-09T22:34:18Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "No plausible current qualifying advert URL returned."
     },
     {
       "id": "model-070:classic-trader:ford-focus-rs-mk1",
@@ -15635,11 +15645,11 @@
       "query": "site:classic-trader.com Ford Focus RS Mk1 UK for sale",
       "priority": true,
       "cadenceHours": 3,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "searched",
+      "lastSearchedAt": "2026-09-09T22:34:18Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "No plausible current UK advert URL returned."
     },
     {
       "id": "model-070:gumtree:ford-focus-rs-mk1",
@@ -15652,11 +15662,11 @@
       "query": "site:gumtree.com Ford Focus RS Mk1 UK for sale",
       "priority": true,
       "cadenceHours": 1,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "searched",
+      "lastSearchedAt": "2026-09-09T22:34:18Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "No plausible current qualifying Mk1 advert URL returned."
     },
     {
       "id": "model-070:911uk:ford-focus-rs-mk1",
@@ -15669,11 +15679,11 @@
       "query": "site:911uk.com Ford Focus RS Mk1 UK for sale",
       "priority": true,
       "cadenceHours": 6,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "searched",
+      "lastSearchedAt": "2026-09-09T22:34:18Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "No relevant current advert URL returned."
     },
     {
       "id": "model-070:ferrarichat:ford-focus-rs-mk1",
@@ -15686,11 +15696,11 @@
       "query": "site:ferrarichat.com Ford Focus RS Mk1 UK for sale",
       "priority": true,
       "cadenceHours": 6,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "searched",
+      "lastSearchedAt": "2026-09-09T22:34:18Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "No relevant current advert URL returned."
     },
     {
       "id": "model-070:lamborghini-talk:ford-focus-rs-mk1",
@@ -15703,11 +15713,11 @@
       "query": "site:lamborghini-talk.com Ford Focus RS Mk1 UK for sale",
       "priority": true,
       "cadenceHours": 6,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "blocked",
+      "lastSearchedAt": "2026-09-09T22:34:18Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "Public search access to lamborghini-talk.com was blocked by robots.txt; no bypass attempted."
     },
     {
       "id": "model-070:specialist-dealers:ford-focus-rs-mk1",
@@ -15720,11 +15730,11 @@
       "query": "Ford Focus RS Mk1 UK for sale specialist dealer current stock",
       "priority": true,
       "cadenceHours": 1,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "searched",
+      "lastSearchedAt": "2026-09-09T22:34:18Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "No additional direct specialist-dealer advert URL was returned beyond the live KGF lead already queued from Car & Classic."
     },
     {
       "id": "model-070:facebook-groups:ford-focus-rs-mk2",
@@ -15737,11 +15747,11 @@
       "query": "site:facebook.com/groups Ford Focus RS Mk2 UK for sale",
       "priority": true,
       "cadenceHours": 6,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "searched",
+      "lastSearchedAt": "2026-09-09T22:34:18Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "Public indexed Facebook-group query executed; no plausible current advert URL was returned and no private-group access was attempted."
     },
     {
       "id": "model-070:ebay:ford-focus-rs-mk2",
@@ -15754,11 +15764,13 @@
       "query": "site:ebay.co.uk/itm Ford Focus RS Mk2 UK for sale",
       "priority": true,
       "cadenceHours": 1,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
-      "candidateUrls": [],
-      "limitation": null
+      "status": "searched",
+      "lastSearchedAt": "2026-09-09T22:34:18Z",
+      "lastResultCount": 1,
+      "candidateUrls": [
+        "https://www.ebay.co.uk/itm/226615603512"
+      ],
+      "limitation": "Most results were parts or ended adverts; one direct classified advert remained plausibly current and is queued for full current-stock/photo verification."
     },
     {
       "id": "model-070:autotrader:ford-focus-rs-mk2",
@@ -15771,11 +15783,11 @@
       "query": "site:autotrader.co.uk/car-details Ford Focus RS Mk2 UK for sale",
       "priority": true,
       "cadenceHours": 1,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "searched",
+      "lastSearchedAt": "2026-09-09T22:34:18Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "No direct current car-detail URL suitable for verification was returned."
     },
     {
       "id": "model-070:pistonheads:ford-focus-rs-mk2",
@@ -15788,10 +15800,12 @@
       "query": "site:pistonheads.com/buy Ford Focus RS Mk2 UK for sale",
       "priority": true,
       "cadenceHours": 1,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
-      "candidateUrls": [],
+      "status": "searched",
+      "lastSearchedAt": "2026-09-09T22:34:18Z",
+      "lastResultCount": 1,
+      "candidateUrls": [
+        "https://www.pistonheads.com/buy/listing/20771951"
+      ],
       "limitation": null
     },
     {
@@ -15805,11 +15819,14 @@
       "query": "site:carandclassic.com Ford Focus RS Mk2 UK for sale",
       "priority": true,
       "cadenceHours": 1,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
-      "candidateUrls": [],
-      "limitation": null
+      "status": "searched",
+      "lastSearchedAt": "2026-09-09T22:34:18Z",
+      "lastResultCount": 2,
+      "candidateUrls": [
+        "https://www.carandclassic.com/car/C2117480",
+        "https://www.carandclassic.com/l/C2122028"
+      ],
+      "limitation": "The initially indexed Mountune advert C1902894 explicitly says it has been removed and was rejected. Two live low-mileage dealer adverts surfaced from current inventory and are queued."
     },
     {
       "id": "model-070:collecting-cars:ford-focus-rs-mk2",
@@ -15822,11 +15839,11 @@
       "query": "site:collectingcars.com Ford Focus RS Mk2 UK for sale",
       "priority": true,
       "cadenceHours": 3,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "searched",
+      "lastSearchedAt": "2026-09-09T22:34:18Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "No plausible active fixed-price qualifying advert URL returned."
     },
     {
       "id": "model-070:bonhams-cars:ford-focus-rs-mk2",
@@ -15839,11 +15856,11 @@
       "query": "site:cars.bonhams.com Ford Focus RS Mk2 UK for sale",
       "priority": true,
       "cadenceHours": 3,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "searched",
+      "lastSearchedAt": "2026-09-09T22:34:18Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "No plausible current qualifying advert URL returned."
     },
     {
       "id": "model-070:classic-trader:ford-focus-rs-mk2",
@@ -15856,11 +15873,11 @@
       "query": "site:classic-trader.com Ford Focus RS Mk2 UK for sale",
       "priority": true,
       "cadenceHours": 3,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "searched",
+      "lastSearchedAt": "2026-09-09T22:34:18Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "No plausible current UK advert URL returned."
     },
     {
       "id": "model-070:gumtree:ford-focus-rs-mk2",
@@ -15873,11 +15890,11 @@
       "query": "site:gumtree.com Ford Focus RS Mk2 UK for sale",
       "priority": true,
       "cadenceHours": 1,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "searched",
+      "lastSearchedAt": "2026-09-09T22:34:18Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "A freshly posted heavily modified 78,000-mile car was found but rejected before verification as a weak editorial fit for the exceptional-example Focus target."
     },
     {
       "id": "model-070:911uk:ford-focus-rs-mk2",
@@ -15890,11 +15907,11 @@
       "query": "site:911uk.com Ford Focus RS Mk2 UK for sale",
       "priority": true,
       "cadenceHours": 6,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "searched",
+      "lastSearchedAt": "2026-09-09T22:34:18Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "No relevant current advert URL returned."
     },
     {
       "id": "model-070:ferrarichat:ford-focus-rs-mk2",
@@ -15907,11 +15924,11 @@
       "query": "site:ferrarichat.com Ford Focus RS Mk2 UK for sale",
       "priority": true,
       "cadenceHours": 6,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "searched",
+      "lastSearchedAt": "2026-09-09T22:34:18Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "No relevant current advert URL returned."
     },
     {
       "id": "model-070:lamborghini-talk:ford-focus-rs-mk2",
@@ -15924,11 +15941,11 @@
       "query": "site:lamborghini-talk.com Ford Focus RS Mk2 UK for sale",
       "priority": true,
       "cadenceHours": 6,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "blocked",
+      "lastSearchedAt": "2026-09-09T22:34:18Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "Public search access to lamborghini-talk.com was blocked by robots.txt; no bypass attempted."
     },
     {
       "id": "model-070:specialist-dealers:ford-focus-rs-mk2",
@@ -15941,11 +15958,11 @@
       "query": "Ford Focus RS Mk2 UK for sale specialist dealer current stock",
       "priority": true,
       "cadenceHours": 1,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "searched",
+      "lastSearchedAt": "2026-09-09T22:34:18Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "No additional direct specialist-dealer URL was returned beyond dealer adverts already queued from PistonHeads/Car & Classic."
     },
     {
       "id": "model-070:facebook-groups:ford-focus-rs500",
@@ -15958,11 +15975,11 @@
       "query": "site:facebook.com/groups Ford Focus RS500 UK for sale",
       "priority": true,
       "cadenceHours": 6,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "searched",
+      "lastSearchedAt": "2026-09-09T22:34:18Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "Public indexed Facebook-group query executed; no plausible current UK advert URL was returned and no private-group access was attempted."
     },
     {
       "id": "model-070:ebay:ford-focus-rs500",
@@ -15975,11 +15992,11 @@
       "query": "site:ebay.co.uk/itm Ford Focus RS500 UK for sale",
       "priority": true,
       "cadenceHours": 1,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "searched",
+      "lastSearchedAt": "2026-09-09T22:34:18Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "No verified RS500 vehicle advert returned; ordinary Mk2 cars and parts were rejected."
     },
     {
       "id": "model-070:autotrader:ford-focus-rs500",
@@ -15992,11 +16009,11 @@
       "query": "site:autotrader.co.uk/car-details Ford Focus RS500 UK for sale",
       "priority": true,
       "cadenceHours": 1,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "searched",
+      "lastSearchedAt": "2026-09-09T22:34:18Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "No direct current RS500 car-detail URL suitable for verification was returned."
     },
     {
       "id": "model-070:pistonheads:ford-focus-rs500",
@@ -16009,11 +16026,11 @@
       "query": "site:pistonheads.com/buy Ford Focus RS500 UK for sale",
       "priority": true,
       "cadenceHours": 1,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "searched",
+      "lastSearchedAt": "2026-09-09T22:34:18Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "No direct current RS500 advert URL returned."
     },
     {
       "id": "model-070:car-and-classic:ford-focus-rs500",
@@ -16026,11 +16043,11 @@
       "query": "site:carandclassic.com Ford Focus RS500 UK for sale",
       "priority": true,
       "cadenceHours": 1,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "searched",
+      "lastSearchedAt": "2026-09-09T22:34:18Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "A live RS500 advert surfaced outside the UK in LHD/euro pricing and failed the UK eligibility rule."
     },
     {
       "id": "model-070:collecting-cars:ford-focus-rs500",
@@ -16043,11 +16060,11 @@
       "query": "site:collectingcars.com Ford Focus RS500 UK for sale",
       "priority": true,
       "cadenceHours": 3,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "searched",
+      "lastSearchedAt": "2026-09-09T22:34:18Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "No plausible active qualifying UK advert URL returned."
     },
     {
       "id": "model-070:bonhams-cars:ford-focus-rs500",
@@ -16060,11 +16077,11 @@
       "query": "site:cars.bonhams.com Ford Focus RS500 UK for sale",
       "priority": true,
       "cadenceHours": 3,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "searched",
+      "lastSearchedAt": "2026-09-09T22:34:18Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "No plausible current qualifying UK advert URL returned."
     },
     {
       "id": "model-070:classic-trader:ford-focus-rs500",
@@ -16077,11 +16094,11 @@
       "query": "site:classic-trader.com Ford Focus RS500 UK for sale",
       "priority": true,
       "cadenceHours": 3,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "searched",
+      "lastSearchedAt": "2026-09-09T22:34:18Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "No plausible current UK advert URL returned."
     },
     {
       "id": "model-070:gumtree:ford-focus-rs500",
@@ -16094,11 +16111,11 @@
       "query": "site:gumtree.com Ford Focus RS500 UK for sale",
       "priority": true,
       "cadenceHours": 1,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "searched",
+      "lastSearchedAt": "2026-09-09T22:34:18Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "No plausible current RS500 advert URL returned."
     },
     {
       "id": "model-070:911uk:ford-focus-rs500",
@@ -16111,11 +16128,11 @@
       "query": "site:911uk.com Ford Focus RS500 UK for sale",
       "priority": true,
       "cadenceHours": 6,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "searched",
+      "lastSearchedAt": "2026-09-09T22:34:18Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "No relevant current advert URL returned."
     },
     {
       "id": "model-070:ferrarichat:ford-focus-rs500",
@@ -16128,11 +16145,11 @@
       "query": "site:ferrarichat.com Ford Focus RS500 UK for sale",
       "priority": true,
       "cadenceHours": 6,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "searched",
+      "lastSearchedAt": "2026-09-09T22:34:18Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "No relevant current advert URL returned."
     },
     {
       "id": "model-070:lamborghini-talk:ford-focus-rs500",
