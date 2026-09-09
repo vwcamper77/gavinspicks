@@ -1,0 +1,38 @@
+name: Rebuild search queue
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'data/models.json'
+      - 'data/extra-models.json'
+      - 'data/discovery-sources.json'
+      - 'scripts/build-search-queue.mjs'
+      - '.github/workflows/rebuild-search-queue.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  rebuild:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Build complete watchlist/source queue
+        run: node scripts/build-search-queue.mjs
+      - name: Commit generated queue
+        run: |
+          if git diff --quiet -- data/search-queue.json; then
+            echo 'Search queue already current.'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/search-queue.json
+          git commit -m 'Refresh watchlist search queue'
+          git push
