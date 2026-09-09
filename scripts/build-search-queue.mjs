@@ -10,15 +10,17 @@ const readOptional = async (path, fallback) => {
   }
 };
 
-const [baseModels, extraModels, config, existing] = await Promise.all([
+const [baseModels, extraModels, config, existing, workerState] = await Promise.all([
   read('data/models.json'),
   read('data/extra-models.json'),
   read('data/discovery-sources.json'),
   readOptional('data/search-queue.json', { jobs: [] }),
+  readOptional('data/search-job-state.json', { jobs: {} }),
 ]);
 
 const models = [...baseModels, ...extraModels];
 const previous = new Map((existing.jobs ?? []).map((job) => [job.id, job]));
+const stateById = workerState.jobs ?? {};
 const slug = (value) => String(value).toLowerCase().normalize('NFKD').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '').slice(0, 80);
 const priorityIds = ['model-056','model-070','model-072','model-075','model-076','model-078','model-082','model-085','model-088','model-096','model-097'];
 const slowSources = new Set(['facebook-groups','911uk','ferrarichat','lamborghini-talk']);
@@ -43,6 +45,7 @@ for (const model of models) {
     for (const source of config.sources) {
       const id = `${model.id}:${source.id}:${slug(variant)}`;
       const old = previous.get(id) ?? {};
+      const worker = stateById[id] ?? {};
       const query = source.id === 'specialist-dealers'
         ? `${baseQuery} specialist dealer current stock`
         : `site:${source.site} ${baseQuery}`;
@@ -61,11 +64,11 @@ for (const model of models) {
         query,
         priority: isPriority,
         cadenceHours,
-        status: old.status ?? 'pending',
-        lastSearchedAt: old.lastSearchedAt ?? null,
-        lastResultCount: old.lastResultCount ?? null,
-        candidateUrls: Array.isArray(old.candidateUrls) ? old.candidateUrls : [],
-        limitation: old.limitation ?? null,
+        status: worker.status ?? old.status ?? 'pending',
+        lastSearchedAt: worker.lastSearchedAt ?? old.lastSearchedAt ?? null,
+        lastResultCount: worker.lastResultCount ?? old.lastResultCount ?? null,
+        candidateUrls: Array.isArray(worker.candidateUrls) ? worker.candidateUrls : Array.isArray(old.candidateUrls) ? old.candidateUrls : [],
+        limitation: worker.limitation ?? old.limitation ?? null,
       });
     }
   }
