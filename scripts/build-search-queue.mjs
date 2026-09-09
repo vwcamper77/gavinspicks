@@ -1,3 +1,4 @@
+// Generates the durable model × source search backlog used by Gavin's Picks.
 import { readFile, writeFile } from 'node:fs/promises';
 
 const root = new URL('../', import.meta.url);
