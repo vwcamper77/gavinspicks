@@ -46,7 +46,9 @@ for (const model of models) {
       const query = source.id === 'specialist-dealers'
         ? `${baseQuery} specialist dealer current stock`
         : `site:${source.site} ${baseQuery}`;
-      const cadenceHours = isPriority ? 1 : fastSources.has(source.id) ? 6 : slowSources.has(source.id) ? 24 : 12;
+      const cadenceHours = isPriority
+        ? (fastSources.has(source.id) ? 1 : slowSources.has(source.id) ? 6 : 3)
+        : (fastSources.has(source.id) ? 6 : slowSources.has(source.id) ? 24 : 12);
 
       jobs.push({
         id,
@@ -77,11 +79,15 @@ const output = {
   purpose: 'Durable search backlog. Search jobs create candidate advert URLs; only actual adverts move into data/discovery-queue.json for photo/spec/current-availability verification.',
   scheduling: {
     workerBatchSize: 50,
-    priorityCadenceHours: 1,
+    priorityQuotaPerRun: 20,
+    coverageQuotaPerRun: 30,
+    priorityMainstreamCadenceHours: 1,
+    prioritySecondaryCadenceHours: 3,
+    priorityOwnerForumCadenceHours: 6,
     mainstreamCadenceHours: 6,
     secondaryCadenceHours: 12,
     ownerForumCadenceHours: 24,
-    selectionRule: 'Each worker run takes overdue priority jobs first, then the oldest due jobs by lastSearchedAt.'
+    selectionRule: 'Each worker run reserves up to 20 places for overdue priority jobs and at least 30 for the oldest due coverage jobs; unused capacity may spill to either pool. This prevents priority searches starving the full watchlist.'
   },
   rules: {
     rejectBeforeVerification: ['informational pages', 'Wikipedia', 'magazine/PDF articles', 'buyer guides', 'generic search pages', 'historical sale-result pages', 'obvious parts/wanted adverts'],
