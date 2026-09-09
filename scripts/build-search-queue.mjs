@@ -20,6 +20,9 @@ const [baseModels, extraModels, config, existing] = await Promise.all([
 const models = [...baseModels, ...extraModels];
 const previous = new Map((existing.jobs ?? []).map((job) => [job.id, job]));
 const slug = (value) => String(value).toLowerCase().normalize('NFKD').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '').slice(0, 80);
+const priorityIds = ['model-056','model-070','model-072','model-075','model-076','model-078','model-082','model-085','model-088','model-096','model-097'];
+const slowSources = new Set(['facebook-groups','911uk','ferrarichat','lamborghini-talk']);
+const fastSources = new Set(['ebay','autotrader','pistonheads','car-and-classic','gumtree','specialist-dealers']);
 
 const variantsFor = (model) => model.searchVariants ?? (model.id === 'model-070'
   ? ['Ford Focus RS Mk1', 'Ford Focus RS Mk2', 'Ford Focus RS500']
@@ -29,6 +32,7 @@ const variantsFor = (model) => model.searchVariants ?? (model.id === 'model-070'
 
 const jobs = [];
 for (const model of models) {
+  const isPriority = priorityIds.includes(model.id);
   for (const variant of variantsFor(model)) {
     const mileage = model.maxMileageInclusive
       ? ` up to ${model.maxMileageInclusive} miles`
@@ -42,6 +46,7 @@ for (const model of models) {
       const query = source.id === 'specialist-dealers'
         ? `${baseQuery} specialist dealer current stock`
         : `site:${source.site} ${baseQuery}`;
+      const cadenceHours = isPriority ? 1 : fastSources.has(source.id) ? 6 : slowSources.has(source.id) ? 24 : 12;
 
       jobs.push({
         id,
@@ -52,7 +57,8 @@ for (const model of models) {
         source: source.id,
         sourceName: source.name,
         query,
-        priority: ['model-056','model-070','model-072','model-075','model-076','model-078','model-082','model-085','model-088','model-096','model-097'].includes(model.id),
+        priority: isPriority,
+        cadenceHours,
         status: old.status ?? 'pending',
         lastSearchedAt: old.lastSearchedAt ?? null,
         lastResultCount: old.lastResultCount ?? null,
@@ -69,6 +75,14 @@ const output = {
   sourceCount: config.sources.length,
   jobCount: jobs.length,
   purpose: 'Durable search backlog. Search jobs create candidate advert URLs; only actual adverts move into data/discovery-queue.json for photo/spec/current-availability verification.',
+  scheduling: {
+    workerBatchSize: 50,
+    priorityCadenceHours: 1,
+    mainstreamCadenceHours: 6,
+    secondaryCadenceHours: 12,
+    ownerForumCadenceHours: 24,
+    selectionRule: 'Each worker run takes overdue priority jobs first, then the oldest due jobs by lastSearchedAt.'
+  },
   rules: {
     rejectBeforeVerification: ['informational pages', 'Wikipedia', 'magazine/PDF articles', 'buyer guides', 'generic search pages', 'historical sale-result pages', 'obvious parts/wanted adverts'],
     neverPublishWithout: ['current live advert', 'fixed qualifying price where required', 'current availability evidence', 'seller photographs checked', 'gearbox/specification verified'],
