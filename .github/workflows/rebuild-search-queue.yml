@@ -27,7 +27,7 @@ jobs:
         run: node scripts/build-search-queue.mjs
       - name: Commit generated queue
         run: |
-          if git diff --quiet -- data/search-queue.json; then
+          if [ -z "$(git status --porcelain -- data/search-queue.json)" ]; then
             echo 'Search queue already current.'
             exit 0
           fi
