@@ -55,3 +55,11 @@ Seller photographs remain remote source references. Obtain appropriate permissio
 ## Visitor sold reports
 
 “Mark as sold” queues a private report for the next hourly seller/photo recheck. It does not immediately remove a car. One pending report per listing is stored centrally; duplicate clicks do not create duplicate reports. The API accepts only known listing IDs and stores no visitor identity. Errors are shown honestly. The hourly updater reads and resolves reports using scripts/sold-reports.mjs; see UPDATE_PROTOCOL.md.
+
+## Owner availability admin
+
+Open `/admin` (also linked in the footer) and sign in with the private `GP_ADMIN_KEY` production secret. Use a cryptographically random key of at least 40 characters. It is never sent to the client bundle or stored in Git. Sign-in uses an HttpOnly, SameSite=Strict cookie, Secure on HTTPS, with a 12-hour expiry. Rotating the key invalidates existing sessions. Do not share it with visitors.
+
+The admin queue shows visitor reports, original adverts, hidden cars and review history. Check the original advert, add a review note, then confirm unavailable and hide, or dismiss a report that is incorrect. Reports never hide cars automatically. Hidden cars can have their admin hold removed after a new check; this does not bypass ordinary eligibility or freshness rules.
+
+Reviews are immutable records in private Blob under `availability-reviews/`. A report is cleared only after its review is saved. Hides apply by listing ID and original URL to the initial page, refreshed feed, shared car page and newly generated share images. Feed updates cannot override an admin hold. If review storage cannot be read, new page loads suppress listings and the feed API reports an error rather than republishing hidden cars. Existing visitors refresh their listings every minute. Previously cached third-party share previews may take time to update.

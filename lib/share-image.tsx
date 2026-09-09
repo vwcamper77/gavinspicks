@@ -2,10 +2,12 @@ import {ImageResponse} from 'next/og';
 import {readFile} from 'node:fs/promises';
 import path from 'node:path';
 import feed from '@/lib/combined-feed';
+import {safeHiddenListingIds} from '@/lib/public-availability';
 import {isLiveListing} from '@/lib/eligibility';
 
 export async function shareImage(id:string|null){
- const car=feed.listings.find(l=>l.id===id&&isLiveListing(l,Date.now()));
+ const hidden=await safeHiddenListingIds();
+ const car=feed.listings.find(l=>l.id===id&&!hidden.includes(l.id)&&isLiveListing(l,Date.now()));
  const logo=`data:image/png;base64,${(await readFile(path.join(process.cwd(),'public/supercar-logo.png'))).toString('base64')}`;
  let photo:string|undefined;
  // Only fetch an existing, approved seller photo. Never accept arbitrary image URLs.

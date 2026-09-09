@@ -113,43 +113,10 @@ export default function SiteEnhancements(){
 
   useEffect(()=>{
     if(!feed.listings.length) return;
-    const byUrl=new Map(feed.listings.map(l=>[l.url,l]));
-    document.querySelectorAll<HTMLElement>('article.car').forEach(card=>{
-      const original=card.querySelector<HTMLAnchorElement>('a.listing-link');
-      if(!original) return;
-      const listing=byUrl.get(original.href)||feed.listings.find(l=>original.href===l.url);
-      if(!listing) return;
-      if(!card.querySelector('.gp-why-link')){
-        const a=document.createElement('a');
-        a.className=`gp-why-link ${styles.whyLink}`;
-        a.href=`/cars/${encodeURIComponent(listing.id)}?why=1`;
-        a.textContent='Why Gavin picked it →';
-        original.insertAdjacentElement('beforebegin',a);
-      }
-    });
     if(new URLSearchParams(window.location.search).get('why')==='1'){
       const button=document.querySelector<HTMLButtonElement>('.gavin-teaser');
       if(button) window.setTimeout(()=>button.click(),150);
     }
-  },[feed.listings,pathname]);
-
-  useEffect(()=>{
-    if(pathname!=='/'||!feed.listings.length) return;
-    const ids=feed.listings.map(l=>l.id).slice(0,40);
-    fetch('/api/link-health',{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify({ids})})
-      .then(r=>r.ok?r.json():Promise.reject())
-      .then((d:{dead?:string[]})=>{
-        if(!Array.isArray(d.dead)||!d.dead.length)return;
-        const dead=new Set(d.dead);
-        document.querySelectorAll<HTMLElement>('article.car').forEach(card=>{
-          const original=card.querySelector<HTMLAnchorElement>('a.listing-link');
-          const listing=feed.listings.find(l=>l.url===original?.href);
-          if(listing&&dead.has(listing.id)) card.remove();
-        });
-        const remaining=feed.listings.filter(l=>!dead.has(l.id)).length;
-        const metric=document.querySelector<HTMLElement>('.metrics strong');
-        if(metric) metric.textContent=remaining.toString().padStart(2,'0');
-      }).catch(()=>{});
   },[feed.listings,pathname]);
 
   return portalHost&&createPortal(<>

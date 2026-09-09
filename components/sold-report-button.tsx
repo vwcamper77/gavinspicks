@@ -7,5 +7,5 @@ export default function SoldReportButton({id}:{id:string}){
   try{const r=await fetch('/api/reports',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({id})});if(!r.ok)throw Error();setState('sent');}
   catch{setState('error');}
  }
- return <div className="sold-report"><button type="button" onClick={report} disabled={state==='sending'||state==='sent'}>{state==='sending'?'Sending…':state==='sent'?'Reported — recheck pending':'Mark as sold'}</button><output>{state==='sent'?'Thank you. We’ll check the seller’s advert before changing its status.':state==='error'?'Could not save your report. Please try again.':'Seen it sold? Flag it for the next hourly check.'}</output></div>;
+ return <div className="sold-report"><button type="button" onClick={report} disabled={state==='sending'||state==='sent'}>{state==='sending'?'Sending…':state==='sent'?'Reported — recheck pending':'Report unavailable'}</button><output>{state==='sent'?'Thank you. We’ll check the seller’s advert before changing its status.':state==='error'?'Could not save your report. Please try again.':'Sold, reserved or advert removed? Let Gavin know.'}</output></div>;
 }
