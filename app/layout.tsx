@@ -1,4 +1,5 @@
 import type {Metadata} from 'next';
+import SiteEnhancements from '@/components/site-enhancements';
 import './globals.css';
 export const metadata:Metadata={metadataBase:new URL('https://www.gavinspicks.com'),icons:{icon:'/supercar-logo.png',apple:'/supercar-logo.png'},openGraph:{title:'Gavin’s Picks — Rare finds. Available now.',description:'Selected UK cars available to buy now. Rare finds, great specifications and modern classics, handpicked by Gavin.',url:'/',siteName:'Gavin’s Picks',type:'website',images:[{url:'/api/share-image',width:1200,height:630,alt:'Gavin’s Picks — Rare finds. Available now.'}]},twitter:{card:'summary_large_image',images:['/api/share-image']},title:'Gavin’s Picks — Rare finds. Available now.',description:'Selected UK cars available to buy now. Rare finds, great specifications and modern classics, handpicked by Gavin. £10,000–£100,000, with asking prices, seller photos and availability checked.'};
-export default function RootLayout({children}:{children:React.ReactNode}){return <html lang="en-GB"><body>{children}</body></html>}
+export default function RootLayout({children}:{children:React.ReactNode}){return <html lang="en-GB"><body>{children}<SiteEnhancements/></body></html>}
