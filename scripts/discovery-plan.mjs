@@ -2,9 +2,10 @@ import { readFile } from 'node:fs/promises';
 
 const root = new URL('../', import.meta.url);
 const read = async (path) => JSON.parse(await readFile(new URL(path, root), 'utf8'));
-const [models, state, config] = await Promise.all([
-  read('data/models.json'), read('data/search-state.json'), read('data/discovery-sources.json'),
+const [baseModels, extraModels, state, config] = await Promise.all([
+  read('data/models.json'), read('data/extra-models.json'), read('data/search-state.json'), read('data/discovery-sources.json'),
 ]);
+const models=[...baseModels,...extraModels];
 const args = process.argv.slice(2);
 const all = args.includes('--all');
 const priority = args.includes('--priority');
@@ -13,7 +14,8 @@ if (args.some((arg) => !['--all','--priority'].includes(arg)) || (all && priorit
 const offset = all ? 0 : state.lastCompletedIndex;
 if (!Number.isInteger(offset) || offset < 0 || offset > models.length) throw new Error('Invalid lastCompletedIndex');
 const start = offset % models.length;
-const selected = priority ? models.filter(m=>['model-056','model-070','model-072','model-075','model-076','model-078','model-082','model-085','model-088'].includes(m.id)) : Array.from({ length: all ? models.length : Math.min(12, models.length) }, (_, i) => models[(start + i) % models.length]);
+const priorityIds=['model-056','model-070','model-072','model-075','model-076','model-078','model-082','model-085','model-088','model-096','model-097'];
+const selected = priority ? models.filter(m=>priorityIds.includes(m.id)) : Array.from({ length: all ? models.length : Math.min(12, models.length) }, (_, i) => models[(start + i) % models.length]);
 const variants = (model) => model.searchVariants ?? (model.id === 'model-070'
   ? ['Ford Focus RS Mk1', 'Ford Focus RS Mk2', 'Ford Focus RS500']
   : model.id === 'model-077'
@@ -21,7 +23,10 @@ const variants = (model) => model.searchVariants ?? (model.id === 'model-070'
     : [`${model.make} ${model.name}`]);
 
 const searches = selected.flatMap((model) => variants(model).flatMap((variant) => {
-  const query = `${variant} UK for sale${model.maxMileageExclusive ? ` under ${model.maxMileageExclusive} miles` : ""}${model.maxOwnerCount ? " low owners" : ""}`;
+  const mileage = model.maxMileageInclusive
+    ? ` up to ${model.maxMileageInclusive} miles`
+    : model.maxMileageExclusive ? ` under ${model.maxMileageExclusive} miles` : '';
+  const query = `${variant} UK for sale${mileage}${model.maxOwnerCount ? ' low owners' : ''}`;
   const jobs = config.sources.map((source) => ({
     modelId: model.id, variant, source: source.id,
     query: `site:${source.site} ${query}`,
@@ -48,8 +53,8 @@ const searches = selected.flatMap((model) => variants(model).flatMap((variant) =
 }));
 console.log(JSON.stringify({
   generatedAt: new Date().toISOString(),
-  instruction: 'Search plan only. Execute searches and inspect adverts; pending does not mean checked. Preserve the existing eligibility gate.',
+  instruction: 'Search plan only. Execute searches and inspect adverts; pending does not mean checked. Preserve the existing eligibility gate. E46 M3 must be a factory manual Coupe; E39 M5 must be the factory manual saloon. Both are capped at 50,000 miles.',
   nextCompletedIndex: priority ? state.lastCompletedIndex : (start + selected.length) % models.length,
-  mode: priority ? "priority" : all ? "all" : "rotation",
+  mode: priority ? 'priority' : all ? 'all' : 'rotation',
   searches,
 }, null, 2));
