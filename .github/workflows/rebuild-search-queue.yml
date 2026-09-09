@@ -7,7 +7,10 @@ on:
       - 'data/models.json'
       - 'data/extra-models.json'
       - 'data/discovery-sources.json'
+      - 'data/search-job-state.json'
+      - 'data/worker-candidates.json'
       - 'scripts/build-search-queue.mjs'
+      - 'scripts/merge-worker-candidates.mjs'
       - '.github/workflows/rebuild-search-queue.yml'
   workflow_dispatch:
 
@@ -25,14 +28,16 @@ jobs:
           node-version: 22
       - name: Build complete watchlist/source queue
         run: node scripts/build-search-queue.mjs
-      - name: Commit generated queue
+      - name: Merge worker candidates into verification queue
+        run: node scripts/merge-worker-candidates.mjs
+      - name: Commit generated queues
         run: |
-          if [ -z "$(git status --porcelain -- data/search-queue.json)" ]; then
-            echo 'Search queue already current.'
+          if [ -z "$(git status --porcelain -- data/search-queue.json data/discovery-queue.json)" ]; then
+            echo 'Queues already current.'
             exit 0
           fi
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data/search-queue.json
-          git commit -m 'Refresh watchlist search queue'
+          git add data/search-queue.json data/discovery-queue.json
+          git commit -m 'Refresh watchlist worker queues'
           git push
