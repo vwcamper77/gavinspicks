@@ -1,7 +1,7 @@
 import {ImageResponse} from 'next/og';
 import {readFile} from 'node:fs/promises';
 import path from 'node:path';
-import feed from '@/data/feed.json';
+import feed from '@/lib/combined-feed';
 import {isLiveListing} from '@/lib/eligibility';
 
 export async function shareImage(id:string|null){

@@ -1,7 +1,7 @@
 import type {Metadata} from 'next';
 import {notFound} from 'next/navigation';
 import CarBrowser from '@/components/car-browser';
-import feed from '@/data/feed.json';
+import feed from '@/lib/combined-feed';
 import {isLiveListing} from '@/lib/eligibility';
 export const dynamic='force-dynamic';
 type Props={params:Promise<{id:string}>};

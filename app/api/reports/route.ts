@@ -1,5 +1,5 @@
 import {get,put} from '@vercel/blob';
-import feed from '@/data/feed.json';
+import feed from '@/lib/combined-feed';
 import history from '@/data/history.json';
 import {acceptSoldReport} from '@/lib/sold-reports';
 export const runtime='nodejs';
