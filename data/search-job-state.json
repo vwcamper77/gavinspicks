@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-10T12:17:07Z",
+  "updatedAt": "2026-09-10T13:56:00Z",
   "compactedFromQueueAt": "2026-09-10T06:41:54.207Z",
   "note": "Cumulative worker-write state. Job results are merged from immutable run deltas and folded back into data/search-queue.json by scripts/build-search-queue.mjs.",
   "jobs": {
@@ -2153,6 +2153,362 @@
       "lastResultCount": 0,
       "candidateUrls": [],
       "limitation": "No plausible current direct UK Exige S/S 240 sale advert was captured from publicly accessible FerrariChat results."
+    },
+    "model-082:ebay:subaru-impreza-p1": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T13:56:00Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Public web search executed; current results found were over the strict under-30,000-mile P1 cap, so no candidate was retained."
+    },
+    "model-082:gumtree:subaru-impreza-p1": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T13:56:00Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Public web search executed; the plausible P1 result found was over the strict under-30,000-mile cap, so no candidate was retained."
+    },
+    "model-082:pistonheads:subaru-impreza-p1": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T13:56:00Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Public web search executed; results were stale/completed-auction or failed the mileage/availability rules. No current qualifying advert retained."
+    },
+    "model-082:specialist-dealers:subaru-impreza-p1": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T13:56:00Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Public specialist-dealer search executed; no current P1 advert satisfying the strict mileage and ownership rules was established."
+    },
+    "model-085:autotrader:subaru-impreza-rb320": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T13:56:00Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Public web search executed; no current RB320 advert satisfying the strict under-30,000-mile and maximum-two-owner rules was established."
+    },
+    "model-085:car-and-classic:subaru-impreza-rb320": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T13:56:00Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Public web search executed; returned historical/sold or out-of-rule RB320 material only. No current qualifying advert retained."
+    },
+    "model-085:ebay:subaru-impreza-rb320": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T13:56:00Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Public web search executed; no plausible current RB320 advert satisfying the strict mileage/ownership rules was established."
+    },
+    "model-085:pistonheads:subaru-impreza-rb320": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T13:56:00Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "A 23,855-mile, one-owner RB320 advert was inspected, but the live page states the car is no longer available for purchase. Rejected."
+    },
+    "model-076:bonhams-cars:ford-focus-st500": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T13:56:00Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Public web search executed; no plausible current fixed-price Ford Focus ST500 advert found."
+    },
+    "model-076:classic-trader:ford-focus-st500": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T13:56:00Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Public web search executed; no plausible current Ford Focus ST500 advert found."
+    },
+    "model-076:collecting-cars:ford-focus-st500": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T13:56:00Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Public web search executed; results were historical/completed-sale material, not a current qualifying advert."
+    },
+    "model-070:911uk:ford-focus-rs-mk1": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T13:56:00Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Public indexed 911UK search executed; no plausible current Focus RS Mk1 vehicle advert found."
+    },
+    "model-070:911uk:ford-focus-rs-mk2": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T13:56:00Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Public indexed 911UK search executed; no plausible current Focus RS Mk2 vehicle advert found."
+    },
+    "model-070:911uk:ford-focus-rs500": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T13:56:00Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Public indexed 911UK search executed; no plausible current Focus RS500 vehicle advert found."
+    },
+    "model-070:facebook-groups:ford-focus-rs-mk2": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T13:56:00Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Public indexed Facebook-group search executed; no plausible current sale post was found. Restricted/private group content was not accessed."
+    },
+    "model-070:facebook-groups:ford-focus-rs500": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T13:56:00Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Public indexed Facebook-group search executed; no plausible current sale post was found. Restricted/private group content was not accessed."
+    },
+    "model-070:ferrarichat:ford-focus-rs-mk1": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T13:56:00Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Public indexed FerrariChat search executed; no plausible current Focus RS Mk1 vehicle advert found."
+    },
+    "model-070:ferrarichat:ford-focus-rs-mk2": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T13:56:00Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Public indexed FerrariChat search executed; no plausible current Focus RS Mk2 vehicle advert found."
+    },
+    "model-070:ferrarichat:ford-focus-rs500": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T13:56:00Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Public indexed FerrariChat search executed; no plausible current Focus RS500 vehicle advert found."
+    },
+    "model-070:lamborghini-talk:ford-focus-rs-mk1": {
+      "status": "blocked",
+      "lastSearchedAt": "2026-09-10T13:56:00Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Public web access to LamborghiniTalk was blocked by robots.txt; no listing results could be inspected."
+    },
+    "model-028:gumtree:lotus-exige-s-s-240": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T13:56:00Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Public web search executed; no plausible current Lotus Exige S/S240 advert was established."
+    },
+    "model-028:lamborghini-talk:lotus-exige-s-s-240": {
+      "status": "blocked",
+      "lastSearchedAt": "2026-09-10T13:56:00Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Public web access to LamborghiniTalk was blocked by robots.txt; no listing results could be inspected."
+    },
+    "model-028:pistonheads:lotus-exige-s-s-240": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T13:56:00Z",
+      "lastResultCount": 3,
+      "candidateUrls": [
+        "https://www.pistonheads.com/buy/listing/20772154",
+        "https://www.pistonheads.com/buy/listing/20460840",
+        "https://www.pistonheads.com/buy/listing/16696591"
+      ],
+      "limitation": "Public PistonHeads search executed; three current direct adverts were retained as verification candidates. Live textual sale controls were visible, but seller photographs could not be visually inspected in this run."
+    },
+    "model-028:specialist-dealers:lotus-exige-s-s-240": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T13:56:00Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Public specialist-dealer search executed; no additional current direct Exige S/S240 advert was established beyond retained PistonHeads candidates."
+    },
+    "model-029:911uk:lotus-exige-240r": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T13:56:00Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Public web search executed; no plausible current Lotus Exige 240R advert matching the rules was established."
+    },
+    "model-029:autotrader:lotus-exige-240r": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T13:56:00Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Public web search executed; no plausible current Lotus Exige 240R advert matching the rules was established."
+    },
+    "model-029:bonhams-cars:lotus-exige-240r": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T13:56:00Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Public web search executed; no plausible current Lotus Exige 240R advert matching the rules was established."
+    },
+    "model-029:car-and-classic:lotus-exige-240r": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T13:56:00Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Public web search executed; no plausible current Lotus Exige 240R advert matching the rules was established."
+    },
+    "model-029:classic-trader:lotus-exige-240r": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T13:56:00Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Public web search executed; no plausible current Lotus Exige 240R advert matching the rules was established."
+    },
+    "model-029:collecting-cars:lotus-exige-240r": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T13:56:00Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Public web search executed; no plausible current Lotus Exige 240R advert matching the rules was established."
+    },
+    "model-029:ebay:lotus-exige-240r": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T13:56:00Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Public web search executed; no plausible current Lotus Exige 240R advert matching the rules was established."
+    },
+    "model-029:facebook-groups:lotus-exige-240r": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T13:56:00Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Public indexed Facebook-group search executed; no plausible current Lotus Exige 240R sale post was found. Restricted/private group content was not accessed."
+    },
+    "model-029:ferrarichat:lotus-exige-240r": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T13:56:00Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Public web search executed; no plausible current Lotus Exige 240R advert matching the rules was established."
+    },
+    "model-029:gumtree:lotus-exige-240r": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T13:56:00Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Public web search executed; no plausible current Lotus Exige 240R advert matching the rules was established."
+    },
+    "model-029:lamborghini-talk:lotus-exige-240r": {
+      "status": "blocked",
+      "lastSearchedAt": "2026-09-10T13:56:00Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Public web access to LamborghiniTalk was blocked by robots.txt; no listing results could be inspected."
+    },
+    "model-029:pistonheads:lotus-exige-240r": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T13:56:00Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Public PistonHeads search executed; the direct 240R result inspected is no longer available, so no candidate was retained."
+    },
+    "model-029:specialist-dealers:lotus-exige-240r": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T13:56:00Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Public specialist-dealer search executed; no plausible current Lotus Exige 240R advert was established."
+    },
+    "model-030:911uk:lotus-exige-cup-240-cup-260": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T13:56:00Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Public web search executed; no additional plausible current road-registered Lotus Exige Cup 240/Cup 260 advert was established."
+    },
+    "model-030:autotrader:lotus-exige-cup-240-cup-260": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T13:56:00Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Public web search executed; no additional plausible current road-registered Lotus Exige Cup 240/Cup 260 advert was established."
+    },
+    "model-030:bonhams-cars:lotus-exige-cup-240-cup-260": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T13:56:00Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Public web search executed; no additional plausible current road-registered Lotus Exige Cup 240/Cup 260 advert was established."
+    },
+    "model-030:car-and-classic:lotus-exige-cup-240-cup-260": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T13:56:00Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Public web search executed; no additional plausible current road-registered Lotus Exige Cup 240/Cup 260 advert was established."
+    },
+    "model-030:classic-trader:lotus-exige-cup-240-cup-260": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T13:56:00Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Public web search executed; no additional plausible current road-registered Lotus Exige Cup 240/Cup 260 advert was established."
+    },
+    "model-030:collecting-cars:lotus-exige-cup-240-cup-260": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T13:56:00Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Public web search executed; no additional plausible current road-registered Lotus Exige Cup 240/Cup 260 advert was established."
+    },
+    "model-030:ebay:lotus-exige-cup-240-cup-260": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T13:56:00Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Public eBay search executed; results were parts/accessories rather than a qualifying current vehicle advert."
+    },
+    "model-030:facebook-groups:lotus-exige-cup-240-cup-260": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T13:56:00Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Public indexed Facebook-group search executed; no plausible current Exige Cup 240/Cup 260 sale post was found. Restricted/private group content was not accessed."
+    },
+    "model-030:ferrarichat:lotus-exige-cup-240-cup-260": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T13:56:00Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Public web search executed; no additional plausible current road-registered Lotus Exige Cup 240/Cup 260 advert was established."
+    },
+    "model-030:gumtree:lotus-exige-cup-240-cup-260": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T13:56:00Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Public web search executed; no additional plausible current road-registered Lotus Exige Cup 240/Cup 260 advert was established."
+    },
+    "model-030:lamborghini-talk:lotus-exige-cup-240-cup-260": {
+      "status": "blocked",
+      "lastSearchedAt": "2026-09-10T13:56:00Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Public web access to LamborghiniTalk was blocked by robots.txt; no listing results could be inspected."
+    },
+    "model-030:pistonheads:lotus-exige-cup-240-cup-260": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T13:56:00Z",
+      "lastResultCount": 1,
+      "candidateUrls": [
+        "https://www.pistonheads.com/buy/listing/19837622"
+      ],
+      "limitation": "Public PistonHeads search executed; one current direct road-legal Exige 240 Cup Race Spec advert was retained. Live textual sale controls were visible, but seller photographs could not be visually inspected in this run."
+    },
+    "model-030:specialist-dealers:lotus-exige-cup-240-cup-260": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T13:56:00Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Public specialist-dealer search executed; no additional plausible current road-registered Exige Cup 240/Cup 260 advert was established."
     }
   }
 }
