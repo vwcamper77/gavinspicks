@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T14:05:39.904Z",
+  "generatedAt": "2026-09-10T14:32:00.052Z",
   "modelCount": 96,
   "sourceCount": 13,
   "jobCount": 1482,
@@ -6751,11 +6751,11 @@
       "query": "site:facebook.com/groups Lotus Elise S1 111S UK for sale",
       "priority": false,
       "cadenceHours": 24,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T14:18:00Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "Publicly indexed Facebook-group search executed; no plausible current S1 111S sale post was found. Restricted/private group content was not accessed."
     },
     {
       "id": "model-031:ebay:lotus-elise-s1-111s",
@@ -6768,11 +6768,11 @@
       "query": "site:ebay.co.uk/itm Lotus Elise S1 111S UK for sale",
       "priority": false,
       "cadenceHours": 6,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T14:18:00Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "eBay search executed; returned results were predominantly parts, memorabilia or otherwise non-qualifying material rather than a current eligible vehicle advert."
     },
     {
       "id": "model-031:autotrader:lotus-elise-s1-111s",
@@ -6785,11 +6785,11 @@
       "query": "site:autotrader.co.uk/car-details Lotus Elise S1 111S UK for sale",
       "priority": false,
       "cadenceHours": 6,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T14:18:00Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "Auto Trader search executed; generic/category results did not provide a new current direct car-detail advert for an eligible S1 111S."
     },
     {
       "id": "model-031:pistonheads:lotus-elise-s1-111s",
@@ -6802,11 +6802,14 @@
       "query": "site:pistonheads.com/buy Lotus Elise S1 111S UK for sale",
       "priority": false,
       "cadenceHours": 6,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
-      "candidateUrls": [],
-      "limitation": null
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T14:18:00Z",
+      "lastResultCount": 2,
+      "candidateUrls": [
+        "https://www.pistonheads.com/buy/listing/20465325",
+        "https://www.pistonheads.com/buy/listing/20947566"
+      ],
+      "limitation": "Two current direct S1 111S adverts were retained: #20465325 at £24,995 / 63,000 miles / manual, with live seller controls and a valid MOT; and #20947566 at £32,950 / 14,362 miles / manual from Hofmanns, with a valid MOT. Seller-photo visual verification remains outstanding."
     },
     {
       "id": "model-031:car-and-classic:lotus-elise-s1-111s",
@@ -6819,11 +6822,14 @@
       "query": "site:carandclassic.com Lotus Elise S1 111S UK for sale",
       "priority": false,
       "cadenceHours": 6,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
-      "candidateUrls": [],
-      "limitation": null
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T14:18:00Z",
+      "lastResultCount": 2,
+      "candidateUrls": [
+        "https://www.carandclassic.com/l/C2039177",
+        "https://www.carandclassic.com/l/C2141509"
+      ],
+      "limitation": "Two current direct UK S1 111S adverts were retained: C2039177, a 1999 car at £22,950 / 22,750 miles / manual with live For Sale controls; and C2141509, a 2000 car at £26,950 / 21,380 miles / manual with full-history and second-owner claims. Other surfaced exact pages were explicitly removed through sale or otherwise."
     },
     {
       "id": "model-031:collecting-cars:lotus-elise-s1-111s",
@@ -6836,11 +6842,11 @@
       "query": "site:collectingcars.com Lotus Elise S1 111S UK for sale",
       "priority": false,
       "cadenceHours": 12,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T14:18:00Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "Collecting Cars search executed; historical/completed auction material did not qualify as a current fixed-price advert."
     },
     {
       "id": "model-031:bonhams-cars:lotus-elise-s1-111s",
@@ -6853,11 +6859,11 @@
       "query": "site:cars.bonhams.com Lotus Elise S1 111S UK for sale",
       "priority": false,
       "cadenceHours": 12,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T14:18:00Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "Bonhams Cars search executed; no current fixed-price eligible UK Elise S1 111S advert was established."
     },
     {
       "id": "model-031:classic-trader:lotus-elise-s1-111s",
@@ -6870,11 +6876,11 @@
       "query": "site:classic-trader.com Lotus Elise S1 111S UK for sale",
       "priority": false,
       "cadenceHours": 12,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T14:18:00Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "Classic Trader search executed; no plausible current direct UK S1 111S advert was established."
     },
     {
       "id": "model-031:gumtree:lotus-elise-s1-111s",
@@ -6887,11 +6893,11 @@
       "query": "site:gumtree.com Lotus Elise S1 111S UK for sale",
       "priority": false,
       "cadenceHours": 6,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T14:18:00Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "Gumtree search executed; no plausible current direct eligible UK S1 111S vehicle advert was established."
     },
     {
       "id": "model-031:911uk:lotus-elise-s1-111s",
@@ -6904,11 +6910,11 @@
       "query": "site:911uk.com Lotus Elise S1 111S UK for sale",
       "priority": false,
       "cadenceHours": 24,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T14:18:00Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "Public indexed 911UK search executed; no plausible current direct UK Elise S1 111S sale advert was established."
     },
     {
       "id": "model-031:ferrarichat:lotus-elise-s1-111s",
@@ -6921,11 +6927,11 @@
       "query": "site:ferrarichat.com Lotus Elise S1 111S UK for sale",
       "priority": false,
       "cadenceHours": 24,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T14:18:00Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "Public FerrariChat search executed; no plausible current direct UK S1 111S sale advert was established."
     },
     {
       "id": "model-031:lamborghini-talk:lotus-elise-s1-111s",
@@ -6938,11 +6944,11 @@
       "query": "site:lamborghini-talk.com Lotus Elise S1 111S UK for sale",
       "priority": false,
       "cadenceHours": 24,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "blocked",
+      "lastSearchedAt": "2026-09-10T14:18:00Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "Public access/search to lamborghini-talk.com is blocked by robots.txt; no access-control bypass attempted."
     },
     {
       "id": "model-031:specialist-dealers:lotus-elise-s1-111s",
@@ -6955,11 +6961,11 @@
       "query": "Lotus Elise S1 111S UK for sale specialist dealer current stock",
       "priority": false,
       "cadenceHours": 6,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T14:18:00Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "Specialist-dealer search executed; no additional new canonical direct S1 111S dealer advert was established beyond retained marketplace candidates."
     },
     {
       "id": "model-032:facebook-groups:lotus-elise-sport-160",
@@ -6972,11 +6978,11 @@
       "query": "site:facebook.com/groups Lotus Elise Sport 160 UK for sale",
       "priority": false,
       "cadenceHours": 24,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T14:18:00Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "Publicly indexed Facebook-group search executed; no plausible current Sport 160 sale post was found. Restricted/private group content was not accessed."
     },
     {
       "id": "model-032:ebay:lotus-elise-sport-160",
@@ -6989,11 +6995,11 @@
       "query": "site:ebay.co.uk/itm Lotus Elise Sport 160 UK for sale",
       "priority": false,
       "cadenceHours": 6,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T14:18:00Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "eBay search executed; results were predominantly parts, toys, seats or brochure material rather than a qualifying current Sport 160 vehicle advert."
     },
     {
       "id": "model-032:autotrader:lotus-elise-sport-160",
@@ -7006,11 +7012,11 @@
       "query": "site:autotrader.co.uk/car-details Lotus Elise Sport 160 UK for sale",
       "priority": false,
       "cadenceHours": 6,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T14:18:00Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "Auto Trader search executed; generic/category results did not establish a new current direct Sport 160 car-detail advert."
     },
     {
       "id": "model-032:pistonheads:lotus-elise-sport-160",
@@ -7023,11 +7029,15 @@
       "query": "site:pistonheads.com/buy Lotus Elise Sport 160 UK for sale",
       "priority": false,
       "cadenceHours": 6,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
-      "candidateUrls": [],
-      "limitation": null
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T14:18:00Z",
+      "lastResultCount": 3,
+      "candidateUrls": [
+        "https://www.pistonheads.com/buy/listing/19280389",
+        "https://www.pistonheads.com/buy/listing/20032849",
+        "https://www.pistonheads.com/buy/listing/18645148"
+      ],
+      "limitation": "Three current direct Sport 160 adverts were retained. #19280389 is £27,500 / 30,000 miles / manual; #20032849 is £30,000 / 26,000 miles / manual; #18645148 is a 1-of-50 SVA at the current direct-page price of £34,995 / 31,000 miles / manual. #20501493 was explicitly no longer available and was rejected. Visual seller-photo verification remains outstanding."
     },
     {
       "id": "model-032:car-and-classic:lotus-elise-sport-160",
@@ -7040,11 +7050,11 @@
       "query": "site:carandclassic.com Lotus Elise Sport 160 UK for sale",
       "priority": false,
       "cadenceHours": 6,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T14:18:00Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "Car & Classic search executed; exact results were removed/sold or offline-auction material rather than current fixed-price eligible adverts."
     },
     {
       "id": "model-032:collecting-cars:lotus-elise-sport-160",
@@ -7057,11 +7067,11 @@
       "query": "site:collectingcars.com Lotus Elise Sport 160 UK for sale",
       "priority": false,
       "cadenceHours": 12,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T14:18:00Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "Collecting Cars search executed; historical/completed auction material was rejected and no current fixed-price Sport 160 advert was retained."
     },
     {
       "id": "model-032:bonhams-cars:lotus-elise-sport-160",
@@ -7074,11 +7084,11 @@
       "query": "site:cars.bonhams.com Lotus Elise Sport 160 UK for sale",
       "priority": false,
       "cadenceHours": 12,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T14:18:00Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "Bonhams Cars search executed; no current fixed-price eligible UK Elise Sport 160 advert was established."
     },
     {
       "id": "model-032:classic-trader:lotus-elise-sport-160",
@@ -7091,11 +7101,11 @@
       "query": "site:classic-trader.com Lotus Elise Sport 160 UK for sale",
       "priority": false,
       "cadenceHours": 12,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T14:18:00Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "Classic Trader search executed; no plausible current direct UK Sport 160 advert was established."
     },
     {
       "id": "model-032:gumtree:lotus-elise-sport-160",
@@ -7108,11 +7118,11 @@
       "query": "site:gumtree.com Lotus Elise Sport 160 UK for sale",
       "priority": false,
       "cadenceHours": 6,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T14:18:00Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "Gumtree search executed; no plausible current direct eligible UK Sport 160 vehicle advert was established."
     },
     {
       "id": "model-032:911uk:lotus-elise-sport-160",
@@ -7125,11 +7135,11 @@
       "query": "site:911uk.com Lotus Elise Sport 160 UK for sale",
       "priority": false,
       "cadenceHours": 24,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T14:18:00Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "Public indexed 911UK search executed; no plausible current direct UK Elise Sport 160 sale advert was established."
     },
     {
       "id": "model-032:ferrarichat:lotus-elise-sport-160",
@@ -7142,11 +7152,11 @@
       "query": "site:ferrarichat.com Lotus Elise Sport 160 UK for sale",
       "priority": false,
       "cadenceHours": 24,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T14:18:00Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "Public FerrariChat search executed; no plausible current direct UK Sport 160 advert was established."
     },
     {
       "id": "model-032:lamborghini-talk:lotus-elise-sport-160",
@@ -7159,11 +7169,11 @@
       "query": "site:lamborghini-talk.com Lotus Elise Sport 160 UK for sale",
       "priority": false,
       "cadenceHours": 24,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "blocked",
+      "lastSearchedAt": "2026-09-10T14:18:00Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "Public access/search to lamborghini-talk.com is blocked by robots.txt; no access-control bypass attempted."
     },
     {
       "id": "model-032:specialist-dealers:lotus-elise-sport-160",
@@ -7176,11 +7186,11 @@
       "query": "Lotus Elise Sport 160 UK for sale specialist dealer current stock",
       "priority": false,
       "cadenceHours": 6,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T14:18:00Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "Specialist-dealer search executed; no additional new canonical direct Sport 160 dealer advert was established beyond retained marketplace candidates."
     },
     {
       "id": "model-033:facebook-groups:lotus-elise-s2-135r",
@@ -7227,11 +7237,11 @@
       "query": "site:autotrader.co.uk/car-details Lotus Elise S2 135R UK for sale",
       "priority": false,
       "cadenceHours": 6,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T14:18:00Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "Auto Trader search executed; generic/category results did not establish a new current direct 135R car-detail advert."
     },
     {
       "id": "model-033:pistonheads:lotus-elise-s2-135r",
@@ -7261,11 +7271,13 @@
       "query": "site:carandclassic.com Lotus Elise S2 135R UK for sale",
       "priority": false,
       "cadenceHours": 6,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
-      "candidateUrls": [],
-      "limitation": null
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T14:18:00Z",
+      "lastResultCount": 1,
+      "candidateUrls": [
+        "https://www.carandclassic.com/au/l/C2057404"
+      ],
+      "limitation": "A direct current-looking 2003 Elise S2 135R at £16,000 / 43,000 miles / five-speed manual / RHD from a private seller in Rushden was retained. Search evidence showed a For Sale advert with 32 photos; direct deep fetch and visual photo verification remain outstanding."
     },
     {
       "id": "model-033:collecting-cars:lotus-elise-s2-135r",
@@ -7295,11 +7307,11 @@
       "query": "site:cars.bonhams.com Lotus Elise S2 135R UK for sale",
       "priority": false,
       "cadenceHours": 12,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T14:18:00Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "Bonhams Cars search executed; no current fixed-price eligible UK Elise 135R advert was established."
     },
     {
       "id": "model-033:classic-trader:lotus-elise-s2-135r",
@@ -7346,11 +7358,11 @@
       "query": "site:911uk.com Lotus Elise S2 135R UK for sale",
       "priority": false,
       "cadenceHours": 24,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T14:18:00Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "Public indexed 911UK search executed; no plausible current direct UK Elise S2 135R sale advert was established."
     },
     {
       "id": "model-033:ferrarichat:lotus-elise-s2-135r",
@@ -16004,10 +16016,10 @@
       "priority": true,
       "cadenceHours": 6,
       "status": "blocked",
-      "lastSearchedAt": "2026-09-09T22:34:18Z",
+      "lastSearchedAt": "2026-09-10T14:18:00Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public search access to lamborghini-talk.com was blocked by robots.txt; no bypass attempted."
+      "limitation": "Public access/search to lamborghini-talk.com is blocked by robots.txt; no access-control bypass attempted."
     },
     {
       "id": "model-070:specialist-dealers:ford-focus-rs-mk2",
@@ -16089,10 +16101,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T03:34:20Z",
+      "lastSearchedAt": "2026-09-10T14:18:00Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No new direct current genuine RS500 advert URL was captured."
+      "limitation": "Public PistonHeads search executed; results were editorial/historical material rather than a current direct RS500 advert."
     },
     {
       "id": "model-070:car-and-classic:ford-focus-rs500",
@@ -16106,10 +16118,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T03:34:20Z",
+      "lastSearchedAt": "2026-09-10T14:18:00Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No current qualifying UK RS500 advert was captured; overseas/LHD or historical material was rejected."
+      "limitation": "Public Car & Classic search executed; no plausible current direct UK Focus RS500 advert passed the pre-verification screen."
     },
     {
       "id": "model-070:collecting-cars:ford-focus-rs500",
@@ -16242,10 +16254,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T03:34:20Z",
+      "lastSearchedAt": "2026-09-10T14:18:00Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No current specialist-dealer RS500 advert meeting the UK/current-sale rules was captured."
+      "limitation": "Specialist-dealer search executed; no plausible current direct UK RS500 stock advert was established."
     },
     {
       "id": "model-071:facebook-groups:bmw-m5-touring-e61-5-0-v10-smg",
@@ -17162,10 +17174,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T05:43:24Z",
+      "lastSearchedAt": "2026-09-10T14:18:00Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "An active auction result was below the £10,000 floor and had no qualifying fixed asking price; no candidate was retained."
+      "limitation": "eBay search executed. A current-looking £6,990 classified was below the £10,000 floor; other exact results were ended/no-longer-available or old listing remnants, so none were retained."
     },
     {
       "id": "model-075:autotrader:audi-tt-quattro-sport",
@@ -17179,10 +17191,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T05:43:24Z",
+      "lastSearchedAt": "2026-09-10T14:18:00Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Current inventory was discoverable but no new direct car-detail URL suitable for verification was captured."
+      "limitation": "Auto Trader search executed; indexed results were generic/category pages and did not establish a new current direct TT quattro Sport advert."
     },
     {
       "id": "model-075:pistonheads:audi-tt-quattro-sport",
@@ -17196,12 +17208,12 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T05:43:24Z",
+      "lastSearchedAt": "2026-09-10T14:18:00Z",
       "lastResultCount": 1,
       "candidateUrls": [
-        "https://www.pistonheads.com/buy/listing/19212579"
+        "https://www.pistonheads.com/buy/listing/20852624"
       ],
-      "limitation": "One plausible current direct TT quattro Sport advert at £12,490/77,000 miles was retained; several other results were below £10,000 or explicitly no longer available. Photo/originality/current-stock verification remains outstanding."
+      "limitation": "A current direct 2006 TT quattro Sport result at £12,995 / 46,157 miles / manual was retained. PistonHeads describes it as one of 800 special-edition cars. Exact deep-page fetch and visual seller-photo verification remain outstanding."
     },
     {
       "id": "model-075:car-and-classic:audi-tt-quattro-sport",
@@ -17215,10 +17227,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T05:43:24Z",
+      "lastSearchedAt": "2026-09-10T14:18:00Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Direct results inspected were removed/sold or otherwise non-qualifying; no fresh current candidate was retained."
+      "limitation": "Car & Classic search executed. Removed/sold adverts were rejected. Existing published C2070853 was independently rechecked and remains For Sale at £12,990; no new candidate URL was added."
     },
     {
       "id": "model-075:collecting-cars:audi-tt-quattro-sport",
@@ -17370,10 +17382,10 @@
       "priority": true,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T01:09:53Z",
+      "lastSearchedAt": "2026-09-10T14:18:00Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public indexed Facebook-group query returned no plausible current qualifying UK ST500 advert; no private-group access attempted."
+      "limitation": "Publicly indexed Facebook-group search executed; no plausible current ST500 sale post was found. Restricted/private group content was not accessed."
     },
     {
       "id": "model-076:ebay:ford-focus-st500",
@@ -17523,10 +17535,10 @@
       "priority": true,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T01:09:53Z",
+      "lastSearchedAt": "2026-09-10T14:18:00Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No relevant current qualifying ST500 sale advert URL was captured."
+      "limitation": "Public indexed 911UK search executed; no plausible current direct Focus ST500 sale advert was established."
     },
     {
       "id": "model-076:ferrarichat:ford-focus-st500",
@@ -17540,10 +17552,10 @@
       "priority": true,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T01:09:53Z",
+      "lastSearchedAt": "2026-09-10T14:18:00Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No relevant current qualifying UK ST500 sale advert URL was captured."
+      "limitation": "Public FerrariChat search executed; no plausible current direct UK Focus ST500 sale advert was established."
     },
     {
       "id": "model-076:lamborghini-talk:ford-focus-st500",
@@ -17557,10 +17569,10 @@
       "priority": true,
       "cadenceHours": 6,
       "status": "blocked",
-      "lastSearchedAt": "2026-09-10T01:09:53Z",
+      "lastSearchedAt": "2026-09-10T14:18:00Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public search access to lamborghini-talk.com was blocked by robots.txt; no bypass attempted."
+      "limitation": "Public access/search to lamborghini-talk.com is blocked by robots.txt; no access-control bypass attempted."
     },
     {
       "id": "model-076:specialist-dealers:ford-focus-st500",
@@ -18390,10 +18402,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T06:29:37Z",
+      "lastSearchedAt": "2026-09-10T14:18:00Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No plausible current qualifying Trophy advert was captured; stale or non-current material was rejected."
+      "limitation": "Gumtree search executed; no plausible current direct Clio 182 Trophy advert satisfying price, under-30,000-mile and maximum-two-total-owner rules was established."
     },
     {
       "id": "model-078:911uk:renault-clio-182-trophy",
@@ -18458,10 +18470,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T06:29:37Z",
+      "lastSearchedAt": "2026-09-10T14:18:00Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "A 28,800-mile Trophy was investigated but both the Car & Classic page and originating Pitlane Performance advert explicitly show it as sold; other surfaced cars failed mileage/ownership rules."
+      "limitation": "Specialist-dealer search executed; no current direct Clio 182 Trophy advert satisfying the strict mileage and ownership caps was established."
     },
     {
       "id": "model-079:facebook-groups:renault-clio-williams-2",
@@ -20107,10 +20119,10 @@
       "priority": true,
       "cadenceHours": 3,
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T02:31:01Z",
+      "lastSearchedAt": "2026-09-10T14:18:00Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Only completed/historical P1 auction material was returned; no active qualifying fixed-price advert."
+      "limitation": "Collecting Cars search executed; completed/historical auction material was rejected and no current qualifying fixed-price P1 advert was retained."
     },
     {
       "id": "model-082:bonhams-cars:subaru-impreza-p1",
@@ -20124,10 +20136,10 @@
       "priority": true,
       "cadenceHours": 3,
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T02:31:01Z",
+      "lastSearchedAt": "2026-09-10T14:18:00Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No plausible current fixed-price UK P1 advert satisfying the strict mileage and ownership limits was captured."
+      "limitation": "Bonhams Cars search executed; no current fixed-price UK P1 satisfying the strict under-30,000-mile and maximum-two-total-owner rules was established. Historical auction material was rejected."
     },
     {
       "id": "model-082:classic-trader:subaru-impreza-p1",
@@ -20141,10 +20153,10 @@
       "priority": true,
       "cadenceHours": 3,
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T02:31:01Z",
+      "lastSearchedAt": "2026-09-10T14:18:00Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No plausible current qualifying UK P1 advert was captured."
+      "limitation": "Classic Trader search executed; no plausible current UK P1 satisfying both strict mileage and ownership caps was established."
     },
     {
       "id": "model-082:gumtree:subaru-impreza-p1",
@@ -20770,10 +20782,10 @@
       "priority": true,
       "cadenceHours": 3,
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T02:31:01Z",
+      "lastSearchedAt": "2026-09-10T14:18:00Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Only historical/completed RB320 auction material was returned; no active qualifying fixed-price advert."
+      "limitation": "Collecting Cars search executed; no current qualifying fixed-price RB320 advert satisfying the strict mileage/ownership rules was retained."
     },
     {
       "id": "model-085:bonhams-cars:subaru-impreza-rb320",
@@ -20787,10 +20799,10 @@
       "priority": true,
       "cadenceHours": 3,
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T02:31:01Z",
+      "lastSearchedAt": "2026-09-10T14:18:00Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No plausible current fixed-price qualifying UK RB320 advert was captured."
+      "limitation": "Bonhams Cars search executed; no current fixed-price RB320 satisfying the strict under-30,000-mile and maximum-two-total-owner rules was established."
     },
     {
       "id": "model-085:classic-trader:subaru-impreza-rb320",
@@ -20821,10 +20833,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T06:29:37Z",
+      "lastSearchedAt": "2026-09-10T14:18:00Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Surfaced RB320 classified material was expired or non-current; no qualifying direct advert was retained."
+      "limitation": "Gumtree search executed; no plausible current direct RB320 advert satisfying the strict under-30,000-mile and maximum-two-total-owner rules was established."
     },
     {
       "id": "model-085:911uk:subaru-impreza-rb320",
