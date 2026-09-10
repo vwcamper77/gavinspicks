@@ -3,8 +3,8 @@
 import {useRef, useState} from 'react';
 import {Camera, ChevronLeft, ChevronRight} from 'lucide-react';
 
-export default function ListingGallery({id, title, image, images = [], eager = false}: {
-  id: string; title: string; image: string; images?: string[]; eager?: boolean;
+export default function ListingGallery({title, image, images = [], eager = false}: {
+  title: string; image: string; images?: string[]; eager?: boolean;
 }) {
   const [index, setIndex] = useState(0);
   const [failed, setFailed] = useState<number[]>([]);
@@ -33,7 +33,7 @@ export default function ListingGallery({id, title, image, images = [], eager = f
       const t = event.changedTouches[0], dx = t.clientX - start.x, dy = t.clientY - start.y;
       if (Math.abs(dx) > 45 && Math.abs(dx) > Math.abs(dy)) move(dx < 0 ? 1 : -1);
     }}>
-    {availableIndexes.length ? <img key={`${id}-${sourceIndex}`} src={`/api/listing-image?id=${encodeURIComponent(id)}&index=${sourceIndex}`}
+    {availableIndexes.length ? <img key={`${sourceIndex}-${photos[sourceIndex]}`} src={`/api/listing-image?primary=${encodeURIComponent(image)}&index=${sourceIndex}`}
       alt={`${title} — seller photograph ${currentPosition + 1} of ${availableIndexes.length}`}
       loading={eager ? 'eager' : 'lazy'}
       onError={() => {
