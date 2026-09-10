@@ -57,5 +57,5 @@ export function isLiveListing(l: ListingCheck, now: number): boolean {
  l.specVerified === true && l.ukVerified === true &&
  Number.isFinite(l.price) && l.price >= 10000 && l.price <= 100000 &&
  matchesModelPolicy(l) && matchesMileagePolicy(l) &&
- Number.isFinite(checked) && checked <= now + 60000 && now - checked <= 86400000;
+ Number.isFinite(checked) && checked <= now + 60000 && now - checked <= 172800000;
 }
