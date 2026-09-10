@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-10T17:42:36Z",
+  "updatedAt": "2026-09-10T18:18:04Z",
   "compactedFromQueueAt": "2026-09-10T06:41:54.207Z",
   "note": "Cumulative worker-write state. Job results are merged from immutable run deltas and folded back into data/search-queue.json by scripts/build-search-queue.mjs.",
   "jobs": {
@@ -158,152 +158,164 @@
     },
     "model-001:ebay:ferrari-360-modena-spider-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T07:21:44Z",
-      "lastResultCount": 0,
-      "candidateUrls": [],
-      "limitation": "The broad query surfaced manuals/memorabilia rather than a new vehicle advert. Existing item 287369281332 was separately revalidated as current but is already in the verification queue."
+      "lastSearchedAt": "2026-09-10T18:18:04Z",
+      "lastResultCount": 1,
+      "candidateUrls": [
+        "https://www.ebay.co.uk/itm/287369281332"
+      ],
+      "limitation": "Current 2004 Ferrari 360 Spider manual classified at £74,989 resurfaced; it is already in the verification queue, so no duplicate worker candidate was added."
     },
     "model-001:autotrader:ferrari-360-modena-spider-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T07:21:44Z",
+      "lastSearchedAt": "2026-09-10T18:18:04Z",
       "lastResultCount": 0,
       "candidateUrls": [],
       "limitation": "No new direct current Auto Trader Ferrari 360 manual car-detail URL was captured."
     },
     "model-001:pistonheads:ferrari-360-modena-spider-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T07:21:44Z",
-      "lastResultCount": 0,
-      "candidateUrls": [],
-      "limitation": "No new direct current qualifying Ferrari 360 manual advert was captured; existing listing 19670930 was separately revalidated and remains in the verification queue."
+      "lastSearchedAt": "2026-09-10T18:18:04Z",
+      "lastResultCount": 1,
+      "candidateUrls": [
+        "https://www.pistonheads.com/buy/listing/19670930"
+      ],
+      "limitation": "Current £79,999 manual 360 Spider listing 19670930 remains plausible and is already queued. Listing 18969841 and other surfaced 360s explicitly state no longer available and were rejected."
     },
     "model-001:car-and-classic:ferrari-360-modena-spider-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T07:21:44Z",
+      "lastSearchedAt": "2026-09-10T18:18:04Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No new direct current qualifying 360 manual advert passed the pre-verification screen."
+      "limitation": "No new direct current qualifying Ferrari 360 manual advert passed the pre-verification screen."
     },
     "model-001:gumtree:ferrari-360-modena-spider-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T07:21:44Z",
+      "lastSearchedAt": "2026-09-10T18:18:04Z",
       "lastResultCount": 0,
       "candidateUrls": [],
       "limitation": "No plausible current direct UK Ferrari 360 manual vehicle advert was captured."
     },
     "model-001:specialist-dealers:ferrari-360-modena-spider-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T07:21:44Z",
+      "lastSearchedAt": "2026-09-10T18:18:04Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No new specialist-dealer 360 manual advert was captured beyond already-known feed/candidates."
+      "limitation": "No new specialist-dealer Ferrari 360 manual advert was retained beyond already-known feed/candidates."
     },
     "model-002:ebay:ferrari-f355-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T07:21:44Z",
+      "lastSearchedAt": "2026-09-10T18:18:04Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "A current-looking 1996 F355 manual at £154,990 was surfaced but rejected before verification because it exceeds the £100,000 ceiling; other results were manuals/memorabilia."
+      "limitation": "A current-looking 1996 F355 manual at £154,990 was surfaced but rejected because it exceeds the £100,000 ceiling; other results were manuals/memorabilia."
     },
     "model-002:autotrader:ferrari-f355-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T07:21:44Z",
+      "lastSearchedAt": "2026-09-10T18:18:04Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No direct current Auto Trader F355 manual advert within the qualifying price ceiling was captured."
+      "limitation": "No direct current Auto Trader F355 manual advert within the qualifying £100,000 ceiling was captured."
     },
     "model-002:pistonheads:ferrari-f355-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T07:21:44Z",
+      "lastSearchedAt": "2026-09-10T18:18:04Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No new direct current F355 manual advert within the qualifying price ceiling was captured."
+      "limitation": "Current F355 manuals surfaced at £124,950–£134,995 or were explicitly no longer available; none qualify under the £100,000 ceiling."
     },
     "model-002:car-and-classic:ferrari-f355-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T07:21:44Z",
+      "lastSearchedAt": "2026-09-10T18:18:04Z",
       "lastResultCount": 0,
       "candidateUrls": [],
       "limitation": "No direct current F355 manual advert passed the price/current-availability pre-verification screen."
     },
     "model-002:gumtree:ferrari-f355-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T07:21:44Z",
+      "lastSearchedAt": "2026-09-10T18:18:04Z",
       "lastResultCount": 0,
       "candidateUrls": [],
       "limitation": "No plausible current direct UK F355 manual advert URL was captured."
     },
     "model-002:specialist-dealers:ferrari-f355-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T07:21:44Z",
+      "lastSearchedAt": "2026-09-10T18:18:04Z",
       "lastResultCount": 0,
       "candidateUrls": [],
       "limitation": "No new specialist-dealer F355 manual advert within the qualifying ceiling was captured."
     },
     "model-003:ebay:ferrari-550-maranello": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T07:21:44Z",
+      "lastSearchedAt": "2026-09-10T18:18:04Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Item 267613727288 initially appeared plausible at £79,995, but exact recheck states the seller ended it on 26 March because it was no longer available. It was rejected and not queued."
+      "limitation": "Search results were die-cast/model-car material rather than a current vehicle advert."
     },
     "model-003:autotrader:ferrari-550-maranello": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T07:21:44Z",
-      "lastResultCount": 0,
-      "candidateUrls": [],
-      "limitation": "No direct current Auto Trader 550 Maranello advert within the £100,000 ceiling was captured."
+      "lastSearchedAt": "2026-09-10T18:18:04Z",
+      "lastResultCount": 1,
+      "candidateUrls": [
+        "https://www.autotrader.co.uk/car-details/202608215302797"
+      ],
+      "limitation": "Auto Trader currently lists Y933 LJM, a 2001 Ferrari 550 Maranello manual at £97,500/50,000 miles in Chelsea. Direct detail page and seller controls are live; seller-photo visual verification remains pending."
     },
     "model-003:pistonheads:ferrari-550-maranello": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T07:21:44Z",
-      "lastResultCount": 0,
-      "candidateUrls": [],
-      "limitation": "A current 1998 manual 550 at £129,950 was surfaced but rejected before verification because it exceeds the £100,000 ceiling."
+      "lastSearchedAt": "2026-09-10T18:18:04Z",
+      "lastResultCount": 1,
+      "candidateUrls": [
+        "https://www.pistonheads.com/buy/listing/20557127"
+      ],
+      "limitation": "Current £97,500 Sam Miller Ferrari 550 manual listing 20557127 is live; other surfaced 550s were over £100,000 or explicitly unavailable."
     },
     "model-003:car-and-classic:ferrari-550-maranello": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T07:21:44Z",
-      "lastResultCount": 0,
-      "candidateUrls": [],
-      "limitation": "No direct current qualifying 550 Maranello advert within the price ceiling was captured."
+      "lastSearchedAt": "2026-09-10T18:18:04Z",
+      "lastResultCount": 1,
+      "candidateUrls": [
+        "https://www.carandclassic.com/car/C2078571"
+      ],
+      "limitation": "Current Car & Classic cross-listing for the same Y933 LJM 2001 Ferrari 550 is live at £97,500; higher-priced and sold cars were rejected."
     },
     "model-003:gumtree:ferrari-550-maranello": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T07:21:44Z",
+      "lastSearchedAt": "2026-09-10T18:18:04Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No plausible current direct UK 550 Maranello advert URL was captured."
+      "limitation": "No plausible current direct UK Ferrari 550 vehicle advert meeting the price gate was captured."
     },
     "model-003:specialist-dealers:ferrari-550-maranello": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T07:21:44Z",
-      "lastResultCount": 0,
-      "candidateUrls": [],
-      "limitation": "No new specialist-dealer 550 Maranello advert within the qualifying ceiling was captured."
+      "lastSearchedAt": "2026-09-10T18:18:04Z",
+      "lastResultCount": 1,
+      "candidateUrls": [
+        "https://www.sammillercars.com/2001-ferrari-550-maranello"
+      ],
+      "limitation": "Sam Miller Cars currently lists Y933 LJM in current stock at £97,500 with 50,000 miles and a six-speed open-gated manual; exact seller-photo visual check remains pending."
     },
     "model-004:ebay:ferrari-456-gt-456m-gt-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T07:21:44Z",
+      "lastSearchedAt": "2026-09-10T18:18:04Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No new direct current eBay 456 GT/456M GT manual vehicle advert was captured."
+      "limitation": "Search returned die-cast/model-car material and a live 456 GTA automatic; no qualifying manual vehicle advert retained."
     },
     "model-004:autotrader:ferrari-456-gt-456m-gt-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T07:21:44Z",
+      "lastSearchedAt": "2026-09-10T18:18:04Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No new direct current Auto Trader 456 manual car-detail URL was captured."
+      "limitation": "No new direct current Auto Trader 456 GT/456M GT manual car-detail URL was captured."
     },
     "model-004:pistonheads:ferrari-456-gt-456m-gt-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T07:21:44Z",
+      "lastSearchedAt": "2026-09-10T18:18:04Z",
       "lastResultCount": 1,
       "candidateUrls": [
         "https://www.pistonheads.com/buy/listing/20908394"
       ],
-      "limitation": "Revalidated current 1996 Ferrari 456 GT manual RHD at £89,950/41,000 miles with live seller/contact controls, Ferrari Classiche claim and current seller stock page. It remains verification-pending because seller photographs could not be visually inspected for overlays/manual-gate evidence in this worker environment."
+      "limitation": "The known 1996 Ferrari 456 GT manual RHD at £89,950 remains a plausible current advert and is already in the verification queue; no duplicate worker candidate added."
     },
     "model-004:car-and-classic:ferrari-456-gt-456m-gt-manual": {
       "status": "searched",
@@ -377,47 +389,45 @@
     },
     "model-075:911uk:audi-tt-quattro-sport": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T08:42:28Z",
+      "lastSearchedAt": "2026-09-10T18:18:04Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No plausible current direct UK Audi TT quattro Sport sale advert was captured; discussion/index material was rejected."
+      "limitation": "No plausible current direct UK Audi TT quattro Sport sale advert was returned; discussion/index material rejected."
     },
     "model-075:classic-trader:audi-tt-quattro-sport": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T08:42:28Z",
+      "lastSearchedAt": "2026-09-10T18:18:04Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "A direct TT quattro Sport advert was found in Germany, so it was rejected as non-UK."
+      "limitation": "An exact TT quattro Sport manual advert was found in Germany at £28,271, so it was rejected as non-UK."
     },
     "model-075:ferrarichat:audi-tt-quattro-sport": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T08:42:28Z",
+      "lastSearchedAt": "2026-09-10T18:18:04Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No plausible current UK Audi TT quattro Sport sale advert was captured."
+      "limitation": "No plausible current UK Audi TT quattro Sport sale advert was returned."
     },
     "model-075:gumtree:audi-tt-quattro-sport": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T08:42:28Z",
-      "lastResultCount": 1,
-      "candidateUrls": [
-        "https://www.gumtree.com/p/audi/2006-audi-tt-1.8-t-quattro-sport-2dr-240-coupe-petrol-manual/1512665248"
-      ],
-      "limitation": "A current-looking exact-model trade advert posted two days ago was captured. Search output did not expose its price, so the fixed-price £10k–£100k gate and seller-photo checks remain verification-pending."
+      "lastSearchedAt": "2026-09-10T18:18:04Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Search returned ordinary TT quattro stock rather than a qualifying quattro Sport 240 advert at £10,000 or above; none retained."
     },
     "model-075:lamborghini-talk:audi-tt-quattro-sport": {
       "status": "blocked",
-      "lastSearchedAt": "2026-09-10T08:42:28Z",
+      "lastSearchedAt": "2026-09-10T18:18:04Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public access/search to lamborghini-talk.com was blocked by robots; no access-control bypass attempted."
+      "limitation": "Public access/search to lamborghini-talk.com is blocked by robots.txt; no access-control bypass attempted."
     },
     "model-075:specialist-dealers:audi-tt-quattro-sport": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T08:42:28Z",
+      "lastSearchedAt": "2026-09-10T18:18:04Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Philip Raby has a current 2005 TT quattro Sport manual at £8,995, but it was rejected before verification because it is below the £10,000 floor."
+      "limitation": "Philip Raby currently lists an exact 2005 TT quattro Sport manual at £8,995, but it was rejected before verification because it is below the £10,000 floor."
     },
     "model-088:911uk:mitsubishi-evo-vi-tommi-makinen-edition": {
       "status": "searched",
@@ -1102,96 +1112,94 @@
     },
     "model-072:facebook-groups:bmw-1m-coupe-manual-45000-55000-full-service-history": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T10:51:15Z",
+      "lastSearchedAt": "2026-09-10T18:18:04Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search executed; no plausible new current direct advert passed the pre-verification screen."
+      "limitation": "Public indexed Facebook-group query returned no plausible current UK BMW 1M sale advert; no private-group access attempted."
     },
     "model-072:ebay:bmw-1m-coupe-manual-45000-55000-full-service-history": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T10:51:15Z",
+      "lastSearchedAt": "2026-09-10T18:18:04Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search executed; no plausible new current direct advert passed the pre-verification screen."
+      "limitation": "Search results were unrelated BMW 1 Series cars or non-vehicle material; no qualifying current 1M advert retained."
     },
     "model-072:autotrader:bmw-1m-coupe-manual-45000-55000-full-service-history": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T10:51:15Z",
+      "lastSearchedAt": "2026-09-10T18:18:04Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search executed; no plausible new current direct advert passed the pre-verification screen."
+      "limitation": "Auto Trader returned generic BMW 1 Series/1M category pages but no new direct current car-detail URL within the £45,000–£55,000 target band."
     },
     "model-072:pistonheads:bmw-1m-coupe-manual-45000-55000-full-service-history": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T10:51:15Z",
+      "lastSearchedAt": "2026-09-10T18:18:04Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search surfaced 1M adverts that were no longer available and/or outside the £45,000–£55,000 model band; none were retained."
+      "limitation": "Current indexed 1M results checked: surfaced examples were no longer available, POA/under offer, or outside the £45,000–£55,000 target band; none retained."
     },
     "model-072:car-and-classic:bmw-1m-coupe-manual-45000-55000-full-service-history": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T10:51:15Z",
+      "lastSearchedAt": "2026-09-10T18:18:04Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "A current-looking 2011 BMW 1M at £44,950 was surfaced but rejected before verification because it is below the model's £45,000 minimum target band."
+      "limitation": "Search surfaced sold/removed or non-qualifying 1M material; no current direct UK advert within the target band retained."
     },
     "model-072:collecting-cars:bmw-1m-coupe-manual-45000-55000-full-service-history": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T10:51:15Z",
+      "lastSearchedAt": "2026-09-10T18:18:04Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search executed; no plausible new current direct advert passed the pre-verification screen."
+      "limitation": "Results were historical/completed auction material, so no current fixed-price qualifying 1M advert was retained."
     },
     "model-072:bonhams-cars:bmw-1m-coupe-manual-45000-55000-full-service-history": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T10:51:15Z",
+      "lastSearchedAt": "2026-09-10T18:18:04Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search executed; no plausible new current direct advert passed the pre-verification screen."
+      "limitation": "No current qualifying fixed-price UK BMW 1M advert was returned; historical auction material rejected."
     },
     "model-072:classic-trader:bmw-1m-coupe-manual-45000-55000-full-service-history": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T10:51:15Z",
+      "lastSearchedAt": "2026-09-10T18:18:04Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search executed; no plausible new current direct advert passed the pre-verification screen."
+      "limitation": "A current 2012 1M was found at £59,840 in Germany, so it was rejected as non-UK and above the target band."
     },
     "model-072:gumtree:bmw-1m-coupe-manual-45000-55000-full-service-history": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T10:51:15Z",
+      "lastSearchedAt": "2026-09-10T18:18:04Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search executed; no plausible new current direct advert passed the pre-verification screen."
+      "limitation": "No plausible current direct UK BMW 1M advert meeting the model rules was returned."
     },
     "model-072:911uk:bmw-1m-coupe-manual-45000-55000-full-service-history": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T10:51:15Z",
+      "lastSearchedAt": "2026-09-10T18:18:04Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search executed; no plausible new current direct advert passed the pre-verification screen."
+      "limitation": "No plausible current direct BMW 1M sale advert was returned; discussion/index material rejected."
     },
     "model-072:ferrarichat:bmw-1m-coupe-manual-45000-55000-full-service-history": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T10:51:15Z",
+      "lastSearchedAt": "2026-09-10T18:18:04Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search executed; no plausible new current direct advert passed the pre-verification screen."
+      "limitation": "No plausible current direct UK BMW 1M sale advert was returned."
     },
     "model-072:lamborghini-talk:bmw-1m-coupe-manual-45000-55000-full-service-history": {
       "status": "blocked",
-      "lastSearchedAt": "2026-09-10T10:51:15Z",
+      "lastSearchedAt": "2026-09-10T18:18:04Z",
       "lastResultCount": 0,
       "candidateUrls": [],
       "limitation": "Public access/search to lamborghini-talk.com is blocked by robots.txt; no access-control bypass attempted."
     },
     "model-072:specialist-dealers:bmw-1m-coupe-manual-45000-55000-full-service-history": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T10:51:15Z",
-      "lastResultCount": 1,
-      "candidateUrls": [
-        "https://www.salinemotors.co.uk/details/prestige-car-in-scotland/bmw/1series/3.0-m-euro-5-2dr/1572812/"
-      ],
-      "limitation": "A 2012 BMW 1M Coupe at £48,995 / 41,399 miles / manual was surfaced at Saline Motors and retained as a verification candidate. The exact dealer page timed out during deep verification, so seller-stock and visual photo checks remain outstanding."
+      "lastSearchedAt": "2026-09-10T18:18:04Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "No new qualifying current UK specialist-dealer BMW 1M advert within the £45,000–£55,000 target band was retained."
     },
     "model-078:facebook-groups:renault-clio-182-trophy": {
       "status": "searched",
@@ -2598,10 +2606,10 @@
     },
     "model-075:ebay:audi-tt-quattro-sport": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T14:18:00Z",
+      "lastSearchedAt": "2026-09-10T18:18:04Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "eBay search executed. A current-looking £6,990 classified was below the £10,000 floor; other exact results were ended/no-longer-available or old listing remnants, so none were retained."
+      "limitation": "Exact TT quattro Sport results were below the £10,000 floor or ended/no longer available; no qualifying current advert retained."
     },
     "model-075:pistonheads:audi-tt-quattro-sport": {
       "status": "searched",
@@ -3471,66 +3479,66 @@
     },
     "model-001:collecting-cars:ferrari-360-modena-spider-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T17:42:36Z",
+      "lastSearchedAt": "2026-09-10T18:18:04Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search returned no qualifying current fixed-price UK Ferrari 360 manual advert; completed auction material, if surfaced, was rejected."
+      "limitation": "Results were historical/completed auction material; no current fixed-price qualifying 360 advert retained."
     },
     "model-001:bonhams-cars:ferrari-360-modena-spider-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T17:42:36Z",
+      "lastSearchedAt": "2026-09-10T18:18:04Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No plausible current fixed-price UK Ferrari 360 manual advert was returned from Bonhams Cars."
+      "limitation": "No current fixed-price UK Ferrari 360 manual advert was retained; historical auction material rejected."
     },
     "model-001:classic-trader:ferrari-360-modena-spider-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T17:42:36Z",
+      "lastSearchedAt": "2026-09-10T18:18:04Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No new qualifying current UK Ferrari 360 manual direct advert passed the pre-verification screen."
+      "limitation": "No current qualifying UK Ferrari 360 manual advert was retained."
     },
     "model-002:collecting-cars:ferrari-f355-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T17:42:36Z",
+      "lastSearchedAt": "2026-09-10T18:18:04Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search returned no qualifying current fixed-price UK Ferrari F355 manual advert; completed auction material, if surfaced, was rejected."
+      "limitation": "No current fixed-price qualifying F355 manual advert was retained; historical auction material rejected."
     },
     "model-002:bonhams-cars:ferrari-f355-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T17:42:36Z",
+      "lastSearchedAt": "2026-09-10T18:18:04Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No plausible current fixed-price UK Ferrari F355 manual advert was returned from Bonhams Cars."
+      "limitation": "No current fixed-price qualifying F355 manual advert was retained; historical auction material rejected."
     },
     "model-002:classic-trader:ferrari-f355-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T17:42:36Z",
+      "lastSearchedAt": "2026-09-10T18:18:04Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No new qualifying current UK Ferrari F355 manual direct advert passed the pre-verification screen."
+      "limitation": "No current qualifying UK F355 manual advert within the £100,000 ceiling was retained."
     },
     "model-003:collecting-cars:ferrari-550-maranello": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T17:42:36Z",
+      "lastSearchedAt": "2026-09-10T18:18:04Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search returned no qualifying current fixed-price UK Ferrari 550 Maranello advert; completed auction material, if surfaced, was rejected."
+      "limitation": "Results were historical/completed auction material; no current fixed-price qualifying 550 advert retained."
     },
     "model-003:bonhams-cars:ferrari-550-maranello": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T17:42:36Z",
+      "lastSearchedAt": "2026-09-10T18:18:04Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No plausible current fixed-price UK Ferrari 550 Maranello advert was returned from Bonhams Cars."
+      "limitation": "No current fixed-price UK 550 advert was retained; historical auction material rejected."
     },
     "model-003:classic-trader:ferrari-550-maranello": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T17:42:36Z",
+      "lastSearchedAt": "2026-09-10T18:18:04Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Classic Trader surfaced current Ferrari 550 Maranello adverts outside the UK and/or outside the qualifying year/price rules; none were retained."
+      "limitation": "No current qualifying UK Ferrari 550 advert within the £100,000 ceiling was retained."
     },
     "model-004:collecting-cars:ferrari-456-gt-456m-gt-manual": {
       "status": "searched",
