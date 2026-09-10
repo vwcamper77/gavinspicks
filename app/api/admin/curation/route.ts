@@ -48,7 +48,7 @@ export async function POST(request:Request){
  try{body=await request.json();}catch{return reply({error:'Invalid request.'},400);}
  if(!body.url||!['approved','rejected','deferred'].includes(body.action||''))return reply({error:'Choose a valid candidate action.'},400);
  const candidate=candidates.find(c=>c.url===body.url);if(!candidate)return reply({error:'Candidate is no longer in the review queue.'},404);
- const listing=body.action==='approved'?parseCandidate(candidate):undefined;
+ const listing=body.action==='approved'?(parseCandidate(candidate)??undefined):undefined;
  if(body.action==='approved'&&!listing)return reply({error:'This candidate is missing year or price data. Open the advert and enrich the candidate before approval.'},422);
  try{
   const decision={url:candidate.url,action:body.action as CurationAction,decidedAt:new Date().toISOString(),candidate,listing};
