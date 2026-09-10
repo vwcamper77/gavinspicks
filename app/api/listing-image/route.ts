@@ -9,15 +9,21 @@ function photosFor(listing: any): string[] {
     .filter((url): url is string => typeof url === 'string' && /^https?:\/\//i.test(url));
 }
 
-async function findListing(id: string) {
-  const builtIn = feed.listings.find(listing => listing.id === id);
-  if (builtIn) return builtIn;
+async function allApprovedListings() {
   try {
     const decisions = await readCurationDecisions();
-    return decisions.find(decision => decision.action === 'approved' && decision.listing?.id === id)?.listing;
+    const approved = decisions.filter(decision => decision.action === 'approved' && decision.listing).map(decision => decision.listing!);
+    return [...feed.listings, ...approved];
   } catch {
-    return undefined;
+    return feed.listings;
   }
+}
+
+async function findListing(id: string, primary: string) {
+  const listings = await allApprovedListings();
+  if (id) return listings.find(listing => listing.id === id);
+  if (primary) return listings.find(listing => listing.image === primary);
+  return undefined;
 }
 
 async function fetchImage(source: string) {
@@ -42,10 +48,11 @@ async function fetchImage(source: string) {
 export async function GET(request: Request) {
   const {searchParams} = new URL(request.url);
   const id = searchParams.get('id') ?? '';
+  const primary = searchParams.get('primary') ?? '';
   const index = Number.parseInt(searchParams.get('index') ?? '0', 10);
-  if (!id || !Number.isInteger(index) || index < 0) return new Response(null, {status: 400});
+  if ((!id && !primary) || !Number.isInteger(index) || index < 0) return new Response(null, {status: 400});
 
-  const listing = await findListing(id);
+  const listing = await findListing(id, primary);
   if (!listing) return new Response(null, {status: 404});
   const photos = photosFor(listing);
   const source = photos[index];
