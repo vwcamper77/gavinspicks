@@ -1,0 +1,1 @@
+Candidate review route added. Browser-local decision persistence is available via `components/review-actions.tsx`; persistent publication to `data/feed.json` still requires a server-side write mechanism.
