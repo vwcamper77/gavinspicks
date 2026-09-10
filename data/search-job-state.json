@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-10T20:56:37Z",
+  "updatedAt": "2026-09-10T21:37:37Z",
   "compactedFromQueueAt": "2026-09-10T06:41:54.207Z",
   "note": "Cumulative worker-write state. Job results are merged from immutable run deltas and folded back into data/search-queue.json by scripts/build-search-queue.mjs.",
   "jobs": {
@@ -744,31 +744,31 @@
     },
     "model-096:classic-trader:bmw-e46-m3-manual-coupe-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T10:10:00Z",
+      "lastSearchedAt": "2026-09-10T21:37:37Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No plausible current direct Classic Trader advert for a UK E46 M3 factory-manual coupe at or below 50,000 miles was captured; generic/historical material was rejected."
+      "limitation": "Executed Classic Trader search; no plausible current UK factory-manual E46 M3 Coupe advert at or below 50,000 miles was retained."
     },
     "model-096:classic-trader:bmw-m3-e46-6-speed-manual-coupe-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T10:10:00Z",
+      "lastSearchedAt": "2026-09-10T21:37:37Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No plausible current direct Classic Trader advert for a UK E46 M3 factory 6-speed manual coupe at or below 50,000 miles was captured."
+      "limitation": "Executed Classic Trader alternate-phrase search; no plausible current UK factory 6-speed E46 M3 Coupe advert at or below 50,000 miles was retained."
     },
     "model-096:collecting-cars:bmw-e46-m3-manual-coupe-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T10:10:00Z",
+      "lastSearchedAt": "2026-09-10T21:37:37Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Results were completed/historical E46 M3 manual auction pages; completed sales were rejected before verification."
+      "limitation": "Results were historical completed sales, CSL/SMG, convertibles or cars above the 50,000-mile cap; no qualifying current fixed-price factory-manual Coupe advert retained."
     },
     "model-096:collecting-cars:bmw-m3-e46-6-speed-manual-coupe-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T10:10:00Z",
+      "lastSearchedAt": "2026-09-10T21:37:37Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Only completed/historical Collecting Cars E46 M3 manual auction material was surfaced; no active qualifying advert retained."
+      "limitation": "Alternate Collecting Cars query returned historical/completed or non-qualifying E46 M3 material; no current fixed-price factory 6-speed Coupe at or below 50,000 miles retained."
     },
     "model-096:ebay:bmw-e46-m3-manual-coupe-uk": {
       "status": "searched",
@@ -1821,38 +1821,38 @@
     },
     "model-097:pistonheads:bmw-e39-m5-manual-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T12:17:07Z",
+      "lastSearchedAt": "2026-09-10T21:37:37Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "A 26,900-mile £45,000 E39 M5 initially matched the numeric/specification screen, but exact PistonHeads recheck says the car is no longer available for purchase. Other live results exceeded the 50,000-mile cap or were auction-only; nothing retained."
+      "limitation": "Executed PistonHeads search; no plausible current UK E39 M5 factory-manual advert at or below 50,000 miles was retained."
     },
     "model-097:pistonheads:bmw-m5-e39-6-speed-manual-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T12:17:07Z",
+      "lastSearchedAt": "2026-09-10T21:37:37Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "A 26,900-mile £45,000 E39 M5 initially matched the numeric/specification screen, but exact PistonHeads recheck says the car is no longer available for purchase. Other live results exceeded the 50,000-mile cap or were auction-only; nothing retained."
+      "limitation": "Executed alternate PistonHeads query; no plausible current UK E39 M5 factory 6-speed advert at or below 50,000 miles was retained."
     },
     "model-097:specialist-dealers:bmw-e39-m5-manual-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T12:17:07Z",
+      "lastSearchedAt": "2026-09-10T21:37:37Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Current specialist E39 M5 stock surfaced, but examples found exceeded the 50,000-mile cap; no qualifying current direct advert retained."
+      "limitation": "Executed specialist-dealer search; no plausible current UK E39 M5 factory-manual stock advert at or below 50,000 miles was retained."
     },
     "model-097:specialist-dealers:bmw-m5-e39-6-speed-manual-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T12:17:07Z",
+      "lastSearchedAt": "2026-09-10T21:37:37Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Current specialist E39 M5 stock surfaced, but examples found exceeded the 50,000-mile cap; no qualifying current direct advert retained."
+      "limitation": "Executed alternate specialist-dealer query; no plausible current UK E39 M5 factory 6-speed stock advert at or below 50,000 miles was retained."
     },
     "model-070:gumtree:ford-focus-rs500": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T12:17:07Z",
+      "lastSearchedAt": "2026-09-10T21:37:37Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No plausible current direct UK Ford Focus RS500 vehicle advert was captured."
+      "limitation": "Executed Gumtree search; no plausible current direct UK Ford Focus RS500 vehicle advert was retained."
     },
     "model-070:bonhams-cars:ford-focus-rs-mk2": {
       "status": "searched",
@@ -1905,59 +1905,61 @@
     },
     "model-076:autotrader:ford-focus-st500": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T12:17:07Z",
+      "lastSearchedAt": "2026-09-10T21:37:37Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No new plausible current direct Ford Focus ST500 vehicle advert passed the pre-verification screen."
+      "limitation": "Executed Auto Trader search; no new direct current Ford Focus ST500 car-detail URL was captured."
     },
     "model-076:car-and-classic:ford-focus-st500": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T12:17:07Z",
-      "lastResultCount": 0,
-      "candidateUrls": [],
-      "limitation": "No new plausible current direct Ford Focus ST500 vehicle advert passed the pre-verification screen."
+      "lastSearchedAt": "2026-09-10T21:37:37Z",
+      "lastResultCount": 1,
+      "candidateUrls": [
+        "https://www.carandclassic.com/l/C1644726"
+      ],
+      "limitation": "Current 2008 Focus ST500 no.157/500 at £19,750 resurfaced; it is already in the verification queue, so no duplicate worker candidate was added."
     },
     "model-076:ebay:ford-focus-st500": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T12:17:07Z",
+      "lastSearchedAt": "2026-09-10T21:37:37Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search prominently surfaced ST500 seats/parts and non-target Focus ST cars rather than a qualifying ST500 vehicle advert; nothing retained."
+      "limitation": "Search results were ended, irrelevant or ordinary Focus ST/ST3 material rather than a current genuine ST500 advert; none retained."
     },
     "model-076:gumtree:ford-focus-st500": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T12:17:07Z",
+      "lastSearchedAt": "2026-09-10T21:37:37Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No new plausible current direct Ford Focus ST500 vehicle advert passed the pre-verification screen."
+      "limitation": "Executed Gumtree search; no plausible current direct UK Focus ST500 advert was retained."
     },
     "model-076:pistonheads:ford-focus-st500": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T12:17:07Z",
+      "lastSearchedAt": "2026-09-10T21:37:37Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No new plausible current direct Ford Focus ST500 vehicle advert passed the pre-verification screen."
+      "limitation": "Search returned generic Focus ST inventory rather than a direct genuine ST500 advert; generic category pages were rejected."
     },
     "model-076:specialist-dealers:ford-focus-st500": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T12:17:07Z",
+      "lastSearchedAt": "2026-09-10T21:37:37Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No new plausible current direct Ford Focus ST500 vehicle advert passed the pre-verification screen."
+      "limitation": "A stale Keepers Cars ST500 page at £8,000/around 80,000 miles surfaced; it is below the £10,000 floor and old/stale, so it was rejected. No qualifying specialist-stock advert retained."
     },
     "model-082:autotrader:subaru-impreza-p1": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T12:17:07Z",
+      "lastSearchedAt": "2026-09-10T21:37:37Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No current direct Subaru Impreza P1 advert was captured that could satisfy both the strict under-30,000-mile and maximum-two-total-owner rules."
+      "limitation": "Auto Trader returned generic Subaru Impreza inventory rather than a direct qualifying P1 advert; generic category pages were rejected."
     },
     "model-082:car-and-classic:subaru-impreza-p1": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T12:17:07Z",
+      "lastSearchedAt": "2026-09-10T21:37:37Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No current direct Subaru Impreza P1 advert was captured that could satisfy both the strict under-30,000-mile and maximum-two-total-owner rules."
+      "limitation": "Executed Car & Classic search; no current direct Subaru P1 advert meeting under-30,000-mile and maximum-two-total-owner rules was retained."
     },
     "model-026:collecting-cars:lotus-exige-s1": {
       "status": "searched",
@@ -4192,6 +4194,245 @@
       "lastResultCount": 0,
       "candidateUrls": [],
       "limitation": "Search surfaced a later-year V12 Vantage category result plus diecast/irrelevant items; no qualifying direct target-year advert."
+    },
+    "model-085:ferrarichat:subaru-impreza-rb320": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T21:37:37Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Executed public FerrariChat search; no plausible current UK RB320 sale advert under 30,000 miles with no more than two total owners was retained."
+    },
+    "model-085:lamborghini-talk:subaru-impreza-rb320": {
+      "status": "blocked",
+      "lastSearchedAt": "2026-09-10T21:37:37Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Public web access to lamborghini-talk.com is blocked by robots.txt; no access-control bypass attempted."
+    },
+    "model-088:facebook-groups:mitsubishi-evo-vi-tommi-makinen-edition": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T21:37:37Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Executed public indexed Facebook-group search; no plausible current UK Evo VI Tommi Makinen Edition advert meeting the under-30,000-mile and maximum-two-owner rules was retained; no private-group access attempted."
+    },
+    "model-041:facebook-groups:aston-martin-v12-vantage-manual": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T21:37:37Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Executed public indexed Facebook-group search; no plausible current direct UK 2009-2010 V12 Vantage manual advert was retained; no private-group access attempted."
+    },
+    "model-041:ferrarichat:aston-martin-v12-vantage-manual": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T21:37:37Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Executed FerrariChat search; no plausible current direct UK 2009-2010 V12 Vantage manual sale advert was retained."
+    },
+    "model-041:gumtree:aston-martin-v12-vantage-manual": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T21:37:37Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Executed Gumtree search; no plausible current direct UK 2009-2010 V12 Vantage manual advert was retained."
+    },
+    "model-041:lamborghini-talk:aston-martin-v12-vantage-manual": {
+      "status": "blocked",
+      "lastSearchedAt": "2026-09-10T21:37:37Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Public web access to lamborghini-talk.com is blocked by robots.txt; no access-control bypass attempted."
+    },
+    "model-041:pistonheads:aston-martin-v12-vantage-manual": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T21:37:37Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "PistonHeads surfaced category/current inventory and direct 2011 cars, but no direct 2009-2010 qualifying advert was retained; 2011 cars are outside this watch target."
+    },
+    "model-041:specialist-dealers:aston-martin-v12-vantage-manual": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T21:37:37Z",
+      "lastResultCount": 1,
+      "candidateUrls": [
+        "https://philipraby.co.uk/product/aston-martin-v12-vantage-carbon-black"
+      ],
+      "limitation": "Philip Raby currently presents a 2010 V12 Vantage Carbon Black manual at £79,995/17,500 miles, but a recent Car & Classic cross-post for the same specification is marked sold/removed. Retained only as a verification candidate pending current-stock and photo confirmation."
+    },
+    "model-042:911uk:aston-martin-v8-vantage-4-3-4-7-manual": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T21:37:37Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Executed 911UK search; no plausible current direct UK 2005-2010 V8 Vantage 4.3/4.7 manual advert was retained."
+    },
+    "model-042:autotrader:aston-martin-v8-vantage-4-3-4-7-manual": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T21:37:37Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Auto Trader search surfaced generic current manual V8 Vantage inventory but no new direct car-detail URL suitable for the verification queue."
+    },
+    "model-042:bonhams-cars:aston-martin-v8-vantage-4-3-4-7-manual": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T21:37:37Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Results were auction/history material rather than a current fixed-price UK advert; none retained."
+    },
+    "model-042:car-and-classic:aston-martin-v8-vantage-4-3-4-7-manual": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T21:37:37Z",
+      "lastResultCount": 1,
+      "candidateUrls": [
+        "https://www.carandclassic.com/l/C2114837"
+      ],
+      "limitation": "Current direct 2008 V8 Vantage 4.7 six-speed manual advert at £32,500/78,100 miles retained for verification; seller gallery is present but visual overlay/manual-photo checks remain pending."
+    },
+    "model-042:classic-trader:aston-martin-v8-vantage-4-3-4-7-manual": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T21:37:37Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Executed Classic Trader search; no plausible current direct UK 2005-2010 manual V8 Vantage advert was retained."
+    },
+    "model-042:collecting-cars:aston-martin-v8-vantage-4-3-4-7-manual": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T21:37:37Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Results were auction/completed-sale material without a qualifying current fixed asking price; none retained."
+    },
+    "model-042:ebay:aston-martin-v8-vantage-4-3-4-7-manual": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T21:37:37Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "eBay search surfaced manuals/books/irrelevant material rather than a plausible current qualifying vehicle advert; none retained."
+    },
+    "model-042:facebook-groups:aston-martin-v8-vantage-4-3-4-7-manual": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T21:37:37Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Executed public indexed Facebook-group search; no plausible current direct UK V8 Vantage manual advert was retained; no private-group access attempted."
+    },
+    "model-042:ferrarichat:aston-martin-v8-vantage-4-3-4-7-manual": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T21:37:37Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Executed FerrariChat search; no plausible current direct UK V8 Vantage 4.3/4.7 manual advert was retained."
+    },
+    "model-042:gumtree:aston-martin-v8-vantage-4-3-4-7-manual": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T21:37:37Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Executed Gumtree search; no plausible current direct UK V8 Vantage manual advert was retained."
+    },
+    "model-042:lamborghini-talk:aston-martin-v8-vantage-4-3-4-7-manual": {
+      "status": "blocked",
+      "lastSearchedAt": "2026-09-10T21:37:37Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Public web access to lamborghini-talk.com is blocked by robots.txt; no access-control bypass attempted."
+    },
+    "model-042:pistonheads:aston-martin-v8-vantage-4-3-4-7-manual": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T21:37:37Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "PistonHeads search surfaced category/current inventory but no new direct qualifying 2005-2010 V8 Vantage manual advert URL was retained."
+    },
+    "model-042:specialist-dealers:aston-martin-v8-vantage-4-3-4-7-manual": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T21:37:37Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Executed specialist-dealer current-stock search; no new direct qualifying V8 Vantage 4.3/4.7 manual advert was retained."
+    },
+    "model-043:911uk:aston-martin-v8-vantage-n400-manual": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T21:37:37Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Executed 911UK search; no plausible current direct UK N400 manual advert was retained."
+    },
+    "model-043:autotrader:aston-martin-v8-vantage-n400-manual": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T21:37:37Z",
+      "lastResultCount": 1,
+      "candidateUrls": [
+        "https://www.autotrader.co.uk/car-details/202609025638939"
+      ],
+      "limitation": "ASM Automotive's current Auto Trader dealer stock shows a 2008 Vantage N400 4.3 manual convertible at £35,991/46,345 miles. Direct car-detail URL was identified, but detail/gallery fetch remained unavailable, so visual verification is pending."
+    },
+    "model-043:bonhams-cars:aston-martin-v8-vantage-n400-manual": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T21:37:37Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "No current fixed-price qualifying UK N400 manual advert was retained; auction/history material was rejected."
+    },
+    "model-043:car-and-classic:aston-martin-v8-vantage-n400-manual": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T21:37:37Z",
+      "lastResultCount": 1,
+      "candidateUrls": [
+        "https://www.carandclassic.com/l/C2110294"
+      ],
+      "limitation": "Current direct 2008 V8 Vantage N400 Roadster advert at £30,500/84,400 miles, six-speed manual, London, retained for verification. A 25-photo gallery exists but its assets could not be fetched for overlay/manual-photo checks."
+    },
+    "model-043:classic-trader:aston-martin-v8-vantage-n400-manual": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T21:37:37Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Executed Classic Trader search; no plausible current direct UK N400 manual advert was retained."
+    },
+    "model-043:collecting-cars:aston-martin-v8-vantage-n400-manual": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T21:37:37Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Results were auction/completed-sale material or lacked a qualifying current fixed asking price; no candidate retained."
+    },
+    "model-043:ebay:aston-martin-v8-vantage-n400-manual": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T21:37:37Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Executed eBay search; no plausible current direct UK genuine N400 manual vehicle advert was retained."
+    },
+    "model-043:facebook-groups:aston-martin-v8-vantage-n400-manual": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T21:37:37Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Executed public indexed Facebook-group search; no plausible current direct UK N400 manual advert was retained; no private-group access attempted."
+    },
+    "model-043:ferrarichat:aston-martin-v8-vantage-n400-manual": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T21:37:37Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Executed FerrariChat search; no plausible current direct UK N400 manual advert was retained."
+    },
+    "model-043:gumtree:aston-martin-v8-vantage-n400-manual": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T21:37:37Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Executed Gumtree search; no plausible current direct UK N400 manual advert was retained."
+    },
+    "model-043:lamborghini-talk:aston-martin-v8-vantage-n400-manual": {
+      "status": "blocked",
+      "lastSearchedAt": "2026-09-10T21:37:37Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Public web access to lamborghini-talk.com is blocked by robots.txt; no access-control bypass attempted."
     }
   }
 }
