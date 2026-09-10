@@ -9,7 +9,9 @@ on:
       - 'data/discovery-sources.json'
       - 'data/search-job-state.json'
       - 'data/worker-candidates.json'
+      - 'data/worker-runs/**'
       - 'scripts/build-search-queue.mjs'
+      - 'scripts/merge-worker-run-deltas.mjs'
       - 'scripts/merge-worker-candidates.mjs'
       - 'scripts/select-worker-batch.mjs'
       - '.github/workflows/rebuild-search-queue.yml'
@@ -27,20 +29,22 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
+      - name: Merge worker run deltas
+        run: node scripts/merge-worker-run-deltas.mjs
       - name: Build complete watchlist/source queue
         run: node scripts/build-search-queue.mjs
       - name: Merge worker candidates into verification queue
         run: node scripts/merge-worker-candidates.mjs
       - name: Select next due worker batch
         run: node scripts/select-worker-batch.mjs
-      - name: Commit generated queues
+      - name: Commit generated worker state and queues
         run: |
-          if [ -z "$(git status --porcelain -- data/search-queue.json data/discovery-queue.json data/next-worker-batch.json)" ]; then
-            echo 'Queues already current.'
+          if [ -z "$(git status --porcelain -- data/search-job-state.json data/worker-candidates.json data/worker-runs data/search-queue.json data/discovery-queue.json data/next-worker-batch.json)" ]; then
+            echo 'Worker state and queues already current.'
             exit 0
           fi
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data/search-queue.json data/discovery-queue.json data/next-worker-batch.json
-          git commit -m 'Refresh watchlist worker queues'
+          git add -A data/search-job-state.json data/worker-candidates.json data/worker-runs data/search-queue.json data/discovery-queue.json data/next-worker-batch.json
+          git commit -m 'Refresh watchlist worker state and queues'
           git push
