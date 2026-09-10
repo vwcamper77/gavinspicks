@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T03:41:37.900Z",
+  "generatedAt": "2026-09-10T03:44:52.090Z",
   "modelCount": 96,
   "sourceCount": 13,
   "jobCount": 1482,
@@ -2218,11 +2218,11 @@
       "query": "site:ferrarichat.com Noble M400 UK for sale",
       "priority": false,
       "cadenceHours": 24,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T03:34:20Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "No relevant current qualifying UK Noble M400 sale advert URL was captured."
     },
     {
       "id": "model-010:lamborghini-talk:noble-m400",
@@ -2235,11 +2235,11 @@
       "query": "site:lamborghini-talk.com Noble M400 UK for sale",
       "priority": false,
       "cadenceHours": 24,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "blocked",
+      "lastSearchedAt": "2026-09-10T03:34:20Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "Public search access to lamborghini-talk.com was blocked by robots.txt; no bypass attempted."
     },
     {
       "id": "model-010:specialist-dealers:noble-m400",
@@ -2252,11 +2252,11 @@
       "query": "Noble M400 UK for sale specialist dealer current stock",
       "priority": false,
       "cadenceHours": 6,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T03:34:20Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "An aggregator surfaced a purported £69,995/6,800-mile M400, but no originating current seller advert was verified, so it was rejected before the candidate queue."
     },
     {
       "id": "model-011:facebook-groups:lotus-esprit-v8-v8-gt",
@@ -2269,11 +2269,11 @@
       "query": "site:facebook.com/groups Lotus Esprit V8 / V8 GT UK for sale",
       "priority": false,
       "cadenceHours": 24,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T03:34:20Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "Public indexed Facebook-group search returned no plausible current qualifying UK Esprit V8 advert; no private-group access was attempted."
     },
     {
       "id": "model-011:ebay:lotus-esprit-v8-v8-gt",
@@ -2286,11 +2286,11 @@
       "query": "site:ebay.co.uk/itm Lotus Esprit V8 / V8 GT UK for sale",
       "priority": false,
       "cadenceHours": 6,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T03:34:20Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "Results were scale models, parts or non-vehicle material; no current qualifying direct Esprit V8 vehicle advert was captured."
     },
     {
       "id": "model-011:autotrader:lotus-esprit-v8-v8-gt",
@@ -2303,11 +2303,15 @@
       "query": "site:autotrader.co.uk/car-details Lotus Esprit V8 / V8 GT UK for sale",
       "priority": false,
       "cadenceHours": 6,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
-      "candidateUrls": [],
-      "limitation": null
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T03:34:20Z",
+      "lastResultCount": 3,
+      "candidateUrls": [
+        "https://www.autotrader.co.uk/car-details/202609065768808",
+        "https://www.autotrader.co.uk/car-details/202502118976970",
+        "https://www.autotrader.co.uk/car-details/202608074882088"
+      ],
+      "limitation": "Current Auto Trader Esprit V8 inventory shows three cars at £54,500, £47,500 and £44,995. Direct URLs were captured; the £44,995 car appears cross-posted with Car & Classic C1938698, and full visual verification remains outstanding."
     },
     {
       "id": "model-011:pistonheads:lotus-esprit-v8-v8-gt",
@@ -2320,11 +2324,13 @@
       "query": "site:pistonheads.com/buy Lotus Esprit V8 / V8 GT UK for sale",
       "priority": false,
       "cadenceHours": 6,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
-      "candidateUrls": [],
-      "limitation": null
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T03:34:20Z",
+      "lastResultCount": 1,
+      "candidateUrls": [
+        "https://www.pistonheads.com/buy/listing/20796100"
+      ],
+      "limitation": "Current 2002 Deep Purple Special Order Esprit V8 at £94,950/4,800 miles was captured; it is cross-posted with Car & Classic C2180893 and retained once by vehicle identity in worker-candidates."
     },
     {
       "id": "model-011:car-and-classic:lotus-esprit-v8-v8-gt",
@@ -2337,11 +2343,15 @@
       "query": "site:carandclassic.com Lotus Esprit V8 / V8 GT UK for sale",
       "priority": false,
       "cadenceHours": 6,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
-      "candidateUrls": [],
-      "limitation": null
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T03:34:20Z",
+      "lastResultCount": 3,
+      "candidateUrls": [
+        "https://www.carandclassic.com/l/C2180893",
+        "https://www.carandclassic.com/car/C1938698",
+        "https://www.carandclassic.com/car/C2049406"
+      ],
+      "limitation": "Three current UK For Sale Esprit V8 adverts were captured: a 4,800-mile 2002 Special Order at £94,950, a 39,600-mile 1998 V8 at £44,995, and a 1999 V8 at £59,995. Seller galleries exist but visual overlay/manual checks remain outstanding."
     },
     {
       "id": "model-011:collecting-cars:lotus-esprit-v8-v8-gt",
@@ -2354,11 +2364,11 @@
       "query": "site:collectingcars.com Lotus Esprit V8 / V8 GT UK for sale",
       "priority": false,
       "cadenceHours": 12,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T03:34:20Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "No active fixed-price qualifying UK Esprit V8 advert was captured; completed or bid-only auction material was rejected."
     },
     {
       "id": "model-011:bonhams-cars:lotus-esprit-v8-v8-gt",
@@ -2371,11 +2381,11 @@
       "query": "site:cars.bonhams.com Lotus Esprit V8 / V8 GT UK for sale",
       "priority": false,
       "cadenceHours": 12,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T03:34:20Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "No plausible current fixed-price qualifying UK Esprit V8 advert was captured."
     },
     {
       "id": "model-011:classic-trader:lotus-esprit-v8-v8-gt",
@@ -2388,11 +2398,11 @@
       "query": "site:classic-trader.com Lotus Esprit V8 / V8 GT UK for sale",
       "priority": false,
       "cadenceHours": 12,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T03:34:20Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "No current UK qualifying direct Esprit V8 advert was captured; overseas stock was rejected for the UK rule."
     },
     {
       "id": "model-011:gumtree:lotus-esprit-v8-v8-gt",
@@ -2405,11 +2415,11 @@
       "query": "site:gumtree.com Lotus Esprit V8 / V8 GT UK for sale",
       "priority": false,
       "cadenceHours": 6,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T03:34:20Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "No plausible current qualifying UK Esprit V8 vehicle advert URL was captured."
     },
     {
       "id": "model-011:911uk:lotus-esprit-v8-v8-gt",
@@ -2422,11 +2432,11 @@
       "query": "site:911uk.com Lotus Esprit V8 / V8 GT UK for sale",
       "priority": false,
       "cadenceHours": 24,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T03:34:20Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "No relevant current qualifying UK Esprit V8 sale advert URL was captured."
     },
     {
       "id": "model-011:ferrarichat:lotus-esprit-v8-v8-gt",
@@ -2439,11 +2449,11 @@
       "query": "site:ferrarichat.com Lotus Esprit V8 / V8 GT UK for sale",
       "priority": false,
       "cadenceHours": 24,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T03:34:20Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "No relevant current qualifying UK Esprit V8 sale advert URL was captured."
     },
     {
       "id": "model-011:lamborghini-talk:lotus-esprit-v8-v8-gt",
@@ -2456,11 +2466,11 @@
       "query": "site:lamborghini-talk.com Lotus Esprit V8 / V8 GT UK for sale",
       "priority": false,
       "cadenceHours": 24,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "blocked",
+      "lastSearchedAt": "2026-09-10T03:34:20Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "Public search access to lamborghini-talk.com was blocked by robots.txt; no bypass attempted."
     },
     {
       "id": "model-011:specialist-dealers:lotus-esprit-v8-v8-gt",
@@ -2473,11 +2483,11 @@
       "query": "Lotus Esprit V8 / V8 GT UK for sale specialist dealer current stock",
       "priority": false,
       "cadenceHours": 6,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T03:34:20Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "Current specialist stock surfaced through marketplace adverts, but no additional originating specialist-dealer direct URL was positively captured in this pass."
     },
     {
       "id": "model-012:facebook-groups:dodge-viper-rt-10-gts-srt-10",
@@ -2490,11 +2500,11 @@
       "query": "site:facebook.com/groups Dodge Viper RT/10 / GTS / SRT-10 UK for sale",
       "priority": false,
       "cadenceHours": 24,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T03:34:20Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "Public indexed Facebook-group search returned no plausible current qualifying UK Viper advert; no private-group access was attempted."
     },
     {
       "id": "model-012:ebay:dodge-viper-rt-10-gts-srt-10",
@@ -2507,11 +2517,11 @@
       "query": "site:ebay.co.uk/itm Dodge Viper RT/10 / GTS / SRT-10 UK for sale",
       "priority": false,
       "cadenceHours": 6,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T03:34:20Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "Results were parts, memorabilia or stale/non-current material; no qualifying direct UK Viper vehicle advert was captured."
     },
     {
       "id": "model-012:autotrader:dodge-viper-rt-10-gts-srt-10",
@@ -2524,11 +2534,11 @@
       "query": "site:autotrader.co.uk/car-details Dodge Viper RT/10 / GTS / SRT-10 UK for sale",
       "priority": false,
       "cadenceHours": 6,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T03:34:20Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "No direct current qualifying Dodge Viper car-detail URL was captured."
     },
     {
       "id": "model-012:pistonheads:dodge-viper-rt-10-gts-srt-10",
@@ -2541,11 +2551,11 @@
       "query": "site:pistonheads.com/buy Dodge Viper RT/10 / GTS / SRT-10 UK for sale",
       "priority": false,
       "cadenceHours": 6,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T03:34:20Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "No plausible new direct current qualifying UK Viper advert was captured."
     },
     {
       "id": "model-012:car-and-classic:dodge-viper-rt-10-gts-srt-10",
@@ -2558,11 +2568,13 @@
       "query": "site:carandclassic.com Dodge Viper RT/10 / GTS / SRT-10 UK for sale",
       "priority": false,
       "cadenceHours": 6,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
-      "candidateUrls": [],
-      "limitation": null
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T03:34:20Z",
+      "lastResultCount": 1,
+      "candidateUrls": [
+        "https://www.carandclassic.com/car/C2008136"
+      ],
+      "limitation": "Current 2007 Viper SRT-10 Coupe at £71,995/19,700 miles, six-speed manual, UK dealer Bespoke Traders was captured. Sold, removed, wrong-gearbox and out-of-year examples were rejected. Visual photo/current-stock verification remains outstanding."
     },
     {
       "id": "model-012:collecting-cars:dodge-viper-rt-10-gts-srt-10",
@@ -2575,11 +2587,11 @@
       "query": "site:collectingcars.com Dodge Viper RT/10 / GTS / SRT-10 UK for sale",
       "priority": false,
       "cadenceHours": 12,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T03:34:20Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "Only auction/bid or historical Viper material was returned; no qualifying fixed-price current UK advert was captured."
     },
     {
       "id": "model-012:bonhams-cars:dodge-viper-rt-10-gts-srt-10",
@@ -2592,11 +2604,11 @@
       "query": "site:cars.bonhams.com Dodge Viper RT/10 / GTS / SRT-10 UK for sale",
       "priority": false,
       "cadenceHours": 12,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T03:34:20Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "No plausible current fixed-price qualifying UK Viper advert was captured."
     },
     {
       "id": "model-012:classic-trader:dodge-viper-rt-10-gts-srt-10",
@@ -2609,11 +2621,11 @@
       "query": "site:classic-trader.com Dodge Viper RT/10 / GTS / SRT-10 UK for sale",
       "priority": false,
       "cadenceHours": 12,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T03:34:20Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "Current Viper adverts surfaced in continental Europe, not the UK, and were rejected under the UK location rule."
     },
     {
       "id": "model-012:gumtree:dodge-viper-rt-10-gts-srt-10",
@@ -2626,11 +2638,11 @@
       "query": "site:gumtree.com Dodge Viper RT/10 / GTS / SRT-10 UK for sale",
       "priority": false,
       "cadenceHours": 6,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T03:34:20Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "Search results were toys/models or non-vehicle material; no qualifying current UK Viper advert was captured."
     },
     {
       "id": "model-012:911uk:dodge-viper-rt-10-gts-srt-10",
@@ -2643,11 +2655,11 @@
       "query": "site:911uk.com Dodge Viper RT/10 / GTS / SRT-10 UK for sale",
       "priority": false,
       "cadenceHours": 24,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T03:34:20Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "No relevant current qualifying UK Viper sale advert URL was captured."
     },
     {
       "id": "model-012:ferrarichat:dodge-viper-rt-10-gts-srt-10",
@@ -2660,11 +2672,11 @@
       "query": "site:ferrarichat.com Dodge Viper RT/10 / GTS / SRT-10 UK for sale",
       "priority": false,
       "cadenceHours": 24,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T03:34:20Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "No relevant current qualifying UK Viper sale advert URL was captured."
     },
     {
       "id": "model-012:lamborghini-talk:dodge-viper-rt-10-gts-srt-10",
@@ -2677,11 +2689,11 @@
       "query": "site:lamborghini-talk.com Dodge Viper RT/10 / GTS / SRT-10 UK for sale",
       "priority": false,
       "cadenceHours": 24,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "blocked",
+      "lastSearchedAt": "2026-09-10T03:34:20Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "Public search access to lamborghini-talk.com was blocked by robots.txt; no bypass attempted."
     },
     {
       "id": "model-012:specialist-dealers:dodge-viper-rt-10-gts-srt-10",
@@ -2694,11 +2706,11 @@
       "query": "Dodge Viper RT/10 / GTS / SRT-10 UK for sale specialist dealer current stock",
       "priority": false,
       "cadenceHours": 6,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T03:34:20Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "The HPC Viper page was rejected as stale because the car is absent from HPC's current stock and a cross-post is explicitly SOLD. Other specialist stock was over the £100,000 ceiling. No qualifying direct specialist advert remained."
     },
     {
       "id": "model-013:facebook-groups:tvr-sagaris",
@@ -2711,11 +2723,11 @@
       "query": "site:facebook.com/groups TVR Sagaris UK for sale",
       "priority": false,
       "cadenceHours": 24,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T03:34:20Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "Public indexed Facebook-group search returned no plausible current direct UK TVR Sagaris sale post; no private-group access was attempted."
     },
     {
       "id": "model-013:ebay:tvr-sagaris",
@@ -12453,10 +12465,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-09T23:35:56Z",
+      "lastSearchedAt": "2026-09-10T03:34:20Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No fresh direct eBay vehicle advert suitable for the verification queue was returned in this pass; existing queued eBay leads remain preserved separately."
+      "limitation": "No new direct eBay Z4 M Coupe vehicle advert passed the current/freshness screen; existing queued eBay leads remain preserved separately."
     },
     {
       "id": "model-056:autotrader:bmw-z4-m-coupe",
@@ -12470,10 +12482,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-09T23:35:56Z",
+      "lastSearchedAt": "2026-09-10T03:34:20Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Current category inventory was discoverable, but this query did not return a direct car-detail URL suitable for verification."
+      "limitation": "Current Z4 M inventory was discoverable, but this pass did not return a new direct car-detail URL suitable for verification."
     },
     {
       "id": "model-056:pistonheads:bmw-z4-m-coupe",
@@ -12487,13 +12499,13 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-09T23:35:56Z",
+      "lastSearchedAt": "2026-09-10T03:34:20Z",
       "lastResultCount": 2,
       "candidateUrls": [
         "https://www.pistonheads.com/buy/listing/20766605",
         "https://www.pistonheads.com/buy/listing/20952644"
       ],
-      "limitation": "Both direct adverts were live when opened. They remain verification-pending because seller photographs were not visually inspectable in this run."
+      "limitation": "The two current direct Z4 M Coupe adverts already in the verification queue remained discoverable; no new vehicle was added and visual seller-photo checks remain outstanding."
     },
     {
       "id": "model-056:car-and-classic:bmw-z4-m-coupe",
@@ -12507,13 +12519,13 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-09T23:35:56Z",
+      "lastSearchedAt": "2026-09-10T03:34:20Z",
       "lastResultCount": 2,
       "candidateUrls": [
         "https://www.carandclassic.com/car/C2127428",
         "https://www.carandclassic.com/car/C1248397"
       ],
-      "limitation": "Current direct adverts remained discoverable; both are already in the verification queue and still need full visual/current-stock checks."
+      "limitation": "The two existing current direct Z4 M Coupe adverts remained discoverable; both are already queued and no new candidate was added."
     },
     {
       "id": "model-056:collecting-cars:bmw-z4-m-coupe",
@@ -12646,10 +12658,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-09T23:35:56Z",
+      "lastSearchedAt": "2026-09-10T03:34:20Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "The current RSV Automotive Z4 M Coupe was found again but is already represented in the verified feed, so no new candidate was added."
+      "limitation": "The known current specialist Z4 M Coupe is already represented in the verified feed; no additional specialist-dealer advert was captured."
     },
     {
       "id": "model-057:facebook-groups:bmw-z4-m-roadster",
@@ -15553,10 +15565,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-09T23:35:56Z",
+      "lastSearchedAt": "2026-09-10T03:34:20Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Results were parts, models or ended/stale adverts and were rejected before verification."
+      "limitation": "Results were parts, models, ended or stale material; no fresh current Mk1 vehicle advert passed the pre-verification screen."
     },
     {
       "id": "model-070:autotrader:ford-focus-rs-mk1",
@@ -15570,10 +15582,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-09T23:35:56Z",
+      "lastSearchedAt": "2026-09-10T03:34:20Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No direct current Mk1 car-detail URL suitable for verification was returned."
+      "limitation": "No new direct current Mk1 car-detail URL suitable for verification was returned."
     },
     {
       "id": "model-070:pistonheads:ford-focus-rs-mk1",
@@ -15587,10 +15599,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-09T23:35:56Z",
+      "lastSearchedAt": "2026-09-10T03:34:20Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Current category coverage was visible but no direct Mk1 advert URL was captured by this query."
+      "limitation": "Current category coverage was visible but no new direct Mk1 advert URL was captured by this query."
     },
     {
       "id": "model-070:car-and-classic:ford-focus-rs-mk1",
@@ -15604,12 +15616,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-09T23:35:56Z",
-      "lastResultCount": 1,
-      "candidateUrls": [
-        "https://www.carandclassic.com/car/C2118328"
-      ],
-      "limitation": "The current KGF Classic Cars Mk1 advert remained discoverable and is already queued for verification."
+      "lastSearchedAt": "2026-09-10T03:34:20Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "No new direct current Mk1 advert was captured in this pass; the existing KGF lead remains preserved in the verification queue."
     },
     {
       "id": "model-070:collecting-cars:ford-focus-rs-mk1",
@@ -15742,10 +15752,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-09T23:35:56Z",
+      "lastSearchedAt": "2026-09-10T03:34:20Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No additional direct specialist-dealer advert was found beyond the KGF lead already queued from Car & Classic."
+      "limitation": "No additional current specialist-dealer Mk1 advert was captured beyond the existing queued KGF lead."
     },
     {
       "id": "model-070:facebook-groups:ford-focus-rs-mk2",
@@ -15776,10 +15786,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-09T23:35:56Z",
+      "lastSearchedAt": "2026-09-10T03:34:20Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "The previously queued £31,995 advert showed an old update date and was not treated as freshly current; no new eBay candidate passed the pre-verification freshness screen."
+      "limitation": "The previously queued £31,995 advert has an old update date and remains too stale to treat as current; no new eBay Mk2 candidate passed the freshness screen."
     },
     {
       "id": "model-070:autotrader:ford-focus-rs-mk2",
@@ -15793,10 +15803,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-09T23:35:56Z",
+      "lastSearchedAt": "2026-09-10T03:34:20Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No direct current Mk2 car-detail URL suitable for verification was returned."
+      "limitation": "No new direct current Mk2 car-detail URL suitable for verification was returned."
     },
     {
       "id": "model-070:pistonheads:ford-focus-rs-mk2",
@@ -15810,12 +15820,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-09T23:35:56Z",
-      "lastResultCount": 1,
-      "candidateUrls": [
-        "https://www.pistonheads.com/buy/listing/20771951"
-      ],
-      "limitation": "Current advert remains live textually; full seller-photo visual verification is still outstanding."
+      "lastSearchedAt": "2026-09-10T03:34:20Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Category coverage was visible but no new direct Mk2 advert URL was captured; existing queued PistonHeads lead remains preserved."
     },
     {
       "id": "model-070:car-and-classic:ford-focus-rs-mk2",
@@ -15829,14 +15837,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-09T23:35:56Z",
-      "lastResultCount": 3,
-      "candidateUrls": [
-        "https://www.carandclassic.com/car/C2117480",
-        "https://www.carandclassic.com/l/C2122028",
-        "https://www.carandclassic.com/car/C2133874"
-      ],
-      "limitation": "Two existing low-mileage candidates remain live and a fresh one-owner Performance Blue example was added. All remain verification-pending until seller photographs are visually checked."
+      "lastSearchedAt": "2026-09-10T03:34:20Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "No new Mk2 advert beyond the existing queued Car & Classic candidates was captured in this pass."
     },
     {
       "id": "model-070:collecting-cars:ford-focus-rs-mk2",
@@ -15969,10 +15973,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-09T23:35:56Z",
+      "lastSearchedAt": "2026-09-10T03:34:20Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No additional direct specialist-dealer URL was returned beyond live dealer adverts already queued from PistonHeads and Car & Classic."
+      "limitation": "No additional current specialist-dealer Mk2 advert was captured beyond existing queued marketplace/dealer leads."
     },
     {
       "id": "model-070:facebook-groups:ford-focus-rs500",
@@ -16003,10 +16007,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-09T23:35:56Z",
+      "lastSearchedAt": "2026-09-10T03:34:20Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No current genuine RS500 vehicle advert returned; ordinary Mk2 cars, parts and ended material were rejected."
+      "limitation": "No current genuine UK RS500 vehicle advert was returned; ordinary Mk2 cars, parts and ended material were rejected."
     },
     {
       "id": "model-070:autotrader:ford-focus-rs500",
@@ -16020,10 +16024,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-09T23:35:56Z",
+      "lastSearchedAt": "2026-09-10T03:34:20Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No direct current genuine RS500 car-detail URL suitable for verification was returned."
+      "limitation": "No new direct current genuine RS500 car-detail URL suitable for verification was returned."
     },
     {
       "id": "model-070:pistonheads:ford-focus-rs500",
@@ -16037,10 +16041,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-09T22:34:18Z",
+      "lastSearchedAt": "2026-09-10T03:34:20Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No direct current RS500 advert URL returned."
+      "limitation": "No new direct current genuine RS500 advert URL was captured."
     },
     {
       "id": "model-070:car-and-classic:ford-focus-rs500",
@@ -16054,10 +16058,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-09T22:34:18Z",
+      "lastSearchedAt": "2026-09-10T03:34:20Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "A live RS500 advert surfaced outside the UK in LHD/euro pricing and failed the UK eligibility rule."
+      "limitation": "No current qualifying UK RS500 advert was captured; overseas/LHD or historical material was rejected."
     },
     {
       "id": "model-070:collecting-cars:ford-focus-rs500",
@@ -16189,11 +16193,11 @@
       "query": "Ford Focus RS500 UK for sale specialist dealer current stock",
       "priority": true,
       "cadenceHours": 1,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T03:34:20Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "No current specialist-dealer RS500 advert meeting the UK/current-sale rules was captured."
     },
     {
       "id": "model-071:facebook-groups:bmw-m5-touring-e61-5-0-v10-smg",
