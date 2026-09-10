@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-10T08:42:28Z",
+  "updatedAt": "2026-09-10T10:10:00Z",
   "compactedFromQueueAt": "2026-09-10T06:41:54.207Z",
   "note": "Cumulative worker-write state. Job results are merged from immutable run deltas and folded back into data/search-queue.json by scripts/build-search-queue.mjs.",
   "jobs": {
@@ -722,6 +722,374 @@
       "lastResultCount": 0,
       "candidateUrls": [],
       "limitation": "No plausible current direct UK Lotus Esprit GT3 vehicle advert was captured."
+    },
+    "model-096:classic-trader:bmw-e46-m3-manual-coupe-uk": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T10:10:00Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "No plausible current direct Classic Trader advert for a UK E46 M3 factory-manual coupe at or below 50,000 miles was captured; generic/historical material was rejected."
+    },
+    "model-096:classic-trader:bmw-m3-e46-6-speed-manual-coupe-uk": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T10:10:00Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "No plausible current direct Classic Trader advert for a UK E46 M3 factory 6-speed manual coupe at or below 50,000 miles was captured."
+    },
+    "model-096:collecting-cars:bmw-e46-m3-manual-coupe-uk": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T10:10:00Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Results were completed/historical E46 M3 manual auction pages; completed sales were rejected before verification."
+    },
+    "model-096:collecting-cars:bmw-m3-e46-6-speed-manual-coupe-uk": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T10:10:00Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Only completed/historical Collecting Cars E46 M3 manual auction material was surfaced; no active qualifying advert retained."
+    },
+    "model-096:ebay:bmw-e46-m3-manual-coupe-uk": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T10:10:00Z",
+      "lastResultCount": 1,
+      "candidateUrls": [
+        "https://www.ebay.co.uk/itm/206363441512"
+      ],
+      "limitation": "One current-looking 2002 E46 M3 manual vehicle advert at £14,495 was retained as a verification lead. Search output did not establish coupe body, total mileage <=50,000, factory-manual provenance or seller-photo checks strongly enough for publication. A separate 105,000-mile car was rejected."
+    },
+    "model-096:ebay:bmw-m3-e46-6-speed-manual-coupe-uk": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T10:10:00Z",
+      "lastResultCount": 1,
+      "candidateUrls": [
+        "https://www.ebay.co.uk/itm/206363441512"
+      ],
+      "limitation": "Same plausible 2002 E46 M3 manual advert retained for full verification; mileage/body/factory-manual and photo evidence remain unresolved."
+    },
+    "model-096:facebook-groups:bmw-e46-m3-manual-coupe-uk": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T10:10:00Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Publicly indexed Facebook-group search produced no plausible current direct UK E46 M3 manual-coupe sale advert; no private-group access was attempted."
+    },
+    "model-096:facebook-groups:bmw-m3-e46-6-speed-manual-coupe-uk": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T10:10:00Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "No plausible current direct Facebook-group advert was captured from public indexing; access controls were not bypassed."
+    },
+    "model-096:ferrarichat:bmw-e46-m3-manual-coupe-uk": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T10:10:00Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "No plausible current UK E46 M3 factory-manual coupe advert was captured from publicly accessible FerrariChat results."
+    },
+    "model-096:ferrarichat:bmw-m3-e46-6-speed-manual-coupe-uk": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T10:10:00Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "No plausible current direct sale advert was captured from FerrariChat for this E46 M3 variant."
+    },
+    "model-096:gumtree:bmw-e46-m3-manual-coupe-uk": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T10:10:00Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "No plausible current direct Gumtree UK E46 M3 manual-coupe advert meeting the mileage constraint was captured."
+    },
+    "model-096:gumtree:bmw-m3-e46-6-speed-manual-coupe-uk": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T10:10:00Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "No plausible current direct Gumtree UK advert was retained for this E46 M3 variant."
+    },
+    "model-096:lamborghini-talk:bmw-e46-m3-manual-coupe-uk": {
+      "status": "blocked",
+      "lastSearchedAt": "2026-09-10T10:10:00Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "lamborghini-talk.com is blocked to the public search/fetch worker by robots.txt. No bypass attempted."
+    },
+    "model-096:lamborghini-talk:bmw-m3-e46-6-speed-manual-coupe-uk": {
+      "status": "blocked",
+      "lastSearchedAt": "2026-09-10T10:10:00Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "lamborghini-talk.com is blocked to the public search/fetch worker by robots.txt. No bypass attempted."
+    },
+    "model-096:pistonheads:bmw-e46-m3-manual-coupe-uk": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T10:10:00Z",
+      "lastResultCount": 1,
+      "candidateUrls": [
+        "https://www.pistonheads.com/buy/listing/17710678"
+      ],
+      "limitation": "A 2005 Silverstone Edition E46 M3 manual coupe at £39,995/49,000 miles was retained as a lead. Search evidence reports three former keepers, full history and a rare-edition/manual claim, but the indexed page is not fresh enough and seller photos/current availability still require exact-page verification."
+    },
+    "model-096:pistonheads:bmw-m3-e46-6-speed-manual-coupe-uk": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T10:10:00Z",
+      "lastResultCount": 1,
+      "candidateUrls": [
+        "https://www.pistonheads.com/buy/listing/17710678"
+      ],
+      "limitation": "Same 2005 Silverstone Edition 49,000-mile manual-coupe lead retained pending fresh advert and seller-photo verification. Several other PistonHeads results explicitly stated no longer available and were rejected."
+    },
+    "model-096:specialist-dealers:bmw-e46-m3-manual-coupe-uk": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T10:10:00Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "A live Hexagon 2003 manual coupe with 3,100 miles was checked but its current seller page asks £120,000, above the £100,000 hard ceiling. No qualifying direct specialist-stock advert retained."
+    },
+    "model-096:specialist-dealers:bmw-m3-e46-6-speed-manual-coupe-uk": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T10:10:00Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Current specialist stock surfaced included a £120,000 Hexagon car, which fails the £100,000 ceiling; no qualifying direct specialist advert retained."
+    },
+    "model-097:911uk:bmw-e39-m5-manual-uk": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T10:10:00Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "No plausible current direct 911UK E39 M5 manual sale advert at or below 50,000 miles was captured."
+    },
+    "model-097:911uk:bmw-m5-e39-6-speed-manual-uk": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T10:10:00Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "No plausible current direct 911UK E39 M5 6-speed manual sale advert was captured."
+    },
+    "model-021:lamborghini-talk:lotus-esprit-gt3": {
+      "status": "blocked",
+      "lastSearchedAt": "2026-09-10T10:10:00Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "lamborghini-talk.com is blocked to the public search/fetch worker by robots.txt. No bypass attempted."
+    },
+    "model-021:pistonheads:lotus-esprit-gt3": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T10:10:00Z",
+      "lastResultCount": 1,
+      "candidateUrls": [
+        "https://www.pistonheads.com/buy/listing/20412916"
+      ],
+      "limitation": "A live-looking private 1997 Lotus Esprit GT3 at £47,000/47,000 miles/manual in Buckingham was retained. Search evidence is recent and reports MOT to March 2027 and extensive history, but exact seller-photo/overlay and current-page verification remain outstanding."
+    },
+    "model-021:specialist-dealers:lotus-esprit-gt3": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T10:10:00Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "No new qualifying current specialist-dealer GT3 advert was captured. An older specialist result was stale; the current private PistonHeads lead is recorded under its own source."
+    },
+    "model-022:911uk:lotus-esprit-sport-350": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T10:10:00Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "No plausible current direct 911UK Lotus Esprit Sport 350 sale advert was captured."
+    },
+    "model-022:autotrader:lotus-esprit-sport-350": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T10:10:00Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Auto Trader exposed a generic category with two Sport 350s around £54,995 and £64,995 but no direct car-detail URL was captured; generic search/category pages were rejected."
+    },
+    "model-022:bonhams-cars:lotus-esprit-sport-350": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T10:10:00Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "No current purchasable Bonhams Cars Sport 350 advert was captured; historical/completed material was rejected."
+    },
+    "model-022:car-and-classic:lotus-esprit-sport-350": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T10:10:00Z",
+      "lastResultCount": 1,
+      "candidateUrls": [
+        "https://www.carandclassic.com/car/C2014112"
+      ],
+      "limitation": "A current-looking Premier GT 1999 Sport 350 at 47,080 miles/manual was surfaced. It appears to be the same silver car as PistonHeads 20458222 and the Premier GT stock page, so it is treated as a cross-post rather than a separate vehicle. Exact photo verification remains pending."
+    },
+    "model-022:classic-trader:lotus-esprit-sport-350": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T10:10:00Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "No plausible current direct Classic Trader Sport 350 advert was captured."
+    },
+    "model-022:collecting-cars:lotus-esprit-sport-350": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T10:10:00Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Search results were historical/completed Sport 350 auctions, not current purchasable cars; rejected before verification."
+    },
+    "model-022:ebay:lotus-esprit-sport-350": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T10:10:00Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "eBay results were model cars/parts or other non-vehicle material; no current Sport 350 vehicle advert retained."
+    },
+    "model-022:facebook-groups:lotus-esprit-sport-350": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T10:10:00Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "No plausible current direct Sport 350 sale post was captured from publicly indexed Facebook-group results; no private-group access attempted."
+    },
+    "model-022:ferrarichat:lotus-esprit-sport-350": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T10:10:00Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "No plausible current direct FerrariChat Sport 350 sale advert was captured."
+    },
+    "model-022:gumtree:lotus-esprit-sport-350": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T10:10:00Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "No plausible current direct Gumtree UK Sport 350 vehicle advert was captured."
+    },
+    "model-022:lamborghini-talk:lotus-esprit-sport-350": {
+      "status": "blocked",
+      "lastSearchedAt": "2026-09-10T10:10:00Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "lamborghini-talk.com is blocked to the public search/fetch worker by robots.txt. No bypass attempted."
+    },
+    "model-022:pistonheads:lotus-esprit-sport-350": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T10:10:00Z",
+      "lastResultCount": 1,
+      "candidateUrls": [
+        "https://www.pistonheads.com/buy/listing/20458222"
+      ],
+      "limitation": "Current 1999 Sport 350 at £54,995/47,080 miles/manual was captured. PistonHeads was crawled today and Premier GT current stock separately shows the same car at £54,995 with no deposit/sold label. A second Sport 350 advert explicitly said DEPOSIT TAKEN and was rejected. Exact seller-photo/manual visual checks remain outstanding."
+    },
+    "model-022:specialist-dealers:lotus-esprit-sport-350": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T10:10:00Z",
+      "lastResultCount": 1,
+      "candidateUrls": [
+        "https://www.premiergt.com/used/cars/lotus/esprit/sport-350-1-of-42-rhd-superb-example-comprehensive-history-front-ppf-2122"
+      ],
+      "limitation": "Premier GT current stock links the exact 1999 Sport 350 at £54,995 and does not mark it Sold/Deposit Taken. The exact vehicle page itself could not be fetched by the worker (cache miss), so seller-gallery/manual visual verification is still required."
+    },
+    "model-023:911uk:morgan-aero-8-series-1-4-manual": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T10:10:00Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "No plausible current direct 911UK Morgan Aero 8 Series 1-4 manual sale advert was captured."
+    },
+    "model-023:autotrader:morgan-aero-8-series-1-4-manual": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T10:10:00Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Auto Trader exposed generic Aero inventory including manual cars, but no direct qualifying car-detail URL was captured; generic category results were rejected."
+    },
+    "model-023:bonhams-cars:morgan-aero-8-series-1-4-manual": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T10:10:00Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "No current purchasable Bonhams Cars Aero 8 Series 1-4 manual advert was captured."
+    },
+    "model-023:car-and-classic:morgan-aero-8-series-1-4-manual": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T10:10:00Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "No new plausible current direct Car & Classic Aero 8 Series 1-4 manual advert was captured."
+    },
+    "model-023:classic-trader:morgan-aero-8-series-1-4-manual": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T10:10:00Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "No plausible current direct Classic Trader Morgan Aero 8 manual advert was captured."
+    },
+    "model-023:collecting-cars:morgan-aero-8-series-1-4-manual": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T10:10:00Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "No active current Collecting Cars Aero 8 Series 1-4 manual opportunity was captured; historical auction material was rejected."
+    },
+    "model-023:ebay:morgan-aero-8-series-1-4-manual": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T10:10:00Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "eBay results were books/model cars or other non-vehicle material; no qualifying current Aero 8 vehicle advert retained."
+    },
+    "model-023:facebook-groups:morgan-aero-8-series-1-4-manual": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T10:10:00Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "No plausible current direct Aero 8 manual sale post was captured from publicly indexed Facebook-group results."
+    },
+    "model-023:ferrarichat:morgan-aero-8-series-1-4-manual": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T10:10:00Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "No plausible current direct FerrariChat Morgan Aero 8 manual sale advert was captured."
+    },
+    "model-023:gumtree:morgan-aero-8-series-1-4-manual": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T10:10:00Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "No plausible current direct Gumtree UK Morgan Aero 8 manual vehicle advert was captured."
+    },
+    "model-023:lamborghini-talk:morgan-aero-8-series-1-4-manual": {
+      "status": "blocked",
+      "lastSearchedAt": "2026-09-10T10:10:00Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "lamborghini-talk.com is blocked to the public search/fetch worker by robots.txt. No bypass attempted."
+    },
+    "model-023:pistonheads:morgan-aero-8-series-1-4-manual": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T10:10:00Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "A 2003 manual Aero 8 result explicitly stated no longer available; later Aero results were outside the 2001-2010 target range. No current qualifying advert retained."
+    },
+    "model-023:specialist-dealers:morgan-aero-8-series-1-4-manual": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T10:10:00Z",
+      "lastResultCount": 1,
+      "candidateUrls": [
+        "https://www.newelmsberkshire.com/car-sales/car/morgan-aero-8-mk-4-4-8-manual/"
+      ],
+      "limitation": "New Elms has a current-looking Aero 8 Mk4 4.8 manual at £59,995/27,000 miles with viewing invitation and service-history detail. The page does not establish registration year strongly enough for the 2001-2010 gate and seller-photo verification is incomplete. This URL is already in the verification queue."
+    },
+    "model-024:911uk:morgan-aero-8-gtn": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-10T10:10:00Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "No plausible current direct 911UK Morgan Aero 8 GTN sale advert was captured."
     }
   }
 }
