@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-11T15:41:43Z",
+  "updatedAt": "2026-09-11T17:01:54Z",
   "compactedFromQueueAt": "2026-09-10T06:41:54.207Z",
   "note": "Cumulative worker-write state. Job results are merged from immutable run deltas and folded back into data/search-queue.json by scripts/build-search-queue.mjs.",
   "jobs": {
@@ -882,12 +882,12 @@
     },
     "model-096:specialist-dealers:bmw-m3-e46-6-speed-manual-coupe-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T07:36:19Z",
+      "lastSearchedAt": "2026-09-11T17:01:54Z",
       "lastResultCount": 1,
       "candidateUrls": [
         "https://www.hexagonclassics.com/car/bmw-m3-coupe--e46---manual--2003"
       ],
-      "limitation": "Hexagon current stock still shows the 2003 E46 M3 Coupe, 3,100 miles, 6-speed manual, £99,995 and available to view. Candidate is already queued; exact seller-gallery manual/status photo verification remains outstanding."
+      "limitation": "Hexagon's direct current-stock page remains live at £99,995 for a 2003 E46 M3 Coupe, 3,100 miles, one owner and factory 6-speed manual; page says available to view now. This vehicle is already in the verification queue. Seller-photo visual verification was not completed in this run, so it remains unpublished."
     },
     "model-097:911uk:bmw-e39-m5-manual-uk": {
       "status": "searched",
@@ -1484,17 +1484,17 @@
     },
     "model-097:autotrader:bmw-e39-m5-manual-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T07:36:19Z",
+      "lastSearchedAt": "2026-09-11T17:01:54Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No current qualifying direct Auto Trader E39 M5 advert at or below 50,000 miles was retained."
+      "limitation": "No direct current Auto Trader E39 M5 car-detail URL meeting the 50,000-mile cap surfaced; generic/search inventory was not retained."
     },
     "model-097:autotrader:bmw-m5-e39-6-speed-manual-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T07:36:19Z",
+      "lastSearchedAt": "2026-09-11T17:01:54Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No current qualifying direct Auto Trader E39 M5 advert at or below 50,000 miles was retained."
+      "limitation": "No direct current Auto Trader E39 M5 car-detail URL meeting the 50,000-mile cap surfaced; generic/search inventory was not retained."
     },
     "model-097:bonhams-cars:bmw-e39-m5-manual-uk": {
       "status": "searched",
@@ -1512,21 +1512,17 @@
     },
     "model-097:car-and-classic:bmw-e39-m5-manual-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T07:36:19Z",
-      "lastResultCount": 1,
-      "candidateUrls": [
-        "https://www.carandclassic.com/au/car/C2060885"
-      ],
-      "limitation": "Current 2003 E39 M5 LHD at £50,000/46,637 miles remains For Sale. Gallery inspection showed a factory-style 6-speed lever and three pedals with no unavailable overlay in inspected images. Candidate is already queued."
+      "lastSearchedAt": "2026-09-11T17:01:54Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Current direct E39 M5 adverts surfaced at 95,000, 123,000 and 138,000 miles, all above the model's 50,000-mile cap; none retained."
     },
     "model-097:car-and-classic:bmw-m5-e39-6-speed-manual-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T07:36:19Z",
-      "lastResultCount": 1,
-      "candidateUrls": [
-        "https://www.carandclassic.com/au/car/C2060885"
-      ],
-      "limitation": "Same current £50,000/46,637-mile 2003 E39 M5 candidate; already queued. Manual cabin and three pedals were visually confirmed in the advert gallery."
+      "lastSearchedAt": "2026-09-11T17:01:54Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Current direct E39 M5 adverts surfaced at 95,000, 123,000 and 138,000 miles, all above the model's 50,000-mile cap; none retained."
     },
     "model-097:classic-trader:bmw-e39-m5-manual-uk": {
       "status": "searched",
@@ -1558,17 +1554,17 @@
     },
     "model-097:ebay:bmw-e39-m5-manual-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T07:36:19Z",
+      "lastSearchedAt": "2026-09-11T17:01:54Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No current qualifying E39 M5 under the 50,000-mile cap; surfaced eBay material was unrelated/non-qualifying."
+      "limitation": "Indexed eBay results did not produce a current E39 M5 manual advert within the 50,000-mile cap; irrelevant E39 automatics were rejected."
     },
     "model-097:ebay:bmw-m5-e39-6-speed-manual-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T07:36:19Z",
+      "lastSearchedAt": "2026-09-11T17:01:54Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No current qualifying E39 M5 under the 50,000-mile cap; surfaced eBay material was unrelated/non-qualifying."
+      "limitation": "Indexed eBay results did not produce a current E39 M5 manual advert within the 50,000-mile cap; irrelevant E39 automatics were rejected."
     },
     "model-097:facebook-groups:bmw-e39-m5-manual-uk": {
       "status": "blocked",
@@ -1600,17 +1596,17 @@
     },
     "model-097:gumtree:bmw-e39-m5-manual-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T07:36:19Z",
+      "lastSearchedAt": "2026-09-11T17:01:54Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No plausible current qualifying direct Gumtree E39 M5 advert retained."
+      "limitation": "No current direct Gumtree E39 M5 manual advert meeting the 50,000-mile cap surfaced."
     },
     "model-097:gumtree:bmw-m5-e39-6-speed-manual-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T07:36:19Z",
+      "lastSearchedAt": "2026-09-11T17:01:54Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No plausible current qualifying direct Gumtree E39 M5 advert retained."
+      "limitation": "No current direct Gumtree E39 M5 manual advert meeting the 50,000-mile cap surfaced."
     },
     "model-097:lamborghini-talk:bmw-e39-m5-manual-uk": {
       "status": "blocked",
@@ -1940,45 +1936,45 @@
     },
     "model-076:ebay:ford-focus-st500": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T07:36:19Z",
+      "lastSearchedAt": "2026-09-11T17:01:54Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search results were parts/seats or non-ST500 vehicles; no current genuine ST500 advert retained."
+      "limitation": "A live 2007 Focus ST500 vehicle advert surfaced on eBay at £5,995, below Gavin's Picks £10,000 minimum; another hit was an interior/seat part. No qualifying current advert retained."
     },
     "model-076:gumtree:ford-focus-st500": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T08:11:27Z",
+      "lastSearchedAt": "2026-09-11T17:01:54Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No qualifying current direct advert retained."
+      "limitation": "No current direct Gumtree Focus ST500 vehicle advert meeting the site rules surfaced."
     },
     "model-076:pistonheads:ford-focus-st500": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T08:11:27Z",
+      "lastSearchedAt": "2026-09-11T17:01:54Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No qualifying current direct advert retained."
+      "limitation": "No current direct PistonHeads Focus ST500 vehicle advert meeting the site rules surfaced."
     },
     "model-076:specialist-dealers:ford-focus-st500": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T08:11:27Z",
+      "lastSearchedAt": "2026-09-11T17:01:54Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No qualifying current direct advert retained."
+      "limitation": "No current qualifying specialist-dealer Focus ST500 stock advert surfaced in this search."
     },
     "model-082:autotrader:subaru-impreza-p1": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T08:11:27Z",
+      "lastSearchedAt": "2026-09-11T17:01:54Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No qualifying current direct advert retained."
+      "limitation": "No direct current Auto Trader P1 car-detail URL meeting the strict under-30,000-mile and maximum-two-total-owner rules surfaced."
     },
     "model-082:car-and-classic:subaru-impreza-p1": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T08:11:27Z",
+      "lastSearchedAt": "2026-09-11T17:01:54Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No qualifying current direct advert retained."
+      "limitation": "A current-looking P1 at 35,618 miles surfaced, but exceeds the strict under-30,000-mile cap; no qualifying advert retained."
     },
     "model-026:collecting-cars:lotus-exige-s1": {
       "status": "searched",
@@ -2192,38 +2188,38 @@
     },
     "model-082:ebay:subaru-impreza-p1": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T08:11:27Z",
+      "lastSearchedAt": "2026-09-11T17:01:54Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "40,180-mile auction/event P1 exceeded <30k rule."
+      "limitation": "The indexed £36,995 P1 advert is ended and shows 71,000 miles; another live-auction P1 showed 40,180 miles. Both fail the strict mileage/current-sale rules."
     },
     "model-082:gumtree:subaru-impreza-p1": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T08:11:27Z",
+      "lastSearchedAt": "2026-09-11T17:01:54Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No qualifying current direct advert retained."
+      "limitation": "No current direct Gumtree P1 advert meeting under 30,000 miles and maximum two total owners surfaced."
     },
     "model-082:pistonheads:subaru-impreza-p1": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T08:11:27Z",
+      "lastSearchedAt": "2026-09-11T17:01:54Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "P1 hits exceeded <30k and/or max-two-owner rules; auction hit rejected."
+      "limitation": "Current PistonHeads P1 adverts surfaced at 41k-99k miles or were explicitly no longer available/auction pages; none meet the strict under-30,000-mile rule."
     },
     "model-082:specialist-dealers:subaru-impreza-p1": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T08:11:27Z",
+      "lastSearchedAt": "2026-09-11T17:01:54Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No qualifying current direct advert retained."
+      "limitation": "No current specialist-dealer P1 advert meeting the strict under-30,000-mile and maximum-two-total-owner rules was retained."
     },
     "model-085:autotrader:subaru-impreza-rb320": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T08:11:27Z",
+      "lastSearchedAt": "2026-09-11T17:01:54Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No qualifying current direct advert retained."
+      "limitation": "No direct current Auto Trader RB320 car-detail URL meeting under 30,000 miles and maximum two total owners surfaced."
     },
     "model-085:car-and-classic:subaru-impreza-rb320": {
       "status": "searched",
@@ -7911,6 +7907,216 @@
       "lastResultCount": 0,
       "candidateUrls": [],
       "limitation": "No current direct eBay R27 F1 Team advert satisfying the strict mileage/ownership gate was retained."
+    },
+    "model-080:facebook-groups:renault-clio-172-cup": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-11T17:01:54Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Public indexed Facebook-group search produced no verifiable current direct sale post meeting the strict price, mileage and ownership rules; no private-group access was assumed."
+    },
+    "model-080:facebook-groups:renault-clio-182-cup": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-11T17:01:54Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Public indexed Facebook-group search produced no verifiable current direct sale post meeting the strict price, mileage and ownership rules; no private-group access was assumed."
+    },
+    "model-080:facebook-groups:renault-clio-r27-f1-team": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-11T17:01:54Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Public indexed Facebook-group search produced no verifiable current direct sale post meeting the strict price, mileage and ownership rules; no private-group access was assumed."
+    },
+    "model-080:ferrarichat:renault-clio-172-cup": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-11T17:01:54Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "No current direct FerrariChat sale post for this Renault target surfaced; no candidate retained."
+    },
+    "model-080:ferrarichat:renault-clio-182-cup": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-11T17:01:54Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "No current direct FerrariChat sale post for this Renault target surfaced; no candidate retained."
+    },
+    "model-080:ferrarichat:renault-clio-r27-f1-team": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-11T17:01:54Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "No current direct FerrariChat sale post for this Renault target surfaced; no candidate retained."
+    },
+    "model-080:gumtree:renault-clio-172-cup": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-11T17:01:54Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Direct 172 Cup adverts surfaced, but examples were below £10,000 and/or well above 30,000 miles, and some were expired; none qualify."
+    },
+    "model-080:gumtree:renault-clio-182-cup": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-11T17:01:54Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Direct Clio 182 adverts surfaced, but examples were below £10,000, above 30,000 miles, or had too many owners; none qualify."
+    },
+    "model-080:gumtree:renault-clio-r27-f1-team": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-11T17:01:54Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "The direct R27 result was expired and below £10,000; no qualifying current advert retained."
+    },
+    "model-080:lamborghini-talk:renault-clio-172-cup": {
+      "status": "blocked",
+      "lastSearchedAt": "2026-09-11T17:01:54Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Public web access to lamborghini-talk.com was blocked by robots.txt; no access-control bypass attempted."
+    },
+    "model-080:lamborghini-talk:renault-clio-182-cup": {
+      "status": "blocked",
+      "lastSearchedAt": "2026-09-11T17:01:54Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Public web access to lamborghini-talk.com was blocked by robots.txt; no access-control bypass attempted."
+    },
+    "model-080:lamborghini-talk:renault-clio-r27-f1-team": {
+      "status": "blocked",
+      "lastSearchedAt": "2026-09-11T17:01:54Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Public web access to lamborghini-talk.com was blocked by robots.txt; no access-control bypass attempted."
+    },
+    "model-080:pistonheads:renault-clio-172-cup": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-11T17:01:54Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Direct 172 Cup results were auctions, below £10,000 and/or above 30,000 miles/owner limits; no qualifying current advert retained."
+    },
+    "model-080:pistonheads:renault-clio-182-cup": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-11T17:01:54Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Direct 182 Cup results were below £10,000, above 30,000 miles and/or over the owner limit; no qualifying current advert retained."
+    },
+    "model-080:pistonheads:renault-clio-r27-f1-team": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-11T17:01:54Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "No PistonHeads R27 advert meeting under 30,000 miles, maximum two total owners and the £10,000 minimum surfaced."
+    },
+    "model-080:specialist-dealers:renault-clio-172-cup": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-11T17:01:54Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Specialist results were sold, below the £10,000 floor or above the mileage/owner limits; no qualifying current 172 Cup retained."
+    },
+    "model-080:specialist-dealers:renault-clio-182-cup": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-11T17:01:54Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Car-Iconics has a current £17,995 Clio 182 at 25,121 miles, but it is advertised with 3 owners, exceeding the maximum-two-total-owner rule; no candidate retained."
+    },
+    "model-080:specialist-dealers:renault-clio-r27-f1-team": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-11T17:01:54Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "A current R27 F1 Team advert surfaced at about 44,500 miles, exceeding the strict under-30,000-mile cap; no candidate retained."
+    },
+    "model-081:911uk:renault-megane-r26-f1-team": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-11T17:01:54Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "No current direct 911UK Megane R26 F1 Team sale thread meeting the strict rules surfaced."
+    },
+    "model-081:911uk:renault-megane-r26-r": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-11T17:01:54Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "No current direct 911UK Megane R26.R sale thread meeting the strict rules surfaced."
+    },
+    "model-081:autotrader:renault-megane-r26-f1-team": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-11T17:01:54Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Auto Trader exposed generic Megane Team inventory rather than a qualifying direct car-detail URL; current asks shown were mostly below the £10,000 floor and no under-30k/max-two-owner direct advert was retained."
+    },
+    "model-081:autotrader:renault-megane-r26-r": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-11T17:01:54Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "No direct current Auto Trader R26.R car-detail URL meeting under 30,000 miles and maximum two total owners surfaced."
+    },
+    "model-081:bonhams-cars:renault-megane-r26-f1-team": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-11T17:01:54Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "No current Bonhams Cars fixed-price R26 F1 Team advert meeting the strict mileage/owner/price rules surfaced."
+    },
+    "model-081:bonhams-cars:renault-megane-r26-r": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-11T17:01:54Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "No current Bonhams Cars fixed-price R26.R advert meeting the strict mileage/owner/price rules surfaced."
+    },
+    "model-081:car-and-classic:renault-megane-r26-f1-team": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-11T17:01:54Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Direct R26 adverts surfaced but were sold/removed, below £10,000, above 30,000 miles, and/or exceeded the owner limit. The 23,319-mile low-owner example is explicitly SOLD."
+    },
+    "model-081:car-and-classic:renault-megane-r26-r": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-11T17:01:54Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Current R26.R adverts surfaced around 37k-51k miles with multiple keepers, above the strict under-30,000-mile rule; none retained."
+    },
+    "model-081:classic-trader:renault-megane-r26-f1-team": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-11T17:01:54Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "No current direct Classic Trader R26 F1 Team advert meeting under 30,000 miles, maximum two total owners and price rules surfaced."
+    },
+    "model-081:classic-trader:renault-megane-r26-r": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-11T17:01:54Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "No current direct Classic Trader R26.R advert meeting under 30,000 miles, maximum two total owners and price rules surfaced."
+    },
+    "model-081:collecting-cars:renault-megane-r26-f1-team": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-11T17:01:54Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "The surfaced Collecting Cars R26 page is a completed 2023 sale at 83,000 miles; completed auctions do not qualify."
+    },
+    "model-081:collecting-cars:renault-megane-r26-r": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-11T17:01:54Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "No current qualifying Collecting Cars R26.R live fixed-price advert surfaced; completed/historical auction material was rejected."
     }
   }
 }
