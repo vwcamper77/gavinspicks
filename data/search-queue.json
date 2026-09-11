@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T08:15:39.282Z",
+  "generatedAt": "2026-09-11T09:21:40.440Z",
   "modelCount": 96,
   "sourceCount": 13,
   "jobCount": 1482,
@@ -14793,11 +14793,11 @@
       "query": "site:ferrarichat.com Maserati GranSport MC Victory UK for sale",
       "priority": false,
       "cadenceHours": 24,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "searched",
+      "lastSearchedAt": "2026-09-11T09:15:43Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "Search returned unrelated informational/PDF material rather than a current UK Maserati GranSport MC Victory sale advert."
     },
     {
       "id": "model-065:lamborghini-talk:maserati-gransport-mc-victory",
@@ -14810,11 +14810,11 @@
       "query": "site:lamborghini-talk.com Maserati GranSport MC Victory UK for sale",
       "priority": false,
       "cadenceHours": 24,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "blocked",
+      "lastSearchedAt": "2026-09-11T09:15:43Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "lamborghini-talk.com is blocked by robots.txt to the public search worker; no bypass attempted."
     },
     {
       "id": "model-065:specialist-dealers:maserati-gransport-mc-victory",
@@ -16229,10 +16229,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T23:36:12Z",
+      "lastSearchedAt": "2026-09-11T09:15:43Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search surfaced an old 2021 PistonHeads editorial article about an RS500, not a current classified; rejected as informational/stale."
+      "limitation": "Search surfaced historical/news material rather than a current qualifying RS500 classified; no candidate retained."
     },
     {
       "id": "model-070:car-and-classic:ford-focus-rs500",
@@ -16246,10 +16246,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T23:36:12Z",
+      "lastSearchedAt": "2026-09-11T09:15:43Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Car & Classic query executed; no current direct RS500 advert passed the pre-verification screen."
+      "limitation": "Only historical, sold or non-current RS500 material surfaced; no positively current UK advert retained."
     },
     {
       "id": "model-070:collecting-cars:ford-focus-rs500",
@@ -16382,10 +16382,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T23:36:12Z",
+      "lastSearchedAt": "2026-09-11T09:15:43Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Specialist-dealer current-stock query executed; no new qualifying live RS500 advert retained."
+      "limitation": "Specialist-stock checks surfaced sold/historical RS500 pages and aggregators without current seller-stock authority. KGF current showroom did not show an RS500."
     },
     {
       "id": "model-071:facebook-groups:bmw-m5-touring-e61-5-0-v10-smg",
@@ -16807,10 +16807,10 @@
       "priority": true,
       "cadenceHours": 6,
       "status": "blocked",
-      "lastSearchedAt": "2026-09-10T18:18:04Z",
+      "lastSearchedAt": "2026-09-11T09:15:43Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public access/search to lamborghini-talk.com is blocked by robots.txt; no access-control bypass attempted."
+      "limitation": "lamborghini-talk.com is blocked by robots.txt to the public search worker; no bypass attempted."
     },
     {
       "id": "model-072:specialist-dealers:bmw-1m-coupe-manual-45000-55000-full-service-history",
@@ -17317,10 +17317,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T23:36:12Z",
+      "lastSearchedAt": "2026-09-11T09:15:43Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Auto Trader query returned generic TT inventory rather than a new direct TT quattro Sport car-detail URL; generic search/category pages were rejected."
+      "limitation": "Search returned generic TT inventory/category pages rather than a qualifying current direct TT quattro Sport advert."
     },
     {
       "id": "model-075:pistonheads:audi-tt-quattro-sport",
@@ -17334,12 +17334,12 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T23:36:12Z",
+      "lastSearchedAt": "2026-09-11T09:15:43Z",
       "lastResultCount": 1,
       "candidateUrls": [
-        "https://www.pistonheads.com/buy/listing/20852624"
+        "https://www.pistonheads.com/buy/listing/19212579"
       ],
-      "limitation": "Current £12,995 / 46,157-mile manual TT quattro Sport listing 20852624 remains plausible but is already in the verification queue; no duplicate worker candidate added."
+      "limitation": "Current £12,490, 77,000-mile manual TT quattro Sport remains live with Snippersgate seller/contact controls. It is already queued; 21-photo gallery still needs visual overlay/identity/manual-control inspection, and the advert shows MOT expired."
     },
     {
       "id": "model-075:car-and-classic:audi-tt-quattro-sport",
@@ -17353,10 +17353,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T23:36:12Z",
+      "lastSearchedAt": "2026-09-11T09:15:43Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Surfaced TT quattro Sport adverts C1752436, C1258100 and C1834260 all explicitly state they have been removed through sale or otherwise; none retained."
+      "limitation": "Surfaced TT quattro Sport pages were sold, removed or lacked sufficiently current positive availability evidence; none retained."
     },
     {
       "id": "model-075:collecting-cars:audi-tt-quattro-sport",
@@ -17438,10 +17438,10 @@
       "priority": true,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T18:18:04Z",
+      "lastSearchedAt": "2026-09-11T09:15:43Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No plausible current direct UK Audi TT quattro Sport sale advert was returned; discussion/index material rejected."
+      "limitation": "Public search returned Porsche/forum discussion rather than a current Audi TT quattro Sport sale advert."
     },
     {
       "id": "model-075:ferrarichat:audi-tt-quattro-sport",
@@ -17455,10 +17455,10 @@
       "priority": true,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T18:18:04Z",
+      "lastSearchedAt": "2026-09-11T09:15:43Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No plausible current UK Audi TT quattro Sport sale advert was returned."
+      "limitation": "No accessible current UK Audi TT quattro Sport sale advert surfaced from FerrariChat."
     },
     {
       "id": "model-075:lamborghini-talk:audi-tt-quattro-sport",
@@ -17472,10 +17472,10 @@
       "priority": true,
       "cadenceHours": 6,
       "status": "blocked",
-      "lastSearchedAt": "2026-09-10T18:18:04Z",
+      "lastSearchedAt": "2026-09-11T09:15:43Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public access/search to lamborghini-talk.com is blocked by robots.txt; no access-control bypass attempted."
+      "limitation": "lamborghini-talk.com is blocked by robots.txt to the public search worker; no bypass attempted."
     },
     {
       "id": "model-075:specialist-dealers:audi-tt-quattro-sport",
@@ -18494,10 +18494,10 @@
       "priority": true,
       "cadenceHours": 3,
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T22:29:25Z",
+      "lastSearchedAt": "2026-09-11T09:15:43Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search executed. No current fixed-price UK Clio 182 Trophy advert under 30,000 miles with no more than two total owners was retained; historical auction material was rejected."
+      "limitation": "No current fixed-price UK Clio 182 Trophy advert meeting the under-30,000-mile and maximum-two-total-owner rules was retained."
     },
     {
       "id": "model-078:classic-trader:renault-clio-182-trophy",
@@ -18528,10 +18528,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T23:36:12Z",
+      "lastSearchedAt": "2026-09-11T09:15:43Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Current Gumtree query executed; no plausible direct Clio 182 Trophy advert meeting the strict under-30,000-mile / maximum-two-total-owner screen was returned."
+      "limitation": "No current qualifying Clio 182 Trophy advert under 30,000 miles with verified maximum two total owners was retained."
     },
     {
       "id": "model-078:911uk:renault-clio-182-trophy",
@@ -18596,10 +18596,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T23:36:12Z",
+      "lastSearchedAt": "2026-09-11T09:15:43Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Specialist-dealer current-stock query executed; no new Clio 182 Trophy meeting the strict mileage/ownership screen was retained."
+      "limitation": "A specialist Clio Trophy example surfaced as sold and at 85,000 miles, failing both availability and the under-30,000-mile rule; no candidate retained."
     },
     {
       "id": "model-079:facebook-groups:renault-clio-williams-2",
@@ -20840,10 +20840,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T23:36:12Z",
+      "lastSearchedAt": "2026-09-11T09:15:43Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Current public eBay query executed; no plausible direct UK RB320 advert meeting the under-30,000-mile / maximum-two-total-owner screen was returned."
+      "limitation": "No current eBay RB320 advert meeting the strict under-30,000-mile and maximum-two-total-owner rules was retained."
     },
     {
       "id": "model-085:autotrader:subaru-impreza-rb320",
@@ -20874,10 +20874,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T23:36:12Z",
+      "lastSearchedAt": "2026-09-11T09:15:43Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Current PistonHeads query executed; no new plausible direct RB320 advert meeting the mileage/ownership screen was returned."
+      "limitation": "PistonHeads listing 20395030 looked current in search snippets (23,855 miles, one owner) but the underlying advert states the car is no longer available for purchase, so it was rejected."
     },
     {
       "id": "model-085:car-and-classic:subaru-impreza-rb320",
@@ -20959,10 +20959,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T23:36:12Z",
+      "lastSearchedAt": "2026-09-11T09:15:43Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Current Gumtree query executed; no plausible direct RB320 advert meeting the strict mileage/ownership screen was returned."
+      "limitation": "No current Gumtree RB320 advert meeting the strict under-30,000-mile and maximum-two-total-owner rules was retained."
     },
     {
       "id": "model-085:911uk:subaru-impreza-rb320",
@@ -24669,10 +24669,10 @@
       "priority": true,
       "cadenceHours": 3,
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T21:37:37Z",
+      "lastSearchedAt": "2026-09-11T09:15:43Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Results were historical completed sales, CSL/SMG, convertibles or cars above the 50,000-mile cap; no qualifying current fixed-price factory-manual Coupe advert retained."
+      "limitation": "Results were completed historical auctions and/or exceeded the 50,000-mile cap; no current qualifying fixed-price advert retained."
     },
     {
       "id": "model-096:bonhams-cars:bmw-e46-m3-manual-coupe-uk",
@@ -24703,10 +24703,10 @@
       "priority": true,
       "cadenceHours": 3,
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T21:37:37Z",
+      "lastSearchedAt": "2026-09-11T09:15:43Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Executed Classic Trader search; no plausible current UK factory-manual E46 M3 Coupe advert at or below 50,000 miles was retained."
+      "limitation": "No current UK factory-manual E46 M3 Coupe at or below 50,000 miles with a qualifying fixed asking price was retained."
     },
     {
       "id": "model-096:gumtree:bmw-e46-m3-manual-coupe-uk",
@@ -24894,10 +24894,10 @@
       "priority": true,
       "cadenceHours": 3,
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T21:37:37Z",
+      "lastSearchedAt": "2026-09-11T09:15:43Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Alternate Collecting Cars query returned historical/completed or non-qualifying E46 M3 material; no current fixed-price factory 6-speed Coupe at or below 50,000 miles retained."
+      "limitation": "Results were completed historical auctions and/or exceeded the 50,000-mile cap; no current qualifying fixed-price advert retained."
     },
     {
       "id": "model-096:bonhams-cars:bmw-m3-e46-6-speed-manual-coupe-uk",
@@ -24928,10 +24928,10 @@
       "priority": true,
       "cadenceHours": 3,
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T21:37:37Z",
+      "lastSearchedAt": "2026-09-11T09:15:43Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Executed Classic Trader alternate-phrase search; no plausible current UK factory 6-speed E46 M3 Coupe advert at or below 50,000 miles was retained."
+      "limitation": "No current UK factory six-speed manual E46 M3 Coupe at or below 50,000 miles with a qualifying fixed asking price was retained."
     },
     {
       "id": "model-096:gumtree:bmw-m3-e46-6-speed-manual-coupe-uk",
