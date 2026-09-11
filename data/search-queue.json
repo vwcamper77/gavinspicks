@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T11:29:52.022Z",
+  "generatedAt": "2026-09-11T12:30:57.757Z",
   "modelCount": 96,
   "sourceCount": 13,
   "jobCount": 1482,
@@ -12721,10 +12721,10 @@
       "priority": true,
       "cadenceHours": 3,
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T02:44:47Z",
+      "lastSearchedAt": "2026-09-11T12:24:18Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No plausible current fixed-price UK Z4 M Coupe advert was returned; historical auction material was rejected."
+      "limitation": "No current fixed-price Bonhams Cars BMW Z4 M Coupe advert retained."
     },
     {
       "id": "model-056:classic-trader:bmw-z4-m-coupe",
@@ -12738,10 +12738,10 @@
       "priority": true,
       "cadenceHours": 3,
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T02:44:47Z",
+      "lastSearchedAt": "2026-09-11T12:24:18Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No new direct current qualifying UK Z4 M Coupe advert was retained in this pass."
+      "limitation": "No new current UK BMW Z4 M Coupe advert was retained from Classic Trader."
     },
     {
       "id": "model-056:gumtree:bmw-z4-m-coupe",
@@ -16373,10 +16373,10 @@
       "priority": true,
       "cadenceHours": 6,
       "status": "blocked",
-      "lastSearchedAt": "2026-09-10T22:29:25Z",
+      "lastSearchedAt": "2026-09-11T12:24:18Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public access/search to lamborghini-talk.com is blocked by robots.txt. No bypass attempted."
+      "limitation": "lamborghini-talk.com blocks the public search worker via robots.txt; no access-control bypass attempted."
     },
     {
       "id": "model-070:specialist-dealers:ford-focus-rs500",
@@ -16406,11 +16406,11 @@
       "query": "site:facebook.com/groups BMW M5 Touring E61 5.0 V10 SMG UK for sale",
       "priority": false,
       "cadenceHours": 24,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "blocked",
+      "lastSearchedAt": "2026-09-11T12:24:18Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "Public indexed Facebook-group search did not expose a directly accessible current E61 M5 Touring advert; private-group/login access was not bypassed."
     },
     {
       "id": "model-071:ebay:bmw-m5-touring-e61-5-0-v10-smg",
@@ -16423,11 +16423,11 @@
       "query": "site:ebay.co.uk/itm BMW M5 Touring E61 5.0 V10 SMG UK for sale",
       "priority": false,
       "cadenceHours": 6,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "searched",
+      "lastSearchedAt": "2026-09-11T12:24:18Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "Search surfaced ended, wrong-generation or non-vehicle material; no current E61 M5 Touring advert retained."
     },
     {
       "id": "model-071:autotrader:bmw-m5-touring-e61-5-0-v10-smg",
@@ -16457,11 +16457,11 @@
       "query": "site:pistonheads.com/buy BMW M5 Touring E61 5.0 V10 SMG UK for sale",
       "priority": false,
       "cadenceHours": 6,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "searched",
+      "lastSearchedAt": "2026-09-11T12:24:18Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "Direct E61 M5 Touring classifieds checked were explicitly no longer available; an active auction had no fixed qualifying asking price."
     },
     {
       "id": "model-071:car-and-classic:bmw-m5-touring-e61-5-0-v10-smg",
@@ -16493,11 +16493,11 @@
       "query": "site:collectingcars.com BMW M5 Touring E61 5.0 V10 SMG UK for sale",
       "priority": false,
       "cadenceHours": 12,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "searched",
+      "lastSearchedAt": "2026-09-11T12:24:18Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "Results were completed/sold E61 M5 Touring auctions; no current fixed-price advert retained."
     },
     {
       "id": "model-071:bonhams-cars:bmw-m5-touring-e61-5-0-v10-smg",
@@ -16544,11 +16544,11 @@
       "query": "site:gumtree.com BMW M5 Touring E61 5.0 V10 SMG UK for sale",
       "priority": false,
       "cadenceHours": 6,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "searched",
+      "lastSearchedAt": "2026-09-11T12:24:18Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "No current direct Gumtree E61 M5 Touring advert was retained."
     },
     {
       "id": "model-071:911uk:bmw-m5-touring-e61-5-0-v10-smg",
@@ -16578,11 +16578,11 @@
       "query": "site:ferrarichat.com BMW M5 Touring E61 5.0 V10 SMG UK for sale",
       "priority": false,
       "cadenceHours": 24,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "searched",
+      "lastSearchedAt": "2026-09-11T12:24:18Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "No accessible current UK E61 M5 Touring sale advert surfaced from FerrariChat."
     },
     {
       "id": "model-071:lamborghini-talk:bmw-m5-touring-e61-5-0-v10-smg",
@@ -16595,11 +16595,11 @@
       "query": "site:lamborghini-talk.com BMW M5 Touring E61 5.0 V10 SMG UK for sale",
       "priority": false,
       "cadenceHours": 24,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "blocked",
+      "lastSearchedAt": "2026-09-11T12:24:18Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "lamborghini-talk.com blocks the public search worker via robots.txt; no access-control bypass attempted."
     },
     {
       "id": "model-071:specialist-dealers:bmw-m5-touring-e61-5-0-v10-smg",
@@ -16612,11 +16612,11 @@
       "query": "BMW M5 Touring E61 5.0 V10 SMG UK for sale specialist dealer current stock",
       "priority": false,
       "cadenceHours": 6,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "searched",
+      "lastSearchedAt": "2026-09-11T12:24:18Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "Munich Legends E61 Touring pages were Sold/POA and other surfaced stock was the wrong E60 saloon body; no qualifying current Touring advert retained."
     },
     {
       "id": "model-072:facebook-groups:bmw-1m-coupe-manual-45000-55000-full-service-history",
@@ -16681,10 +16681,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T04:36:26Z",
+      "lastSearchedAt": "2026-09-11T12:24:18Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Surfaced PistonHeads 1M results were either below the model's £45k floor or explicitly no longer available; no current qualifying direct advert retained."
+      "limitation": "The surfaced 1M listing was outside the target mileage/price profile and explicitly no longer available; no qualifying current advert retained."
     },
     {
       "id": "model-072:car-and-classic:bmw-1m-coupe-manual-45000-55000-full-service-history",
@@ -16836,10 +16836,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T04:36:26Z",
+      "lastSearchedAt": "2026-09-11T12:24:18Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search surfaced stale/no-longer-available or non-qualifying 1M stock; no current UK dealer advert within £45k–£55k retained."
+      "limitation": "No new current specialist-dealer 1M Coupe matching the target profile was retained; surfaced stock was sold or non-qualifying."
     },
     {
       "id": "model-073:facebook-groups:audi-ur-quattro",
@@ -16852,11 +16852,11 @@
       "query": "site:facebook.com/groups Audi ur-quattro UK for sale",
       "priority": false,
       "cadenceHours": 24,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "blocked",
+      "lastSearchedAt": "2026-09-11T12:24:18Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "Public indexed Facebook-group search did not expose a directly accessible current ur-quattro advert; private-group/login access was not bypassed."
     },
     {
       "id": "model-073:ebay:audi-ur-quattro",
@@ -16869,11 +16869,11 @@
       "query": "site:ebay.co.uk/itm Audi ur-quattro UK for sale",
       "priority": false,
       "cadenceHours": 6,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "searched",
+      "lastSearchedAt": "2026-09-11T12:24:18Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "No current direct original Audi ur-quattro vehicle advert was retained; irrelevant quattro-badged models and ended material were rejected."
     },
     {
       "id": "model-073:autotrader:audi-ur-quattro",
@@ -16886,11 +16886,11 @@
       "query": "site:autotrader.co.uk/car-details Audi ur-quattro UK for sale",
       "priority": false,
       "cadenceHours": 6,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "searched",
+      "lastSearchedAt": "2026-09-11T12:24:18Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "Only generic Auto Trader category/search material surfaced; no direct current ur-quattro advert URL was retained."
     },
     {
       "id": "model-073:pistonheads:audi-ur-quattro",
@@ -16903,11 +16903,15 @@
       "query": "site:pistonheads.com/buy Audi ur-quattro UK for sale",
       "priority": false,
       "cadenceHours": 6,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
-      "candidateUrls": [],
-      "limitation": null
+      "status": "searched",
+      "lastSearchedAt": "2026-09-11T12:24:18Z",
+      "lastResultCount": 3,
+      "candidateUrls": [
+        "https://www.pistonheads.com/buy/listing/20952619",
+        "https://www.pistonheads.com/buy/listing/19296052",
+        "https://www.pistonheads.com/buy/listing/16723245"
+      ],
+      "limitation": "Three current UK manual ur-quattro classifieds with fixed asking prices and seller controls were retained. Photograph/status overlays and exact seller-gallery manual verification remain outstanding before publication."
     },
     {
       "id": "model-073:car-and-classic:audi-ur-quattro",
@@ -16920,11 +16924,11 @@
       "query": "site:carandclassic.com Audi ur-quattro UK for sale",
       "priority": false,
       "cadenceHours": 6,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "searched",
+      "lastSearchedAt": "2026-09-11T12:24:18Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "No current direct UK original ur-quattro advert was retained; later S2/quattro-badged material was rejected."
     },
     {
       "id": "model-073:collecting-cars:audi-ur-quattro",
@@ -16937,11 +16941,11 @@
       "query": "site:collectingcars.com Audi ur-quattro UK for sale",
       "priority": false,
       "cadenceHours": 12,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "searched",
+      "lastSearchedAt": "2026-09-11T12:24:18Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "Surfaced ur-quattro auction material was historical/completed; no current fixed-price qualifying advert retained."
     },
     {
       "id": "model-073:bonhams-cars:audi-ur-quattro",
@@ -16954,11 +16958,11 @@
       "query": "site:cars.bonhams.com Audi ur-quattro UK for sale",
       "priority": false,
       "cadenceHours": 12,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "searched",
+      "lastSearchedAt": "2026-09-11T12:24:18Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "No current fixed-price UK Bonhams Cars ur-quattro advert was retained."
     },
     {
       "id": "model-073:classic-trader:audi-ur-quattro",
@@ -16971,11 +16975,11 @@
       "query": "site:classic-trader.com Audi ur-quattro UK for sale",
       "priority": false,
       "cadenceHours": 12,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "searched",
+      "lastSearchedAt": "2026-09-11T12:24:18Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "A live 1984 ur-quattro surfaced at £76k but is Netherlands-based/LHD, so it fails the UK-location rule."
     },
     {
       "id": "model-073:gumtree:audi-ur-quattro",
@@ -16988,11 +16992,11 @@
       "query": "site:gumtree.com Audi ur-quattro UK for sale",
       "priority": false,
       "cadenceHours": 6,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "searched",
+      "lastSearchedAt": "2026-09-11T12:24:18Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "No current direct Gumtree original Audi ur-quattro advert was retained."
     },
     {
       "id": "model-073:911uk:audi-ur-quattro",
@@ -17005,11 +17009,11 @@
       "query": "site:911uk.com Audi ur-quattro UK for sale",
       "priority": false,
       "cadenceHours": 24,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "searched",
+      "lastSearchedAt": "2026-09-11T12:24:18Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "No current Audi ur-quattro sale advert surfaced from 911UK."
     },
     {
       "id": "model-073:ferrarichat:audi-ur-quattro",
@@ -17022,11 +17026,11 @@
       "query": "site:ferrarichat.com Audi ur-quattro UK for sale",
       "priority": false,
       "cadenceHours": 24,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "searched",
+      "lastSearchedAt": "2026-09-11T12:24:18Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "No accessible current UK Audi ur-quattro sale advert surfaced from FerrariChat."
     },
     {
       "id": "model-073:lamborghini-talk:audi-ur-quattro",
@@ -17039,11 +17043,11 @@
       "query": "site:lamborghini-talk.com Audi ur-quattro UK for sale",
       "priority": false,
       "cadenceHours": 24,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "blocked",
+      "lastSearchedAt": "2026-09-11T12:24:18Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "lamborghini-talk.com blocks the public search worker via robots.txt; no access-control bypass attempted."
     },
     {
       "id": "model-073:specialist-dealers:audi-ur-quattro",
@@ -17056,11 +17060,11 @@
       "query": "Audi ur-quattro UK for sale specialist dealer current stock",
       "priority": false,
       "cadenceHours": 6,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "searched",
+      "lastSearchedAt": "2026-09-11T12:24:18Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "No new directly verified specialist-dealer stock URL beyond marketplace cross-posts was retained in this pass."
     },
     {
       "id": "model-074:facebook-groups:porsche-996-40th-anniversary-manual",
@@ -17073,11 +17077,11 @@
       "query": "site:facebook.com/groups Porsche 996 40th Anniversary manual UK for sale",
       "priority": false,
       "cadenceHours": 24,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "blocked",
+      "lastSearchedAt": "2026-09-11T12:24:18Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "Public indexed Facebook-group search did not expose a directly accessible current 996 40th Anniversary advert; private-group/login access was not bypassed."
     },
     {
       "id": "model-074:ebay:porsche-996-40th-anniversary-manual",
@@ -17090,11 +17094,11 @@
       "query": "site:ebay.co.uk/itm Porsche 996 40th Anniversary manual UK for sale",
       "priority": false,
       "cadenceHours": 6,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "searched",
+      "lastSearchedAt": "2026-09-11T12:24:18Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "Current eBay 996 manuals surfaced but were standard Carrera/Turbo derivatives rather than the 40th Anniversary model; no exact candidate retained."
     },
     {
       "id": "model-074:autotrader:porsche-996-40th-anniversary-manual",
@@ -17107,11 +17111,11 @@
       "query": "site:autotrader.co.uk/car-details Porsche 996 40th Anniversary manual UK for sale",
       "priority": false,
       "cadenceHours": 6,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "searched",
+      "lastSearchedAt": "2026-09-11T12:24:18Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "No current direct Auto Trader 996 40th Anniversary manual advert URL was retained."
     },
     {
       "id": "model-074:pistonheads:porsche-996-40th-anniversary-manual",
@@ -17141,11 +17145,14 @@
       "query": "site:carandclassic.com Porsche 996 40th Anniversary manual UK for sale",
       "priority": false,
       "cadenceHours": 6,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
-      "candidateUrls": [],
-      "limitation": null
+      "status": "searched",
+      "lastSearchedAt": "2026-09-11T12:24:18Z",
+      "lastResultCount": 2,
+      "candidateUrls": [
+        "https://www.carandclassic.com/l/C2114774",
+        "https://www.carandclassic.com/car/C2118051"
+      ],
+      "limitation": "Two current UK 2004 996 40th Anniversary six-speed manuals were retained: £29,500/68,630 miles private and £30,995/72,290 miles dealer. Both are marked For Sale with galleries; exact visual sold-overlay/manual-control inspection remains outstanding."
     },
     {
       "id": "model-074:collecting-cars:porsche-996-40th-anniversary-manual",
@@ -17158,11 +17165,11 @@
       "query": "site:collectingcars.com Porsche 996 40th Anniversary manual UK for sale",
       "priority": false,
       "cadenceHours": 12,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "searched",
+      "lastSearchedAt": "2026-09-11T12:24:18Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "Surfaced 996 40th Anniversary pages were completed/sold auctions; no current fixed-price advert retained."
     },
     {
       "id": "model-074:bonhams-cars:porsche-996-40th-anniversary-manual",
@@ -17175,11 +17182,11 @@
       "query": "site:cars.bonhams.com Porsche 996 40th Anniversary manual UK for sale",
       "priority": false,
       "cadenceHours": 12,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "searched",
+      "lastSearchedAt": "2026-09-11T12:24:18Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "No current fixed-price Bonhams Cars 996 40th Anniversary manual advert was retained."
     },
     {
       "id": "model-074:classic-trader:porsche-996-40th-anniversary-manual",
@@ -17192,11 +17199,11 @@
       "query": "site:classic-trader.com Porsche 996 40th Anniversary manual UK for sale",
       "priority": false,
       "cadenceHours": 12,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "searched",
+      "lastSearchedAt": "2026-09-11T12:24:18Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "No current qualifying UK 996 40th Anniversary manual advert was retained from Classic Trader."
     },
     {
       "id": "model-074:gumtree:porsche-996-40th-anniversary-manual",
@@ -17226,11 +17233,11 @@
       "query": "site:911uk.com Porsche 996 40th Anniversary manual UK for sale",
       "priority": false,
       "cadenceHours": 24,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "searched",
+      "lastSearchedAt": "2026-09-11T12:24:18Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "No current direct 911UK 996 40th Anniversary manual sale advert surfaced."
     },
     {
       "id": "model-074:ferrarichat:porsche-996-40th-anniversary-manual",
@@ -17243,11 +17250,11 @@
       "query": "site:ferrarichat.com Porsche 996 40th Anniversary manual UK for sale",
       "priority": false,
       "cadenceHours": 24,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "searched",
+      "lastSearchedAt": "2026-09-11T12:24:18Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "No accessible current UK 996 40th Anniversary manual sale advert surfaced from FerrariChat."
     },
     {
       "id": "model-074:lamborghini-talk:porsche-996-40th-anniversary-manual",
@@ -17312,10 +17319,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T04:36:26Z",
+      "lastSearchedAt": "2026-09-11T12:24:18Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Exact quattro Sport listings surfaced at £6,990 or £9,495; both are below the £10k floor, and the £9,495 listing is no longer available."
+      "limitation": "Current exact quattro Sport results surfaced below the £10,000 minimum; ended or ordinary TT listings were rejected."
     },
     {
       "id": "model-075:autotrader:audi-tt-quattro-sport",
@@ -17433,10 +17440,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T04:36:26Z",
+      "lastSearchedAt": "2026-09-11T12:24:18Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Returned ordinary TT quattro stock, not a qualifying quattro Sport 240 above the £10k floor."
+      "limitation": "No new qualifying current direct Gumtree TT quattro Sport advert with a verified fixed asking price surfaced in this pass."
     },
     {
       "id": "model-075:911uk:audi-tt-quattro-sport",
@@ -17501,10 +17508,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T04:36:26Z",
+      "lastSearchedAt": "2026-09-11T12:24:18Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Philip Raby's exact TT quattro Sport is live at £8,995, below the £10k floor; no qualifying dealer advert retained."
+      "limitation": "Philip Raby has a current 2005 manual quattro Sport at £8,995, which is below the £10,000 eligibility floor; no qualifying specialist advert retained."
     },
     {
       "id": "model-076:facebook-groups:ford-focus-st500",
@@ -20257,10 +20264,10 @@
       "priority": true,
       "cadenceHours": 3,
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T01:13:33Z",
+      "lastSearchedAt": "2026-09-11T12:24:18Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No current qualifying Impreza P1 advert was retained; completed and historical auction material was rejected."
+      "limitation": "Collecting Cars results were completed/sold P1 auctions; surfaced cars were historical and/or above the 30,000-mile cap."
     },
     {
       "id": "model-082:bonhams-cars:subaru-impreza-p1",
@@ -20291,10 +20298,10 @@
       "priority": true,
       "cadenceHours": 3,
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T01:13:33Z",
+      "lastSearchedAt": "2026-09-11T12:24:18Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No plausible current UK Impreza P1 advert meeting the mileage and ownership limits was returned."
+      "limitation": "No current UK Subaru Impreza P1 advert meeting the strict under-30,000-mile and maximum-two-total-owner rules surfaced; returned material was irrelevant or non-qualifying."
     },
     {
       "id": "model-082:gumtree:subaru-impreza-p1",
@@ -20920,10 +20927,10 @@
       "priority": true,
       "cadenceHours": 3,
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T01:13:33Z",
+      "lastSearchedAt": "2026-09-11T12:24:18Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No current qualifying RB320 advert was retained; completed and historical auction material was rejected."
+      "limitation": "Results were completed/sold RB320 auctions and were well above the 30,000-mile limit; no qualifying current advert retained."
     },
     {
       "id": "model-085:bonhams-cars:subaru-impreza-rb320",
@@ -20937,10 +20944,10 @@
       "priority": true,
       "cadenceHours": 3,
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T01:13:33Z",
+      "lastSearchedAt": "2026-09-11T12:24:18Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No plausible current fixed-price UK RB320 advert under 30,000 miles with no more than two total owners was returned."
+      "limitation": "No current fixed-price UK RB320 advert satisfying under 30,000 miles and no more than two total owners surfaced."
     },
     {
       "id": "model-085:classic-trader:subaru-impreza-rb320",
@@ -22520,10 +22527,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T04:36:26Z",
+      "lastSearchedAt": "2026-09-11T12:24:18Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No current direct Gumtree Tommi Makinen Edition advert meeting the under-30,000-mile and maximum-two-total-owner constraints was retained."
+      "limitation": "No new current Gumtree Evo VI Tommi Makinen Edition advert satisfying under 30,000 miles and maximum two total owners surfaced."
     },
     {
       "id": "model-088:911uk:mitsubishi-evo-vi-tommi-makinen-edition",
@@ -22537,10 +22544,10 @@
       "priority": true,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T22:29:25Z",
+      "lastSearchedAt": "2026-09-11T12:24:18Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No current direct UK Tommi Makinen Edition sale advert under 30,000 miles with no more than two total owners was retained."
+      "limitation": "No current UK Evo VI Tommi Makinen Edition sale advert meeting the mileage/ownership rules surfaced from 911UK."
     },
     {
       "id": "model-088:ferrarichat:mitsubishi-evo-vi-tommi-makinen-edition",
@@ -22554,10 +22561,10 @@
       "priority": true,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T22:29:25Z",
+      "lastSearchedAt": "2026-09-11T12:24:18Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No current direct UK TME advert satisfying the mileage and ownership caps was retained from publicly accessible FerrariChat results."
+      "limitation": "No accessible current UK Evo VI Tommi Makinen Edition sale advert satisfying the strict mileage/ownership rules surfaced from FerrariChat."
     },
     {
       "id": "model-088:lamborghini-talk:mitsubishi-evo-vi-tommi-makinen-edition",
@@ -22571,10 +22578,10 @@
       "priority": true,
       "cadenceHours": 6,
       "status": "blocked",
-      "lastSearchedAt": "2026-09-10T22:29:25Z",
+      "lastSearchedAt": "2026-09-11T12:24:18Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public access/search to lamborghini-talk.com is blocked by robots.txt. No bypass attempted."
+      "limitation": "lamborghini-talk.com blocks the public search worker via robots.txt; no access-control bypass attempted."
     },
     {
       "id": "model-088:specialist-dealers:mitsubishi-evo-vi-tommi-makinen-edition",
@@ -24593,11 +24600,11 @@
       "query": "site:facebook.com/groups BMW E46 M3 manual coupe UK UK for sale up to 50000 miles",
       "priority": true,
       "cadenceHours": 6,
-      "status": "searched",
-      "lastSearchedAt": "2026-09-10T23:36:12Z",
+      "status": "blocked",
+      "lastSearchedAt": "2026-09-11T12:24:18Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public indexed Facebook-group query executed; no current direct UK E46 M3 manual Coupe sale post up to 50,000 miles was returned. No private-group access attempted."
+      "limitation": "Public indexed Facebook-group search did not expose a directly accessible current advert; private-group/login access was not bypassed."
     },
     {
       "id": "model-096:ebay:bmw-e46-m3-manual-coupe-uk",
@@ -24749,10 +24756,10 @@
       "priority": true,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T22:29:25Z",
+      "lastSearchedAt": "2026-09-11T12:24:18Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No plausible current direct UK factory-manual E46 M3 Coupe advert at or below 50,000 miles was retained."
+      "limitation": "No current factory-manual E46 M3 Coupe advert at or below 50,000 miles surfaced from 911UK."
     },
     {
       "id": "model-096:ferrarichat:bmw-e46-m3-manual-coupe-uk",
@@ -24818,11 +24825,11 @@
       "query": "site:facebook.com/groups BMW M3 E46 6 speed manual coupe UK UK for sale up to 50000 miles",
       "priority": true,
       "cadenceHours": 6,
-      "status": "searched",
-      "lastSearchedAt": "2026-09-10T23:36:12Z",
+      "status": "blocked",
+      "lastSearchedAt": "2026-09-11T12:24:18Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Second public indexed Facebook-group E46 M3 six-speed Coupe variant query executed; no plausible current sale post was returned. No private-group access attempted."
+      "limitation": "Public indexed Facebook-group search did not expose a directly accessible current advert; private-group/login access was not bypassed."
     },
     {
       "id": "model-096:ebay:bmw-m3-e46-6-speed-manual-coupe-uk",
@@ -24974,10 +24981,10 @@
       "priority": true,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T22:29:25Z",
+      "lastSearchedAt": "2026-09-11T12:24:18Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No plausible current direct UK factory six-speed E46 M3 Coupe advert at or below 50,000 miles was retained."
+      "limitation": "No current factory six-speed E46 M3 Coupe advert at or below 50,000 miles surfaced from 911UK."
     },
     {
       "id": "model-096:ferrarichat:bmw-m3-e46-6-speed-manual-coupe-uk",
