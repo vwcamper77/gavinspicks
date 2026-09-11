@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T02:51:43.470Z",
+  "generatedAt": "2026-09-11T03:45:44.829Z",
   "modelCount": 96,
   "sourceCount": 13,
   "jobCount": 1482,
@@ -46,11 +46,11 @@
       "query": "site:facebook.com/groups Ferrari 360 Modena / Spider manual UK for sale",
       "priority": false,
       "cadenceHours": 24,
-      "status": "searched",
-      "lastSearchedAt": "2026-09-09T23:35:56Z",
+      "status": "blocked",
+      "lastSearchedAt": "2026-09-11T03:42:46Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public indexed Facebook-group search returned no plausible current UK sale advert; no private-group access was attempted."
+      "limitation": "Public indexed Facebook-group query returned only Meta blocked/non-listing pages; no private-group or access-control bypass attempted."
     },
     {
       "id": "model-001:ebay:ferrari-360-modena-spider-manual",
@@ -204,10 +204,10 @@
       "priority": false,
       "cadenceHours": 24,
       "status": "searched",
-      "lastSearchedAt": "2026-09-09T23:35:56Z",
+      "lastSearchedAt": "2026-09-11T03:42:46Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No relevant current UK 360 manual sale advert URL was returned."
+      "limitation": "Search returned Porsche forum threads and historical Ferrari mentions, not a current Ferrari 360 manual sale advert."
     },
     {
       "id": "model-001:ferrarichat:ferrari-360-modena-spider-manual",
@@ -221,10 +221,10 @@
       "priority": false,
       "cadenceHours": 24,
       "status": "searched",
-      "lastSearchedAt": "2026-09-09T23:35:56Z",
+      "lastSearchedAt": "2026-09-11T03:42:46Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No current UK advert satisfying price and availability rules was returned."
+      "limitation": "No accessible current UK Ferrari 360 manual sale advert surfaced from FerrariChat."
     },
     {
       "id": "model-001:lamborghini-talk:ferrari-360-modena-spider-manual",
@@ -238,10 +238,10 @@
       "priority": false,
       "cadenceHours": 24,
       "status": "blocked",
-      "lastSearchedAt": "2026-09-09T23:35:56Z",
+      "lastSearchedAt": "2026-09-11T03:42:46Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public access/search coverage for lamborghini-talk.com was blocked; no access-control bypass attempted."
+      "limitation": "lamborghini-talk.com is blocked by robots.txt to the public search worker; no bypass attempted."
     },
     {
       "id": "model-001:specialist-dealers:ferrari-360-modena-spider-manual",
@@ -271,11 +271,11 @@
       "query": "site:facebook.com/groups Ferrari F355 manual UK for sale",
       "priority": false,
       "cadenceHours": 24,
-      "status": "searched",
-      "lastSearchedAt": "2026-09-09T23:35:56Z",
+      "status": "blocked",
+      "lastSearchedAt": "2026-09-11T03:42:46Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public indexed Facebook-group search returned no plausible current qualifying UK F355 manual advert; no private-group access was attempted."
+      "limitation": "Public indexed Facebook-group query returned only Meta blocked/non-listing pages; no private-group access attempted."
     },
     {
       "id": "model-002:ebay:ferrari-f355-manual",
@@ -425,10 +425,10 @@
       "priority": false,
       "cadenceHours": 24,
       "status": "searched",
-      "lastSearchedAt": "2026-09-09T23:35:56Z",
+      "lastSearchedAt": "2026-09-11T03:42:46Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No relevant current qualifying UK F355 manual sale advert URL was returned."
+      "limitation": "No current F355 manual sale advert surfaced; returned forum content was unrelated/historical."
     },
     {
       "id": "model-002:ferrarichat:ferrari-f355-manual",
@@ -442,10 +442,10 @@
       "priority": false,
       "cadenceHours": 24,
       "status": "searched",
-      "lastSearchedAt": "2026-09-09T23:35:56Z",
+      "lastSearchedAt": "2026-09-11T03:42:46Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No current UK F355 manual advert satisfying the price and availability rules was returned."
+      "limitation": "No accessible current UK F355 manual sale advert within the watch criteria surfaced from FerrariChat."
     },
     {
       "id": "model-002:lamborghini-talk:ferrari-f355-manual",
@@ -459,10 +459,10 @@
       "priority": false,
       "cadenceHours": 24,
       "status": "blocked",
-      "lastSearchedAt": "2026-09-09T23:35:56Z",
+      "lastSearchedAt": "2026-09-11T03:42:46Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public access/search coverage for lamborghini-talk.com was blocked; no access-control bypass attempted."
+      "limitation": "lamborghini-talk.com is blocked by robots.txt to the public search worker; no bypass attempted."
     },
     {
       "id": "model-002:specialist-dealers:ferrari-f355-manual",
@@ -492,11 +492,11 @@
       "query": "site:facebook.com/groups Ferrari 550 Maranello UK for sale",
       "priority": false,
       "cadenceHours": 24,
-      "status": "searched",
-      "lastSearchedAt": "2026-09-09T23:35:56Z",
+      "status": "blocked",
+      "lastSearchedAt": "2026-09-11T03:42:46Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public indexed Facebook-group search returned no plausible current UK 550 Maranello advert under the configured ceiling; no private-group access was attempted."
+      "limitation": "Public indexed Facebook-group query did not expose an accessible vehicle-for-sale post; Meta access was blocked."
     },
     {
       "id": "model-003:ebay:ferrari-550-maranello",
@@ -652,10 +652,10 @@
       "priority": false,
       "cadenceHours": 24,
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T00:33:58Z",
+      "lastSearchedAt": "2026-09-11T03:42:46Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No relevant current qualifying UK Ferrari 550 sale advert URL was captured."
+      "limitation": "No current Ferrari 550 sale advert surfaced from 911UK; unrelated Porsche classifieds were rejected."
     },
     {
       "id": "model-003:ferrarichat:ferrari-550-maranello",
@@ -669,10 +669,10 @@
       "priority": false,
       "cadenceHours": 24,
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T00:33:58Z",
+      "lastSearchedAt": "2026-09-11T03:42:46Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No current UK Ferrari 550 advert within the £100,000 ceiling was captured."
+      "limitation": "No accessible current UK Ferrari 550 Maranello sale advert surfaced from FerrariChat."
     },
     {
       "id": "model-003:lamborghini-talk:ferrari-550-maranello",
@@ -686,10 +686,10 @@
       "priority": false,
       "cadenceHours": 24,
       "status": "blocked",
-      "lastSearchedAt": "2026-09-10T00:33:58Z",
+      "lastSearchedAt": "2026-09-11T03:42:46Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public search access to lamborghini-talk.com was blocked by robots.txt; no bypass attempted."
+      "limitation": "lamborghini-talk.com is blocked by robots.txt to the public search worker; no bypass attempted."
     },
     {
       "id": "model-003:specialist-dealers:ferrari-550-maranello",
@@ -721,11 +721,11 @@
       "query": "site:facebook.com/groups Ferrari 456 GT / 456M GT manual UK for sale",
       "priority": false,
       "cadenceHours": 24,
-      "status": "searched",
-      "lastSearchedAt": "2026-09-10T00:33:58Z",
+      "status": "blocked",
+      "lastSearchedAt": "2026-09-11T03:42:46Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public indexed Facebook-group query executed; no plausible current qualifying UK manual Ferrari 456 advert was captured and no private-group access was attempted."
+      "limitation": "Public indexed Facebook-group query did not expose an accessible current Ferrari 456 manual advert; Meta access was blocked."
     },
     {
       "id": "model-004:ebay:ferrari-456-gt-456m-gt-manual",
@@ -877,10 +877,10 @@
       "priority": false,
       "cadenceHours": 24,
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T00:33:58Z",
+      "lastSearchedAt": "2026-09-11T03:42:46Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No relevant current qualifying UK manual Ferrari 456 sale advert URL was captured."
+      "limitation": "No current Ferrari 456 GT/456M GT manual sale advert surfaced from 911UK."
     },
     {
       "id": "model-004:ferrarichat:ferrari-456-gt-456m-gt-manual",
@@ -894,10 +894,10 @@
       "priority": false,
       "cadenceHours": 24,
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T00:33:58Z",
+      "lastSearchedAt": "2026-09-11T03:42:46Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No relevant current qualifying UK manual Ferrari 456 sale advert URL was captured."
+      "limitation": "No accessible current UK Ferrari 456 manual sale advert surfaced from FerrariChat."
     },
     {
       "id": "model-004:lamborghini-talk:ferrari-456-gt-456m-gt-manual",
@@ -911,10 +911,10 @@
       "priority": false,
       "cadenceHours": 24,
       "status": "blocked",
-      "lastSearchedAt": "2026-09-10T00:33:58Z",
+      "lastSearchedAt": "2026-09-11T03:42:46Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public search access to lamborghini-talk.com was blocked by robots.txt; no bypass attempted."
+      "limitation": "lamborghini-talk.com is blocked by robots.txt to the public search worker; no bypass attempted."
     },
     {
       "id": "model-004:specialist-dealers:ferrari-456-gt-456m-gt-manual",
@@ -944,11 +944,11 @@
       "query": "site:facebook.com/groups Lamborghini Gallardo 5.0 manual UK for sale",
       "priority": false,
       "cadenceHours": 24,
-      "status": "searched",
-      "lastSearchedAt": "2026-09-10T00:33:58Z",
+      "status": "blocked",
+      "lastSearchedAt": "2026-09-11T03:42:46Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public indexed Facebook-group query executed; no plausible current qualifying UK Gallardo 5.0 manual advert was captured and no private-group access was attempted."
+      "limitation": "Public indexed Facebook-group query did not expose an accessible current Gallardo manual sale post; Meta access was blocked."
     },
     {
       "id": "model-005:ebay:lamborghini-gallardo-5-0-manual",
@@ -1098,10 +1098,10 @@
       "priority": false,
       "cadenceHours": 24,
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T01:09:53Z",
+      "lastSearchedAt": "2026-09-11T03:42:46Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No relevant current qualifying UK Gallardo manual sale advert URL was captured."
+      "limitation": "No current Lamborghini Gallardo manual sale advert surfaced from 911UK; forum references were not sale listings."
     },
     {
       "id": "model-005:ferrarichat:lamborghini-gallardo-5-0-manual",
@@ -1115,10 +1115,10 @@
       "priority": false,
       "cadenceHours": 24,
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T01:09:53Z",
+      "lastSearchedAt": "2026-09-11T03:42:46Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No current qualifying UK Gallardo manual sale advert URL was captured."
+      "limitation": "No accessible current UK Gallardo manual sale advert surfaced from FerrariChat."
     },
     {
       "id": "model-005:lamborghini-talk:lamborghini-gallardo-5-0-manual",
@@ -1132,10 +1132,10 @@
       "priority": false,
       "cadenceHours": 24,
       "status": "blocked",
-      "lastSearchedAt": "2026-09-10T01:09:53Z",
+      "lastSearchedAt": "2026-09-11T03:42:46Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public search access to lamborghini-talk.com was blocked by robots.txt; no bypass attempted."
+      "limitation": "lamborghini-talk.com is blocked by robots.txt to the public search worker; no bypass attempted."
     },
     {
       "id": "model-005:specialist-dealers:lamborghini-gallardo-5-0-manual",
@@ -1165,11 +1165,11 @@
       "query": "site:facebook.com/groups Audi R8 V8 manual UK for sale",
       "priority": false,
       "cadenceHours": 24,
-      "status": "searched",
-      "lastSearchedAt": "2026-09-10T01:09:53Z",
+      "status": "blocked",
+      "lastSearchedAt": "2026-09-11T03:42:46Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public indexed Facebook-group query returned no plausible current qualifying UK R8 V8 manual advert; no private-group access attempted."
+      "limitation": "Public indexed Facebook-group query did not expose an accessible current R8 V8 manual advert; Meta access was blocked."
     },
     {
       "id": "model-006:ebay:audi-r8-v8-manual",
@@ -1319,10 +1319,10 @@
       "priority": false,
       "cadenceHours": 24,
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T01:09:53Z",
+      "lastSearchedAt": "2026-09-11T03:42:46Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No relevant current qualifying UK R8 V8 manual sale advert URL was captured."
+      "limitation": "Search returned historical/member-signature references to an R8 V8 manual, not a current sale advert."
     },
     {
       "id": "model-006:ferrarichat:audi-r8-v8-manual",
@@ -1336,10 +1336,10 @@
       "priority": false,
       "cadenceHours": 24,
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T01:09:53Z",
+      "lastSearchedAt": "2026-09-11T03:42:46Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No relevant current qualifying UK R8 V8 manual sale advert URL was captured."
+      "limitation": "No accessible current UK Audi R8 V8 manual sale advert surfaced from FerrariChat."
     },
     {
       "id": "model-006:lamborghini-talk:audi-r8-v8-manual",
@@ -1353,10 +1353,10 @@
       "priority": false,
       "cadenceHours": 24,
       "status": "blocked",
-      "lastSearchedAt": "2026-09-10T01:09:53Z",
+      "lastSearchedAt": "2026-09-11T03:42:46Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public search access to lamborghini-talk.com was blocked by robots.txt; no bypass attempted."
+      "limitation": "lamborghini-talk.com is blocked by robots.txt to the public search worker; no bypass attempted."
     },
     {
       "id": "model-006:specialist-dealers:audi-r8-v8-manual",
@@ -1386,11 +1386,11 @@
       "query": "site:facebook.com/groups Audi R8 V10 manual UK for sale",
       "priority": false,
       "cadenceHours": 24,
-      "status": "searched",
-      "lastSearchedAt": "2026-09-10T01:09:53Z",
+      "status": "blocked",
+      "lastSearchedAt": "2026-09-11T03:42:46Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public indexed Facebook-group query returned no plausible current qualifying UK R8 V10 manual advert; no private-group access attempted."
+      "limitation": "Public indexed Facebook-group query did not expose an accessible current R8 V10 manual advert; Meta access was blocked."
     },
     {
       "id": "model-007:ebay:audi-r8-v10-manual",
@@ -1540,10 +1540,10 @@
       "priority": false,
       "cadenceHours": 24,
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T01:09:53Z",
+      "lastSearchedAt": "2026-09-11T03:42:46Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No relevant current qualifying UK R8 V10 manual sale advert URL was captured."
+      "limitation": "Search returned historical/member-signature references to a gated R8 V10, not a current sale advert."
     },
     {
       "id": "model-007:ferrarichat:audi-r8-v10-manual",
@@ -1557,10 +1557,10 @@
       "priority": false,
       "cadenceHours": 24,
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T01:09:53Z",
+      "lastSearchedAt": "2026-09-11T03:42:46Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No relevant current qualifying UK R8 V10 manual sale advert URL was captured."
+      "limitation": "No accessible current UK Audi R8 V10 manual sale advert surfaced from FerrariChat."
     },
     {
       "id": "model-007:lamborghini-talk:audi-r8-v10-manual",
@@ -1574,10 +1574,10 @@
       "priority": false,
       "cadenceHours": 24,
       "status": "blocked",
-      "lastSearchedAt": "2026-09-10T01:09:53Z",
+      "lastSearchedAt": "2026-09-11T03:42:46Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public search access to lamborghini-talk.com was blocked by robots.txt; no bypass attempted."
+      "limitation": "lamborghini-talk.com is blocked by robots.txt to the public search worker; no bypass attempted."
     },
     {
       "id": "model-007:specialist-dealers:audi-r8-v10-manual",
@@ -1607,11 +1607,11 @@
       "query": "site:facebook.com/groups Honda NSX / NSX-T manual UK for sale",
       "priority": false,
       "cadenceHours": 24,
-      "status": "searched",
-      "lastSearchedAt": "2026-09-10T02:31:01Z",
+      "status": "blocked",
+      "lastSearchedAt": "2026-09-11T03:42:46Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public indexed Facebook-group search found no plausible current qualifying UK NSX manual advert; no private-group access was attempted."
+      "limitation": "Public indexed Facebook-group query did not expose an accessible current Honda NSX manual advert; Meta access was blocked."
     },
     {
       "id": "model-008:ebay:honda-nsx-nsx-t-manual",
@@ -1763,10 +1763,10 @@
       "priority": false,
       "cadenceHours": 24,
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T02:31:01Z",
+      "lastSearchedAt": "2026-09-11T03:42:46Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No relevant current qualifying UK NSX manual sale advert URL was captured."
+      "limitation": "No current Honda NSX/NSX-T manual sale advert surfaced from 911UK."
     },
     {
       "id": "model-008:ferrarichat:honda-nsx-nsx-t-manual",
@@ -12623,13 +12623,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T01:13:33Z",
-      "lastResultCount": 2,
-      "candidateUrls": [
-        "https://www.ebay.co.uk/itm/800309038343",
-        "https://www.ebay.co.uk/itm/157708719903"
-      ],
-      "limitation": "Both plausible current Z4 M Coupe adverts were already in the verification queue. A separate surfaced advert was explicitly sold and rejected."
+      "lastSearchedAt": "2026-09-11T03:42:46Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "No current direct eBay Z4 M Coupe advert surfaced in this pass; an ended non-M 3.0si Coupe was rejected."
     },
     {
       "id": "model-056:autotrader:bmw-z4-m-coupe",
@@ -12643,10 +12640,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T01:13:33Z",
+      "lastSearchedAt": "2026-09-11T03:42:46Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Auto Trader shows Z4 M Coupes in stock but no new direct car-detail URL surfaced in this pass; generic category pages were rejected."
+      "limitation": "Auto Trader currently reports 11 Z4 M Coupes in stock, but this query returned only category inventory and no new direct car-detail URL, so none was promoted."
     },
     {
       "id": "model-056:pistonheads:bmw-z4-m-coupe",
@@ -12660,12 +12657,12 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T01:13:33Z",
+      "lastSearchedAt": "2026-09-11T03:42:46Z",
       "lastResultCount": 1,
       "candidateUrls": [
         "https://www.pistonheads.com/buy/listing/20766605"
       ],
-      "limitation": "The current £29,995/49,155-mile manual Z4 M Coupe remains live and is already queued; older unavailable adverts were rejected."
+      "limitation": "The known £29,995/49,155-mile Interlagos Blue manual remains live with seller controls. Listing 18409358 explicitly says no longer available and was rejected."
     },
     {
       "id": "model-056:car-and-classic:bmw-z4-m-coupe",
@@ -12679,14 +12676,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T01:13:33Z",
-      "lastResultCount": 3,
-      "candidateUrls": [
-        "https://www.carandclassic.com/car/C2134074",
-        "https://www.carandclassic.com/car/C2127428",
-        "https://www.carandclassic.com/car/C1248397"
-      ],
-      "limitation": "Two current Z4 M Coupe adverts were already queued. C2134074 is a current Category S repaired example and was not promoted into the worker candidate queue because it does not meet the originality/editorial bar."
+      "lastSearchedAt": "2026-09-11T03:42:46Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "No new direct current Car & Classic Z4 M Coupe advert was returned in this pass."
     },
     {
       "id": "model-056:collecting-cars:bmw-z4-m-coupe",
@@ -12751,10 +12744,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T01:13:33Z",
+      "lastSearchedAt": "2026-09-11T03:42:46Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No plausible new direct UK Z4 M Coupe advert was returned."
+      "limitation": "No plausible current direct Gumtree Z4 M Coupe advert was returned."
     },
     {
       "id": "model-056:911uk:bmw-z4-m-coupe",
@@ -12819,12 +12812,12 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T01:13:33Z",
+      "lastSearchedAt": "2026-09-11T03:42:46Z",
       "lastResultCount": 1,
       "candidateUrls": [
         "https://rsvautomotive.co.uk/cars/bmw-z4-m-z4-m-coupe/"
       ],
-      "limitation": "RSV Automotive still presents the known 2006 Z4 M Coupe at £25,995/52,000 miles; it is already queued."
+      "limitation": "RSV Automotive still presents its 2006 manual Z4 M Coupe at £25,995/52,000 miles with current viewing/contact controls; it is already queued."
     },
     {
       "id": "model-057:facebook-groups:bmw-z4-m-roadster",
@@ -15728,10 +15721,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T01:13:33Z",
+      "lastSearchedAt": "2026-09-11T03:42:46Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No new plausible complete-vehicle Mk1 Focus RS advert was returned; parts, stale and non-qualifying results were rejected."
+      "limitation": "Returned Mk1 Focus RS engine/parts and sold/non-RS material only; no qualifying complete vehicle advert retained."
     },
     {
       "id": "model-070:autotrader:ford-focus-rs-mk1",
@@ -15745,10 +15738,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T01:13:33Z",
+      "lastSearchedAt": "2026-09-11T03:42:46Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No new direct current Auto Trader Mk1 Focus RS car-detail URL was returned; generic category results were not retained."
+      "limitation": "No new direct current Auto Trader Mk1 Focus RS car-detail URL surfaced."
     },
     {
       "id": "model-070:pistonheads:ford-focus-rs-mk1",
@@ -15762,14 +15755,13 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T02:44:47Z",
-      "lastResultCount": 3,
+      "lastSearchedAt": "2026-09-11T03:42:46Z",
+      "lastResultCount": 2,
       "candidateUrls": [
         "https://www.pistonheads.com/buy/listing/18346448",
-        "https://www.pistonheads.com/buy/listing/20975833",
-        "https://www.pistonheads.com/buy/listing/20788132"
+        "https://www.pistonheads.com/buy/listing/20975833"
       ],
-      "limitation": "Three plausible current Mk1 RS adverts surfaced. The first two are already queued; listing 20788132 is the same KGF vehicle already queued via Car & Classic, so no duplicate worker candidate was added."
+      "limitation": "Both known Mk1 RS adverts remain live: £27,450/33,510 miles and £20,000/61,360 miles. Both are already in the verification queue."
     },
     {
       "id": "model-070:car-and-classic:ford-focus-rs-mk1",
@@ -15783,10 +15775,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T01:13:33Z",
+      "lastSearchedAt": "2026-09-11T03:42:46Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No additional direct current Mk1 Focus RS advert passed the pre-verification screen in this pass."
+      "limitation": "No new direct Car & Classic Mk1 RS advert surfaced; the known KGF vehicle remains represented through its dealer/current cross-post evidence."
     },
     {
       "id": "model-070:collecting-cars:ford-focus-rs-mk1",
@@ -15851,10 +15843,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T02:44:47Z",
+      "lastSearchedAt": "2026-09-11T03:42:46Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No plausible new direct current UK Mk1 Focus RS vehicle advert was returned; parts and generic pages were rejected."
+      "limitation": "No plausible current direct Gumtree Mk1 Focus RS vehicle advert returned."
     },
     {
       "id": "model-070:911uk:ford-focus-rs-mk1",
@@ -15919,12 +15911,12 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T02:44:47Z",
+      "lastSearchedAt": "2026-09-11T03:42:46Z",
       "lastResultCount": 1,
       "candidateUrls": [
         "https://www.kgfclassiccars.co.uk/vehicles/36295/"
       ],
-      "limitation": "KGF currently presents the 2003 Mk1 RS at £32,995/53,227 miles as FOR SALE. It is the same vehicle already queued via Car & Classic C2118328, so no duplicate candidate was added."
+      "limitation": "KGF still presents the totally-standard 2003 Mk1 RS at £32,995 as FOR SALE. Same vehicle is already queued via its existing cross-post, so no duplicate worker candidate was added."
     },
     {
       "id": "model-070:facebook-groups:ford-focus-rs-mk2",
@@ -15955,10 +15947,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T01:13:33Z",
+      "lastSearchedAt": "2026-09-11T03:42:46Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No new plausible complete-vehicle Mk2 Focus RS advert was returned beyond previously known candidates."
+      "limitation": "eBay category results showed several Mk2 cars but no fresh direct qualifying URL. Item 226615603512 remains a retained 2025 advert and was treated as stale until seller-stock verification."
     },
     {
       "id": "model-070:autotrader:ford-focus-rs-mk2",
@@ -15972,10 +15964,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T01:13:33Z",
+      "lastSearchedAt": "2026-09-11T03:42:46Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No new direct current Auto Trader Mk2 Focus RS car-detail URL was returned; generic category results were not retained."
+      "limitation": "No new direct current Auto Trader Mk2 Focus RS car-detail URL surfaced."
     },
     {
       "id": "model-070:pistonheads:ford-focus-rs-mk2",
@@ -15989,12 +15981,13 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T02:44:47Z",
-      "lastResultCount": 1,
+      "lastSearchedAt": "2026-09-11T03:42:46Z",
+      "lastResultCount": 2,
       "candidateUrls": [
-        "https://www.pistonheads.com/buy/listing/20771951"
+        "https://www.pistonheads.com/buy/listing/20771951",
+        "https://www.pistonheads.com/buy/listing/20937158"
       ],
-      "limitation": "Known current Mk2 RS listing 20771951 remains plausible and is already in the verification queue. A heavily modified alternative was rejected on the editorial/originality screen."
+      "limitation": "Known original-spec £47,990/25,951-mile listing remains live and queued. Listing 20937158 is current but extensively modified (CP420/methanol/Bilstein/big-brake package), so it was recorded at search-state level but not promoted to the editorial verification candidates."
     },
     {
       "id": "model-070:car-and-classic:ford-focus-rs-mk2",
@@ -16008,10 +16001,12 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T01:13:33Z",
-      "lastResultCount": 0,
-      "candidateUrls": [],
-      "limitation": "No additional direct current Mk2 Focus RS advert passed the pre-verification screen in this pass."
+      "lastSearchedAt": "2026-09-11T03:42:46Z",
+      "lastResultCount": 1,
+      "candidateUrls": [
+        "https://www.carandclassic.com/l/C1902894"
+      ],
+      "limitation": "Current £25,995/26,700-mile Mountune MR375 Clubsport example surfaced. It is heavily modified relative to the originality-led collector brief, so it was not promoted to worker candidates."
     },
     {
       "id": "model-070:collecting-cars:ford-focus-rs-mk2",
@@ -16076,10 +16071,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T02:44:47Z",
+      "lastSearchedAt": "2026-09-11T03:42:46Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No plausible new direct current UK Mk2 Focus RS vehicle advert was returned; parts and generic pages were rejected."
+      "limitation": "No plausible current direct Gumtree Mk2 Focus RS vehicle advert returned."
     },
     {
       "id": "model-070:911uk:ford-focus-rs-mk2",
@@ -16144,10 +16139,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T02:44:47Z",
+      "lastSearchedAt": "2026-09-11T03:42:46Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No new qualifying specialist-dealer Mk2 RS advert was retained; a KARS result was explicitly SOLD."
+      "limitation": "No new qualifying specialist-dealer Mk2 RS advert was retained in this pass."
     },
     {
       "id": "model-070:facebook-groups:ford-focus-rs500",
@@ -16178,10 +16173,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T01:13:33Z",
+      "lastSearchedAt": "2026-09-11T03:42:46Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No new qualifying Focus RS500 vehicle advert was returned; parts and sold/non-current results were rejected."
+      "limitation": "The surfaced 39-mile RS500 is explicitly SOLD and priced at £120,000, above the £100,000 ceiling; model/toy results were also rejected."
     },
     {
       "id": "model-070:autotrader:ford-focus-rs500",
@@ -16195,10 +16190,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T01:13:33Z",
+      "lastSearchedAt": "2026-09-11T03:42:46Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No new direct current Auto Trader Focus RS500 car-detail URL was returned."
+      "limitation": "No new direct current Auto Trader RS500 car-detail URL surfaced."
     },
     {
       "id": "model-070:pistonheads:ford-focus-rs500",
