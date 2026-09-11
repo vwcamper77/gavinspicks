@@ -1,71 +1,74 @@
 {
-  "updatedAt": "2026-09-11T00:30:19Z",
+  "updatedAt": "2026-09-11T01:13:33Z",
   "compactedFromQueueAt": "2026-09-10T06:41:54.207Z",
   "note": "Cumulative worker-write state. Job results are merged from immutable run deltas and folded back into data/search-queue.json by scripts/build-search-queue.mjs.",
   "jobs": {
     "model-056:ebay:bmw-z4-m-coupe": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T17:42:36Z",
-      "lastResultCount": 0,
-      "candidateUrls": [],
-      "limitation": "Executed current public eBay query; no new plausible direct Z4 M Coupe advert URL was returned in this pass."
+      "lastSearchedAt": "2026-09-11T01:13:33Z",
+      "lastResultCount": 2,
+      "candidateUrls": [
+        "https://www.ebay.co.uk/itm/800309038343",
+        "https://www.ebay.co.uk/itm/157708719903"
+      ],
+      "limitation": "Both plausible current Z4 M Coupe adverts were already in the verification queue. A separate surfaced advert was explicitly sold and rejected."
     },
     "model-056:autotrader:bmw-z4-m-coupe": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T17:42:36Z",
+      "lastSearchedAt": "2026-09-11T01:13:33Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Auto Trader currently shows 11 Z4 M Coupe cars on its category page, but the search result did not expose new direct car-detail URLs; generic category pages were rejected."
+      "limitation": "Auto Trader shows Z4 M Coupes in stock but no new direct car-detail URL surfaced in this pass; generic category pages were rejected."
     },
     "model-056:pistonheads:bmw-z4-m-coupe": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T17:42:36Z",
-      "lastResultCount": 3,
+      "lastSearchedAt": "2026-09-11T01:13:33Z",
+      "lastResultCount": 1,
       "candidateUrls": [
-        "https://www.pistonheads.com/buy/listing/20952644",
-        "https://www.pistonheads.com/buy/listing/20766605",
-        "https://www.pistonheads.com/buy/listing/20420182"
+        "https://www.pistonheads.com/buy/listing/20766605"
       ],
-      "limitation": "PistonHeads current inventory still shows the previously known Z4 M Coupe candidates, including £17,500/96,615 miles, £29,995/49,155 miles and £64,980/4,300 miles. No additional new direct advert was retained."
+      "limitation": "The current £29,995/49,155-mile manual Z4 M Coupe remains live and is already queued; older unavailable adverts were rejected."
     },
     "model-056:car-and-classic:bmw-z4-m-coupe": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T17:42:36Z",
-      "lastResultCount": 1,
+      "lastSearchedAt": "2026-09-11T01:13:33Z",
+      "lastResultCount": 3,
       "candidateUrls": [
+        "https://www.carandclassic.com/car/C2134074",
+        "https://www.carandclassic.com/car/C2127428",
         "https://www.carandclassic.com/car/C1248397"
       ],
-      "limitation": "Current Car & Classic query resurfaced the known 2006 Z4 M Coupe at £18,995/83,652 miles; historical auction material was rejected. No new candidate was retained."
+      "limitation": "Two current Z4 M Coupe adverts were already queued. C2134074 is a current Category S repaired example and was not promoted into the worker candidate queue because it does not meet the originality/editorial bar."
     },
     "model-056:gumtree:bmw-z4-m-coupe": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T17:42:36Z",
+      "lastSearchedAt": "2026-09-11T01:13:33Z",
       "lastResultCount": 0,
       "candidateUrls": [],
       "limitation": "No plausible new direct UK Z4 M Coupe advert was returned."
     },
     "model-056:specialist-dealers:bmw-z4-m-coupe": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T17:42:36Z",
+      "lastSearchedAt": "2026-09-11T01:13:33Z",
       "lastResultCount": 1,
       "candidateUrls": [
         "https://rsvautomotive.co.uk/cars/bmw-z4-m-z4-m-coupe/"
       ],
-      "limitation": "RSV Automotive still presents the known 2006 Z4 M Coupe at £25,995/52,000 miles with viewing controls; already queued, so no duplicate candidate added."
+      "limitation": "RSV Automotive still presents the known 2006 Z4 M Coupe at £25,995/52,000 miles; it is already queued."
     },
     "model-070:ebay:ford-focus-rs-mk1": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T17:42:36Z",
+      "lastSearchedAt": "2026-09-11T01:13:33Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "eBay results were parts, spares/repair material or sold/non-RS cars; no qualifying complete Mk1 Focus RS advert retained."
+      "limitation": "No new plausible complete-vehicle Mk1 Focus RS advert was returned; parts, stale and non-qualifying results were rejected."
     },
     "model-070:autotrader:ford-focus-rs-mk1": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T17:42:36Z",
+      "lastSearchedAt": "2026-09-11T01:13:33Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No new direct Auto Trader Mk1 Focus RS car-detail URL was returned in this pass."
+      "limitation": "No new direct current Auto Trader Mk1 Focus RS car-detail URL was returned; generic category results were not retained."
     },
     "model-070:pistonheads:ford-focus-rs-mk1": {
       "status": "searched",
@@ -79,10 +82,10 @@
     },
     "model-070:car-and-classic:ford-focus-rs-mk1": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T17:42:36Z",
+      "lastSearchedAt": "2026-09-11T01:13:33Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No new direct current Mk1 Focus RS advert passed the pre-verification screen in this pass."
+      "limitation": "No additional direct current Mk1 Focus RS advert passed the pre-verification screen in this pass."
     },
     "model-070:gumtree:ford-focus-rs-mk1": {
       "status": "searched",
@@ -100,19 +103,17 @@
     },
     "model-070:ebay:ford-focus-rs-mk2": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T17:42:36Z",
-      "lastResultCount": 1,
-      "candidateUrls": [
-        "https://www.ebay.co.uk/itm/226615603512"
-      ],
-      "limitation": "The known 2010 Focus RS at £31,995/23,500 miles resurfaced, but the advert was last updated 22 July 2025 and is too stale to treat as a fresh candidate without seller-stock re-verification."
+      "lastSearchedAt": "2026-09-11T01:13:33Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "No new plausible complete-vehicle Mk2 Focus RS advert was returned beyond previously known candidates."
     },
     "model-070:autotrader:ford-focus-rs-mk2": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T17:42:36Z",
+      "lastSearchedAt": "2026-09-11T01:13:33Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No new direct current Auto Trader Mk2 Focus RS car-detail URL was returned."
+      "limitation": "No new direct current Auto Trader Mk2 Focus RS car-detail URL was returned; generic category results were not retained."
     },
     "model-070:pistonheads:ford-focus-rs-mk2": {
       "status": "searched",
@@ -123,10 +124,10 @@
     },
     "model-070:car-and-classic:ford-focus-rs-mk2": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T17:42:36Z",
+      "lastSearchedAt": "2026-09-11T01:13:33Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No additional direct current Mk2 Focus RS advert was retained beyond existing queue candidates."
+      "limitation": "No additional direct current Mk2 Focus RS advert passed the pre-verification screen in this pass."
     },
     "model-070:gumtree:ford-focus-rs-mk2": {
       "status": "searched",
@@ -144,17 +145,17 @@
     },
     "model-070:ebay:ford-focus-rs500": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T17:42:36Z",
+      "lastSearchedAt": "2026-09-11T01:13:33Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search results were parts/model items or a SOLD £120,000 RS500; no qualifying current vehicle advert retained."
+      "limitation": "No new qualifying Focus RS500 vehicle advert was returned; parts and sold/non-current results were rejected."
     },
     "model-070:autotrader:ford-focus-rs500": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T17:42:36Z",
+      "lastSearchedAt": "2026-09-11T01:13:33Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No new direct current Auto Trader RS500 car-detail URL was returned."
+      "limitation": "No new direct current Auto Trader Focus RS500 car-detail URL was returned."
     },
     "model-001:ebay:ferrari-360-modena-spider-manual": {
       "status": "searched",
@@ -1600,10 +1601,10 @@
     },
     "model-097:lamborghini-talk:bmw-m5-e39-6-speed-manual-uk": {
       "status": "blocked",
-      "lastSearchedAt": "2026-09-10T11:15:44Z",
+      "lastSearchedAt": "2026-09-11T01:13:33Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Blocked by robots.txt; no bypass attempted."
+      "limitation": "Public search/access to lamborghini-talk.com is blocked by robots; no access-control bypass attempted."
     },
     "model-024:autotrader:morgan-aero-8-gtn": {
       "status": "searched",
@@ -2557,38 +2558,38 @@
     },
     "model-082:bonhams-cars:subaru-impreza-p1": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T14:18:00Z",
+      "lastSearchedAt": "2026-09-11T01:13:33Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Bonhams Cars search executed; no current fixed-price UK P1 satisfying the strict under-30,000-mile and maximum-two-total-owner rules was established. Historical auction material was rejected."
+      "limitation": "No plausible current fixed-price UK Impreza P1 advert under 30,000 miles with no more than two total owners was returned; historical auction material was not retained."
     },
     "model-082:classic-trader:subaru-impreza-p1": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T14:18:00Z",
+      "lastSearchedAt": "2026-09-11T01:13:33Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Classic Trader search executed; no plausible current UK P1 satisfying both strict mileage and ownership caps was established."
+      "limitation": "No plausible current UK Impreza P1 advert meeting the mileage and ownership limits was returned."
     },
     "model-082:collecting-cars:subaru-impreza-p1": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T14:18:00Z",
+      "lastSearchedAt": "2026-09-11T01:13:33Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Collecting Cars search executed; completed/historical auction material was rejected and no current qualifying fixed-price P1 advert was retained."
+      "limitation": "No current qualifying Impreza P1 advert was retained; completed and historical auction material was rejected."
     },
     "model-085:bonhams-cars:subaru-impreza-rb320": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T14:18:00Z",
+      "lastSearchedAt": "2026-09-11T01:13:33Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Bonhams Cars search executed; no current fixed-price RB320 satisfying the strict under-30,000-mile and maximum-two-total-owner rules was established."
+      "limitation": "No plausible current fixed-price UK RB320 advert under 30,000 miles with no more than two total owners was returned."
     },
     "model-085:collecting-cars:subaru-impreza-rb320": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T14:18:00Z",
+      "lastSearchedAt": "2026-09-11T01:13:33Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Collecting Cars search executed; no current qualifying fixed-price RB320 advert satisfying the strict mileage/ownership rules was retained."
+      "limitation": "No current qualifying RB320 advert was retained; completed and historical auction material was rejected."
     },
     "model-075:autotrader:audi-tt-quattro-sport": {
       "status": "searched",
@@ -5092,6 +5093,233 @@
       "lastResultCount": 0,
       "candidateUrls": [],
       "limitation": "No plausible current direct UK Gumtree 996 Turbo manual/X50/Turbo S advert was returned."
+    },
+    "model-050:lamborghini-talk:porsche-996-turbo-manual-x50-turbo-s": {
+      "status": "blocked",
+      "lastSearchedAt": "2026-09-11T01:13:33Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Public search/access to lamborghini-talk.com is blocked by robots; no access-control bypass attempted."
+    },
+    "model-050:pistonheads:porsche-996-turbo-manual-x50-turbo-s": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-11T01:13:33Z",
+      "lastResultCount": 1,
+      "candidateUrls": [
+        "https://www.pistonheads.com/buy/listing/20138919"
+      ],
+      "limitation": "A current 2005 996 Turbo S manual Coupe at £66,995/62,829 miles was retained. A deposit-taken advert and explicitly unavailable older adverts were rejected."
+    },
+    "model-050:specialist-dealers:porsche-996-turbo-manual-x50-turbo-s": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-11T01:13:33Z",
+      "lastResultCount": 2,
+      "candidateUrls": [
+        "https://philipraby.co.uk/product/2002-porsche-996-turbo",
+        "https://speedbroker.co.uk/vehicle-listing/porsche-996-turbo-s-3-6-twin-turbo-x50-manual/"
+      ],
+      "limitation": "Philip Raby has a current £36,995/81,800-mile manual 996 Turbo; Speedbroker's Turbo S manual was already in discovery. Sold RPM/JZM pages and Tiptronic examples were rejected."
+    },
+    "model-051:911uk:porsche-997-turbo-manual-coupe-cabriolet": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-11T01:13:33Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "No new direct current 911UK 997 Turbo manual sale advert was returned in this pass."
+    },
+    "model-051:autotrader:porsche-997-turbo-manual-coupe-cabriolet": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-11T01:13:33Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "No new direct current Auto Trader 997 Turbo manual car-detail URL was captured."
+    },
+    "model-051:bonhams-cars:porsche-997-turbo-manual-coupe-cabriolet": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-11T01:13:33Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "No current fixed-price qualifying UK 997 Turbo manual advert was retained; historical auction material was rejected."
+    },
+    "model-051:car-and-classic:porsche-997-turbo-manual-coupe-cabriolet": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-11T01:13:33Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "No new direct current Car & Classic 997 Turbo manual advert was retained."
+    },
+    "model-051:classic-trader:porsche-997-turbo-manual-coupe-cabriolet": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-11T01:13:33Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "No current qualifying UK 997 Turbo manual advert was returned."
+    },
+    "model-051:collecting-cars:porsche-997-turbo-manual-coupe-cabriolet": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-11T01:13:33Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Surfaced 997 Turbo manual auction material was historical/completed, so no candidate was retained."
+    },
+    "model-051:ebay:porsche-997-turbo-manual-coupe-cabriolet": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-11T01:13:33Z",
+      "lastResultCount": 1,
+      "candidateUrls": [
+        "https://www.ebay.co.uk/itm/227264222185"
+      ],
+      "limitation": "Current 2006 997 Turbo manual at £84,995/23,000 miles is the same vehicle as the already-known Romans of St Albans seller advert, so no duplicate candidate was added. Automatic/PDK results were rejected."
+    },
+    "model-051:facebook-groups:porsche-997-turbo-manual-coupe-cabriolet": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-11T01:13:33Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "No plausible current public Facebook-group 997 Turbo manual advert was returned; no private-group access attempted."
+    },
+    "model-051:ferrarichat:porsche-997-turbo-manual-coupe-cabriolet": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-11T01:13:33Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "No current UK 997 Turbo manual sale advert satisfying the site rules was returned from public FerrariChat results."
+    },
+    "model-051:gumtree:porsche-997-turbo-manual-coupe-cabriolet": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-11T01:13:33Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "No plausible current direct UK 997 Turbo manual advert was returned."
+    },
+    "model-051:lamborghini-talk:porsche-997-turbo-manual-coupe-cabriolet": {
+      "status": "blocked",
+      "lastSearchedAt": "2026-09-11T01:13:33Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Public search/access to lamborghini-talk.com is blocked by robots; no access-control bypass attempted."
+    },
+    "model-051:pistonheads:porsche-997-turbo-manual-coupe-cabriolet": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-11T01:13:33Z",
+      "lastResultCount": 1,
+      "candidateUrls": [
+        "https://www.pistonheads.com/buy/listing/20107773"
+      ],
+      "limitation": "The live PistonHeads advert is a cross-post of the already-known Romans of St Albans 2006 manual 997 Turbo; no duplicate candidate was added."
+    },
+    "model-051:specialist-dealers:porsche-997-turbo-manual-coupe-cabriolet": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-11T01:13:33Z",
+      "lastResultCount": 1,
+      "candidateUrls": [
+        "https://www.romansofstalbans.co.uk/used-porsche-911-st-albans-hertfordshire-7770936"
+      ],
+      "limitation": "Romans still shows the known 2006 manual 997 Turbo at £84,995/23,000 miles with current enquiry controls. A Steve Bull seller page was explicitly SOLD and a Parkway car was deposit taken, so both were rejected."
+    },
+    "model-052:911uk:porsche-987-boxster-spyder-manual": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-11T01:13:33Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "No direct current 911UK 987 Boxster Spyder manual sale advert was returned."
+    },
+    "model-052:autotrader:porsche-987-boxster-spyder-manual": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-11T01:13:33Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "No direct current Auto Trader 987 Boxster Spyder manual car-detail URL was captured."
+    },
+    "model-052:bonhams-cars:porsche-987-boxster-spyder-manual": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-11T01:13:33Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "No current fixed-price qualifying UK 987 Boxster Spyder manual advert was returned; historical auction pages were rejected."
+    },
+    "model-052:car-and-classic:porsche-987-boxster-spyder-manual": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-11T01:13:33Z",
+      "lastResultCount": 1,
+      "candidateUrls": [
+        "https://www.carandclassic.com/car/C2076120"
+      ],
+      "limitation": "Current 2010 Duke of London Boxster Spyder at £59,995/36,150 miles was retained; historical sold/auction pages were rejected."
+    },
+    "model-052:classic-trader:porsche-987-boxster-spyder-manual": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-11T01:13:33Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "No current qualifying UK 987 Boxster Spyder manual advert was returned."
+    },
+    "model-052:collecting-cars:porsche-987-boxster-spyder-manual": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-11T01:13:33Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Only completed/historical 987 Spyder auction material surfaced, so no candidate was retained."
+    },
+    "model-052:ebay:porsche-987-boxster-spyder-manual": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-11T01:13:33Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Results were ordinary 987 Boxsters, parts or literature rather than a current qualifying Spyder advert."
+    },
+    "model-052:facebook-groups:porsche-987-boxster-spyder-manual": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-11T01:13:33Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "No plausible current public Facebook-group 987 Boxster Spyder sale advert was returned; no private-group access attempted."
+    },
+    "model-052:ferrarichat:porsche-987-boxster-spyder-manual": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-11T01:13:33Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "No current qualifying UK 987 Boxster Spyder manual advert was returned from public FerrariChat results."
+    },
+    "model-052:gumtree:porsche-987-boxster-spyder-manual": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-11T01:13:33Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "No plausible current direct UK 987 Boxster Spyder advert was returned."
+    },
+    "model-052:lamborghini-talk:porsche-987-boxster-spyder-manual": {
+      "status": "blocked",
+      "lastSearchedAt": "2026-09-11T01:13:33Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Public search/access to lamborghini-talk.com is blocked by robots; no access-control bypass attempted."
+    },
+    "model-052:pistonheads:porsche-987-boxster-spyder-manual": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-11T01:13:33Z",
+      "lastResultCount": 1,
+      "candidateUrls": [
+        "https://www.pistonheads.com/buy/listing/20492537"
+      ],
+      "limitation": "Current Duke of London 2010 Spyder cross-post was retained. A surfaced 2011 Spyder was rejected because this target's eligibility window ends in 2010."
+    },
+    "model-052:specialist-dealers:porsche-987-boxster-spyder-manual": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-11T01:13:33Z",
+      "lastResultCount": 1,
+      "candidateUrls": [
+        "https://www.dukeoflondon.co.uk/available-stock/2010-porsche-987-spyder"
+      ],
+      "limitation": "Duke of London currently lists the 2010 manual Spyder at £59,995/36,150 miles with live enquiry and viewing controls; current seller-gallery visual overlay verification remains outstanding."
+    },
+    "model-053:911uk:porsche-993-carrera-carrera-s-manual-coupe-cabriolet-targa": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-11T01:13:33Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "No direct current 911UK factory-manual 993 Carrera/Carrera S sale advert was returned in this pass."
     }
   }
 }
