@@ -8,6 +8,7 @@ export default function ListingGallery({title, image, images = [], eager = false
 }) {
   const [index, setIndex] = useState(0);
   const [failed, setFailed] = useState<number[]>([]);
+  const [direct, setDirect] = useState<number[]>([]);
   const touchStart = useRef<{x: number; y: number} | null>(null);
   const photos = [...new Set([image, ...images])].filter(Boolean);
   const availableIndexes = photos.map((_, i) => i).filter(i => !failed.includes(i));
@@ -33,10 +34,15 @@ export default function ListingGallery({title, image, images = [], eager = false
       const t = event.changedTouches[0], dx = t.clientX - start.x, dy = t.clientY - start.y;
       if (Math.abs(dx) > 45 && Math.abs(dx) > Math.abs(dy)) move(dx < 0 ? 1 : -1);
     }}>
-    {availableIndexes.length ? <img key={`${sourceIndex}-${photos[sourceIndex]}`} src={`/api/listing-image?primary=${encodeURIComponent(image)}&index=${sourceIndex}`}
+    {availableIndexes.length ? <img key={`${sourceIndex}-${photos[sourceIndex]}`} src={direct.includes(sourceIndex) ? photos[sourceIndex] : `/api/listing-image?primary=${encodeURIComponent(image)}&index=${sourceIndex}`}
       alt={`${title} — seller photograph ${currentPosition + 1} of ${availableIndexes.length}`}
       loading={eager ? 'eager' : 'lazy'}
       onError={() => {
+        // Some sellers block server fetches while allowing normal browser images.
+        if (!direct.includes(sourceIndex)) {
+          setDirect(previous => [...previous, sourceIndex]);
+          return;
+        }
         setFailed(previous => previous.includes(sourceIndex) ? previous : [...previous, sourceIndex]);
         setIndex(0);
       }}/>
