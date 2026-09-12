@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-12T13:32:11.120Z",
+  "generatedAt": "2026-09-12T14:52:09.380Z",
   "modelCount": 96,
   "sourceCount": 13,
   "jobCount": 1482,
@@ -4049,11 +4049,11 @@
       "query": "site:facebook.com/groups TVR Tamora UK for sale",
       "priority": false,
       "cadenceHours": 24,
-      "status": "searched",
-      "lastSearchedAt": "2026-09-10T06:29:37Z",
+      "status": "blocked",
+      "lastSearchedAt": "2026-09-12T14:44:20Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public indexed Facebook-group search returned no plausible current direct Tamora sale advert; no private-group access was attempted."
+      "limitation": "Public indexed Facebook-group search returned no direct current TVR Tamora sale post. Authenticated/private-group access was not attempted."
     },
     {
       "id": "model-019:ebay:tvr-tamora",
@@ -4067,10 +4067,10 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T05:04:02Z",
+      "lastSearchedAt": "2026-09-12T14:44:20Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "eBay search surfaced parts/accessories rather than a current complete Tamora vehicle advert."
+      "limitation": "eBay UK search surfaced parts or non-current material rather than a current complete Tamora advert; none retained."
     },
     {
       "id": "model-019:autotrader:tvr-tamora",
@@ -4084,10 +4084,10 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T05:04:02Z",
+      "lastSearchedAt": "2026-09-12T14:44:20Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Auto Trader category indicated one Tamora but did not expose a stable direct car-details URL in this pass; generic category pages are not candidates."
+      "limitation": "Auto Trader search executed; no new direct current Tamora car-details advert was retained."
     },
     {
       "id": "model-019:pistonheads:tvr-tamora",
@@ -4101,12 +4101,10 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T05:04:02Z",
-      "lastResultCount": 1,
-      "candidateUrls": [
-        "https://www.pistonheads.com/buy/listing/20794840"
-      ],
-      "limitation": "PistonHeads current category exposes a direct 2004 Tamora advert URL, roughly £34,995/28,000 miles/manual. Detail/gallery fetch was unavailable in this pass, so retained for verification only."
+      "lastSearchedAt": "2026-09-12T14:44:20Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "PistonHeads surfaced listing #20794840, but the actual advert now states UNDER OFFER - MORE WANTED. Under-offer cars are rejected from the candidate pool; other surfaced Tamoras were stale/no longer available."
     },
     {
       "id": "model-019:car-and-classic:tvr-tamora",
@@ -4120,10 +4118,10 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T05:04:02Z",
+      "lastSearchedAt": "2026-09-12T14:44:20Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Car & Classic search executed. No qualifying direct current Tamora advert surfaced."
+      "limitation": "Car & Classic search executed; no new current direct qualifying Tamora advert was retained."
     },
     {
       "id": "model-019:collecting-cars:tvr-tamora",
@@ -4137,10 +4135,10 @@
       "priority": false,
       "cadenceHours": 12,
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T07:57:37Z",
+      "lastSearchedAt": "2026-09-12T14:44:20Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Returned Tamora material was sold/removed; no current fixed-price candidate retained."
+      "limitation": "Collecting Cars search produced no current fixed-price qualifying Tamora advert; historical/completed sale material was excluded."
     },
     {
       "id": "model-019:bonhams-cars:tvr-tamora",
@@ -4154,10 +4152,10 @@
       "priority": false,
       "cadenceHours": 12,
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T08:48:57Z",
+      "lastSearchedAt": "2026-09-12T14:44:20Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Bonhams Cars search executed; no qualifying current fixed-price TVR Tamora advert surfaced."
+      "limitation": "Bonhams Cars search produced no current fixed-price qualifying Tamora advert."
     },
     {
       "id": "model-019:classic-trader:tvr-tamora",
@@ -4171,10 +4169,10 @@
       "priority": false,
       "cadenceHours": 12,
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T08:48:57Z",
+      "lastSearchedAt": "2026-09-12T14:44:20Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Classic Trader search executed; no qualifying current direct TVR Tamora advert retained."
+      "limitation": "Classic Trader search executed; no current direct UK Tamora advert was retained."
     },
     {
       "id": "model-019:gumtree:tvr-tamora",
@@ -4188,10 +4186,10 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T05:04:02Z",
+      "lastSearchedAt": "2026-09-12T14:44:20Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Gumtree search executed. No plausible current direct Tamora advert surfaced."
+      "limitation": "Gumtree indexed search executed; no plausible current direct Tamora vehicle advert was retained."
     },
     {
       "id": "model-019:911uk:tvr-tamora",
@@ -4205,10 +4203,10 @@
       "priority": false,
       "cadenceHours": 24,
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T08:42:28Z",
+      "lastSearchedAt": "2026-09-12T14:44:20Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No plausible current direct UK TVR Tamora sale advert was captured."
+      "limitation": "911UK indexed search executed; no direct current Tamora sale advert surfaced."
     },
     {
       "id": "model-019:ferrarichat:tvr-tamora",
@@ -4222,10 +4220,10 @@
       "priority": false,
       "cadenceHours": 24,
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T08:42:28Z",
+      "lastSearchedAt": "2026-09-12T14:44:20Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No plausible current direct UK TVR Tamora sale advert was captured."
+      "limitation": "FerrariChat indexed search executed; no direct current UK Tamora sale advert surfaced."
     },
     {
       "id": "model-019:lamborghini-talk:tvr-tamora",
@@ -4239,10 +4237,10 @@
       "priority": false,
       "cadenceHours": 24,
       "status": "blocked",
-      "lastSearchedAt": "2026-09-10T08:42:28Z",
+      "lastSearchedAt": "2026-09-12T14:44:20Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public access/search to lamborghini-talk.com was blocked by robots; no access-control bypass attempted."
+      "limitation": "Public search/access to lamborghini-talk.com is blocked by robots.txt. No bypass was attempted."
     },
     {
       "id": "model-019:specialist-dealers:tvr-tamora",
@@ -4256,10 +4254,10 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T05:04:02Z",
+      "lastSearchedAt": "2026-09-12T14:44:20Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Specialist-dealer search executed. No distinct current direct Tamora seller advert URL surfaced."
+      "limitation": "Specialist-dealer search surfaced the HPC Tamora that is currently UNDER OFFER; it was rejected under the hard availability rule and no other qualifying current stock was retained."
     },
     {
       "id": "model-020:facebook-groups:lotus-esprit-s4s",
@@ -4272,11 +4270,11 @@
       "query": "site:facebook.com/groups Lotus Esprit S4s UK for sale",
       "priority": false,
       "cadenceHours": 24,
-      "status": "searched",
-      "lastSearchedAt": "2026-09-10T08:42:28Z",
+      "status": "blocked",
+      "lastSearchedAt": "2026-09-12T14:44:20Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public indexed Facebook-group search produced no plausible current UK Esprit S4s sale advert; no private-group access attempted."
+      "limitation": "Public indexed Facebook-group search returned no direct current Lotus Esprit S4s sale post. Authenticated/private-group access was not attempted."
     },
     {
       "id": "model-020:ebay:lotus-esprit-s4s",
@@ -4290,10 +4288,10 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T05:18:37Z",
+      "lastSearchedAt": "2026-09-12T14:44:20Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "eBay results were models, brochures, parts or unrelated material; no complete current S4s vehicle advert retained."
+      "limitation": "eBay UK search produced parts/brochure or non-current material rather than a current complete Esprit S4s advert; none retained."
     },
     {
       "id": "model-020:autotrader:lotus-esprit-s4s",
@@ -4307,12 +4305,10 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T05:04:02Z",
-      "lastResultCount": 1,
-      "candidateUrls": [
-        "https://www.autotrader.co.uk/car-details/202605032099522"
-      ],
-      "limitation": "Current direct Auto Trader advert verified at discovery stage: 1996 Lotus Esprit 2.2 S4s, £43,000, 62,000 miles, manual, private seller Bedford, 42-photo gallery, Cat D. Full visual gallery/manual/current-status verification remains required before publication."
+      "lastSearchedAt": "2026-09-12T14:44:20Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Auto Trader search returned generic Esprit inventory but no new direct current S4s car-details URL; generic category pages are not candidates."
     },
     {
       "id": "model-020:pistonheads:lotus-esprit-s4s",
@@ -4326,12 +4322,12 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T05:18:37Z",
+      "lastSearchedAt": "2026-09-12T14:44:20Z",
       "lastResultCount": 1,
       "candidateUrls": [
         "https://www.pistonheads.com/buy/listing/20862221"
       ],
-      "limitation": "A live £39,995/64,000-mile manual Esprit S4s resurfaced and is already tracked. A separate S4s was explicitly DEPOSIT TAKEN and rejected. Photo/manual-control verification remains pending on the live advert."
+      "limitation": "The already tracked 1995 Lotus Esprit S4s (#20862221) remains current at £39,995, 64,000 miles and manual. The advert exposes seller controls and a gallery, but exact seller-image/manual-control visual verification remains outstanding."
     },
     {
       "id": "model-020:car-and-classic:lotus-esprit-s4s",
@@ -4345,10 +4341,10 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T05:18:37Z",
+      "lastSearchedAt": "2026-09-12T14:44:20Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Car & Classic search executed; no current direct S4s fixed-price advert retained."
+      "limitation": "Car & Classic search surfaced sold/historical S4s material rather than a current qualifying direct advert; none retained."
     },
     {
       "id": "model-020:collecting-cars:lotus-esprit-s4s",
@@ -4362,10 +4358,10 @@
       "priority": false,
       "cadenceHours": 12,
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T08:48:57Z",
+      "lastSearchedAt": "2026-09-12T14:44:20Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "A current 1996 Esprit S4s auction surfaced, but no fixed qualifying GBP asking price was available; auction bid/estimate material is excluded."
+      "limitation": "Collecting Cars search produced no current fixed-price qualifying S4s advert; completed auction material was excluded."
     },
     {
       "id": "model-020:bonhams-cars:lotus-esprit-s4s",
@@ -4379,10 +4375,10 @@
       "priority": false,
       "cadenceHours": 12,
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T08:48:57Z",
+      "lastSearchedAt": "2026-09-12T14:44:20Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Bonhams Cars search executed; no qualifying current fixed-price Lotus Esprit S4s advert surfaced."
+      "limitation": "Bonhams Cars search produced no current fixed-price qualifying Lotus Esprit S4s advert."
     },
     {
       "id": "model-020:classic-trader:lotus-esprit-s4s",
@@ -4396,10 +4392,10 @@
       "priority": false,
       "cadenceHours": 12,
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T08:48:57Z",
+      "lastSearchedAt": "2026-09-12T14:44:20Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Classic Trader surfaced a 1994 Esprit S4, which is the wrong derivative and outside the 1995 minimum; rejected."
+      "limitation": "Classic Trader search surfaced a 1994 Esprit S4 rather than the required S4s derivative; wrong-model material was rejected."
     },
     {
       "id": "model-020:gumtree:lotus-esprit-s4s",
@@ -4413,10 +4409,10 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T05:18:37Z",
+      "lastSearchedAt": "2026-09-12T14:44:20Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Gumtree search executed; no plausible current direct S4s vehicle advert surfaced."
+      "limitation": "Gumtree indexed search executed; no plausible current direct S4s vehicle advert was retained."
     },
     {
       "id": "model-020:911uk:lotus-esprit-s4s",
@@ -4430,10 +4426,10 @@
       "priority": false,
       "cadenceHours": 24,
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T08:42:28Z",
+      "lastSearchedAt": "2026-09-12T14:44:20Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No plausible current direct UK Lotus Esprit S4s sale advert was captured."
+      "limitation": "911UK indexed search executed; no direct current Lotus Esprit S4s sale advert surfaced."
     },
     {
       "id": "model-020:ferrarichat:lotus-esprit-s4s",
@@ -4447,10 +4443,10 @@
       "priority": false,
       "cadenceHours": 24,
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T08:42:28Z",
+      "lastSearchedAt": "2026-09-12T14:44:20Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No plausible current UK Esprit S4s sale advert was captured."
+      "limitation": "FerrariChat indexed search executed; no direct current UK Esprit S4s sale advert surfaced."
     },
     {
       "id": "model-020:lamborghini-talk:lotus-esprit-s4s",
@@ -4464,10 +4460,10 @@
       "priority": false,
       "cadenceHours": 24,
       "status": "blocked",
-      "lastSearchedAt": "2026-09-10T08:42:28Z",
+      "lastSearchedAt": "2026-09-12T14:44:20Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public access/search to lamborghini-talk.com was blocked by robots; no access-control bypass attempted."
+      "limitation": "Public search/access to lamborghini-talk.com is blocked by robots.txt. No bypass was attempted."
     },
     {
       "id": "model-020:specialist-dealers:lotus-esprit-s4s",
@@ -4481,10 +4477,10 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T05:18:37Z",
+      "lastSearchedAt": "2026-09-12T14:44:20Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Specialist-stock search executed; no new originating current-stock S4s advert beyond already tracked marketplace material was retained."
+      "limitation": "Specialist-dealer search executed; no new originating direct S4s stock URL beyond the already tracked marketplace advert was retained."
     },
     {
       "id": "model-021:facebook-groups:lotus-esprit-gt3",
@@ -4497,11 +4493,11 @@
       "query": "site:facebook.com/groups Lotus Esprit GT3 UK for sale",
       "priority": false,
       "cadenceHours": 24,
-      "status": "searched",
-      "lastSearchedAt": "2026-09-10T08:42:28Z",
+      "status": "blocked",
+      "lastSearchedAt": "2026-09-12T14:44:20Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public indexed Facebook-group search produced no plausible current UK Esprit GT3 sale advert; no private-group access attempted."
+      "limitation": "Public indexed Facebook-group search returned no direct current Lotus Esprit GT3 sale post. Authenticated/private-group access was not attempted."
     },
     {
       "id": "model-021:ebay:lotus-esprit-gt3",
@@ -4515,10 +4511,10 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T05:18:37Z",
+      "lastSearchedAt": "2026-09-12T14:44:20Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "eBay search produced no plausible current complete Lotus Esprit GT3 vehicle advert."
+      "limitation": "eBay UK search produced brochure/parts or irrelevant material rather than a current complete Esprit GT3 vehicle advert; none retained."
     },
     {
       "id": "model-021:autotrader:lotus-esprit-gt3",
@@ -4532,10 +4528,10 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T05:18:37Z",
+      "lastSearchedAt": "2026-09-12T14:44:20Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Auto Trader search executed; no current direct GT3 car-details URL surfaced."
+      "limitation": "Auto Trader search returned generic Esprit inventory but no new direct current GT3 car-details URL; generic pages were rejected."
     },
     {
       "id": "model-021:pistonheads:lotus-esprit-gt3",
@@ -4549,10 +4545,12 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T05:18:37Z",
-      "lastResultCount": 0,
-      "candidateUrls": [],
-      "limitation": "A direct GT3 listing now returns 404 and another surfaced result is explicitly no longer available; both rejected as stale/unavailable."
+      "lastSearchedAt": "2026-09-12T14:44:20Z",
+      "lastResultCount": 1,
+      "candidateUrls": [
+        "https://www.pistonheads.com/buy/listing/20412916"
+      ],
+      "limitation": "The already tracked 1997 Lotus Esprit GT3 (#20412916) remains a current-looking direct advert at £47,000, 47,000 miles and manual. Exact seller-photo/manual and unavailable-overlay checks remain outstanding, so it stays verification-pending."
     },
     {
       "id": "model-021:car-and-classic:lotus-esprit-gt3",
@@ -12720,10 +12718,10 @@
       "priority": true,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T00:21:04Z",
+      "lastSearchedAt": "2026-09-12T14:44:20Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "FerrariChat public search executed; no current direct UK Z4 M Coupe sale advert was retained."
+      "limitation": "FerrariChat indexed search executed; no direct current UK BMW Z4 M Coupe sale advert surfaced."
     },
     {
       "id": "model-056:lamborghini-talk:bmw-z4-m-coupe",
@@ -12737,10 +12735,10 @@
       "priority": true,
       "cadenceHours": 6,
       "status": "blocked",
-      "lastSearchedAt": "2026-09-12T00:21:04Z",
+      "lastSearchedAt": "2026-09-12T14:44:20Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "lamborghini-talk.com was blocked by robots.txt/public-search access; no bypass attempted."
+      "limitation": "Public search/access to lamborghini-talk.com is blocked by robots.txt. No bypass was attempted."
     },
     {
       "id": "model-056:specialist-dealers:bmw-z4-m-coupe",
@@ -15667,11 +15665,11 @@
       "query": "site:facebook.com/groups Ford Focus RS Mk1 UK for sale",
       "priority": true,
       "cadenceHours": 6,
-      "status": "searched",
-      "lastSearchedAt": "2026-09-12T00:21:04Z",
+      "status": "blocked",
+      "lastSearchedAt": "2026-09-12T14:44:20Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public indexed Facebook-group search executed; no usable current direct Mk1 Focus RS sale post surfaced. Private/member-only groups were not accessed."
+      "limitation": "Public indexed Facebook-group search returned no direct current Focus RS Mk1 sale post. Authenticated/private-group access was not attempted."
     },
     {
       "id": "model-070:ebay:ford-focus-rs-mk1",
@@ -17246,11 +17244,11 @@
       "query": "site:facebook.com/groups Audi TT quattro Sport UK for sale",
       "priority": true,
       "cadenceHours": 6,
-      "status": "searched",
-      "lastSearchedAt": "2026-09-12T00:21:04Z",
+      "status": "blocked",
+      "lastSearchedAt": "2026-09-12T14:44:20Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public indexed Facebook-group search executed; no usable current direct genuine TT quattro Sport sale post surfaced. Private/member-only groups were not accessed."
+      "limitation": "Public indexed Facebook-group search returned no direct current genuine Audi TT quattro Sport sale post. Authenticated/private-group access was not attempted."
     },
     {
       "id": "model-075:ebay:audi-tt-quattro-sport",
@@ -18505,10 +18503,10 @@
       "priority": true,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T00:21:04Z",
+      "lastSearchedAt": "2026-09-12T14:44:20Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public 911UK search executed; no current direct qualifying Clio 182 Trophy sale advert under the mileage/ownership limits was retained."
+      "limitation": "911UK indexed search executed; no direct current Clio 182 Trophy advert meeting the under-30,000-mile and maximum-two-total-owner rules surfaced."
     },
     {
       "id": "model-078:ferrarichat:renault-clio-182-trophy",
@@ -18522,10 +18520,10 @@
       "priority": true,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T00:21:04Z",
+      "lastSearchedAt": "2026-09-12T14:44:20Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "FerrariChat public search executed; no current direct qualifying UK Clio 182 Trophy sale advert was retained."
+      "limitation": "FerrariChat indexed search executed; no direct current UK Clio 182 Trophy advert meeting the strict mileage/ownership rules surfaced."
     },
     {
       "id": "model-078:lamborghini-talk:renault-clio-182-trophy",
@@ -18539,10 +18537,10 @@
       "priority": true,
       "cadenceHours": 6,
       "status": "blocked",
-      "lastSearchedAt": "2026-09-12T00:21:04Z",
+      "lastSearchedAt": "2026-09-12T14:44:20Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "lamborghini-talk.com was blocked by robots.txt/public-search access; no bypass attempted."
+      "limitation": "Public search/access to lamborghini-talk.com is blocked by robots.txt. No bypass was attempted."
     },
     {
       "id": "model-078:specialist-dealers:renault-clio-182-trophy",
@@ -20834,10 +20832,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T05:04:02Z",
+      "lastSearchedAt": "2026-09-12T14:44:20Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "PistonHeads surfaced listing 20395030 (RB320 #174, 23,855 miles), but the current advert explicitly says the car is no longer available for purchase; rejected as stale/unavailable."
+      "limitation": "PistonHeads search executed. No current RB320 advert satisfying the strict under-30,000-mile and maximum-two-total-owner rules was retained; surfaced RB320 sale/history material was higher mileage or historical."
     },
     {
       "id": "model-085:car-and-classic:subaru-impreza-rb320",
@@ -20936,10 +20934,10 @@
       "priority": true,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T00:21:04Z",
+      "lastSearchedAt": "2026-09-12T14:44:20Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public 911UK search executed; no current direct qualifying RB320 sale advert under the mileage/ownership limits was retained."
+      "limitation": "911UK indexed search executed; no direct current RB320 advert satisfying the under-30,000-mile and maximum-two-total-owner rules surfaced."
     },
     {
       "id": "model-085:ferrarichat:subaru-impreza-rb320",
@@ -20953,10 +20951,10 @@
       "priority": true,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T00:21:04Z",
+      "lastSearchedAt": "2026-09-12T14:44:20Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "FerrariChat public search executed; no current direct qualifying UK RB320 sale advert was retained."
+      "limitation": "FerrariChat indexed search executed; no direct current UK RB320 advert satisfying the strict mileage/ownership rules surfaced."
     },
     {
       "id": "model-085:lamborghini-talk:subaru-impreza-rb320",
@@ -20987,10 +20985,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T05:04:02Z",
+      "lastSearchedAt": "2026-09-12T14:44:20Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Specialist search executed. No current RB320 advert was found that could be positively verified as under 30,000 miles and maximum two total owners."
+      "limitation": "Specialist-dealer search executed. No current UK RB320 stock advert meeting both the under-30,000-mile and maximum-two-total-owner rules was retained."
     },
     {
       "id": "model-086:facebook-groups:subaru-impreza-22b",
@@ -22347,10 +22345,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T05:04:02Z",
+      "lastSearchedAt": "2026-09-12T14:44:20Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Current eBay classified 298384025198 is a manual TME at £35,000 with one previous owner but 56,000 miles, failing the strict under-30,000-mile rule; no candidate retained."
+      "limitation": "eBay UK search executed. No current complete Tommi Makinen Edition vehicle advert meeting the strict mileage/ownership rules was retained; parts, models and stale material were rejected."
     },
     {
       "id": "model-088:autotrader:mitsubishi-evo-vi-tommi-makinen-edition",
@@ -22364,10 +22362,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T05:04:02Z",
+      "lastSearchedAt": "2026-09-12T14:44:20Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Auto Trader indexed search returned category/inventory material but no direct current car-details URL that could be retained under the strict TME mileage/ownership rules."
+      "limitation": "Auto Trader search executed. No direct current Evo VI Tommi Makinen Edition car-details advert meeting the strict under-30,000-mile and maximum-two-total-owner rules was retained."
     },
     {
       "id": "model-088:pistonheads:mitsubishi-evo-vi-tommi-makinen-edition",
@@ -22381,12 +22379,12 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T05:18:37Z",
+      "lastSearchedAt": "2026-09-12T14:44:20Z",
       "lastResultCount": 1,
       "candidateUrls": [
         "https://www.pistonheads.com/buy/listing/20971451"
       ],
-      "limitation": "One qualifying live TME at £99,995, 18,460 miles, one previous owner and manual gearbox resurfaced and is already tracked. Other results failed mileage/current-status rules or were auctions. Exact advert images still could not be fetched for visual overlay/manual-control verification, so it remains unpublished."
+      "limitation": "The already tracked 2000 Passion Red Tommi Makinen Edition (#20971451) remains current at £99,995, 18,460 miles and manual. PistonHeads shows one previous owner, but seller wording only establishes UK ownership since import; pre-import total ownership is still unverified, so it remains verification-pending."
     },
     {
       "id": "model-088:car-and-classic:mitsubishi-evo-vi-tommi-makinen-edition",
@@ -22400,10 +22398,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T05:04:02Z",
+      "lastSearchedAt": "2026-09-12T14:44:20Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Car & Classic results were historical/removed auction material or otherwise outside the specification/mileage rules; no current qualifying direct advert retained."
+      "limitation": "Car & Classic search executed. No new direct current UK Tommi Makinen Edition advert meeting both the mileage and total-owner caps was retained."
     },
     {
       "id": "model-088:collecting-cars:mitsubishi-evo-vi-tommi-makinen-edition",
@@ -22468,10 +22466,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T05:18:37Z",
+      "lastSearchedAt": "2026-09-12T14:44:20Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public Gumtree search executed; no plausible current direct UK TME vehicle advert satisfying mileage/ownership rules surfaced."
+      "limitation": "Gumtree indexed search executed. No plausible current direct Tommi Makinen Edition advert meeting the strict under-30,000-mile and total-owner rules was retained."
     },
     {
       "id": "model-088:911uk:mitsubishi-evo-vi-tommi-makinen-edition",
@@ -25037,10 +25035,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T05:04:02Z",
+      "lastSearchedAt": "2026-09-12T14:44:20Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "PistonHeads search executed. Low-mileage listing 16225032 (26,900 miles) now explicitly says no longer available; auction/current-bid and >50,000-mile results were also rejected."
+      "limitation": "PistonHeads search executed. A 26,900-mile E39 M5 listing (#16225032) surfaced but the actual advert says MOT expired and no longer available; a 45,998-mile auction page was excluded because it is not a fixed-price advert. No qualifying current candidate retained."
     },
     {
       "id": "model-097:car-and-classic:bmw-e39-m5-manual-uk",
@@ -25192,10 +25190,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T05:04:02Z",
+      "lastSearchedAt": "2026-09-12T14:44:20Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Specialist searches surfaced E39 M5 stock at about 100,600–126,100 miles, plus sold/POA material. None satisfies the 50,000-mile cap and live fixed-price rules."
+      "limitation": "Specialist-dealer search executed. Low-mileage Munich Legends stock surfaced as SOLD/POA; other current dealer E39 M5s were above the 50,000-mile cap. No qualifying candidate retained."
     },
     {
       "id": "model-097:facebook-groups:bmw-m5-e39-6-speed-manual-uk",
@@ -25260,10 +25258,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T05:04:02Z",
+      "lastSearchedAt": "2026-09-12T14:44:20Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "PistonHeads search executed. The plausible 26,900-mile manual advert is explicitly no longer available; auction and mileage-cap failures were rejected."
+      "limitation": "PistonHeads search executed. Low-mileage material either resolved to an unavailable classified or an auction rather than a fixed-price live advert; no qualifying current candidate retained."
     },
     {
       "id": "model-097:car-and-classic:bmw-m5-e39-6-speed-manual-uk",
@@ -25415,10 +25413,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T05:04:02Z",
+      "lastSearchedAt": "2026-09-12T14:44:20Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Specialist searches surfaced E39 M5 stock over the 50,000-mile cap and sold/POA material; no qualifying current direct advert retained."
+      "limitation": "Specialist-dealer search executed. No current fixed-price E39 M5 manual dealer advert at or below 50,000 miles survived availability and mileage checks."
     }
   ]
 }
