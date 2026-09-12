@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-12T07:57:37Z",
+  "updatedAt": "2026-09-12T08:48:57Z",
   "compactedFromQueueAt": "2026-09-10T06:41:54.207Z",
   "note": "Cumulative worker-write state. Job results are merged from immutable run deltas and folded back into data/search-queue.json by scripts/build-search-queue.mjs.",
   "jobs": {
@@ -525,17 +525,17 @@
     },
     "model-019:bonhams-cars:tvr-tamora": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T08:42:28Z",
+      "lastSearchedAt": "2026-09-12T08:48:57Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No current fixed-price qualifying UK TVR Tamora advert was captured; historical auction material was rejected."
+      "limitation": "Bonhams Cars search executed; no qualifying current fixed-price TVR Tamora advert surfaced."
     },
     "model-019:classic-trader:tvr-tamora": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T08:42:28Z",
+      "lastSearchedAt": "2026-09-12T08:48:57Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No plausible current direct UK TVR Tamora advert was captured."
+      "limitation": "Classic Trader search executed; no qualifying current direct TVR Tamora advert retained."
     },
     "model-019:ferrarichat:tvr-tamora": {
       "status": "searched",
@@ -583,10 +583,10 @@
     },
     "model-020:bonhams-cars:lotus-esprit-s4s": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T08:42:28Z",
+      "lastSearchedAt": "2026-09-12T08:48:57Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No current fixed-price qualifying UK Esprit S4s advert was captured; historical auction material was rejected."
+      "limitation": "Bonhams Cars search executed; no qualifying current fixed-price Lotus Esprit S4s advert surfaced."
     },
     "model-020:car-and-classic:lotus-esprit-s4s": {
       "status": "searched",
@@ -597,17 +597,17 @@
     },
     "model-020:classic-trader:lotus-esprit-s4s": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T08:42:28Z",
+      "lastSearchedAt": "2026-09-12T08:48:57Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "A Lotus Esprit S4 rather than the required S4s was surfaced and rejected; no exact current S4s advert was captured."
+      "limitation": "Classic Trader surfaced a 1994 Esprit S4, which is the wrong derivative and outside the 1995 minimum; rejected."
     },
     "model-020:collecting-cars:lotus-esprit-s4s": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T08:42:28Z",
+      "lastSearchedAt": "2026-09-12T08:48:57Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No active qualifying UK fixed-price Esprit S4s advert was captured; completed auction material was rejected."
+      "limitation": "A current 1996 Esprit S4s auction surfaced, but no fixed qualifying GBP asking price was available; auction bid/estimate material is excluded."
     },
     "model-020:ebay:lotus-esprit-s4s": {
       "status": "searched",
@@ -676,10 +676,10 @@
     },
     "model-021:bonhams-cars:lotus-esprit-gt3": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T08:42:28Z",
+      "lastSearchedAt": "2026-09-12T08:48:57Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No current fixed-price qualifying UK Esprit GT3 advert was captured; historical auction material was rejected."
+      "limitation": "Bonhams Cars search executed; no qualifying current fixed-price Lotus Esprit GT3 advert surfaced."
     },
     "model-021:car-and-classic:lotus-esprit-gt3": {
       "status": "searched",
@@ -690,10 +690,10 @@
     },
     "model-021:classic-trader:lotus-esprit-gt3": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T08:42:28Z",
+      "lastSearchedAt": "2026-09-12T08:48:57Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No plausible current direct UK Esprit GT3 advert was captured."
+      "limitation": "Classic Trader search executed; no qualifying current direct Lotus Esprit GT3 advert surfaced."
     },
     "model-021:collecting-cars:lotus-esprit-gt3": {
       "status": "searched",
@@ -844,13 +844,12 @@
     },
     "model-096:specialist-dealers:bmw-e46-m3-manual-coupe-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T00:21:04Z",
-      "lastResultCount": 2,
+      "lastSearchedAt": "2026-09-12T08:48:57Z",
+      "lastResultCount": 1,
       "candidateUrls": [
-        "https://www.hexagonclassics.com/car/bmw-m3-coupe--e46---manual--2003",
-        "https://www.carandclassic.com/car/C1704609"
+        "https://www.hexagonclassics.com/car/bmw-m3-coupe--e46---manual--2003"
       ],
-      "limitation": "Specialist search reconfirmed two already-tracked current-looking E46 M3 manual Coupes within the 50,000-mile cap: Hexagon's 2003 3,100-mile car at £99,995 and the Car & Classic dealer cross-post C1704609 at £62,995/34,000 miles. Both remain verification-pending because exact seller-gallery/interior manual-photo verification is incomplete; C1704609 is also heavily modified."
+      "limitation": "Hexagon's already tracked 3,100-mile factory-manual E46 M3 resurfaced. Price remains inconsistent across Hexagon pages (£99,995 versus £120,000 previously observed), so it stays unverified."
     },
     "model-096:specialist-dealers:bmw-m3-e46-6-speed-manual-coupe-uk": {
       "status": "searched",
@@ -1901,45 +1900,45 @@
     },
     "model-076:ebay:ford-focus-st500": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T00:21:04Z",
+      "lastSearchedAt": "2026-09-12T08:48:57Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "eBay UK search found a current-looking 2007 ST500 at £5,995/98,849 miles, but it fails the £10,000 minimum and exceptional-example brief; parts listings were also rejected. No candidate retained."
+      "limitation": "A live 2007 ST500 at £5,995 was found but rejected below the £10,000 floor; parts and non-qualifying results also rejected."
     },
     "model-076:gumtree:ford-focus-st500": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T00:21:04Z",
+      "lastSearchedAt": "2026-09-12T08:48:57Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Gumtree search executed; no current direct qualifying Focus ST500 advert was retained."
+      "limitation": "A current-looking 2007 ST500 at £6,000 was found but rejected below the £10,000 floor; no qualifying candidate retained."
     },
     "model-076:pistonheads:ford-focus-st500": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T00:21:04Z",
+      "lastSearchedAt": "2026-09-12T08:48:57Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "PistonHeads search executed; no current direct qualifying Focus ST500 advert was retained."
+      "limitation": "Public PistonHeads search executed; no qualifying current direct ST500 advert retained."
     },
     "model-076:specialist-dealers:ford-focus-st500": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T00:21:04Z",
+      "lastSearchedAt": "2026-09-12T08:48:57Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Specialist-dealer search executed; no current direct qualifying Focus ST500 stock advert was retained."
+      "limitation": "Specialist-dealer search executed; no qualifying current direct ST500 stock advert retained."
     },
     "model-082:autotrader:subaru-impreza-p1": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T00:21:04Z",
+      "lastSearchedAt": "2026-09-12T08:48:57Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Auto Trader search executed; no direct current qualifying Subaru P1 car-details URL meeting the under-30,000-mile/two-owner rule was retained."
+      "limitation": "Auto Trader indexed search executed; no direct current P1 car-details URL satisfying the strict mileage/ownership rules surfaced."
     },
     "model-082:car-and-classic:subaru-impreza-p1": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T00:21:04Z",
+      "lastSearchedAt": "2026-09-12T08:48:57Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Car & Classic search executed; no direct current qualifying Subaru P1 advert meeting the under-30,000-mile/two-owner rule was retained."
+      "limitation": "A current P1 advert at 35,618 miles surfaced but fails the model's strict under-30,000-mile rule; older sold/high-mileage material rejected."
     },
     "model-026:collecting-cars:lotus-exige-s1": {
       "status": "searched",
@@ -2265,31 +2264,31 @@
     },
     "model-070:ferrarichat:ford-focus-rs-mk1": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T19:11:21Z",
+      "lastSearchedAt": "2026-09-12T08:48:57Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "FerrariChat indexed search executed; surfaced threads were unrelated/old and no current Mk1 RS advert was retained."
+      "limitation": "Public FerrariChat search executed; no plausible current direct UK Focus RS Mk1 advert surfaced."
     },
     "model-070:ferrarichat:ford-focus-rs-mk2": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T19:11:21Z",
+      "lastSearchedAt": "2026-09-12T08:48:57Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "FerrariChat indexed search executed; no current direct Mk2 RS sale advert was retained."
+      "limitation": "Public FerrariChat search executed; no plausible current direct UK Focus RS Mk2 advert surfaced."
     },
     "model-070:ferrarichat:ford-focus-rs500": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T19:11:21Z",
+      "lastSearchedAt": "2026-09-12T08:48:57Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "FerrariChat indexed search executed; no current direct RS500 sale advert was retained."
+      "limitation": "Public FerrariChat search executed; no plausible current direct UK Focus RS500 advert surfaced."
     },
     "model-070:lamborghini-talk:ford-focus-rs-mk1": {
       "status": "blocked",
-      "lastSearchedAt": "2026-09-11T19:11:21Z",
+      "lastSearchedAt": "2026-09-12T08:48:57Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public access to lamborghini-talk.com search results was blocked by robots.txt; no candidate could be assessed from this source."
+      "limitation": "lamborghini-talk.com blocked automated public access via robots; no result count inferred."
     },
     "model-028:gumtree:lotus-exige-s-s-240": {
       "status": "searched",
@@ -2384,10 +2383,10 @@
     },
     "model-029:gumtree:lotus-exige-240r": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T13:56:00Z",
+      "lastSearchedAt": "2026-09-12T08:48:57Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public web search executed; no plausible current Lotus Exige 240R advert matching the rules was established."
+      "limitation": "Gumtree search executed; no plausible current direct Exige 240R vehicle advert surfaced."
     },
     "model-029:lamborghini-talk:lotus-exige-240r": {
       "status": "blocked",
@@ -2398,17 +2397,17 @@
     },
     "model-029:pistonheads:lotus-exige-240r": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T13:56:00Z",
+      "lastSearchedAt": "2026-09-12T08:48:57Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public PistonHeads search executed; the direct 240R result inspected is no longer available, so no candidate was retained."
+      "limitation": "One result explicitly said no longer available and another current-looking indexed 240R detail URL now returns 404; both rejected as stale/unavailable."
     },
     "model-029:specialist-dealers:lotus-exige-240r": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T13:56:00Z",
+      "lastSearchedAt": "2026-09-12T08:48:57Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public specialist-dealer search executed; no plausible current Lotus Exige 240R advert was established."
+      "limitation": "Specialist-dealer search executed; no new current originating dealer advert retained."
     },
     "model-030:911uk:lotus-exige-cup-240-cup-260": {
       "status": "searched",
@@ -2419,10 +2418,10 @@
     },
     "model-030:autotrader:lotus-exige-cup-240-cup-260": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T13:56:00Z",
+      "lastSearchedAt": "2026-09-12T08:48:57Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public web search executed; no additional plausible current road-registered Lotus Exige Cup 240/Cup 260 advert was established."
+      "limitation": "Auto Trader search executed; no qualifying direct current Exige Cup 240/Cup 260 car-details URL surfaced."
     },
     "model-030:bonhams-cars:lotus-exige-cup-240-cup-260": {
       "status": "searched",
@@ -2433,10 +2432,10 @@
     },
     "model-030:car-and-classic:lotus-exige-cup-240-cup-260": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T13:56:00Z",
+      "lastSearchedAt": "2026-09-12T08:48:57Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public web search executed; no additional plausible current road-registered Lotus Exige Cup 240/Cup 260 advert was established."
+      "limitation": "Car & Classic search executed; no qualifying current direct Exige Cup 240/Cup 260 advert retained."
     },
     "model-030:classic-trader:lotus-exige-cup-240-cup-260": {
       "status": "searched",
@@ -2454,10 +2453,10 @@
     },
     "model-030:ebay:lotus-exige-cup-240-cup-260": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T13:56:00Z",
+      "lastSearchedAt": "2026-09-12T08:48:57Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public eBay search executed; results were parts/accessories rather than a qualifying current vehicle advert."
+      "limitation": "eBay search results were parts, wheels, brochures or unrelated material; no current complete vehicle advert retained."
     },
     "model-030:facebook-groups:lotus-exige-cup-240-cup-260": {
       "status": "searched",
@@ -2475,10 +2474,10 @@
     },
     "model-030:gumtree:lotus-exige-cup-240-cup-260": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T13:56:00Z",
+      "lastSearchedAt": "2026-09-12T08:48:57Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public web search executed; no additional plausible current road-registered Lotus Exige Cup 240/Cup 260 advert was established."
+      "limitation": "Gumtree search executed; no plausible current direct Exige Cup 240/Cup 260 vehicle advert surfaced."
     },
     "model-030:lamborghini-talk:lotus-exige-cup-240-cup-260": {
       "status": "blocked",
@@ -2489,26 +2488,24 @@
     },
     "model-030:pistonheads:lotus-exige-cup-240-cup-260": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T13:56:00Z",
-      "lastResultCount": 1,
-      "candidateUrls": [
-        "https://www.pistonheads.com/buy/listing/19837622"
-      ],
-      "limitation": "Public PistonHeads search executed; one current direct road-legal Exige 240 Cup Race Spec advert was retained. Live textual sale controls were visible, but seller photographs could not be visually inspected in this run."
+      "lastSearchedAt": "2026-09-12T08:48:57Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "PistonHeads search executed; no new qualifying current direct Cup 240/Cup 260 advert retained."
     },
     "model-030:specialist-dealers:lotus-exige-cup-240-cup-260": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T13:56:00Z",
+      "lastSearchedAt": "2026-09-12T08:48:57Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public specialist-dealer search executed; no additional plausible current road-registered Exige Cup 240/Cup 260 advert was established."
+      "limitation": "Specialist-dealer search executed; no new current originating Cup 240/Cup 260 stock advert retained."
     },
     "model-070:lamborghini-talk:ford-focus-rs-mk2": {
       "status": "blocked",
-      "lastSearchedAt": "2026-09-11T19:11:21Z",
+      "lastSearchedAt": "2026-09-12T08:48:57Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public access to lamborghini-talk.com search results was blocked by robots.txt; no candidate could be assessed from this source."
+      "limitation": "lamborghini-talk.com blocked automated public access via robots; no result count inferred."
     },
     "model-070:car-and-classic:ford-focus-rs500": {
       "status": "searched",
@@ -2596,31 +2593,31 @@
     },
     "model-076:911uk:ford-focus-st500": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T19:11:21Z",
+      "lastSearchedAt": "2026-09-12T08:48:57Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public 911UK search executed; no current direct Focus ST500 sale advert was retained."
+      "limitation": "Public 911UK search executed; no plausible current direct ST500 vehicle advert surfaced."
     },
     "model-076:facebook-groups:ford-focus-st500": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T19:11:21Z",
+      "lastSearchedAt": "2026-09-12T08:48:57Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public indexed Facebook-group search executed; no direct current ST500 sale post could be verified from public results."
+      "limitation": "Public indexed Facebook-group search executed; no directly verifiable current ST500 sale post surfaced. Private/member-only group coverage remains unavailable."
     },
     "model-076:ferrarichat:ford-focus-st500": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T19:11:21Z",
+      "lastSearchedAt": "2026-09-12T08:48:57Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "FerrariChat indexed search executed; no current direct Focus ST500 sale advert was retained."
+      "limitation": "Public FerrariChat search executed; no plausible current direct ST500 advert surfaced."
     },
     "model-076:lamborghini-talk:ford-focus-st500": {
       "status": "blocked",
-      "lastSearchedAt": "2026-09-11T19:11:21Z",
+      "lastSearchedAt": "2026-09-12T08:48:57Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public access to lamborghini-talk.com search results was blocked by robots.txt; no candidate could be assessed from this source."
+      "limitation": "lamborghini-talk.com blocked automated public access via robots; no result count inferred."
     },
     "model-078:gumtree:renault-clio-182-trophy": {
       "status": "searched",
@@ -2652,10 +2649,10 @@
     },
     "model-031:autotrader:lotus-elise-s1-111s": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T14:18:00Z",
+      "lastSearchedAt": "2026-09-12T08:48:57Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Auto Trader search executed; generic/category results did not provide a new current direct car-detail advert for an eligible S1 111S."
+      "limitation": "Auto Trader search produced generic inventory/category material rather than a new direct current S1 111S advert; generic pages rejected."
     },
     "model-031:bonhams-cars:lotus-elise-s1-111s": {
       "status": "searched",
@@ -2666,13 +2663,10 @@
     },
     "model-031:car-and-classic:lotus-elise-s1-111s": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T14:18:00Z",
-      "lastResultCount": 2,
-      "candidateUrls": [
-        "https://www.carandclassic.com/l/C2039177",
-        "https://www.carandclassic.com/l/C2141509"
-      ],
-      "limitation": "Two current direct UK S1 111S adverts were retained: C2039177, a 1999 car at £22,950 / 22,750 miles / manual with live For Sale controls; and C2141509, a 2000 car at £26,950 / 21,380 miles / manual with full-history and second-owner claims. Other surfaced exact pages were explicitly removed through sale or otherwise."
+      "lastSearchedAt": "2026-09-12T08:48:57Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Car & Classic search executed; no new direct current S1 111S advert beyond already tracked candidates surfaced."
     },
     "model-031:classic-trader:lotus-elise-s1-111s": {
       "status": "searched",
@@ -2690,10 +2684,10 @@
     },
     "model-031:ebay:lotus-elise-s1-111s": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T14:18:00Z",
+      "lastSearchedAt": "2026-09-12T08:48:57Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "eBay search executed; returned results were predominantly parts, memorabilia or otherwise non-qualifying material rather than a current eligible vehicle advert."
+      "limitation": "eBay results were parts/wheels/body items rather than complete current S1 111S vehicles; rejected."
     },
     "model-031:facebook-groups:lotus-elise-s1-111s": {
       "status": "searched",
@@ -2711,10 +2705,10 @@
     },
     "model-031:gumtree:lotus-elise-s1-111s": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T14:18:00Z",
+      "lastSearchedAt": "2026-09-12T08:48:57Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Gumtree search executed; no plausible current direct eligible UK S1 111S vehicle advert was established."
+      "limitation": "Gumtree search executed; no plausible current direct S1 111S vehicle advert surfaced."
     },
     "model-031:lamborghini-talk:lotus-elise-s1-111s": {
       "status": "blocked",
@@ -2725,20 +2719,17 @@
     },
     "model-031:pistonheads:lotus-elise-s1-111s": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T14:18:00Z",
-      "lastResultCount": 2,
-      "candidateUrls": [
-        "https://www.pistonheads.com/buy/listing/20465325",
-        "https://www.pistonheads.com/buy/listing/20947566"
-      ],
-      "limitation": "Two current direct S1 111S adverts were retained: #20465325 at £24,995 / 63,000 miles / manual, with live seller controls and a valid MOT; and #20947566 at £32,950 / 14,362 miles / manual from Hofmanns, with a valid MOT. Seller-photo visual verification remains outstanding."
+      "lastSearchedAt": "2026-09-12T08:48:57Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Fresh direct checks rejected the surfaced leads: listing 20198622 now returns 404 and listing 20465325 explicitly says the car is no longer available for purchase."
     },
     "model-031:specialist-dealers:lotus-elise-s1-111s": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T14:18:00Z",
+      "lastSearchedAt": "2026-09-12T08:48:57Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Specialist-dealer search executed; no additional new canonical direct S1 111S dealer advert was established beyond retained marketplace candidates."
+      "limitation": "Specialist search executed; no new current originating dealer S1 111S advert retained."
     },
     "model-032:911uk:lotus-elise-sport-160": {
       "status": "searched",
@@ -2749,10 +2740,10 @@
     },
     "model-032:autotrader:lotus-elise-sport-160": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T14:18:00Z",
+      "lastSearchedAt": "2026-09-12T08:48:57Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Auto Trader search executed; generic/category results did not establish a new current direct Sport 160 car-detail advert."
+      "limitation": "Auto Trader search executed; no new qualifying direct Sport 160 car-details URL surfaced."
     },
     "model-032:bonhams-cars:lotus-elise-sport-160": {
       "status": "searched",
@@ -2763,10 +2754,10 @@
     },
     "model-032:car-and-classic:lotus-elise-sport-160": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T14:18:00Z",
+      "lastSearchedAt": "2026-09-12T08:48:57Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Car & Classic search executed; exact results were removed/sold or offline-auction material rather than current fixed-price eligible adverts."
+      "limitation": "Car & Classic search executed; no new qualifying current direct Sport 160 advert surfaced."
     },
     "model-032:classic-trader:lotus-elise-sport-160": {
       "status": "searched",
@@ -2784,10 +2775,10 @@
     },
     "model-032:ebay:lotus-elise-sport-160": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T14:18:00Z",
+      "lastSearchedAt": "2026-09-12T08:48:57Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "eBay search executed; results were predominantly parts, toys, seats or brochure material rather than a qualifying current Sport 160 vehicle advert."
+      "limitation": "eBay results were parts/toys/unrelated items; no current complete Sport 160 vehicle advert retained."
     },
     "model-032:facebook-groups:lotus-elise-sport-160": {
       "status": "searched",
@@ -2805,10 +2796,10 @@
     },
     "model-032:gumtree:lotus-elise-sport-160": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T14:18:00Z",
+      "lastSearchedAt": "2026-09-12T08:48:57Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Gumtree search executed; no plausible current direct eligible UK Sport 160 vehicle advert was established."
+      "limitation": "Gumtree search executed; no plausible current direct Sport 160 vehicle advert surfaced."
     },
     "model-032:lamborghini-talk:lotus-elise-sport-160": {
       "status": "blocked",
@@ -2819,21 +2810,20 @@
     },
     "model-032:pistonheads:lotus-elise-sport-160": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T14:18:00Z",
-      "lastResultCount": 3,
+      "lastSearchedAt": "2026-09-12T08:48:57Z",
+      "lastResultCount": 2,
       "candidateUrls": [
         "https://www.pistonheads.com/buy/listing/19280389",
-        "https://www.pistonheads.com/buy/listing/20032849",
-        "https://www.pistonheads.com/buy/listing/18645148"
+        "https://www.pistonheads.com/buy/listing/20032849"
       ],
-      "limitation": "Three current direct Sport 160 adverts were retained. #19280389 is £27,500 / 30,000 miles / manual; #20032849 is £30,000 / 26,000 miles / manual; #18645148 is a 1-of-50 SVA at the current direct-page price of £34,995 / 31,000 miles / manual. #20501493 was explicitly no longer available and was rejected. Visual seller-photo verification remains outstanding."
+      "limitation": "Two already tracked Sport 160 adverts remain live with seller controls, but both show expired MOTs and seller photos remain unverified; neither is publishable yet."
     },
     "model-032:specialist-dealers:lotus-elise-sport-160": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T14:18:00Z",
+      "lastSearchedAt": "2026-09-12T08:48:57Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Specialist-dealer search executed; no additional new canonical direct Sport 160 dealer advert was established beyond retained marketplace candidates."
+      "limitation": "Specialist search executed; no new originating current dealer advert beyond already tracked marketplace leads retained."
     },
     "model-033:911uk:lotus-elise-s2-135r": {
       "status": "searched",
@@ -2844,10 +2834,10 @@
     },
     "model-033:autotrader:lotus-elise-s2-135r": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T14:18:00Z",
+      "lastSearchedAt": "2026-09-12T08:48:57Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Auto Trader search executed; generic/category results did not establish a new current direct 135R car-detail advert."
+      "limitation": "Auto Trader search executed; no new direct current S2 135R car-details URL surfaced."
     },
     "model-033:bonhams-cars:lotus-elise-s2-135r": {
       "status": "searched",
@@ -2858,12 +2848,13 @@
     },
     "model-033:car-and-classic:lotus-elise-s2-135r": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T14:18:00Z",
-      "lastResultCount": 1,
+      "lastSearchedAt": "2026-09-12T08:48:57Z",
+      "lastResultCount": 2,
       "candidateUrls": [
-        "https://www.carandclassic.com/au/l/C2057404"
+        "https://www.carandclassic.com/l/C2057404",
+        "https://www.carandclassic.com/l/C1973690"
       ],
-      "limitation": "A direct current-looking 2003 Elise S2 135R at £16,000 / 43,000 miles / five-speed manual / RHD from a private seller in Rushden was retained. Search evidence showed a For Sale advert with 32 photos; direct deep fetch and visual photo verification remain outstanding."
+      "limitation": "One already tracked 135R resurfaced and one new live £23,995/37,900-mile build #014 advert was retained. A 3,700-mile example was freshly confirmed removed/sold and rejected."
     },
     "model-085:specialist-dealers:subaru-impreza-rb320": {
       "status": "searched",
@@ -2904,31 +2895,31 @@
     },
     "model-056:bonhams-cars:bmw-z4-m-coupe": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T22:59:00Z",
+      "lastSearchedAt": "2026-09-12T08:48:57Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Executed Bonhams Cars search; no current direct Z4 M Coupe advert survived the completed/historical-sale filter."
+      "limitation": "Bonhams Cars search executed; no qualifying current fixed-price UK Z4 M Coupe advert surfaced."
     },
     "model-056:classic-trader:bmw-z4-m-coupe": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T22:59:00Z",
+      "lastSearchedAt": "2026-09-12T08:48:57Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Executed Classic Trader search; the surfaced BMW result was a French Z3 M Coupe restoration project, not the target Z4 M Coupe."
+      "limitation": "Classic Trader search executed; no qualifying current direct UK Z4 M Coupe advert surfaced."
     },
     "model-056:collecting-cars:bmw-z4-m-coupe": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T22:59:00Z",
+      "lastSearchedAt": "2026-09-12T08:48:57Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Collecting Cars results were historical/completed Z4M Coupe auctions, including pages explicitly marked Sold; none retained."
+      "limitation": "Search surfaced historical/sold auction material only; completed sales are excluded."
     },
     "model-070:bonhams-cars:ford-focus-rs-mk1": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T22:59:00Z",
+      "lastSearchedAt": "2026-09-12T08:48:57Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Executed Bonhams Cars search; no current direct Mk1 RS advert was retained."
+      "limitation": "Bonhams Cars search executed; no qualifying current fixed-price Focus RS Mk1 advert surfaced."
     },
     "model-070:collecting-cars:ford-focus-rs-mk1": {
       "status": "searched",
