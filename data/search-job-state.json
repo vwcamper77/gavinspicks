@@ -1,59 +1,56 @@
 {
-  "updatedAt": "2026-09-12T08:48:57Z",
+  "updatedAt": "2026-09-12T10:09:22Z",
   "compactedFromQueueAt": "2026-09-10T06:41:54.207Z",
   "note": "Cumulative worker-write state. Job results are merged from immutable run deltas and folded back into data/search-queue.json by scripts/build-search-queue.mjs.",
   "jobs": {
     "model-056:ebay:bmw-z4-m-coupe": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T01:20:07Z",
-      "lastResultCount": 2,
-      "candidateUrls": [
-        "https://www.ebay.co.uk/itm/800309038343",
-        "https://www.ebay.co.uk/itm/157708719903"
-      ],
-      "limitation": "eBay search resurfaced two already tracked Z4 M Coupe classifieds. A separate SOLD/ended result was rejected; no new candidate added."
+      "lastSearchedAt": "2026-09-12T10:09:22Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "eBay UK search executed. Results were mainly scale models/parts or unrelated material; no current complete Z4 M Coupe vehicle advert was retained."
     },
     "model-056:autotrader:bmw-z4-m-coupe": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T01:20:07Z",
+      "lastSearchedAt": "2026-09-12T10:09:22Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Executed Auto Trader indexed search. Only generic/category inventory surfaced; no new direct current Z4 M Coupe car-details URL retained."
+      "limitation": "Auto Trader indexed search executed. Only generic/category inventory surfaced; no new direct current Z4 M Coupe car-details URL was retained."
     },
     "model-056:pistonheads:bmw-z4-m-coupe": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T01:20:07Z",
+      "lastSearchedAt": "2026-09-12T10:09:22Z",
       "lastResultCount": 2,
       "candidateUrls": [
         "https://www.pistonheads.com/buy/listing/20766605",
         "https://www.pistonheads.com/buy/listing/20952644"
       ],
-      "limitation": "PistonHeads search resurfaced two already tracked Z4 M Coupe classifieds; no new direct candidate added."
+      "limitation": "PistonHeads search resurfaced two already tracked current Z4 M Coupe adverts. A further syndication appeared linked to a sold/removed originating advert and was rejected as potentially recycled."
     },
     "model-056:car-and-classic:bmw-z4-m-coupe": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T01:20:07Z",
+      "lastSearchedAt": "2026-09-12T10:09:22Z",
       "lastResultCount": 1,
       "candidateUrls": [
-        "https://www.carandclassic.com/car/C1248397"
+        "https://www.carandclassic.com/car/C2127428"
       ],
-      "limitation": "Car & Classic search resurfaced an already tracked Z4 M Coupe advert. No additional credible direct current Z4 M Coupe candidate was retained."
+      "limitation": "Car & Classic search resurfaced the already tracked live £21,995/73,800-mile manual Z4 M Coupe. Other surfaced pages were stale, removed or sold; no new candidate added."
     },
     "model-056:gumtree:bmw-z4-m-coupe": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T01:20:07Z",
+      "lastSearchedAt": "2026-09-12T10:09:22Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Executed Gumtree search. No new current direct UK Z4 M Coupe advert retained."
+      "limitation": "Gumtree search executed. No plausible current direct UK Z4 M Coupe advert was retained."
     },
     "model-056:specialist-dealers:bmw-z4-m-coupe": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T01:20:07Z",
+      "lastSearchedAt": "2026-09-12T10:09:22Z",
       "lastResultCount": 1,
       "candidateUrls": [
         "https://rsvautomotive.co.uk/cars/bmw-z4-m-z4-m-coupe/"
       ],
-      "limitation": "RSV Automotive current-stock search resurfaced the already queued £25,995/52,000-mile manual Z4 M Coupe; no duplicate candidate added."
+      "limitation": "Specialist-dealer search resurfaced RSV Automotive's already tracked £25,995/52,000-mile manual Z4 M Coupe with current enquiry controls; no duplicate candidate added."
     },
     "model-070:ebay:ford-focus-rs-mk1": {
       "status": "searched",
@@ -697,10 +694,10 @@
     },
     "model-021:collecting-cars:lotus-esprit-gt3": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T08:42:28Z",
+      "lastSearchedAt": "2026-09-12T10:09:22Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No active qualifying UK fixed-price Esprit GT3 advert was captured; completed auction material was rejected."
+      "limitation": "Collecting Cars search executed. No current direct Lotus Esprit GT3 advert was retained; completed/historical auction material is excluded."
     },
     "model-021:ebay:lotus-esprit-gt3": {
       "status": "searched",
@@ -853,12 +850,10 @@
     },
     "model-096:specialist-dealers:bmw-m3-e46-6-speed-manual-coupe-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T01:20:07Z",
-      "lastResultCount": 1,
-      "candidateUrls": [
-        "https://www.hexagonclassics.com/car/bmw-m3-coupe--e46---manual--2003"
-      ],
-      "limitation": "Hexagon Classics currently lists the 2003 E46 M3 manual Coupe at £99,995, 3,100 miles, one owner and 6-speed manual in current BMW stock. URL is already queued; seller photographs still require visual overlay/manual-control verification before publication."
+      "lastSearchedAt": "2026-09-12T10:09:22Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Specialist-dealer search executed. No current direct E46 M3 factory-manual Coupe at or below 50,000 miles was retained in this pass."
     },
     "model-097:911uk:bmw-e39-m5-manual-uk": {
       "status": "searched",
@@ -913,10 +908,10 @@
     },
     "model-022:bonhams-cars:lotus-esprit-sport-350": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T10:10:00Z",
+      "lastSearchedAt": "2026-09-12T10:09:22Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No current purchasable Bonhams Cars Sport 350 advert was captured; historical/completed material was rejected."
+      "limitation": "Bonhams Cars search executed. No current direct Esprit Sport 350 fixed-price offer was retained."
     },
     "model-022:car-and-classic:lotus-esprit-sport-350": {
       "status": "searched",
@@ -929,17 +924,17 @@
     },
     "model-022:classic-trader:lotus-esprit-sport-350": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T10:10:00Z",
+      "lastSearchedAt": "2026-09-12T10:09:22Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No plausible current direct Classic Trader Sport 350 advert was captured."
+      "limitation": "Classic Trader search executed. Generic Esprit inventory surfaced, but no current direct Sport 350 advert was retained."
     },
     "model-022:collecting-cars:lotus-esprit-sport-350": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T10:10:00Z",
+      "lastSearchedAt": "2026-09-12T10:09:22Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search results were historical/completed Sport 350 auctions, not current purchasable cars; rejected before verification."
+      "limitation": "Collecting Cars search executed. No current direct Sport 350 advert was retained; completed/historical auction material is excluded."
     },
     "model-022:ebay:lotus-esprit-sport-350": {
       "status": "searched",
@@ -1008,10 +1003,10 @@
     },
     "model-023:bonhams-cars:morgan-aero-8-series-1-4-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T10:10:00Z",
+      "lastSearchedAt": "2026-09-12T10:09:22Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No current purchasable Bonhams Cars Aero 8 Series 1-4 manual advert was captured."
+      "limitation": "Bonhams Cars search executed. No current direct fixed-price Morgan Aero 8 Series 1–4 manual offer was retained."
     },
     "model-023:car-and-classic:morgan-aero-8-series-1-4-manual": {
       "status": "searched",
@@ -1026,17 +1021,17 @@
     },
     "model-023:classic-trader:morgan-aero-8-series-1-4-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T10:10:00Z",
+      "lastSearchedAt": "2026-09-12T10:09:22Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No plausible current direct Classic Trader Morgan Aero 8 manual advert was captured."
+      "limitation": "Classic Trader search executed. No current direct UK Morgan Aero 8 Series 1–4 manual advert was retained."
     },
     "model-023:collecting-cars:morgan-aero-8-series-1-4-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T10:10:00Z",
+      "lastSearchedAt": "2026-09-12T10:09:22Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No active current Collecting Cars Aero 8 Series 1-4 manual opportunity was captured; historical auction material was rejected."
+      "limitation": "Collecting Cars search executed. No current direct qualifying Aero 8 manual advert was retained; historical/completed material is excluded."
     },
     "model-023:ebay:morgan-aero-8-series-1-4-manual": {
       "status": "searched",
@@ -2152,38 +2147,38 @@
     },
     "model-082:ebay:subaru-impreza-p1": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T01:20:07Z",
+      "lastSearchedAt": "2026-09-12T10:09:22Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Executed eBay UK search. Direct P1 adverts surfaced were ended/unavailable and well above the strict sub-30,000-mile cap; no qualifying current candidate retained."
+      "limitation": "eBay search surfaced a current 40,180-mile P1 plus old/project material. The live car fails the strict under-30,000-mile rule, so no candidate was retained."
     },
     "model-082:gumtree:subaru-impreza-p1": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T01:20:07Z",
+      "lastSearchedAt": "2026-09-12T10:09:22Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Executed Gumtree search. No current direct UK Subaru Impreza P1 advert meeting the strict sub-30,000-mile and maximum-two-owner rules was retained."
+      "limitation": "Gumtree search executed. No current direct P1 advert meeting the strict mileage/ownership rules was retained."
     },
     "model-082:pistonheads:subaru-impreza-p1": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T01:20:07Z",
+      "lastSearchedAt": "2026-09-12T10:09:22Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Executed PistonHeads search. Surfaced P1 classifieds were 41k-99k miles and/or over the owner cap, and one mislabelled WRX was unavailable; no qualifying candidate retained."
+      "limitation": "PistonHeads search surfaced live/auction P1 material, but the available cars exceeded the under-30,000-mile and/or maximum-two-owner rules; no qualifying candidate retained."
     },
     "model-082:specialist-dealers:subaru-impreza-p1": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T01:20:07Z",
+      "lastSearchedAt": "2026-09-12T10:09:22Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Executed specialist-dealer search. Surfaced P1 stock/leads failed the strict sub-30,000-mile and maximum-two-owner criteria or were not current direct adverts; no candidate retained."
+      "limitation": "Specialist-dealer search executed. No current direct P1 stock meeting the strict under-30,000-mile and maximum-two-owner rules was retained."
     },
     "model-085:autotrader:subaru-impreza-rb320": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T01:20:07Z",
+      "lastSearchedAt": "2026-09-12T10:09:22Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Executed Auto Trader indexed search. No direct current RB320 car-details URL meeting the strict sub-30,000-mile and maximum-two-owner rules was retained."
+      "limitation": "Auto Trader search executed. No qualifying current direct RB320 car-details URL meeting the strict mileage/ownership rules was retained."
     },
     "model-085:car-and-classic:subaru-impreza-rb320": {
       "status": "searched",
@@ -2222,10 +2217,10 @@
     },
     "model-076:collecting-cars:ford-focus-st500": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T22:59:00Z",
+      "lastSearchedAt": "2026-09-12T10:09:22Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Executed current indexed Collecting Cars search; no plausible current direct ST500 advert survived the live-advert/completed-auction filter."
+      "limitation": "Collecting Cars search executed. No current direct Focus ST500 advert was retained; historical/completed material is excluded."
     },
     "model-070:911uk:ford-focus-rs-mk1": {
       "status": "searched",
@@ -2530,38 +2525,38 @@
     },
     "model-082:bonhams-cars:subaru-impreza-p1": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T22:59:00Z",
+      "lastSearchedAt": "2026-09-12T10:09:22Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Executed Bonhams Cars/The Market search; no current direct P1 advert satisfying the sub-30k-mile and maximum-two-owner rule was retained."
+      "limitation": "Bonhams Cars search executed. No current direct P1 offer meeting the under-30,000-mile, maximum-two-owner and fixed-price rules was retained."
     },
     "model-082:classic-trader:subaru-impreza-p1": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T22:59:00Z",
+      "lastSearchedAt": "2026-09-12T10:09:22Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Executed Classic Trader search; no current direct UK P1 advert satisfying mileage and ownership caps was retained."
+      "limitation": "Classic Trader search executed. No current direct UK P1 advert meeting the under-30,000-mile and maximum-two-owner rules was retained."
     },
     "model-082:collecting-cars:subaru-impreza-p1": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T22:59:00Z",
+      "lastSearchedAt": "2026-09-12T10:09:22Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Executed Collecting Cars search; no active qualifying P1 sale was retained after excluding completed/historical auction material."
+      "limitation": "Collecting Cars search executed. No qualifying current fixed-price P1 advert was retained; completed/auction-result material is excluded."
     },
     "model-085:bonhams-cars:subaru-impreza-rb320": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T22:59:00Z",
+      "lastSearchedAt": "2026-09-12T10:09:22Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Executed Bonhams Cars search; no current direct RB320 advert satisfying mileage and ownership caps was retained."
+      "limitation": "Bonhams Cars search executed. No current direct RB320 offer meeting the under-30,000-mile, maximum-two-owner and fixed-price rules was retained."
     },
     "model-085:collecting-cars:subaru-impreza-rb320": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T22:59:00Z",
+      "lastSearchedAt": "2026-09-12T10:09:22Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Executed Collecting Cars search; no active qualifying RB320 sale survived the completed-auction filter."
+      "limitation": "Collecting Cars search executed. No qualifying current fixed-price RB320 advert was retained; completed/auction-result material is excluded."
     },
     "model-075:autotrader:audi-tt-quattro-sport": {
       "status": "searched",
@@ -2923,10 +2918,10 @@
     },
     "model-070:collecting-cars:ford-focus-rs-mk1": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T22:59:00Z",
+      "lastSearchedAt": "2026-09-12T10:09:22Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Executed Collecting Cars search; no active current Mk1 RS auction/listing survived the historical-sale filter."
+      "limitation": "Collecting Cars search executed. No current direct Mk1 Focus RS advert was retained; historical/completed material is excluded."
     },
     "model-033:classic-trader:lotus-elise-s2-135r": {
       "status": "searched",
@@ -2944,10 +2939,10 @@
     },
     "model-033:ebay:lotus-elise-s2-135r": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T16:02:22Z",
+      "lastSearchedAt": "2026-09-12T10:09:22Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search results were parts, seats, engines or unrelated Elise adverts; no qualifying 135R vehicle advert was retained."
+      "limitation": "eBay UK search executed. Results were parts/accessories rather than a complete current Elise 135R; no candidate retained."
     },
     "model-033:facebook-groups:lotus-elise-s2-135r": {
       "status": "searched",
@@ -2965,10 +2960,10 @@
     },
     "model-033:gumtree:lotus-elise-s2-135r": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T16:02:22Z",
+      "lastSearchedAt": "2026-09-12T10:09:22Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No plausible current direct UK Elise 135R advert was captured."
+      "limitation": "Gumtree search executed. No plausible current direct UK Elise 135R advert was retained."
     },
     "model-033:lamborghini-talk:lotus-elise-s2-135r": {
       "status": "blocked",
@@ -2979,19 +2974,19 @@
     },
     "model-033:pistonheads:lotus-elise-s2-135r": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T16:02:22Z",
+      "lastSearchedAt": "2026-09-12T10:09:22Z",
       "lastResultCount": 1,
       "candidateUrls": [
         "https://www.pistonheads.com/buy/listing/16696594"
       ],
-      "limitation": "One current 2004 Elise Sport 135R at £26,995/27,482 miles, one previous owner and manual gearbox was retained. The seller page has contact/stock controls and 12 photos, but visual photo checks remain outstanding."
+      "limitation": "Current Maidstone Sports Cars Elise Sport 135R #105 resurfaced at £26,995/27,482 miles. Exterior advert photos were visually checked with no SOLD/RESERVED overlay, and seller stock remains current; exact cabin/manual-control photo is still unavailable and the advert text contains an MOT-date inconsistency, so publication remains blocked."
     },
     "model-033:specialist-dealers:lotus-elise-s2-135r": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T16:02:22Z",
+      "lastSearchedAt": "2026-09-12T10:09:22Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "A specialist 135R page surfaced but was explicitly marked sold; no current specialist-dealer advert was retained."
+      "limitation": "Specialist-dealer search executed. No separate current direct Elise 135R stock advert beyond the already tracked Maidstone Sports Cars/PistonHeads car was retained."
     },
     "model-034:911uk:lotus-elise-sc-type-25": {
       "status": "searched",
@@ -3002,10 +2997,10 @@
     },
     "model-034:autotrader:lotus-elise-sc-type-25": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T16:02:22Z",
+      "lastSearchedAt": "2026-09-12T10:09:22Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Auto Trader surfaced a generic Elise SC category result but no direct car-detail URL was captured; the category page was rejected."
+      "limitation": "Auto Trader search executed. No current direct exact Elise SC/Type 25 car-details URL was retained."
     },
     "model-034:bonhams-cars:lotus-elise-sc-type-25": {
       "status": "searched",
@@ -3016,10 +3011,10 @@
     },
     "model-034:car-and-classic:lotus-elise-sc-type-25": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T16:02:22Z",
+      "lastSearchedAt": "2026-09-12T10:09:22Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Surfaced cars were outside the 2010 ceiling or historical auction pages; no current qualifying direct advert was retained."
+      "limitation": "Car & Classic search executed. No current direct exact Elise SC/Type 25 advert was retained."
     },
     "model-034:classic-trader:lotus-elise-sc-type-25": {
       "status": "searched",
@@ -3037,10 +3032,10 @@
     },
     "model-034:ebay:lotus-elise-sc-type-25": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T16:02:22Z",
+      "lastSearchedAt": "2026-09-12T10:09:22Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Results were parts/models or non-qualifying cars; no current direct qualifying advert was retained."
+      "limitation": "eBay UK search executed. No current complete exact Elise SC/Type 25 vehicle advert was retained."
     },
     "model-034:facebook-groups:lotus-elise-sc-type-25": {
       "status": "searched",
@@ -3058,10 +3053,10 @@
     },
     "model-034:gumtree:lotus-elise-sc-type-25": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T16:02:22Z",
+      "lastSearchedAt": "2026-09-12T10:09:22Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No plausible current direct UK Elise SC/Type 25 advert was captured."
+      "limitation": "Gumtree search executed. No plausible current exact Elise SC/Type 25 advert was retained."
     },
     "model-034:lamborghini-talk:lotus-elise-sc-type-25": {
       "status": "blocked",
@@ -3072,19 +3067,17 @@
     },
     "model-034:pistonheads:lotus-elise-sc-type-25": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T16:02:22Z",
-      "lastResultCount": 1,
-      "candidateUrls": [
-        "https://www.pistonheads.com/buy/listing/20752919"
-      ],
-      "limitation": "One current 2010 manual Elise SC at £79,995/33,307 miles was retained. Seller describes a one-owner one-of-one factory Type 72 commission with 41 photos; visual gallery checks remain outstanding."
+      "lastSearchedAt": "2026-09-12T10:09:22Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "PistonHeads search executed. No current direct exact Elise SC/Type 25 advert was retained."
     },
     "model-034:specialist-dealers:lotus-elise-sc-type-25": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T16:02:22Z",
+      "lastSearchedAt": "2026-09-12T10:09:22Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No additional current specialist-dealer Elise SC/Type 25 direct advert was retained beyond the PistonHeads candidate."
+      "limitation": "Specialist-dealer search executed. No current direct exact Elise SC/Type 25 stock advert was retained."
     },
     "model-035:911uk:lotus-europa-s-se": {
       "status": "searched",
@@ -3095,12 +3088,10 @@
     },
     "model-035:autotrader:lotus-europa-s-se": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T16:02:22Z",
-      "lastResultCount": 1,
-      "candidateUrls": [
-        "https://www.autotrader.co.uk/car-details/202608225334402"
-      ],
-      "limitation": "One current 2007 Europa S manual at £14,900/68,100 miles was found. It is Cat S with a documented 2021 repair and is retained only for verification/editorial rejection rather than publication."
+      "lastSearchedAt": "2026-09-12T10:09:22Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Auto Trader search executed. Generic Europa inventory surfaced but no new direct current car-details URL was retained in this pass."
     },
     "model-035:bonhams-cars:lotus-europa-s-se": {
       "status": "searched",
@@ -3111,12 +3102,12 @@
     },
     "model-035:car-and-classic:lotus-europa-s-se": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T16:02:22Z",
+      "lastSearchedAt": "2026-09-12T10:09:22Z",
       "lastResultCount": 1,
       "candidateUrls": [
-        "https://www.carandclassic.com/car/C2175651"
+        "https://www.carandclassic.com/l/C2175651"
       ],
-      "limitation": "One current-looking 2006 Europa S manual at £14,600/73,400 miles was surfaced, but it is declared a total loss and remains only a low-priority verification/editorial-rejection lead."
+      "limitation": "Car & Classic search resurfaced the already tracked live 2006 Europa S at £14,600/73,400 miles. It is Cat N/high-mileage and remains verification/editorial-pending; no duplicate candidate added."
     },
     "model-035:classic-trader:lotus-europa-s-se": {
       "status": "searched",
@@ -3134,10 +3125,10 @@
     },
     "model-035:ebay:lotus-europa-s-se": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T16:02:22Z",
+      "lastSearchedAt": "2026-09-12T10:09:22Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Results were models/parts or unrelated material; no qualifying current vehicle advert was retained."
+      "limitation": "eBay UK search executed. Results were scale models/parts rather than a current complete Lotus Europa S/SE; no candidate retained."
     },
     "model-035:facebook-groups:lotus-europa-s-se": {
       "status": "searched",
@@ -3197,10 +3188,10 @@
     },
     "model-078:classic-trader:renault-clio-182-trophy": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T22:59:00Z",
+      "lastSearchedAt": "2026-09-12T10:09:22Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Executed Classic Trader search; no current UK Clio 182 Trophy advert satisfying the strict mileage/ownership caps was retained."
+      "limitation": "Classic Trader search executed. No current direct UK Clio 182 Trophy advert meeting the under-30,000-mile and maximum-two-owner rules was retained."
     },
     "model-085:classic-trader:subaru-impreza-rb320": {
       "status": "searched",
@@ -3225,10 +3216,10 @@
     },
     "model-035:gumtree:lotus-europa-s-se": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T16:12:34Z",
+      "lastSearchedAt": "2026-09-12T10:09:22Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No plausible current direct UK Europa S/SE vehicle advert was returned."
+      "limitation": "Gumtree search executed. No plausible current direct Lotus Europa S/SE complete-car advert was retained."
     },
     "model-035:lamborghini-talk:lotus-europa-s-se": {
       "status": "blocked",
@@ -3239,21 +3230,19 @@
     },
     "model-035:pistonheads:lotus-europa-s-se": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T16:12:34Z",
-      "lastResultCount": 1,
-      "candidateUrls": [
-        "https://www.pistonheads.com/buy/listing/20357821"
-      ],
-      "limitation": "Current 2006 Europa S at £18,950/91,268 miles surfaced. It is the same Allon White Sports Cars vehicle as the specialist-dealer advert retained below."
+      "lastSearchedAt": "2026-09-12T10:09:22Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "PistonHeads search surfaced a current Europa S category result, but no direct advert URL was exposed in the result set; generic category pages are excluded from the candidate queue."
     },
     "model-035:specialist-dealers:lotus-europa-s-se": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T16:12:34Z",
+      "lastSearchedAt": "2026-09-12T10:09:22Z",
       "lastResultCount": 1,
       "candidateUrls": [
         "https://www.allonwhite.co.uk/cars-for-sale/car/lotus-europa-s/"
       ],
-      "limitation": "Current Allon White dealer stock page verified textually at £18,950; 2006, 91,338 miles, six-speed manual. Gallery still requires visual checks."
+      "limitation": "Specialist search resurfaced Allon White's already tracked 2006 Europa S at £18,950 with current enquiry/test-drive controls and extensive history; high mileage and full photo/editorial verification remain outstanding."
     },
     "model-036:911uk:lotus-evora-launch-edition": {
       "status": "searched",
@@ -3264,10 +3253,10 @@
     },
     "model-036:autotrader:lotus-evora-launch-edition": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T16:12:34Z",
+      "lastSearchedAt": "2026-09-12T10:09:22Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No new direct current Auto Trader Launch Edition car-detail URL was captured; generic inventory pages were rejected."
+      "limitation": "Auto Trader search executed. No current direct exact Evora Launch Edition car-details URL was retained."
     },
     "model-036:bonhams-cars:lotus-evora-launch-edition": {
       "status": "searched",
@@ -3278,12 +3267,10 @@
     },
     "model-036:car-and-classic:lotus-evora-launch-edition": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T16:12:34Z",
-      "lastResultCount": 1,
-      "candidateUrls": [
-        "https://www.carandclassic.com/car/C2065776"
-      ],
-      "limitation": "A current-looking 2009 Launch Edition at £23,995/73,000 miles surfaced. Its advert history panel flags serious issues, so it is retained only for verification/editorial rejection."
+      "lastSearchedAt": "2026-09-12T10:09:22Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Car & Classic search surfaced a Launch Edition advert that is explicitly removed/sold; rejected before verification."
     },
     "model-036:classic-trader:lotus-evora-launch-edition": {
       "status": "searched",
@@ -3301,10 +3288,10 @@
     },
     "model-036:ebay:lotus-evora-launch-edition": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T16:12:34Z",
+      "lastSearchedAt": "2026-09-12T10:09:22Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Results were die-cast/model items or later automatic Evoras; no qualifying current Launch Edition advert retained."
+      "limitation": "eBay UK search executed. No current complete exact Evora Launch Edition advert was retained."
     },
     "model-036:facebook-groups:lotus-evora-launch-edition": {
       "status": "searched",
@@ -3322,10 +3309,10 @@
     },
     "model-036:gumtree:lotus-evora-launch-edition": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T16:12:34Z",
+      "lastSearchedAt": "2026-09-12T10:09:22Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No plausible current direct UK Launch Edition vehicle advert was returned."
+      "limitation": "Gumtree search executed. No plausible current direct exact Evora Launch Edition advert was retained."
     },
     "model-036:lamborghini-talk:lotus-evora-launch-edition": {
       "status": "blocked",
@@ -3336,17 +3323,17 @@
     },
     "model-036:pistonheads:lotus-evora-launch-edition": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T16:12:34Z",
+      "lastSearchedAt": "2026-09-12T10:09:22Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No new current Launch Edition classified was retained; surfaced auction/removed material was rejected."
+      "limitation": "PistonHeads search surfaced editorial/historical material rather than a current direct Launch Edition advert; no candidate retained."
     },
     "model-036:specialist-dealers:lotus-evora-launch-edition": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T16:12:34Z",
+      "lastSearchedAt": "2026-09-12T10:09:22Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No new current specialist-dealer 2009-2010 Launch Edition advert was retained from this query."
+      "limitation": "Specialist-dealer search executed. No current direct exact Evora Launch Edition stock advert was retained."
     },
     "model-037:911uk:vauxhall-vx220-2-2-turbo": {
       "status": "searched",
@@ -3357,20 +3344,10 @@
     },
     "model-037:autotrader:vauxhall-vx220-2-2-turbo": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T16:12:34Z",
-      "lastResultCount": 9,
-      "candidateUrls": [
-        "https://www.autotrader.co.uk/car-details/202407021366085",
-        "https://www.autotrader.co.uk/car-details/202606133270968",
-        "https://www.autotrader.co.uk/car-details/202605062159664",
-        "https://www.autotrader.co.uk/car-details/202609045736359",
-        "https://www.autotrader.co.uk/car-details/202605032094560",
-        "https://www.autotrader.co.uk/car-details/202605172470067",
-        "https://www.autotrader.co.uk/car-details/202509106217766",
-        "https://www.autotrader.co.uk/car-details/202608215320514",
-        "https://www.autotrader.co.uk/car-details/202608044778031"
-      ],
-      "limitation": "Current Auto Trader inventory showed 12 VX220s. Nine direct detail URLs at or above the £10,000 floor were retained; obvious dead/redirected or sub-£10k results were rejected."
+      "lastSearchedAt": "2026-09-12T10:09:22Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Auto Trader search executed. Generic VX220 inventory surfaced, but no new direct car-details URL was retained in this pass."
     },
     "model-037:bonhams-cars:vauxhall-vx220-2-2-turbo": {
       "status": "searched",
