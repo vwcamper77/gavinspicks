@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-12T03:58:37Z",
+  "updatedAt": "2026-09-12T05:04:02Z",
   "compactedFromQueueAt": "2026-09-10T06:41:54.207Z",
   "note": "Cumulative worker-write state. Job results are merged from immutable run deltas and folded back into data/search-queue.json by scripts/build-search-queue.mjs.",
   "jobs": {
@@ -546,12 +546,10 @@
     },
     "model-019:gumtree:tvr-tamora": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T08:42:28Z",
-      "lastResultCount": 1,
-      "candidateUrls": [
-        "https://www.gumtree.com/p/tvr/2004-tvr-tamora-convertible-/1497104161"
-      ],
-      "limitation": "Current private 2004 Tamora at £26,000/27,000 miles, posted about 12 hours ago in County Antrim, captured. Exact seller photographs and current manual/specification evidence remain verification-pending."
+      "lastSearchedAt": "2026-09-12T05:04:02Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Gumtree search executed. No plausible current direct Tamora advert surfaced."
     },
     "model-019:lamborghini-talk:tvr-tamora": {
       "status": "blocked",
@@ -562,12 +560,10 @@
     },
     "model-019:specialist-dealers:tvr-tamora": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T08:42:28Z",
-      "lastResultCount": 1,
-      "candidateUrls": [
-        "https://www.jagtechnic.co.uk/product-page/2005-tvr-tamora"
-      ],
-      "limitation": "Current JAGtechnic Cars For Sale page for a 2005 Tamora at £28,995/41,000 miles and advertised five-speed manual captured; exact gallery inspection remains pending."
+      "lastSearchedAt": "2026-09-12T05:04:02Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Specialist-dealer search executed. No distinct current direct Tamora seller advert URL surfaced."
     },
     "model-020:911uk:lotus-esprit-s4s": {
       "status": "searched",
@@ -578,10 +574,12 @@
     },
     "model-020:autotrader:lotus-esprit-s4s": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T08:42:28Z",
-      "lastResultCount": 0,
-      "candidateUrls": [],
-      "limitation": "Auto Trader showed a generic S4s category result but no direct current car-detail URL was captured; generic search pages were rejected."
+      "lastSearchedAt": "2026-09-12T05:04:02Z",
+      "lastResultCount": 1,
+      "candidateUrls": [
+        "https://www.autotrader.co.uk/car-details/202605032099522"
+      ],
+      "limitation": "Current direct Auto Trader advert verified at discovery stage: 1996 Lotus Esprit 2.2 S4s, £43,000, 62,000 miles, manual, private seller Bedford, 42-photo gallery, Cat D. Full visual gallery/manual/current-status verification remains required before publication."
     },
     "model-020:bonhams-cars:lotus-esprit-s4s": {
       "status": "searched",
@@ -792,17 +790,17 @@
     },
     "model-096:ferrarichat:bmw-e46-m3-manual-coupe-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T14:52:40Z",
+      "lastSearchedAt": "2026-09-12T05:04:02Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No accessible current UK E46 M3 manual Coupe sale advert under 50,000 miles surfaced on FerrariChat."
+      "limitation": "FerrariChat public search executed. No plausible current direct UK E46 M3 manual Coupe sale post within the 50,000-mile cap surfaced."
     },
     "model-096:ferrarichat:bmw-m3-e46-6-speed-manual-coupe-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T14:52:40Z",
+      "lastSearchedAt": "2026-09-12T05:04:02Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No accessible current UK E46 M3 six-speed manual Coupe sale advert under 50,000 miles surfaced on FerrariChat."
+      "limitation": "FerrariChat public search executed. No qualifying current direct E46 M3 six-speed manual Coupe sale post surfaced."
     },
     "model-096:gumtree:bmw-e46-m3-manual-coupe-uk": {
       "status": "searched",
@@ -820,17 +818,17 @@
     },
     "model-096:lamborghini-talk:bmw-e46-m3-manual-coupe-uk": {
       "status": "blocked",
-      "lastSearchedAt": "2026-09-11T14:52:40Z",
+      "lastSearchedAt": "2026-09-12T05:04:02Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "lamborghini-talk.com is blocked by robots.txt to the public search worker; no bypass attempted."
+      "limitation": "lamborghini-talk.com is blocked by robots.txt in public web access. No access-control bypass attempted."
     },
     "model-096:lamborghini-talk:bmw-m3-e46-6-speed-manual-coupe-uk": {
       "status": "blocked",
-      "lastSearchedAt": "2026-09-11T14:52:40Z",
+      "lastSearchedAt": "2026-09-12T05:04:02Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "lamborghini-talk.com is blocked by robots.txt to the public search worker; no bypass attempted."
+      "limitation": "lamborghini-talk.com is blocked by robots.txt in public web access. No access-control bypass attempted."
     },
     "model-096:pistonheads:bmw-e46-m3-manual-coupe-uk": {
       "status": "searched",
@@ -1191,11 +1189,11 @@
       "limitation": "Executed specialist-dealer search. No new direct current UK stock advert meeting the 1M criteria beyond the already tracked candidate was retained."
     },
     "model-078:facebook-groups:renault-clio-182-trophy": {
-      "status": "blocked",
-      "lastSearchedAt": "2026-09-11T14:52:40Z",
+      "status": "searched",
+      "lastSearchedAt": "2026-09-12T05:04:02Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public indexed Facebook-group search did not expose an accessible current advert; no private-group/login bypass attempted."
+      "limitation": "Public indexed Facebook-group search executed. No accessible direct current Clio 182 Trophy sale post satisfying the mileage/ownership rules surfaced; no access-control bypass attempted."
     },
     "model-078:ebay:renault-clio-182-trophy": {
       "status": "searched",
@@ -1816,31 +1814,31 @@
     },
     "model-097:pistonheads:bmw-e39-m5-manual-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T18:08:23Z",
+      "lastSearchedAt": "2026-09-12T05:04:02Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Low-mileage PistonHeads E39 M5 listing 16225032 (26,900 miles) now explicitly says the car is no longer available; other live direct examples surfaced above the 50,000-mile cap. No qualifying current advert retained."
+      "limitation": "PistonHeads search executed. Low-mileage listing 16225032 (26,900 miles) now explicitly says no longer available; auction/current-bid and >50,000-mile results were also rejected."
     },
     "model-097:pistonheads:bmw-m5-e39-6-speed-manual-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T18:08:23Z",
+      "lastSearchedAt": "2026-09-12T05:04:02Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Low-mileage PistonHeads E39 M5 listing 16225032 (26,900 miles) now explicitly says the car is no longer available; other live direct examples surfaced above the 50,000-mile cap. No qualifying current advert retained."
+      "limitation": "PistonHeads search executed. The plausible 26,900-mile manual advert is explicitly no longer available; auction and mileage-cap failures were rejected."
     },
     "model-097:specialist-dealers:bmw-e39-m5-manual-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T18:08:23Z",
+      "lastSearchedAt": "2026-09-12T05:04:02Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Specialist results were over the 50,000-mile cap or unavailable: William Thompson stock showed 126,100 miles and Munich Legends stock was marked Sold/POA. No qualifying current advert retained."
+      "limitation": "Specialist searches surfaced E39 M5 stock at about 100,600–126,100 miles, plus sold/POA material. None satisfies the 50,000-mile cap and live fixed-price rules."
     },
     "model-097:specialist-dealers:bmw-m5-e39-6-speed-manual-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T18:08:23Z",
+      "lastSearchedAt": "2026-09-12T05:04:02Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Specialist results were over the 50,000-mile cap or unavailable: William Thompson stock showed 126,100 miles and Munich Legends stock was marked Sold/POA. No qualifying current advert retained."
+      "limitation": "Specialist searches surfaced E39 M5 stock over the 50,000-mile cap and sold/POA material; no qualifying current direct advert retained."
     },
     "model-070:gumtree:ford-focus-rs500": {
       "status": "searched",
@@ -2203,24 +2201,24 @@
     },
     "model-085:car-and-classic:subaru-impreza-rb320": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T18:08:23Z",
+      "lastSearchedAt": "2026-09-12T05:04:02Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search surfaced only historical/completed RB320 material; the direct Car & Classic auction result was completed and at 51,200 miles, above the strict under-30,000-mile rule. No current qualifying advert retained."
+      "limitation": "Car & Classic search executed. No direct current RB320 advert satisfying the strict under-30,000-mile and maximum-two-owner criteria was retained."
     },
     "model-085:ebay:subaru-impreza-rb320": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T18:08:23Z",
+      "lastSearchedAt": "2026-09-12T05:04:02Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No current direct eBay RB320 advert surfaced that satisfied the strict under-30,000-mile and maximum-two-total-owners rules."
+      "limitation": "eBay UK search executed. No qualifying current direct RB320 vehicle advert was retained."
     },
     "model-085:pistonheads:subaru-impreza-rb320": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T18:08:23Z",
+      "lastSearchedAt": "2026-09-12T05:04:02Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No current direct PistonHeads RB320 advert surfaced that satisfied the strict under-30,000-mile and maximum-two-total-owners rules."
+      "limitation": "PistonHeads surfaced listing 20395030 (RB320 #174, 23,855 miles), but the current advert explicitly says the car is no longer available for purchase; rejected as stale/unavailable."
     },
     "model-076:bonhams-cars:ford-focus-st500": {
       "status": "searched",
@@ -2545,10 +2543,10 @@
     },
     "model-070:specialist-dealers:ford-focus-rs500": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T18:08:23Z",
+      "lastSearchedAt": "2026-09-12T05:04:02Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Specialist-dealer search produced no current direct Ford Focus RS500 stock advert that could be positively verified as available."
+      "limitation": "Specialist-dealer search executed. No direct current Focus RS500 vehicle advert surfaced; informational/historical material was rejected."
     },
     "model-082:bonhams-cars:subaru-impreza-p1": {
       "status": "searched",
@@ -2643,24 +2641,24 @@
     },
     "model-078:gumtree:renault-clio-182-trophy": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T18:08:23Z",
+      "lastSearchedAt": "2026-09-12T05:04:02Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No current direct Gumtree Clio 182 Trophy advert surfaced that satisfied the strict under-30,000-mile and maximum-two-total-owners rules."
+      "limitation": "Gumtree search executed. No plausible current direct UK Clio 182 Trophy advert satisfying the under-30,000-mile and maximum-two-owner rules surfaced."
     },
     "model-078:specialist-dealers:renault-clio-182-trophy": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T18:08:23Z",
+      "lastSearchedAt": "2026-09-12T05:04:02Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Specialist results failed the rules; Oakwood's Trophy was marked NOW SOLD and showed about 85,000 miles. No qualifying current advert retained."
+      "limitation": "Specialist search surfaced an Oakwood Clio Trophy page explicitly marked SOLD and at roughly 85,000 miles, so it failed both availability and mileage rules."
     },
     "model-085:gumtree:subaru-impreza-rb320": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T18:08:23Z",
+      "lastSearchedAt": "2026-09-12T05:04:02Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No current direct Gumtree RB320 advert surfaced that satisfied the strict under-30,000-mile and maximum-two-total-owners rules."
+      "limitation": "Gumtree search executed. No qualifying current direct RB320 vehicle advert was retained."
     },
     "model-031:911uk:lotus-elise-s1-111s": {
       "status": "searched",
@@ -2886,31 +2884,31 @@
     },
     "model-085:specialist-dealers:subaru-impreza-rb320": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T19:11:21Z",
+      "lastSearchedAt": "2026-09-12T05:04:02Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Specialist-dealer search executed. The strongest low-mileage result was Kintore Car Sales' 28,046-mile/two-keeper RB320, but the seller page explicitly marks it SOLD; other surfaced cars failed the mileage rule."
+      "limitation": "Specialist search executed. No current RB320 advert was found that could be positively verified as under 30,000 miles and maximum two total owners."
     },
     "model-088:autotrader:mitsubishi-evo-vi-tommi-makinen-edition": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T19:11:21Z",
+      "lastSearchedAt": "2026-09-12T05:04:02Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Auto Trader search executed. Current TME inventory appears on category results, but no direct car-details URL satisfying the under-30,000-mile and maximum-two-total-owner rules was retained."
+      "limitation": "Auto Trader indexed search returned category/inventory material but no direct current car-details URL that could be retained under the strict TME mileage/ownership rules."
     },
     "model-088:car-and-classic:mitsubishi-evo-vi-tommi-makinen-edition": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T19:11:21Z",
+      "lastSearchedAt": "2026-09-12T05:04:02Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Car & Classic search executed; surfaced TME pages were removed, sold/historical, or otherwise failed current eligibility. No qualifying live advert retained."
+      "limitation": "Car & Classic results were historical/removed auction material or otherwise outside the specification/mileage rules; no current qualifying direct advert retained."
     },
     "model-088:ebay:mitsubishi-evo-vi-tommi-makinen-edition": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T19:11:21Z",
+      "lastSearchedAt": "2026-09-12T05:04:02Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "eBay UK search executed. A current £99,995/18,460-mile TME advert states two previous owners, implying three total owners and failing the maximum-two-total-owner rule; a fresh £37,500 advert has 53,000 miles and fails the under-30,000-mile rule. Ended and higher-mileage adverts were also rejected."
+      "limitation": "Current eBay classified 298384025198 is a manual TME at £35,000 with one previous owner but 56,000 miles, failing the strict under-30,000-mile rule; no candidate retained."
     },
     "model-088:pistonheads:mitsubishi-evo-vi-tommi-makinen-edition": {
       "status": "searched",
@@ -10026,6 +10024,204 @@
       "lastResultCount": 0,
       "candidateUrls": [],
       "limitation": "Public indexed Car & Classic query executed; no new qualifying direct Tuscan advert surfaced in this pass."
+    },
+    "model-015:gumtree:tvr-tuscan-tuscan-s-mk2": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-12T05:04:02Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Gumtree search executed. No direct current complete TVR Tuscan vehicle advert surfaced."
+    },
+    "model-015:specialist-dealers:tvr-tuscan-tuscan-s-mk2": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-12T05:04:02Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Toro Sports Cars current-stock page indicates Tuscan Speed Six stock around £27,995–£29,995, but no direct per-car advert URL surfaced; generic stock pages are not promoted to candidates."
+    },
+    "model-016:autotrader:tvr-cerbera-4-2-4-5-ajp-v8": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-12T05:04:02Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Auto Trader search returned generic Cerbera inventory only; no direct current car-details URL retained."
+    },
+    "model-016:car-and-classic:tvr-cerbera-4-2-4-5-ajp-v8": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-12T05:04:02Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Car & Classic search executed. No qualifying direct current Cerbera 4.2/4.5 advert surfaced in this pass."
+    },
+    "model-016:ebay:tvr-cerbera-4-2-4-5-ajp-v8": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-12T05:04:02Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "eBay search surfaced brochures/parts rather than current complete Cerbera vehicles; no candidate retained."
+    },
+    "model-016:gumtree:tvr-cerbera-4-2-4-5-ajp-v8": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-12T05:04:02Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Gumtree search executed. No plausible current direct Cerbera vehicle advert surfaced."
+    },
+    "model-016:pistonheads:tvr-cerbera-4-2-4-5-ajp-v8": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-12T05:04:02Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Direct PistonHeads Cerbera results inspected: listings were deposit taken, under offer, SOLD/no longer available, or auction-only without a qualifying fixed asking price. None retained."
+    },
+    "model-016:specialist-dealers:tvr-cerbera-4-2-4-5-ajp-v8": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-12T05:04:02Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Specialist search surfaced sold Cerbera material and no qualifying current direct stock advert."
+    },
+    "model-017:autotrader:tvr-griffith-500-se": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-12T05:04:02Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Auto Trader search returned generic Griffith inventory only; no direct current car-details URL retained."
+    },
+    "model-017:car-and-classic:tvr-griffith-500-se": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-12T05:04:02Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Car & Classic search executed. No qualifying direct current Griffith 500/SE advert surfaced in this pass."
+    },
+    "model-017:ebay:tvr-griffith-500-se": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-12T05:04:02Z",
+      "lastResultCount": 1,
+      "candidateUrls": [
+        "https://www.ebay.co.uk/itm/198224050871"
+      ],
+      "limitation": "Current eBay classified surfaced for a 1996 TVR Griffith 500 at £18,900, manual, Caspar Henderson Ltd. Exact mileage/current-stock and gallery checks remain required before publication."
+    },
+    "model-017:gumtree:tvr-griffith-500-se": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-12T05:04:02Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Gumtree search executed. No plausible current direct Griffith 500 vehicle advert surfaced."
+    },
+    "model-017:pistonheads:tvr-griffith-500-se": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-12T05:04:02Z",
+      "lastResultCount": 1,
+      "candidateUrls": [
+        "https://www.pistonheads.com/buy/listing/21039214"
+      ],
+      "limitation": "Current direct PistonHeads advert surfaced for a 1998 Griffith 500 at £30,795, 32,600 miles, manual, Amore Autos. Other surfaced listings were explicitly unavailable; this candidate still needs gallery/originality verification."
+    },
+    "model-007:specialist-dealers:audi-r8-v10-manual": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-12T05:04:02Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Specialist-dealer search executed. No new qualifying direct current R8 V10 manual stock URL surfaced in this pass."
+    },
+    "model-008:specialist-dealers:honda-nsx-nsx-t-manual": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-12T05:04:02Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Specialist-dealer search executed. No new qualifying direct current NSX/NSX-T manual stock URL surfaced in this pass."
+    },
+    "model-009:specialist-dealers:noble-m12-gto-gto-3-gto-3r": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-12T05:04:02Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Specialist search did not surface a direct specialist-dealer Noble M12 advert. A private-sale PistonHeads result was not attributed to this source job and remains for its proper source sweep."
+    },
+    "model-017:specialist-dealers:tvr-griffith-500-se": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-12T05:04:02Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Specialist search executed. No additional direct current Griffith 500 specialist-stock URL beyond separately discovered marketplace adverts was retained."
+    },
+    "model-018:autotrader:tvr-chimaera-500": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-12T05:04:02Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Auto Trader search returned generic Chimaera inventory only; no direct current car-details URL retained."
+    },
+    "model-018:car-and-classic:tvr-chimaera-500": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-12T05:04:02Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Car & Classic results inspected were explicitly sold; no current candidate retained."
+    },
+    "model-018:ebay:tvr-chimaera-500": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-12T05:04:02Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "eBay search surfaced parts/accessories rather than complete current Chimaera 500 vehicle adverts."
+    },
+    "model-018:gumtree:tvr-chimaera-500": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-12T05:04:02Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Gumtree search executed. No plausible current direct Chimaera 500 advert surfaced."
+    },
+    "model-018:pistonheads:tvr-chimaera-500": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-12T05:04:02Z",
+      "lastResultCount": 2,
+      "candidateUrls": [
+        "https://www.pistonheads.com/buy/listing/20975829",
+        "https://www.pistonheads.com/buy/listing/20788046"
+      ],
+      "limitation": "Two current direct Chimaera 500 adverts retained: 1998 private-sale £22,000/43,800 miles and 1998 Amore Autos £23,495/51,802 miles. Deposit-taken/stale and specification-inconsistent results were rejected."
+    },
+    "model-018:specialist-dealers:tvr-chimaera-500": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-12T05:04:02Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Specialist search surfaced sold material and no distinct qualifying current direct Chimaera 500 specialist advert."
+    },
+    "model-019:autotrader:tvr-tamora": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-12T05:04:02Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Auto Trader category indicated one Tamora but did not expose a stable direct car-details URL in this pass; generic category pages are not candidates."
+    },
+    "model-019:car-and-classic:tvr-tamora": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-12T05:04:02Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Car & Classic search executed. No qualifying direct current Tamora advert surfaced."
+    },
+    "model-019:ebay:tvr-tamora": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-12T05:04:02Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "eBay search surfaced parts/accessories rather than a current complete Tamora vehicle advert."
+    },
+    "model-019:pistonheads:tvr-tamora": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-12T05:04:02Z",
+      "lastResultCount": 1,
+      "candidateUrls": [
+        "https://www.pistonheads.com/buy/listing/20794840"
+      ],
+      "limitation": "PistonHeads current category exposes a direct 2004 Tamora advert URL, roughly £34,995/28,000 miles/manual. Detail/gallery fetch was unavailable in this pass, so retained for verification only."
     }
   }
 }
