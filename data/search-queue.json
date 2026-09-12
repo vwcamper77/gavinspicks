@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-12T00:26:53.201Z",
+  "generatedAt": "2026-09-12T01:25:54.654Z",
   "modelCount": 96,
   "sourceCount": 13,
   "jobCount": 1482,
@@ -1173,10 +1173,10 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T01:09:53Z",
+      "lastSearchedAt": "2026-09-12T01:20:07Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Direct manual R8 results opened were ended/no longer available; stale indexed adverts were rejected."
+      "limitation": "Executed eBay UK search. Direct manual R8 classifieds checked were ended by sellers as no longer available; no current candidate retained."
     },
     {
       "id": "model-006:autotrader:audi-r8-v8-manual",
@@ -1190,10 +1190,10 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T01:09:53Z",
+      "lastSearchedAt": "2026-09-12T01:20:07Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Only category inventory was returned; no direct current car-detail URL suitable for verification was captured."
+      "limitation": "Executed Auto Trader indexed search. No new direct current Audi R8 V8 manual car-details URL was retained."
     },
     {
       "id": "model-006:pistonheads:audi-r8-v8-manual",
@@ -1207,10 +1207,10 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T01:09:53Z",
+      "lastSearchedAt": "2026-09-12T01:20:07Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Direct R8 V8 manual adverts checked were explicitly no longer available, including listings 18413795, 20240785, 19983915 and 20823792."
+      "limitation": "Executed PistonHeads search. Several manual R8 listings were explicitly unavailable. Listing 18884108 appeared live on PistonHeads, but the originating Hamilton Grays Audi stock page marks the exact Phantom Black 58,642-mile manual car SOLD, so it was rejected as stale/recycled and not queued."
     },
     {
       "id": "model-006:car-and-classic:audi-r8-v8-manual",
@@ -1224,10 +1224,10 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T01:09:53Z",
+      "lastSearchedAt": "2026-09-12T01:20:07Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Direct examples checked were SOLD or deposit taken, so none qualified for the verification queue."
+      "limitation": "Executed Car & Classic search. Surfaced manual R8 adverts were removed or materially stale retained pages; no current candidate retained."
     },
     {
       "id": "model-006:collecting-cars:audi-r8-v8-manual",
@@ -1292,10 +1292,10 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-10T01:09:53Z",
+      "lastSearchedAt": "2026-09-12T01:20:07Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "A £35,995/59,000-mile manual result looked fresh in search, but the exact Gumtree URL returned HTTP 410 Gone when opened, so it was rejected as unavailable."
+      "limitation": "Executed Gumtree search. No new current direct UK Audi R8 V8 manual advert retained."
     },
     {
       "id": "model-006:911uk:audi-r8-v8-manual",
@@ -12613,10 +12613,13 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T17:14:57Z",
-      "lastResultCount": 0,
-      "candidateUrls": [],
-      "limitation": "Executed eBay UK indexed search. Surfaced results were ended/non-M Z4s or otherwise not a current direct Z4 M Coupe advert; no candidate retained."
+      "lastSearchedAt": "2026-09-12T01:20:07Z",
+      "lastResultCount": 2,
+      "candidateUrls": [
+        "https://www.ebay.co.uk/itm/800309038343",
+        "https://www.ebay.co.uk/itm/157708719903"
+      ],
+      "limitation": "eBay search resurfaced two already tracked Z4 M Coupe classifieds. A separate SOLD/ended result was rejected; no new candidate added."
     },
     {
       "id": "model-056:autotrader:bmw-z4-m-coupe",
@@ -12630,10 +12633,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T17:14:57Z",
+      "lastSearchedAt": "2026-09-12T01:20:07Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Executed Auto Trader indexed search. Current Z4 M Coupe inventory is visible only through generic/category results in this query; no direct car-details URL was retained."
+      "limitation": "Executed Auto Trader indexed search. Only generic/category inventory surfaced; no new direct current Z4 M Coupe car-details URL retained."
     },
     {
       "id": "model-056:pistonheads:bmw-z4-m-coupe",
@@ -12647,13 +12650,13 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T17:14:57Z",
+      "lastSearchedAt": "2026-09-12T01:20:07Z",
       "lastResultCount": 2,
       "candidateUrls": [
         "https://www.pistonheads.com/buy/listing/20766605",
         "https://www.pistonheads.com/buy/listing/20952644"
       ],
-      "limitation": "Current PistonHeads inventory still surfaces the £29,995/49,155-mile and £17,500/96,615-mile manual Z4 M Coupes. Both URLs are already in the verification queue; no duplicate candidate added."
+      "limitation": "PistonHeads search resurfaced two already tracked Z4 M Coupe classifieds; no new direct candidate added."
     },
     {
       "id": "model-056:car-and-classic:bmw-z4-m-coupe",
@@ -12667,10 +12670,12 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T17:14:57Z",
-      "lastResultCount": 0,
-      "candidateUrls": [],
-      "limitation": "Executed Car & Classic search. No additional direct current Z4 M Coupe advert URL beyond candidates already tracked was retained from this pass."
+      "lastSearchedAt": "2026-09-12T01:20:07Z",
+      "lastResultCount": 1,
+      "candidateUrls": [
+        "https://www.carandclassic.com/car/C1248397"
+      ],
+      "limitation": "Car & Classic search resurfaced an already tracked Z4 M Coupe advert. No additional credible direct current Z4 M Coupe candidate was retained."
     },
     {
       "id": "model-056:collecting-cars:bmw-z4-m-coupe",
@@ -12735,10 +12740,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T17:14:57Z",
+      "lastSearchedAt": "2026-09-12T01:20:07Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Executed Gumtree search. No current direct UK Z4 M Coupe advert was retained."
+      "limitation": "Executed Gumtree search. No new current direct UK Z4 M Coupe advert retained."
     },
     {
       "id": "model-056:911uk:bmw-z4-m-coupe",
@@ -12803,12 +12808,12 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T17:14:57Z",
+      "lastSearchedAt": "2026-09-12T01:20:07Z",
       "lastResultCount": 1,
       "candidateUrls": [
         "https://rsvautomotive.co.uk/cars/bmw-z4-m-z4-m-coupe/"
       ],
-      "limitation": "RSV Automotive still presents its £25,995/52,000-mile manual Z4 M Coupe in current stock with enquiry/viewing controls. Already queued; exact seller-gallery visual verification remains outstanding."
+      "limitation": "RSV Automotive current-stock search resurfaced the already queued £25,995/52,000-mile manual Z4 M Coupe; no duplicate candidate added."
     },
     {
       "id": "model-057:facebook-groups:bmw-z4-m-roadster",
@@ -20180,10 +20185,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T17:01:54Z",
+      "lastSearchedAt": "2026-09-12T01:20:07Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "The indexed £36,995 P1 advert is ended and shows 71,000 miles; another live-auction P1 showed 40,180 miles. Both fail the strict mileage/current-sale rules."
+      "limitation": "Executed eBay UK search. Direct P1 adverts surfaced were ended/unavailable and well above the strict sub-30,000-mile cap; no qualifying current candidate retained."
     },
     {
       "id": "model-082:autotrader:subaru-impreza-p1",
@@ -20214,10 +20219,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T17:01:54Z",
+      "lastSearchedAt": "2026-09-12T01:20:07Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Current PistonHeads P1 adverts surfaced at 41k-99k miles or were explicitly no longer available/auction pages; none meet the strict under-30,000-mile rule."
+      "limitation": "Executed PistonHeads search. Surfaced P1 classifieds were 41k-99k miles and/or over the owner cap, and one mislabelled WRX was unavailable; no qualifying candidate retained."
     },
     {
       "id": "model-082:car-and-classic:subaru-impreza-p1",
@@ -20299,10 +20304,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T17:01:54Z",
+      "lastSearchedAt": "2026-09-12T01:20:07Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No current direct Gumtree P1 advert meeting under 30,000 miles and maximum two total owners surfaced."
+      "limitation": "Executed Gumtree search. No current direct UK Subaru Impreza P1 advert meeting the strict sub-30,000-mile and maximum-two-owner rules was retained."
     },
     {
       "id": "model-082:911uk:subaru-impreza-p1",
@@ -20367,10 +20372,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T17:01:54Z",
+      "lastSearchedAt": "2026-09-12T01:20:07Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No current specialist-dealer P1 advert meeting the strict under-30,000-mile and maximum-two-total-owner rules was retained."
+      "limitation": "Executed specialist-dealer search. Surfaced P1 stock/leads failed the strict sub-30,000-mile and maximum-two-owner criteria or were not current direct adverts; no candidate retained."
     },
     {
       "id": "model-083:facebook-groups:subaru-impreza-rb5",
@@ -20860,10 +20865,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T17:01:54Z",
+      "lastSearchedAt": "2026-09-12T01:20:07Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No direct current Auto Trader RB320 car-detail URL meeting under 30,000 miles and maximum two total owners surfaced."
+      "limitation": "Executed Auto Trader indexed search. No direct current RB320 car-details URL meeting the strict sub-30,000-mile and maximum-two-owner rules was retained."
     },
     {
       "id": "model-085:pistonheads:subaru-impreza-rb320",
@@ -24142,11 +24147,11 @@
       "query": "site:facebook.com/groups Alfa Romeo 156 GTA saloon manual under 50000 miles low owners UK for sale",
       "priority": false,
       "cadenceHours": 24,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "blocked",
+      "lastSearchedAt": "2026-09-12T01:20:07Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "Public indexed Facebook-group search did not expose an accessible current sale post; no private-group login or access-control bypass attempted."
     },
     {
       "id": "model-094:ebay:alfa-romeo-156-gta-saloon-manual-under-50000-miles-low-owners",
@@ -24159,11 +24164,11 @@
       "query": "site:ebay.co.uk/itm Alfa Romeo 156 GTA saloon manual under 50000 miles low owners UK for sale",
       "priority": false,
       "cadenceHours": 6,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "searched",
+      "lastSearchedAt": "2026-09-12T01:20:07Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "Executed eBay UK search. Surfaced GTA saloon material was ended and/or exceeded the low-owner rule; no qualifying current candidate retained."
     },
     {
       "id": "model-094:autotrader:alfa-romeo-156-gta-saloon-manual-under-50000-miles-low-owners",
@@ -24176,11 +24181,11 @@
       "query": "site:autotrader.co.uk/car-details Alfa Romeo 156 GTA saloon manual under 50000 miles low owners UK for sale",
       "priority": false,
       "cadenceHours": 6,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "searched",
+      "lastSearchedAt": "2026-09-12T01:20:07Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "Executed Auto Trader indexed search. Only generic Alfa 156/GTA inventory surfaced; no qualifying direct saloon car-details URL under 50,000 miles with low ownership retained."
     },
     {
       "id": "model-094:pistonheads:alfa-romeo-156-gta-saloon-manual-under-50000-miles-low-owners",
@@ -24193,11 +24198,11 @@
       "query": "site:pistonheads.com/buy Alfa Romeo 156 GTA saloon manual under 50000 miles low owners UK for sale",
       "priority": false,
       "cadenceHours": 6,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "searched",
+      "lastSearchedAt": "2026-09-12T01:20:07Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "Executed PistonHeads search. No current direct 156 GTA saloon advert meeting the under-50,000-mile and low-owner criteria was retained."
     },
     {
       "id": "model-094:car-and-classic:alfa-romeo-156-gta-saloon-manual-under-50000-miles-low-owners",
@@ -24210,11 +24215,11 @@
       "query": "site:carandclassic.com Alfa Romeo 156 GTA saloon manual under 50000 miles low owners UK for sale",
       "priority": false,
       "cadenceHours": 6,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "searched",
+      "lastSearchedAt": "2026-09-12T01:20:07Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "Executed Car & Classic search. Surfaced GTA saloons were over 50,000 miles or removed/unavailable; no qualifying candidate retained."
     },
     {
       "id": "model-094:collecting-cars:alfa-romeo-156-gta-saloon-manual-under-50000-miles-low-owners",
@@ -24227,11 +24232,11 @@
       "query": "site:collectingcars.com Alfa Romeo 156 GTA saloon manual under 50000 miles low owners UK for sale",
       "priority": false,
       "cadenceHours": 12,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "searched",
+      "lastSearchedAt": "2026-09-12T01:20:07Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "Executed Collecting Cars search. No current fixed-price qualifying UK 156 GTA saloon advert retained; completed/historical auction material was excluded."
     },
     {
       "id": "model-094:bonhams-cars:alfa-romeo-156-gta-saloon-manual-under-50000-miles-low-owners",
@@ -24244,11 +24249,11 @@
       "query": "site:cars.bonhams.com Alfa Romeo 156 GTA saloon manual under 50000 miles low owners UK for sale",
       "priority": false,
       "cadenceHours": 12,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "searched",
+      "lastSearchedAt": "2026-09-12T01:20:07Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "Executed Bonhams Cars search. No current fixed-price qualifying 156 GTA saloon advert under 50,000 miles with low ownership retained."
     },
     {
       "id": "model-094:classic-trader:alfa-romeo-156-gta-saloon-manual-under-50000-miles-low-owners",
@@ -24261,11 +24266,11 @@
       "query": "site:classic-trader.com Alfa Romeo 156 GTA saloon manual under 50000 miles low owners UK for sale",
       "priority": false,
       "cadenceHours": 12,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "searched",
+      "lastSearchedAt": "2026-09-12T01:20:07Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "Executed Classic Trader search. No current qualifying UK 156 GTA saloon advert under 50,000 miles with low ownership retained."
     },
     {
       "id": "model-094:gumtree:alfa-romeo-156-gta-saloon-manual-under-50000-miles-low-owners",
@@ -24278,11 +24283,11 @@
       "query": "site:gumtree.com Alfa Romeo 156 GTA saloon manual under 50000 miles low owners UK for sale",
       "priority": false,
       "cadenceHours": 6,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "searched",
+      "lastSearchedAt": "2026-09-12T01:20:07Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "Executed Gumtree search. Surfaced direct 156 result was not a GTA and exceeded the target mileage; no candidate retained."
     },
     {
       "id": "model-094:911uk:alfa-romeo-156-gta-saloon-manual-under-50000-miles-low-owners",
@@ -24312,11 +24317,11 @@
       "query": "site:ferrarichat.com Alfa Romeo 156 GTA saloon manual under 50000 miles low owners UK for sale",
       "priority": false,
       "cadenceHours": 24,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "searched",
+      "lastSearchedAt": "2026-09-12T01:20:07Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "Executed FerrariChat indexed search. No accessible current UK 156 GTA saloon sale advert meeting the mileage/ownership rules surfaced."
     },
     {
       "id": "model-094:lamborghini-talk:alfa-romeo-156-gta-saloon-manual-under-50000-miles-low-owners",
@@ -24329,11 +24334,11 @@
       "query": "site:lamborghini-talk.com Alfa Romeo 156 GTA saloon manual under 50000 miles low owners UK for sale",
       "priority": false,
       "cadenceHours": 24,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "blocked",
+      "lastSearchedAt": "2026-09-12T01:20:07Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "lamborghini-talk.com is blocked to the public search worker by robots/access controls; no bypass attempted."
     },
     {
       "id": "model-094:specialist-dealers:alfa-romeo-156-gta-saloon-manual-under-50000-miles-low-owners",
@@ -24346,11 +24351,11 @@
       "query": "Alfa Romeo 156 GTA saloon manual under 50000 miles low owners UK for sale specialist dealer current stock",
       "priority": false,
       "cadenceHours": 6,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "searched",
+      "lastSearchedAt": "2026-09-12T01:20:07Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "Executed specialist search. Surfaced Alfa specialist pages were old/stale and/or over the mileage cap; no current qualifying candidate retained."
     },
     {
       "id": "model-095:facebook-groups:alfa-romeo-156-gta-sportwagon-manual-under-50000-miles-low-owners",
@@ -24363,11 +24368,11 @@
       "query": "site:facebook.com/groups Alfa Romeo 156 GTA Sportwagon manual under 50000 miles low owners UK for sale",
       "priority": false,
       "cadenceHours": 24,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "blocked",
+      "lastSearchedAt": "2026-09-12T01:20:07Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "Public indexed Facebook-group search did not expose an accessible current sale post; no private-group login or access-control bypass attempted."
     },
     {
       "id": "model-095:ebay:alfa-romeo-156-gta-sportwagon-manual-under-50000-miles-low-owners",
@@ -24380,11 +24385,11 @@
       "query": "site:ebay.co.uk/itm Alfa Romeo 156 GTA Sportwagon manual under 50000 miles low owners UK for sale",
       "priority": false,
       "cadenceHours": 6,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "searched",
+      "lastSearchedAt": "2026-09-12T01:20:07Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "Executed eBay UK search. A GTA Sportwagon result was ended and had three previous owners; it fails current availability and low-owner rules."
     },
     {
       "id": "model-095:autotrader:alfa-romeo-156-gta-sportwagon-manual-under-50000-miles-low-owners",
@@ -24397,11 +24402,11 @@
       "query": "site:autotrader.co.uk/car-details Alfa Romeo 156 GTA Sportwagon manual under 50000 miles low owners UK for sale",
       "priority": false,
       "cadenceHours": 6,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "searched",
+      "lastSearchedAt": "2026-09-12T01:20:07Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "Executed Auto Trader indexed search. No direct current 156 GTA Sportwagon car-details URL under 50,000 miles with low ownership retained."
     },
     {
       "id": "model-095:pistonheads:alfa-romeo-156-gta-sportwagon-manual-under-50000-miles-low-owners",
@@ -24414,11 +24419,11 @@
       "query": "site:pistonheads.com/buy Alfa Romeo 156 GTA Sportwagon manual under 50000 miles low owners UK for sale",
       "priority": false,
       "cadenceHours": 6,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "searched",
+      "lastSearchedAt": "2026-09-12T01:20:07Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "Executed PistonHeads search. No current direct GTA Sportwagon advert meeting the under-50,000-mile and low-owner criteria was retained."
     },
     {
       "id": "model-095:car-and-classic:alfa-romeo-156-gta-sportwagon-manual-under-50000-miles-low-owners",
@@ -24431,11 +24436,11 @@
       "query": "site:carandclassic.com Alfa Romeo 156 GTA Sportwagon manual under 50000 miles low owners UK for sale",
       "priority": false,
       "cadenceHours": 6,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "searched",
+      "lastSearchedAt": "2026-09-12T01:20:07Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "Executed Car & Classic search. Sportwagon results were completed auctions or around 147,000 miles; no qualifying current candidate retained."
     },
     {
       "id": "model-095:collecting-cars:alfa-romeo-156-gta-sportwagon-manual-under-50000-miles-low-owners",
@@ -24448,11 +24453,11 @@
       "query": "site:collectingcars.com Alfa Romeo 156 GTA Sportwagon manual under 50000 miles low owners UK for sale",
       "priority": false,
       "cadenceHours": 12,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "searched",
+      "lastSearchedAt": "2026-09-12T01:20:07Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "Executed Collecting Cars search. No current fixed-price qualifying 156 GTA Sportwagon advert retained; historical/completed sale material excluded."
     },
     {
       "id": "model-095:bonhams-cars:alfa-romeo-156-gta-sportwagon-manual-under-50000-miles-low-owners",
@@ -24465,11 +24470,11 @@
       "query": "site:cars.bonhams.com Alfa Romeo 156 GTA Sportwagon manual under 50000 miles low owners UK for sale",
       "priority": false,
       "cadenceHours": 12,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "searched",
+      "lastSearchedAt": "2026-09-12T01:20:07Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "Executed Bonhams Cars search. No current fixed-price qualifying 156 GTA Sportwagon advert retained."
     },
     {
       "id": "model-095:classic-trader:alfa-romeo-156-gta-sportwagon-manual-under-50000-miles-low-owners",
@@ -24482,11 +24487,11 @@
       "query": "site:classic-trader.com Alfa Romeo 156 GTA Sportwagon manual under 50000 miles low owners UK for sale",
       "priority": false,
       "cadenceHours": 12,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "searched",
+      "lastSearchedAt": "2026-09-12T01:20:07Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "Executed Classic Trader search. No current qualifying UK 156 GTA Sportwagon advert under 50,000 miles with low ownership retained."
     },
     {
       "id": "model-095:gumtree:alfa-romeo-156-gta-sportwagon-manual-under-50000-miles-low-owners",
@@ -24499,11 +24504,11 @@
       "query": "site:gumtree.com Alfa Romeo 156 GTA Sportwagon manual under 50000 miles low owners UK for sale",
       "priority": false,
       "cadenceHours": 6,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "searched",
+      "lastSearchedAt": "2026-09-12T01:20:07Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "Executed Gumtree search. No current direct qualifying 156 GTA Sportwagon advert retained."
     },
     {
       "id": "model-095:911uk:alfa-romeo-156-gta-sportwagon-manual-under-50000-miles-low-owners",
@@ -24516,11 +24521,11 @@
       "query": "site:911uk.com Alfa Romeo 156 GTA Sportwagon manual under 50000 miles low owners UK for sale",
       "priority": false,
       "cadenceHours": 24,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "searched",
+      "lastSearchedAt": "2026-09-12T01:20:07Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "Executed 911UK indexed search. No current direct Alfa 156 GTA Sportwagon sale advert meeting the strict mileage/ownership rules surfaced."
     },
     {
       "id": "model-095:ferrarichat:alfa-romeo-156-gta-sportwagon-manual-under-50000-miles-low-owners",
@@ -24533,11 +24538,11 @@
       "query": "site:ferrarichat.com Alfa Romeo 156 GTA Sportwagon manual under 50000 miles low owners UK for sale",
       "priority": false,
       "cadenceHours": 24,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "searched",
+      "lastSearchedAt": "2026-09-12T01:20:07Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "Executed FerrariChat indexed search. No accessible current UK 156 GTA Sportwagon sale advert meeting the target rules surfaced."
     },
     {
       "id": "model-095:lamborghini-talk:alfa-romeo-156-gta-sportwagon-manual-under-50000-miles-low-owners",
@@ -24550,11 +24555,11 @@
       "query": "site:lamborghini-talk.com Alfa Romeo 156 GTA Sportwagon manual under 50000 miles low owners UK for sale",
       "priority": false,
       "cadenceHours": 24,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "blocked",
+      "lastSearchedAt": "2026-09-12T01:20:07Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "lamborghini-talk.com is blocked to the public search worker by robots/access controls; no bypass attempted."
     },
     {
       "id": "model-095:specialist-dealers:alfa-romeo-156-gta-sportwagon-manual-under-50000-miles-low-owners",
@@ -24567,11 +24572,11 @@
       "query": "Alfa Romeo 156 GTA Sportwagon manual under 50000 miles low owners UK for sale specialist dealer current stock",
       "priority": false,
       "cadenceHours": 6,
-      "status": "pending",
-      "lastSearchedAt": null,
-      "lastResultCount": null,
+      "status": "searched",
+      "lastSearchedAt": "2026-09-12T01:20:07Z",
+      "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "Executed specialist search. No current qualifying UK 156 GTA Sportwagon stock under 50,000 miles with low ownership was retained."
     },
     {
       "id": "model-096:facebook-groups:bmw-e46-m3-manual-coupe-uk",
@@ -25013,12 +25018,12 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T17:01:54Z",
+      "lastSearchedAt": "2026-09-12T01:20:07Z",
       "lastResultCount": 1,
       "candidateUrls": [
         "https://www.hexagonclassics.com/car/bmw-m3-coupe--e46---manual--2003"
       ],
-      "limitation": "Hexagon's direct current-stock page remains live at £99,995 for a 2003 E46 M3 Coupe, 3,100 miles, one owner and factory 6-speed manual; page says available to view now. This vehicle is already in the verification queue. Seller-photo visual verification was not completed in this run, so it remains unpublished."
+      "limitation": "Hexagon Classics currently lists the 2003 E46 M3 manual Coupe at £99,995, 3,100 miles, one owner and 6-speed manual in current BMW stock. URL is already queued; seller photographs still require visual overlay/manual-control verification before publication."
     },
     {
       "id": "model-097:facebook-groups:bmw-e39-m5-manual-uk",
@@ -25049,10 +25054,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T17:01:54Z",
+      "lastSearchedAt": "2026-09-12T01:20:07Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Indexed eBay results did not produce a current E39 M5 manual advert within the 50,000-mile cap; irrelevant E39 automatics were rejected."
+      "limitation": "Executed eBay UK search. Surfaced results were unrelated/ended or did not provide a current qualifying E39 M5 manual under 50,000 miles; no candidate retained."
     },
     {
       "id": "model-097:autotrader:bmw-e39-m5-manual-uk",
@@ -25066,10 +25071,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T17:01:54Z",
+      "lastSearchedAt": "2026-09-12T01:20:07Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No direct current Auto Trader E39 M5 car-detail URL meeting the 50,000-mile cap surfaced; generic/search inventory was not retained."
+      "limitation": "Executed Auto Trader indexed search. No direct current E39 M5 manual car-details URL at or below 50,000 miles was retained."
     },
     {
       "id": "model-097:pistonheads:bmw-e39-m5-manual-uk",
@@ -25100,10 +25105,12 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T17:01:54Z",
-      "lastResultCount": 0,
-      "candidateUrls": [],
-      "limitation": "Current direct E39 M5 adverts surfaced at 95,000, 123,000 and 138,000 miles, all above the model's 50,000-mile cap; none retained."
+      "lastSearchedAt": "2026-09-12T01:20:07Z",
+      "lastResultCount": 1,
+      "candidateUrls": [
+        "https://www.carandclassic.com/au/car/C2060885"
+      ],
+      "limitation": "Car & Classic still surfaces the 2003 E39 M5 manual at £50,000 and 46,637 miles as For Sale. This URL is already in the verification queue; no duplicate candidate added."
     },
     {
       "id": "model-097:collecting-cars:bmw-e39-m5-manual-uk",
@@ -25168,10 +25175,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T17:01:54Z",
+      "lastSearchedAt": "2026-09-12T01:20:07Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No current direct Gumtree E39 M5 manual advert meeting the 50,000-mile cap surfaced."
+      "limitation": "Executed Gumtree search. No current direct UK E39 M5 manual advert at or below 50,000 miles was retained."
     },
     {
       "id": "model-097:911uk:bmw-e39-m5-manual-uk",
@@ -25270,10 +25277,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T17:01:54Z",
+      "lastSearchedAt": "2026-09-12T01:20:07Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Indexed eBay results did not produce a current E39 M5 manual advert within the 50,000-mile cap; irrelevant E39 automatics were rejected."
+      "limitation": "Executed eBay UK search. Surfaced results were unrelated/ended or did not provide a current qualifying E39 M5 manual under 50,000 miles; no candidate retained."
     },
     {
       "id": "model-097:autotrader:bmw-m5-e39-6-speed-manual-uk",
@@ -25287,10 +25294,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T17:01:54Z",
+      "lastSearchedAt": "2026-09-12T01:20:07Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No direct current Auto Trader E39 M5 car-detail URL meeting the 50,000-mile cap surfaced; generic/search inventory was not retained."
+      "limitation": "Executed Auto Trader indexed search. No direct current E39 M5 manual car-details URL at or below 50,000 miles was retained."
     },
     {
       "id": "model-097:pistonheads:bmw-m5-e39-6-speed-manual-uk",
@@ -25321,10 +25328,12 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T17:01:54Z",
-      "lastResultCount": 0,
-      "candidateUrls": [],
-      "limitation": "Current direct E39 M5 adverts surfaced at 95,000, 123,000 and 138,000 miles, all above the model's 50,000-mile cap; none retained."
+      "lastSearchedAt": "2026-09-12T01:20:07Z",
+      "lastResultCount": 1,
+      "candidateUrls": [
+        "https://www.carandclassic.com/au/car/C2060885"
+      ],
+      "limitation": "Car & Classic still surfaces the 2003 E39 M5 manual at £50,000 and 46,637 miles as For Sale. This URL is already in the verification queue; no duplicate candidate added."
     },
     {
       "id": "model-097:collecting-cars:bmw-m5-e39-6-speed-manual-uk",
@@ -25389,10 +25398,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T17:01:54Z",
+      "lastSearchedAt": "2026-09-12T01:20:07Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No current direct Gumtree E39 M5 manual advert meeting the 50,000-mile cap surfaced."
+      "limitation": "Executed Gumtree search. No current direct UK E39 M5 manual advert at or below 50,000 miles was retained."
     },
     {
       "id": "model-097:911uk:bmw-m5-e39-6-speed-manual-uk",
