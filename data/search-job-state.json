@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-12T02:17:51Z",
+  "updatedAt": "2026-09-12T03:58:37Z",
   "compactedFromQueueAt": "2026-09-10T06:41:54.207Z",
   "note": "Cumulative worker-write state. Job results are merged from immutable run deltas and folded back into data/search-queue.json by scripts/build-search-queue.mjs.",
   "jobs": {
@@ -71,24 +71,24 @@
     },
     "model-070:pistonheads:ford-focus-rs-mk1": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T17:14:57Z",
+      "lastSearchedAt": "2026-09-12T03:58:37Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Executed PistonHeads search. No new direct Mk1 RS advert URL was retained in this pass; previously queued Mk1 candidates remain separately tracked."
+      "limitation": "Search returned a current Mk1 category result but no new direct advert URL in this pass; generic category pages are excluded."
     },
     "model-070:car-and-classic:ford-focus-rs-mk1": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T17:14:57Z",
+      "lastSearchedAt": "2026-09-12T03:58:37Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Executed Car & Classic search. No new direct Mk1 RS advert URL beyond existing queued vehicles was retained in this pass."
+      "limitation": "Public indexed query executed; no new qualifying direct advert surfaced in this pass."
     },
     "model-070:gumtree:ford-focus-rs-mk1": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T17:14:57Z",
+      "lastSearchedAt": "2026-09-12T03:58:37Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Executed Gumtree search. No current direct Mk1 Focus RS advert was retained."
+      "limitation": "Public indexed Gumtree query executed; no plausible current direct vehicle advert surfaced."
     },
     "model-070:specialist-dealers:ford-focus-rs-mk1": {
       "status": "searched",
@@ -102,42 +102,42 @@
     },
     "model-070:ebay:ford-focus-rs-mk2": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T17:14:57Z",
-      "lastResultCount": 1,
-      "candidateUrls": [
-        "https://www.ebay.co.uk/itm/226615603512"
-      ],
-      "limitation": "The known £31,995/23,500-mile 2010 manual Focus RS page remains indexed, but its listing metadata is old enough to create stale-advert risk. It remains verification-pending and is not treated as current stock without seller-side confirmation."
+      "lastSearchedAt": "2026-09-12T03:58:37Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Search surfaced ended vehicle adverts plus parts/accessories; all rejected before verification."
     },
     "model-070:autotrader:ford-focus-rs-mk2": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T17:14:57Z",
+      "lastSearchedAt": "2026-09-12T03:58:37Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Executed Auto Trader search. Generic Focus RS inventory surfaced but no new direct current car-details URL was retained."
+      "limitation": "Public indexed query executed; no qualifying direct Auto Trader advert URL surfaced. Category/search pages are not treated as candidates."
     },
     "model-070:pistonheads:ford-focus-rs-mk2": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T17:14:57Z",
-      "lastResultCount": 0,
-      "candidateUrls": [],
-      "limitation": "Executed PistonHeads search. No new direct Mk2 RS URL beyond existing queued candidates was retained in this pass."
+      "lastSearchedAt": "2026-09-12T03:58:37Z",
+      "lastResultCount": 3,
+      "candidateUrls": [
+        "https://www.pistonheads.com/buy/listing/20771951",
+        "https://www.pistonheads.com/buy/listing/20871788",
+        "https://www.pistonheads.com/buy/listing/20937158"
+      ],
+      "limitation": "Three live direct Mk2 adverts surfaced. Listing 20771951 is already tracked. 20871788 and 20937158 remain verification-pending because exact advert gallery assets were not reliably available for full visual SOLD/RESERVED/manual-control inspection."
     },
     "model-070:car-and-classic:ford-focus-rs-mk2": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T17:14:57Z",
-      "lastResultCount": 1,
-      "candidateUrls": [
-        "https://www.carandclassic.com/l/C2104792"
-      ],
-      "limitation": "A current-looking 2009 Focus RS Mk2 advert at £25,995/63,000 miles surfaced, but it is heavily modified and already in the verification queue; no duplicate candidate added."
+      "lastSearchedAt": "2026-09-12T03:58:37Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Public indexed query executed; no new qualifying direct advert surfaced in this pass."
     },
     "model-070:gumtree:ford-focus-rs-mk2": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T17:14:57Z",
+      "lastSearchedAt": "2026-09-12T03:58:37Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Executed Gumtree search. No new current direct Mk2 Focus RS advert was retained."
+      "limitation": "Public indexed Gumtree query executed; no plausible current direct vehicle advert surfaced."
     },
     "model-070:specialist-dealers:ford-focus-rs-mk2": {
       "status": "searched",
@@ -148,17 +148,17 @@
     },
     "model-070:ebay:ford-focus-rs500": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T17:14:57Z",
+      "lastSearchedAt": "2026-09-12T03:58:37Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Executed eBay UK search. Results were sold/ended RS500 material, parts or model cars; no current qualifying vehicle advert retained."
+      "limitation": "Search surfaced scale models, parts and a SOLD £120,000 RS500; no qualifying live advert."
     },
     "model-070:autotrader:ford-focus-rs500": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T17:14:57Z",
+      "lastSearchedAt": "2026-09-12T03:58:37Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Executed Auto Trader search. No direct current RS500 car-details URL was retained."
+      "limitation": "Public indexed query executed; no qualifying direct RS500 Auto Trader advert surfaced."
     },
     "model-001:ebay:ferrari-360-modena-spider-manual": {
       "status": "searched",
@@ -378,10 +378,10 @@
     },
     "model-070:lamborghini-talk:ford-focus-rs500": {
       "status": "blocked",
-      "lastSearchedAt": "2026-09-11T12:24:18Z",
+      "lastSearchedAt": "2026-09-12T03:58:37Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "lamborghini-talk.com blocks the public search worker via robots.txt; no access-control bypass attempted."
+      "limitation": "lamborghini-talk.com is blocked by robots.txt in the available public web tool; no access-control bypass attempted."
     },
     "model-075:911uk:audi-tt-quattro-sport": {
       "status": "searched",
@@ -427,17 +427,17 @@
     },
     "model-088:911uk:mitsubishi-evo-vi-tommi-makinen-edition": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T12:24:18Z",
+      "lastSearchedAt": "2026-09-12T03:58:37Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No current UK Evo VI Tommi Makinen Edition sale advert meeting the mileage/ownership rules surfaced from 911UK."
+      "limitation": "Public indexed 911UK query executed; no qualifying direct TME sale advert under the mileage/ownership rules surfaced."
     },
     "model-088:ferrarichat:mitsubishi-evo-vi-tommi-makinen-edition": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T12:24:18Z",
+      "lastSearchedAt": "2026-09-12T03:58:37Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No accessible current UK Evo VI Tommi Makinen Edition sale advert satisfying the strict mileage/ownership rules surfaced from FerrariChat."
+      "limitation": "Public indexed FerrariChat query executed; no qualifying direct TME sale advert surfaced."
     },
     "model-088:gumtree:mitsubishi-evo-vi-tommi-makinen-edition": {
       "status": "searched",
@@ -448,10 +448,10 @@
     },
     "model-088:lamborghini-talk:mitsubishi-evo-vi-tommi-makinen-edition": {
       "status": "blocked",
-      "lastSearchedAt": "2026-09-11T12:24:18Z",
+      "lastSearchedAt": "2026-09-12T03:58:37Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "lamborghini-talk.com blocks the public search worker via robots.txt; no access-control bypass attempted."
+      "limitation": "lamborghini-talk.com is blocked by robots.txt in the available public web tool; no access-control bypass attempted."
     },
     "model-088:specialist-dealers:mitsubishi-evo-vi-tommi-makinen-edition": {
       "status": "searched",
@@ -462,17 +462,17 @@
     },
     "model-096:911uk:bmw-e46-m3-manual-coupe-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T12:24:18Z",
+      "lastSearchedAt": "2026-09-12T03:58:37Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No current factory-manual E46 M3 Coupe advert at or below 50,000 miles surfaced from 911UK."
+      "limitation": "Public indexed 911UK query executed; no qualifying direct sub-50,001-mile factory-manual E46 M3 coupe advert surfaced."
     },
     "model-096:911uk:bmw-m3-e46-6-speed-manual-coupe-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T12:24:18Z",
+      "lastSearchedAt": "2026-09-12T03:58:37Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No current factory six-speed E46 M3 Coupe advert at or below 50,000 miles surfaced from 911UK."
+      "limitation": "Public indexed 911UK query executed; no qualifying direct sub-50,001-mile factory-manual E46 M3 coupe advert surfaced."
     },
     "model-096:autotrader:bmw-e46-m3-manual-coupe-uk": {
       "status": "searched",
@@ -777,18 +777,18 @@
       "limitation": "Executed eBay UK search. Surfaced E46 M3 manuals were over the 50,000-mile cap, the wrong body style, or ended listings; no qualifying Coupe candidate retained."
     },
     "model-096:facebook-groups:bmw-e46-m3-manual-coupe-uk": {
-      "status": "blocked",
-      "lastSearchedAt": "2026-09-11T12:24:18Z",
+      "status": "searched",
+      "lastSearchedAt": "2026-09-12T03:58:37Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public indexed Facebook-group search did not expose a directly accessible current advert; private-group/login access was not bypassed."
+      "limitation": "Public Facebook-group index query executed; no attributable current sale post could be verified without authenticated group access."
     },
     "model-096:facebook-groups:bmw-m3-e46-6-speed-manual-coupe-uk": {
-      "status": "blocked",
-      "lastSearchedAt": "2026-09-11T12:24:18Z",
+      "status": "searched",
+      "lastSearchedAt": "2026-09-12T03:58:37Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public indexed Facebook-group search did not expose a directly accessible current advert; private-group/login access was not bypassed."
+      "limitation": "Public Facebook-group index query executed; no attributable current sale post could be verified without authenticated group access."
     },
     "model-096:ferrarichat:bmw-e46-m3-manual-coupe-uk": {
       "status": "searched",
@@ -2531,17 +2531,17 @@
     },
     "model-070:car-and-classic:ford-focus-rs500": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T17:14:57Z",
+      "lastSearchedAt": "2026-09-12T03:58:37Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Executed Car & Classic search. No current qualifying RS500 direct advert URL was retained."
+      "limitation": "Public indexed query executed; no qualifying current fixed-price RS500 advert surfaced."
     },
     "model-070:pistonheads:ford-focus-rs500": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T17:14:57Z",
+      "lastSearchedAt": "2026-09-12T03:58:37Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Executed PistonHeads search. No current qualifying RS500 direct advert URL was retained."
+      "limitation": "Only historical/editorial RS500 material surfaced; £120,000 example is above the site cap and not a qualifying current fixed-price candidate."
     },
     "model-070:specialist-dealers:ford-focus-rs500": {
       "status": "searched",
@@ -9810,6 +9810,222 @@
       "lastResultCount": 0,
       "candidateUrls": [],
       "limitation": "Executed Gumtree search. No new plausible current direct UK 2009–2010 R8 V10 genuine manual advert was retained."
+    },
+    "model-006:specialist-dealers:audi-r8-v8-manual": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-12T03:58:37Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Specialist-dealer query executed; no new qualifying direct UK R8 V8 manual stock advert surfaced in this pass."
+    },
+    "model-008:autotrader:honda-nsx-nsx-t-manual": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-12T03:58:37Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Public indexed Auto Trader query executed; no new qualifying direct NSX manual advert surfaced."
+    },
+    "model-008:car-and-classic:honda-nsx-nsx-t-manual": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-12T03:58:37Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Public indexed Car & Classic query executed; no new qualifying direct NSX manual advert surfaced."
+    },
+    "model-008:ebay:honda-nsx-nsx-t-manual": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-12T03:58:37Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Search results were non-vehicle items; rejected before verification."
+    },
+    "model-008:gumtree:honda-nsx-nsx-t-manual": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-12T03:58:37Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Public indexed Gumtree query executed; no plausible current direct NSX manual advert surfaced."
+    },
+    "model-008:pistonheads:honda-nsx-nsx-t-manual": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-12T03:58:37Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "No new direct NSX manual advert surfaced beyond already tracked inventory."
+    },
+    "model-009:autotrader:noble-m12-gto-gto-3-gto-3r": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-12T03:58:37Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Auto Trader inventory page showed three M12s, but generic inventory/category pages are excluded and the underlying known direct adverts are already tracked."
+    },
+    "model-009:car-and-classic:noble-m12-gto-gto-3-gto-3r": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-12T03:58:37Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Public indexed Car & Classic query executed; no new qualifying direct M12 advert surfaced."
+    },
+    "model-009:ebay:noble-m12-gto-gto-3-gto-3r": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-12T03:58:37Z",
+      "lastResultCount": 2,
+      "candidateUrls": [
+        "https://www.ebay.co.uk/itm/227387821806",
+        "https://www.ebay.co.uk/itm/307065689276"
+      ],
+      "limitation": "Two plausible live Noble vehicle classifieds surfaced. 307065689276 is the same DT Performance 2003 GTO-3 already tracked via Auto Trader, so it is not re-added by vehicle identity. 227387821806 remains verification-pending."
+    },
+    "model-009:gumtree:noble-m12-gto-gto-3-gto-3r": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-12T03:58:37Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Public indexed Gumtree query executed; no plausible current direct Noble vehicle advert surfaced."
+    },
+    "model-009:pistonheads:noble-m12-gto-gto-3-gto-3r": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-12T03:58:37Z",
+      "lastResultCount": 2,
+      "candidateUrls": [
+        "https://www.pistonheads.com/buy/listing/20986597",
+        "https://www.pistonheads.com/buy/listing/20878736"
+      ],
+      "limitation": "Both direct adverts are live. 20986597 is already a verified feed car with unchanged £43,895 asking price; 20878736 matches the Parkway 16,955-mile car already tracked via Auto Trader, so no duplicate candidate is added."
+    },
+    "model-010:autotrader:noble-m400": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-12T03:58:37Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Public indexed Auto Trader query executed; no qualifying direct M400 advert surfaced."
+    },
+    "model-010:car-and-classic:noble-m400": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-12T03:58:37Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Public indexed Car & Classic query executed; no qualifying direct M400 advert surfaced."
+    },
+    "model-010:ebay:noble-m400": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-12T03:58:37Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Search surfaced M400 parts/accessories rather than cars; rejected before verification."
+    },
+    "model-010:gumtree:noble-m400": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-12T03:58:37Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Public indexed Gumtree query executed; no plausible current direct M400 advert surfaced."
+    },
+    "model-010:pistonheads:noble-m400": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-12T03:58:37Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Public indexed PistonHeads query executed; no current direct M400 advert surfaced."
+    },
+    "model-010:specialist-dealers:noble-m400": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-12T03:58:37Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Specialist-dealer query executed; no qualifying current M400 stock advert surfaced."
+    },
+    "model-011:autotrader:lotus-esprit-v8-v8-gt": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-12T03:58:37Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "No new direct qualifying Esprit V8 advert surfaced beyond already tracked inventory."
+    },
+    "model-011:car-and-classic:lotus-esprit-v8-v8-gt": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-12T03:58:37Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "No new direct qualifying Esprit V8 advert surfaced beyond already tracked inventory."
+    },
+    "model-011:ebay:lotus-esprit-v8-v8-gt": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-12T03:58:37Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Search results were scale models/non-vehicle items; rejected before verification."
+    },
+    "model-011:gumtree:lotus-esprit-v8-v8-gt": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-12T03:58:37Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Public indexed Gumtree query executed; no plausible current direct Esprit V8 advert surfaced."
+    },
+    "model-011:pistonheads:lotus-esprit-v8-v8-gt": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-12T03:58:37Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "One PistonHeads Esprit advert was explicitly no longer available and another was POA; both rejected under hard rules."
+    },
+    "model-011:specialist-dealers:lotus-esprit-v8-v8-gt": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-12T03:58:37Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Specialist-dealer query executed; no new qualifying direct fixed-price Esprit V8 stock advert surfaced."
+    },
+    "model-012:autotrader:dodge-viper-rt-10-gts-srt-10": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-12T03:58:37Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Public indexed Auto Trader query executed; no new qualifying direct Viper advert surfaced."
+    },
+    "model-012:car-and-classic:dodge-viper-rt-10-gts-srt-10": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-12T03:58:37Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Public indexed Car & Classic query executed; no new qualifying direct Viper advert surfaced beyond already tracked inventory."
+    },
+    "model-012:ebay:dodge-viper-rt-10-gts-srt-10": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-12T03:58:37Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Search results were diecast/model items rather than full-size vehicles; rejected before verification."
+    },
+    "model-012:gumtree:dodge-viper-rt-10-gts-srt-10": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-12T03:58:37Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Public indexed Gumtree query executed; no plausible current direct Viper vehicle advert surfaced."
+    },
+    "model-012:pistonheads:dodge-viper-rt-10-gts-srt-10": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-12T03:58:37Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Public indexed PistonHeads query executed; no new qualifying direct Viper advert surfaced."
+    },
+    "model-012:specialist-dealers:dodge-viper-rt-10-gts-srt-10": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-12T03:58:37Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Specialist-dealer query executed; no new qualifying direct Viper stock advert surfaced."
+    },
+    "model-015:car-and-classic:tvr-tuscan-tuscan-s-mk2": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-12T03:58:37Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Public indexed Car & Classic query executed; no new qualifying direct Tuscan advert surfaced in this pass."
     }
   }
 }
