@@ -1,4 +1,4 @@
-import {put} from '@vercel/blob';
+import {privateStore} from '@/lib/private-records.mjs';
 import {createHash} from 'node:crypto';
 
 export const runtime='nodejs';
@@ -32,11 +32,6 @@ export async function POST(request:Request){
     consentAt:now,
     updatedAt:now,
   };
-  await put(`leads/${hash}.json`,JSON.stringify(record),{
-    access:'private',
-    addRandomSuffix:false,
-    allowOverwrite:true,
-    contentType:'application/json',
-  });
+  await (await privateStore()).write(`leads/${hash}.json`,record,true);
   return Response.json({ok:true},{status:201,headers:{'Cache-Control':'no-store'}});
 }

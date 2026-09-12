@@ -58,3 +58,8 @@ test('previous TT and other rare picks remain eligible at their recorded mileage
  for(const [modelId,mileage] of [['model-075',69133],['model-056',52000]]) assert.equal(isLiveListing({...valid,modelId,mileage},now),true);
  assert.equal(isLiveListing({...exceptions[0],mileage:82500},now),true);
 });
+test('unresolved migration decisions and reports cannot reappear after reimport',()=>{
+ assert.equal(isLiveListing({...valid,id:'rsv-z4m-coupe-52000'},now),false);
+ assert.equal(isLiveListing({...valid,id:'new-id',url:'https://carandclassic.com/car/C2127428/?tracking=test'},now),false);
+ assert.equal(isLiveListing({...valid,id:'cc-c2070853',url:'https://www.carandclassic.com/car/C2070853',mileage:69133},now),true);
+});

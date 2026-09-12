@@ -1,3 +1,4 @@
+import recoveryHolds from '../data/recovery-holds.json' with {type:'json'};
 import models from '../data/models.json' with {type:'json'};
 
 export type ListingCheck = {
@@ -42,7 +43,12 @@ const editorialExclusions = [
  {id:'vision-vn06lwy', host:'visioncarsales.co.uk', path:'/vehicle/name/bmw-z4-z4-m-roadster'},
  {id:'bp-10652', host:'bpcarsalesltd.co.uk', path:'/used/cars/honda-s2000-20-roadster-2dr-10652'},
 ];
+function sameAdvert(a:string,b?:string):boolean {
+ if(!b)return false;
+ try {const x=new URL(a),y=new URL(b);return x.hostname.replace(/^www\./,'')===y.hostname.replace(/^www\./,'')&&x.pathname.replace(/\/+$/,'')===y.pathname.replace(/\/+$/,'');}catch{return a===b;}
+}
 function isEditoriallyExcluded(l: ListingCheck): boolean {
+ if (recoveryHolds.ids.includes(l.id ?? '') || recoveryHolds.urls.some(url => sameAdvert(url, l.url))) return true;
  if (editorialExclusions.some(e=>e.id===l.id)) return true;
  if (!l.url) return false;
  try {
@@ -57,5 +63,5 @@ export function isLiveListing(l: ListingCheck, now: number): boolean {
  l.specVerified === true && l.ukVerified === true &&
  Number.isFinite(l.price) && l.price >= 10000 && l.price <= 100000 &&
  matchesModelPolicy(l) && matchesMileagePolicy(l) &&
- Number.isFinite(checked) && checked <= now + 60000 && now - checked <= 172800000;
+ Number.isFinite(checked) && checked <= now + 60000 && now - checked <= 86400000;
 }
