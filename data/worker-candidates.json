@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-13T12:49:13Z",
+  "updatedAt": "2026-09-13T13:59:13Z",
   "candidates": [
     {
       "modelId": "model-056",
@@ -369,8 +369,8 @@
       "source": "car-and-classic",
       "discoveredAt": "2026-09-10T08:42:28Z",
       "status": "verification-pending",
-      "note": "Fresh 12 Sep 2026 originating-seller verification: Hexagon's exact detail page and current BMW stock page both now agree at £99,995 for the 2003 E46 M3 Coupe, 3,100 miles, factory six-speed manual, one owner/same family from new and full BMW main-dealer history; detail says available to view now. The previous £99,995-vs-£120,000 price conflict is resolved. Exact current seller-gallery manual/overlay visual checks are still incomplete, so keep verification-pending.",
-      "lastCheckedAt": "2026-09-12T19:47:25Z",
+      "note": "Rechecked 13 Sep 2026: the originating Hexagon seller page is live today at £99,995 for the 2003 E46 M3 Coupe, 3,100 miles, factory 6-speed manual, one owner from new, full BMW main-dealer history and explicitly 'Available to view now'. Classic Trader simultaneously displays the same car at £120,000, so the originating seller remains authoritative. The seller specification strongly supports factory-manual identity, but an exact current seller cabin/gallery image could not be visually inspected in this worker run; keep verification-pending rather than publish.",
+      "lastCheckedAt": "2026-09-13T13:59:13Z",
       "vehicleIdentity": "2003 BMW E46 M3 Coupe | 3,100 miles | factory 6-speed manual"
     },
     {
@@ -445,7 +445,9 @@
       "source": "specialist-dealers",
       "discoveredAt": "2026-09-10T10:51:15Z",
       "status": "verification-pending",
-      "note": "2012 BMW 1M Coupe, £48,995, 41,399 miles, manual, Alpine White, four former keepers, Saline Motors. It is inside the model-072 £45k–£55k band. Search evidence is current-looking, but the exact dealer page timed out during deep verification, so current-stock and seller-photo/manual checks are still required before publication."
+      "note": "Rechecked 13 Sep 2026: indexed dealer evidence still identifies a 2012 BMW 1M Coupe at £48,995, 41,399 miles and manual, which is inside the model-072 £45k–£55k band. The exact Saline Motors detail page timed out again during deep verification, so current seller-page controls and exact seller photographs/manual controls could not be fully checked. Keep verification-pending and do not publish.",
+      "lastCheckedAt": "2026-09-13T13:59:13Z",
+      "vehicleIdentity": "2012 BMW 1M Coupe | 41,399 miles | manual | Alpine White"
     },
     {
       "modelId": "model-014",
