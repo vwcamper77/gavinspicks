@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-13T04:42:05Z",
+  "updatedAt": "2026-09-13T06:03:30Z",
   "candidates": [
     {
       "modelId": "model-056",
@@ -56,7 +56,7 @@
       "discoveredAt": "2026-09-09T22:34:18Z",
       "status": "verification-pending",
       "note": "Rechecked 11 Sep 2026: PistonHeads still presents this 2010 Focus RS at £47,990, 25,951 miles, six-speed manual with valid MOT, seller contact/current-stock controls and a 75-photo gallery. Seller describes original specification and March 2026 RS Revived recommissioning. The actual image assets could not be fetched for visual SOLD/RESERVED-overlay and cabin-control inspection, so publication remains blocked on photo verification.",
-      "lastCheckedAt": "2026-09-11T23:29:41Z"
+      "lastCheckedAt": "2026-09-13T06:03:30Z"
     },
     {
       "modelId": "model-070",
@@ -97,7 +97,8 @@
       "source": "car-and-classic",
       "discoveredAt": "2026-09-09T23:35:56Z",
       "status": "verification-pending",
-      "note": "2009 Ford Focus RS Mk2, Performance Blue, £29,995, 40,000 miles, manual, advertised one owner from new and unmodified with original book pack and service history. Current UK dealer advert is marked For Sale and was listed 16/08/2026; 12-photo gallery still requires visual inspection before publication."
+      "note": "Rechecked 13 Sep 2026: Car & Classic still presents this 2009 Focus RS Mk2 at £29,995/40,000 miles/manual as For Sale, advertised one owner from new and unmodified with service history. The 12-photo gallery could not be fetched reliably for visual overlay/manual-control inspection in this worker run, so keep verification-pending.",
+      "lastCheckedAt": "2026-09-13T06:03:30Z"
     },
     {
       "modelId": "model-076",
@@ -278,7 +279,7 @@
       "discoveredAt": "2026-09-10T05:43:24Z",
       "status": "verification-pending",
       "note": "Rechecked 12 Sep 2026: PistonHeads currently exposes this 2006 Audi TT quattro Sport at £12,490, 77,000 miles, five previous owners and manual, with Snippersgate seller/contact controls and a 21-photo gallery. The page does not show an unavailable message but still reports MOT Expired. Gallery images have not been visually inspected for SOLD/RESERVED overlays or manual-control identity, and the mileage/ownership make it a weaker editorial fit; do not publish yet.",
-      "lastCheckedAt": "2026-09-12T22:13:23Z"
+      "lastCheckedAt": "2026-09-13T06:03:30Z"
     },
     {
       "modelId": "model-017",
@@ -521,9 +522,10 @@
       "url": "https://www.pistonheads.com/buy/listing/20852624",
       "source": "pistonheads",
       "discoveredAt": "2026-09-10T14:18:00Z",
-      "status": "verification-pending",
+      "status": "unavailable",
       "note": "Rechecked 12 Sep 2026: PistonHeads currently presents this 2006 Audi TT quattro Sport at £12,995, 46,157 miles, five previous owners and six-speed manual from KGF Classic Cars, with 97 photos, seller/contact controls and valid MOT. The exact vehicle is independently cross-posted by KGF on Car & Classic as DV06UCW, For Sale at £12,995 with a 30-photo gallery. KGF describes it as a part-exchange-to-clear car that does not meet its impeccable retail standard, so editorial quality is questionable. Exact gallery images have not been visually verified for SOLD/RESERVED overlays or manual controls; keep verification-pending.",
-      "lastCheckedAt": "2026-09-12T22:13:23Z"
+      "lastCheckedAt": "2026-09-13T06:03:30Z",
+      "vehicleIdentity": "2006 Audi TT quattro Sport | DV06UCW | 46,157 miles"
     },
     {
       "modelId": "model-031",
@@ -1559,6 +1561,16 @@
       "discoveredAt": "2026-09-13T03:43:38Z",
       "status": "verification-pending",
       "note": "Current Aston Engineering advert asks £68,500 for a 2005 Vanquish S with 19,640 miles, RHD, in Derby. Car & Classic identifies this same dealer car as manual/6-speed, but the originating Aston Engineering page does not document an Aston Martin Works manual conversion. Treat it as a lead only until Works conversion provenance and manual interior controls are verified."
+    },
+    {
+      "modelId": "model-075",
+      "url": "https://www.carandclassic.com/car/C2126147",
+      "source": "car-and-classic",
+      "discoveredAt": "2026-09-13T06:03:30Z",
+      "status": "verification-pending",
+      "lastCheckedAt": "2026-09-13T06:03:30Z",
+      "vehicleIdentity": "2006 Audi TT quattro Sport | DV06UCW | 46,157 miles",
+      "note": "Current Car & Classic For Sale advert for DV06UCW at £12,995, 46,157 miles, six-speed manual, UK dealer KGF Classic Cars, with a 30-photo gallery. This is the live cross-post replacing the now-dead PistonHeads URL. Exact seller-image SOLD/RESERVED overlay and manual-control visual inspection remain outstanding, and KGF previously described this vehicle as below its normal impeccable retail standard, so keep verification-pending."
     }
   ]
 }
