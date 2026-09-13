@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-13T02:00:58Z",
+  "updatedAt": "2026-09-13T02:15:53Z",
   "compactedFromQueueAt": "2026-09-10T06:41:54.207Z",
   "note": "Cumulative worker-write state. Job results are merged from immutable run deltas and folded back into data/search-queue.json by scripts/build-search-queue.mjs.",
   "jobs": {
@@ -376,11 +376,11 @@
       "limitation": "Public LamborghiniTalk search executed; no current Ford Focus RS500 sale advert surfaced."
     },
     "model-075:911uk:audi-tt-quattro-sport": {
-      "status": "searched",
-      "lastSearchedAt": "2026-09-12T12:49:50Z",
-      "lastResultCount": 0,
+      "status": "failed",
+      "lastSearchedAt": "2026-09-13T02:15:53Z",
+      "lastResultCount": null,
       "candidateUrls": [],
-      "limitation": "No current direct TT quattro Sport sale advert retained."
+      "limitation": "Public web search returned HTTP 503 Service Unavailable; no result set was available to inspect."
     },
     "model-075:classic-trader:audi-tt-quattro-sport": {
       "status": "searched",
@@ -390,11 +390,11 @@
       "limitation": "Classic Trader surfaced a current 2006 TT quattro Sport in Germany at £28,271; rejected because the watch requires a UK car."
     },
     "model-075:ferrarichat:audi-tt-quattro-sport": {
-      "status": "searched",
-      "lastSearchedAt": "2026-09-12T12:49:50Z",
-      "lastResultCount": 0,
+      "status": "failed",
+      "lastSearchedAt": "2026-09-13T02:15:53Z",
+      "lastResultCount": null,
       "candidateUrls": [],
-      "limitation": "No current direct TT quattro Sport sale advert retained."
+      "limitation": "Public web search returned HTTP 503 Service Unavailable; no result set was available to inspect."
     },
     "model-075:gumtree:audi-tt-quattro-sport": {
       "status": "searched",
@@ -404,11 +404,11 @@
       "limitation": "No plausible current direct genuine Mk1 TT quattro Sport advert retained."
     },
     "model-075:lamborghini-talk:audi-tt-quattro-sport": {
-      "status": "blocked",
-      "lastSearchedAt": "2026-09-12T12:49:50Z",
-      "lastResultCount": 0,
+      "status": "failed",
+      "lastSearchedAt": "2026-09-13T02:15:53Z",
+      "lastResultCount": null,
       "candidateUrls": [],
-      "limitation": "Public web access blocked by robots.txt; no bypass attempted."
+      "limitation": "Public web search returned HTTP 503 Service Unavailable; no result set was available to inspect."
     },
     "model-075:specialist-dealers:audi-tt-quattro-sport": {
       "status": "searched",
@@ -791,18 +791,18 @@
       "limitation": "FerrariChat alternate query executed; no plausible current UK E46 M3 factory six-speed manual Coupe advert at or below 50,000 miles surfaced."
     },
     "model-096:gumtree:bmw-e46-m3-manual-coupe-uk": {
-      "status": "searched",
-      "lastSearchedAt": "2026-09-12T15:40:38Z",
-      "lastResultCount": 0,
+      "status": "failed",
+      "lastSearchedAt": "2026-09-13T02:15:53Z",
+      "lastResultCount": null,
       "candidateUrls": [],
-      "limitation": "Gumtree indexed search returned no new plausible direct qualifying E46 M3 manual Coupe advert."
+      "limitation": "Public web search returned HTTP 503 Service Unavailable; no result set was available to inspect."
     },
     "model-096:gumtree:bmw-m3-e46-6-speed-manual-coupe-uk": {
-      "status": "searched",
-      "lastSearchedAt": "2026-09-12T15:40:38Z",
-      "lastResultCount": 0,
+      "status": "failed",
+      "lastSearchedAt": "2026-09-13T02:15:53Z",
+      "lastResultCount": null,
       "candidateUrls": [],
-      "limitation": "Gumtree indexed search returned no new plausible direct qualifying E46 M3 six-speed-manual Coupe advert."
+      "limitation": "Public web search returned HTTP 503 Service Unavailable; no result set was available to inspect."
     },
     "model-096:lamborghini-talk:bmw-e46-m3-manual-coupe-uk": {
       "status": "blocked",
@@ -819,29 +819,25 @@
       "limitation": "Public search/domain access for lamborghini-talk.com was blocked by robots.txt in this run, so current advert coverage could not be verified."
     },
     "model-096:pistonheads:bmw-e46-m3-manual-coupe-uk": {
-      "status": "searched",
-      "lastSearchedAt": "2026-09-12T15:40:38Z",
-      "lastResultCount": 1,
-      "candidateUrls": [
-        "https://www.pistonheads.com/buy/listing/19915003"
-      ],
-      "limitation": "Hexagon's 2003 E46 M3 at £99,995/3,100 miles/one previous owner/manual remains current, but it is the same vehicle identity already tracked via Car & Classic. Silverstone Edition listing 17710678 explicitly says no longer available and was rejected."
+      "status": "failed",
+      "lastSearchedAt": "2026-09-13T02:15:53Z",
+      "lastResultCount": null,
+      "candidateUrls": [],
+      "limitation": "Public web search returned HTTP 503 Service Unavailable; no result set was available to inspect."
     },
     "model-096:pistonheads:bmw-m3-e46-6-speed-manual-coupe-uk": {
-      "status": "searched",
-      "lastSearchedAt": "2026-09-12T15:40:38Z",
-      "lastResultCount": 1,
-      "candidateUrls": [
-        "https://www.pistonheads.com/buy/listing/19915003"
-      ],
-      "limitation": "Hexagon's 2003 E46 M3 at £99,995/3,100 miles/one previous owner/manual remains current, but it is the same vehicle identity already tracked via Car & Classic. Silverstone Edition listing 17710678 explicitly says no longer available and was rejected."
+      "status": "failed",
+      "lastSearchedAt": "2026-09-13T02:15:53Z",
+      "lastResultCount": null,
+      "candidateUrls": [],
+      "limitation": "Public web search returned HTTP 503 Service Unavailable; no result set was available to inspect."
     },
     "model-096:specialist-dealers:bmw-e46-m3-manual-coupe-uk": {
-      "status": "searched",
-      "lastSearchedAt": "2026-09-12T17:05:35Z",
-      "lastResultCount": 0,
+      "status": "failed",
+      "lastSearchedAt": "2026-09-13T02:15:53Z",
+      "lastResultCount": null,
       "candidateUrls": [],
-      "limitation": "Specialist-dealer search executed; no new factory-manual E46 M3 Coupe at or below 50,000 miles retained."
+      "limitation": "Public web search returned HTTP 503 Service Unavailable; no result set was available to inspect."
     },
     "model-096:specialist-dealers:bmw-m3-e46-6-speed-manual-coupe-uk": {
       "status": "searched",
@@ -1091,11 +1087,11 @@
       "limitation": "911UK indexed search returned no direct current Morgan Aero 8 GTN sale advert."
     },
     "model-072:facebook-groups:bmw-1m-coupe-manual-45000-55000-full-service-history": {
-      "status": "blocked",
-      "lastSearchedAt": "2026-09-12T11:16:40Z",
-      "lastResultCount": 0,
+      "status": "failed",
+      "lastSearchedAt": "2026-09-13T02:15:53Z",
+      "lastResultCount": null,
       "candidateUrls": [],
-      "limitation": "Public indexed Facebook-group search did not expose an accessible current sale post. Private-group/login access was not attempted or bypassed."
+      "limitation": "Public web search returned HTTP 503 Service Unavailable; no result set was available to inspect."
     },
     "model-072:ebay:bmw-1m-coupe-manual-45000-55000-full-service-history": {
       "status": "searched",
@@ -1154,25 +1150,25 @@
       "limitation": "No plausible current direct BMW 1M advert retained."
     },
     "model-072:911uk:bmw-1m-coupe-manual-45000-55000-full-service-history": {
-      "status": "searched",
-      "lastSearchedAt": "2026-09-12T11:16:40Z",
-      "lastResultCount": 0,
+      "status": "failed",
+      "lastSearchedAt": "2026-09-13T02:15:53Z",
+      "lastResultCount": null,
       "candidateUrls": [],
-      "limitation": "911UK query executed; no current direct BMW 1M Coupe sale thread/advert meeting the requested specification was retained."
+      "limitation": "Public web search returned HTTP 503 Service Unavailable; no result set was available to inspect."
     },
     "model-072:ferrarichat:bmw-1m-coupe-manual-45000-55000-full-service-history": {
-      "status": "searched",
-      "lastSearchedAt": "2026-09-12T11:16:40Z",
-      "lastResultCount": 0,
+      "status": "failed",
+      "lastSearchedAt": "2026-09-13T02:15:53Z",
+      "lastResultCount": null,
       "candidateUrls": [],
-      "limitation": "FerrariChat query executed; no current UK BMW 1M Coupe sale advert was retained."
+      "limitation": "Public web search returned HTTP 503 Service Unavailable; no result set was available to inspect."
     },
     "model-072:lamborghini-talk:bmw-1m-coupe-manual-45000-55000-full-service-history": {
-      "status": "blocked",
-      "lastSearchedAt": "2026-09-12T12:49:50Z",
-      "lastResultCount": 0,
+      "status": "failed",
+      "lastSearchedAt": "2026-09-13T02:15:53Z",
+      "lastResultCount": null,
       "candidateUrls": [],
-      "limitation": "Public web access blocked by robots.txt; no bypass attempted."
+      "limitation": "Public web search returned HTTP 503 Service Unavailable; no result set was available to inspect."
     },
     "model-072:specialist-dealers:bmw-1m-coupe-manual-45000-55000-full-service-history": {
       "status": "searched",
@@ -1836,11 +1832,11 @@
       "limitation": "Gumtree query executed; no plausible current direct genuine RS500 advert retained."
     },
     "model-070:bonhams-cars:ford-focus-rs-mk2": {
-      "status": "searched",
-      "lastSearchedAt": "2026-09-12T17:05:35Z",
-      "lastResultCount": 0,
+      "status": "failed",
+      "lastSearchedAt": "2026-09-13T02:15:53Z",
+      "lastResultCount": null,
       "candidateUrls": [],
-      "limitation": "Bonhams Cars search executed; no current direct Focus RS Mk2 advert retained."
+      "limitation": "Public web search returned HTTP 503 Service Unavailable; no result set was available to inspect."
     },
     "model-070:bonhams-cars:ford-focus-rs500": {
       "status": "searched",
@@ -1901,46 +1897,46 @@
       "limitation": "Current Car & Classic ST500 no.157/500 remains For Sale at £19,750 with 33,200 miles and six-speed manual. Already tracked; gallery image assets still cannot be fetched for final visual overlay/manual-control verification."
     },
     "model-076:ebay:ford-focus-st500": {
-      "status": "searched",
-      "lastSearchedAt": "2026-09-12T17:05:35Z",
-      "lastResultCount": 0,
+      "status": "failed",
+      "lastSearchedAt": "2026-09-13T02:15:53Z",
+      "lastResultCount": null,
       "candidateUrls": [],
-      "limitation": "eBay search surfaced ST500 seats, parts and generic category material rather than a current complete-car advert."
+      "limitation": "Public web search returned HTTP 503 Service Unavailable; no result set was available to inspect."
     },
     "model-076:gumtree:ford-focus-st500": {
-      "status": "searched",
-      "lastSearchedAt": "2026-09-12T17:05:35Z",
-      "lastResultCount": 0,
+      "status": "failed",
+      "lastSearchedAt": "2026-09-13T02:15:53Z",
+      "lastResultCount": null,
       "candidateUrls": [],
-      "limitation": "Gumtree indexed search executed; no plausible current direct Focus ST500 vehicle advert surfaced."
+      "limitation": "Public web search returned HTTP 503 Service Unavailable; no result set was available to inspect."
     },
     "model-076:pistonheads:ford-focus-st500": {
-      "status": "searched",
-      "lastSearchedAt": "2026-09-12T17:05:35Z",
-      "lastResultCount": 0,
+      "status": "failed",
+      "lastSearchedAt": "2026-09-13T02:15:53Z",
+      "lastResultCount": null,
       "candidateUrls": [],
-      "limitation": "PistonHeads surfaced an old ST500 auction with MOT expiry in May 2025; not a current fixed-price advert."
+      "limitation": "Public web search returned HTTP 503 Service Unavailable; no result set was available to inspect."
     },
     "model-076:specialist-dealers:ford-focus-st500": {
-      "status": "searched",
-      "lastSearchedAt": "2026-09-12T17:05:35Z",
-      "lastResultCount": 0,
+      "status": "failed",
+      "lastSearchedAt": "2026-09-13T02:15:53Z",
+      "lastResultCount": null,
       "candidateUrls": [],
-      "limitation": "Specialist-dealer search executed; no new current-stock Focus ST500 advert retained."
+      "limitation": "Public web search returned HTTP 503 Service Unavailable; no result set was available to inspect."
     },
     "model-082:autotrader:subaru-impreza-p1": {
-      "status": "searched",
-      "lastSearchedAt": "2026-09-12T17:05:35Z",
-      "lastResultCount": 0,
+      "status": "failed",
+      "lastSearchedAt": "2026-09-13T02:15:53Z",
+      "lastResultCount": null,
       "candidateUrls": [],
-      "limitation": "Auto Trader category inventory showed a P1 at £29,950 but no direct current car-details URL with the required mileage/ownership evidence; generic category page rejected."
+      "limitation": "Public web search returned HTTP 503 Service Unavailable; no result set was available to inspect."
     },
     "model-082:car-and-classic:subaru-impreza-p1": {
-      "status": "searched",
-      "lastSearchedAt": "2026-09-12T17:05:35Z",
-      "lastResultCount": 0,
+      "status": "failed",
+      "lastSearchedAt": "2026-09-13T02:15:53Z",
+      "lastResultCount": null,
       "candidateUrls": [],
-      "limitation": "Car & Classic search executed; no direct current P1 advert meeting the under-30,000-mile/two-owner rules surfaced."
+      "limitation": "Public web search returned HTTP 503 Service Unavailable; no result set was available to inspect."
     },
     "model-026:collecting-cars:lotus-exige-s1": {
       "status": "searched",
@@ -2702,11 +2698,11 @@
       "limitation": "Public indexed Facebook-group search did not expose a verifiable current Elise S1 111S sale post; authenticated/private group content was not accessed."
     },
     "model-031:ferrarichat:lotus-elise-s1-111s": {
-      "status": "searched",
-      "lastSearchedAt": "2026-09-10T14:18:00Z",
-      "lastResultCount": 0,
+      "status": "failed",
+      "lastSearchedAt": "2026-09-13T02:15:53Z",
+      "lastResultCount": null,
       "candidateUrls": [],
-      "limitation": "Public FerrariChat search executed; no plausible current direct UK S1 111S sale advert was established."
+      "limitation": "Public web search returned HTTP 503 Service Unavailable; no result set was available to inspect."
     },
     "model-031:gumtree:lotus-elise-s1-111s": {
       "status": "searched",
@@ -2716,11 +2712,11 @@
       "limitation": "Gumtree search executed; no plausible current direct S1 111S vehicle advert surfaced."
     },
     "model-031:lamborghini-talk:lotus-elise-s1-111s": {
-      "status": "blocked",
-      "lastSearchedAt": "2026-09-10T14:18:00Z",
-      "lastResultCount": 0,
+      "status": "failed",
+      "lastSearchedAt": "2026-09-13T02:15:53Z",
+      "lastResultCount": null,
       "candidateUrls": [],
-      "limitation": "Public access/search to lamborghini-talk.com is blocked by robots.txt; no access-control bypass attempted."
+      "limitation": "Public web search returned HTTP 503 Service Unavailable; no result set was available to inspect."
     },
     "model-031:pistonheads:lotus-elise-s1-111s": {
       "status": "searched",
@@ -2737,11 +2733,11 @@
       "limitation": "Specialist search executed; no new current originating dealer S1 111S advert retained."
     },
     "model-032:911uk:lotus-elise-sport-160": {
-      "status": "searched",
-      "lastSearchedAt": "2026-09-10T14:18:00Z",
-      "lastResultCount": 0,
+      "status": "failed",
+      "lastSearchedAt": "2026-09-13T02:15:53Z",
+      "lastResultCount": null,
       "candidateUrls": [],
-      "limitation": "Public indexed 911UK search executed; no plausible current direct UK Elise Sport 160 sale advert was established."
+      "limitation": "Public web search returned HTTP 503 Service Unavailable; no result set was available to inspect."
     },
     "model-032:autotrader:lotus-elise-sport-160": {
       "status": "searched",
@@ -2786,18 +2782,18 @@
       "limitation": "eBay results were parts/toys/unrelated items; no current complete Sport 160 vehicle advert retained."
     },
     "model-032:facebook-groups:lotus-elise-sport-160": {
-      "status": "searched",
-      "lastSearchedAt": "2026-09-10T14:18:00Z",
-      "lastResultCount": 0,
+      "status": "failed",
+      "lastSearchedAt": "2026-09-13T02:15:53Z",
+      "lastResultCount": null,
       "candidateUrls": [],
-      "limitation": "Publicly indexed Facebook-group search executed; no plausible current Sport 160 sale post was found. Restricted/private group content was not accessed."
+      "limitation": "Public web search returned HTTP 503 Service Unavailable; no result set was available to inspect."
     },
     "model-032:ferrarichat:lotus-elise-sport-160": {
-      "status": "searched",
-      "lastSearchedAt": "2026-09-10T14:18:00Z",
-      "lastResultCount": 0,
+      "status": "failed",
+      "lastSearchedAt": "2026-09-13T02:15:53Z",
+      "lastResultCount": null,
       "candidateUrls": [],
-      "limitation": "Public FerrariChat search executed; no plausible current direct UK Sport 160 advert was established."
+      "limitation": "Public web search returned HTTP 503 Service Unavailable; no result set was available to inspect."
     },
     "model-032:gumtree:lotus-elise-sport-160": {
       "status": "searched",
@@ -2807,11 +2803,11 @@
       "limitation": "Gumtree search executed; no plausible current direct Sport 160 vehicle advert surfaced."
     },
     "model-032:lamborghini-talk:lotus-elise-sport-160": {
-      "status": "blocked",
-      "lastSearchedAt": "2026-09-10T14:18:00Z",
-      "lastResultCount": 0,
+      "status": "failed",
+      "lastSearchedAt": "2026-09-13T02:15:53Z",
+      "lastResultCount": null,
       "candidateUrls": [],
-      "limitation": "Public access/search to lamborghini-talk.com is blocked by robots.txt; no access-control bypass attempted."
+      "limitation": "Public web search returned HTTP 503 Service Unavailable; no result set was available to inspect."
     },
     "model-032:pistonheads:lotus-elise-sport-160": {
       "status": "searched",
@@ -2831,11 +2827,11 @@
       "limitation": "Specialist search executed; no new originating current dealer advert beyond already tracked marketplace leads retained."
     },
     "model-033:911uk:lotus-elise-s2-135r": {
-      "status": "searched",
-      "lastSearchedAt": "2026-09-10T14:18:00Z",
-      "lastResultCount": 0,
+      "status": "failed",
+      "lastSearchedAt": "2026-09-13T02:15:53Z",
+      "lastResultCount": null,
       "candidateUrls": [],
-      "limitation": "Public indexed 911UK search executed; no plausible current direct UK Elise S2 135R sale advert was established."
+      "limitation": "Public web search returned HTTP 503 Service Unavailable; no result set was available to inspect."
     },
     "model-033:autotrader:lotus-elise-s2-135r": {
       "status": "searched",
@@ -2955,18 +2951,18 @@
       "limitation": "eBay UK search executed. Results were parts/accessories rather than a complete current Elise 135R; no candidate retained."
     },
     "model-033:facebook-groups:lotus-elise-s2-135r": {
-      "status": "searched",
-      "lastSearchedAt": "2026-09-10T16:02:22Z",
-      "lastResultCount": 0,
+      "status": "failed",
+      "lastSearchedAt": "2026-09-13T02:15:53Z",
+      "lastResultCount": null,
       "candidateUrls": [],
-      "limitation": "No plausible current publicly indexed UK 135R sale post was captured; no private-group access was attempted."
+      "limitation": "Public web search returned HTTP 503 Service Unavailable; no result set was available to inspect."
     },
     "model-033:ferrarichat:lotus-elise-s2-135r": {
-      "status": "searched",
-      "lastSearchedAt": "2026-09-10T16:02:22Z",
-      "lastResultCount": 0,
+      "status": "failed",
+      "lastSearchedAt": "2026-09-13T02:15:53Z",
+      "lastResultCount": null,
       "candidateUrls": [],
-      "limitation": "No plausible current UK Elise 135R advert was captured."
+      "limitation": "Public web search returned HTTP 503 Service Unavailable; no result set was available to inspect."
     },
     "model-033:gumtree:lotus-elise-s2-135r": {
       "status": "searched",
@@ -2976,11 +2972,11 @@
       "limitation": "Gumtree search executed. No plausible current direct UK Elise 135R advert was retained."
     },
     "model-033:lamborghini-talk:lotus-elise-s2-135r": {
-      "status": "blocked",
-      "lastSearchedAt": "2026-09-10T16:02:22Z",
-      "lastResultCount": 0,
+      "status": "failed",
+      "lastSearchedAt": "2026-09-13T02:15:53Z",
+      "lastResultCount": null,
       "candidateUrls": [],
-      "limitation": "Public search/access to LamborghiniTalk was blocked by robots/access controls; no bypass was attempted."
+      "limitation": "Public web search returned HTTP 503 Service Unavailable; no result set was available to inspect."
     },
     "model-033:pistonheads:lotus-elise-s2-135r": {
       "status": "searched",
@@ -2999,11 +2995,11 @@
       "limitation": "Specialist-dealer search executed. No separate current direct Elise 135R stock advert beyond the already tracked Maidstone Sports Cars/PistonHeads car was retained."
     },
     "model-034:911uk:lotus-elise-sc-type-25": {
-      "status": "searched",
-      "lastSearchedAt": "2026-09-10T16:02:22Z",
-      "lastResultCount": 0,
+      "status": "failed",
+      "lastSearchedAt": "2026-09-13T02:15:53Z",
+      "lastResultCount": null,
       "candidateUrls": [],
-      "limitation": "No relevant current UK Elise SC/Type 25 sale advert was captured."
+      "limitation": "Public web search returned HTTP 503 Service Unavailable; no result set was available to inspect."
     },
     "model-034:autotrader:lotus-elise-sc-type-25": {
       "status": "searched",
@@ -3048,18 +3044,18 @@
       "limitation": "eBay UK search executed. No current complete exact Elise SC/Type 25 vehicle advert was retained."
     },
     "model-034:facebook-groups:lotus-elise-sc-type-25": {
-      "status": "searched",
-      "lastSearchedAt": "2026-09-10T16:02:22Z",
-      "lastResultCount": 0,
+      "status": "failed",
+      "lastSearchedAt": "2026-09-13T02:15:53Z",
+      "lastResultCount": null,
       "candidateUrls": [],
-      "limitation": "No plausible current publicly indexed UK Elise SC/Type 25 sale post was captured; no private-group access was attempted."
+      "limitation": "Public web search returned HTTP 503 Service Unavailable; no result set was available to inspect."
     },
     "model-034:ferrarichat:lotus-elise-sc-type-25": {
-      "status": "searched",
-      "lastSearchedAt": "2026-09-10T16:02:22Z",
-      "lastResultCount": 0,
+      "status": "failed",
+      "lastSearchedAt": "2026-09-13T02:15:53Z",
+      "lastResultCount": null,
       "candidateUrls": [],
-      "limitation": "No plausible current UK Elise SC/Type 25 advert was captured."
+      "limitation": "Public web search returned HTTP 503 Service Unavailable; no result set was available to inspect."
     },
     "model-034:gumtree:lotus-elise-sc-type-25": {
       "status": "searched",
@@ -3069,11 +3065,11 @@
       "limitation": "Gumtree search executed. No plausible current exact Elise SC/Type 25 advert was retained."
     },
     "model-034:lamborghini-talk:lotus-elise-sc-type-25": {
-      "status": "blocked",
-      "lastSearchedAt": "2026-09-10T16:02:22Z",
-      "lastResultCount": 0,
+      "status": "failed",
+      "lastSearchedAt": "2026-09-13T02:15:53Z",
+      "lastResultCount": null,
       "candidateUrls": [],
-      "limitation": "Public search/access to LamborghiniTalk was blocked by robots/access controls; no bypass was attempted."
+      "limitation": "Public web search returned HTTP 503 Service Unavailable; no result set was available to inspect."
     },
     "model-034:pistonheads:lotus-elise-sc-type-25": {
       "status": "searched",
@@ -3090,11 +3086,11 @@
       "limitation": "Specialist-dealer search executed. No current direct exact Elise SC/Type 25 stock advert was retained."
     },
     "model-035:911uk:lotus-europa-s-se": {
-      "status": "searched",
-      "lastSearchedAt": "2026-09-10T16:02:22Z",
-      "lastResultCount": 0,
+      "status": "failed",
+      "lastSearchedAt": "2026-09-13T02:15:53Z",
+      "lastResultCount": null,
       "candidateUrls": [],
-      "limitation": "No relevant current UK Lotus Europa S/SE sale advert was captured."
+      "limitation": "Public web search returned HTTP 503 Service Unavailable; no result set was available to inspect."
     },
     "model-035:autotrader:lotus-europa-s-se": {
       "status": "searched",
@@ -3141,11 +3137,11 @@
       "limitation": "eBay UK search executed. Results were scale models/parts rather than a current complete Lotus Europa S/SE; no candidate retained."
     },
     "model-035:facebook-groups:lotus-europa-s-se": {
-      "status": "searched",
-      "lastSearchedAt": "2026-09-10T16:02:22Z",
-      "lastResultCount": 0,
+      "status": "failed",
+      "lastSearchedAt": "2026-09-13T02:15:53Z",
+      "lastResultCount": null,
       "candidateUrls": [],
-      "limitation": "No plausible current publicly indexed UK Lotus Europa S/SE sale post was captured; no private-group access was attempted."
+      "limitation": "Public web search returned HTTP 503 Service Unavailable; no result set was available to inspect."
     },
     "model-082:911uk:subaru-impreza-p1": {
       "status": "searched",
@@ -3176,11 +3172,11 @@
       "limitation": "LamborghiniTalk could not be accessed because robots.txt blocks the web fetch; no result count claimed."
     },
     "model-085:facebook-groups:subaru-impreza-rb320": {
-      "status": "blocked",
-      "lastSearchedAt": "2026-09-12T11:16:40Z",
-      "lastResultCount": 0,
+      "status": "failed",
+      "lastSearchedAt": "2026-09-13T02:15:53Z",
+      "lastResultCount": null,
       "candidateUrls": [],
-      "limitation": "Public indexed Facebook-group search did not expose an accessible RB320 advert with verifiable mileage/ownership. Private-group/login access was not attempted or bypassed."
+      "limitation": "Public web search returned HTTP 503 Service Unavailable; no result set was available to inspect."
     },
     "model-075:bonhams-cars:audi-tt-quattro-sport": {
       "status": "searched",
@@ -3218,11 +3214,11 @@
       "limitation": "Bonhams Cars search returned no current fixed-price Evo VI Tommi Makinen Edition advert meeting the strict mileage and ownership rules."
     },
     "model-035:ferrarichat:lotus-europa-s-se": {
-      "status": "searched",
-      "lastSearchedAt": "2026-09-10T16:12:34Z",
-      "lastResultCount": 0,
+      "status": "failed",
+      "lastSearchedAt": "2026-09-13T02:15:53Z",
+      "lastResultCount": null,
       "candidateUrls": [],
-      "limitation": "No plausible current UK Europa S/SE sale advert was returned."
+      "limitation": "Public web search returned HTTP 503 Service Unavailable; no result set was available to inspect."
     },
     "model-035:gumtree:lotus-europa-s-se": {
       "status": "searched",
@@ -3232,11 +3228,11 @@
       "limitation": "Gumtree search executed. No plausible current direct Lotus Europa S/SE complete-car advert was retained."
     },
     "model-035:lamborghini-talk:lotus-europa-s-se": {
-      "status": "blocked",
-      "lastSearchedAt": "2026-09-10T16:12:34Z",
-      "lastResultCount": 0,
+      "status": "failed",
+      "lastSearchedAt": "2026-09-13T02:15:53Z",
+      "lastResultCount": null,
       "candidateUrls": [],
-      "limitation": "Public search access to lamborghini-talk.com is blocked by robots.txt; no access-control bypass attempted."
+      "limitation": "Public web search returned HTTP 503 Service Unavailable; no result set was available to inspect."
     },
     "model-035:pistonheads:lotus-europa-s-se": {
       "status": "searched",
@@ -3255,11 +3251,11 @@
       "limitation": "Specialist search resurfaced Allon White's already tracked 2006 Europa S at £18,950 with current enquiry/test-drive controls and extensive history; high mileage and full photo/editorial verification remain outstanding."
     },
     "model-036:911uk:lotus-evora-launch-edition": {
-      "status": "searched",
-      "lastSearchedAt": "2026-09-10T16:12:34Z",
-      "lastResultCount": 0,
+      "status": "failed",
+      "lastSearchedAt": "2026-09-13T02:15:53Z",
+      "lastResultCount": null,
       "candidateUrls": [],
-      "limitation": "No plausible current UK Evora Launch Edition sale advert was returned."
+      "limitation": "Public web search returned HTTP 503 Service Unavailable; no result set was available to inspect."
     },
     "model-036:autotrader:lotus-evora-launch-edition": {
       "status": "searched",
@@ -3304,18 +3300,18 @@
       "limitation": "eBay UK search executed. No current complete exact Evora Launch Edition advert was retained."
     },
     "model-036:facebook-groups:lotus-evora-launch-edition": {
-      "status": "searched",
-      "lastSearchedAt": "2026-09-10T16:12:34Z",
-      "lastResultCount": 0,
+      "status": "failed",
+      "lastSearchedAt": "2026-09-13T02:15:53Z",
+      "lastResultCount": null,
       "candidateUrls": [],
-      "limitation": "Public indexed Facebook-group search returned no plausible current Launch Edition advert; private-group access was not attempted."
+      "limitation": "Public web search returned HTTP 503 Service Unavailable; no result set was available to inspect."
     },
     "model-036:ferrarichat:lotus-evora-launch-edition": {
-      "status": "searched",
-      "lastSearchedAt": "2026-09-10T16:12:34Z",
-      "lastResultCount": 0,
+      "status": "failed",
+      "lastSearchedAt": "2026-09-13T02:15:53Z",
+      "lastResultCount": null,
       "candidateUrls": [],
-      "limitation": "No plausible current UK Launch Edition sale advert was returned."
+      "limitation": "Public web search returned HTTP 503 Service Unavailable; no result set was available to inspect."
     },
     "model-036:gumtree:lotus-evora-launch-edition": {
       "status": "searched",
@@ -3325,11 +3321,11 @@
       "limitation": "Gumtree search executed. No plausible current direct exact Evora Launch Edition advert was retained."
     },
     "model-036:lamborghini-talk:lotus-evora-launch-edition": {
-      "status": "blocked",
-      "lastSearchedAt": "2026-09-10T16:12:34Z",
-      "lastResultCount": 0,
+      "status": "failed",
+      "lastSearchedAt": "2026-09-13T02:15:53Z",
+      "lastResultCount": null,
       "candidateUrls": [],
-      "limitation": "Public search access to lamborghini-talk.com is blocked by robots.txt; no access-control bypass attempted."
+      "limitation": "Public web search returned HTTP 503 Service Unavailable; no result set was available to inspect."
     },
     "model-036:pistonheads:lotus-evora-launch-edition": {
       "status": "searched",
@@ -3346,11 +3342,11 @@
       "limitation": "Specialist-dealer search executed. No current direct exact Evora Launch Edition stock advert was retained."
     },
     "model-037:911uk:vauxhall-vx220-2-2-turbo": {
-      "status": "searched",
-      "lastSearchedAt": "2026-09-10T16:12:34Z",
-      "lastResultCount": 0,
+      "status": "failed",
+      "lastSearchedAt": "2026-09-13T02:15:53Z",
+      "lastResultCount": null,
       "candidateUrls": [],
-      "limitation": "No plausible current VX220 sale advert was returned from 911UK."
+      "limitation": "Public web search returned HTTP 503 Service Unavailable; no result set was available to inspect."
     },
     "model-037:autotrader:vauxhall-vx220-2-2-turbo": {
       "status": "searched",
@@ -3395,18 +3391,18 @@
       "limitation": "eBay search was dominated by engines, turbos, sensors, body parts and ended vehicle listings; no current complete VX220 advert retained."
     },
     "model-037:facebook-groups:vauxhall-vx220-2-2-turbo": {
-      "status": "searched",
-      "lastSearchedAt": "2026-09-10T16:12:34Z",
-      "lastResultCount": 0,
+      "status": "failed",
+      "lastSearchedAt": "2026-09-13T02:15:53Z",
+      "lastResultCount": null,
       "candidateUrls": [],
-      "limitation": "Public indexed Facebook-group search returned no plausible current VX220 advert; private-group access was not attempted."
+      "limitation": "Public web search returned HTTP 503 Service Unavailable; no result set was available to inspect."
     },
     "model-037:ferrarichat:vauxhall-vx220-2-2-turbo": {
-      "status": "searched",
-      "lastSearchedAt": "2026-09-10T16:12:34Z",
-      "lastResultCount": 0,
+      "status": "failed",
+      "lastSearchedAt": "2026-09-13T02:15:53Z",
+      "lastResultCount": null,
       "candidateUrls": [],
-      "limitation": "No plausible current UK VX220 sale advert was returned."
+      "limitation": "Public web search returned HTTP 503 Service Unavailable; no result set was available to inspect."
     },
     "model-037:gumtree:vauxhall-vx220-2-2-turbo": {
       "status": "searched",
@@ -5356,11 +5352,11 @@
       "limitation": "Generic Z3 M inventory only; no direct current S50 M Coupe car-details URL retained."
     },
     "model-054:bonhams-cars:bmw-z3-m-coupe-s50": {
-      "status": "searched",
-      "lastSearchedAt": "2026-09-11T02:44:47Z",
-      "lastResultCount": 0,
+      "status": "failed",
+      "lastSearchedAt": "2026-09-13T02:15:53Z",
+      "lastResultCount": null,
       "candidateUrls": [],
-      "limitation": "No current fixed-price UK Z3 M Coupe S50 advert was retained; historical auction material was rejected."
+      "limitation": "Public web search returned HTTP 503 Service Unavailable; no result set was available to inspect."
     },
     "model-054:car-and-classic:bmw-z3-m-coupe-s50": {
       "status": "searched",
@@ -5370,18 +5366,18 @@
       "limitation": "S50 M Coupe page surfaced but advert states removed through sale/otherwise; rejected."
     },
     "model-054:classic-trader:bmw-z3-m-coupe-s50": {
-      "status": "searched",
-      "lastSearchedAt": "2026-09-11T02:44:47Z",
-      "lastResultCount": 0,
+      "status": "failed",
+      "lastSearchedAt": "2026-09-13T02:15:53Z",
+      "lastResultCount": null,
       "candidateUrls": [],
-      "limitation": "No new direct current UK Z3 M Coupe S50 advert was retained."
+      "limitation": "Public web search returned HTTP 503 Service Unavailable; no result set was available to inspect."
     },
     "model-054:collecting-cars:bmw-z3-m-coupe-s50": {
-      "status": "searched",
-      "lastSearchedAt": "2026-09-11T02:44:47Z",
-      "lastResultCount": 0,
+      "status": "failed",
+      "lastSearchedAt": "2026-09-13T02:15:53Z",
+      "lastResultCount": null,
       "candidateUrls": [],
-      "limitation": "No current qualifying Z3 M Coupe S50 advert was retained; completed auction material was rejected."
+      "limitation": "Public web search returned HTTP 503 Service Unavailable; no result set was available to inspect."
     },
     "model-054:ebay:bmw-z3-m-coupe-s50": {
       "status": "searched",
@@ -5449,11 +5445,11 @@
       "limitation": "Generic Z3 M inventory only; no direct current S54 M Coupe car-details URL retained."
     },
     "model-055:bonhams-cars:bmw-z3-m-coupe-s54": {
-      "status": "searched",
-      "lastSearchedAt": "2026-09-11T02:44:47Z",
-      "lastResultCount": 0,
+      "status": "failed",
+      "lastSearchedAt": "2026-09-13T02:15:53Z",
+      "lastResultCount": null,
       "candidateUrls": [],
-      "limitation": "No current fixed-price UK Z3 M Coupe S54 advert was retained; historical auction material was rejected."
+      "limitation": "Public web search returned HTTP 503 Service Unavailable; no result set was available to inspect."
     },
     "model-055:car-and-classic:bmw-z3-m-coupe-s54": {
       "status": "searched",
@@ -5463,11 +5459,11 @@
       "limitation": "Old/removed sale or auction material only; no current S54 M Coupe retained."
     },
     "model-055:classic-trader:bmw-z3-m-coupe-s54": {
-      "status": "searched",
-      "lastSearchedAt": "2026-09-11T02:44:47Z",
-      "lastResultCount": 0,
+      "status": "failed",
+      "lastSearchedAt": "2026-09-13T02:15:53Z",
+      "lastResultCount": null,
       "candidateUrls": [],
-      "limitation": "No new direct current UK Z3 M Coupe S54 advert was retained in this pass."
+      "limitation": "Public web search returned HTTP 503 Service Unavailable; no result set was available to inspect."
     },
     "model-001:facebook-groups:ferrari-360-modena-spider-manual": {
       "status": "blocked",
