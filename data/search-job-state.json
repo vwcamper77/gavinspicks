@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-13T23:48:00Z",
+  "updatedAt": "2026-09-14T00:13:14Z",
   "compactedFromQueueAt": "2026-09-10T06:41:54.207Z",
   "note": "Cumulative worker-write state. Job results are merged from immutable run deltas and folded back into data/search-queue.json by scripts/build-search-queue.mjs.",
   "jobs": {
@@ -438,10 +438,10 @@
     },
     "model-088:gumtree:mitsubishi-evo-vi-tommi-makinen-edition": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-13T15:30:00Z",
+      "lastSearchedAt": "2026-09-14T00:13:14Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Gumtree query returned no plausible current direct TME advert meeting the strict mileage and ownership rules."
+      "limitation": "No plausible current direct TME advert meeting mileage and ownership rules was retained."
     },
     "model-088:lamborghini-talk:mitsubishi-evo-vi-tommi-makinen-edition": {
       "status": "blocked",
@@ -487,10 +487,10 @@
     },
     "model-096:bonhams-cars:bmw-e46-m3-manual-coupe-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-13T13:59:13Z",
+      "lastSearchedAt": "2026-09-14T00:13:14Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Bonhams Cars search executed; no current fixed-price UK E46 M3 factory-manual coupe at or below 50,000 miles was retained."
+      "limitation": "No current direct E46 M3 factory-manual Coupe at or below 50,000 miles with a fixed qualifying asking price was retained."
     },
     "model-096:bonhams-cars:bmw-m3-e46-6-speed-manual-coupe-uk": {
       "status": "searched",
@@ -1223,17 +1223,17 @@
     },
     "model-078:collecting-cars:renault-clio-182-trophy": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-13T13:59:13Z",
+      "lastSearchedAt": "2026-09-14T00:13:14Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Collecting Cars surfaced historical/sold Clio 182 Trophy material, including low-mileage examples; completed sales are excluded and no current qualifying advert was retained."
+      "limitation": "No current qualifying fixed-price Clio 182 Trophy meeting strict mileage/ownership rules was retained."
     },
     "model-078:bonhams-cars:renault-clio-182-trophy": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-13T13:59:13Z",
+      "lastSearchedAt": "2026-09-14T00:13:14Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Bonhams Cars search executed; no current fixed-price qualifying Clio 182 Trophy advert under 30,000 miles with no more than two total owners was retained."
+      "limitation": "No current direct Clio 182 Trophy meeting strict under-30,000-mile/maximum-two-owner rules was retained."
     },
     "model-013:facebook-groups:tvr-sagaris": {
       "status": "blocked",
@@ -1428,24 +1428,24 @@
     },
     "model-015:ebay:tvr-tuscan-tuscan-s-mk2": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T06:37:01Z",
+      "lastSearchedAt": "2026-09-14T00:13:14Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "eBay results were Tuscan parts/exhausts rather than complete vehicles; no candidate retained."
+      "limitation": "No plausible current direct qualifying TVR Tuscan/Tuscan S/Mk2 advert retained."
     },
     "model-015:autotrader:tvr-tuscan-tuscan-s-mk2": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T06:37:01Z",
+      "lastSearchedAt": "2026-09-14T00:13:14Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Auto Trader exposed a generic Tuscan inventory page with two cars but no direct car-details URL from this query; generic pages are not candidates."
+      "limitation": "No new direct current TVR Tuscan/Tuscan S/Mk2 car-details advert retained."
     },
     "model-015:pistonheads:tvr-tuscan-tuscan-s-mk2": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T06:37:01Z",
+      "lastSearchedAt": "2026-09-14T00:13:14Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Executed PistonHeads search. No new current direct Tuscan/Tuscan S/Mk2 advert was retained."
+      "limitation": "No new current direct qualifying TVR Tuscan/Tuscan S/Mk2 advert retained."
     },
     "model-097:autotrader:bmw-e39-m5-manual-uk": {
       "status": "searched",
@@ -1584,17 +1584,17 @@
     },
     "model-097:lamborghini-talk:bmw-m5-e39-6-speed-manual-uk": {
       "status": "blocked",
-      "lastSearchedAt": "2026-09-13T10:20:03Z",
+      "lastSearchedAt": "2026-09-14T00:13:14Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "LamborghiniTalk is blocked by robots.txt for this public search path. No bypass attempted."
+      "limitation": "Public access to lamborghini-talk.com was blocked by robots.txt; no forum advert was inspected."
     },
     "model-024:autotrader:morgan-aero-8-gtn": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T06:37:01Z",
+      "lastSearchedAt": "2026-09-14T00:13:14Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Executed Auto Trader indexed search. No direct current Morgan Aero 8 GTN car-details URL surfaced."
+      "limitation": "No new direct Morgan Aero 8 GTN car-details URL retained."
     },
     "model-024:bonhams-cars:morgan-aero-8-gtn": {
       "status": "searched",
@@ -1605,10 +1605,12 @@
     },
     "model-024:car-and-classic:morgan-aero-8-gtn": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T06:37:01Z",
-      "lastResultCount": 0,
-      "candidateUrls": [],
-      "limitation": "Executed Car & Classic indexed search. No current direct Aero 8 GTN advert was retained."
+      "lastSearchedAt": "2026-09-14T00:13:14Z",
+      "lastResultCount": 1,
+      "candidateUrls": [
+        "https://www.carandclassic.com/car/C2023303"
+      ],
+      "limitation": "The already-tracked 2004 Morgan Aero 8 GTN No.001 cross-post remains For Sale at £64,995 with a 26-photo gallery; same vehicle identity as New Elms, so no duplicate candidate added."
     },
     "model-024:classic-trader:morgan-aero-8-gtn": {
       "status": "searched",
@@ -1626,10 +1628,10 @@
     },
     "model-024:ebay:morgan-aero-8-gtn": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T06:37:01Z",
+      "lastSearchedAt": "2026-09-14T00:13:14Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "eBay results were model cars, posters and parts rather than a complete Morgan Aero 8 GTN; no candidate retained."
+      "limitation": "No plausible current direct Morgan Aero 8 GTN advert retained."
     },
     "model-024:facebook-groups:morgan-aero-8-gtn": {
       "status": "blocked",
@@ -1647,10 +1649,10 @@
     },
     "model-024:gumtree:morgan-aero-8-gtn": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T06:37:01Z",
+      "lastSearchedAt": "2026-09-14T00:13:14Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Executed Gumtree UK search. No plausible current direct Aero 8 GTN advert surfaced."
+      "limitation": "No plausible current direct Morgan Aero 8 GTN advert retained."
     },
     "model-024:lamborghini-talk:morgan-aero-8-gtn": {
       "status": "blocked",
@@ -1661,17 +1663,19 @@
     },
     "model-024:pistonheads:morgan-aero-8-gtn": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T06:37:01Z",
+      "lastSearchedAt": "2026-09-14T00:13:14Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Executed PistonHeads search. No current direct Morgan Aero 8 GTN classified was retained."
+      "limitation": "No new current direct Morgan Aero 8 GTN advert retained."
     },
     "model-024:specialist-dealers:morgan-aero-8-gtn": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T06:37:01Z",
-      "lastResultCount": 0,
-      "candidateUrls": [],
-      "limitation": "Executed specialist-dealer search. No positively current direct Aero 8 GTN stock advert was retained."
+      "lastSearchedAt": "2026-09-14T00:13:14Z",
+      "lastResultCount": 1,
+      "candidateUrls": [
+        "https://www.newelmsberkshire.com/car-sales/car/2004-morgan-aero-8-gtn-limited-edition/"
+      ],
+      "limitation": "New Elms still presents the already-tracked GTN No.001 at £64,995/16,900 miles/manual as current stock. Exterior imagery shows no unavailable overlay; reliable cabin/manual-control image remains outstanding."
     },
     "model-025:911uk:ultima-gtr-road-registered": {
       "status": "searched",
@@ -1682,10 +1686,10 @@
     },
     "model-025:autotrader:ultima-gtr-road-registered": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T06:37:01Z",
+      "lastSearchedAt": "2026-09-14T00:13:14Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Executed Auto Trader indexed search. No current direct qualifying road-registered Ultima GTR car-details URL surfaced."
+      "limitation": "No new direct current road-registered Ultima GTR car-details advert retained."
     },
     "model-025:bonhams-cars:ultima-gtr-road-registered": {
       "status": "searched",
@@ -1696,10 +1700,10 @@
     },
     "model-025:car-and-classic:ultima-gtr-road-registered": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T06:37:01Z",
+      "lastSearchedAt": "2026-09-14T00:13:14Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Executed Car & Classic indexed search. No current direct fixed-price road-registered Ultima GTR advert was retained."
+      "limitation": "No current direct road-registered Ultima GTR advert with adequate build provenance retained."
     },
     "model-025:classic-trader:ultima-gtr-road-registered": {
       "status": "searched",
@@ -1717,10 +1721,10 @@
     },
     "model-025:ebay:ultima-gtr-road-registered": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T06:37:01Z",
+      "lastSearchedAt": "2026-09-14T00:13:14Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "eBay item 178330836192 surfaced at £99,995, but the exact page states the seller ended the listing on 30 July because the item is no longer available; rejected before candidate import."
+      "limitation": "No plausible current direct road-registered Ultima GTR advert retained."
     },
     "model-025:facebook-groups:ultima-gtr-road-registered": {
       "status": "blocked",
@@ -1738,10 +1742,10 @@
     },
     "model-025:gumtree:ultima-gtr-road-registered": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T06:37:01Z",
+      "lastSearchedAt": "2026-09-14T00:13:14Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Executed Gumtree UK search. No plausible current direct road-registered Ultima GTR advert surfaced."
+      "limitation": "No plausible current direct road-registered Ultima GTR advert retained."
     },
     "model-025:lamborghini-talk:ultima-gtr-road-registered": {
       "status": "blocked",
@@ -1752,17 +1756,17 @@
     },
     "model-025:pistonheads:ultima-gtr-road-registered": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T06:37:01Z",
+      "lastSearchedAt": "2026-09-14T00:13:14Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Executed PistonHeads search. No current direct qualifying road-registered Ultima GTR classified was retained."
+      "limitation": "No current direct qualifying road-registered Ultima GTR advert retained."
     },
     "model-025:specialist-dealers:ultima-gtr-road-registered": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T06:37:01Z",
+      "lastSearchedAt": "2026-09-14T00:13:14Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Specialist search found a Philip Raby Ultima GTR at £44,995 but model year 2011, outside the watch target's 1999–2010 range; rejected."
+      "limitation": "No current direct road-registered Ultima GTR stock advert with qualifying evidence retained."
     },
     "model-026:911uk:lotus-exige-s1": {
       "status": "searched",
@@ -1773,10 +1777,10 @@
     },
     "model-026:autotrader:lotus-exige-s1": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T06:37:01Z",
+      "lastSearchedAt": "2026-09-14T00:13:14Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Executed Auto Trader indexed search. No current direct Lotus Exige S1 car-details URL was retained."
+      "limitation": "No new direct current Lotus Exige S1 car-details advert retained."
     },
     "model-026:bonhams-cars:lotus-exige-s1": {
       "status": "searched",
@@ -1787,10 +1791,10 @@
     },
     "model-026:car-and-classic:lotus-exige-s1": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T06:37:01Z",
+      "lastSearchedAt": "2026-09-14T00:13:14Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Car & Classic surfaced a 2001 S1 tied to an offline August 2026 auction; completed/offline auction material is excluded, so no candidate retained."
+      "limitation": "No current direct qualifying Lotus Exige S1 fixed-price advert retained; historical/auction material rejected."
     },
     "model-026:classic-trader:lotus-exige-s1": {
       "status": "searched",
@@ -1864,24 +1868,24 @@
     },
     "model-070:classic-trader:ford-focus-rs500": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-13T12:49:13Z",
+      "lastSearchedAt": "2026-09-14T00:13:14Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Classic Trader query executed; no new direct current qualifying UK Focus RS500 advert retained."
+      "limitation": "Classic Trader query executed; no plausible current direct genuine Focus RS500 advert retained."
     },
     "model-070:collecting-cars:ford-focus-rs-mk2": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-13T12:49:13Z",
+      "lastSearchedAt": "2026-09-14T00:13:14Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Collecting Cars query executed; surfaced historical/completed auction material rather than a current qualifying fixed-price Focus RS Mk2 advert."
+      "limitation": "Collecting Cars results were completed/sold history or auction-style material without a fixed qualifying asking price; no current fixed-price Mk2 candidate retained."
     },
     "model-070:collecting-cars:ford-focus-rs500": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-13T12:49:13Z",
+      "lastSearchedAt": "2026-09-14T00:13:14Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Collecting Cars query executed; surfaced historical/completed auction material rather than a current qualifying fixed-price Focus RS500 advert."
+      "limitation": "No current fixed-price genuine RS500 advert retained; historical/completed auction material was rejected."
     },
     "model-076:autotrader:ford-focus-st500": {
       "status": "searched",
@@ -2193,31 +2197,31 @@
     },
     "model-085:ebay:subaru-impreza-rb320": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-13T15:30:00Z",
+      "lastSearchedAt": "2026-09-14T00:13:14Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "eBay query returned generic Subaru/RB320-related inventory rather than a direct current RB320 advert meeting the under-30,000-mile and maximum-two-total-owner rules; none retained."
+      "limitation": "No current direct RB320 meeting the under-30,000-mile and maximum-two-total-owner rules was retained."
     },
     "model-085:pistonheads:subaru-impreza-rb320": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-13T15:30:00Z",
+      "lastSearchedAt": "2026-09-14T00:13:14Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Current RB320 auction surfaced at 31,180 miles with three previous owners; it fails the Subaru mileage/ownership rules and is an auction, so no candidate retained."
+      "limitation": "Listing 20395030 at £39,950/23,855 miles/one total owner now says no longer available. Auction 19996772 is over 30,000 miles, has three previous owners and is auction-only. Both rejected."
     },
     "model-076:bonhams-cars:ford-focus-st500": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-13T12:49:13Z",
+      "lastSearchedAt": "2026-09-14T00:13:14Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Bonhams Cars query executed; no current qualifying fixed-price UK Focus ST500 advert retained."
+      "limitation": "Bonhams Cars query executed; no current direct genuine Focus ST500 advert retained."
     },
     "model-076:classic-trader:ford-focus-st500": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-13T13:59:13Z",
+      "lastSearchedAt": "2026-09-14T00:13:14Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Classic Trader search executed; no direct current qualifying Focus ST500 advert was retained."
+      "limitation": "Classic Trader query executed; no current direct genuine Focus ST500 advert retained."
     },
     "model-076:collecting-cars:ford-focus-st500": {
       "status": "searched",
@@ -2634,10 +2638,10 @@
     },
     "model-085:gumtree:subaru-impreza-rb320": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-13T15:30:00Z",
+      "lastSearchedAt": "2026-09-14T00:13:14Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Exact RB320 advert 1512393507 is explicitly marked Expired at £23,995; rejected as unavailable."
+      "limitation": "No plausible current direct RB320 advert meeting the strict mileage/ownership rules was retained."
     },
     "model-031:911uk:lotus-elise-s1-111s": {
       "status": "searched",
@@ -2857,33 +2861,31 @@
     },
     "model-085:specialist-dealers:subaru-impreza-rb320": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-13T15:30:00Z",
+      "lastSearchedAt": "2026-09-14T00:13:14Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Specialist-dealer search found no current RB320 advert verified below 30,000 miles with no more than two total owners."
+      "limitation": "Only unavailable or non-qualifying RB320 material surfaced; no current seller-stock candidate meeting strict mileage/ownership rules was retained."
     },
     "model-088:autotrader:mitsubishi-evo-vi-tommi-makinen-edition": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-13T15:30:00Z",
+      "lastSearchedAt": "2026-09-14T00:13:14Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Auto Trader inventory surfaced current TME stock but no direct car-details URL meeting all strict mileage/ownership checks was retained."
+      "limitation": "Current TME inventory resurfaced including the already-tracked £99,995/18,460-mile Auto Torque car, but no new direct Auto Trader detail URL was retained. Pre-import ownership remains unverified."
     },
     "model-088:car-and-classic:mitsubishi-evo-vi-tommi-makinen-edition": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-13T15:30:00Z",
-      "lastResultCount": 1,
-      "candidateUrls": [
-        "https://www.carandclassic.com/car/C2179361"
-      ],
-      "limitation": "Current £99,995/18,460-mile Passion Red TME advert retained as a verification candidate. It is a Japan import with one UK owner; pre-import ownership remains unverified, so it cannot publish under the maximum-two-total-owner rule."
+      "lastSearchedAt": "2026-09-14T00:13:14Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Historical/removed auction material surfaced, not a current qualifying fixed-price TME advert."
     },
     "model-088:ebay:mitsubishi-evo-vi-tommi-makinen-edition": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-13T15:30:00Z",
+      "lastSearchedAt": "2026-09-14T00:13:14Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Current £35,000 TME classified is 56,000 miles and therefore fails the Mitsubishi under-30,000-mile rule; other current results did not meet the gate."
+      "limitation": "Surfaced TME adverts at 56,000 and 42,496 miles exceed the under-30,000-mile cap; another 62,000-mile advert was ended. All rejected."
     },
     "model-088:pistonheads:mitsubishi-evo-vi-tommi-makinen-edition": {
       "status": "searched",
@@ -3187,10 +3189,10 @@
     },
     "model-075:collecting-cars:audi-tt-quattro-sport": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-13T12:49:13Z",
+      "lastSearchedAt": "2026-09-14T00:13:14Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Collecting Cars query executed; results were historical/completed auction material or non-current references. No current qualifying fixed-price UK TT quattro Sport advert retained."
+      "limitation": "The surfaced 2005 TT quattro Sport was a completed 2023 sale; rejected as historical."
     },
     "model-078:classic-trader:renault-clio-182-trophy": {
       "status": "searched",
@@ -3641,17 +3643,17 @@
     },
     "model-088:classic-trader:mitsubishi-evo-vi-tommi-makinen-edition": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-13T13:59:13Z",
+      "lastSearchedAt": "2026-09-14T00:13:14Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Classic Trader search executed; no direct current qualifying Evo VI Tommi Makinen Edition under 30,000 miles with no more than two total owners was retained."
+      "limitation": "No current direct TME advert meeting strict mileage/ownership rules was retained."
     },
     "model-088:collecting-cars:mitsubishi-evo-vi-tommi-makinen-edition": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-13T13:59:13Z",
+      "lastSearchedAt": "2026-09-14T00:13:14Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Collecting Cars surfaced historical TME material outside the mileage/ownership gate; no current qualifying advert was retained."
+      "limitation": "Completed/historical auction material was rejected; no current fixed-price qualifying TME candidate retained."
     },
     "model-056:911uk:bmw-z4-m-coupe": {
       "status": "searched",
@@ -7191,10 +7193,10 @@
     },
     "model-074:lamborghini-talk:porsche-996-40th-anniversary-manual": {
       "status": "blocked",
-      "lastSearchedAt": "2026-09-11T13:12:39Z",
+      "lastSearchedAt": "2026-09-14T00:13:14Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "lamborghini-talk.com is blocked by robots.txt in the public search environment; no access-control bypass attempted."
+      "limitation": "Public access to lamborghini-talk.com was blocked by robots.txt; no forum advert was inspected."
     },
     "model-074:pistonheads:porsche-996-40th-anniversary-manual": {
       "status": "searched",
@@ -7212,24 +7214,24 @@
     },
     "model-077:911uk:ford-focus-st170-estate-under-50000-miles-low-owners": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T13:12:39Z",
+      "lastSearchedAt": "2026-09-14T00:13:14Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No current qualifying ST170 Estate sale thread surfaced on 911UK."
+      "limitation": "No plausible current direct Focus ST170 Estate advert under 50,000 miles with low ownership retained."
     },
     "model-077:911uk:ford-focus-st170-under-50000-miles-low-owners": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T13:12:39Z",
+      "lastSearchedAt": "2026-09-14T00:13:14Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No current qualifying low-mileage/low-owner ST170 sale thread surfaced on 911UK."
+      "limitation": "No plausible current direct exceptional Focus ST170 advert under 50,000 miles with low ownership retained."
     },
     "model-077:911uk:ford-focus-st225-st2-st3-under-50000-miles-low-owners": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T13:12:39Z",
+      "lastSearchedAt": "2026-09-14T00:13:14Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No current qualifying low-mileage/low-owner ST225 ST2/ST3 sale thread surfaced on 911UK."
+      "limitation": "No plausible current direct exceptional Focus ST225 ST2/ST3 advert under 50,000 miles with low ownership retained."
     },
     "model-077:autotrader:ford-focus-st170-estate-under-50000-miles-low-owners": {
       "status": "searched",
@@ -7359,38 +7361,38 @@
     },
     "model-077:facebook-groups:ford-focus-st170-estate-under-50000-miles-low-owners": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T13:12:39Z",
+      "lastSearchedAt": "2026-09-14T00:13:14Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public indexed Facebook-group search returned no accessible current sale post matching the brief; private-group access was not attempted."
+      "limitation": "Public indexed Facebook-groups query executed; no specific accessible current ST170 Estate sale post retained. No authenticated/private-group coverage claimed."
     },
     "model-077:facebook-groups:ford-focus-st170-under-50000-miles-low-owners": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T13:12:39Z",
+      "lastSearchedAt": "2026-09-14T00:13:14Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public indexed Facebook-group search returned no accessible current sale post matching the brief; private-group access was not attempted."
+      "limitation": "Public indexed Facebook-groups query executed; no specific accessible current exceptional ST170 sale post retained. No authenticated/private-group coverage claimed."
     },
     "model-077:facebook-groups:ford-focus-st225-st2-st3-under-50000-miles-low-owners": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T13:12:39Z",
+      "lastSearchedAt": "2026-09-14T00:13:14Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public indexed Facebook-group search returned no accessible current sale post matching the brief; private-group access was not attempted."
+      "limitation": "Public indexed Facebook-groups query executed; no specific accessible current exceptional ST225 ST2/ST3 sale post retained. No authenticated/private-group coverage claimed."
     },
     "model-077:ferrarichat:ford-focus-st170-estate-under-50000-miles-low-owners": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T13:12:39Z",
+      "lastSearchedAt": "2026-09-14T00:13:14Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No current qualifying ST170 Estate sale discussion/ad surfaced on FerrariChat."
+      "limitation": "FerrariChat query executed; no plausible current direct Focus ST170 Estate sale thread retained."
     },
     "model-077:ferrarichat:ford-focus-st170-under-50000-miles-low-owners": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T13:12:39Z",
+      "lastSearchedAt": "2026-09-14T00:13:14Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No current qualifying ST170 sale discussion/ad surfaced on FerrariChat."
+      "limitation": "FerrariChat query executed; no plausible current direct exceptional Focus ST170 sale thread retained."
     },
     "model-077:ferrarichat:ford-focus-st225-st2-st3-under-50000-miles-low-owners": {
       "status": "searched",
@@ -9501,10 +9503,10 @@
     },
     "model-094:bonhams-cars:alfa-romeo-156-gta-saloon-manual-under-50000-miles-low-owners": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T01:20:07Z",
+      "lastSearchedAt": "2026-09-14T00:13:14Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Executed Bonhams Cars search. No current fixed-price qualifying 156 GTA saloon advert under 50,000 miles with low ownership retained."
+      "limitation": "No current direct 156 GTA saloon manual under 50,000 miles with low ownership and a fixed qualifying asking price retained."
     },
     "model-094:car-and-classic:alfa-romeo-156-gta-saloon-manual-under-50000-miles-low-owners": {
       "status": "searched",
@@ -9515,17 +9517,17 @@
     },
     "model-094:classic-trader:alfa-romeo-156-gta-saloon-manual-under-50000-miles-low-owners": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T01:20:07Z",
+      "lastSearchedAt": "2026-09-14T00:13:14Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Executed Classic Trader search. No current qualifying UK 156 GTA saloon advert under 50,000 miles with low ownership retained."
+      "limitation": "No current direct 156 GTA saloon manual under 50,000 miles with low ownership retained."
     },
     "model-094:collecting-cars:alfa-romeo-156-gta-saloon-manual-under-50000-miles-low-owners": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T01:20:07Z",
+      "lastSearchedAt": "2026-09-14T00:13:14Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Executed Collecting Cars search. No current fixed-price qualifying UK 156 GTA saloon advert retained; completed/historical auction material was excluded."
+      "limitation": "No current fixed-price 156 GTA saloon manual under 50,000 miles with low ownership retained; auction/history material rejected."
     },
     "model-094:ebay:alfa-romeo-156-gta-saloon-manual-under-50000-miles-low-owners": {
       "status": "searched",
@@ -9592,10 +9594,10 @@
     },
     "model-095:bonhams-cars:alfa-romeo-156-gta-sportwagon-manual-under-50000-miles-low-owners": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T01:20:07Z",
+      "lastSearchedAt": "2026-09-14T00:13:14Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Executed Bonhams Cars search. No current fixed-price qualifying 156 GTA Sportwagon advert retained."
+      "limitation": "No current direct 156 GTA Sportwagon manual under 50,000 miles with low ownership and a fixed qualifying asking price retained."
     },
     "model-095:car-and-classic:alfa-romeo-156-gta-sportwagon-manual-under-50000-miles-low-owners": {
       "status": "searched",
