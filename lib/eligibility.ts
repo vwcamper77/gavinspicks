@@ -58,10 +58,12 @@ function isEditoriallyExcluded(l: ListingCheck): boolean {
 }
 export function isLiveListing(l: ListingCheck, now: number): boolean {
  const checked = Date.parse(l.checkedAt);
+ // A previously verified advert stays published until we have positive evidence that it is no longer available.
+ // checkedAt is still required and cannot be in the future, but a missed recheck must not silently remove a good car.
  return !isEditoriallyExcluded(l) && l.status === 'available' && l.photoChecked === true &&
  l.priceVerified === true && l.availableVerified === true &&
  l.specVerified === true && l.ukVerified === true &&
  Number.isFinite(l.price) && l.price >= 10000 && l.price <= 100000 &&
  matchesModelPolicy(l) && matchesMileagePolicy(l) &&
- Number.isFinite(checked) && checked <= now + 60000 && now - checked <= 86400000;
+ Number.isFinite(checked) && checked <= now + 60000;
 }
