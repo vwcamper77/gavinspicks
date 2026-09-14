@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-14T00:13:14Z",
+  "updatedAt": "2026-09-14T01:33:19Z",
   "compactedFromQueueAt": "2026-09-10T06:41:54.207Z",
   "note": "Cumulative worker-write state. Job results are merged from immutable run deltas and folded back into data/search-queue.json by scripts/build-search-queue.mjs.",
   "jobs": {
@@ -37,10 +37,10 @@
     },
     "model-056:gumtree:bmw-z4-m-coupe": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-13T17:01:21Z",
+      "lastSearchedAt": "2026-09-14T01:33:19Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Gumtree query executed; no plausible current direct Z4 M Coupe advert retained."
+      "limitation": "Gumtree query executed; no plausible current direct BMW Z4 M Coupé advert was retained."
     },
     "model-056:specialist-dealers:bmw-z4-m-coupe": {
       "status": "searched",
@@ -494,10 +494,10 @@
     },
     "model-096:bonhams-cars:bmw-m3-e46-6-speed-manual-coupe-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-13T13:59:13Z",
+      "lastSearchedAt": "2026-09-14T01:33:19Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Bonhams Cars search executed; no current fixed-price UK E46 M3 factory 6-speed manual coupe at or below 50,000 miles was retained."
+      "limitation": "Bonhams Cars query executed; returned no current UK fixed-price E46 M3 manual Coupé advert at or below 50,000 miles. Auction/history material was not retained."
     },
     "model-096:car-and-classic:bmw-e46-m3-manual-coupe-uk": {
       "status": "searched",
@@ -731,31 +731,31 @@
     },
     "model-096:classic-trader:bmw-e46-m3-manual-coupe-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-13T13:59:13Z",
+      "lastSearchedAt": "2026-09-14T01:33:19Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Classic Trader currently shows Hexagon's 3,100-mile 2003 E46 M3 at £120,000, above the £100,000 ceiling. The originating Hexagon seller page still shows £99,995; this source-specific listing was not retained as a candidate because its displayed asking price fails the gate."
+      "limitation": "Classic Trader query executed; no direct current UK E46 M3 factory-manual Coupé advert at or below 50,000 miles was retained."
     },
     "model-096:classic-trader:bmw-m3-e46-6-speed-manual-coupe-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-13T13:59:13Z",
+      "lastSearchedAt": "2026-09-14T01:33:19Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Classic Trader currently shows Hexagon's 3,100-mile 2003 E46 M3 at £120,000, above the £100,000 ceiling. The originating Hexagon seller page still shows £99,995; this source-specific listing was not retained as a candidate because its displayed asking price fails the gate."
+      "limitation": "Classic Trader alternate query executed; no direct current UK E46 M3 factory-manual Coupé advert at or below 50,000 miles was retained."
     },
     "model-096:collecting-cars:bmw-e46-m3-manual-coupe-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-13T13:59:13Z",
+      "lastSearchedAt": "2026-09-14T01:33:19Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Collecting Cars search surfaced completed/historical E46 M3 sales rather than a current fixed-price qualifying advert; none retained."
+      "limitation": "Collecting Cars query executed; no current qualifying fixed-price E46 M3 manual Coupé advert was retained. Auction/result pages do not satisfy the asking-price rule."
     },
     "model-096:collecting-cars:bmw-m3-e46-6-speed-manual-coupe-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-13T13:59:13Z",
+      "lastSearchedAt": "2026-09-14T01:33:19Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Collecting Cars search surfaced completed/historical E46 M3 sales rather than a current fixed-price qualifying advert; none retained."
+      "limitation": "Collecting Cars alternate query executed; no current qualifying fixed-price E46 M3 manual Coupé advert was retained."
     },
     "model-096:ebay:bmw-e46-m3-manual-coupe-uk": {
       "status": "searched",
@@ -1463,17 +1463,17 @@
     },
     "model-097:bonhams-cars:bmw-e39-m5-manual-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-13T13:59:13Z",
+      "lastSearchedAt": "2026-09-14T01:33:19Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Bonhams Cars search executed; no current fixed-price UK E39 M5 manual at or below 50,000 miles was retained."
+      "limitation": "Bonhams Cars query executed; no current UK fixed-price E39 M5 manual advert at or below 50,000 miles was retained."
     },
     "model-097:bonhams-cars:bmw-m5-e39-6-speed-manual-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-13T13:59:13Z",
+      "lastSearchedAt": "2026-09-14T01:33:19Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Bonhams Cars search executed; no current fixed-price UK E39 M5 6-speed manual at or below 50,000 miles was retained."
+      "limitation": "Bonhams Cars alternate query executed; no current UK fixed-price E39 M5 manual advert at or below 50,000 miles was retained."
     },
     "model-097:car-and-classic:bmw-e39-m5-manual-uk": {
       "status": "searched",
@@ -1493,31 +1493,31 @@
     },
     "model-097:classic-trader:bmw-e39-m5-manual-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-13T13:59:13Z",
+      "lastSearchedAt": "2026-09-14T01:33:19Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Classic Trader search executed; no direct current qualifying UK E39 M5 manual at or below 50,000 miles was retained."
+      "limitation": "Classic Trader query executed; no new direct current UK E39 M5 manual advert at or below 50,000 miles was retained."
     },
     "model-097:classic-trader:bmw-m5-e39-6-speed-manual-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-13T14:18:15Z",
+      "lastSearchedAt": "2026-09-14T01:33:19Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Classic Trader query executed; no current UK E39 M5 advert under the 50,000-mile cap retained."
+      "limitation": "Classic Trader alternate query executed; no new direct current UK E39 M5 manual advert at or below 50,000 miles was retained."
     },
     "model-097:collecting-cars:bmw-e39-m5-manual-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-13T14:18:15Z",
+      "lastSearchedAt": "2026-09-14T01:33:19Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Collecting Cars query surfaced historical/completed-sale material; no current qualifying fixed-price E39 M5 candidate retained."
+      "limitation": "Collecting Cars query executed; no current qualifying fixed-price E39 M5 advert was retained. Auction/result pages were rejected."
     },
     "model-097:collecting-cars:bmw-m5-e39-6-speed-manual-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-13T14:18:15Z",
+      "lastSearchedAt": "2026-09-14T01:33:19Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Collecting Cars query surfaced historical/completed-sale material; no current qualifying fixed-price E39 M5 candidate retained."
+      "limitation": "Collecting Cars alternate query executed; no current qualifying fixed-price E39 M5 advert was retained."
     },
     "model-097:ebay:bmw-e39-m5-manual-uk": {
       "status": "searched",
@@ -1805,31 +1805,31 @@
     },
     "model-097:pistonheads:bmw-e39-m5-manual-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-13T17:01:21Z",
+      "lastSearchedAt": "2026-09-14T01:33:19Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "PistonHeads query executed. Current E39 M5 results surfaced but exceeded the 50,000-mile model cap; no qualifying direct advert retained."
+      "limitation": "PistonHeads query executed. Listing 16225032 surfaced at £45,000/26,900 miles but the original page now says MOT expired and 'This car is no longer available for purchase'; rejected. Other results exceeded the 50,000-mile cap or were unavailable/auction-only."
     },
     "model-097:pistonheads:bmw-m5-e39-6-speed-manual-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-13T17:01:21Z",
+      "lastSearchedAt": "2026-09-14T01:33:19Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "PistonHeads query executed. Current E39 M5 results surfaced but exceeded the 50,000-mile model cap; no qualifying direct advert retained."
+      "limitation": "PistonHeads alternate query executed. The previously tracked 26,900-mile listing 16225032 is now explicitly unavailable with MOT expired; no new current qualifying E39 M5 was retained."
     },
     "model-097:specialist-dealers:bmw-e39-m5-manual-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-13T17:01:21Z",
+      "lastSearchedAt": "2026-09-14T01:33:19Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Specialist-dealer search executed. Current stock found exceeded the 50,000-mile model cap; no qualifying direct advert retained."
+      "limitation": "Specialist-dealer search executed; no new direct current E39 M5 manual under 50,000 miles was retained beyond already tracked stock."
     },
     "model-097:specialist-dealers:bmw-m5-e39-6-speed-manual-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-13T17:01:21Z",
+      "lastSearchedAt": "2026-09-14T01:33:19Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Specialist-dealer search executed. Current stock found exceeded the 50,000-mile model cap; no qualifying direct advert retained."
+      "limitation": "Specialist-dealer alternate search executed; no new direct current E39 M5 manual under 50,000 miles was retained."
     },
     "model-070:gumtree:ford-focus-rs500": {
       "status": "searched",
@@ -1952,10 +1952,10 @@
     },
     "model-026:ebay:lotus-exige-s1": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T07:57:37Z",
+      "lastSearchedAt": "2026-09-14T01:33:19Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "eBay results were unrelated Elise cars, parts or non-qualifying material; no current complete Exige S1 vehicle advert retained."
+      "limitation": "eBay query executed; results were parts, irrelevant or non-current material. No current Lotus Exige S1 advert was retained."
     },
     "model-026:facebook-groups:lotus-exige-s1": {
       "status": "searched",
@@ -1973,10 +1973,10 @@
     },
     "model-026:gumtree:lotus-exige-s1": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T07:57:37Z",
+      "lastSearchedAt": "2026-09-14T01:33:19Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Executed Gumtree search; no plausible current direct UK Lotus Exige S1 vehicle advert was retained."
+      "limitation": "Gumtree query executed; no plausible current direct Lotus Exige S1 advert was retained."
     },
     "model-026:lamborghini-talk:lotus-exige-s1": {
       "status": "blocked",
@@ -1987,17 +1987,17 @@
     },
     "model-026:pistonheads:lotus-exige-s1": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T07:57:37Z",
+      "lastSearchedAt": "2026-09-14T01:33:19Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "PistonHeads surfaced an Iconic Auctioneers estimate and older adverts explicitly no longer available/deposit taken. No qualifying current fixed-price Exige S1 candidate retained."
+      "limitation": "PistonHeads query executed; no new direct current qualifying Lotus Exige S1 advert was retained."
     },
     "model-026:specialist-dealers:lotus-exige-s1": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T07:57:37Z",
+      "lastSearchedAt": "2026-09-14T01:33:19Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Executed specialist-dealer search; no current dealer-stock Exige S1 advert meeting the live fixed-price rules was retained."
+      "limitation": "Specialist-dealer search executed; no new direct current Lotus Exige S1 stock advert was retained."
     },
     "model-027:911uk:lotus-exige-s2-naturally-aspirated": {
       "status": "searched",
@@ -2008,10 +2008,10 @@
     },
     "model-027:autotrader:lotus-exige-s2-naturally-aspirated": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T07:57:37Z",
+      "lastSearchedAt": "2026-09-14T01:33:19Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Executed Auto Trader indexed search; no current direct naturally aspirated Exige S2 car-details URL was retained."
+      "limitation": "Auto Trader query executed; only generic inventory/search material surfaced, not a direct current qualifying Exige S2 naturally aspirated advert."
     },
     "model-027:bonhams-cars:lotus-exige-s2-naturally-aspirated": {
       "status": "searched",
@@ -2022,10 +2022,10 @@
     },
     "model-027:car-and-classic:lotus-exige-s2-naturally-aspirated": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T07:57:37Z",
+      "lastSearchedAt": "2026-09-14T01:33:19Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Executed Car & Classic search; no current direct naturally aspirated Exige S2 advert was retained."
+      "limitation": "Car & Classic query executed; a low-mileage 2004 S2 naturally aspirated page surfaced but is explicitly sold/removed, so no current candidate was retained."
     },
     "model-027:classic-trader:lotus-exige-s2-naturally-aspirated": {
       "status": "searched",
@@ -2043,10 +2043,10 @@
     },
     "model-027:ebay:lotus-exige-s2-naturally-aspirated": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T07:57:37Z",
+      "lastSearchedAt": "2026-09-14T01:33:19Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "eBay results were parts/accessories or otherwise non-qualifying; no current complete naturally aspirated Exige S2 vehicle advert retained."
+      "limitation": "eBay query executed; results were parts/irrelevant material rather than a current qualifying Exige S2 naturally aspirated car."
     },
     "model-027:facebook-groups:lotus-exige-s2-naturally-aspirated": {
       "status": "searched",
@@ -2064,10 +2064,10 @@
     },
     "model-027:gumtree:lotus-exige-s2-naturally-aspirated": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T07:57:37Z",
+      "lastSearchedAt": "2026-09-14T01:33:19Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Executed Gumtree search; no plausible current direct naturally aspirated Exige S2 advert was retained."
+      "limitation": "Gumtree query executed; no plausible current direct Exige S2 naturally aspirated advert was retained."
     },
     "model-027:lamborghini-talk:lotus-exige-s2-naturally-aspirated": {
       "status": "blocked",
@@ -2078,17 +2078,19 @@
     },
     "model-027:pistonheads:lotus-exige-s2-naturally-aspirated": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T07:57:37Z",
-      "lastResultCount": 0,
-      "candidateUrls": [],
-      "limitation": "Executed PistonHeads search; no plausible current direct naturally aspirated Exige S2 fixed-price advert was retained."
+      "lastSearchedAt": "2026-09-14T01:33:19Z",
+      "lastResultCount": 1,
+      "candidateUrls": [
+        "https://www.pistonheads.com/buy/listing/20589461"
+      ],
+      "limitation": "PistonHeads query executed. Current 2006 Exige Touring listing 20589461 at £23,900/77,000 miles/manual is a plausible direct advert and is retained for verification/editorial review; it is a weaker, higher-mileage example."
     },
     "model-027:specialist-dealers:lotus-exige-s2-naturally-aspirated": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T07:57:37Z",
+      "lastSearchedAt": "2026-09-14T01:33:19Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Executed specialist-dealer search; no current direct naturally aspirated Exige S2 dealer-stock advert was retained."
+      "limitation": "Specialist-dealer search executed; no new direct current Exige S2 naturally aspirated stock advert was retained."
     },
     "model-028:911uk:lotus-exige-s-s-240": {
       "status": "searched",
@@ -2099,10 +2101,10 @@
     },
     "model-028:autotrader:lotus-exige-s-s-240": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T07:57:37Z",
+      "lastSearchedAt": "2026-09-14T01:33:19Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Executed Auto Trader indexed search; no current direct Lotus Exige S/S 240 car-details URL was retained."
+      "limitation": "Auto Trader query executed; only generic inventory/search material surfaced, not a direct current Exige S/S240 car-details advert."
     },
     "model-028:bonhams-cars:lotus-exige-s-s-240": {
       "status": "searched",
@@ -2113,10 +2115,10 @@
     },
     "model-028:car-and-classic:lotus-exige-s-s-240": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T07:57:37Z",
+      "lastSearchedAt": "2026-09-14T01:33:19Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Executed Car & Classic search; no current direct Lotus Exige S/S 240 advert was retained."
+      "limitation": "Car & Classic query executed; no new direct current qualifying Exige S/S240 advert was retained."
     },
     "model-028:classic-trader:lotus-exige-s-s-240": {
       "status": "searched",
@@ -2134,10 +2136,10 @@
     },
     "model-028:ebay:lotus-exige-s-s-240": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T07:57:37Z",
+      "lastSearchedAt": "2026-09-14T01:33:19Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "eBay returned Exige S 240 parts rather than complete cars; no candidate retained."
+      "limitation": "eBay query executed; results were parts/irrelevant material rather than a current qualifying Exige S/S240 car."
     },
     "model-028:facebook-groups:lotus-exige-s-s-240": {
       "status": "searched",
@@ -2295,10 +2297,10 @@
     },
     "model-028:gumtree:lotus-exige-s-s-240": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T07:57:37Z",
+      "lastSearchedAt": "2026-09-14T01:33:19Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Executed Gumtree search; no plausible current direct Lotus Exige S/S 240 advert was retained."
+      "limitation": "Gumtree query executed; no plausible current direct Exige S/S240 advert was retained."
     },
     "model-028:lamborghini-talk:lotus-exige-s-s-240": {
       "status": "blocked",
@@ -2309,17 +2311,20 @@
     },
     "model-028:pistonheads:lotus-exige-s-s-240": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T07:57:37Z",
-      "lastResultCount": 0,
-      "candidateUrls": [],
-      "limitation": "Executed PistonHeads search; no plausible current fixed-price Lotus Exige S/S 240 advert was retained."
+      "lastSearchedAt": "2026-09-14T01:33:19Z",
+      "lastResultCount": 2,
+      "candidateUrls": [
+        "https://www.pistonheads.com/buy/listing/20772154",
+        "https://www.pistonheads.com/buy/listing/16696591"
+      ],
+      "limitation": "PistonHeads query executed. Current manual listings 20772154 (£34,990/43,000 miles, S240 Triple Pack) and 16696591 (£41,995/14,997 miles, S Touring Plus) remain plausible and already tracked. Listing 20733461 was rejected because the advert says deposit taken."
     },
     "model-028:specialist-dealers:lotus-exige-s-s-240": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T07:57:37Z",
+      "lastSearchedAt": "2026-09-14T01:33:19Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Executed specialist-dealer search; no current direct Lotus Exige S/S 240 dealer-stock advert was retained."
+      "limitation": "Specialist-dealer search executed; no new direct current Exige S/S240 stock identity was retained beyond already tracked adverts."
     },
     "model-029:911uk:lotus-exige-240r": {
       "status": "searched",
@@ -2330,10 +2335,10 @@
     },
     "model-029:autotrader:lotus-exige-240r": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T07:57:37Z",
+      "lastSearchedAt": "2026-09-14T01:33:19Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Executed Auto Trader indexed search; no current direct Lotus Exige 240R car-details URL was retained."
+      "limitation": "Auto Trader query executed; no direct current genuine Lotus Exige 240R advert was retained."
     },
     "model-029:bonhams-cars:lotus-exige-240r": {
       "status": "searched",
@@ -2344,10 +2349,10 @@
     },
     "model-029:car-and-classic:lotus-exige-240r": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T07:57:37Z",
+      "lastSearchedAt": "2026-09-14T01:33:19Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Executed Car & Classic search; no current direct Lotus Exige 240R advert was retained."
+      "limitation": "Car & Classic query executed; no direct current genuine Lotus Exige 240R advert was retained."
     },
     "model-029:classic-trader:lotus-exige-240r": {
       "status": "searched",
@@ -2365,10 +2370,10 @@
     },
     "model-029:ebay:lotus-exige-240r": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T07:57:37Z",
+      "lastSearchedAt": "2026-09-14T01:33:19Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Executed eBay UK search; no current complete Lotus Exige 240R vehicle advert was retained."
+      "limitation": "eBay query executed; results were parts/irrelevant material rather than a current genuine Exige 240R car."
     },
     "model-029:facebook-groups:lotus-exige-240r": {
       "status": "blocked",
@@ -2386,10 +2391,10 @@
     },
     "model-029:gumtree:lotus-exige-240r": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T08:48:57Z",
+      "lastSearchedAt": "2026-09-14T01:33:19Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Gumtree search executed; no plausible current direct Exige 240R vehicle advert surfaced."
+      "limitation": "Gumtree query executed; no plausible current direct genuine Exige 240R advert was retained."
     },
     "model-029:lamborghini-talk:lotus-exige-240r": {
       "status": "blocked",
@@ -2400,17 +2405,17 @@
     },
     "model-029:pistonheads:lotus-exige-240r": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T08:48:57Z",
+      "lastSearchedAt": "2026-09-14T01:33:19Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "One result explicitly said no longer available and another current-looking indexed 240R detail URL now returns 404; both rejected as stale/unavailable."
+      "limitation": "PistonHeads query executed; no direct current genuine 2005 Exige 240R advert was retained."
     },
     "model-029:specialist-dealers:lotus-exige-240r": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T08:48:57Z",
+      "lastSearchedAt": "2026-09-14T01:33:19Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Specialist-dealer search executed; no new current originating dealer advert retained."
+      "limitation": "Specialist-dealer search executed; no new direct current genuine Exige 240R stock advert was retained."
     },
     "model-030:911uk:lotus-exige-cup-240-cup-260": {
       "status": "searched",
@@ -2421,10 +2426,10 @@
     },
     "model-030:autotrader:lotus-exige-cup-240-cup-260": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T08:48:57Z",
+      "lastSearchedAt": "2026-09-14T01:33:19Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Auto Trader search executed; no qualifying direct current Exige Cup 240/Cup 260 car-details URL surfaced."
+      "limitation": "Auto Trader query executed; only generic inventory/search material surfaced, not a direct current Cup 240/Cup 260 advert."
     },
     "model-030:bonhams-cars:lotus-exige-cup-240-cup-260": {
       "status": "searched",
@@ -2435,10 +2440,10 @@
     },
     "model-030:car-and-classic:lotus-exige-cup-240-cup-260": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T08:48:57Z",
+      "lastSearchedAt": "2026-09-14T01:33:19Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Car & Classic search executed; no qualifying current direct Exige Cup 240/Cup 260 advert retained."
+      "limitation": "Car & Classic query executed; no new direct current qualifying Exige Cup 240/Cup 260 advert was retained."
     },
     "model-030:classic-trader:lotus-exige-cup-240-cup-260": {
       "status": "searched",
@@ -2456,10 +2461,10 @@
     },
     "model-030:ebay:lotus-exige-cup-240-cup-260": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T08:48:57Z",
+      "lastSearchedAt": "2026-09-14T01:33:19Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "eBay search results were parts, wheels, brochures or unrelated material; no current complete vehicle advert retained."
+      "limitation": "eBay query executed; results were parts/irrelevant material rather than a current qualifying Cup 240/Cup 260 car."
     },
     "model-030:facebook-groups:lotus-exige-cup-240-cup-260": {
       "status": "blocked",
@@ -2477,10 +2482,10 @@
     },
     "model-030:gumtree:lotus-exige-cup-240-cup-260": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T08:48:57Z",
+      "lastSearchedAt": "2026-09-14T01:33:19Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Gumtree search executed; no plausible current direct Exige Cup 240/Cup 260 vehicle advert surfaced."
+      "limitation": "Gumtree query executed; no plausible current direct Exige Cup 240/Cup 260 advert was retained."
     },
     "model-030:lamborghini-talk:lotus-exige-cup-240-cup-260": {
       "status": "blocked",
@@ -2491,17 +2496,19 @@
     },
     "model-030:pistonheads:lotus-exige-cup-240-cup-260": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T08:48:57Z",
-      "lastResultCount": 0,
-      "candidateUrls": [],
-      "limitation": "PistonHeads search executed; no new qualifying current direct Cup 240/Cup 260 advert retained."
+      "lastSearchedAt": "2026-09-14T01:33:19Z",
+      "lastResultCount": 1,
+      "candidateUrls": [
+        "https://www.pistonheads.com/buy/listing/19837622"
+      ],
+      "limitation": "PistonHeads query executed. Current 2006 Exige 240 Cup Race Spec listing 19837622 at £44,995/22,233 miles/manual remains live and already tracked; retain for photo/manual-control verification."
     },
     "model-030:specialist-dealers:lotus-exige-cup-240-cup-260": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T08:48:57Z",
+      "lastSearchedAt": "2026-09-14T01:33:19Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Specialist-dealer search executed; no new current originating Cup 240/Cup 260 stock advert retained."
+      "limitation": "Specialist-dealer search executed; no new direct current Exige Cup 240/Cup 260 stock identity was retained beyond already tracked adverts."
     },
     "model-070:lamborghini-talk:ford-focus-rs-mk2": {
       "status": "blocked",
@@ -2889,12 +2896,12 @@
     },
     "model-088:pistonheads:mitsubishi-evo-vi-tommi-makinen-edition": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-13T17:01:21Z",
+      "lastSearchedAt": "2026-09-14T01:33:19Z",
       "lastResultCount": 1,
       "candidateUrls": [
         "https://www.pistonheads.com/buy/listing/20971451"
       ],
-      "limitation": "PistonHeads query executed. One plausible current TME at £99,995/18,460 miles/manual was retained; other results were over the mileage/owner cap or unavailable. Candidate remains unverified because Japanese pre-import ownership is not evidenced."
+      "limitation": "PistonHeads query executed. Current £99,995/18,460-mile manual TME listing 20971451 remains the only under-30,000-mile plausible lead; it is already tracked and remains verification-pending because pre-import ownership is not evidenced. Other results exceeded the mileage cap, were unavailable, modified or auction-only."
     },
     "model-056:bonhams-cars:bmw-z4-m-coupe": {
       "status": "searched",
@@ -2919,10 +2926,10 @@
     },
     "model-070:bonhams-cars:ford-focus-rs-mk1": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-13T14:18:15Z",
+      "lastSearchedAt": "2026-09-14T01:33:19Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Bonhams Cars query executed; no current fixed-price qualifying Focus RS Mk1 advert retained. Historical/completed auction material excluded."
+      "limitation": "Bonhams Cars query executed; no current qualifying Focus RS Mk1 fixed-price advert was retained."
     },
     "model-070:collecting-cars:ford-focus-rs-mk1": {
       "status": "searched",
@@ -3657,17 +3664,17 @@
     },
     "model-056:911uk:bmw-z4-m-coupe": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-13T12:05:29Z",
+      "lastSearchedAt": "2026-09-14T01:33:19Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "911UK search executed; no direct current BMW Z4 M Coupe sale advert meeting the editorial/current-availability standard was retained."
+      "limitation": "911UK indexed search executed; no direct current BMW Z4 M Coupé sale advert was retained."
     },
     "model-056:facebook-groups:bmw-z4-m-coupe": {
       "status": "blocked",
-      "lastSearchedAt": "2026-09-13T12:05:29Z",
+      "lastSearchedAt": "2026-09-14T01:33:19Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public indexed Facebook-group search returned no direct current BMW Z4 M Coupe sale post. Authenticated/private-group access was not attempted."
+      "limitation": "Public indexed Facebook-group query was executed but returned no accessible direct current Z4 M Coupé sale post. Private/authenticated group access was not attempted."
     },
     "model-056:ferrarichat:bmw-z4-m-coupe": {
       "status": "searched",
@@ -9608,17 +9615,17 @@
     },
     "model-095:classic-trader:alfa-romeo-156-gta-sportwagon-manual-under-50000-miles-low-owners": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T01:20:07Z",
+      "lastSearchedAt": "2026-09-14T01:33:19Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Executed Classic Trader search. No current qualifying UK 156 GTA Sportwagon advert under 50,000 miles with low ownership retained."
+      "limitation": "Classic Trader query executed; no direct current qualifying Alfa Romeo 156 GTA Sportwagon manual under 50,000 miles with sufficiently clear ownership evidence was retained."
     },
     "model-095:collecting-cars:alfa-romeo-156-gta-sportwagon-manual-under-50000-miles-low-owners": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T01:20:07Z",
+      "lastSearchedAt": "2026-09-14T01:33:19Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Executed Collecting Cars search. No current fixed-price qualifying 156 GTA Sportwagon advert retained; historical/completed sale material excluded."
+      "limitation": "Collecting Cars query executed; no current qualifying fixed-price Alfa 156 GTA Sportwagon manual was retained. Historical/auction material was rejected."
     },
     "model-095:ebay:alfa-romeo-156-gta-sportwagon-manual-under-50000-miles-low-owners": {
       "status": "searched",
