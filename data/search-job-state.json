@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-14T13:11:48Z",
+  "updatedAt": "2026-09-14T13:41:28Z",
   "compactedFromQueueAt": "2026-09-10T06:41:54.207Z",
   "note": "Cumulative worker-write state. Job results are merged from immutable run deltas and folded back into data/search-queue.json by scripts/build-search-queue.mjs.",
   "jobs": {
@@ -12,10 +12,10 @@
     },
     "model-056:autotrader:bmw-z4-m-coupe": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T05:53:43Z",
+      "lastSearchedAt": "2026-09-14T13:41:28Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Auto Trader surfaced the live Z4 M Coupe inventory/category page but no direct car-details URL strong enough to retain from this query."
+      "limitation": "Auto Trader surfaced live Z4 M Coupe category inventory but no direct current car-details URL strong enough to retain."
     },
     "model-056:pistonheads:bmw-z4-m-coupe": {
       "status": "searched",
@@ -26,10 +26,12 @@
     },
     "model-056:car-and-classic:bmw-z4-m-coupe": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T05:53:43Z",
-      "lastResultCount": 0,
-      "candidateUrls": [],
-      "limitation": "Car & Classic result C2134074 is explicitly removed through sale or otherwise; no current direct Z4 M Coupe advert retained from this query."
+      "lastSearchedAt": "2026-09-14T13:41:28Z",
+      "lastResultCount": 1,
+      "candidateUrls": [
+        "https://www.carandclassic.com/car/C2114176"
+      ],
+      "limitation": "Current 2008 Z4 M Coupe SW57GNF at £29,995, 49,155 miles, manual and UK dealer stock was retained; full seller-photo, current-stock and provenance/originality verification remains incomplete."
     },
     "model-056:gumtree:bmw-z4-m-coupe": {
       "status": "searched",
@@ -762,10 +764,10 @@
     },
     "model-096:ebay:bmw-m3-e46-6-speed-manual-coupe-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T05:03:03Z",
+      "lastSearchedAt": "2026-09-14T13:41:28Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Direct E46 M3 manual eBay result surfaced at 93,000 miles, above the 50,000-mile cap; no qualifying current candidate retained."
+      "limitation": "eBay item 206363441512 is explicitly ended; another surfaced E46 M3 could not be established as current and mileage-qualified. No current qualifying URL was retained."
     },
     "model-096:facebook-groups:bmw-e46-m3-manual-coupe-uk": {
       "status": "searched",
@@ -797,10 +799,10 @@
     },
     "model-096:gumtree:bmw-e46-m3-manual-coupe-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T05:03:03Z",
+      "lastSearchedAt": "2026-09-14T13:41:28Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Gumtree results were over the mileage cap, convertible, non-M3 or transmission-ambiguous; no qualifying factory-manual coupe retained."
+      "limitation": "Gumtree surfaced a 2003 M3 convertible at about 96,000 miles, failing the coupe and 50,000-mile target; no qualifying advert was retained."
     },
     "model-096:gumtree:bmw-m3-e46-6-speed-manual-coupe-uk": {
       "status": "searched",
@@ -818,10 +820,10 @@
     },
     "model-096:lamborghini-talk:bmw-m3-e46-6-speed-manual-coupe-uk": {
       "status": "blocked",
-      "lastSearchedAt": "2026-09-13T23:39:03Z",
+      "lastSearchedAt": "2026-09-14T13:41:28Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "LamborghiniTalk public web access is blocked by robots.txt; no bypass attempted."
+      "limitation": "LamborghiniTalk was blocked by robots.txt during this run; no bypass or authenticated access was attempted."
     },
     "model-096:pistonheads:bmw-e46-m3-manual-coupe-uk": {
       "status": "searched",
@@ -861,17 +863,17 @@
     },
     "model-097:911uk:bmw-e39-m5-manual-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-13T23:39:03Z",
+      "lastSearchedAt": "2026-09-14T13:41:28Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "911UK query executed. No direct current E39 M5 manual sale thread/advert at or below 50,000 miles was retained."
+      "limitation": "Fresh 911UK indexed search returned no direct current E39 M5 sale advert within the 50,000-mile target."
     },
     "model-097:911uk:bmw-m5-e39-6-speed-manual-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-13T23:39:03Z",
+      "lastSearchedAt": "2026-09-14T13:41:28Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "911UK variant query executed. No direct current E39 M5 six-speed manual sale thread/advert at or below 50,000 miles was retained."
+      "limitation": "Fresh 911UK indexed search returned no direct current E39 M5 six-speed-manual sale advert within the 50,000-mile target."
     },
     "model-021:lamborghini-talk:lotus-esprit-gt3": {
       "status": "blocked",
@@ -1537,31 +1539,31 @@
     },
     "model-097:facebook-groups:bmw-e39-m5-manual-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-13T23:39:03Z",
+      "lastSearchedAt": "2026-09-14T13:41:28Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public indexed Facebook-group query executed. No direct accessible current E39 M5 manual sale post at or below 50,000 miles was retained; private-group access was not attempted."
+      "limitation": "Public indexed Facebook-group search returned no direct accessible current E39 M5 sale post; private/authenticated group coverage was not attempted."
     },
     "model-097:facebook-groups:bmw-m5-e39-6-speed-manual-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-13T23:39:03Z",
+      "lastSearchedAt": "2026-09-14T13:41:28Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public indexed Facebook-group variant query executed. No direct accessible current E39 M5 six-speed manual sale post at or below 50,000 miles was retained; private-group access was not attempted."
+      "limitation": "Public indexed Facebook-group search returned no direct accessible current E39 M5 six-speed-manual sale post; private/authenticated group coverage was not attempted."
     },
     "model-097:ferrarichat:bmw-e39-m5-manual-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-13T23:39:03Z",
+      "lastSearchedAt": "2026-09-14T13:41:28Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "FerrariChat query executed. No direct current UK E39 M5 manual sale post at or below 50,000 miles was retained."
+      "limitation": "Fresh FerrariChat indexed search returned no direct current UK E39 M5 sale advert within the 50,000-mile target."
     },
     "model-097:ferrarichat:bmw-m5-e39-6-speed-manual-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-13T23:39:03Z",
+      "lastSearchedAt": "2026-09-14T13:41:28Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "FerrariChat variant query executed. No direct current UK E39 M5 six-speed manual sale post at or below 50,000 miles was retained."
+      "limitation": "Fresh FerrariChat indexed search returned no direct current UK E39 M5 six-speed-manual sale advert within the 50,000-mile target."
     },
     "model-097:gumtree:bmw-e39-m5-manual-uk": {
       "status": "searched",
@@ -1579,17 +1581,17 @@
     },
     "model-097:lamborghini-talk:bmw-e39-m5-manual-uk": {
       "status": "blocked",
-      "lastSearchedAt": "2026-09-13T23:39:03Z",
+      "lastSearchedAt": "2026-09-14T13:41:28Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "LamborghiniTalk public web access is blocked by robots.txt; no bypass attempted."
+      "limitation": "LamborghiniTalk was blocked by robots.txt during this run; no bypass or authenticated access was attempted."
     },
     "model-097:lamborghini-talk:bmw-m5-e39-6-speed-manual-uk": {
       "status": "blocked",
-      "lastSearchedAt": "2026-09-14T00:13:14Z",
+      "lastSearchedAt": "2026-09-14T13:41:28Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public access to lamborghini-talk.com was blocked by robots.txt; no forum advert was inspected."
+      "limitation": "LamborghiniTalk was blocked by robots.txt during this run; no bypass or authenticated access was attempted."
     },
     "model-024:autotrader:morgan-aero-8-gtn": {
       "status": "searched",
@@ -1911,45 +1913,45 @@
     },
     "model-076:ebay:ford-focus-st500": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T05:03:03Z",
+      "lastSearchedAt": "2026-09-14T13:41:28Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "eBay results were parts, ordinary Focus ST variants or ended listings; no genuine current ST500 vehicle advert retained."
+      "limitation": "A current-looking 2007 Focus ST500 at £5,995 surfaced, but it is below the £10,000 floor; parts and wrong-spec Focus ST results were also rejected."
     },
     "model-076:gumtree:ford-focus-st500": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T05:03:03Z",
+      "lastSearchedAt": "2026-09-14T13:41:28Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No genuine current Focus ST500 advert surfaced on Gumtree."
+      "limitation": "Gumtree surfaced a 2017 Focus ST-3, outside the permitted year and not an ST500; no genuine 2007–2008 ST500 advert was retained."
     },
     "model-076:pistonheads:ford-focus-st500": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T05:03:03Z",
+      "lastSearchedAt": "2026-09-14T13:41:28Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "PistonHeads returned generic Focus ST inventory rather than a genuine ST500; no candidate retained."
+      "limitation": "Fresh PistonHeads search returned no direct current qualifying genuine Focus ST500 advert."
     },
     "model-076:specialist-dealers:ford-focus-st500": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T05:03:03Z",
+      "lastSearchedAt": "2026-09-14T13:41:28Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No new current specialist-stock ST500 advert retained in this run."
+      "limitation": "Fresh specialist-dealer search returned no direct current qualifying genuine Focus ST500 advert."
     },
     "model-082:autotrader:subaru-impreza-p1": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T05:03:03Z",
+      "lastSearchedAt": "2026-09-14T13:41:28Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No direct current Auto Trader P1 car-details URL meeting the under-30,000-mile and maximum-two-total-owner rule surfaced."
+      "limitation": "Fresh Auto Trader search returned no direct current Subaru P1 advert with verified mileage below 30,000 and evidence of no more than two total owners."
     },
     "model-082:car-and-classic:subaru-impreza-p1": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T05:03:03Z",
+      "lastSearchedAt": "2026-09-14T13:41:28Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "A current one-previous-owner P1 at 35,618 miles surfaced but fails the strict under-30,000-mile rule; other results were sold/removed or far over the mileage cap."
+      "limitation": "Fresh Car & Classic search returned no direct current Subaru P1 advert with verified mileage below 30,000 and evidence of no more than two total owners."
     },
     "model-026:collecting-cars:lotus-exige-s1": {
       "status": "searched",
@@ -2935,10 +2937,10 @@
     },
     "model-070:collecting-cars:ford-focus-rs-mk1": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T03:36:13Z",
+      "lastSearchedAt": "2026-09-14T13:41:28Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No active current Mk1 auction/advert retained; historical material excluded."
+      "limitation": "Collecting Cars search returned no current fixed-price qualifying Focus RS Mk1 advert; auction/history material was not retained."
     },
     "model-033:classic-trader:lotus-elise-s2-135r": {
       "status": "searched",
@@ -4896,10 +4898,10 @@
     },
     "model-049:car-and-classic:porsche-997-1-gt3": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T19:47:25Z",
+      "lastSearchedAt": "2026-09-14T13:41:28Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Car & Classic query executed; no new current direct UK 997.1 GT3 advert within the £100,000 ceiling was retained."
+      "limitation": "Fresh Car & Classic search returned no new direct current qualifying Porsche 997.1 GT3 advert."
     },
     "model-049:classic-trader:porsche-997-1-gt3": {
       "status": "searched",
@@ -4917,10 +4919,10 @@
     },
     "model-049:ebay:porsche-997-1-gt3": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T19:47:25Z",
+      "lastSearchedAt": "2026-09-14T13:41:28Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "eBay UK query executed; no new current direct qualifying 997.1 GT3 advert was retained."
+      "limitation": "eBay results were GT3 exhausts/parts and related items rather than a current qualifying 997.1 GT3 vehicle advert."
     },
     "model-049:facebook-groups:porsche-997-1-gt3": {
       "status": "blocked",
@@ -4938,10 +4940,10 @@
     },
     "model-049:gumtree:porsche-997-1-gt3": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T19:47:25Z",
+      "lastSearchedAt": "2026-09-14T13:41:28Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Gumtree query executed; no plausible current direct UK 997.1 GT3 advert was retained."
+      "limitation": "Fresh Gumtree search returned no direct current qualifying Porsche 997.1 GT3 vehicle advert."
     },
     "model-049:lamborghini-talk:porsche-997-1-gt3": {
       "status": "blocked",
@@ -4952,20 +4954,20 @@
     },
     "model-049:pistonheads:porsche-997-1-gt3": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T19:47:25Z",
+      "lastSearchedAt": "2026-09-14T13:41:28Z",
       "lastResultCount": 2,
       "candidateUrls": [
         "https://www.pistonheads.com/buy/listing/19022604",
         "https://www.pistonheads.com/buy/listing/19881797"
       ],
-      "limitation": "Two already tracked current PistonHeads 997.1 GT3 adverts resurfaced: Basalt Black £87,991/27,089 miles and Carrara White £86,991/43,519 miles. No duplicate candidate added; exact seller-gallery visual verification remains pending."
+      "limitation": "Two current-looking Lakeside Classics 997.1 GT3 adverts resurfaced and are already tracked as verification-pending; no new vehicle identity was added."
     },
     "model-049:specialist-dealers:porsche-997-1-gt3": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T19:47:25Z",
+      "lastSearchedAt": "2026-09-14T13:41:28Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Specialist-dealer query executed. Surfaced 997.1 GT3 material was sold/archive, reserved, or above the £100,000 ceiling, including GT3 RS stock; no qualifying candidate retained."
+      "limitation": "Specialist search surfaced sold RPM archive material, a JZM 997.1 GT3 marked RESERVED, and an over-budget GT3 RS; no qualifying current advert was retained."
     },
     "model-050:911uk:porsche-996-turbo-manual-x50-turbo-s": {
       "status": "searched",
@@ -4976,10 +4978,10 @@
     },
     "model-050:autotrader:porsche-996-turbo-manual-x50-turbo-s": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T19:47:25Z",
+      "lastSearchedAt": "2026-09-14T13:41:28Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Auto Trader query executed; no new direct current qualifying 996 Turbo manual/X50/Turbo S advert was retained."
+      "limitation": "Fresh Auto Trader search returned no direct current qualifying manual Porsche 996 Turbo/X50/Turbo S car-details URL."
     },
     "model-050:bonhams-cars:porsche-996-turbo-manual-x50-turbo-s": {
       "status": "searched",
@@ -4990,10 +4992,10 @@
     },
     "model-050:car-and-classic:porsche-996-turbo-manual-x50-turbo-s": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T19:47:25Z",
+      "lastSearchedAt": "2026-09-14T13:41:28Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Car & Classic query executed; no new direct current qualifying 996 Turbo manual/X50/Turbo S advert was retained."
+      "limitation": "Fresh Car & Classic search returned no new direct current qualifying manual Porsche 996 Turbo/X50/Turbo S advert."
     },
     "model-050:classic-trader:porsche-996-turbo-manual-x50-turbo-s": {
       "status": "searched",
@@ -5011,10 +5013,10 @@
     },
     "model-050:ebay:porsche-996-turbo-manual-x50-turbo-s": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T19:47:25Z",
+      "lastSearchedAt": "2026-09-14T13:41:28Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "eBay UK query executed; surfaced results were automatic/wrong-specification or otherwise not qualifying; no candidate retained."
+      "limitation": "The current surfaced 996 Turbo advert is Tiptronic automatic, while a manual result is explicitly ended; neither qualifies."
     },
     "model-050:facebook-groups:porsche-996-turbo-manual-x50-turbo-s": {
       "status": "blocked",
@@ -5032,10 +5034,10 @@
     },
     "model-050:gumtree:porsche-996-turbo-manual-x50-turbo-s": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T19:47:25Z",
+      "lastSearchedAt": "2026-09-14T13:41:28Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Gumtree query executed; no new plausible current direct 996 Turbo manual/X50/Turbo S advert was retained."
+      "limitation": "Fresh Gumtree search returned no direct current qualifying manual Porsche 996 Turbo/X50/Turbo S advert."
     },
     "model-050:lamborghini-talk:porsche-996-turbo-manual-x50-turbo-s": {
       "status": "blocked",
@@ -9179,10 +9181,10 @@
     },
     "model-090:lamborghini-talk:mitsubishi-evo-ix-mr-fq360": {
       "status": "blocked",
-      "lastSearchedAt": "2026-09-11T23:29:41Z",
+      "lastSearchedAt": "2026-09-14T13:41:28Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "lamborghini-talk.com is blocked by robots.txt to the public search worker; no bypass attempted."
+      "limitation": "LamborghiniTalk was blocked by robots.txt during this run; no bypass or authenticated access was attempted."
     },
     "model-090:pistonheads:mitsubishi-evo-ix-fq340": {
       "status": "searched",
@@ -9214,17 +9216,17 @@
     },
     "model-091:911uk:mitsubishi-evo-x-fq360-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T23:29:41Z",
+      "lastSearchedAt": "2026-09-14T13:41:28Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Executed 911UK indexed search. No current Evo X FQ360 manual sale advert meeting the under-30,000-mile/two-owner rules was retained."
+      "limitation": "Fresh 911UK indexed search returned no direct current Evo X FQ360 manual sale advert meeting the strict sub-30,000-mile and maximum-two-total-owner rules."
     },
     "model-091:911uk:mitsubishi-evo-x-fq400-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T23:29:41Z",
+      "lastSearchedAt": "2026-09-14T13:41:28Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Executed 911UK indexed search. No current Evo X FQ400 manual sale advert meeting the under-30,000-mile/two-owner rules was retained."
+      "limitation": "Fresh 911UK indexed search returned no direct current Evo X FQ400 manual sale advert meeting the strict sub-30,000-mile and maximum-two-total-owner rules."
     },
     "model-091:autotrader:mitsubishi-evo-x-fq360-manual": {
       "status": "searched",
@@ -9312,31 +9314,31 @@
     },
     "model-091:facebook-groups:mitsubishi-evo-x-fq360-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T00:21:04Z",
+      "lastSearchedAt": "2026-09-14T13:41:28Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "public indexed Facebook groups search executed; no current direct qualifying Evo X FQ360 manual advert meeting the under-30,000-mile/two-owner rules was retained."
+      "limitation": "Public indexed Facebook-group search returned no direct accessible current Evo X FQ360 manual sale post; private/authenticated group coverage was not attempted."
     },
     "model-091:facebook-groups:mitsubishi-evo-x-fq400-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T00:21:04Z",
+      "lastSearchedAt": "2026-09-14T13:41:28Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "public indexed Facebook groups search executed; no current direct qualifying Evo X FQ400 manual advert meeting the under-30,000-mile/two-owner rules was retained."
+      "limitation": "Public indexed Facebook-group search returned no direct accessible current Evo X FQ400 manual sale post; private/authenticated group coverage was not attempted."
     },
     "model-091:ferrarichat:mitsubishi-evo-x-fq360-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T00:21:04Z",
+      "lastSearchedAt": "2026-09-14T13:41:28Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "FerrariChat search executed; no current direct qualifying Evo X FQ360 manual advert meeting the under-30,000-mile/two-owner rules was retained."
+      "limitation": "Fresh FerrariChat indexed search returned no direct current Evo X FQ360 manual sale advert meeting the mileage/ownership rules."
     },
     "model-091:ferrarichat:mitsubishi-evo-x-fq400-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T00:21:04Z",
+      "lastSearchedAt": "2026-09-14T13:41:28Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "FerrariChat search executed; no current direct qualifying Evo X FQ400 manual advert meeting the under-30,000-mile/two-owner rules was retained."
+      "limitation": "Fresh FerrariChat indexed search returned no direct current Evo X FQ400 manual sale advert meeting the mileage/ownership rules."
     },
     "model-091:gumtree:mitsubishi-evo-x-fq360-manual": {
       "status": "searched",
@@ -9354,17 +9356,17 @@
     },
     "model-091:lamborghini-talk:mitsubishi-evo-x-fq360-manual": {
       "status": "blocked",
-      "lastSearchedAt": "2026-09-12T00:21:04Z",
+      "lastSearchedAt": "2026-09-14T13:41:28Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "lamborghini-talk.com was blocked by robots.txt/public-search access; no bypass attempted."
+      "limitation": "LamborghiniTalk was blocked by robots.txt during this run; no bypass or authenticated access was attempted."
     },
     "model-091:lamborghini-talk:mitsubishi-evo-x-fq400-manual": {
       "status": "blocked",
-      "lastSearchedAt": "2026-09-12T00:21:04Z",
+      "lastSearchedAt": "2026-09-14T13:41:28Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "lamborghini-talk.com was blocked by robots.txt/public-search access; no bypass attempted."
+      "limitation": "LamborghiniTalk was blocked by robots.txt during this run; no bypass or authenticated access was attempted."
     },
     "model-091:pistonheads:mitsubishi-evo-x-fq360-manual": {
       "status": "searched",
@@ -9396,10 +9398,10 @@
     },
     "model-093:911uk:alfa-romeo-147-gta-manual-under-50000-miles-low-owners": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T00:21:04Z",
+      "lastSearchedAt": "2026-09-14T13:41:28Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "911UK search executed; no current direct qualifying Alfa 147 GTA manual advert meeting the sub-50,000-mile/low-owner brief was retained."
+      "limitation": "911UK surfaced unrelated parts/owner-signature material rather than a current Alfa Romeo 147 GTA sale advert; no candidate was retained."
     },
     "model-093:autotrader:alfa-romeo-147-gta-manual-under-50000-miles-low-owners": {
       "status": "searched",
@@ -9445,17 +9447,17 @@
     },
     "model-093:facebook-groups:alfa-romeo-147-gta-manual-under-50000-miles-low-owners": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T00:21:04Z",
+      "lastSearchedAt": "2026-09-14T13:41:28Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "public indexed Facebook groups search executed; no current direct qualifying Alfa 147 GTA manual advert meeting the sub-50,000-mile/low-owner brief was retained. Private/member-only groups were not accessed."
+      "limitation": "Public indexed Facebook-group search returned no direct accessible current Alfa Romeo 147 GTA manual sale post; private/authenticated group coverage was not attempted."
     },
     "model-093:ferrarichat:alfa-romeo-147-gta-manual-under-50000-miles-low-owners": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T00:21:04Z",
+      "lastSearchedAt": "2026-09-14T13:41:28Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "FerrariChat search executed; no current direct qualifying Alfa 147 GTA manual advert meeting the sub-50,000-mile/low-owner brief was retained."
+      "limitation": "Fresh FerrariChat indexed search returned no direct current qualifying Alfa Romeo 147 GTA manual sale advert."
     },
     "model-093:gumtree:alfa-romeo-147-gta-manual-under-50000-miles-low-owners": {
       "status": "searched",
@@ -9466,10 +9468,10 @@
     },
     "model-093:lamborghini-talk:alfa-romeo-147-gta-manual-under-50000-miles-low-owners": {
       "status": "blocked",
-      "lastSearchedAt": "2026-09-12T00:21:04Z",
+      "lastSearchedAt": "2026-09-14T13:41:28Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "lamborghini-talk.com was blocked by robots.txt/public-search access; no bypass attempted."
+      "limitation": "LamborghiniTalk was blocked by robots.txt during this run; no bypass or authenticated access was attempted."
     },
     "model-093:pistonheads:alfa-romeo-147-gta-manual-under-50000-miles-low-owners": {
       "status": "searched",
@@ -9487,10 +9489,10 @@
     },
     "model-094:911uk:alfa-romeo-156-gta-saloon-manual-under-50000-miles-low-owners": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T00:21:04Z",
+      "lastSearchedAt": "2026-09-14T13:41:28Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public 911UK search executed; no current direct qualifying Alfa 156 GTA saloon manual advert meeting the sub-50,000-mile/low-owner brief was retained."
+      "limitation": "Fresh 911UK indexed search returned no direct current qualifying Alfa Romeo 156 GTA saloon manual sale advert."
     },
     "model-094:autotrader:alfa-romeo-156-gta-saloon-manual-under-50000-miles-low-owners": {
       "status": "searched",
@@ -9535,18 +9537,18 @@
       "limitation": "eBay query executed; no current under-50,000-mile low-owner qualifying 156 GTA saloon retained."
     },
     "model-094:facebook-groups:alfa-romeo-156-gta-saloon-manual-under-50000-miles-low-owners": {
-      "status": "blocked",
-      "lastSearchedAt": "2026-09-12T01:20:07Z",
+      "status": "searched",
+      "lastSearchedAt": "2026-09-14T13:41:28Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public indexed Facebook-group search did not expose an accessible current sale post; no private-group login or access-control bypass attempted."
+      "limitation": "Public indexed Facebook-group search returned no direct accessible current Alfa Romeo 156 GTA saloon manual sale post; private/authenticated group coverage was not attempted."
     },
     "model-094:ferrarichat:alfa-romeo-156-gta-saloon-manual-under-50000-miles-low-owners": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T01:20:07Z",
+      "lastSearchedAt": "2026-09-14T13:41:28Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Executed FerrariChat indexed search. No accessible current UK 156 GTA saloon sale advert meeting the mileage/ownership rules surfaced."
+      "limitation": "Fresh FerrariChat indexed search returned no direct current qualifying Alfa Romeo 156 GTA saloon manual sale advert."
     },
     "model-094:gumtree:alfa-romeo-156-gta-saloon-manual-under-50000-miles-low-owners": {
       "status": "searched",
@@ -9557,10 +9559,10 @@
     },
     "model-094:lamborghini-talk:alfa-romeo-156-gta-saloon-manual-under-50000-miles-low-owners": {
       "status": "blocked",
-      "lastSearchedAt": "2026-09-12T01:20:07Z",
+      "lastSearchedAt": "2026-09-14T13:41:28Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "lamborghini-talk.com is blocked to the public search worker by robots/access controls; no bypass attempted."
+      "limitation": "LamborghiniTalk was blocked by robots.txt during this run; no bypass or authenticated access was attempted."
     },
     "model-094:pistonheads:alfa-romeo-156-gta-saloon-manual-under-50000-miles-low-owners": {
       "status": "searched",
@@ -9578,10 +9580,10 @@
     },
     "model-095:911uk:alfa-romeo-156-gta-sportwagon-manual-under-50000-miles-low-owners": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T01:20:07Z",
+      "lastSearchedAt": "2026-09-14T13:41:28Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Executed 911UK indexed search. No current direct Alfa 156 GTA Sportwagon sale advert meeting the strict mileage/ownership rules surfaced."
+      "limitation": "Fresh 911UK indexed search returned no direct current qualifying Alfa Romeo 156 GTA Sportwagon manual sale advert."
     },
     "model-095:autotrader:alfa-romeo-156-gta-sportwagon-manual-under-50000-miles-low-owners": {
       "status": "searched",
@@ -9626,18 +9628,18 @@
       "limitation": "eBay result surfaced a stale 2002/03 Sportwagon with three previous owners and old MOT/auction context; rejected. No qualifying candidate retained."
     },
     "model-095:facebook-groups:alfa-romeo-156-gta-sportwagon-manual-under-50000-miles-low-owners": {
-      "status": "blocked",
-      "lastSearchedAt": "2026-09-12T01:20:07Z",
+      "status": "searched",
+      "lastSearchedAt": "2026-09-14T13:41:28Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public indexed Facebook-group search did not expose an accessible current sale post; no private-group login or access-control bypass attempted."
+      "limitation": "Public indexed Facebook-group search returned no direct accessible current Alfa Romeo 156 GTA Sportwagon manual sale post; private/authenticated group coverage was not attempted."
     },
     "model-095:ferrarichat:alfa-romeo-156-gta-sportwagon-manual-under-50000-miles-low-owners": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T01:20:07Z",
+      "lastSearchedAt": "2026-09-14T13:41:28Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Executed FerrariChat indexed search. No accessible current UK 156 GTA Sportwagon sale advert meeting the target rules surfaced."
+      "limitation": "Fresh FerrariChat indexed search returned no direct current qualifying Alfa Romeo 156 GTA Sportwagon manual sale advert."
     },
     "model-095:gumtree:alfa-romeo-156-gta-sportwagon-manual-under-50000-miles-low-owners": {
       "status": "searched",
@@ -9648,10 +9650,10 @@
     },
     "model-095:lamborghini-talk:alfa-romeo-156-gta-sportwagon-manual-under-50000-miles-low-owners": {
       "status": "blocked",
-      "lastSearchedAt": "2026-09-12T01:20:07Z",
+      "lastSearchedAt": "2026-09-14T13:41:28Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "lamborghini-talk.com is blocked to the public search worker by robots/access controls; no bypass attempted."
+      "limitation": "LamborghiniTalk was blocked by robots.txt during this run; no bypass or authenticated access was attempted."
     },
     "model-095:pistonheads:alfa-romeo-156-gta-sportwagon-manual-under-50000-miles-low-owners": {
       "status": "searched",
