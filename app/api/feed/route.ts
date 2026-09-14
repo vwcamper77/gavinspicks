@@ -1,6 +1,7 @@
 import feed from '@/lib/combined-feed';
 import {getHiddenListingIds} from '@/lib/public-availability';
 import {isLiveListing} from '@/lib/eligibility';
+import {selectBestOfClass} from '@/lib/best-of-class';
 import {readCurationDecisions} from '@/lib/curation-store';
 export const dynamic='force-dynamic';
 
@@ -26,7 +27,8 @@ export async function GET(){
   for(const listing of feed.listings)if(!rejectedUrls.has(listing.url))byUrl.set(listing.url,listing);
   for(const listing of approved)byUrl.set(listing.url,listing);
   const now=Date.now();
-  const listings=Array.from(byUrl.values()).filter(l=>isLiveListing(l,now)&&!hidden.includes(l.id));
+  const eligible=Array.from(byUrl.values()).filter(l=>isLiveListing(l,now)&&!hidden.includes(l.id));
+  const listings=selectBestOfClass(eligible);
   const updatedAt=decisions.reduce((latest,d)=>Date.parse(d.decidedAt)>Date.parse(latest)?d.decidedAt:latest,feed.updatedAt);
   return Response.json({...feed,updatedAt,listings},{headers:{'Cache-Control':'no-store, max-age=0'}});
  }catch{return Response.json({error:'Availability checks are temporarily unavailable.'},{status:503,headers:{'Cache-Control':'no-store'}})}
