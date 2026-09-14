@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-14T10:47:00Z",
+  "updatedAt": "2026-09-14T11:15:17Z",
   "compactedFromQueueAt": "2026-09-10T06:41:54.207Z",
   "note": "Cumulative worker-write state. Job results are merged from immutable run deltas and folded back into data/search-queue.json by scripts/build-search-queue.mjs.",
   "jobs": {
@@ -452,10 +452,10 @@
     },
     "model-088:specialist-dealers:mitsubishi-evo-vi-tommi-makinen-edition": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T02:23:19Z",
+      "lastSearchedAt": "2026-09-14T11:15:17Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Specialist-dealer search found a SALE AGREED 122,000-mile TME and a current £64,990/73,049-mile example; both fail availability and/or the strict under-30,000-mile rule."
+      "limitation": "Specialist results were over the 30,000-mile cap or marked SALE AGREED. No current TME with provable maximum two total owners and qualifying mileage was retained."
     },
     "model-096:911uk:bmw-e46-m3-manual-coupe-uk": {
       "status": "searched",
@@ -487,10 +487,10 @@
     },
     "model-096:bonhams-cars:bmw-e46-m3-manual-coupe-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T00:13:14Z",
+      "lastSearchedAt": "2026-09-14T11:15:17Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No current direct E46 M3 factory-manual Coupe at or below 50,000 miles with a fixed qualifying asking price was retained."
+      "limitation": "Bonhams Cars search returned no current direct fixed-price UK E46 M3 manual coupe at or below 50,000 miles."
     },
     "model-096:bonhams-cars:bmw-m3-e46-6-speed-manual-coupe-uk": {
       "status": "searched",
@@ -1195,45 +1195,45 @@
     },
     "model-078:ebay:renault-clio-182-trophy": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T02:23:19Z",
+      "lastSearchedAt": "2026-09-14T11:15:17Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "eBay search executed; no plausible current Clio 182 Trophy advert meeting the mileage and ownership gates was retained."
+      "limitation": "An eBay Clio 182 Trophy classified surfaced, but current mileage/ownership qualification and live-status evidence were insufficient and the indexed advert was not fresh enough to retain under the strict rules."
     },
     "model-078:autotrader:renault-clio-182-trophy": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T02:23:19Z",
+      "lastSearchedAt": "2026-09-14T11:15:17Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Auto Trader search executed; no direct current Clio 182 Trophy advert meeting the strict under-30,000-mile and maximum-two-owner rules was retained."
+      "limitation": "Auto Trader search returned no direct current Clio 182 Trophy meeting both the under-30,000-mile and maximum-two-total-owner rules."
     },
     "model-078:pistonheads:renault-clio-182-trophy": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T02:23:19Z",
+      "lastSearchedAt": "2026-09-14T11:15:17Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "PistonHeads search executed; no current direct Clio 182 Trophy advert meeting the strict mileage and ownership gates was retained."
+      "limitation": "PistonHeads surfaced a 10,620-mile one-owner Trophy only as an auction, plus fixed-price cars over 30,000 miles. No qualifying current fixed-price advert retained."
     },
     "model-078:car-and-classic:renault-clio-182-trophy": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T02:23:19Z",
+      "lastSearchedAt": "2026-09-14T11:15:17Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Car & Classic surfaced a current £12,750 Trophy at 74,700 miles plus older sold material; all fail the strict under-30,000-mile rule or availability rule."
+      "limitation": "Car & Classic results were removed/sold or over the mileage/ownership limits; no current qualifying advert retained."
     },
     "model-078:collecting-cars:renault-clio-182-trophy": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T00:13:14Z",
+      "lastSearchedAt": "2026-09-14T11:15:17Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No current qualifying fixed-price Clio 182 Trophy meeting strict mileage/ownership rules was retained."
+      "limitation": "Collecting Cars results were auction/completed-sale material. A low-mileage one-owner car was auction-only, so no qualifying fixed-price advert was retained."
     },
     "model-078:bonhams-cars:renault-clio-182-trophy": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T00:13:14Z",
+      "lastSearchedAt": "2026-09-14T11:15:17Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No current direct Clio 182 Trophy meeting strict under-30,000-mile/maximum-two-owner rules was retained."
+      "limitation": "Bonhams Cars search returned no current fixed-price Clio 182 Trophy satisfying the strict under-30,000-mile and maximum-two-total-owner rules."
     },
     "model-013:facebook-groups:tvr-sagaris": {
       "status": "blocked",
@@ -1616,17 +1616,17 @@
     },
     "model-024:classic-trader:morgan-aero-8-gtn": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T10:19:44Z",
+      "lastSearchedAt": "2026-09-14T11:15:17Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Classic Trader query executed; no current direct UK Morgan Aero 8 GTN advert surfaced."
+      "limitation": "Classic Trader surfaced ordinary Aero 8 stock rather than an exact current UK Aero 8 GTN; no candidate retained."
     },
     "model-024:collecting-cars:morgan-aero-8-gtn": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T10:19:44Z",
+      "lastSearchedAt": "2026-09-14T11:15:17Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Collecting Cars query executed; no current qualifying Aero 8 GTN advert retained; completed auctions excluded."
+      "limitation": "Collecting Cars results were historical/completed or ordinary Aero 8 material; no current fixed-price exact GTN advert retained."
     },
     "model-024:ebay:morgan-aero-8-gtn": {
       "status": "searched",
@@ -1695,10 +1695,10 @@
     },
     "model-025:bonhams-cars:ultima-gtr-road-registered": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T10:19:44Z",
+      "lastSearchedAt": "2026-09-14T11:15:17Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Bonhams Cars query executed; no current direct road-registered Ultima GTR advert retained."
+      "limitation": "Bonhams Cars search returned no current fixed-price UK road-registered Ultima GTR advert."
     },
     "model-025:car-and-classic:ultima-gtr-road-registered": {
       "status": "searched",
@@ -1709,17 +1709,17 @@
     },
     "model-025:classic-trader:ultima-gtr-road-registered": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T10:19:44Z",
+      "lastSearchedAt": "2026-09-14T11:15:17Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Classic Trader query executed; no current direct road-registered Ultima GTR advert surfaced."
+      "limitation": "Classic Trader surfaced a Germany-based POA Ultima/Can-Am listing rather than a qualifying UK fixed-price road-registered GTR; rejected."
     },
     "model-025:collecting-cars:ultima-gtr-road-registered": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T10:19:44Z",
+      "lastSearchedAt": "2026-09-14T11:15:17Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Collecting Cars query executed; no current qualifying road-registered Ultima GTR advert retained; completed auctions excluded."
+      "limitation": "Collecting Cars returned no current fixed-price UK road-registered Ultima GTR; auction/historical material was excluded."
     },
     "model-025:ebay:ultima-gtr-road-registered": {
       "status": "searched",
@@ -1786,10 +1786,10 @@
     },
     "model-026:bonhams-cars:lotus-exige-s1": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T10:19:44Z",
+      "lastSearchedAt": "2026-09-14T11:15:17Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Bonhams Cars query executed; no current direct Lotus Exige S1 advert retained."
+      "limitation": "Bonhams Cars search returned no current fixed-price UK Lotus Exige S1 advert."
     },
     "model-026:car-and-classic:lotus-exige-s1": {
       "status": "searched",
@@ -1800,45 +1800,49 @@
     },
     "model-026:classic-trader:lotus-exige-s1": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T10:19:44Z",
+      "lastSearchedAt": "2026-09-14T11:15:17Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Classic Trader query executed; no current direct UK Lotus Exige S1 advert surfaced."
+      "limitation": "Classic Trader search returned no direct current UK Lotus Exige S1 advert."
     },
     "model-097:pistonheads:bmw-e39-m5-manual-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T01:33:19Z",
+      "lastSearchedAt": "2026-09-14T11:15:17Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "PistonHeads query executed. Listing 16225032 surfaced at £45,000/26,900 miles but the original page now says MOT expired and 'This car is no longer available for purchase'; rejected. Other results exceeded the 50,000-mile cap or were unavailable/auction-only."
+      "limitation": "Fresh PistonHeads search returned only over-mileage, auction-only, or explicitly unavailable E39 M5 adverts. Listing 16225032 at 26,900 miles is explicitly no longer available; no qualifying current direct advert retained."
     },
     "model-097:pistonheads:bmw-m5-e39-6-speed-manual-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T01:33:19Z",
+      "lastSearchedAt": "2026-09-14T11:15:17Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "PistonHeads alternate query executed. The previously tracked 26,900-mile listing 16225032 is now explicitly unavailable with MOT expired; no new current qualifying E39 M5 was retained."
+      "limitation": "Alternate PistonHeads E39 M5 search returned no current fixed-price manual advert at or below 50,000 miles; the low-mileage historic listing is explicitly unavailable and auction pages were rejected."
     },
     "model-097:specialist-dealers:bmw-e39-m5-manual-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T01:33:19Z",
-      "lastResultCount": 0,
-      "candidateUrls": [],
-      "limitation": "Specialist-dealer search executed; no new direct current E39 M5 manual under 50,000 miles was retained beyond already tracked stock."
+      "lastSearchedAt": "2026-09-14T11:15:17Z",
+      "lastResultCount": 1,
+      "candidateUrls": [
+        "https://www.carandclassic.com/car/C2060885"
+      ],
+      "limitation": "The already-published 2003 E39 M5 at £50,000/46,637 miles remains explicitly For Sale with the UK dealer. No new vehicle identity or material price/status change surfaced."
     },
     "model-097:specialist-dealers:bmw-m5-e39-6-speed-manual-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T01:33:19Z",
-      "lastResultCount": 0,
-      "candidateUrls": [],
-      "limitation": "Specialist-dealer alternate search executed; no new direct current E39 M5 manual under 50,000 miles was retained."
+      "lastSearchedAt": "2026-09-14T11:15:17Z",
+      "lastResultCount": 1,
+      "candidateUrls": [
+        "https://www.carandclassic.com/car/C2060885"
+      ],
+      "limitation": "Alternate specialist search reconfirmed the already-published 2003 E39 M5 at £50,000/46,637 miles as For Sale; no new qualifying E39 M5 surfaced."
     },
     "model-070:gumtree:ford-focus-rs500": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T02:23:19Z",
+      "lastSearchedAt": "2026-09-14T11:15:17Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Gumtree search executed; no plausible current direct genuine Focus RS500 advert was retained."
+      "limitation": "Gumtree search returned no plausible current direct genuine Focus RS500 vehicle advert; generic RS/parts material was rejected."
     },
     "model-070:bonhams-cars:ford-focus-rs-mk2": {
       "status": "searched",
@@ -1891,19 +1895,19 @@
     },
     "model-076:autotrader:ford-focus-st500": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T02:23:19Z",
+      "lastSearchedAt": "2026-09-14T11:15:17Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Auto Trader search executed; no direct current car-details advert with sufficient evidence of genuine ST500 specification was retained."
+      "limitation": "Auto Trader search returned no direct current car-details advert with sufficient evidence of genuine ST500 specification."
     },
     "model-076:car-and-classic:ford-focus-st500": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T02:23:19Z",
+      "lastSearchedAt": "2026-09-14T11:15:17Z",
       "lastResultCount": 1,
       "candidateUrls": [
         "https://www.carandclassic.com/l/C1644726"
       ],
-      "limitation": "Current £19,750/33,200-mile Focus ST500 no.157/500 resurfaced and remains already tracked. Exact gallery/manual-control visual verification is still outstanding."
+      "limitation": "Car & Classic still shows the already-tracked Focus ST500 no.157/500 at £19,750/33,200 miles/manual. It remains verification-pending because the accessible photo path is insufficient for the required overlay/manual-control visual check."
     },
     "model-076:ebay:ford-focus-st500": {
       "status": "searched",
@@ -1949,10 +1953,10 @@
     },
     "model-026:collecting-cars:lotus-exige-s1": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T10:19:44Z",
+      "lastSearchedAt": "2026-09-14T11:15:17Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Collecting Cars query executed; no current qualifying Exige S1 advert retained; completed auctions excluded."
+      "limitation": "Collecting Cars surfaced sold/completed Exige S1 auctions, including low-mileage examples; no current fixed-price advert retained."
     },
     "model-026:ebay:lotus-exige-s1": {
       "status": "searched",
@@ -2019,10 +2023,10 @@
     },
     "model-027:bonhams-cars:lotus-exige-s2-naturally-aspirated": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T10:19:44Z",
+      "lastSearchedAt": "2026-09-14T11:15:17Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Bonhams Cars query executed; no current direct naturally aspirated Exige S2 advert retained."
+      "limitation": "Bonhams Cars search returned no current fixed-price naturally aspirated Exige S2 advert."
     },
     "model-027:car-and-classic:lotus-exige-s2-naturally-aspirated": {
       "status": "searched",
@@ -2033,17 +2037,17 @@
     },
     "model-027:classic-trader:lotus-exige-s2-naturally-aspirated": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T10:19:44Z",
+      "lastSearchedAt": "2026-09-14T11:15:17Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Classic Trader query executed; no current direct UK naturally aspirated Exige S2 advert surfaced."
+      "limitation": "Classic Trader search returned no direct current UK naturally aspirated Exige S2 within the model rules."
     },
     "model-027:collecting-cars:lotus-exige-s2-naturally-aspirated": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T10:19:44Z",
+      "lastSearchedAt": "2026-09-14T11:15:17Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Collecting Cars query executed; no current qualifying naturally aspirated Exige S2 advert retained; completed auctions excluded."
+      "limitation": "A low-mileage naturally aspirated Exige S2 surfaced only as a live/auction listing without a fixed qualifying asking price; no candidate retained."
     },
     "model-027:ebay:lotus-exige-s2-naturally-aspirated": {
       "status": "searched",
@@ -2112,10 +2116,10 @@
     },
     "model-028:bonhams-cars:lotus-exige-s-s-240": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T10:19:44Z",
+      "lastSearchedAt": "2026-09-14T11:15:17Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Bonhams Cars query executed; no current direct Exige S/S 240 advert retained."
+      "limitation": "Bonhams Cars search returned no current fixed-price UK Exige S/S240 advert."
     },
     "model-028:car-and-classic:lotus-exige-s-s-240": {
       "status": "searched",
@@ -2126,17 +2130,19 @@
     },
     "model-028:classic-trader:lotus-exige-s-s-240": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T10:19:44Z",
-      "lastResultCount": 0,
-      "candidateUrls": [],
-      "limitation": "Classic Trader query executed; no current direct UK Exige S/S 240 advert surfaced."
+      "lastSearchedAt": "2026-09-14T11:15:17Z",
+      "lastResultCount": 1,
+      "candidateUrls": [
+        "https://www.classic-trader.com/uk/cars/listing/lotus/exige/exige-s-240/2009/456792"
+      ],
+      "limitation": "New direct current 2009 Lotus Exige S 240 surfaced at £46,500, 12,800 miles, six-speed manual, RHD, UK dealer. The advert has 50 images and strong live-sale evidence, but cabin/manual-control visual verification is incomplete, so it is retained verification-pending rather than published."
     },
     "model-028:collecting-cars:lotus-exige-s-s-240": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T10:19:44Z",
+      "lastSearchedAt": "2026-09-14T11:15:17Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Collecting Cars query executed; no current qualifying Exige S/S 240 advert retained; completed auctions excluded."
+      "limitation": "Collecting Cars surfaced an Exige S240 auction rather than a fixed-price current advert; rejected under the fixed-price rule."
     },
     "model-028:ebay:lotus-exige-s-s-240": {
       "status": "searched",
@@ -2217,17 +2223,17 @@
     },
     "model-076:bonhams-cars:ford-focus-st500": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T00:13:14Z",
+      "lastSearchedAt": "2026-09-14T11:15:17Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Bonhams Cars query executed; no current direct genuine Focus ST500 advert retained."
+      "limitation": "Bonhams Cars search returned no current fixed-price direct Ford Focus ST500 advert."
     },
     "model-076:classic-trader:ford-focus-st500": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T00:13:14Z",
+      "lastSearchedAt": "2026-09-14T11:15:17Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Classic Trader query executed; no current direct genuine Focus ST500 advert retained."
+      "limitation": "Classic Trader search returned no direct current UK Focus ST500 advert."
     },
     "model-076:collecting-cars:ford-focus-st500": {
       "status": "searched",
@@ -3188,10 +3194,10 @@
     },
     "model-075:collecting-cars:audi-tt-quattro-sport": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T00:13:14Z",
+      "lastSearchedAt": "2026-09-14T11:15:17Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "The surfaced 2005 TT quattro Sport was a completed 2023 sale; rejected as historical."
+      "limitation": "Collecting Cars results were completed/historical TT quattro Sport auctions rather than current fixed-price adverts; none retained."
     },
     "model-078:classic-trader:renault-clio-182-trophy": {
       "status": "searched",
@@ -3644,17 +3650,17 @@
     },
     "model-088:classic-trader:mitsubishi-evo-vi-tommi-makinen-edition": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T00:13:14Z",
+      "lastSearchedAt": "2026-09-14T11:15:17Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No current direct TME advert meeting strict mileage/ownership rules was retained."
+      "limitation": "Classic Trader search returned no current UK Evo VI Tommi Makinen Edition under 30,000 miles with provable maximum two total owners."
     },
     "model-088:collecting-cars:mitsubishi-evo-vi-tommi-makinen-edition": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T00:13:14Z",
+      "lastSearchedAt": "2026-09-14T11:15:17Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Completed/historical auction material was rejected; no current fixed-price qualifying TME candidate retained."
+      "limitation": "Collecting Cars search returned historical/completed auction material rather than a current fixed-price TME meeting the mileage and ownership rules."
     },
     "model-056:911uk:bmw-z4-m-coupe": {
       "status": "searched",
@@ -4582,10 +4588,10 @@
     },
     "model-045:specialist-dealers:aston-martin-db9-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T17:05:35Z",
+      "lastSearchedAt": "2026-09-14T11:15:17Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Specialist-dealer search executed; no new current Aston Martin DB9 manual advert retained."
+      "limitation": "Specialist-dealer search returned sold/unavailable DB9 manual stock, including a McGurk example explicitly marked SOLD; no new current qualifying advert retained."
     },
     "model-046:911uk:aston-martin-db7-vantage-manual": {
       "status": "searched",
@@ -4596,10 +4602,10 @@
     },
     "model-046:autotrader:aston-martin-db7-vantage-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T17:05:35Z",
+      "lastSearchedAt": "2026-09-14T11:15:17Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Auto Trader search executed; no direct current car-details URL for a DB7 Vantage manual surfaced."
+      "limitation": "Auto Trader search returned no direct current car-details DB7 Vantage manual advert; generic inventory pages were rejected."
     },
     "model-046:bonhams-cars:aston-martin-db7-vantage-manual": {
       "status": "searched",
@@ -4610,12 +4616,10 @@
     },
     "model-046:car-and-classic:aston-martin-db7-vantage-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T17:05:35Z",
-      "lastResultCount": 1,
-      "candidateUrls": [
-        "https://www.carandclassic.com/l/C2179101"
-      ],
-      "limitation": "Current 2004 DB7 Vantage manual surfaced at £25,500, 29,600 miles, RHD in Banbury. Advert is marked For Sale with a large gallery; visual manual-control/overlay verification remains outstanding."
+      "lastSearchedAt": "2026-09-14T11:15:17Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "The already-tracked C2179101 remains For Sale but has fallen to £23,999, below the model's £25,000 guide floor, so it no longer qualifies under current rules; no qualifying current Car & Classic advert retained."
     },
     "model-046:classic-trader:aston-martin-db7-vantage-manual": {
       "status": "searched",
@@ -4633,10 +4637,10 @@
     },
     "model-046:ebay:aston-martin-db7-vantage-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T17:05:35Z",
+      "lastSearchedAt": "2026-09-14T11:15:17Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "eBay results were owner manuals, books and parts rather than a current complete DB7 Vantage manual car."
+      "limitation": "eBay search returned no current complete DB7 Vantage manual car within the model rules; parts/literature/stale material was rejected."
     },
     "model-046:facebook-groups:aston-martin-db7-vantage-manual": {
       "status": "searched",
@@ -4654,10 +4658,10 @@
     },
     "model-046:gumtree:aston-martin-db7-vantage-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T17:05:35Z",
+      "lastSearchedAt": "2026-09-14T11:15:17Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Gumtree indexed search executed; no plausible current direct DB7 Vantage manual advert surfaced."
+      "limitation": "Gumtree result was auction/event material rather than a current fixed-price direct DB7 Vantage manual advert; no candidate retained."
     },
     "model-046:lamborghini-talk:aston-martin-db7-vantage-manual": {
       "status": "blocked",
@@ -4668,17 +4672,17 @@
     },
     "model-046:pistonheads:aston-martin-db7-vantage-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T17:05:35Z",
+      "lastSearchedAt": "2026-09-14T11:15:17Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "PistonHeads surfaced a £18,950 manual DB7 Vantage but the advert explicitly says the car is no longer available for purchase; rejected."
+      "limitation": "PistonHeads current-index results failed qualification: £18,000 car is below the £25,000 floor, while £28,995 and £29,995 examples explicitly say no longer available for purchase. No candidate retained."
     },
     "model-046:specialist-dealers:aston-martin-db7-vantage-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T17:05:35Z",
+      "lastSearchedAt": "2026-09-14T11:15:17Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Specialist results included a Chiltern Aston DB7 Vantage manual explicitly marked SOLD; no live specialist candidate retained."
+      "limitation": "Specialist stock surfaced sold or deposit-taken DB7 Vantage manuals; no current qualifying direct advert retained."
     },
     "model-047:911uk:aston-martin-db7-gt": {
       "status": "searched",
@@ -4689,10 +4693,10 @@
     },
     "model-047:autotrader:aston-martin-db7-gt": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T17:05:35Z",
+      "lastSearchedAt": "2026-09-14T11:15:17Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Auto Trader category page shows two DB7 GTs but no direct current car-details URL was exposed; generic search page rejected."
+      "limitation": "Auto Trader returned a generic DB7 GT inventory page with prices but no direct current car-details URL; generic search pages were rejected."
     },
     "model-047:bonhams-cars:aston-martin-db7-gt": {
       "status": "searched",
@@ -8943,31 +8947,31 @@
     },
     "model-089:facebook-groups:mitsubishi-evo-viii-fq400": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T22:59:00Z",
+      "lastSearchedAt": "2026-09-14T11:15:17Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public indexed Facebook-group search returned no plausible direct current qualifying FQ400 sale post; no login/access-control bypass attempted."
+      "limitation": "Public indexed Facebook-group search returned no accessible direct current Evo VIII FQ400 sale post meeting the strict mileage/ownership rules; private/authenticated groups were not accessed."
     },
     "model-089:facebook-groups:mitsubishi-evo-viii-mr-fq320": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T22:59:00Z",
+      "lastSearchedAt": "2026-09-14T11:15:17Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public indexed Facebook-group search returned no plausible direct current qualifying FQ320 sale post; no login/access-control bypass attempted."
+      "limitation": "Public indexed Facebook-group search returned no accessible direct current Evo VIII MR FQ320 sale post meeting the strict mileage/ownership rules; private/authenticated groups were not accessed."
     },
     "model-089:ferrarichat:mitsubishi-evo-viii-fq400": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T22:59:00Z",
+      "lastSearchedAt": "2026-09-14T11:15:17Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Executed FerrariChat indexed search; no plausible current UK FQ400 sale thread retained."
+      "limitation": "FerrariChat indexed search returned no direct current UK Evo VIII FQ400 advert meeting the under-30,000-mile and maximum-two-total-owner rules."
     },
     "model-089:ferrarichat:mitsubishi-evo-viii-mr-fq320": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T22:59:00Z",
+      "lastSearchedAt": "2026-09-14T11:15:17Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Executed FerrariChat indexed search; no plausible current UK MR FQ320 sale thread retained."
+      "limitation": "FerrariChat indexed search returned no direct current UK Evo VIII MR FQ320 advert meeting the under-30,000-mile and maximum-two-total-owner rules."
     },
     "model-089:gumtree:mitsubishi-evo-viii-fq400": {
       "status": "searched",
@@ -8985,17 +8989,17 @@
     },
     "model-089:lamborghini-talk:mitsubishi-evo-viii-fq400": {
       "status": "blocked",
-      "lastSearchedAt": "2026-09-11T22:59:00Z",
+      "lastSearchedAt": "2026-09-14T11:15:17Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Exact public search for lamborghini-talk.com was blocked by robots.txt; no access-control bypass attempted."
+      "limitation": "Public web access to LamborghiniTalk was blocked by robots.txt; no access-control bypass was attempted."
     },
     "model-089:lamborghini-talk:mitsubishi-evo-viii-mr-fq320": {
       "status": "blocked",
-      "lastSearchedAt": "2026-09-11T22:59:00Z",
+      "lastSearchedAt": "2026-09-14T11:15:17Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Exact public search for lamborghini-talk.com was blocked by robots.txt; no access-control bypass attempted."
+      "limitation": "Public web access to LamborghiniTalk was blocked by robots.txt; no access-control bypass was attempted."
     },
     "model-089:pistonheads:mitsubishi-evo-viii-fq400": {
       "status": "searched",
@@ -9027,17 +9031,17 @@
     },
     "model-090:911uk:mitsubishi-evo-ix-fq340": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T22:59:00Z",
+      "lastSearchedAt": "2026-09-14T11:15:17Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Executed 911UK indexed search; no current qualifying Evo IX FQ340 sale thread retained."
+      "limitation": "911UK indexed search returned no direct current Evo IX FQ340 sale thread satisfying the under-30,000-mile and maximum-two-total-owner rules."
     },
     "model-090:911uk:mitsubishi-evo-ix-mr-fq360": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T22:59:00Z",
+      "lastSearchedAt": "2026-09-14T11:15:17Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Executed 911UK indexed search; no current qualifying Evo IX MR FQ360 sale thread retained."
+      "limitation": "911UK indexed search returned no direct current Evo IX MR FQ360 sale thread satisfying the under-30,000-mile and maximum-two-total-owner rules."
     },
     "model-090:autotrader:mitsubishi-evo-ix-fq340": {
       "status": "searched",
