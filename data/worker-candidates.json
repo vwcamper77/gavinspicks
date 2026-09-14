@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-14T07:32:52Z",
+  "updatedAt": "2026-09-14T08:55:13Z",
   "candidates": [
     {
       "modelId": "model-056",
@@ -431,7 +431,7 @@
       "discoveredAt": "2026-09-10T10:10:00Z",
       "status": "unavailable",
       "note": "2005 E46 M3 Silverstone Edition manual coupe lead at £39,995/49,000 miles. Indexed advert reports three former keepers, full history and rare 1-of-50 / 1-of-25-manual claims, but fresh current availability and seller-gallery verification are still required.",
-      "lastCheckedAt": "2026-09-12T06:37:01Z"
+      "lastCheckedAt": "2026-09-14T08:55:13Z"
     },
     {
       "modelId": "model-021",
@@ -785,9 +785,9 @@
       "discoveredAt": "2026-09-10T20:56:37Z",
       "status": "verification-pending",
       "note": "Current seller-direct Hexagon Classics stock: 2003 BMW E46 M3 Coupe at £99,995 with 3,100 miles, Titanium Silver/Black Nappa, factory six-speed manual, advertised one owner from new and full BMW main-dealer history. Seller states an Inspection II and brake-fluid service at 3,079 miles in February 2026 and says it is available to view now. Current seller stock and the PistonHeads cross-post support availability, but exact gallery assets could not be visually inspected for unavailable overlays/manual controls in this worker run. Keep verification-pending; do not publish yet.",
-      "vehicleIdentity": "2003 BMW E46 M3 Coupe | 3,100 miles | factory 6-speed manual",
+      "vehicleIdentity": "2003 BMW M3 E46 Coupe | manual | 3,100 miles | Hexagon Classics",
       "checkedAt": "2026-09-13T12:49:13Z",
-      "lastCheckedAt": "2026-09-13T12:05:29Z"
+      "lastCheckedAt": "2026-09-14T08:55:13Z"
     },
     {
       "modelId": "model-097",
@@ -827,7 +827,9 @@
       "source": "autotrader",
       "discoveredAt": "2026-09-10T21:37:37Z",
       "status": "verification-pending",
-      "note": "2008 Aston Martin Vantage N400 4.3 manual convertible, £35,991, 46,345 miles, ASM Automotive in Redditch. The car is present in the dealer's current Auto Trader stock and the direct car-detail ID was identified, but the detail/gallery fetch was unavailable in this run. Visual identity, sold/reserved overlays and manual-photo verification remain pending."
+      "note": "Rechecked 14 Sep 2026 on the actual Auto Trader advert: 2008 Aston Martin Vantage N400 Roadster, £35,991, 46,345 miles, manual, ASM Automotive in Redditch. Auto Trader explicitly shows 'Available to reserve', a 15-image gallery, N400 no.179 and the seller's detailed six-speed manual/full-main-dealer-history description. The exact seller images were not visually inspectable in this worker run for SOLD/RESERVED overlays and manual controls, so keep verification-pending and do not publish.",
+      "lastCheckedAt": "2026-09-14T08:55:13Z",
+      "vehicleIdentity": "2008 Aston Martin Vantage N400 Roadster | no.179 | £35,991 | 46,345 miles | ASM Automotive"
     },
     {
       "modelId": "model-045",
@@ -1400,8 +1402,9 @@
       "source": "pistonheads",
       "discoveredAt": "2026-09-12T12:49:50Z",
       "status": "verification-pending",
-      "lastCheckedAt": "2026-09-12T12:49:50Z",
-      "note": "2006 V8 Vantage 4.3 manual, £31,950, 48,798 miles, two previous owners, Smithfield Motors. Current seller controls, valid MOT and 40 photos; visual gallery verification outstanding."
+      "lastCheckedAt": "2026-09-14T08:55:13Z",
+      "note": "Rechecked 14 Sep 2026 on the actual PistonHeads advert: 2006 Aston Martin V8 Vantage 4.3 Coupe, £31,950, 48,798 miles, manual, two previous owners, full dealership service history and MOT to June 2027, with Smithfield Motors and live seller controls. The 40-photo gallery was not sufficiently visually inspected for overlays/manual controls in this worker run, so keep verification-pending and do not publish.",
+      "vehicleIdentity": "2006 Aston Martin V8 Vantage 4.3 Coupe | £31,950 | 48,798 miles | Smithfield Motors"
     },
     {
       "modelId": "model-042",
@@ -1409,8 +1412,9 @@
       "source": "pistonheads",
       "discoveredAt": "2026-09-12T12:49:50Z",
       "status": "verification-pending",
-      "lastCheckedAt": "2026-09-12T12:49:50Z",
-      "note": "2010 V8 Vantage 4.7 manual, £42,995, 43,000 miles, Modern & Historic. PistonHeads crawled it today with seller controls and 38 photos; exact gallery visual verification outstanding."
+      "lastCheckedAt": "2026-09-14T08:55:13Z",
+      "note": "Rechecked 14 Sep 2026 on the actual PistonHeads advert: 2010 Aston Martin V8 Vantage 4.7 Coupe, £42,995, 43,000 miles, manual, valid MOT, Modern & Historic in Henley-on-Thames, with live contact-seller controls. No unavailable message is shown. The full seller photographs were not sufficiently visually inspected for overlays/manual controls in this worker run, so keep verification-pending and do not publish.",
+      "vehicleIdentity": "2010 Aston Martin V8 Vantage 4.7 Coupe | £42,995 | 43,000 miles | Modern & Historic"
     },
     {
       "modelId": "model-042",
@@ -1803,6 +1807,25 @@
       "note": "PistonHeads current Maserati 3200 inventory lists a 2001 manual at £24,995 and 26,038 miles from trade seller Fengate. The direct detail fetch was unavailable in this worker pass, so exact current seller controls, specification and photographs still require verification before publication.",
       "lastCheckedAt": "2026-09-14T07:32:52Z",
       "vehicleIdentity": "2001 Maserati 3200 GT manual | £24,995 | 26,038 miles | Fengate"
+    },
+    {
+      "modelId": "model-072",
+      "url": "https://www.carandclassic.com/au/car/C2174921",
+      "source": "car-and-classic",
+      "status": "verification-pending",
+      "note": "Rechecked 14 Sep 2026 against the exact seller identity at Bramley: its current BMW stock still lists this 2011 BMW 1 M at £54,850 and 37,716 miles with live reserve/click-and-collect controls, inside the model-specific £45k-£55k band. The underlying vehicle is described as the genuine 1M with six-speed manual; the existing Car & Classic URL is retained to avoid duplicating the same vehicle identity. Exact current seller photographs were not sufficiently visually inspectable for the required overlay/manual-control check, so keep verification-pending and do not publish.",
+      "lastCheckedAt": "2026-09-14T08:55:13Z",
+      "vehicleIdentity": "2011 BMW 1M E82 Coupe | £54,850 | 37,716 miles | Bramley"
+    },
+    {
+      "modelId": "model-043",
+      "url": "https://www.autotrader.co.uk/car-details/202609025657488",
+      "source": "autotrader",
+      "discoveredAt": "2026-09-14T08:55:13Z",
+      "status": "verification-pending",
+      "note": "New candidate found 14 Sep 2026 on the actual Auto Trader advert: 2008 Aston Martin Vantage N400 Roadster, £39,500, 29,000 miles, manual, private seller in Oxted. The advert has live seller contact controls and a 9-image gallery; the seller states ownership since 2018, dry storage, full service history, an August 2026 service and MOT to June 2027 with no advisories. The exact seller images were not visually inspectable in this worker run for SOLD/RESERVED overlays and manual controls, so it is not publication-ready and remains verification-pending.",
+      "lastCheckedAt": "2026-09-14T08:55:13Z",
+      "vehicleIdentity": "2008 Aston Martin Vantage N400 Roadster | £39,500 | 29,000 miles | Oxted private seller"
     }
   ]
 }
