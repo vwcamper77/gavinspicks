@@ -37,6 +37,7 @@ const alertRules = [
   'A genuinely new qualifying live car appears.',
   'A previously unavailable car is genuinely relisted with fresh live-sale evidence.',
   'A meaningful price reduction occurs on a car that is still positively verified as available.',
+  'A materially better example replaces the current best-of-class pick.',
   'A material availability or specification change occurs on an existing watchlist car.'
 ];
 
@@ -69,6 +70,13 @@ export default function RulesPage() {
             </li>
           ))}
         </ul>
+      </section>
+
+      <section className="mb-10 rounded-xl border p-6">
+        <h2 className="text-2xl font-semibold">Best of class</h2>
+        <p className="mt-3 text-sm leading-6 text-muted-foreground sm:text-base">
+          Gavin's Picks shows one live example per watch class, not every qualifying advert. Competing cars are checked against each other for originality, provenance, ownership, mileage, specification, condition evidence and value. The strongest verified example stays public; weaker examples remain research candidates and can replace it only when they are materially better. Distinct variants that are deliberately separate watch targets remain separate classes — for example Focus RS Mk1, Mk2 and RS500.
+        </p>
       </section>
 
       <div className="grid gap-8 md:grid-cols-2">
