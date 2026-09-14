@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-14T08:55:13Z",
+  "updatedAt": "2026-09-14T09:11:29Z",
   "compactedFromQueueAt": "2026-09-10T06:41:54.207Z",
   "note": "Cumulative worker-write state. Job results are merged from immutable run deltas and folded back into data/search-queue.json by scripts/build-search-queue.mjs.",
   "jobs": {
@@ -641,19 +641,19 @@
     },
     "model-020:pistonheads:lotus-esprit-s4s": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T14:44:20Z",
+      "lastSearchedAt": "2026-09-14T09:11:29Z",
       "lastResultCount": 1,
       "candidateUrls": [
         "https://www.pistonheads.com/buy/listing/20862221"
       ],
-      "limitation": "The already tracked 1995 Lotus Esprit S4s (#20862221) remains current at £39,995, 64,000 miles and manual. The advert exposes seller controls and a gallery, but exact seller-image/manual-control visual verification remains outstanding."
+      "limitation": "PistonHeads 20862221 remains a current-looking 1995 Esprit S4S at £39,995, 64,000 miles and manual with live seller controls and a 21-photo gallery; it is already verification-pending. Older listing 14863431 is explicitly DEPOSIT TAKEN and was rejected."
     },
     "model-020:specialist-dealers:lotus-esprit-s4s": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T14:44:20Z",
+      "lastSearchedAt": "2026-09-14T09:11:29Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Specialist-dealer search executed; no new originating direct S4s stock URL beyond the already tracked marketplace advert was retained."
+      "limitation": "Specialist-dealer search did not produce a new direct seller-stock S4S URL beyond the already tracked current PistonHeads car; stale/historical material was rejected."
     },
     "model-021:911uk:lotus-esprit-gt3": {
       "status": "searched",
@@ -664,17 +664,17 @@
     },
     "model-021:autotrader:lotus-esprit-gt3": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T14:44:20Z",
+      "lastSearchedAt": "2026-09-14T09:11:29Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Auto Trader search returned generic Esprit inventory but no new direct current GT3 car-details URL; generic pages were rejected."
+      "limitation": "Auto Trader surfaced generic Lotus Esprit inventory rather than a direct current GT3 car-details URL; generic category pages were rejected."
     },
     "model-021:bonhams-cars:lotus-esprit-gt3": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T08:48:57Z",
+      "lastSearchedAt": "2026-09-14T09:11:29Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Bonhams Cars search executed; no qualifying current fixed-price Lotus Esprit GT3 advert surfaced."
+      "limitation": "Bonhams Cars search returned no direct current UK Esprit GT3 advert; historical/completed material was rejected."
     },
     "model-021:car-and-classic:lotus-esprit-gt3": {
       "status": "searched",
@@ -685,10 +685,10 @@
     },
     "model-021:classic-trader:lotus-esprit-gt3": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T08:48:57Z",
+      "lastSearchedAt": "2026-09-14T09:11:29Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Classic Trader search executed; no qualifying current direct Lotus Esprit GT3 advert surfaced."
+      "limitation": "Classic Trader search returned no direct current UK Esprit GT3 advert strong enough to retain."
     },
     "model-021:collecting-cars:lotus-esprit-gt3": {
       "status": "searched",
@@ -699,10 +699,10 @@
     },
     "model-021:ebay:lotus-esprit-gt3": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T14:44:20Z",
+      "lastSearchedAt": "2026-09-14T09:11:29Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "eBay UK search produced brochure/parts or irrelevant material rather than a current complete Esprit GT3 vehicle advert; none retained."
+      "limitation": "Fresh eBay GT3 search returned parts, models or non-qualifying material rather than a plausible current UK Esprit GT3 vehicle advert."
     },
     "model-021:facebook-groups:lotus-esprit-gt3": {
       "status": "blocked",
@@ -882,12 +882,12 @@
     },
     "model-021:pistonheads:lotus-esprit-gt3": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-12T14:44:20Z",
+      "lastSearchedAt": "2026-09-14T09:11:29Z",
       "lastResultCount": 1,
       "candidateUrls": [
         "https://www.pistonheads.com/buy/listing/20412916"
       ],
-      "limitation": "The already tracked 1997 Lotus Esprit GT3 (#20412916) remains a current-looking direct advert at £47,000, 47,000 miles and manual. Exact seller-photo/manual and unavailable-overlay checks remain outstanding, so it stays verification-pending."
+      "limitation": "PistonHeads 20412916 remains a current-looking 1997 Esprit GT3 at £47,000, 47,000 miles and manual with live seller controls and a 19-photo gallery; it is already verification-pending. Older listing 15704165 is explicitly no longer available and was rejected."
     },
     "model-021:specialist-dealers:lotus-esprit-gt3": {
       "status": "searched",
@@ -1130,24 +1130,24 @@
     },
     "model-072:collecting-cars:bmw-1m-coupe-manual-45000-55000-full-service-history": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-13T21:15:12Z",
+      "lastSearchedAt": "2026-09-14T09:11:29Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Collecting Cars query executed; completed/historical auction material was not treated as current asking-price stock and no qualifying live fixed-price advert was retained."
+      "limitation": "Collecting Cars search did not surface a current fixed-price qualifying BMW 1M Coupe manual; auction/completed-sale material was not retained."
     },
     "model-072:bonhams-cars:bmw-1m-coupe-manual-45000-55000-full-service-history": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-13T21:15:12Z",
+      "lastSearchedAt": "2026-09-14T09:11:29Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Bonhams Cars query executed; no plausible current direct BMW 1M advert in the £45k–£55k target band was retained."
+      "limitation": "Bonhams Cars search returned no current fixed-price UK BMW 1M Coupe manual advert in the £45,000-£55,000 target band with the requested history evidence."
     },
     "model-072:classic-trader:bmw-1m-coupe-manual-45000-55000-full-service-history": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-13T21:15:12Z",
+      "lastSearchedAt": "2026-09-14T09:11:29Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Classic Trader query executed; no plausible current direct BMW 1M advert in the £45k–£55k target band was retained."
+      "limitation": "Classic Trader search returned no direct current UK BMW 1M Coupe manual advert in the £45,000-£55,000 target band strong enough to retain."
     },
     "model-072:gumtree:bmw-1m-coupe-manual-45000-55000-full-service-history": {
       "status": "searched",
@@ -1456,10 +1456,10 @@
     },
     "model-097:autotrader:bmw-m5-e39-6-speed-manual-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-13T22:08:05Z",
+      "lastSearchedAt": "2026-09-14T09:11:29Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Auto Trader variant query executed; no new direct current E39 M5 six-speed manual car-details URL at or below 50,000 miles was retained."
+      "limitation": "Fresh Auto Trader search surfaced generic M5/classic inventory rather than a direct current E39 M5 car-details advert at or below 50,000 miles; no direct candidate retained."
     },
     "model-097:bonhams-cars:bmw-e39-m5-manual-uk": {
       "status": "searched",
@@ -1477,19 +1477,21 @@
     },
     "model-097:car-and-classic:bmw-e39-m5-manual-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-13T22:08:05Z",
-      "lastResultCount": 0,
-      "candidateUrls": [],
-      "limitation": "Car & Classic query executed; no new vehicle identity beyond already-tracked E39 M5 material was retained."
-    },
-    "model-097:car-and-classic:bmw-m5-e39-6-speed-manual-uk": {
-      "status": "searched",
-      "lastSearchedAt": "2026-09-13T23:39:03Z",
+      "lastSearchedAt": "2026-09-14T09:11:29Z",
       "lastResultCount": 1,
       "candidateUrls": [
         "https://www.carandclassic.com/car/C2060885"
       ],
-      "limitation": "Car & Classic query executed. Current £50,000/46,637-mile six-speed manual E39 M5 C2060885 resurfaced and is already published/tracked; other surfaced UK E39 M5 adverts exceeded the 50,000-mile cap or were POA."
+      "limitation": "Car & Classic C2060885 remains a current-looking 2003 E39 M5 six-speed manual at 46,637 miles and £50,000. It is already tracked/published; no material price or status change found. Higher-mileage and POA/ended results were rejected."
+    },
+    "model-097:car-and-classic:bmw-m5-e39-6-speed-manual-uk": {
+      "status": "searched",
+      "lastSearchedAt": "2026-09-14T09:11:29Z",
+      "lastResultCount": 1,
+      "candidateUrls": [
+        "https://www.carandclassic.com/car/C2060885"
+      ],
+      "limitation": "Car & Classic C2060885 remains the only direct current result within the E39 M5 50,000-mile cap from this query: 2003, six-speed manual, 46,637 miles, £50,000. Already tracked/published; no material change."
     },
     "model-097:classic-trader:bmw-e39-m5-manual-uk": {
       "status": "searched",
@@ -1521,17 +1523,17 @@
     },
     "model-097:ebay:bmw-e39-m5-manual-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-13T23:39:03Z",
+      "lastSearchedAt": "2026-09-14T09:11:29Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "eBay query executed. A current 2003 manual E39 M5 advert surfaced at 135,000 miles, above the 50,000-mile cap; no qualifying current advert retained."
+      "limitation": "Fresh eBay search returned no plausible current UK E39 M5 vehicle advert at or below 50,000 miles; non-vehicle and non-qualifying results were rejected."
     },
     "model-097:ebay:bmw-m5-e39-6-speed-manual-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-13T23:39:03Z",
+      "lastSearchedAt": "2026-09-14T09:11:29Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "eBay variant query executed. Current E39 M5 material surfaced only above the 50,000-mile cap; no qualifying advert retained."
+      "limitation": "Fresh eBay six-speed E39 M5 search returned no direct current UK advert within the 50,000-mile cap."
     },
     "model-097:facebook-groups:bmw-e39-m5-manual-uk": {
       "status": "searched",
@@ -2563,17 +2565,17 @@
     },
     "model-085:bonhams-cars:subaru-impreza-rb320": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-13T20:12:33Z",
+      "lastSearchedAt": "2026-09-14T09:11:29Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Bonhams query executed; no current direct RB320 advert under 30,000 miles with verifiable maximum-two-owner history was retained."
+      "limitation": "Bonhams Cars search returned no direct current RB320 advert satisfying the strict sub-30,000-mile and maximum-two-total-owner rules."
     },
     "model-085:collecting-cars:subaru-impreza-rb320": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-13T20:12:33Z",
+      "lastSearchedAt": "2026-09-14T09:11:29Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Collecting Cars results were historical/sold RB320 auction pages and/or above the 30,000-mile cap. No current qualifying fixed-price advert retained."
+      "limitation": "Collecting Cars surfaced historical completed RB320 sales, including examples well over the mileage cap; completed auctions were rejected and no current qualifying advert was retained."
     },
     "model-075:autotrader:audi-tt-quattro-sport": {
       "status": "searched",
@@ -3202,17 +3204,17 @@
     },
     "model-085:classic-trader:subaru-impreza-rb320": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-13T20:12:33Z",
+      "lastSearchedAt": "2026-09-14T09:11:29Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Classic Trader query executed; returned ordinary WRX/STI stock rather than a qualifying RB320. No candidate retained."
+      "limitation": "Classic Trader search returned no direct current UK RB320 advert with verified mileage below 30,000 and no more than two total owners."
     },
     "model-088:bonhams-cars:mitsubishi-evo-vi-tommi-makinen-edition": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-13T20:12:33Z",
+      "lastSearchedAt": "2026-09-14T09:11:29Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Bonhams query executed; no current direct TME advert meeting mileage, owner-count and fixed-price rules was retained."
+      "limitation": "Bonhams Cars search returned no direct current Evo VI Tommi Makinen Edition advert meeting the sub-30,000-mile and maximum-two-total-owner rules."
     },
     "model-035:ferrarichat:lotus-europa-s-se": {
       "status": "failed",
@@ -3905,38 +3907,38 @@
     },
     "model-075:facebook-groups:audi-tt-quattro-sport": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-13T18:02:09Z",
+      "lastSearchedAt": "2026-09-14T09:11:29Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public indexed Facebook-group search returned no direct current genuine TT quattro Sport sale post. Authenticated/private-group access was not attempted."
+      "limitation": "Public indexed Facebook Groups search returned no direct accessible current genuine Mk1 TT quattro Sport sale post; authenticated/private-group access was not attempted."
     },
     "model-078:911uk:renault-clio-182-trophy": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-13T18:02:09Z",
+      "lastSearchedAt": "2026-09-14T09:11:29Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "911UK indexed search returned no direct current Clio 182 Trophy advert meeting the under-30,000-mile/two-owner gate."
+      "limitation": "911UK indexed search returned no direct current Clio 182 Trophy sale thread meeting the strict sub-30,000-mile and maximum-two-total-owner requirements."
     },
     "model-078:ferrarichat:renault-clio-182-trophy": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-13T18:02:09Z",
+      "lastSearchedAt": "2026-09-14T09:11:29Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "FerrariChat indexed search returned no direct current qualifying Clio 182 Trophy sale advert."
+      "limitation": "FerrariChat indexed search returned no direct current UK Clio 182 Trophy sale advert meeting the strict mileage and ownership caps."
     },
     "model-078:lamborghini-talk:renault-clio-182-trophy": {
       "status": "blocked",
-      "lastSearchedAt": "2026-09-13T18:02:09Z",
+      "lastSearchedAt": "2026-09-14T09:11:29Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "LamborghiniTalk public access was blocked by robots.txt. No bypass attempted."
+      "limitation": "Public web access to LamborghiniTalk was blocked by robots.txt; no bypass was attempted."
     },
     "model-085:911uk:subaru-impreza-rb320": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-13T18:02:09Z",
+      "lastSearchedAt": "2026-09-14T09:11:29Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "911UK indexed search returned no direct current RB320 advert meeting the under-30,000-mile/two-owner gate."
+      "limitation": "911UK indexed search returned no direct current RB320 sale thread satisfying verified sub-30,000 mileage and maximum two total owners."
     },
     "model-040:autotrader:renault-clio-v6-phase-2": {
       "status": "searched",
@@ -4152,24 +4154,24 @@
     },
     "model-085:ferrarichat:subaru-impreza-rb320": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-13T18:02:09Z",
+      "lastSearchedAt": "2026-09-14T09:11:29Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "FerrariChat indexed search returned no direct current qualifying RB320 sale advert."
+      "limitation": "FerrariChat indexed search returned no direct current UK RB320 advert meeting the strict mileage and total-owner rules."
     },
     "model-085:lamborghini-talk:subaru-impreza-rb320": {
       "status": "blocked",
-      "lastSearchedAt": "2026-09-13T18:02:09Z",
+      "lastSearchedAt": "2026-09-14T09:11:29Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "LamborghiniTalk public access was blocked by robots.txt. No bypass attempted."
+      "limitation": "Public web access to LamborghiniTalk was blocked by robots.txt; no bypass was attempted."
     },
     "model-088:facebook-groups:mitsubishi-evo-vi-tommi-makinen-edition": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-13T18:02:09Z",
+      "lastSearchedAt": "2026-09-14T09:11:29Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public indexed Facebook-group search returned no direct current TME sale post meeting the mileage/ownership gate. Authenticated/private-group access was not attempted."
+      "limitation": "Public indexed Facebook Groups search returned no direct accessible current Evo VI Tommi Makinen Edition sale post with verified sub-30,000 mileage and maximum two total owners."
     },
     "model-041:facebook-groups:aston-martin-v12-vantage-manual": {
       "status": "blocked",
@@ -8449,45 +8451,45 @@
     },
     "model-086:facebook-groups:subaru-impreza-22b": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T21:05:36Z",
+      "lastSearchedAt": "2026-09-14T09:11:29Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Executed public Facebook group index search; no accessible current direct 22B sale post satisfying the rules was retained."
+      "limitation": "Public indexed Facebook Groups search returned no direct accessible current Subaru 22B sale post meeting the strict sub-30,000-mile and maximum-two-total-owner rules."
     },
     "model-086:facebook-groups:subaru-impreza-sti-type-r": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T21:05:36Z",
+      "lastSearchedAt": "2026-09-14T09:11:29Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Executed public Facebook group index search; no accessible current direct STI Type R sale post satisfying the rules was retained."
+      "limitation": "Public indexed Facebook Groups search returned no direct accessible current STI Type R sale post with verified sub-30,000 mileage and no more than two total owners."
     },
     "model-086:facebook-groups:subaru-impreza-sti-type-ra": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T21:05:36Z",
+      "lastSearchedAt": "2026-09-14T09:11:29Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Executed public Facebook group index search; no accessible current direct STI Type RA sale post satisfying the rules was retained."
+      "limitation": "Public indexed Facebook Groups search returned no direct accessible current STI Type RA sale post meeting the strict mileage and total-owner caps."
     },
     "model-086:ferrarichat:subaru-impreza-22b": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T21:05:36Z",
+      "lastSearchedAt": "2026-09-14T09:11:29Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Executed FerrariChat indexed search; no plausible current UK 22B sale advert satisfying the rules was retained."
+      "limitation": "FerrariChat indexed search returned no direct current UK Subaru 22B sale advert satisfying the strict mileage and ownership rules."
     },
     "model-086:ferrarichat:subaru-impreza-sti-type-r": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T21:05:36Z",
+      "lastSearchedAt": "2026-09-14T09:11:29Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Executed FerrariChat indexed search; no plausible current UK STI Type R sale advert satisfying the rules was retained."
+      "limitation": "FerrariChat indexed search returned no direct current UK STI Type R advert meeting verified sub-30,000 mileage and maximum two total owners."
     },
     "model-086:ferrarichat:subaru-impreza-sti-type-ra": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T21:05:36Z",
+      "lastSearchedAt": "2026-09-14T09:11:29Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Executed FerrariChat indexed search; no plausible current UK STI Type RA sale advert satisfying the rules was retained."
+      "limitation": "FerrariChat indexed search returned no direct current UK STI Type RA advert meeting the strict mileage and total-owner requirements."
     },
     "model-086:gumtree:subaru-impreza-22b": {
       "status": "searched",
@@ -8512,24 +8514,24 @@
     },
     "model-086:lamborghini-talk:subaru-impreza-22b": {
       "status": "blocked",
-      "lastSearchedAt": "2026-09-11T21:05:36Z",
+      "lastSearchedAt": "2026-09-14T09:11:29Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public search was blocked by lamborghini-talk.com robots.txt; no access-control bypass attempted."
+      "limitation": "Public web access to LamborghiniTalk was blocked by robots.txt; no bypass was attempted."
     },
     "model-086:lamborghini-talk:subaru-impreza-sti-type-r": {
       "status": "blocked",
-      "lastSearchedAt": "2026-09-11T21:05:36Z",
+      "lastSearchedAt": "2026-09-14T09:11:29Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public search was blocked by lamborghini-talk.com robots.txt; no access-control bypass attempted."
+      "limitation": "Public web access to LamborghiniTalk was blocked by robots.txt; no bypass was attempted."
     },
     "model-086:lamborghini-talk:subaru-impreza-sti-type-ra": {
       "status": "blocked",
-      "lastSearchedAt": "2026-09-11T21:05:36Z",
+      "lastSearchedAt": "2026-09-14T09:11:29Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public search was blocked by lamborghini-talk.com robots.txt; no access-control bypass attempted."
+      "limitation": "Public web access to LamborghiniTalk was blocked by robots.txt; no bypass was attempted."
     },
     "model-086:pistonheads:subaru-impreza-22b": {
       "status": "searched",
@@ -8575,24 +8577,24 @@
     },
     "model-087:911uk:subaru-impreza-s202": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T21:05:36Z",
+      "lastSearchedAt": "2026-09-14T09:11:29Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Executed 911UK indexed search; no plausible current S202 sale thread satisfying the rules was retained."
+      "limitation": "911UK indexed search returned no direct current S202 sale thread meeting the strict sub-30,000-mile and maximum-two-total-owner requirements."
     },
     "model-087:911uk:subaru-impreza-s203": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T21:05:36Z",
+      "lastSearchedAt": "2026-09-14T09:11:29Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Executed 911UK indexed search; no plausible current S203 sale thread satisfying the rules was retained."
+      "limitation": "911UK indexed search returned no direct current S203 sale thread meeting the strict sub-30,000-mile and maximum-two-total-owner requirements."
     },
     "model-087:911uk:subaru-impreza-s204": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T21:05:36Z",
+      "lastSearchedAt": "2026-09-14T09:11:29Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Executed 911UK indexed search; no plausible current S204 sale thread satisfying the rules was retained."
+      "limitation": "911UK indexed search returned no direct current S204 sale thread meeting the strict sub-30,000-mile and maximum-two-total-owner requirements."
     },
     "model-087:autotrader:subaru-impreza-s202": {
       "status": "searched",
@@ -8722,45 +8724,45 @@
     },
     "model-087:facebook-groups:subaru-impreza-s202": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T21:38:53Z",
+      "lastSearchedAt": "2026-09-14T09:11:29Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Executed public indexed Facebook-group search. No current direct S202 sale post was exposed; public group coverage remains index-limited."
+      "limitation": "Public indexed Facebook Groups search returned no direct accessible current S202 sale post meeting the strict mileage and ownership caps."
     },
     "model-087:facebook-groups:subaru-impreza-s203": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T21:38:53Z",
+      "lastSearchedAt": "2026-09-14T09:11:29Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Executed public indexed Facebook-group search. No current direct S203 sale post was exposed; public group coverage remains index-limited."
+      "limitation": "Public indexed Facebook Groups search returned no direct accessible current S203 sale post meeting the strict mileage and ownership caps."
     },
     "model-087:facebook-groups:subaru-impreza-s204": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T21:38:53Z",
+      "lastSearchedAt": "2026-09-14T09:11:29Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Executed public indexed Facebook-group search. No current direct S204 sale post was exposed; public group coverage remains index-limited."
+      "limitation": "Public indexed Facebook Groups search returned no direct accessible current S204 sale post meeting the strict mileage and ownership caps."
     },
     "model-087:ferrarichat:subaru-impreza-s202": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T21:38:53Z",
+      "lastSearchedAt": "2026-09-14T09:11:29Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Executed FerrariChat indexed search. No current direct UK S202 advert was retained."
+      "limitation": "FerrariChat indexed search returned no direct current UK S202 sale advert satisfying the strict mileage and ownership requirements."
     },
     "model-087:ferrarichat:subaru-impreza-s203": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T21:38:53Z",
+      "lastSearchedAt": "2026-09-14T09:11:29Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Executed FerrariChat indexed search. No current direct UK S203 advert was retained."
+      "limitation": "FerrariChat indexed search returned no direct current UK S203 sale advert satisfying the strict mileage and ownership requirements."
     },
     "model-087:ferrarichat:subaru-impreza-s204": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T21:38:53Z",
+      "lastSearchedAt": "2026-09-14T09:11:29Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Executed FerrariChat indexed search. No current direct UK S204 advert was retained."
+      "limitation": "FerrariChat indexed search returned no direct current UK S204 sale advert satisfying the strict mileage and ownership requirements."
     },
     "model-087:gumtree:subaru-impreza-s202": {
       "status": "searched",
@@ -8785,24 +8787,24 @@
     },
     "model-087:lamborghini-talk:subaru-impreza-s202": {
       "status": "blocked",
-      "lastSearchedAt": "2026-09-11T21:38:53Z",
+      "lastSearchedAt": "2026-09-14T09:11:29Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search could not access lamborghini-talk.com because the domain blocks automated access via robots.txt. No bypass attempted."
+      "limitation": "Public web access to LamborghiniTalk was blocked by robots.txt; no bypass was attempted."
     },
     "model-087:lamborghini-talk:subaru-impreza-s203": {
       "status": "blocked",
-      "lastSearchedAt": "2026-09-11T21:38:53Z",
+      "lastSearchedAt": "2026-09-14T09:11:29Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search could not access lamborghini-talk.com because the domain blocks automated access via robots.txt. No bypass attempted."
+      "limitation": "Public web access to LamborghiniTalk was blocked by robots.txt; no bypass was attempted."
     },
     "model-087:lamborghini-talk:subaru-impreza-s204": {
       "status": "blocked",
-      "lastSearchedAt": "2026-09-11T21:38:53Z",
+      "lastSearchedAt": "2026-09-14T09:11:29Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search could not access lamborghini-talk.com because the domain blocks automated access via robots.txt. No bypass attempted."
+      "limitation": "Public web access to LamborghiniTalk was blocked by robots.txt; no bypass was attempted."
     },
     "model-087:pistonheads:subaru-impreza-s202": {
       "status": "searched",
@@ -8848,17 +8850,17 @@
     },
     "model-089:911uk:mitsubishi-evo-viii-fq400": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T21:38:53Z",
+      "lastSearchedAt": "2026-09-14T09:11:29Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Executed 911UK indexed search. No current direct Evo VIII FQ400 advert meeting the strict under-30,000-mile/two-owner rules was retained."
+      "limitation": "911UK indexed search returned no direct current Evo VIII FQ400 sale thread meeting verified sub-30,000 mileage and maximum two total owners."
     },
     "model-089:911uk:mitsubishi-evo-viii-mr-fq320": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-11T21:38:53Z",
+      "lastSearchedAt": "2026-09-14T09:11:29Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Executed 911UK indexed search. No current direct Evo VIII MR FQ320 advert meeting the strict under-30,000-mile/two-owner rules was retained."
+      "limitation": "911UK indexed search returned no direct current Evo VIII MR FQ320 sale thread meeting verified sub-30,000 mileage and maximum two total owners."
     },
     "model-089:autotrader:mitsubishi-evo-viii-fq400": {
       "status": "searched",
