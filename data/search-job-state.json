@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T17:56:19Z",
+  "updatedAt": "2026-09-15T18:14:09Z",
   "compactedFromQueueAt": "2026-09-10T06:41:54.207Z",
   "note": "Cumulative worker-write state. Job results are merged from immutable run deltas and folded back into data/search-queue.json by scripts/build-search-queue.mjs.",
   "jobs": {
@@ -820,10 +820,10 @@
     },
     "model-096:gumtree:bmw-m3-e46-6-speed-manual-coupe-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-15T09:18:54Z",
+      "lastSearchedAt": "2026-09-15T18:14:09Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No plausible current direct Gumtree factory-manual E46 M3 coupe at 50,000 miles or less surfaced."
+      "limitation": "No plausible current direct Gumtree E46 M3 manual coupe advert at or below 50,000 miles was retained."
     },
     "model-096:lamborghini-talk:bmw-e46-m3-manual-coupe-uk": {
       "status": "blocked",
@@ -841,35 +841,39 @@
     },
     "model-096:pistonheads:bmw-e46-m3-manual-coupe-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-15T09:18:54Z",
-      "lastResultCount": 0,
-      "candidateUrls": [],
-      "limitation": "PistonHeads results were over 50,000 miles, convertibles, automatic/ambiguous, or explicitly no longer available; no qualifying live coupe retained."
+      "lastSearchedAt": "2026-09-15T18:14:09Z",
+      "lastResultCount": 1,
+      "candidateUrls": [
+        "https://www.pistonheads.com/buy/listing/19915003"
+      ],
+      "limitation": "One current qualifying-looking 2003 E46 M3 manual at £99,995/3,100 miles/one owner was retained; exact seller-photo visual verification remains incomplete, so it is not publication-ready."
     },
     "model-096:pistonheads:bmw-m3-e46-6-speed-manual-coupe-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-15T09:18:54Z",
-      "lastResultCount": 0,
-      "candidateUrls": [],
-      "limitation": "PistonHeads results were over 50,000 miles, convertibles, automatic/ambiguous, or explicitly no longer available; no qualifying live coupe retained."
+      "lastSearchedAt": "2026-09-15T18:14:09Z",
+      "lastResultCount": 1,
+      "candidateUrls": [
+        "https://www.pistonheads.com/buy/listing/19915003"
+      ],
+      "limitation": "One current qualifying-looking 2003 E46 M3 manual at £99,995/3,100 miles/one owner was retained; exact seller-photo visual verification remains incomplete, so it is not publication-ready."
     },
     "model-096:specialist-dealers:bmw-e46-m3-manual-coupe-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-15T09:18:54Z",
+      "lastSearchedAt": "2026-09-15T18:14:09Z",
       "lastResultCount": 1,
       "candidateUrls": [
         "https://www.hexagonclassics.com/car/bmw-m3-coupe--e46---manual--2003"
       ],
-      "limitation": "Existing Hexagon candidate remains advertised as a 2003 factory 6-speed manual coupe with 3,100 miles. Detail page says £99,995 while the BMW stock page says £120,000, so price is ambiguous and it remains unverified."
+      "limitation": "Hexagon currently lists the 2003 E46 M3 manual at £99,995, 3,100 miles and one owner with active showroom availability. Exact seller-image visual verification remains incomplete."
     },
     "model-096:specialist-dealers:bmw-m3-e46-6-speed-manual-coupe-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-15T09:18:54Z",
+      "lastSearchedAt": "2026-09-15T18:14:09Z",
       "lastResultCount": 1,
       "candidateUrls": [
         "https://www.hexagonclassics.com/car/bmw-m3-coupe--e46---manual--2003"
       ],
-      "limitation": "Existing Hexagon candidate remains advertised as a 2003 factory 6-speed manual coupe with 3,100 miles. Detail page says £99,995 while the BMW stock page says £120,000, so price is ambiguous and it remains unverified."
+      "limitation": "Hexagon currently lists the 2003 E46 M3 manual at £99,995, 3,100 miles and one owner with active showroom availability. Exact seller-image visual verification remains incomplete."
     },
     "model-097:911uk:bmw-e39-m5-manual-uk": {
       "status": "searched",
@@ -1469,17 +1473,17 @@
     },
     "model-097:autotrader:bmw-e39-m5-manual-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-15T09:18:54Z",
+      "lastSearchedAt": "2026-09-15T18:14:09Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No direct current Auto Trader E39 M5 car-details URL at 50,000 miles or less was strong enough to retain; generic inventory pages were rejected."
+      "limitation": "Auto Trader inventory surfaced but no direct current E39 M5 manual car-details URL at or below 50,000 miles was strong enough to retain."
     },
     "model-097:autotrader:bmw-m5-e39-6-speed-manual-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-15T09:18:54Z",
+      "lastSearchedAt": "2026-09-15T18:14:09Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No direct current Auto Trader E39 M5 car-details URL at 50,000 miles or less was strong enough to retain; generic inventory pages were rejected."
+      "limitation": "Auto Trader inventory surfaced but no direct current E39 M5 manual car-details URL at or below 50,000 miles was strong enough to retain."
     },
     "model-097:bonhams-cars:bmw-e39-m5-manual-uk": {
       "status": "searched",
@@ -1497,21 +1501,21 @@
     },
     "model-097:car-and-classic:bmw-e39-m5-manual-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-15T09:18:54Z",
+      "lastSearchedAt": "2026-09-15T18:14:09Z",
       "lastResultCount": 1,
       "candidateUrls": [
         "https://www.carandclassic.com/car/C2060885"
       ],
-      "limitation": "Existing published 2003 E39 M5 remains explicitly For Sale at £50,000/46,637 miles with six-speed manual transmission; no material price or status change."
+      "limitation": "The already tracked 2003 E39 M5 remains For Sale at £50,000/46,637 miles with no material price or availability change; other surfaced cars exceeded the mileage rule or were unavailable/POA."
     },
     "model-097:car-and-classic:bmw-m5-e39-6-speed-manual-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-15T09:18:54Z",
+      "lastSearchedAt": "2026-09-15T18:14:09Z",
       "lastResultCount": 1,
       "candidateUrls": [
         "https://www.carandclassic.com/car/C2060885"
       ],
-      "limitation": "Existing published 2003 E39 M5 remains explicitly For Sale at £50,000/46,637 miles with six-speed manual transmission; no material price or status change."
+      "limitation": "The already tracked 2003 E39 M5 remains For Sale at £50,000/46,637 miles with no material price or availability change; other surfaced cars exceeded the mileage rule or were unavailable/POA."
     },
     "model-097:classic-trader:bmw-e39-m5-manual-uk": {
       "status": "searched",
@@ -2218,24 +2222,24 @@
     },
     "model-085:car-and-classic:subaru-impreza-rb320": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-15T09:18:54Z",
+      "lastSearchedAt": "2026-09-15T18:14:09Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "The 24,800-mile RB320 result C1558378 is explicitly removed through sale or otherwise; no qualifying live replacement surfaced."
+      "limitation": "No current direct Car & Classic RB320 advert met the under-30,000-mile and maximum-two-total-owner rules."
     },
     "model-085:ebay:subaru-impreza-rb320": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-15T10:16:24Z",
+      "lastSearchedAt": "2026-09-15T18:14:09Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No current eBay UK RB320 advert meeting <30,000 miles and <=2 total owners surfaced."
+      "limitation": "No current direct eBay RB320 advert met the under-30,000-mile and maximum-two-total-owner rules; irrelevant/ended material was rejected."
     },
     "model-085:pistonheads:subaru-impreza-rb320": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-15T10:16:24Z",
+      "lastSearchedAt": "2026-09-15T18:14:09Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No current PistonHeads RB320 advert meeting <30,000 miles and <=2 total owners surfaced."
+      "limitation": "A 23,855-mile RB320 surfaced but PistonHeads explicitly says it is no longer available for purchase; another surfaced car exceeded the rules. No candidate retained."
     },
     "model-076:bonhams-cars:ford-focus-st500": {
       "status": "searched",
@@ -2274,10 +2278,10 @@
     },
     "model-070:911uk:ford-focus-rs500": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-15T04:57:37Z",
+      "lastSearchedAt": "2026-09-15T18:14:09Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "No plausible current direct 911UK Focus RS500 sale thread was found."
     },
     "model-070:facebook-groups:ford-focus-rs-mk2": {
       "status": "searched",
@@ -2288,10 +2292,10 @@
     },
     "model-070:facebook-groups:ford-focus-rs500": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-15T04:57:37Z",
+      "lastSearchedAt": "2026-09-15T18:14:09Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public search returned only generic/inaccessible Facebook group results; no plausible current advert URL surfaced."
+      "limitation": "No publicly indexed current direct Facebook Group Focus RS500 sale post was strong enough to retain."
     },
     "model-070:ferrarichat:ford-focus-rs-mk1": {
       "status": "searched",
@@ -2309,10 +2313,10 @@
     },
     "model-070:ferrarichat:ford-focus-rs500": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-15T04:57:37Z",
+      "lastSearchedAt": "2026-09-15T18:14:09Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "No plausible current FerrariChat Focus RS500 sale advert was found."
     },
     "model-070:lamborghini-talk:ford-focus-rs-mk1": {
       "status": "blocked",
@@ -2630,17 +2634,17 @@
     },
     "model-076:911uk:ford-focus-st500": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-15T04:57:37Z",
+      "lastSearchedAt": "2026-09-15T18:14:09Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "No plausible current direct 911UK Focus ST500 sale thread was found."
     },
     "model-076:facebook-groups:ford-focus-st500": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-15T04:57:37Z",
+      "lastSearchedAt": "2026-09-15T18:14:09Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public search returned only generic/inaccessible Facebook group results; no plausible current advert URL surfaced."
+      "limitation": "No publicly indexed current direct Facebook Group Focus ST500 sale post was strong enough to retain."
     },
     "model-076:ferrarichat:ford-focus-st500": {
       "status": "searched",
@@ -2665,17 +2669,17 @@
     },
     "model-078:specialist-dealers:renault-clio-182-trophy": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-15T09:18:54Z",
+      "lastSearchedAt": "2026-09-15T18:14:09Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Specialist results were sold, not Trophy variants, or failed the under-30,000-mile/maximum-two-owner rule."
+      "limitation": "Specialist-dealer search found only non-qualifying/stale examples, including a sold 85,000-mile Trophy; no current advert met the under-30,000-mile and maximum-two-total-owner rules."
     },
     "model-085:gumtree:subaru-impreza-rb320": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-15T10:16:24Z",
+      "lastSearchedAt": "2026-09-15T18:14:09Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No plausible current Gumtree RB320 advert meeting the mileage and owner caps surfaced."
+      "limitation": "No plausible current direct Gumtree RB320 advert meeting the mileage and owner rules was found."
     },
     "model-031:911uk:lotus-elise-s1-111s": {
       "status": "searched",
@@ -2901,10 +2905,10 @@
     },
     "model-085:specialist-dealers:subaru-impreza-rb320": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-15T10:16:24Z",
+      "lastSearchedAt": "2026-09-15T18:14:09Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No specialist-dealer RB320 current-stock advert strong enough to retain under the mileage/ownership rules surfaced."
+      "limitation": "Specialist-dealer search found a qualifying-looking low-mileage RB320 already marked SOLD; no current qualifying stock advert was retained."
     },
     "model-088:autotrader:mitsubishi-evo-vi-tommi-makinen-edition": {
       "status": "searched",
@@ -3136,10 +3140,10 @@
     },
     "model-035:autotrader:lotus-europa-s-se": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T03:36:13Z",
+      "lastSearchedAt": "2026-09-15T18:14:09Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Generic Europa inventory only; £14,900 example was below the £20,000 guide floor and no direct URL retained."
+      "limitation": "Auto Trader generic Europa inventory surfaced but no direct current car-details URL was retained; generic inventory pages are rejected."
     },
     "model-035:bonhams-cars:lotus-europa-s-se": {
       "status": "searched",
@@ -3150,10 +3154,10 @@
     },
     "model-035:car-and-classic:lotus-europa-s-se": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T03:36:13Z",
+      "lastSearchedAt": "2026-09-15T18:14:09Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No current direct Car & Classic Europa S/SE advert returned."
+      "limitation": "No plausible current direct Car & Classic Europa S/SE advert was found."
     },
     "model-035:classic-trader:lotus-europa-s-se": {
       "status": "searched",
@@ -3171,10 +3175,10 @@
     },
     "model-035:ebay:lotus-europa-s-se": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T03:36:13Z",
+      "lastSearchedAt": "2026-09-15T18:14:09Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Results were diecast/model items, not complete Europa S/SE cars."
+      "limitation": "Search results were dominated by model/toy/parts listings; no current direct Lotus Europa S/SE vehicle advert was retained."
     },
     "model-035:facebook-groups:lotus-europa-s-se": {
       "status": "blocked",
@@ -3262,10 +3266,10 @@
     },
     "model-035:gumtree:lotus-europa-s-se": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T03:36:13Z",
+      "lastSearchedAt": "2026-09-15T18:14:09Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No direct current Gumtree Europa S/SE advert returned."
+      "limitation": "No plausible current direct Gumtree Lotus Europa S/SE advert was found."
     },
     "model-035:lamborghini-talk:lotus-europa-s-se": {
       "status": "blocked",
@@ -3276,17 +3280,17 @@
     },
     "model-035:pistonheads:lotus-europa-s-se": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T03:36:13Z",
+      "lastSearchedAt": "2026-09-15T18:14:09Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No direct current PistonHeads Europa S/SE advert returned."
+      "limitation": "No plausible current direct PistonHeads Lotus Europa S/SE advert was found."
     },
     "model-035:specialist-dealers:lotus-europa-s-se": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T03:36:13Z",
+      "lastSearchedAt": "2026-09-15T18:14:09Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No originating specialist-dealer current-stock URL returned."
+      "limitation": "No current specialist-dealer Europa S/SE stock advert strong enough to retain was found."
     },
     "model-036:911uk:lotus-evora-launch-edition": {
       "status": "searched",
@@ -3297,10 +3301,10 @@
     },
     "model-036:autotrader:lotus-evora-launch-edition": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T03:36:13Z",
+      "lastSearchedAt": "2026-09-15T18:14:09Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No direct current Auto Trader Launch Edition advert returned."
+      "limitation": "No direct current Auto Trader Evora Launch Edition car-details URL was retained."
     },
     "model-036:bonhams-cars:lotus-evora-launch-edition": {
       "status": "searched",
@@ -3311,10 +3315,10 @@
     },
     "model-036:car-and-classic:lotus-evora-launch-edition": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T03:36:13Z",
+      "lastSearchedAt": "2026-09-15T18:14:09Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No direct current Car & Classic Launch Edition advert returned."
+      "limitation": "No plausible current direct Car & Classic Evora Launch Edition advert was found."
     },
     "model-036:classic-trader:lotus-evora-launch-edition": {
       "status": "searched",
@@ -3332,10 +3336,10 @@
     },
     "model-036:ebay:lotus-evora-launch-edition": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T03:36:13Z",
+      "lastSearchedAt": "2026-09-15T18:14:09Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "eBay result was a model/collectible, not a Launch Edition car."
+      "limitation": "Search surfaced toys/models and non-Launch-Edition Evora stock; no qualifying direct vehicle advert was retained."
     },
     "model-036:facebook-groups:lotus-evora-launch-edition": {
       "status": "blocked",
@@ -3353,10 +3357,10 @@
     },
     "model-036:gumtree:lotus-evora-launch-edition": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T03:36:13Z",
+      "lastSearchedAt": "2026-09-15T18:14:09Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No direct current Gumtree Launch Edition advert returned."
+      "limitation": "No plausible current direct Gumtree Evora Launch Edition advert was found."
     },
     "model-036:lamborghini-talk:lotus-evora-launch-edition": {
       "status": "blocked",
@@ -3367,17 +3371,17 @@
     },
     "model-036:pistonheads:lotus-evora-launch-edition": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T03:36:13Z",
+      "lastSearchedAt": "2026-09-15T18:14:09Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No direct current PistonHeads Launch Edition advert returned."
+      "limitation": "No plausible current direct PistonHeads Evora Launch Edition advert was found."
     },
     "model-036:specialist-dealers:lotus-evora-launch-edition": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T03:36:13Z",
+      "lastSearchedAt": "2026-09-15T18:14:09Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No originating specialist-dealer current-stock URL returned."
+      "limitation": "No current specialist-dealer Evora Launch Edition stock advert strong enough to retain was found."
     },
     "model-037:911uk:vauxhall-vx220-2-2-turbo": {
       "status": "searched",
@@ -3388,10 +3392,10 @@
     },
     "model-037:autotrader:vauxhall-vx220-2-2-turbo": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T03:36:13Z",
+      "lastSearchedAt": "2026-09-15T18:14:09Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Current VX220 inventory was generic/category-level; direct advert URLs not retained from it."
+      "limitation": "Auto Trader generic VX220 inventory surfaced but no direct current car-details URL was retained; generic inventory pages are rejected."
     },
     "model-037:bonhams-cars:vauxhall-vx220-2-2-turbo": {
       "status": "searched",
@@ -3402,12 +3406,12 @@
     },
     "model-037:car-and-classic:vauxhall-vx220-2-2-turbo": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T03:36:13Z",
+      "lastSearchedAt": "2026-09-15T18:14:09Z",
       "lastResultCount": 1,
       "candidateUrls": [
         "https://www.carandclassic.com/car/C2177570"
       ],
-      "limitation": "Current £19,950/40,000-mile manual dealer advert retained; colour/description conflict needs verification."
+      "limitation": "One current direct 2003 VX220 advert at £19,950/40,000 miles/manual was retained; exact gallery visual verification remains incomplete."
     },
     "model-037:classic-trader:vauxhall-vx220-2-2-turbo": {
       "status": "searched",
@@ -3425,10 +3429,10 @@
     },
     "model-037:ebay:vauxhall-vx220-2-2-turbo": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T03:36:13Z",
+      "lastSearchedAt": "2026-09-15T18:14:09Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Results were VX220 parts/brochures rather than complete cars."
+      "limitation": "eBay results were parts/non-vehicle noise; no current direct VX220 vehicle advert was retained."
     },
     "model-037:facebook-groups:vauxhall-vx220-2-2-turbo": {
       "status": "blocked",
@@ -3446,10 +3450,10 @@
     },
     "model-037:gumtree:vauxhall-vx220-2-2-turbo": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T03:36:13Z",
+      "lastSearchedAt": "2026-09-15T18:14:09Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No direct current Gumtree VX220 advert returned."
+      "limitation": "No plausible current direct Gumtree VX220 advert was found."
     },
     "model-037:lamborghini-talk:vauxhall-vx220-2-2-turbo": {
       "status": "searched",
@@ -3460,16 +3464,13 @@
     },
     "model-037:pistonheads:vauxhall-vx220-2-2-turbo": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T03:36:13Z",
-      "lastResultCount": 5,
+      "lastSearchedAt": "2026-09-15T18:14:09Z",
+      "lastResultCount": 2,
       "candidateUrls": [
-        "https://www.pistonheads.com/buy/listing/20287776",
-        "https://www.pistonheads.com/buy/listing/20275189",
         "https://www.pistonheads.com/buy/listing/20291528",
-        "https://www.pistonheads.com/buy/listing/21000312",
-        "https://www.pistonheads.com/buy/listing/20902985"
+        "https://www.pistonheads.com/buy/listing/20287776"
       ],
-      "limitation": "Five current direct VX220 adverts within price/year/manual rules retained; 20794912 is explicitly unavailable and rejected."
+      "limitation": "Two current direct VX220 Turbo adverts were retained. A previously tracked 2002 VX220 2.2 (listing 20275189) now explicitly says it is no longer available for purchase and was excluded."
     },
     "model-001:collecting-cars:ferrari-360-modena-spider-manual": {
       "status": "searched",
@@ -3732,10 +3733,10 @@
     },
     "model-037:specialist-dealers:vauxhall-vx220-2-2-turbo": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T03:36:13Z",
+      "lastSearchedAt": "2026-09-15T18:14:09Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No originating specialist-dealer stock URL surfaced strongly enough; third-party classifieds were not used as dealer-source proof."
+      "limitation": "No new current seller-direct specialist VX220 advert strong enough to retain was found."
     },
     "model-038:911uk:vauxhall-vxr220": {
       "status": "searched",
@@ -3746,10 +3747,10 @@
     },
     "model-038:autotrader:vauxhall-vxr220": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T03:36:13Z",
+      "lastSearchedAt": "2026-09-15T18:14:09Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Generic VX220 inventory only; no direct VXR220 advert retained."
+      "limitation": "No current direct Auto Trader VXR220 car-details advert was retained."
     },
     "model-038:bonhams-cars:vauxhall-vxr220": {
       "status": "searched",
@@ -3760,12 +3761,10 @@
     },
     "model-038:car-and-classic:vauxhall-vxr220": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T03:36:13Z",
-      "lastResultCount": 1,
-      "candidateUrls": [
-        "https://www.carandclassic.com/car/C2046043"
-      ],
-      "limitation": "Current VXR220 no.38 at £29,950/22,900 miles/manual retained; already tracked, no material change."
+      "lastSearchedAt": "2026-09-15T18:14:09Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "No plausible current direct Car & Classic VXR220 advert was found."
     },
     "model-038:classic-trader:vauxhall-vxr220": {
       "status": "searched",
@@ -3783,10 +3782,10 @@
     },
     "model-038:ebay:vauxhall-vxr220": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T03:36:13Z",
+      "lastSearchedAt": "2026-09-15T18:14:09Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Results were unrelated VXR8 cars or VX220 parts; no VXR220 retained."
+      "limitation": "Search surfaced unrelated VXR vehicles/parts rather than a genuine VXR220; no candidate retained."
     },
     "model-038:facebook-groups:vauxhall-vxr220": {
       "status": "searched",
@@ -4863,18 +4862,18 @@
       "limitation": "eBay results were scale models/parts and a wrong-variant 996 Carrera; no actual current 996 GT3 vehicle advert was retained."
     },
     "model-048:facebook-groups:porsche-996-gt3-mk1-mk2": {
-      "status": "blocked",
-      "lastSearchedAt": "2026-09-13T10:20:03Z",
+      "status": "searched",
+      "lastSearchedAt": "2026-09-15T18:14:09Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public indexed Facebook-group search returned no direct current sale post. Authenticated/private-group access was not attempted."
+      "limitation": "No publicly indexed current direct Facebook Group 996 GT3 sale post was strong enough to retain."
     },
     "model-048:ferrarichat:porsche-996-gt3-mk1-mk2": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-13T10:20:03Z",
+      "lastSearchedAt": "2026-09-15T18:14:09Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "FerrariChat indexed search returned no direct current UK 996 GT3 sale advert."
+      "limitation": "No plausible current direct FerrariChat 996 GT3 sale advert was found."
     },
     "model-048:gumtree:porsche-996-gt3-mk1-mk2": {
       "status": "searched",
@@ -4885,10 +4884,10 @@
     },
     "model-048:lamborghini-talk:porsche-996-gt3-mk1-mk2": {
       "status": "blocked",
-      "lastSearchedAt": "2026-09-13T10:20:03Z",
+      "lastSearchedAt": "2026-09-15T18:14:09Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "LamborghiniTalk is blocked by robots.txt for this public search path. No bypass attempted."
+      "limitation": "Public web access to lamborghini-talk.com was blocked by robots.txt in this run; no result could be verified from that source."
     },
     "model-048:pistonheads:porsche-996-gt3-mk1-mk2": {
       "status": "searched",
@@ -4908,10 +4907,10 @@
     },
     "model-049:911uk:porsche-997-1-gt3": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-13T10:20:03Z",
+      "lastSearchedAt": "2026-09-15T18:14:09Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "911UK indexed search returned no new direct current 997.1 GT3 sale thread retained."
+      "limitation": "Search found old/withdrawn discussion material rather than a current purchasable 997.1 GT3; no direct sale candidate retained."
     },
     "model-049:autotrader:porsche-997-1-gt3": {
       "status": "searched",
@@ -4956,11 +4955,11 @@
       "limitation": "eBay results were GT3 exhausts/parts and related items rather than a current qualifying 997.1 GT3 vehicle advert."
     },
     "model-049:facebook-groups:porsche-997-1-gt3": {
-      "status": "blocked",
-      "lastSearchedAt": "2026-09-13T10:20:03Z",
+      "status": "searched",
+      "lastSearchedAt": "2026-09-15T18:14:09Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public indexed Facebook-group search returned no direct current 997.1 GT3 sale post. Authenticated/private-group access was not attempted."
+      "limitation": "No publicly indexed current direct Facebook Group 997.1 GT3 sale post was strong enough to retain."
     },
     "model-049:ferrarichat:porsche-997-1-gt3": {
       "status": "searched",
@@ -9126,31 +9125,31 @@
     },
     "model-090:classic-trader:mitsubishi-evo-ix-fq340": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-13T22:08:05Z",
+      "lastSearchedAt": "2026-09-15T18:14:09Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Classic Trader query executed; no current UK Evo IX FQ340 under 30,000 miles with provable maximum two total owners was retained."
+      "limitation": "No current direct Classic Trader Evo IX FQ340 advert meeting the under-30,000-mile and maximum-two-total-owner rules was found."
     },
     "model-090:classic-trader:mitsubishi-evo-ix-mr-fq360": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-13T22:08:05Z",
+      "lastSearchedAt": "2026-09-15T18:14:09Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Classic Trader query executed; no current UK Evo IX MR FQ360 under 30,000 miles with provable maximum two total owners was retained."
+      "limitation": "No current direct Classic Trader Evo IX MR FQ360 advert meeting the under-30,000-mile and maximum-two-total-owner rules was found."
     },
     "model-090:collecting-cars:mitsubishi-evo-ix-fq340": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-13T22:08:05Z",
+      "lastSearchedAt": "2026-09-15T18:14:09Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Collecting Cars query executed; returned historical/sold auction material rather than a current fixed-price qualifying Evo IX FQ340 advert."
+      "limitation": "Collecting Cars search surfaced completed/older or wrong-model auctions; no active qualifying Evo IX FQ340 lot was retained."
     },
     "model-090:collecting-cars:mitsubishi-evo-ix-mr-fq360": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-13T22:08:05Z",
+      "lastSearchedAt": "2026-09-15T18:14:09Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Collecting Cars query executed; surfaced sold historical auction material, including examples over the mileage/owner limits; no current qualifying advert retained."
+      "limitation": "Collecting Cars search surfaced completed/older or non-qualifying auctions; no active Evo IX MR FQ360 lot meeting the rules was retained."
     },
     "model-090:ebay:mitsubishi-evo-ix-fq340": {
       "status": "searched",
