@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T03:48:26Z",
+  "updatedAt": "2026-09-15T04:57:37Z",
   "candidates": [
     {
       "modelId": "model-056",
@@ -384,8 +384,8 @@
       "discoveredAt": "2026-09-10T08:42:28Z",
       "status": "verification-pending",
       "note": "Rechecked 13 Sep 2026: the originating Hexagon seller page is live today at £99,995 for the 2003 E46 M3 Coupe, 3,100 miles, factory 6-speed manual, one owner from new, full BMW main-dealer history and explicitly 'Available to view now'. Classic Trader simultaneously displays the same car at £120,000, so the originating seller remains authoritative. The seller specification strongly supports factory-manual identity, but an exact current seller cabin/gallery image could not be visually inspected in this worker run; keep verification-pending rather than publish.",
-      "lastCheckedAt": "2026-09-13T13:59:13Z",
-      "vehicleIdentity": "2003 BMW E46 M3 Coupe | 3,100 miles | factory 6-speed manual"
+      "lastCheckedAt": "2026-09-15T04:57:37Z",
+      "vehicleIdentity": "2003 BMW E46 M3 Coupe | BM03LEE | 3,100 miles | factory 6-speed manual"
     },
     {
       "modelId": "model-019",
@@ -425,8 +425,10 @@
       "url": "https://www.ebay.co.uk/itm/206363441512",
       "source": "ebay",
       "discoveredAt": "2026-09-10T10:10:00Z",
-      "status": "verification-pending",
-      "note": "Current-looking 2002 E46 M3 manual at £14,495. Actual vehicle advert surfaced, but coupe body, total mileage <=50,000, factory-manual provenance, current seller controls and exact seller-photo checks are not yet proven. Do not publish until all are verified."
+      "status": "unavailable",
+      "note": "Current-looking 2002 E46 M3 manual at £14,495. Actual vehicle advert surfaced, but coupe body, total mileage <=50,000, factory-manual provenance, current seller controls and exact seller-photo checks are not yet proven. Do not publish until all are verified.",
+      "vehicleIdentity": "2002 BMW E46 M3 | manual | eBay 206363441512",
+      "lastCheckedAt": "2026-09-15T04:57:37Z"
     },
     {
       "modelId": "model-096",
@@ -771,7 +773,7 @@
       "status": "verification-pending",
       "note": "Rechecked 14 Sep 2026: Car & Classic still marks this 2001 BMW E46 M3 Coupe H4LGF For Sale at £62,995 with 34,000 miles, RHD and a six-speed manual from Black & White Cars Bournemouth. The advert exposes a 64-photo gallery, but exact seller images were not sufficiently inspectable in this worker run for the mandatory SOLD/RESERVED-overlay and three-pedal/manual-control visual check. Keep verification-pending; do not publish.",
       "vehicleIdentity": "2001 BMW E46 M3 Coupe | H4LGF | 34,000 miles | 6-speed manual",
-      "lastCheckedAt": "2026-09-14T20:08:12Z"
+      "lastCheckedAt": "2026-09-15T04:57:37Z"
     },
     {
       "modelId": "model-038",
@@ -1191,7 +1193,9 @@
       "source": "collecting-cars",
       "discoveredAt": "2026-09-11T21:38:53Z",
       "status": "verification-pending",
-      "note": "2010 Ford Focus RS Mk2, 11,500 miles, RHD manual. Current Collecting Cars page is still exposed as an advertisement and marked price reduced, but the worker could not obtain a stable fixed GBP asking price (page rendered checking/£0). Keep pending; do not publish until fixed price, current availability and seller-gallery visual checks are confirmed."
+      "note": "2010 Ford Focus RS Mk2, 11,500 miles, RHD manual. Current Collecting Cars page is still exposed as an advertisement and marked price reduced, but the worker could not obtain a stable fixed GBP asking price (page rendered checking/£0). Keep pending; do not publish until fixed price, current availability and seller-gallery visual checks are confirmed.",
+      "vehicleIdentity": "2010 Ford Focus RS Mk2 | VIN WF0GXXGCDGAS80265 | 11,500 miles | RHD manual",
+      "lastCheckedAt": "2026-09-15T04:57:37Z"
     },
     {
       "modelId": "model-070",
@@ -1966,6 +1970,16 @@
       "lastCheckedAt": "2026-09-15T03:03:47Z",
       "vehicleIdentity": "WU55FOH | 2006 Subaru Impreza S204 #161/600 | 22,491 miles | private seller Bristol",
       "note": "Current Car & Classic advert is explicitly For Sale at £39,000 in Bristol, 22,491 miles, RHD six-speed manual, listed 6 Sep 2026. Seller states import from Japan in 2024, full Japanese history, V5C showing 0 former UK keepers and original/unmodified presentation. Seller-derived indexed history additionally says the prior Japanese keeper owned it from new, which would imply two total owners, but this is not independently proven. The advert exposes a 16-image gallery; exact image assets returned cache misses, so SOLD/RESERVED-overlay and manual-control visual inspection could not be completed. Keep verification-pending and do not publish yet."
+    },
+    {
+      "modelId": "model-091",
+      "url": "https://www.carandclassic.com/pl/zloz-oferte/mitsubishi-lancer-evo-fq400-3135-uk-cars-gNRv5g",
+      "source": "car-and-classic",
+      "discoveredAt": "2026-09-15T04:57:37Z",
+      "status": "rejected",
+      "note": "Current Car & Classic offer page: 2011 UK-market FQ400 #31/35, 27,752 miles, five-speed manual, £24,000, Telford. Rejected because the advert states six former registered keepers, exceeding model-091's maximum two total owners; the advert also records a Cat S structural loss in March 2023.",
+      "vehicleIdentity": "2011 Mitsubishi Lancer Evolution X FQ400 #31/35 | 27,752 miles | 5-speed manual",
+      "lastCheckedAt": "2026-09-15T04:57:37Z"
     }
   ]
 }
