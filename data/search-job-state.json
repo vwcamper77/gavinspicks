@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T00:26:51Z",
+  "updatedAt": "2026-09-15T01:27:21Z",
   "compactedFromQueueAt": "2026-09-10T06:41:54.207Z",
   "note": "Cumulative worker-write state. Job results are merged from immutable run deltas and folded back into data/search-queue.json by scripts/build-search-queue.mjs.",
   "jobs": {
@@ -432,10 +432,10 @@
     },
     "model-075:specialist-dealers:audi-tt-quattro-sport": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T17:00:31Z",
+      "lastSearchedAt": "2026-09-15T01:27:21Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Fresh specialist-dealer search produced no new direct current genuine Mk1 TT quattro Sport stock URL beyond already tracked cross-posted cars."
+      "limitation": "Fresh specialist-dealer search executed; no new direct current genuine Mk1 Audi TT quattro Sport advert passed the pre-verification filters."
     },
     "model-088:911uk:mitsubishi-evo-vi-tommi-makinen-edition": {
       "status": "searched",
@@ -823,10 +823,10 @@
     },
     "model-096:gumtree:bmw-m3-e46-6-speed-manual-coupe-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T17:31:31Z",
+      "lastSearchedAt": "2026-09-15T01:27:21Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Fresh Gumtree search returned no plausible direct current E46 M3 factory-manual coupe advert at or below 50,000 miles."
+      "limitation": "Fresh Gumtree search executed; no direct current factory-manual E46 M3 Coupe at or below 50,000 miles was retained."
     },
     "model-096:lamborghini-talk:bmw-e46-m3-manual-coupe-uk": {
       "status": "blocked",
@@ -844,35 +844,31 @@
     },
     "model-096:pistonheads:bmw-e46-m3-manual-coupe-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T17:31:31Z",
+      "lastSearchedAt": "2026-09-15T01:27:21Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Fresh PistonHeads search rechecked listing 17710678, which now explicitly says the car is no longer available for purchase. Other surfaced examples were stale or outside the mileage/spec gate; none retained."
+      "limitation": "Fresh PistonHeads search re-surfaced listing 17710678 at £39,995/49,000 miles, but the advert explicitly says the car is no longer available for purchase; other surfaced cars were unavailable or outside the <=50,000-mile/manual-Coupe gate. No candidate retained."
     },
     "model-096:pistonheads:bmw-m3-e46-6-speed-manual-coupe-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T17:31:31Z",
+      "lastSearchedAt": "2026-09-15T01:27:21Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Fresh PistonHeads search rechecked listing 17710678, which explicitly says no longer available. No other direct current qualifying factory-manual coupe at or below 50,000 miles was retained."
+      "limitation": "Fresh PistonHeads search re-surfaced listing 17710678 at £39,995/49,000 miles, but the advert explicitly says the car is no longer available for purchase; other surfaced cars were unavailable or outside the <=50,000-mile/manual-Coupe gate. No candidate retained."
     },
     "model-096:specialist-dealers:bmw-e46-m3-manual-coupe-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T17:31:31Z",
-      "lastResultCount": 1,
-      "candidateUrls": [
-        "https://www.hexagonclassics.com/car/bmw-m3-coupe--e46---manual--2003"
-      ],
-      "limitation": "Hexagon Classics' seller-direct 2003 E46 M3 Coupe remains live at £99,995, 3,100 miles, factory six-speed manual and one owner, explicitly available to view now. Same vehicle is already tracked; photo-gate verification remains incomplete."
+      "lastSearchedAt": "2026-09-15T01:27:21Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Fresh specialist-dealer search executed; surfaced stock was sold/unavailable, over the 50,000-mile cap, wrong body/gearbox, or otherwise not a qualifying current direct advert. No candidate retained."
     },
     "model-096:specialist-dealers:bmw-m3-e46-6-speed-manual-coupe-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T17:31:31Z",
-      "lastResultCount": 1,
-      "candidateUrls": [
-        "https://www.hexagonclassics.com/car/bmw-m3-coupe--e46---manual--2003"
-      ],
-      "limitation": "Hexagon Classics' seller-direct 2003 E46 M3 Coupe remains live at £99,995, 3,100 miles, factory six-speed manual and one owner, explicitly available to view now. Same vehicle is already tracked; photo-gate verification remains incomplete."
+      "lastSearchedAt": "2026-09-15T01:27:21Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Fresh specialist-dealer search executed; surfaced stock was sold/unavailable, over the 50,000-mile cap, wrong body/gearbox, or otherwise not a qualifying current direct advert. No candidate retained."
     },
     "model-097:911uk:bmw-e39-m5-manual-uk": {
       "status": "searched",
@@ -1198,11 +1194,11 @@
       "limitation": "Specialist-dealer search surfaced sold/POA BMW 1M stock and historical pages only; no current fixed-price qualifying advert retained."
     },
     "model-078:facebook-groups:renault-clio-182-trophy": {
-      "status": "blocked",
-      "lastSearchedAt": "2026-09-14T13:11:48Z",
+      "status": "searched",
+      "lastSearchedAt": "2026-09-15T01:27:21Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public indexed Facebook-group search returned no directly accessible current Clio 182 Trophy sale post meeting the mileage/ownership rules; authenticated/private-group access was not attempted."
+      "limitation": "Public indexed Facebook-group search executed; no directly accessible current Clio 182 Trophy sale post meeting the strict mileage/ownership rules was retained. No authenticated/private-group access was attempted."
     },
     "model-078:ebay:renault-clio-182-trophy": {
       "status": "searched",
@@ -1460,17 +1456,17 @@
     },
     "model-097:autotrader:bmw-e39-m5-manual-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T17:31:31Z",
+      "lastSearchedAt": "2026-09-15T01:27:21Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Fresh Auto Trader search did not surface a direct current E39 M5 detail advert at or below 50,000 miles strong enough to retain."
+      "limitation": "Fresh Auto Trader search executed; no direct current E39 M5 manual car-details URL at or below 50,000 miles was strong enough to retain."
     },
     "model-097:autotrader:bmw-m5-e39-6-speed-manual-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T17:31:31Z",
+      "lastSearchedAt": "2026-09-15T01:27:21Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Fresh Auto Trader search did not surface a direct current E39 M5 six-speed manual detail advert at or below 50,000 miles strong enough to retain."
+      "limitation": "Fresh Auto Trader search executed; no direct current E39 M5 six-speed manual car-details URL at or below 50,000 miles was strong enough to retain."
     },
     "model-097:bonhams-cars:bmw-e39-m5-manual-uk": {
       "status": "searched",
@@ -1488,21 +1484,21 @@
     },
     "model-097:car-and-classic:bmw-e39-m5-manual-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T17:31:31Z",
+      "lastSearchedAt": "2026-09-15T01:27:21Z",
       "lastResultCount": 1,
       "candidateUrls": [
         "https://www.carandclassic.com/car/C2060885"
       ],
-      "limitation": "Current 2003 E39 M5 at £50,000 and 46,637 miles remains explicitly For Sale; manual cabin and three pedals were visually confirmed. Same car is already verified/tracked; no price or status change."
+      "limitation": "Current Car & Classic advert C2060885 remains For Sale at £50,000 with 46,637 miles, six-speed manual and UK dealer location. It is already tracked; no price or availability change was found."
     },
     "model-097:car-and-classic:bmw-m5-e39-6-speed-manual-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T17:31:31Z",
+      "lastSearchedAt": "2026-09-15T01:27:21Z",
       "lastResultCount": 1,
       "candidateUrls": [
         "https://www.carandclassic.com/car/C2060885"
       ],
-      "limitation": "Current 2003 E39 M5 at £50,000 and 46,637 miles remains explicitly For Sale; manual cabin and three pedals were visually confirmed. Same car is already verified/tracked; no price or status change."
+      "limitation": "Current Car & Classic advert C2060885 remains For Sale at £50,000 with 46,637 miles, six-speed manual and UK dealer location. It is already tracked; no price or availability change was found."
     },
     "model-097:classic-trader:bmw-e39-m5-manual-uk": {
       "status": "searched",
@@ -1534,17 +1530,17 @@
     },
     "model-097:ebay:bmw-e39-m5-manual-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T17:31:31Z",
+      "lastSearchedAt": "2026-09-15T01:27:21Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Fresh eBay search surfaced non-M5/wrong-model material rather than a current qualifying E39 M5 at or below 50,000 miles; none retained."
+      "limitation": "Fresh eBay search executed; no direct current qualifying E39 M5 manual advert at or below 50,000 miles was retained; irrelevant/non-M5 results were rejected."
     },
     "model-097:ebay:bmw-m5-e39-6-speed-manual-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T17:31:31Z",
+      "lastSearchedAt": "2026-09-15T01:27:21Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Fresh eBay search surfaced non-M5/wrong-model material rather than a current qualifying E39 M5 six-speed manual at or below 50,000 miles; none retained."
+      "limitation": "Fresh eBay search executed; no direct current qualifying E39 M5 six-speed manual advert at or below 50,000 miles was retained; irrelevant/non-M5 results were rejected."
     },
     "model-097:facebook-groups:bmw-e39-m5-manual-uk": {
       "status": "searched",
@@ -1867,10 +1863,10 @@
     },
     "model-070:classic-trader:ford-focus-rs-mk1": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T15:37:26Z",
+      "lastSearchedAt": "2026-09-15T01:27:21Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Classic Trader surfaced a 2002 Focus RS auction whose sale event was in May 2026; completed/historical stock was rejected."
+      "limitation": "Fresh Classic Trader search executed; no new direct current genuine Ford Focus RS Mk1 advert was retained."
     },
     "model-070:classic-trader:ford-focus-rs-mk2": {
       "status": "searched",
@@ -2209,10 +2205,10 @@
     },
     "model-085:car-and-classic:subaru-impreza-rb320": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T17:31:31Z",
+      "lastSearchedAt": "2026-09-15T01:27:21Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Fresh Car & Classic search returned no direct current RB320 advert meeting the strict under-30,000-mile and maximum-two-owner rules."
+      "limitation": "Fresh Car & Classic search executed; no direct current RB320 advert meeting the strict under-30,000-mile and maximum-two-total-owner rules was retained."
     },
     "model-085:ebay:subaru-impreza-rb320": {
       "status": "searched",
@@ -2244,10 +2240,10 @@
     },
     "model-076:collecting-cars:ford-focus-st500": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T15:37:26Z",
+      "lastSearchedAt": "2026-09-15T01:27:21Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Collecting Cars surfaced the 2008 ST500 auction from June 2022; it is historical, so no current advert was retained."
+      "limitation": "Fresh Collecting Cars search returned no current qualifying fixed-price genuine Ford Focus ST500 advert; historical/completed material was rejected."
     },
     "model-070:911uk:ford-focus-rs-mk1": {
       "status": "searched",
@@ -2650,17 +2646,17 @@
     },
     "model-078:gumtree:renault-clio-182-trophy": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T17:00:31Z",
+      "lastSearchedAt": "2026-09-15T01:27:21Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Fresh Gumtree search found no direct current Clio 182 Trophy advert satisfying the under-30,000-mile and maximum-two-owner rules."
+      "limitation": "Fresh Gumtree search executed; no direct current Clio 182 Trophy advert meeting the strict under-30,000-mile and maximum-two-total-owner rules was retained."
     },
     "model-078:specialist-dealers:renault-clio-182-trophy": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T17:31:31Z",
+      "lastSearchedAt": "2026-09-15T01:27:21Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Fresh specialist-dealer search found no current qualifying Clio 182 Trophy under 30,000 miles with no more than two total owners. A current 47,000-mile car failed the mileage gate and an 85,000-mile dealer example was explicitly sold."
+      "limitation": "Fresh specialist-dealer search executed; no direct current Clio 182 Trophy stock advert meeting the strict mileage and total-owner rules was retained."
     },
     "model-085:gumtree:subaru-impreza-rb320": {
       "status": "searched",
@@ -2925,17 +2921,17 @@
     },
     "model-056:classic-trader:bmw-z4-m-coupe": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T15:37:26Z",
+      "lastSearchedAt": "2026-09-15T01:27:21Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Fresh Classic Trader search produced no qualifying current UK Z4 M Coupe advert; non-UK/wrong-variant results were rejected."
+      "limitation": "Fresh Classic Trader search executed; no new direct current UK BMW Z4 M Coupe advert was retained beyond existing tracked stock."
     },
     "model-056:collecting-cars:bmw-z4-m-coupe": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T15:37:26Z",
+      "lastSearchedAt": "2026-09-15T01:27:21Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Collecting Cars search surfaced historical/completed Z4 M Coupe auction pages only; no current auction or fixed-price advert was retained."
+      "limitation": "Fresh Collecting Cars search returned historical/completed auction material only; no current qualifying fixed-price Z4 M Coupe advert retained."
     },
     "model-070:bonhams-cars:ford-focus-rs-mk1": {
       "status": "searched",
@@ -6343,10 +6339,10 @@
     },
     "model-063:collecting-cars:chevrolet-corvette-c6-z06": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-13T06:03:30Z",
+      "lastSearchedAt": "2026-09-15T01:27:21Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Collecting Cars surfaced historical/completed C6 Z06 auction pages rather than a current fixed-price qualifying advert; none retained."
+      "limitation": "Fresh Collecting Cars search returned historical/completed C6 Z06 auction material only; no current qualifying fixed-price advert retained."
     },
     "model-063:ebay:chevrolet-corvette-c6-z06": {
       "status": "searched",
@@ -6413,10 +6409,10 @@
     },
     "model-064:bonhams-cars:bmw-e46-m3-csl": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-13T06:03:30Z",
+      "lastSearchedAt": "2026-09-15T01:27:21Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Bonhams Cars search returned no current qualifying fixed-price BMW E46 M3 CSL advert."
+      "limitation": "Fresh Bonhams Cars search executed; no current UK fixed-price BMW E46 M3 CSL advert suitable for verification was retained."
     },
     "model-064:car-and-classic:bmw-e46-m3-csl": {
       "status": "searched",
@@ -6427,17 +6423,17 @@
     },
     "model-064:classic-trader:bmw-e46-m3-csl": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-13T06:03:30Z",
+      "lastSearchedAt": "2026-09-15T01:27:21Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Classic Trader surfaced non-current/consignment material rather than a fresh qualifying fixed-price E46 M3 CSL advert; none retained."
+      "limitation": "Fresh Classic Trader search executed; no direct current UK BMW E46 M3 CSL advert suitable for verification was retained."
     },
     "model-064:collecting-cars:bmw-e46-m3-csl": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-13T06:03:30Z",
+      "lastSearchedAt": "2026-09-15T01:27:21Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Collecting Cars surfaced completed/historical E46 M3 CSL auctions rather than current fixed-price stock; none retained."
+      "limitation": "Fresh Collecting Cars results were completed/historical M3 CSL auction pages; no current advert retained."
     },
     "model-064:ebay:bmw-e46-m3-csl": {
       "status": "searched",
@@ -6504,10 +6500,10 @@
     },
     "model-065:bonhams-cars:maserati-gransport-mc-victory": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-13T06:03:30Z",
+      "lastSearchedAt": "2026-09-15T01:27:21Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Bonhams Cars search returned no current qualifying fixed-price Maserati GranSport MC Victory advert."
+      "limitation": "Fresh Bonhams Cars search executed; no current UK Maserati GranSport MC Victory advert suitable for verification was retained."
     },
     "model-065:car-and-classic:maserati-gransport-mc-victory": {
       "status": "searched",
@@ -6518,17 +6514,17 @@
     },
     "model-065:classic-trader:maserati-gransport-mc-victory": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-13T06:03:30Z",
+      "lastSearchedAt": "2026-09-15T01:27:21Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Classic Trader search returned no new plausible current UK Maserati GranSport MC Victory advert."
+      "limitation": "Fresh Classic Trader search executed; no direct current UK Maserati GranSport MC Victory advert suitable for verification was retained."
     },
     "model-065:collecting-cars:maserati-gransport-mc-victory": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-13T06:03:30Z",
+      "lastSearchedAt": "2026-09-15T01:27:21Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Collecting Cars returned no current qualifying fixed-price Maserati GranSport MC Victory advert; historical auction material was rejected."
+      "limitation": "Fresh Collecting Cars search returned no current qualifying Maserati GranSport MC Victory advert; historical/completed material was rejected."
     },
     "model-065:ebay:maserati-gransport-mc-victory": {
       "status": "searched",
@@ -8248,10 +8244,10 @@
     },
     "model-084:car-and-classic:subaru-impreza-wr1": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-13T12:05:29Z",
+      "lastSearchedAt": "2026-09-15T01:27:21Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Car & Classic search executed; no current WR1 proven below 30,000 miles and within the maximum-two-total-owner rule was retained."
+      "limitation": "Fresh search executed; no direct current Subaru Impreza WR1 advert meeting the strict under-30,000-mile and maximum-two-total-owner rules was retained."
     },
     "model-084:classic-trader:subaru-impreza-wr1": {
       "status": "searched",
@@ -8269,10 +8265,10 @@
     },
     "model-084:ebay:subaru-impreza-wr1": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-13T12:05:29Z",
+      "lastSearchedAt": "2026-09-15T01:27:21Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "eBay search executed; no current WR1 proven below 30,000 miles and within the maximum-two-total-owner rule was retained."
+      "limitation": "Fresh eBay results were wrong-model, sold/ended or over the strict mileage gate; no qualifying WR1 candidate retained."
     },
     "model-084:facebook-groups:subaru-impreza-wr1": {
       "status": "searched",
@@ -8290,10 +8286,10 @@
     },
     "model-084:gumtree:subaru-impreza-wr1": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-13T12:05:29Z",
+      "lastSearchedAt": "2026-09-15T01:27:21Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Gumtree search executed; no plausible current WR1 meeting the mileage and ownership caps was retained."
+      "limitation": "Fresh search executed; no direct current Subaru Impreza WR1 advert meeting the strict under-30,000-mile and maximum-two-total-owner rules was retained."
     },
     "model-084:lamborghini-talk:subaru-impreza-wr1": {
       "status": "blocked",
@@ -8304,17 +8300,17 @@
     },
     "model-084:pistonheads:subaru-impreza-wr1": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-13T12:05:29Z",
+      "lastSearchedAt": "2026-09-15T01:27:21Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "PistonHeads search executed; no current WR1 proven below 30,000 miles and within the maximum-two-total-owner rule was retained."
+      "limitation": "Fresh search executed; no direct current Subaru Impreza WR1 advert meeting the strict under-30,000-mile and maximum-two-total-owner rules was retained."
     },
     "model-084:specialist-dealers:subaru-impreza-wr1": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-13T12:05:29Z",
+      "lastSearchedAt": "2026-09-15T01:27:21Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Specialist-dealer search executed; no current WR1 with verified sub-30k total mileage and no more than two total owners was retained."
+      "limitation": "Fresh search executed; no direct current Subaru Impreza WR1 advert meeting the strict under-30,000-mile and maximum-two-total-owner rules was retained."
     },
     "model-086:911uk:subaru-impreza-22b": {
       "status": "searched",
@@ -8339,24 +8335,24 @@
     },
     "model-086:autotrader:subaru-impreza-22b": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-13T12:05:29Z",
+      "lastSearchedAt": "2026-09-15T01:27:21Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Auto Trader search returned category inventory rather than a direct qualifying 22B advert below 30,000 miles, within two total owners and under £100,000."
+      "limitation": "Fresh query executed; no direct current Subaru Impreza variant advert meeting the strict under-30,000-mile and maximum-two-total-owner rules was retained."
     },
     "model-086:autotrader:subaru-impreza-sti-type-r": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-13T12:05:29Z",
+      "lastSearchedAt": "2026-09-15T01:27:21Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Auto Trader search returned generic STI inventory; no direct current Type R satisfying the mileage/ownership/price gates was retained."
+      "limitation": "Fresh query executed; no direct current Subaru Impreza variant advert meeting the strict under-30,000-mile and maximum-two-total-owner rules was retained."
     },
     "model-086:autotrader:subaru-impreza-sti-type-ra": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-13T12:05:29Z",
+      "lastSearchedAt": "2026-09-15T01:27:21Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Auto Trader search returned generic STI inventory; no direct current Type RA satisfying the mileage/ownership/price gates was retained."
+      "limitation": "Fresh query executed; no direct current Subaru Impreza variant advert meeting the strict under-30,000-mile and maximum-two-total-owner rules was retained."
     },
     "model-086:bonhams-cars:subaru-impreza-22b": {
       "status": "searched",
@@ -8381,24 +8377,24 @@
     },
     "model-086:car-and-classic:subaru-impreza-22b": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-13T12:05:29Z",
+      "lastSearchedAt": "2026-09-15T01:27:21Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Car & Classic surfaced a genuine-looking 22B at 23,514 miles but £299,995, far above the £100,000 ceiling; other results were misidentified or over mileage."
+      "limitation": "Fresh Car & Classic search found current 22B C2071223 at 23,514 miles, but the seller states four genuine owners (seven registered keepers) and the £299,995 ask exceeds the model's £100,000 search ceiling; it fails the hard owner/price rules and was rejected."
     },
     "model-086:car-and-classic:subaru-impreza-sti-type-r": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-13T12:05:29Z",
+      "lastSearchedAt": "2026-09-15T01:27:21Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Car & Classic Type R result was around 104,000 miles, exceeding the strict 30,000-mile cap. No qualifying candidate retained."
+      "limitation": "Fresh Car & Classic Type R results were removed, stale or over the strict 30,000-mile/maximum-two-owner gate; no qualifying current candidate retained."
     },
     "model-086:car-and-classic:subaru-impreza-sti-type-ra": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-13T12:05:29Z",
+      "lastSearchedAt": "2026-09-15T01:27:21Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Car & Classic Type RA results were over the strict 30,000-mile cap (including about 41k miles and 112k km). No qualifying candidate retained."
+      "limitation": "Fresh Car & Classic Type RA results were removed, stale or over the strict 30,000-mile/maximum-two-owner gate; no qualifying current candidate retained."
     },
     "model-086:classic-trader:subaru-impreza-22b": {
       "status": "searched",
@@ -8444,24 +8440,24 @@
     },
     "model-086:ebay:subaru-impreza-22b": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-13T12:05:29Z",
+      "lastSearchedAt": "2026-09-15T01:27:21Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "eBay search executed; no current direct 22B satisfying price, mileage and ownership rules was retained."
+      "limitation": "Fresh query executed; no direct current Subaru Impreza variant advert meeting the strict under-30,000-mile and maximum-two-total-owner rules was retained."
     },
     "model-086:ebay:subaru-impreza-sti-type-r": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-13T12:05:29Z",
+      "lastSearchedAt": "2026-09-15T01:27:21Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "eBay search executed; no current direct STI Type R satisfying price, mileage and ownership rules was retained."
+      "limitation": "Fresh query executed; no direct current Subaru Impreza variant advert meeting the strict under-30,000-mile and maximum-two-total-owner rules was retained."
     },
     "model-086:ebay:subaru-impreza-sti-type-ra": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-13T12:49:13Z",
+      "lastSearchedAt": "2026-09-15T01:27:21Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "eBay query executed; current-looking Type RA results were around 96,000 miles or parts/unrelated stock, so none met the under-30,000-mile rule."
+      "limitation": "Fresh query executed; no direct current Subaru Impreza variant advert meeting the strict under-30,000-mile and maximum-two-total-owner rules was retained."
     },
     "model-086:facebook-groups:subaru-impreza-22b": {
       "status": "searched",
@@ -8507,24 +8503,24 @@
     },
     "model-086:gumtree:subaru-impreza-22b": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-13T12:49:13Z",
+      "lastSearchedAt": "2026-09-15T01:27:21Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Gumtree query executed; no plausible current direct Subaru Impreza 22B advert meeting the strict mileage/ownership rules was retained."
+      "limitation": "Fresh query executed; no direct current Subaru Impreza variant advert meeting the strict under-30,000-mile and maximum-two-total-owner rules was retained."
     },
     "model-086:gumtree:subaru-impreza-sti-type-r": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-13T12:49:13Z",
+      "lastSearchedAt": "2026-09-15T01:27:21Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Gumtree query executed; no plausible current direct STI Type R advert meeting the strict mileage/ownership rules was retained."
+      "limitation": "Fresh query executed; no direct current Subaru Impreza variant advert meeting the strict under-30,000-mile and maximum-two-total-owner rules was retained."
     },
     "model-086:gumtree:subaru-impreza-sti-type-ra": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-13T12:49:13Z",
+      "lastSearchedAt": "2026-09-15T01:27:21Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Gumtree query executed; no plausible current direct STI Type RA advert meeting the strict mileage/ownership rules was retained."
+      "limitation": "Fresh query executed; no direct current Subaru Impreza variant advert meeting the strict under-30,000-mile and maximum-two-total-owner rules was retained."
     },
     "model-086:lamborghini-talk:subaru-impreza-22b": {
       "status": "blocked",
@@ -8549,45 +8545,45 @@
     },
     "model-086:pistonheads:subaru-impreza-22b": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-13T12:49:13Z",
+      "lastSearchedAt": "2026-09-15T01:27:21Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "PistonHeads query executed; surfaced 22B examples above £100,000 or unavailable/auction material. No qualifying candidate retained."
+      "limitation": "Fresh PistonHeads search returned no current 22B meeting the strict mileage/ownership rules; replica and unavailable pages were rejected."
     },
     "model-086:pistonheads:subaru-impreza-sti-type-r": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-13T12:49:13Z",
+      "lastSearchedAt": "2026-09-15T01:27:21Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "PistonHeads query executed; current examples were roughly 63,000–67,000 miles and/or exceeded the owner cap, so none qualified."
+      "limitation": "Fresh PistonHeads search returned no current Type R meeting the strict mileage/ownership rules; high-mileage and unavailable pages were rejected."
     },
     "model-086:pistonheads:subaru-impreza-sti-type-ra": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-13T12:49:13Z",
+      "lastSearchedAt": "2026-09-15T01:27:21Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "PistonHeads query executed; Type RA examples surfaced at roughly 41,000, 83,000 and 94,000 miles or were unavailable, so none met the under-30,000-mile rule."
+      "limitation": "Fresh PistonHeads search surfaced a 1996 STI RA at about 41,145 miles and other unavailable/high-mileage examples; all fail the strict under-30,000-mile gate, so no candidate retained."
     },
     "model-086:specialist-dealers:subaru-impreza-22b": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-13T12:49:13Z",
+      "lastSearchedAt": "2026-09-15T01:27:21Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Specialist-dealer query executed; surfaced 22B stock above the £100,000 ceiling or auction/unavailable material. No qualifying candidate retained."
+      "limitation": "Fresh specialist-dealer search executed; no current 22B met the strict mileage, owner and price rules."
     },
     "model-086:specialist-dealers:subaru-impreza-sti-type-r": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-13T12:49:13Z",
+      "lastSearchedAt": "2026-09-15T01:27:21Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Specialist-dealer query executed; no current direct STI Type R advert verified below 30,000 miles with no more than two total owners."
+      "limitation": "Fresh specialist-dealer Type R results included deposit-taken/high-mileage stock; no currently available car met the strict under-30,000-mile and maximum-two-owner rules."
     },
     "model-086:specialist-dealers:subaru-impreza-sti-type-ra": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-13T12:49:13Z",
+      "lastSearchedAt": "2026-09-15T01:27:21Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Specialist-dealer query executed; no current direct STI Type RA advert verified below 30,000 miles with no more than two total owners."
+      "limitation": "Fresh specialist-dealer search executed; no current Type RA met the strict under-30,000-mile and maximum-two-owner rules."
     },
     "model-087:911uk:subaru-impreza-s202": {
       "status": "searched",
