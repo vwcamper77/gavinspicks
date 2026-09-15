@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-14T23:28:02Z",
+  "updatedAt": "2026-09-15T00:26:51Z",
   "candidates": [
     {
       "modelId": "model-056",
@@ -131,7 +131,9 @@
       "source": "autotrader",
       "discoveredAt": "2026-09-10T02:31:01Z",
       "status": "verification-pending",
-      "note": "2003 Noble M12 GTO-3, £54,995, 16,955 miles, manual, Parkway Specialist Cars in Mansfield. Auto Trader currently shows Available to reserve and a 45-photo gallery. Image-host fetches returned cache misses, so visual photo verification remains outstanding."
+      "note": "Rechecked 15 Sep 2026: Parkway Specialist Cars' own current-stock page and a freshly crawled PistonHeads cross-post both show BX53KCV as a 2003 Noble M12 GTO-3R at £54,995, 16,955 miles, manual, in Mansfield. The dealer page has active enquiry controls and a large interior/exterior gallery. A Car & Classic cross-post is also live but contains conflicting year/engine metadata, so the dealer page is treated as authority. Exact seller images could not be visually inspected for SOLD/RESERVED overlays or manual-control evidence in this run, and the advertised 400 bhp Noble Motorsport modifications still need editorial judgment on originality. Keep verification-pending; do not publish.",
+      "lastCheckedAt": "2026-09-15T00:26:51Z",
+      "vehicleIdentity": "BX53KCV | 2003 Noble M12 GTO-3R | 16,955 miles | Parkway Specialist Cars"
     },
     {
       "modelId": "model-009",
@@ -1942,6 +1944,16 @@
       "note": "Rechecked 14 Sep 2026: Car & Classic explicitly marks this 1997 Ferrari 550 Maranello For Sale at £99,995, RHD and six-speed manual in Broxburn, with advert metadata showing 52,694 miles and a 68-photo gallery. Seller copy records recent belt work in January 2026 and substantial investment since 2023. Exact current gallery images were not sufficiently inspectable for the hard sold-overlay/manual-control visual gate, so keep verification-pending and do not publish.",
       "lastCheckedAt": "2026-09-14T21:56:24Z",
       "vehicleIdentity": "1997 Ferrari 550 Maranello | C2093000 | £99,995 | Broxburn"
+    },
+    {
+      "modelId": "model-075",
+      "url": "https://www.ebay.co.uk/itm/307025500032",
+      "source": "ebay",
+      "discoveredAt": "2026-09-15T00:26:51Z",
+      "status": "verification-pending",
+      "note": "Fresh selected-source search surfaced a direct 2005 Audi TT 1.8 T quattro Sport [240] classified at £10,000, 72,542 miles, RHD manual, three previous owners, Ashorne, with a 24-photo gallery and seller contact controls. The search index did not show SOLD/ended language, but a direct advert refresh returned a cache miss and current seller-stock/photo-overlay/manual-control inspection could not be completed. It also has not yet passed the exceptional-example editorial gate. Keep unverified and do not publish.",
+      "lastCheckedAt": "2026-09-15T00:26:51Z",
+      "vehicleIdentity": "2005 Audi TT quattro Sport [240] | eBay 307025500032 | 72,542 miles | £10,000 | Iconic Auctioneers Group"
     }
   ]
 }
