@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T05:30:09Z",
+  "updatedAt": "2026-09-15T07:11:03Z",
   "compactedFromQueueAt": "2026-09-10T06:41:54.207Z",
   "note": "Cumulative worker-write state. Job results are merged from immutable run deltas and folded back into data/search-queue.json by scripts/build-search-queue.mjs.",
   "jobs": {
@@ -59,10 +59,10 @@
     },
     "model-070:ebay:ford-focus-rs-mk1": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T21:56:24Z",
+      "lastSearchedAt": "2026-09-15T07:11:03Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Fresh eBay search produced no plausible current direct genuine Focus RS Mk1 vehicle advert; parts and unrelated results were rejected."
+      "limitation": null
     },
     "model-070:autotrader:ford-focus-rs-mk1": {
       "status": "searched",
@@ -73,13 +73,12 @@
     },
     "model-070:pistonheads:ford-focus-rs-mk1": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T21:56:24Z",
-      "lastResultCount": 2,
+      "lastSearchedAt": "2026-09-15T07:11:03Z",
+      "lastResultCount": 1,
       "candidateUrls": [
-        "https://www.pistonheads.com/buy/listing/20975833",
-        "https://www.pistonheads.com/buy/listing/20788132"
+        "https://www.pistonheads.com/buy/listing/20975833"
       ],
-      "limitation": "Fresh PistonHeads search retained the two already tracked current-looking Mk1 Focus RS adverts; known unavailable/deposit-taken examples were rejected."
+      "limitation": "Public PistonHeads search executed. Existing candidate 20975833 was rediscovered; other surfaced Mk1 pages were unavailable, stale or otherwise rejected before verification."
     },
     "model-070:car-and-classic:ford-focus-rs-mk1": {
       "status": "searched",
@@ -90,28 +89,26 @@
     },
     "model-070:gumtree:ford-focus-rs-mk1": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T21:56:24Z",
+      "lastSearchedAt": "2026-09-15T07:11:03Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Fresh Gumtree search produced no plausible current direct genuine Mk1 Focus RS advert."
+      "limitation": null
     },
     "model-070:specialist-dealers:ford-focus-rs-mk1": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T21:56:24Z",
+      "lastSearchedAt": "2026-09-15T07:11:03Z",
       "lastResultCount": 1,
       "candidateUrls": [
-        "https://www.kgfclassiccars.co.uk/vehicles/36295/"
+        "https://www.carandclassic.com/car/C2118328"
       ],
-      "limitation": "KGF's current stock still shows Focus RS Mk1 build #3260 at £32,995/53,227 miles; same vehicle already tracked, with photo/manual-control verification still pending."
+      "limitation": "Specialist-dealer search executed. KGF build #3260 remains current FOR SALE and matches the existing candidate C2118328/R5FNW; no duplicate seller URL added."
     },
     "model-070:ebay:ford-focus-rs-mk2": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T21:56:24Z",
-      "lastResultCount": 1,
-      "candidateUrls": [
-        "https://www.ebay.co.uk/itm/226615603512"
-      ],
-      "limitation": "The already tracked £31,995/23,500-mile manual Mk2 classified remains indexed/current-looking, but seller-side freshness is still not strong enough for publication; retained only as a verification candidate."
+      "lastSearchedAt": "2026-09-15T07:11:03Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Public eBay search executed; visible qualifying-looking Mk2 vehicle adverts were ended. No plausible current vehicle advert retained."
     },
     "model-070:autotrader:ford-focus-rs-mk2": {
       "status": "searched",
@@ -122,13 +119,13 @@
     },
     "model-070:pistonheads:ford-focus-rs-mk2": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T21:56:24Z",
+      "lastSearchedAt": "2026-09-15T07:11:03Z",
       "lastResultCount": 2,
       "candidateUrls": [
-        "https://www.pistonheads.com/buy/listing/20771951",
-        "https://www.pistonheads.com/buy/listing/21046691"
+        "https://www.pistonheads.com/buy/listing/21046691",
+        "https://www.pistonheads.com/buy/listing/20692960"
       ],
-      "limitation": "Two already tracked direct Mk2 adverts remain current-looking and purchasable; previously unavailable listings were rejected. No new vehicle identity surfaced."
+      "limitation": "Public PistonHeads search executed. Two new plausible current direct classifieds retained. Listing 20910911 was current but deduplicated against existing Car & Classic candidate C2133874 for the same Toro Sports Cars vehicle; expired/auction/modified weak examples were excluded."
     },
     "model-070:car-and-classic:ford-focus-rs-mk2": {
       "status": "searched",
@@ -143,24 +140,26 @@
     },
     "model-070:gumtree:ford-focus-rs-mk2": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T21:56:24Z",
+      "lastSearchedAt": "2026-09-15T07:11:03Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Fresh Gumtree search returned no plausible current direct genuine Mk2 Focus RS advert."
+      "limitation": null
     },
     "model-070:specialist-dealers:ford-focus-rs-mk2": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T21:56:24Z",
-      "lastResultCount": 0,
-      "candidateUrls": [],
-      "limitation": "Fresh specialist search produced no new current qualifying Mk2 stock URL; sold dealer pages were rejected."
+      "lastSearchedAt": "2026-09-15T07:11:03Z",
+      "lastResultCount": 1,
+      "candidateUrls": [
+        "https://mwperformance.co.uk/135-focus-rs-mk2-white-frs/"
+      ],
+      "limitation": "Specialist-dealer search executed. MW Performance currently advertises a 2009 Frozen White Mk2 RS at £34,995/29,000 miles, standard and unmodified; retained for full photo/current-stock verification."
     },
     "model-070:ebay:ford-focus-rs500": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T21:56:24Z",
+      "lastSearchedAt": "2026-09-15T07:11:03Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Fresh eBay search produced no plausible current direct Focus RS500 vehicle advert; parts and unrelated results were rejected."
+      "limitation": "Public eBay search executed; visible RS500 result was sold/outside the fixed-price policy. No plausible current vehicle advert retained."
     },
     "model-070:autotrader:ford-focus-rs500": {
       "status": "searched",
@@ -410,10 +409,10 @@
     },
     "model-075:classic-trader:audi-tt-quattro-sport": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T20:08:12Z",
+      "lastSearchedAt": "2026-09-15T07:11:03Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Classic Trader surfaced a current-looking 2006 Audi TT quattro Sport in Germany, not the UK; it was rejected and no UK direct advert was retained."
+      "limitation": null
     },
     "model-075:ferrarichat:audi-tt-quattro-sport": {
       "status": "searched",
@@ -1177,10 +1176,10 @@
     },
     "model-072:911uk:bmw-1m-coupe-manual-45000-55000-full-service-history": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T17:31:31Z",
+      "lastSearchedAt": "2026-09-15T07:11:03Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Fresh 911UK-indexed search returned no direct current BMW 1M sale advert in the required price/history band; outside-site auction and valuation noise was rejected."
+      "limitation": null
     },
     "model-072:ferrarichat:bmw-1m-coupe-manual-45000-55000-full-service-history": {
       "status": "searched",
@@ -1926,38 +1925,38 @@
     },
     "model-076:ebay:ford-focus-st500": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T22:33:25Z",
+      "lastSearchedAt": "2026-09-15T07:11:03Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search returned wrong Focus ST derivatives or stale material; no current direct ST500 advert was retained."
+      "limitation": null
     },
     "model-076:gumtree:ford-focus-st500": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T22:33:25Z",
+      "lastSearchedAt": "2026-09-15T07:11:03Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No current direct qualifying Focus ST500 advert surfaced; returned results were wrong derivatives or non-current material."
+      "limitation": null
     },
     "model-076:pistonheads:ford-focus-st500": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T22:33:25Z",
+      "lastSearchedAt": "2026-09-15T07:11:03Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "PistonHeads surfaced generic Focus ST inventory rather than a current direct ST500 advert; no candidate was retained."
+      "limitation": null
     },
     "model-076:specialist-dealers:ford-focus-st500": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T22:33:25Z",
+      "lastSearchedAt": "2026-09-15T07:11:03Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "The specialist result located was stale, with old MOT/current-stock evidence insufficient; no current ST500 advert was retained."
+      "limitation": null
     },
     "model-082:autotrader:subaru-impreza-p1": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T22:33:25Z",
+      "lastSearchedAt": "2026-09-15T07:11:03Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No direct current Auto Trader P1 advert meeting the under-30,000-mile and maximum-two-owner rules was retained."
+      "limitation": null
     },
     "model-082:car-and-classic:subaru-impreza-p1": {
       "status": "searched",
@@ -2238,17 +2237,17 @@
     },
     "model-076:bonhams-cars:ford-focus-st500": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T20:08:12Z",
+      "lastSearchedAt": "2026-09-15T07:11:03Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Fresh Bonhams Cars search produced no active current UK Ford Focus ST500 listing; completed/historical material was rejected."
+      "limitation": null
     },
     "model-076:classic-trader:ford-focus-st500": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T20:08:12Z",
+      "lastSearchedAt": "2026-09-15T07:11:03Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Fresh Classic Trader search produced no direct current UK Ford Focus ST500 advert strong enough to retain."
+      "limitation": null
     },
     "model-076:collecting-cars:ford-focus-st500": {
       "status": "searched",
@@ -3206,17 +3205,17 @@
     },
     "model-075:bonhams-cars:audi-tt-quattro-sport": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T20:08:12Z",
+      "lastSearchedAt": "2026-09-15T07:11:03Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Fresh Bonhams Cars search produced no current active UK Audi TT quattro Sport sale/auction meeting the rules; historical/completed material was rejected."
+      "limitation": null
     },
     "model-075:collecting-cars:audi-tt-quattro-sport": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T20:08:12Z",
+      "lastSearchedAt": "2026-09-15T07:11:03Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Fresh Collecting Cars search produced no active current UK Audi TT quattro Sport opportunity meeting the rules; completed/historical auctions were rejected."
+      "limitation": null
     },
     "model-078:classic-trader:renault-clio-182-trophy": {
       "status": "searched",
@@ -7276,24 +7275,24 @@
     },
     "model-077:bonhams-cars:ford-focus-st170-estate-under-50000-miles-low-owners": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-13T12:05:29Z",
+      "lastSearchedAt": "2026-09-15T07:11:03Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Bonhams Cars search produced no current fixed-price qualifying Focus ST170 Estate advert."
+      "limitation": null
     },
     "model-077:bonhams-cars:ford-focus-st170-under-50000-miles-low-owners": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-13T12:05:29Z",
+      "lastSearchedAt": "2026-09-15T07:11:03Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Bonhams Cars search produced no current fixed-price qualifying Focus ST170 advert."
+      "limitation": null
     },
     "model-077:bonhams-cars:ford-focus-st225-st2-st3-under-50000-miles-low-owners": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-13T12:05:29Z",
+      "lastSearchedAt": "2026-09-15T07:11:03Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Bonhams Cars search produced no current fixed-price qualifying Focus ST225 ST2/ST3 advert."
+      "limitation": null
     },
     "model-077:car-and-classic:ford-focus-st170-estate-under-50000-miles-low-owners": {
       "status": "searched",
@@ -7318,45 +7317,45 @@
     },
     "model-077:classic-trader:ford-focus-st170-estate-under-50000-miles-low-owners": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-13T12:05:29Z",
+      "lastSearchedAt": "2026-09-15T07:11:03Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Classic Trader search produced no current UK qualifying Focus ST170 Estate advert."
+      "limitation": null
     },
     "model-077:classic-trader:ford-focus-st170-under-50000-miles-low-owners": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-13T12:05:29Z",
+      "lastSearchedAt": "2026-09-15T07:11:03Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Classic Trader search produced no current UK qualifying Focus ST170 advert."
+      "limitation": null
     },
     "model-077:classic-trader:ford-focus-st225-st2-st3-under-50000-miles-low-owners": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-13T12:05:29Z",
+      "lastSearchedAt": "2026-09-15T07:11:03Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Classic Trader search produced no current UK qualifying Focus ST225 ST2/ST3 advert."
+      "limitation": null
     },
     "model-077:collecting-cars:ford-focus-st170-estate-under-50000-miles-low-owners": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-13T12:05:29Z",
+      "lastSearchedAt": "2026-09-15T07:11:03Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Collecting Cars results were historical/unrelated and did not provide a current fixed-price qualifying ST170 Estate advert."
+      "limitation": null
     },
     "model-077:collecting-cars:ford-focus-st170-under-50000-miles-low-owners": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-13T12:05:29Z",
+      "lastSearchedAt": "2026-09-15T07:11:03Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Collecting Cars results were historical/unrelated and did not provide a current fixed-price qualifying ST170 advert."
+      "limitation": null
     },
     "model-077:collecting-cars:ford-focus-st225-st2-st3-under-50000-miles-low-owners": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-13T12:05:29Z",
+      "lastSearchedAt": "2026-09-15T07:11:03Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Collecting Cars results were historical/unrelated and did not provide a current fixed-price qualifying ST225 ST2/ST3 advert."
+      "limitation": null
     },
     "model-077:ebay:ford-focus-st170-estate-under-50000-miles-low-owners": {
       "status": "searched",
@@ -9525,10 +9524,10 @@
     },
     "model-094:autotrader:alfa-romeo-156-gta-saloon-manual-under-50000-miles-low-owners": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-13T18:02:09Z",
+      "lastSearchedAt": "2026-09-15T07:11:03Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Four current manual 156 GTA saloons were checked but all had 97,000-168,000 miles, failing the under-50,000-mile target. None retained."
+      "limitation": null
     },
     "model-094:bonhams-cars:alfa-romeo-156-gta-saloon-manual-under-50000-miles-low-owners": {
       "status": "searched",
@@ -9539,10 +9538,10 @@
     },
     "model-094:car-and-classic:alfa-romeo-156-gta-saloon-manual-under-50000-miles-low-owners": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-13T18:02:09Z",
+      "lastSearchedAt": "2026-09-15T07:11:03Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Car & Classic query executed; no current under-50,000-mile low-owner factory-manual 156 GTA saloon retained."
+      "limitation": null
     },
     "model-094:classic-trader:alfa-romeo-156-gta-saloon-manual-under-50000-miles-low-owners": {
       "status": "searched",
@@ -9560,10 +9559,10 @@
     },
     "model-094:ebay:alfa-romeo-156-gta-saloon-manual-under-50000-miles-low-owners": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-13T18:02:09Z",
+      "lastSearchedAt": "2026-09-15T07:11:03Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "eBay query executed; no current under-50,000-mile low-owner qualifying 156 GTA saloon retained."
+      "limitation": "eBay search executed; visible whole-car result was below the £10,000 eligibility floor and other results were parts/non-qualifying."
     },
     "model-094:facebook-groups:alfa-romeo-156-gta-saloon-manual-under-50000-miles-low-owners": {
       "status": "searched",
@@ -9581,10 +9580,10 @@
     },
     "model-094:gumtree:alfa-romeo-156-gta-saloon-manual-under-50000-miles-low-owners": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-13T18:02:09Z",
+      "lastSearchedAt": "2026-09-15T07:11:03Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Gumtree query executed; no plausible current under-50,000-mile low-owner 156 GTA saloon advert retained."
+      "limitation": null
     },
     "model-094:lamborghini-talk:alfa-romeo-156-gta-saloon-manual-under-50000-miles-low-owners": {
       "status": "blocked",
@@ -9595,17 +9594,17 @@
     },
     "model-094:pistonheads:alfa-romeo-156-gta-saloon-manual-under-50000-miles-low-owners": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-13T18:02:09Z",
+      "lastSearchedAt": "2026-09-15T07:11:03Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "PistonHeads query executed; no current qualifying under-50,000-mile low-owner factory-manual 156 GTA saloon advert retained."
+      "limitation": null
     },
     "model-094:specialist-dealers:alfa-romeo-156-gta-saloon-manual-under-50000-miles-low-owners": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-13T18:02:09Z",
+      "lastSearchedAt": "2026-09-15T07:11:03Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Specialist-dealer search found no current qualifying under-50,000-mile low-owner 156 GTA saloon stock."
+      "limitation": null
     },
     "model-095:911uk:alfa-romeo-156-gta-sportwagon-manual-under-50000-miles-low-owners": {
       "status": "searched",
@@ -9616,10 +9615,10 @@
     },
     "model-095:autotrader:alfa-romeo-156-gta-sportwagon-manual-under-50000-miles-low-owners": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-13T18:02:09Z",
+      "lastSearchedAt": "2026-09-15T07:11:03Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Auto Trader query executed; no current under-50,000-mile low-owner factory-manual 156 GTA Sportwagon retained."
+      "limitation": null
     },
     "model-095:bonhams-cars:alfa-romeo-156-gta-sportwagon-manual-under-50000-miles-low-owners": {
       "status": "searched",
@@ -9630,10 +9629,10 @@
     },
     "model-095:car-and-classic:alfa-romeo-156-gta-sportwagon-manual-under-50000-miles-low-owners": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-13T18:02:09Z",
+      "lastSearchedAt": "2026-09-15T07:11:03Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Car & Classic query executed; no current under-50,000-mile low-owner factory-manual 156 GTA Sportwagon retained."
+      "limitation": "Executed car-and-classic public-web query; no plausible current direct advert retained."
     },
     "model-095:classic-trader:alfa-romeo-156-gta-sportwagon-manual-under-50000-miles-low-owners": {
       "status": "searched",
@@ -9651,10 +9650,10 @@
     },
     "model-095:ebay:alfa-romeo-156-gta-sportwagon-manual-under-50000-miles-low-owners": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-13T18:02:09Z",
+      "lastSearchedAt": "2026-09-15T07:11:03Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "eBay result surfaced a stale 2002/03 Sportwagon with three previous owners and old MOT/auction context; rejected. No qualifying candidate retained."
+      "limitation": "eBay search executed; visible Sportwagon whole-car advert was ended. No current candidate retained."
     },
     "model-095:facebook-groups:alfa-romeo-156-gta-sportwagon-manual-under-50000-miles-low-owners": {
       "status": "searched",
@@ -9672,10 +9671,10 @@
     },
     "model-095:gumtree:alfa-romeo-156-gta-sportwagon-manual-under-50000-miles-low-owners": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-13T18:02:09Z",
+      "lastSearchedAt": "2026-09-15T07:11:03Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Gumtree query executed; no plausible current qualifying 156 GTA Sportwagon advert retained."
+      "limitation": null
     },
     "model-095:lamborghini-talk:alfa-romeo-156-gta-sportwagon-manual-under-50000-miles-low-owners": {
       "status": "blocked",
@@ -9686,71 +9685,69 @@
     },
     "model-095:pistonheads:alfa-romeo-156-gta-sportwagon-manual-under-50000-miles-low-owners": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-13T18:02:09Z",
+      "lastSearchedAt": "2026-09-15T07:11:03Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "PistonHeads query executed; no current qualifying under-50,000-mile low-owner 156 GTA Sportwagon advert retained."
+      "limitation": "Executed pistonheads public-web query; no plausible current direct advert retained."
     },
     "model-095:specialist-dealers:alfa-romeo-156-gta-sportwagon-manual-under-50000-miles-low-owners": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-13T18:02:09Z",
+      "lastSearchedAt": "2026-09-15T07:11:03Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Specialist-dealer query executed; no current qualifying low-mileage/low-owner 156 GTA Sportwagon stock retained."
+      "limitation": null
     },
     "model-006:autotrader:audi-r8-v8-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-13T18:02:09Z",
+      "lastSearchedAt": "2026-09-15T07:11:03Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Auto Trader query executed; no new direct current R8 V8 manual car-details URL retained in this pass."
+      "limitation": null
     },
     "model-006:car-and-classic:audi-r8-v8-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-13T18:02:09Z",
+      "lastSearchedAt": "2026-09-15T07:11:03Z",
       "lastResultCount": 2,
       "candidateUrls": [
         "https://www.carandclassic.com/car/C2123237",
         "https://www.carandclassic.com/l/C2189160"
       ],
-      "limitation": "Two current For Sale UK R8 V8 manuals retained: dealer C2123237 at £42,995/44,850 miles and private C2189160 at £37,500/63,000 miles. A 38,000-mile Simon Abbott advert was explicitly SOLD and rejected."
+      "limitation": "Car & Classic search executed; two plausible current UK manual R8 V8 adverts were rediscovered and already exist in worker-candidates, so no duplicate candidate rows added."
     },
     "model-006:ebay:audi-r8-v8-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-13T18:02:09Z",
+      "lastSearchedAt": "2026-09-15T07:11:03Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "eBay R8 manual results checked; the strongest £36,000 one-owner advert was explicitly ended by the seller and other surfaced adverts were ended/stale. None retained."
+      "limitation": null
     },
     "model-006:gumtree:audi-r8-v8-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-13T18:02:09Z",
+      "lastSearchedAt": "2026-09-15T07:11:03Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Gumtree query executed; no plausible current direct R8 V8 manual advert retained."
+      "limitation": null
     },
     "model-006:pistonheads:audi-r8-v8-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-13T18:02:09Z",
-      "lastResultCount": 1,
-      "candidateUrls": [
-        "https://www.pistonheads.com/buy/listing/20947829"
-      ],
-      "limitation": "Current dealer advert 20947829 retained at £43,995/41,000 miles/manual with valid MOT and seller controls. Other surfaced R8 pages were explicitly unavailable or materially weaker/stale."
+      "lastSearchedAt": "2026-09-15T07:11:03Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "PistonHeads search executed; surfaced direct manual R8 V8 pages were unavailable/reserved/expired or otherwise failed the current-availability gate. No candidate retained."
     },
     "model-007:ebay:audi-r8-v10-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-13T18:48:07Z",
+      "lastSearchedAt": "2026-09-15T07:11:03Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "eBay V10 Spyder manual result 298400032287 is explicitly ENDED; other hits were wrong-engine cars/parts. No candidate retained."
+      "limitation": null
     },
     "model-007:autotrader:audi-r8-v10-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-13T18:48:07Z",
+      "lastSearchedAt": "2026-09-15T07:11:03Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Auto Trader returned manual-R8 category inventory but no direct current qualifying 2009-2010 V10 manual car-details URL retained."
+      "limitation": null
     },
     "model-007:pistonheads:audi-r8-v10-manual": {
       "status": "searched",
@@ -9761,10 +9758,10 @@
     },
     "model-007:car-and-classic:audi-r8-v10-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-13T18:48:07Z",
+      "lastSearchedAt": "2026-09-15T07:11:03Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Car & Classic surfaced a current 2011 V10 manual at £74,995/39,350 miles, but 2011 is outside this target's 2009-2010 year window; rejected."
+      "limitation": "Car & Classic search executed. A 2010 V10 manual page was removed, a 2011 live manual is outside the year policy, and another 2009 result lacked a verifiable fixed current asking price/status. No candidate retained."
     },
     "model-007:gumtree:audi-r8-v10-manual": {
       "status": "searched",
@@ -9775,10 +9772,12 @@
     },
     "model-006:specialist-dealers:audi-r8-v8-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-13T18:48:07Z",
-      "lastResultCount": 0,
-      "candidateUrls": [],
-      "limitation": "Specialist search surfaced CSP Sales' £38,995 manual V8 page explicitly marked Sold; no new current direct specialist-stock candidate retained."
+      "lastSearchedAt": "2026-09-15T07:11:03Z",
+      "lastResultCount": 1,
+      "candidateUrls": [
+        "https://simonabbottcars.co.uk/car/audi-r8-5/"
+      ],
+      "limitation": "Seller site currently lists the car, but a PistonHeads cross-post says SOLD; keep unverified due conflicting availability."
     },
     "model-008:autotrader:honda-nsx-nsx-t-manual": {
       "status": "searched",
