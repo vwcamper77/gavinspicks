@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-16T11:23:08Z",
+  "updatedAt": "2026-09-16T12:30:25Z",
   "compactedFromQueueAt": "2026-09-10T06:41:54.207Z",
   "note": "Cumulative worker-write state. Job results are merged from immutable run deltas and folded back into data/search-queue.json by scripts/build-search-queue.mjs.",
   "jobs": {
@@ -392,10 +392,10 @@
     },
     "model-075:classic-trader:audi-tt-quattro-sport": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T03:00:49Z",
+      "lastSearchedAt": "2026-09-16T12:30:25Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Fresh Classic Trader search produced no direct current Audi TT quattro Sport advert strong enough to retain."
+      "limitation": "The current Classic Trader TT quattro Sport surfaced was LHD and located in Germany, not a UK car; no qualifying UK candidate retained."
     },
     "model-075:ferrarichat:audi-tt-quattro-sport": {
       "status": "searched",
@@ -441,10 +441,10 @@
     },
     "model-088:gumtree:mitsubishi-evo-vi-tommi-makinen-edition": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T04:26:26Z",
+      "lastSearchedAt": "2026-09-16T12:30:25Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No qualifying current direct Gumtree Evo VI Tommi Makinen Edition advert meeting the mileage/ownership rules surfaced."
+      "limitation": "No plausible current direct Gumtree TME advert meeting the mileage and ownership rules was found."
     },
     "model-088:lamborghini-talk:mitsubishi-evo-vi-tommi-makinen-edition": {
       "status": "blocked",
@@ -455,12 +455,10 @@
     },
     "model-088:specialist-dealers:mitsubishi-evo-vi-tommi-makinen-edition": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T04:26:26Z",
-      "lastResultCount": 1,
-      "candidateUrls": [
-        "https://www.autotorquecars.co.uk/used-mitsubishi-lancer-aylesbury-buckinghamshire-8197756"
-      ],
-      "limitation": "Auto Torque's existing Tommi Makinen Edition identity remains current at £99,995/18,460 miles/manual. Seller evidence says two keepers and one UK owner since 2009 import, but pre-import Japanese ownership is not evidenced strongly enough to prove the maximum-two-total-owner rule."
+      "lastSearchedAt": "2026-09-16T12:30:25Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Specialist search confirmed the already-known Auto Torque 18,460-mile identity plus non-qualifying/SALE AGREED cars; no new direct qualifying dealer advert URL was retained."
     },
     "model-096:911uk:bmw-e46-m3-manual-coupe-uk": {
       "status": "searched",
@@ -1196,31 +1194,31 @@
     },
     "model-078:ebay:renault-clio-182-trophy": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T04:26:26Z",
+      "lastSearchedAt": "2026-09-16T12:30:25Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No qualifying current direct eBay Clio 182 Trophy advert under 30,000 miles with verifiable maximum-two-total-owner eligibility surfaced."
+      "limitation": "The surfaced eBay Trophy vehicle advert had ended and was also far over the mileage/owner limits; parts and irrelevant results were rejected."
     },
     "model-078:autotrader:renault-clio-182-trophy": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T04:26:26Z",
+      "lastSearchedAt": "2026-09-16T12:30:25Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No direct current Auto Trader Clio 182 Trophy advert meeting the strict under-30,000-mile and maximum-two-total-owner rules surfaced."
+      "limitation": "No direct current Auto Trader Clio 182 Trophy car-details URL meeting the under-30,000-mile and maximum-two-total-owner rules was found."
     },
     "model-078:pistonheads:renault-clio-182-trophy": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T04:26:26Z",
+      "lastSearchedAt": "2026-09-16T12:30:25Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No qualifying live PistonHeads Clio 182 Trophy retained: the 10,620-mile auction result was a completed December 2025 sale and the current classified surfaced at about 47,000 miles, above the strict limit."
+      "limitation": "Current PistonHeads Trophy adverts were over the 30,000-mile cap; sold/unavailable adverts were rejected. No qualifying candidate retained."
     },
     "model-078:car-and-classic:renault-clio-182-trophy": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T04:26:26Z",
+      "lastSearchedAt": "2026-09-16T12:30:25Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Car & Classic results were sold/stale or materially above the under-30,000-mile rule; no qualifying current advert retained."
+      "limitation": "Current Trophy adverts found were over the 30,000-mile cap or historical/sold; no qualifying current direct advert retained."
     },
     "model-078:collecting-cars:renault-clio-182-trophy": {
       "status": "searched",
@@ -1530,17 +1528,17 @@
     },
     "model-097:ebay:bmw-e39-m5-manual-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T04:26:26Z",
+      "lastSearchedAt": "2026-09-16T12:30:25Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No qualifying current direct eBay E39 M5 advert at or below 50,000 miles surfaced; unrelated BMW listings were rejected."
+      "limitation": "Current direct eBay E39 M5 adverts found were over the 50,000-mile cap. The Oxford Green £39,977 car resolves to the same dealer stock at 116,397 miles; rejected."
     },
     "model-097:ebay:bmw-m5-e39-6-speed-manual-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T04:26:26Z",
+      "lastSearchedAt": "2026-09-16T12:30:25Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No qualifying current direct eBay E39 M5 six-speed manual advert at or below 50,000 miles surfaced; unrelated BMW listings were rejected."
+      "limitation": "Current eBay E39 M5 results were manual cars but over the 50,000-mile cap, including a 119,729-mile auction and the 116,397-mile Oxford Green dealer car; no qualifying candidate retained."
     },
     "model-097:facebook-groups:bmw-e39-m5-manual-uk": {
       "status": "blocked",
@@ -1898,19 +1896,19 @@
     },
     "model-076:autotrader:ford-focus-st500": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T04:26:26Z",
+      "lastSearchedAt": "2026-09-16T12:30:25Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Auto Trader search surfaced generic Focus inventory/category material rather than a direct current ST500 car-details advert; generic pages were rejected."
+      "limitation": "Fresh Auto Trader search returned no direct current car-details advert for a Ford Focus ST500; generic/indirect inventory was not retained."
     },
     "model-076:car-and-classic:ford-focus-st500": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T04:26:26Z",
+      "lastSearchedAt": "2026-09-16T12:30:25Z",
       "lastResultCount": 1,
       "candidateUrls": [
         "https://www.carandclassic.com/l/C1644726"
       ],
-      "limitation": "Existing candidate remains For Sale: 2008 Focus ST500 no.157/500, £19,750, 33,200 miles, six-speed manual, Dromore. Only two listing images are exposed and exact image fetch remained cache-limited, so visual overlay/manual-control verification is still incomplete."
+      "limitation": "Current direct advert remains live: 2008 Focus ST500 #157/500, £19,750, 33,200 miles, six-speed manual, private seller in Dromore. Only two seller-gallery images are exposed and their image assets could not be fetched for visual SOLD/RESERVED/manual-control inspection, so it remains verification-pending."
     },
     "model-076:ebay:ford-focus-st500": {
       "status": "searched",
@@ -2571,17 +2569,17 @@
     },
     "model-085:bonhams-cars:subaru-impreza-rb320": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T03:00:49Z",
+      "lastSearchedAt": "2026-09-16T12:30:25Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No current active Bonhams Cars RB320 lot meeting the strict mileage/ownership rules was found."
+      "limitation": "No current direct Bonhams Cars RB320 advert meeting the under-30,000-mile and maximum-two-total-owner rules was found."
     },
     "model-085:collecting-cars:subaru-impreza-rb320": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T03:00:49Z",
+      "lastSearchedAt": "2026-09-16T12:30:25Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No active Collecting Cars RB320 auction meeting the strict watch rules was found; historical/completed material was rejected."
+      "limitation": "Surfaced RB320 pages were completed auctions and the cars were also over the 30,000-mile cap; no current qualifying advert retained."
     },
     "model-075:autotrader:audi-tt-quattro-sport": {
       "status": "searched",
@@ -2891,33 +2889,33 @@
     },
     "model-088:autotrader:mitsubishi-evo-vi-tommi-makinen-edition": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T04:26:26Z",
+      "lastSearchedAt": "2026-09-16T12:30:25Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No new direct Auto Trader Evo VI Tommi Makinen Edition advert meeting the strict under-30,000-mile and maximum-two-total-owner rules surfaced."
+      "limitation": "No direct current Auto Trader car-details URL for a UK TME meeting the under-30,000-mile and maximum-two-total-owner rules was found."
     },
     "model-088:car-and-classic:mitsubishi-evo-vi-tommi-makinen-edition": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T04:26:26Z",
+      "lastSearchedAt": "2026-09-16T12:30:25Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No new direct Car & Classic Evo VI Tommi Makinen Edition advert meeting the strict under-30,000-mile and maximum-two-total-owner rules surfaced; generic/category results were rejected."
+      "limitation": "No direct current UK Car & Classic TME advert satisfying the mileage and ownership rules was retained."
     },
     "model-088:ebay:mitsubishi-evo-vi-tommi-makinen-edition": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T04:26:26Z",
+      "lastSearchedAt": "2026-09-16T12:30:25Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No qualifying current direct eBay Evo VI Tommi Makinen Edition advert meeting the mileage/ownership rules surfaced."
+      "limitation": "eBay search exposed the already-known 18,460-mile Auto Torque car through category/search material but no direct actual eBay item URL strong enough to retain; category pages are not candidates."
     },
     "model-088:pistonheads:mitsubishi-evo-vi-tommi-makinen-edition": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T04:26:26Z",
+      "lastSearchedAt": "2026-09-16T12:30:25Z",
       "lastResultCount": 1,
       "candidateUrls": [
         "https://www.pistonheads.com/buy/listing/20971451"
       ],
-      "limitation": "Existing Auto Torque identity remains live on PistonHeads at £99,995, 18,460 miles and manual. It is a 2009 Japanese import with one UK owner; total pre-import Japanese ownership remains unproven against the maximum-two-total-owner rule, so it stays unverified."
+      "limitation": "Already-tracked current PistonHeads advert remains live at £99,995, 18,460 miles and manual. It states one UK owner since import from Japan in 2009, but pre-import ownership is not evidenced, so the maximum-two-total-owner rule is still unverified and the car must remain pending."
     },
     "model-056:bonhams-cars:bmw-z4-m-coupe": {
       "status": "searched",
@@ -3212,10 +3210,10 @@
     },
     "model-075:collecting-cars:audi-tt-quattro-sport": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T03:00:49Z",
+      "lastSearchedAt": "2026-09-16T12:30:25Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Collecting Cars surfaced historical/completed TT quattro Sport material only; completed sales were rejected."
+      "limitation": "Collecting Cars results were completed historical auctions rather than current purchasable adverts; none retained."
     },
     "model-078:classic-trader:renault-clio-182-trophy": {
       "status": "searched",
@@ -3226,10 +3224,10 @@
     },
     "model-085:classic-trader:subaru-impreza-rb320": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T03:00:49Z",
+      "lastSearchedAt": "2026-09-16T12:30:25Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No current Classic Trader RB320 advert meeting the strict under-30,000-mile/two-owner rules was found."
+      "limitation": "No current direct UK Classic Trader RB320 advert meeting the mileage and ownership rules was found."
     },
     "model-088:bonhams-cars:mitsubishi-evo-vi-tommi-makinen-edition": {
       "status": "searched",
@@ -3602,10 +3600,10 @@
     },
     "model-008:collecting-cars:honda-nsx-nsx-t-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T17:00:31Z",
+      "lastSearchedAt": "2026-09-16T12:30:25Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Collecting Cars search returned no plausible current UK Honda NSX/NSX-T manual advert; historical/completed auctions were rejected."
+      "limitation": "The surfaced 1991 manual NSX at 18,161 miles is an ended Collecting Cars auction, not a current purchasable advert; rejected."
     },
     "model-008:bonhams-cars:honda-nsx-nsx-t-manual": {
       "status": "searched",
@@ -3623,45 +3621,45 @@
     },
     "model-009:collecting-cars:noble-m12-gto-gto-3-gto-3r": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T17:00:31Z",
+      "lastSearchedAt": "2026-09-16T12:30:25Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Collecting Cars surfaced a completed 2025 Noble M12 GTO-3R auction, which was rejected as historical; no current qualifying advert retained."
+      "limitation": "Collecting Cars M12 results were completed auctions, including previously sold GTO-3R cars; no current advert retained."
     },
     "model-009:bonhams-cars:noble-m12-gto-gto-3-gto-3r": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T17:00:31Z",
+      "lastSearchedAt": "2026-09-16T12:30:25Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Bonhams Cars search produced no plausible current direct Noble M12 GTO/GTO-3/GTO-3R advert; historical auction pages were rejected."
+      "limitation": "No current direct Bonhams Cars Noble M12 GTO/GTO-3/GTO-3R advert was found."
     },
     "model-009:classic-trader:noble-m12-gto-gto-3-gto-3r": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T17:00:31Z",
+      "lastSearchedAt": "2026-09-16T12:30:25Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Classic Trader search produced no plausible current direct UK Noble M12 GTO/GTO-3/GTO-3R advert."
+      "limitation": "Classic Trader results were expired/historical M12 listings; no current direct UK advert retained."
     },
     "model-010:collecting-cars:noble-m400": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T17:00:31Z",
+      "lastSearchedAt": "2026-09-16T12:30:25Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Collecting Cars search produced no plausible current direct UK Noble M400 advert; completed/historical auctions were rejected."
+      "limitation": "Collecting Cars M400 results were historical completed sales rather than current adverts; none retained."
     },
     "model-010:bonhams-cars:noble-m400": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T17:00:31Z",
+      "lastSearchedAt": "2026-09-16T12:30:25Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Bonhams Cars search produced no plausible current direct UK Noble M400 advert."
+      "limitation": "No current direct Bonhams Cars Noble M400 advert was found."
     },
     "model-010:classic-trader:noble-m400": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T17:00:31Z",
+      "lastSearchedAt": "2026-09-16T12:30:25Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Classic Trader search produced no plausible current direct UK Noble M400 advert."
+      "limitation": "No current direct UK Classic Trader Noble M400 advert was found."
     },
     "model-088:classic-trader:mitsubishi-evo-vi-tommi-makinen-edition": {
       "status": "searched",
@@ -3735,10 +3733,10 @@
     },
     "model-038:bonhams-cars:vauxhall-vxr220": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T17:00:31Z",
+      "lastSearchedAt": "2026-09-16T12:30:25Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Bonhams Cars search produced no plausible current direct Vauxhall VXR220 advert."
+      "limitation": "No current direct Bonhams Cars Vauxhall VXR220 advert was found."
     },
     "model-038:car-and-classic:vauxhall-vxr220": {
       "status": "searched",
@@ -3749,17 +3747,17 @@
     },
     "model-038:classic-trader:vauxhall-vxr220": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T17:00:31Z",
+      "lastSearchedAt": "2026-09-16T12:30:25Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Classic Trader search produced no plausible current direct UK Vauxhall VXR220 advert."
+      "limitation": "Classic Trader search surfaced non-UK Opel Speedster material rather than a current UK VXR220 advert; none retained."
     },
     "model-038:collecting-cars:vauxhall-vxr220": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T17:00:31Z",
+      "lastSearchedAt": "2026-09-16T12:30:25Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Collecting Cars search produced no plausible current direct UK Vauxhall VXR220 advert; historical auction pages were rejected."
+      "limitation": "Collecting Cars results were historical VX220/VX220 Turbo sales and not a current VXR220 advert; none retained."
     },
     "model-038:ebay:vauxhall-vxr220": {
       "status": "searched",
@@ -3828,10 +3826,10 @@
     },
     "model-039:bonhams-cars:renault-sport-spider": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T17:00:31Z",
+      "lastSearchedAt": "2026-09-16T12:30:25Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Bonhams Cars search found no current direct Renault Sport Spider advert satisfying the under-30,000-mile and maximum-two-owner rules."
+      "limitation": "No current direct Bonhams Cars Renault Sport Spider advert meeting the watch rules was found."
     },
     "model-039:car-and-classic:renault-sport-spider": {
       "status": "searched",
@@ -3842,17 +3840,17 @@
     },
     "model-039:classic-trader:renault-sport-spider": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T17:00:31Z",
+      "lastSearchedAt": "2026-09-16T12:30:25Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Classic Trader search found no current direct Renault Sport Spider advert satisfying the under-30,000-mile and maximum-two-owner rules."
+      "limitation": "No current direct UK Classic Trader Renault Sport Spider advert meeting the watch rules was found."
     },
     "model-039:collecting-cars:renault-sport-spider": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T17:00:31Z",
+      "lastSearchedAt": "2026-09-16T12:30:25Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Collecting Cars search found no current direct Renault Sport Spider advert satisfying the under-30,000-mile and maximum-two-owner rules; completed auctions were rejected."
+      "limitation": "No current purchasable Collecting Cars Renault Sport Spider advert was found; historical/completed material was rejected."
     },
     "model-039:ebay:renault-sport-spider": {
       "status": "searched",
@@ -3940,10 +3938,10 @@
     },
     "model-078:ferrarichat:renault-clio-182-trophy": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T00:05:48Z",
+      "lastSearchedAt": "2026-09-16T12:30:25Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "FerrariChat indexed search returned no direct current qualifying Clio 182 Trophy advert."
+      "limitation": "FerrariChat search returned unrelated/historical discussion rather than a current UK Clio 182 Trophy sale advert."
     },
     "model-078:lamborghini-talk:renault-clio-182-trophy": {
       "status": "blocked",
@@ -3968,17 +3966,17 @@
     },
     "model-040:bonhams-cars:renault-clio-v6-phase-1": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T17:00:31Z",
+      "lastSearchedAt": "2026-09-16T12:30:25Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Bonhams Cars search found no current direct Renault Clio V6 Phase 1 advert satisfying the under-30,000-mile and maximum-two-owner rules."
+      "limitation": "No current direct Bonhams Cars Renault Clio V6 Phase 1 advert meeting the under-30,000-mile and maximum-two-owner rules was found."
     },
     "model-040:bonhams-cars:renault-clio-v6-phase-2": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T17:00:31Z",
+      "lastSearchedAt": "2026-09-16T12:30:25Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Bonhams Cars search found no current direct Renault Clio V6 Phase 2 advert satisfying the under-30,000-mile and maximum-two-owner rules."
+      "limitation": "No current direct Bonhams Cars Renault Clio V6 Phase 2 advert meeting the under-30,000-mile and maximum-two-owner rules was found."
     },
     "model-040:car-and-classic:renault-clio-v6-phase-1": {
       "status": "searched",
@@ -7802,87 +7800,87 @@
     },
     "model-080:ebay:renault-clio-182-cup": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T22:33:25Z",
+      "lastSearchedAt": "2026-09-16T12:30:25Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No direct current eBay Clio 182 Cup advert meeting the under-30,000-mile and maximum-two-owner rules was retained."
+      "limitation": "No current direct eBay Clio 182 Cup advert meeting the under-30,000-mile and maximum-two-total-owner rules was found; parts/high-mileage cars were rejected."
     },
     "model-080:ebay:renault-clio-r27-f1-team": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T22:33:25Z",
+      "lastSearchedAt": "2026-09-16T12:30:25Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No direct current eBay Clio R27 F1 Team advert meeting the under-30,000-mile and maximum-two-owner rules was retained."
+      "limitation": "Current eBay R27 vehicle adverts were well over the 30,000-mile cap (including a 130,000-mile car); no qualifying candidate retained."
     },
     "model-080:facebook-groups:renault-clio-172-cup": {
-      "status": "searched",
-      "lastSearchedAt": "2026-09-14T05:03:03Z",
+      "status": "blocked",
+      "lastSearchedAt": "2026-09-16T12:30:25Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No attributable public current 172 Cup sale post meeting the strict mileage/ownership rules surfaced; private groups not accessed."
+      "limitation": "Public Facebook-group search returned generic/login-gated group pages rather than an accessible current Clio 172 Cup sale post; no bypass attempted."
     },
     "model-080:facebook-groups:renault-clio-182-cup": {
-      "status": "searched",
-      "lastSearchedAt": "2026-09-14T05:03:03Z",
+      "status": "blocked",
+      "lastSearchedAt": "2026-09-16T12:30:25Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No attributable public current 182 Cup sale post meeting the strict mileage/ownership rules surfaced; private groups not accessed."
+      "limitation": "Public Facebook-group search returned generic/login-gated group pages rather than an accessible current Clio 182 Cup sale post; no bypass attempted."
     },
     "model-080:facebook-groups:renault-clio-r27-f1-team": {
-      "status": "searched",
-      "lastSearchedAt": "2026-09-14T05:03:03Z",
+      "status": "blocked",
+      "lastSearchedAt": "2026-09-16T12:30:25Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No attributable public current R27 F1 Team sale post meeting the strict mileage/ownership rules surfaced; private groups not accessed."
+      "limitation": "Public Facebook-group search returned generic/login-gated group pages rather than an accessible current Clio R27 F1 Team sale post; no bypass attempted."
     },
     "model-080:ferrarichat:renault-clio-172-cup": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T05:03:03Z",
+      "lastSearchedAt": "2026-09-16T12:30:25Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No current direct qualifying UK 172 Cup sale advert surfaced on FerrariChat."
+      "limitation": "FerrariChat search returned unrelated/historical discussion rather than a current UK Clio 172 Cup sale advert."
     },
     "model-080:ferrarichat:renault-clio-182-cup": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T05:03:03Z",
+      "lastSearchedAt": "2026-09-16T12:30:25Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No current direct qualifying UK 182 Cup sale advert surfaced on FerrariChat."
+      "limitation": "FerrariChat search returned unrelated/historical discussion rather than a current UK Clio 182 Cup sale advert."
     },
     "model-080:ferrarichat:renault-clio-r27-f1-team": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T05:03:03Z",
+      "lastSearchedAt": "2026-09-16T12:30:25Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No current direct qualifying UK R27 F1 Team sale advert surfaced on FerrariChat."
+      "limitation": "FerrariChat search returned unrelated/historical discussion rather than a current UK Clio R27 F1 Team sale advert."
     },
     "model-080:gumtree:renault-clio-172-cup": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T22:33:25Z",
+      "lastSearchedAt": "2026-09-16T12:30:25Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Gumtree results were generic, wrong derivative or non-qualifying; no direct current 172 Cup candidate was retained."
+      "limitation": "A fresh direct Gumtree 2004 Clio 172 Cup advert was found at £8,499/66,000 miles, but it exceeds the 30,000-mile cap and was rejected."
     },
     "model-080:gumtree:renault-clio-182-cup": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T22:33:25Z",
+      "lastSearchedAt": "2026-09-16T12:30:25Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Gumtree results were generic, wrong derivative or non-qualifying; no direct current 182 Cup candidate was retained."
+      "limitation": "No current direct Gumtree Clio 182 Cup advert meeting the under-30,000-mile and maximum-two-total-owner rules was found."
     },
     "model-080:gumtree:renault-clio-r27-f1-team": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T22:33:25Z",
+      "lastSearchedAt": "2026-09-16T12:30:25Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Gumtree results were generic, wrong derivative or non-qualifying; no direct current R27 F1 Team candidate was retained."
+      "limitation": "No current direct Gumtree Clio R27 F1 Team advert meeting the under-30,000-mile and maximum-two-total-owner rules was found."
     },
     "model-080:lamborghini-talk:renault-clio-172-cup": {
       "status": "blocked",
-      "lastSearchedAt": "2026-09-14T05:03:03Z",
+      "lastSearchedAt": "2026-09-16T12:30:25Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public automated access to LamborghiniTalk is blocked by robots.txt; no bypass attempted."
+      "limitation": "Public web access to LamborghiniTalk is blocked by robots.txt; no bypass was attempted, so this source could not be checked."
     },
     "model-080:lamborghini-talk:renault-clio-182-cup": {
       "status": "blocked",
@@ -7900,24 +7898,24 @@
     },
     "model-080:pistonheads:renault-clio-172-cup": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T22:33:25Z",
+      "lastSearchedAt": "2026-09-16T12:30:25Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Direct PistonHeads 172 examples checked were unavailable or above the mileage/ownership caps; no qualifying candidate was retained."
+      "limitation": "Current PistonHeads 172 Cup adverts were over the mileage and/or ownership caps; no qualifying candidate retained."
     },
     "model-080:pistonheads:renault-clio-182-cup": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T22:33:25Z",
+      "lastSearchedAt": "2026-09-16T12:30:25Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Direct PistonHeads 182 Cup examples checked were 44,000+ or 98,000 miles and/or over the ownership cap; no qualifying candidate was retained."
+      "limitation": "Current PistonHeads 182 Cup adverts were over the 30,000-mile and/or two-owner limits; no qualifying candidate retained."
     },
     "model-080:pistonheads:renault-clio-r27-f1-team": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T22:33:25Z",
+      "lastSearchedAt": "2026-09-16T12:30:25Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "PistonHeads search returned no direct current R27 F1 Team under 30,000 miles with maximum two total owners."
+      "limitation": "No current direct PistonHeads Clio R27 F1 Team advert meeting the mileage and ownership rules was found."
     },
     "model-080:specialist-dealers:renault-clio-172-cup": {
       "status": "searched",
