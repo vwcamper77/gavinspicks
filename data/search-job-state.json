@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-16T07:20:48Z",
+  "updatedAt": "2026-09-16T08:56:00Z",
   "compactedFromQueueAt": "2026-09-10T06:41:54.207Z",
   "note": "Cumulative worker-write state. Job results are merged from immutable run deltas and folded back into data/search-queue.json by scripts/build-search-queue.mjs.",
   "jobs": {
@@ -89,12 +89,12 @@
     },
     "model-070:specialist-dealers:ford-focus-rs-mk1": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T00:05:48Z",
+      "lastSearchedAt": "2026-09-16T08:56:00Z",
       "lastResultCount": 1,
       "candidateUrls": [
         "https://www.kgfclassiccars.co.uk/vehicles/36295/"
       ],
-      "limitation": "Direct KGF dealer advert is current FOR SALE: 2003 Focus RS Mk1, £32,995, 53,227 miles, build 3260, factory five-speed manual, two former keepers; retained for photo verification."
+      "limitation": "KGF's direct current advert for the already-tracked 2003 Focus RS Mk1 build #3260 remains for sale at £32,995/53,227 miles/manual; no new vehicle identity surfaced."
     },
     "model-070:ebay:ford-focus-rs-mk2": {
       "status": "searched",
@@ -112,12 +112,12 @@
     },
     "model-070:pistonheads:ford-focus-rs-mk2": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T00:05:48Z",
+      "lastSearchedAt": "2026-09-16T08:56:00Z",
       "lastResultCount": 1,
       "candidateUrls": [
         "https://www.pistonheads.com/buy/listing/21046691"
       ],
-      "limitation": "Fresh direct PistonHeads Mk2 RS advert retained; previously tracked candidate. Current listing evidence shows 2009, £30,000, 24,883 miles, manual and live."
+      "limitation": "Current PistonHeads #21046691 remains the already-tracked 2009 Focus RS Mk2 at £30,000/24,883 miles/manual. Other surfaced Mk2 adverts were heavily modified/high-owner or otherwise weak exceptional-example candidates and were rejected before verification."
     },
     "model-070:car-and-classic:ford-focus-rs-mk2": {
       "status": "searched",
@@ -139,12 +139,12 @@
     },
     "model-070:specialist-dealers:ford-focus-rs-mk2": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T00:05:48Z",
+      "lastSearchedAt": "2026-09-16T08:56:00Z",
       "lastResultCount": 1,
       "candidateUrls": [
         "https://carcavescotland.co.uk/ford-focus-rs-mk2/"
       ],
-      "limitation": "Current Car Cave dealer stock surfaced for the already tracked 2010 Focus RS Mk2 WN10SYG, £44,995 and 5,699 miles; retained as existing identity."
+      "limitation": "Car Cave's current advert for the already-tracked 2010 Focus RS Mk2 WN10SYG remains for sale at £44,995/5,699 miles; no new identity surfaced."
     },
     "model-070:ebay:ford-focus-rs500": {
       "status": "searched",
@@ -1129,10 +1129,10 @@
     },
     "model-072:autotrader:bmw-1m-coupe-manual-45000-55000-full-service-history": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T00:05:48Z",
+      "lastSearchedAt": "2026-09-16T08:56:00Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No direct current Auto Trader car-details URL for a qualifying £45k–£55k BMW 1M manual surfaced."
+      "limitation": "Targeted Auto Trader search did not expose a direct current car-details URL for a qualifying E82 BMW 1M within the £45k–£55k target."
     },
     "model-072:pistonheads:bmw-1m-coupe-manual-45000-55000-full-service-history": {
       "status": "searched",
@@ -1878,10 +1878,10 @@
     },
     "model-070:classic-trader:ford-focus-rs-mk1": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-15T21:45:26Z",
+      "lastSearchedAt": "2026-09-16T08:56:00Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Classic Trader search produced no direct current Ford Focus RS Mk1 advert strong enough to retain."
+      "limitation": "Classic Trader returned generic/search inventory rather than a direct current UK Mk1 Focus RS advert."
     },
     "model-070:classic-trader:ford-focus-rs-mk2": {
       "status": "searched",
@@ -1929,45 +1929,45 @@
     },
     "model-076:ebay:ford-focus-st500": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T00:05:48Z",
+      "lastSearchedAt": "2026-09-16T08:56:00Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search results were parts/seats or irrelevant vehicles; no qualifying current direct ST500 advert retained."
+      "limitation": "eBay search returned parts/irrelevant Focus listings rather than a current genuine ST500 vehicle advert."
     },
     "model-076:gumtree:ford-focus-st500": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T00:05:48Z",
+      "lastSearchedAt": "2026-09-16T08:56:00Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Current Gumtree ST500 ad 1802086090 is £7,995, below the model £10,000 watch-band floor; rejected before verification."
+      "limitation": "Two current-looking Gumtree ST500 leads were rejected: one at £7,995 is below the £10,000 floor; the other is a £1/open-to-offers project without a qualifying fixed asking price."
     },
     "model-076:pistonheads:ford-focus-st500": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T00:05:48Z",
+      "lastSearchedAt": "2026-09-16T08:56:00Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No qualifying current direct PistonHeads ST500 classified surfaced."
+      "limitation": "No direct current genuine Focus ST500 advert meeting the watch rules surfaced on PistonHeads."
     },
     "model-076:specialist-dealers:ford-focus-st500": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T00:05:48Z",
+      "lastSearchedAt": "2026-09-16T08:56:00Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Current dealer ST500 examples surfaced below the £10,000 watch-band floor; none retained."
+      "limitation": "Specialist-dealer search found no new direct current genuine Focus ST500 advert at a qualifying fixed price."
     },
     "model-082:autotrader:subaru-impreza-p1": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T00:05:48Z",
+      "lastSearchedAt": "2026-09-16T08:56:00Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No direct current Auto Trader P1 advert meeting under-30,000-mile and maximum-two-total-owner rules surfaced."
+      "limitation": "Auto Trader search did not expose a direct current P1 car-details advert with verified sub-30,000-mile and maximum-two-total-owner evidence."
     },
     "model-082:car-and-classic:subaru-impreza-p1": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T00:17:33Z",
+      "lastSearchedAt": "2026-09-16T08:56:00Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Current-looking P1 results were auctions and/or exceeded the 30,000-mile cap; no qualifying direct fixed-price advert retained."
+      "limitation": "Surfaced P1 adverts/auctions were over the strict 30,000-mile cap, historical/completed, or unavailable; none qualified for verification."
     },
     "model-026:collecting-cars:lotus-exige-s1": {
       "status": "searched",
@@ -2185,17 +2185,17 @@
     },
     "model-082:ebay:subaru-impreza-p1": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T00:17:33Z",
+      "lastSearchedAt": "2026-09-16T08:56:00Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "eBay surfaced one current-looking P1 without sufficient mileage/ownership evidence, an unfinished project and a completed auction; none met the strict candidate gate."
+      "limitation": "eBay surfaced historical/ended/project P1 listings and an auction-style result without qualifying current fixed-price evidence; no candidate retained."
     },
     "model-082:gumtree:subaru-impreza-p1": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T00:17:33Z",
+      "lastSearchedAt": "2026-09-16T08:56:00Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Gumtree surfaced a past auction car at about 40,180 miles, above the mileage cap; no qualifying current direct advert retained."
+      "limitation": "Current Gumtree P1 advert surfaced at 40,180 miles, which fails the strict under-30,000-mile rule; rejected before verification."
     },
     "model-082:pistonheads:subaru-impreza-p1": {
       "status": "searched",
@@ -2255,10 +2255,10 @@
     },
     "model-076:collecting-cars:ford-focus-st500": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-15T21:45:26Z",
+      "lastSearchedAt": "2026-09-16T08:56:00Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Collecting Cars search produced no current fixed-price Focus ST500 advert; completed/historical pages were rejected."
+      "limitation": "Collecting Cars search produced no active current Focus ST500 lot that met the fixed-price/current-availability rules."
     },
     "model-070:911uk:ford-focus-rs-mk1": {
       "status": "searched",
@@ -2276,10 +2276,10 @@
     },
     "model-070:911uk:ford-focus-rs500": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-15T18:14:09Z",
+      "lastSearchedAt": "2026-09-16T08:56:00Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No plausible current direct 911UK Focus RS500 sale thread was found."
+      "limitation": "Fresh 911UK indexed search found no direct current Ford Focus RS500 sale thread; generic and historical discussion results were rejected."
     },
     "model-070:facebook-groups:ford-focus-rs-mk2": {
       "status": "searched",
@@ -2289,11 +2289,11 @@
       "limitation": "No public indexed Facebook-group owner-sale post could be verified as a current qualifying advert this run."
     },
     "model-070:facebook-groups:ford-focus-rs500": {
-      "status": "searched",
-      "lastSearchedAt": "2026-09-15T18:14:09Z",
+      "status": "blocked",
+      "lastSearchedAt": "2026-09-16T08:56:00Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No publicly indexed current direct Facebook Group Focus RS500 sale post was strong enough to retain."
+      "limitation": "Public Facebook-group search did not expose an accessible current RS500 sale post without login/membership; generic/login results were not counted."
     },
     "model-070:ferrarichat:ford-focus-rs-mk1": {
       "status": "searched",
@@ -2311,10 +2311,10 @@
     },
     "model-070:ferrarichat:ford-focus-rs500": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-15T18:14:09Z",
+      "lastSearchedAt": "2026-09-16T08:56:00Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No plausible current FerrariChat Focus RS500 sale advert was found."
+      "limitation": "FerrariChat search produced no direct current UK Focus RS500 sale advert; irrelevant discussion results were rejected."
     },
     "model-070:lamborghini-talk:ford-focus-rs-mk1": {
       "status": "blocked",
@@ -2551,10 +2551,10 @@
     },
     "model-070:pistonheads:ford-focus-rs500": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T00:17:33Z",
+      "lastSearchedAt": "2026-09-16T08:56:00Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Fresh PistonHeads search surfaced historical/editorial RS500 material rather than a current direct fixed-price advert; nothing retained."
+      "limitation": "PistonHeads search returned generic Focus RS inventory rather than a direct current RS500 advert strong enough to retain."
     },
     "model-070:specialist-dealers:ford-focus-rs500": {
       "status": "searched",
@@ -2947,17 +2947,17 @@
     },
     "model-056:classic-trader:bmw-z4-m-coupe": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-15T21:45:26Z",
+      "lastSearchedAt": "2026-09-16T08:56:00Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Classic Trader search produced no direct current UK Z4 M Coupe advert within the £23k–£40k watch band strong enough to retain."
+      "limitation": "Classic Trader surfaced a generic BMW Z4 results page and a non-UK Z4 M Coupe; no direct current UK advert retained."
     },
     "model-056:collecting-cars:bmw-z4-m-coupe": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-15T21:45:26Z",
+      "lastSearchedAt": "2026-09-16T08:56:00Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Collecting Cars results were historical/completed auction pages rather than a current fixed-price qualifying advert; none retained."
+      "limitation": "Collecting Cars surfaced historical completed Z4 M Coupe auction material, not a currently purchasable fixed-price advert."
     },
     "model-070:bonhams-cars:ford-focus-rs-mk1": {
       "status": "searched",
@@ -7086,10 +7086,10 @@
     },
     "model-073:ebay:audi-ur-quattro": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T19:19:33Z",
+      "lastSearchedAt": "2026-09-16T08:56:00Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search results were unrelated modern Audi vehicles; no ur-quattro advert retained."
+      "limitation": "eBay search surfaced later Audi quattro-badged cars/irrelevant items rather than a direct current original 1980–1991 ur-quattro advert."
     },
     "model-073:facebook-groups:audi-ur-quattro": {
       "status": "searched",
@@ -7107,10 +7107,10 @@
     },
     "model-073:gumtree:audi-ur-quattro": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T19:19:33Z",
+      "lastSearchedAt": "2026-09-16T08:56:00Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No current direct qualifying ur-quattro advert found."
+      "limitation": "Gumtree search produced no direct current original ur-quattro advert with a qualifying fixed asking price."
     },
     "model-073:lamborghini-talk:audi-ur-quattro": {
       "status": "blocked",
@@ -7121,19 +7121,20 @@
     },
     "model-073:pistonheads:audi-ur-quattro": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T19:19:33Z",
-      "lastResultCount": 1,
+      "lastSearchedAt": "2026-09-16T08:56:00Z",
+      "lastResultCount": 2,
       "candidateUrls": [
-        "https://www.pistonheads.com/buy/listing/20952619"
+        "https://www.pistonheads.com/buy/listing/16723245",
+        "https://www.pistonheads.com/buy/listing/19296052"
       ],
-      "limitation": "Current 1989 MB ur-quattro at £69,995/36,972 miles/manual retained; seller stock and cross-listing corroborate current sale."
+      "limitation": "Two direct current original ur-quattro adverts were retained from PistonHeads; both identities were already present in the verification queue. Additional category stock was not added without direct advert-level verification."
     },
     "model-073:specialist-dealers:audi-ur-quattro": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T19:19:33Z",
+      "lastSearchedAt": "2026-09-16T08:56:00Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Dealer inventory corroborated the 4 Star Classics car but no additional direct specialist-detail URL was retained to avoid duplicate identity."
+      "limitation": "Specialist search did not produce a new direct dealer advert distinct from already-tracked ur-quattro identities."
     },
     "model-074:911uk:porsche-996-40th-anniversary-manual": {
       "status": "searched",
@@ -7144,10 +7145,10 @@
     },
     "model-074:autotrader:porsche-996-40th-anniversary-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T19:19:33Z",
+      "lastSearchedAt": "2026-09-16T08:56:00Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No current direct qualifying 996 40th Anniversary manual advert retained from Auto Trader."
+      "limitation": "Auto Trader search did not expose a direct current car-details URL for a verified 996 40th Anniversary manual."
     },
     "model-074:bonhams-cars:porsche-996-40th-anniversary-manual": {
       "status": "searched",
@@ -7158,10 +7159,10 @@
     },
     "model-074:car-and-classic:porsche-996-40th-anniversary-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T19:19:33Z",
+      "lastSearchedAt": "2026-09-16T08:56:00Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No current direct qualifying 996 40th Anniversary manual advert retained from C&C."
+      "limitation": "Car & Classic search did not produce a new direct current qualifying 996 40th Anniversary manual advert."
     },
     "model-074:classic-trader:porsche-996-40th-anniversary-manual": {
       "status": "searched",
@@ -7179,10 +7180,10 @@
     },
     "model-074:ebay:porsche-996-40th-anniversary-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T19:19:33Z",
+      "lastSearchedAt": "2026-09-16T08:56:00Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Results were ordinary 996 cars/irrelevant items rather than a verified 40th Anniversary manual."
+      "limitation": "eBay results were generic 996 stock or unrelated items; no direct current verified 40th Anniversary manual advert retained."
     },
     "model-074:facebook-groups:porsche-996-40th-anniversary-manual": {
       "status": "searched",
@@ -7200,10 +7201,10 @@
     },
     "model-074:gumtree:porsche-996-40th-anniversary-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T19:19:33Z",
+      "lastSearchedAt": "2026-09-16T08:56:00Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No current direct qualifying 996 40th Anniversary manual advert found."
+      "limitation": "Gumtree search produced no direct current qualifying 996 40th Anniversary manual advert."
     },
     "model-074:lamborghini-talk:porsche-996-40th-anniversary-manual": {
       "status": "blocked",
@@ -7214,17 +7215,19 @@
     },
     "model-074:pistonheads:porsche-996-40th-anniversary-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T19:19:33Z",
-      "lastResultCount": 0,
-      "candidateUrls": [],
-      "limitation": "Listing #20492444 has conflicting fixed-price/POA evidence; hard POA/ambiguity rule prevents retention. Other results were stale."
+      "lastSearchedAt": "2026-09-16T08:56:00Z",
+      "lastResultCount": 1,
+      "candidateUrls": [
+        "https://www.pistonheads.com/buy/listing/20492444"
+      ],
+      "limitation": "PistonHeads #20492444 is currently advertised at £49,995, 10,677 miles and six-speed manual with X51/LSD/M030 claims, but mandatory gallery/manual-control verification remains incomplete. Previously tracked #19057785 now explicitly says MOT Expired and no longer available and was marked unavailable."
     },
     "model-074:specialist-dealers:porsche-996-40th-anniversary-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T19:19:33Z",
+      "lastSearchedAt": "2026-09-16T08:56:00Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Philip Raby detail pages indexed recently, but the dealer's current stock page no longer lists those 40th Anniversary cars; treated as stale."
+      "limitation": "Specialist searches surfaced 40th Anniversary stock pages, but no new direct advert was retained after current-status/deduplication checks in this run."
     },
     "model-077:911uk:ford-focus-st170-estate-under-50000-miles-low-owners": {
       "status": "searched",
@@ -7249,24 +7252,24 @@
     },
     "model-077:autotrader:ford-focus-st170-estate-under-50000-miles-low-owners": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T19:19:33Z",
+      "lastSearchedAt": "2026-09-16T08:56:00Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No current direct ST170 Estate under 50,000 miles with low-owner evidence surfaced."
+      "limitation": "No qualifying current exceptional ST170 Estate retained; surfaced results were sold/ended, high-mileage, below £10k, modified or otherwise weak."
     },
     "model-077:autotrader:ford-focus-st170-under-50000-miles-low-owners": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T19:19:33Z",
+      "lastSearchedAt": "2026-09-16T08:56:00Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No current direct ST170 under 50,000 miles with low-owner evidence surfaced."
+      "limitation": "No qualifying current exceptional ST170 retained; surfaced results were sold/ended, high-mileage, below £10k, modified or otherwise weak."
     },
     "model-077:autotrader:ford-focus-st225-st2-st3-under-50000-miles-low-owners": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T20:08:12Z",
+      "lastSearchedAt": "2026-09-16T08:56:00Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Auto Trader search produced no direct current Mk2 Focus ST225 ST2/ST3 advert under 50,000 miles with sufficiently strong low-owner/current-sale evidence to retain."
+      "limitation": "No qualifying current exceptional ST225 ST2/ST3 retained; surfaced results were sold/ended, high-mileage, below £10k, modified or otherwise weak."
     },
     "model-077:bonhams-cars:ford-focus-st170-estate-under-50000-miles-low-owners": {
       "status": "searched",
@@ -7291,24 +7294,24 @@
     },
     "model-077:car-and-classic:ford-focus-st170-estate-under-50000-miles-low-owners": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T20:08:12Z",
+      "lastSearchedAt": "2026-09-16T08:56:00Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Car & Classic results did not produce a current ST170 Estate under 50,000 miles with strong current-sale evidence; an 84,000-mile example was rejected."
+      "limitation": "No qualifying current exceptional ST170 Estate retained; surfaced results were sold/ended, high-mileage, below £10k, modified or otherwise weak."
     },
     "model-077:car-and-classic:ford-focus-st170-under-50000-miles-low-owners": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T20:08:12Z",
+      "lastSearchedAt": "2026-09-16T08:56:00Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Car & Classic surfaced low-mileage ST170 material, but one 43,000-mile advert was explicitly removed and a 19,251-mile result could not be positively revalidated as currently purchasable; no candidate retained."
+      "limitation": "No qualifying current exceptional ST170 retained; surfaced results were sold/ended, high-mileage, below £10k, modified or otherwise weak."
     },
     "model-077:car-and-classic:ford-focus-st225-st2-st3-under-50000-miles-low-owners": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T20:08:12Z",
+      "lastSearchedAt": "2026-09-16T08:56:00Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Fresh Car & Classic search produced no direct current Mk2 Focus ST225 ST2/ST3 under 50,000 miles with sufficiently strong low-owner/current-sale evidence to retain."
+      "limitation": "No qualifying current exceptional ST225 ST2/ST3 retained; surfaced results were sold/ended, high-mileage, below £10k, modified or otherwise weak."
     },
     "model-077:classic-trader:ford-focus-st170-estate-under-50000-miles-low-owners": {
       "status": "searched",
@@ -7354,24 +7357,24 @@
     },
     "model-077:ebay:ford-focus-st170-estate-under-50000-miles-low-owners": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T20:08:12Z",
+      "lastSearchedAt": "2026-09-16T08:56:00Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Fresh eBay UK search produced no direct current low-mileage ST170 Estate advert; ended, sold, high-mileage and unrelated listings were rejected."
+      "limitation": "No qualifying current exceptional ST170 Estate retained; surfaced results were sold/ended, high-mileage, below £10k, modified or otherwise weak."
     },
     "model-077:ebay:ford-focus-st170-under-50000-miles-low-owners": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T20:08:12Z",
+      "lastSearchedAt": "2026-09-16T08:56:00Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "eBay UK surfaced ended/sold or high-mileage ST170 adverts rather than a current under-50,000-mile exceptional example; no candidate retained."
+      "limitation": "No qualifying current exceptional ST170 retained; surfaced results were sold/ended, high-mileage, below £10k, modified or otherwise weak."
     },
     "model-077:ebay:ford-focus-st225-st2-st3-under-50000-miles-low-owners": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T20:08:12Z",
+      "lastSearchedAt": "2026-09-16T08:56:00Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "eBay UK surfaced ended/high-mileage Mk2 ST225 material rather than a current under-50,000-mile low-owner exceptional example; no candidate retained."
+      "limitation": "No qualifying current exceptional ST225 ST2/ST3 retained; surfaced results were sold/ended, high-mileage, below £10k, modified or otherwise weak."
     },
     "model-077:facebook-groups:ford-focus-st170-estate-under-50000-miles-low-owners": {
       "status": "blocked",
@@ -7417,24 +7420,24 @@
     },
     "model-077:gumtree:ford-focus-st170-estate-under-50000-miles-low-owners": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T20:08:12Z",
+      "lastSearchedAt": "2026-09-16T08:56:00Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Fresh Gumtree search returned no direct current ST170 Estate under 50,000 miles strong enough to retain."
+      "limitation": "No qualifying current exceptional ST170 Estate retained; surfaced results were sold/ended, high-mileage, below £10k, modified or otherwise weak."
     },
     "model-077:gumtree:ford-focus-st170-under-50000-miles-low-owners": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T20:08:12Z",
+      "lastSearchedAt": "2026-09-16T08:56:00Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Fresh Gumtree search returned no direct current ST170 under 50,000 miles strong enough to retain."
+      "limitation": "No qualifying current exceptional ST170 retained; surfaced results were sold/ended, high-mileage, below £10k, modified or otherwise weak."
     },
     "model-077:gumtree:ford-focus-st225-st2-st3-under-50000-miles-low-owners": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T20:08:12Z",
+      "lastSearchedAt": "2026-09-16T08:56:00Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Fresh Gumtree search returned no direct current Mk2 ST225 ST2/ST3 under 50,000 miles strong enough to retain."
+      "limitation": "No qualifying current exceptional ST225 ST2/ST3 retained; surfaced results were sold/ended, high-mileage, below £10k, modified or otherwise weak."
     },
     "model-077:lamborghini-talk:ford-focus-st170-estate-under-50000-miles-low-owners": {
       "status": "blocked",
@@ -7459,45 +7462,45 @@
     },
     "model-077:pistonheads:ford-focus-st170-estate-under-50000-miles-low-owners": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T20:08:12Z",
+      "lastSearchedAt": "2026-09-16T08:56:00Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Fresh PistonHeads search produced no direct current ST170 Estate under 50,000 miles meeting the exceptional-example intent; stale/irrelevant material was rejected."
+      "limitation": "No qualifying current exceptional ST170 Estate retained; surfaced results were sold/ended, high-mileage, below £10k, modified or otherwise weak."
     },
     "model-077:pistonheads:ford-focus-st170-under-50000-miles-low-owners": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T20:08:12Z",
+      "lastSearchedAt": "2026-09-16T08:56:00Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "PistonHeads listing 20064532 is explicitly no longer available; no other direct current ST170 under 50,000 miles was retained."
+      "limitation": "No qualifying current exceptional ST170 retained; surfaced results were sold/ended, high-mileage, below £10k, modified or otherwise weak."
     },
     "model-077:pistonheads:ford-focus-st225-st2-st3-under-50000-miles-low-owners": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T20:08:12Z",
+      "lastSearchedAt": "2026-09-16T08:56:00Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Fresh PistonHeads search did not surface a direct current Mk2 ST225 ST2/ST3 under 50,000 miles strong enough to retain; newer-generation/irrelevant results were rejected."
+      "limitation": "No qualifying current exceptional ST225 ST2/ST3 retained; surfaced results were sold/ended, high-mileage, below £10k, modified or otherwise weak."
     },
     "model-077:specialist-dealers:ford-focus-st170-estate-under-50000-miles-low-owners": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T20:08:12Z",
+      "lastSearchedAt": "2026-09-16T08:56:00Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Specialist-dealer search produced no current ST170 Estate under 50,000 miles meeting the exceptional-example intent."
+      "limitation": "No qualifying current exceptional ST170 Estate retained; surfaced results were sold/ended, high-mileage, below £10k, modified or otherwise weak."
     },
     "model-077:specialist-dealers:ford-focus-st170-under-50000-miles-low-owners": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T20:08:12Z",
+      "lastSearchedAt": "2026-09-16T08:56:00Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Specialist-dealer search found sold/high-mileage ST170 stock, including a seller page explicitly marked sold and an 89,000-mile car; no candidate retained."
+      "limitation": "No qualifying current exceptional ST170 retained; surfaced results were sold/ended, high-mileage, below £10k, modified or otherwise weak."
     },
     "model-077:specialist-dealers:ford-focus-st225-st2-st3-under-50000-miles-low-owners": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T20:08:12Z",
+      "lastSearchedAt": "2026-09-16T08:56:00Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Specialist-dealer search surfaced an approximately 88,000-mile, six-former-owner modified/remapped ST225, which fails the exceptional low-mileage/low-owner intent; no candidate retained."
+      "limitation": "No qualifying current exceptional ST225 ST2/ST3 retained; surfaced results were sold/ended, high-mileage, below £10k, modified or otherwise weak."
     },
     "model-079:911uk:renault-clio-williams-2": {
       "status": "searched",
@@ -7515,17 +7518,17 @@
     },
     "model-079:autotrader:renault-clio-williams-2": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T20:08:12Z",
+      "lastSearchedAt": "2026-09-16T08:56:00Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Auto Trader search produced no direct current Renault Clio Williams 2 advert under 30,000 miles with maximum two total owners strong enough to retain."
+      "limitation": "Auto Trader exposes a generic current Williams inventory page, but no direct car-details advert with verified under-30,000-mile and maximum-two-total-owner evidence; generic search pages are rejected."
     },
     "model-079:autotrader:renault-clio-williams-3": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T20:08:12Z",
+      "lastSearchedAt": "2026-09-16T08:56:00Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Auto Trader search produced no direct current Renault Clio Williams 3 advert under 30,000 miles with maximum two total owners strong enough to retain."
+      "limitation": "Auto Trader exposes generic Williams inventory only; no direct Williams 3 car-details advert with verified under-30,000-mile and maximum-two-total-owner evidence was retained."
     },
     "model-079:bonhams-cars:renault-clio-williams-2": {
       "status": "searched",
