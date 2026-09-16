@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-16T01:23:08Z",
+  "updatedAt": "2026-09-16T03:00:49Z",
   "candidates": [
     {
       "modelId": "model-056",
@@ -934,9 +934,10 @@
       "url": "https://www.pistonheads.com/buy/listing/19881797",
       "source": "pistonheads",
       "discoveredAt": "2026-09-11T00:30:19Z",
-      "status": "verification-pending",
-      "note": "Fresh 12 Sep 2026: PistonHeads still presents this 2007 Carrara White 997.1 GT3 at £86,991, 43,519 miles and manual, with a 50-photo gallery. No current unavailable marker surfaced. Exact seller-gallery SOLD/RESERVED and manual-control visual verification is still incomplete, so keep pending.",
-      "lastCheckedAt": "2026-09-12T19:47:25Z"
+      "status": "unavailable",
+      "note": "Rechecked 16 Sep 2026 against the actual PistonHeads advert. Search results still carry the 2007 Porsche 997.1 GT3 at £86,991, 43,519 miles and manual, but the originating advert explicitly states 'This car is no longer available for purchase.' Under the hard rules the live advert overrides stale indexing. Mark unavailable, exclude from active verification and do not publish or alert as a live car.",
+      "lastCheckedAt": "2026-09-16T03:00:49Z",
+      "vehicleIdentity": "2007 Porsche 997.1 GT3 | £86,991 | 43,519 miles | Lakeside Classics"
     },
     {
       "modelId": "model-049",
@@ -1554,9 +1555,10 @@
       "url": "https://philipraby.co.uk/product/porsche-996-turbo",
       "source": "specialist-dealers",
       "discoveredAt": "2026-09-12T19:47:25Z",
-      "status": "verification-pending",
-      "vehicleIdentity": "2004 Porsche 996 Turbo | Basalt Black | 82,000 miles | manual",
-      "note": "Fresh 12 Sep 2026 direct Philip Raby seller page: 2004 996 Turbo, £37,995, 82,000 miles, manual, Basalt Black, full history, buying-enquiry controls. Seller discloses Bilstein PSS10/GT3-geometry suspension and GT3 front brakes plus recent clutch/DMF, starter, boost actuators, radiator, spoiler mechanism and major service. Current seller-photo/manual/overlay visual verification remains outstanding; do not publish yet."
+      "status": "unavailable",
+      "vehicleIdentity": "2004 Porsche 996 Turbo manual | F9TUR | £37,995 | 82,000 miles | Philip Raby",
+      "note": "Rechecked 16 Sep 2026. The old Philip Raby product page still renders a 2004 manual Porsche 996 Turbo at £37,995 and 82,000 miles, but seller inventory is authoritative: the dealer's current Cars For Sale page does not list this car and the Sold Cars page explicitly lists 'SOLD Porsche 996 Turbo £37,995', linking back to this exact product URL. The retained product page is therefore stale. Mark unavailable and exclude from active verification/publication.",
+      "lastCheckedAt": "2026-09-16T03:00:49Z"
     },
     {
       "modelId": "model-051",
@@ -2218,6 +2220,16 @@
       "lastCheckedAt": "2026-09-16T01:23:08Z",
       "note": "New plausible direct advert: 2003 Aston Martin DB7 GT HX03AGU, £44,850, 26,800 miles, RHD six-speed manual, McGurk Aston Martin Sales & Servicing, Kineton UK. Car & Classic is explicitly For Sale and shows a 16-photo gallery; seller text confirms the GT 6-speed manual and comprehensive service history. Exact seller-photo gear-selector/three-pedal and overlay verification could not be completed from the accessible indexed gallery, so do not publish yet.",
       "vehicleIdentity": "2003 Aston Martin DB7 GT | HX03AGU | 26,800 miles | £44,850"
+    },
+    {
+      "modelId": "model-051",
+      "url": "https://www.gumtree.com/p/porsche/porsche-911-3-6-997-turbo-cabriolet-awd-2dr-rare-manual/1505436000",
+      "source": "gumtree",
+      "discoveredAt": "2026-09-16T03:00:49Z",
+      "status": "verification-pending",
+      "lastCheckedAt": "2026-09-16T03:00:49Z",
+      "note": "Fresh 16 Sep 2026 direct Gumtree trade advert from SSC LTD in Huddersfield, posted one day ago: 2008 Porsche 997 Turbo Cabriolet, £59,995, 78,500 miles, manual, Carrera White with Ocean Blue leather and full service history. Gumtree exposes a 37-image seller gallery and active seller contact controls. Attempts to fetch exact gallery image assets failed/cache-missed, so SOLD/RESERVED-overlay and manual gear-lever/three-pedal visual checks remain incomplete. Retain for verification only; do not publish yet.",
+      "vehicleIdentity": "2008 Porsche 997 Turbo Cabriolet manual | Carrera White/Ocean Blue | £59,995 | 78,500 miles | SSC LTD"
     }
   ]
 }
