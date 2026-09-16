@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16T19:47:51.935Z",
+  "generatedAt": "2026-09-16T21:07:53.121Z",
   "modelCount": 96,
   "sourceCount": 13,
   "jobCount": 1482,
@@ -1175,10 +1175,10 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-15T07:11:03Z",
+      "lastSearchedAt": "2026-09-16T21:01:48Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "eBay R8 manual results checked; the strongest £36,000 one-owner advert was explicitly ended by the seller and other surfaced adverts were ended/stale. None retained."
+      "limitation": "Surfaced direct eBay R8 manual adverts were ended/no longer available, including item 358450928127; none was retained."
     },
     {
       "id": "model-006:autotrader:audi-r8-v8-manual",
@@ -1192,10 +1192,10 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-15T07:11:03Z",
+      "lastSearchedAt": "2026-09-16T21:01:48Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Auto Trader query executed; no new direct current R8 V8 manual car-details URL retained in this pass."
+      "limitation": "Auto Trader surfaced generic R8 inventory/search pages rather than a direct current qualifying car-details URL."
     },
     {
       "id": "model-006:pistonheads:audi-r8-v8-manual",
@@ -1209,10 +1209,10 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-15T07:11:03Z",
+      "lastSearchedAt": "2026-09-16T21:01:48Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "PistonHeads search executed; surfaced direct manual R8 V8 pages were unavailable/reserved/expired or otherwise failed the current-availability gate. No candidate retained."
+      "limitation": "Fresh PistonHeads pages included cars already archived/unavailable and #18884108, whose seller's own Audi inventory explicitly marks the exact £37,950/58,642-mile manual car SOLD. No candidate was retained."
     },
     {
       "id": "model-006:car-and-classic:audi-r8-v8-manual",
@@ -1226,13 +1226,10 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-15T07:11:03Z",
-      "lastResultCount": 2,
-      "candidateUrls": [
-        "https://www.carandclassic.com/car/C2123237",
-        "https://www.carandclassic.com/l/C2189160"
-      ],
-      "limitation": "Car & Classic search executed; two plausible current UK manual R8 V8 adverts were rediscovered and already exist in worker-candidates, so no duplicate candidate rows added."
+      "lastSearchedAt": "2026-09-16T21:01:48Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "The surfaced 2007 £39,950/38,000-mile manual advert C1753880 says 'SORRY NOW SOLD' in the advert description, so it was rejected despite the page shell still showing For Sale."
     },
     {
       "id": "model-006:collecting-cars:audi-r8-v8-manual",
@@ -1297,10 +1294,10 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-15T07:11:03Z",
+      "lastSearchedAt": "2026-09-16T21:01:48Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Gumtree query executed; no plausible current direct R8 V8 manual advert retained."
+      "limitation": "No plausible direct current Gumtree Audi R8 V8 manual advert was found."
     },
     {
       "id": "model-006:911uk:audi-r8-v8-manual",
@@ -1365,12 +1362,10 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-15T07:11:03Z",
-      "lastResultCount": 1,
-      "candidateUrls": [
-        "https://simonabbottcars.co.uk/car/audi-r8-5/"
-      ],
-      "limitation": "Seller site currently lists the car, but a PistonHeads cross-post says SOLD; keep unverified due conflicting availability."
+      "lastSearchedAt": "2026-09-16T21:01:48Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Specialist-dealer search surfaced sold stock rather than a direct current qualifying R8 V8 manual advert."
     },
     {
       "id": "model-007:facebook-groups:audi-r8-v10-manual",
@@ -1401,10 +1396,10 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-15T07:11:03Z",
+      "lastSearchedAt": "2026-09-16T21:01:48Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "eBay V10 Spyder manual result 298400032287 is explicitly ENDED; other hits were wrong-engine cars/parts. No candidate retained."
+      "limitation": "eBay search produced no plausible direct current qualifying R8 V10 manual advert; old/ended and non-car results were rejected."
     },
     {
       "id": "model-007:autotrader:audi-r8-v10-manual",
@@ -1418,10 +1413,10 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-15T07:11:03Z",
+      "lastSearchedAt": "2026-09-16T21:01:48Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Auto Trader returned manual-R8 category inventory but no direct current qualifying 2009-2010 V10 manual car-details URL retained."
+      "limitation": "Auto Trader surfaced generic manual-R8 inventory rather than a direct current qualifying car-details URL."
     },
     {
       "id": "model-007:pistonheads:audi-r8-v10-manual",
@@ -1452,10 +1447,10 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-15T07:11:03Z",
+      "lastSearchedAt": "2026-09-16T21:01:48Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Car & Classic search executed. A 2010 V10 manual page was removed, a 2011 live manual is outside the year policy, and another 2009 result lacked a verifiable fixed current asking price/status. No candidate retained."
+      "limitation": "Car & Classic C2178567 is a current £74,995/39,350-mile manual advert, but it is a 2011 car and therefore outside the model-007 qualifying 2009-2010 year range; dealer current stock also does not list it. Rejected."
     },
     {
       "id": "model-007:collecting-cars:audi-r8-v10-manual",
@@ -13303,10 +13298,10 @@
       "priority": false,
       "cadenceHours": 12,
       "status": "searched",
-      "lastSearchedAt": "2026-09-15T00:26:51Z",
+      "lastSearchedAt": "2026-09-16T21:01:48Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Collecting Cars results were completed/sold S2000 and GT Edition 100 auction pages; no current fixed-price advert retained."
+      "limitation": "Collecting Cars search produced no current qualifying fixed-price Honda S2000 / GT Edition 100 advert; historical/completed auction material was rejected."
     },
     {
       "id": "model-059:bonhams-cars:honda-s2000-gt-edition-100",
@@ -13320,10 +13315,10 @@
       "priority": false,
       "cadenceHours": 12,
       "status": "searched",
-      "lastSearchedAt": "2026-09-15T00:26:51Z",
+      "lastSearchedAt": "2026-09-16T21:01:48Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Fresh Bonhams Cars search returned no current UK fixed-price Honda S2000/GT Edition 100 advert suitable for verification."
+      "limitation": "Bonhams Cars search produced no current qualifying fixed-price Honda S2000 / GT Edition 100 advert; historical/completed auction material was rejected."
     },
     {
       "id": "model-059:classic-trader:honda-s2000-gt-edition-100",
@@ -13337,10 +13332,10 @@
       "priority": false,
       "cadenceHours": 12,
       "status": "searched",
-      "lastSearchedAt": "2026-09-15T00:26:51Z",
+      "lastSearchedAt": "2026-09-16T21:01:48Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Classic Trader surfaced an S2000 outside the UK; no current UK qualifying direct advert retained."
+      "limitation": "Classic Trader search produced no current qualifying fixed-price Honda S2000 / GT Edition 100 advert; historical/completed auction material was rejected."
     },
     {
       "id": "model-059:gumtree:honda-s2000-gt-edition-100",
@@ -14206,10 +14201,10 @@
       "priority": false,
       "cadenceHours": 12,
       "status": "searched",
-      "lastSearchedAt": "2026-09-15T00:26:51Z",
+      "lastSearchedAt": "2026-09-16T21:01:48Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Fresh Bonhams Cars search returned no current UK fixed-price Chevrolet Corvette C6 Z06 advert suitable for verification."
+      "limitation": "Bonhams Cars search produced no direct current qualifying UK Corvette C6 Z06 advert."
     },
     {
       "id": "model-063:classic-trader:chevrolet-corvette-c6-z06",
@@ -14223,10 +14218,10 @@
       "priority": false,
       "cadenceHours": 12,
       "status": "searched",
-      "lastSearchedAt": "2026-09-15T00:26:51Z",
+      "lastSearchedAt": "2026-09-16T21:01:48Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Classic Trader surfaced a current 2007 Z06 in Germany and expired UK listings; the current car fails the UK-location rule, so no qualifying candidate was retained."
+      "limitation": "Classic Trader search produced no direct current qualifying UK Corvette C6 Z06 advert."
     },
     {
       "id": "model-063:gumtree:chevrolet-corvette-c6-z06",
@@ -15762,10 +15757,10 @@
       "priority": true,
       "cadenceHours": 3,
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T09:36:51Z",
+      "lastSearchedAt": "2026-09-16T21:01:48Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No current purchasable Bonhams Cars Focus RS Mk1 direct advert was found; historical sale-result pages were rejected."
+      "limitation": "No current purchasable direct Bonhams Cars Ford Focus RS Mk1 advert was found; historical/auction-result material was rejected."
     },
     {
       "id": "model-070:classic-trader:ford-focus-rs-mk1",
@@ -17487,10 +17482,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T12:30:25Z",
+      "lastSearchedAt": "2026-09-16T21:01:48Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Fresh Auto Trader search returned no direct current car-details advert for a Ford Focus ST500; generic/indirect inventory was not retained."
+      "limitation": "Auto Trader search did not expose a direct current ST500 car-details URL strong enough to retain."
     },
     {
       "id": "model-076:pistonheads:ford-focus-st500",
@@ -17521,12 +17516,12 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T12:30:25Z",
+      "lastSearchedAt": "2026-09-16T21:01:48Z",
       "lastResultCount": 1,
       "candidateUrls": [
         "https://www.carandclassic.com/l/C1644726"
       ],
-      "limitation": "Current direct advert remains live: 2008 Focus ST500 #157/500, £19,750, 33,200 miles, six-speed manual, private seller in Dromore. Only two seller-gallery images are exposed and their image assets could not be fetched for visual SOLD/RESERVED/manual-control inspection, so it remains verification-pending."
+      "limitation": "The already-tracked 2008 Focus ST500 #157/500 remains a direct Car & Classic For Sale advert at £19,750, 33,200 miles and six-speed manual. Mandatory seller-gallery status/manual-control visual verification remains incomplete."
     },
     {
       "id": "model-076:collecting-cars:ford-focus-st500",
@@ -18356,10 +18351,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T12:30:25Z",
+      "lastSearchedAt": "2026-09-16T21:01:48Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "The surfaced eBay Trophy vehicle advert had ended and was also far over the mileage/owner limits; parts and irrelevant results were rejected."
+      "limitation": "The surfaced eBay Trophy example was 159,000 miles with four previous owners and an expired MOT, so it failed the target rules and was rejected."
     },
     {
       "id": "model-078:autotrader:renault-clio-182-trophy",
@@ -18373,10 +18368,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T12:30:25Z",
+      "lastSearchedAt": "2026-09-16T21:01:48Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No direct current Auto Trader Clio 182 Trophy car-details URL meeting the under-30,000-mile and maximum-two-total-owner rules was found."
+      "limitation": "No direct current Auto Trader Clio 182 Trophy advert met the strict under-30,000-mile and maximum-two-total-owner rules."
     },
     {
       "id": "model-078:pistonheads:renault-clio-182-trophy",
@@ -18390,10 +18385,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T12:30:25Z",
+      "lastSearchedAt": "2026-09-16T21:01:48Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Current PistonHeads Trophy adverts were over the 30,000-mile cap; sold/unavailable adverts were rejected. No qualifying candidate retained."
+      "limitation": "A current fixed-price Trophy at 47,000 miles failed the mileage cap; a 10,620-mile one-owner result was an auction without a fixed asking price, and a separate result was SOLD. None was retained."
     },
     {
       "id": "model-078:car-and-classic:renault-clio-182-trophy",
@@ -18407,10 +18402,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T12:30:25Z",
+      "lastSearchedAt": "2026-09-16T21:01:48Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Current Trophy adverts found were over the 30,000-mile cap or historical/sold; no qualifying current direct advert retained."
+      "limitation": "Car & Classic results were sold/removed or otherwise failed the strict under-30,000-mile and maximum-two-total-owner rules."
     },
     {
       "id": "model-078:collecting-cars:renault-clio-182-trophy",
@@ -22336,10 +22331,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T12:30:25Z",
+      "lastSearchedAt": "2026-09-16T21:01:48Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "eBay search exposed the already-known 18,460-mile Auto Torque car through category/search material but no direct actual eBay item URL strong enough to retain; category pages are not candidates."
+      "limitation": "No direct current eBay TME advert met the under-30,000-mile and maximum-two-total-owner rules."
     },
     {
       "id": "model-088:autotrader:mitsubishi-evo-vi-tommi-makinen-edition",
@@ -22353,10 +22348,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T12:30:25Z",
+      "lastSearchedAt": "2026-09-16T21:01:48Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No direct current Auto Trader car-details URL for a UK TME meeting the under-30,000-mile and maximum-two-total-owner rules was found."
+      "limitation": "No direct current Auto Trader TME advert met the under-30,000-mile and maximum-two-total-owner rules."
     },
     {
       "id": "model-088:pistonheads:mitsubishi-evo-vi-tommi-makinen-edition",
@@ -22370,12 +22365,12 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T12:30:25Z",
+      "lastSearchedAt": "2026-09-16T21:01:48Z",
       "lastResultCount": 1,
       "candidateUrls": [
         "https://www.pistonheads.com/buy/listing/20971451"
       ],
-      "limitation": "Already-tracked current PistonHeads advert remains live at £99,995, 18,460 miles and manual. It states one UK owner since import from Japan in 2009, but pre-import ownership is not evidenced, so the maximum-two-total-owner rule is still unverified and the car must remain pending."
+      "limitation": "The already-tracked Passion Red TME remains a direct advert at £99,995 and 18,460 miles with one previous UK owner shown. Pre-import ownership is still insufficiently evidenced to prove the maximum-two-total-owner rule, so it remains unverified."
     },
     {
       "id": "model-088:car-and-classic:mitsubishi-evo-vi-tommi-makinen-edition",
@@ -22389,10 +22384,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T12:30:25Z",
+      "lastSearchedAt": "2026-09-16T21:01:48Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No direct current UK Car & Classic TME advert satisfying the mileage and ownership rules was retained."
+      "limitation": "No direct current Car & Classic TME advert met the under-30,000-mile and maximum-two-total-owner rules."
     },
     {
       "id": "model-088:collecting-cars:mitsubishi-evo-vi-tommi-makinen-edition",
@@ -22457,10 +22452,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T12:30:25Z",
+      "lastSearchedAt": "2026-09-16T21:01:48Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No plausible current direct Gumtree TME advert meeting the mileage and ownership rules was found."
+      "limitation": "No direct current Gumtree TME advert met the under-30,000-mile and maximum-two-total-owner rules."
     },
     {
       "id": "model-088:911uk:mitsubishi-evo-vi-tommi-makinen-edition",
@@ -22525,10 +22520,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T12:30:25Z",
+      "lastSearchedAt": "2026-09-16T21:01:48Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Specialist search confirmed the already-known Auto Torque 18,460-mile identity plus non-qualifying/SALE AGREED cars; no new direct qualifying dealer advert URL was retained."
+      "limitation": "Specialist-dealer results included cars explicitly marked SALE AGREED and over-mileage examples; no qualifying current advert was retained."
     },
     {
       "id": "model-089:facebook-groups:mitsubishi-evo-viii-mr-fq320",
@@ -23885,10 +23880,10 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-15T05:30:09Z",
+      "lastSearchedAt": "2026-09-16T21:01:48Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No plausible current direct UK eBay 147 GTA six-speed manual advert strong enough to retain was found."
+      "limitation": "Ebay search produced no direct current Alfa Romeo 147 GTA manual advert meeting the low-mileage/low-owner target rules; parts, stale and non-qualifying results were rejected."
     },
     {
       "id": "model-093:autotrader:alfa-romeo-147-gta-manual-under-50000-miles-low-owners",
@@ -23919,10 +23914,10 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-15T05:30:09Z",
+      "lastSearchedAt": "2026-09-16T21:01:48Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No new current direct PistonHeads Alfa 147 GTA manual advert strong enough to retain was found."
+      "limitation": "Pistonheads search produced no direct current Alfa Romeo 147 GTA manual advert meeting the low-mileage/low-owner target rules; parts, stale and non-qualifying results were rejected."
     },
     {
       "id": "model-093:car-and-classic:alfa-romeo-147-gta-manual-under-50000-miles-low-owners",
@@ -23936,13 +23931,10 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-15T05:30:09Z",
-      "lastResultCount": 2,
-      "candidateUrls": [
-        "https://www.carandclassic.com/car/C2176569",
-        "https://www.carandclassic.com/l/C2132117"
-      ],
-      "limitation": "Two current UK factory-style six-speed manual 147 GTA adverts were retained as verification candidates. Both are well above the search variant's preferred sub-50,000-mile profile, so neither is publication-ready without a stronger exceptional-example case and full photo/provenance checks."
+      "lastSearchedAt": "2026-09-16T21:01:48Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Car And Classic search produced no direct current Alfa Romeo 147 GTA manual advert meeting the low-mileage/low-owner target rules; parts, stale and non-qualifying results were rejected."
     },
     {
       "id": "model-093:collecting-cars:alfa-romeo-147-gta-manual-under-50000-miles-low-owners",
@@ -24007,10 +23999,10 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-15T05:30:09Z",
+      "lastSearchedAt": "2026-09-16T21:01:48Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No plausible current direct UK Gumtree 147 GTA six-speed manual advert was found."
+      "limitation": "Gumtree search produced no direct current Alfa Romeo 147 GTA manual advert meeting the low-mileage/low-owner target rules; parts, stale and non-qualifying results were rejected."
     },
     {
       "id": "model-093:911uk:alfa-romeo-147-gta-manual-under-50000-miles-low-owners",
@@ -24075,12 +24067,10 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-15T05:30:09Z",
-      "lastResultCount": 1,
-      "candidateUrls": [
-        "https://www.carandclassic.com/car/C2176569"
-      ],
-      "limitation": "BAM Specialist Cars' 2003 147 GTA cross-post is currently For Sale at £14,995/88,684 miles with a six-speed manual and 31-photo gallery; retained for verification, not publication."
+      "lastSearchedAt": "2026-09-16T21:01:48Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Specialist Dealers search produced no direct current Alfa Romeo 147 GTA manual advert meeting the low-mileage/low-owner target rules; parts, stale and non-qualifying results were rejected."
     },
     {
       "id": "model-094:facebook-groups:alfa-romeo-156-gta-saloon-manual-under-50000-miles-low-owners",
@@ -24111,10 +24101,10 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-15T07:11:03Z",
+      "lastSearchedAt": "2026-09-16T21:01:48Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "eBay search executed; visible whole-car result was below the £10,000 eligibility floor and other results were parts/non-qualifying."
+      "limitation": "No direct current Alfa Romeo 156 GTA saloon manual advert meeting the under-50,000-mile/low-owner target rules was retained from ebay."
     },
     {
       "id": "model-094:autotrader:alfa-romeo-156-gta-saloon-manual-under-50000-miles-low-owners",
@@ -24128,10 +24118,10 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-15T07:11:03Z",
+      "lastSearchedAt": "2026-09-16T21:01:48Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Four current manual 156 GTA saloons were checked but all had 97,000-168,000 miles, failing the under-50,000-mile target. None retained."
+      "limitation": "No direct current Alfa Romeo 156 GTA saloon manual advert meeting the under-50,000-mile/low-owner target rules was retained from autotrader. Auto Trader results were generic inventory only."
     },
     {
       "id": "model-094:pistonheads:alfa-romeo-156-gta-saloon-manual-under-50000-miles-low-owners",
@@ -24145,10 +24135,10 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-15T07:11:03Z",
+      "lastSearchedAt": "2026-09-16T21:01:48Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "PistonHeads query executed; no current qualifying under-50,000-mile low-owner factory-manual 156 GTA saloon advert retained."
+      "limitation": "No direct current Alfa Romeo 156 GTA saloon manual advert meeting the under-50,000-mile/low-owner target rules was retained from pistonheads."
     },
     {
       "id": "model-094:car-and-classic:alfa-romeo-156-gta-saloon-manual-under-50000-miles-low-owners",
@@ -24162,10 +24152,10 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-15T07:11:03Z",
+      "lastSearchedAt": "2026-09-16T21:01:48Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Car & Classic query executed; no current under-50,000-mile low-owner factory-manual 156 GTA saloon retained."
+      "limitation": "No direct current Alfa Romeo 156 GTA saloon manual advert meeting the under-50,000-mile/low-owner target rules was retained from car and classic."
     },
     {
       "id": "model-094:collecting-cars:alfa-romeo-156-gta-saloon-manual-under-50000-miles-low-owners",
@@ -24230,10 +24220,10 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-15T07:11:03Z",
+      "lastSearchedAt": "2026-09-16T21:01:48Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Gumtree query executed; no plausible current under-50,000-mile low-owner 156 GTA saloon advert retained."
+      "limitation": "No direct current Alfa Romeo 156 GTA saloon manual advert meeting the under-50,000-mile/low-owner target rules was retained from gumtree."
     },
     {
       "id": "model-094:911uk:alfa-romeo-156-gta-saloon-manual-under-50000-miles-low-owners",
@@ -24298,10 +24288,10 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-15T07:11:03Z",
+      "lastSearchedAt": "2026-09-16T21:01:48Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Specialist-dealer search found no current qualifying under-50,000-mile low-owner 156 GTA saloon stock."
+      "limitation": "No direct current Alfa Romeo 156 GTA saloon manual advert meeting the under-50,000-mile/low-owner target rules was retained from specialist dealers."
     },
     {
       "id": "model-095:facebook-groups:alfa-romeo-156-gta-sportwagon-manual-under-50000-miles-low-owners",
@@ -24332,10 +24322,10 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-15T07:11:03Z",
+      "lastSearchedAt": "2026-09-16T21:01:48Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "eBay search executed; visible Sportwagon whole-car advert was ended. No current candidate retained."
+      "limitation": "No direct current Alfa Romeo 156 GTA Sportwagon manual advert meeting the under-50,000-mile/low-owner target rules was retained from ebay. Surfaced results were parts rather than vehicle adverts."
     },
     {
       "id": "model-095:autotrader:alfa-romeo-156-gta-sportwagon-manual-under-50000-miles-low-owners",
@@ -24349,10 +24339,10 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-15T07:11:03Z",
+      "lastSearchedAt": "2026-09-16T21:01:48Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Auto Trader query executed; no current under-50,000-mile low-owner factory-manual 156 GTA Sportwagon retained."
+      "limitation": "No direct current Alfa Romeo 156 GTA Sportwagon manual advert meeting the under-50,000-mile/low-owner target rules was retained from autotrader."
     },
     {
       "id": "model-095:pistonheads:alfa-romeo-156-gta-sportwagon-manual-under-50000-miles-low-owners",
@@ -24366,10 +24356,10 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-15T07:11:03Z",
+      "lastSearchedAt": "2026-09-16T21:01:48Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Executed pistonheads public-web query; no plausible current direct advert retained."
+      "limitation": "No direct current Alfa Romeo 156 GTA Sportwagon manual advert meeting the under-50,000-mile/low-owner target rules was retained from pistonheads."
     },
     {
       "id": "model-095:car-and-classic:alfa-romeo-156-gta-sportwagon-manual-under-50000-miles-low-owners",
@@ -24383,10 +24373,10 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-15T07:11:03Z",
+      "lastSearchedAt": "2026-09-16T21:01:48Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Executed car-and-classic public-web query; no plausible current direct advert retained."
+      "limitation": "No direct current Alfa Romeo 156 GTA Sportwagon manual advert meeting the under-50,000-mile/low-owner target rules was retained from car and classic. Surfaced auction material was completed/non-qualifying."
     },
     {
       "id": "model-095:collecting-cars:alfa-romeo-156-gta-sportwagon-manual-under-50000-miles-low-owners",
@@ -24451,10 +24441,10 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-15T07:11:03Z",
+      "lastSearchedAt": "2026-09-16T21:01:48Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Gumtree query executed; no plausible current qualifying 156 GTA Sportwagon advert retained."
+      "limitation": "No direct current Alfa Romeo 156 GTA Sportwagon manual advert meeting the under-50,000-mile/low-owner target rules was retained from gumtree."
     },
     {
       "id": "model-095:911uk:alfa-romeo-156-gta-sportwagon-manual-under-50000-miles-low-owners",
@@ -25005,10 +24995,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T12:30:25Z",
+      "lastSearchedAt": "2026-09-16T21:01:48Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Current direct eBay E39 M5 adverts found were over the 50,000-mile cap. The Oxford Green £39,977 car resolves to the same dealer stock at 116,397 miles; rejected."
+      "limitation": "eBay search produced no direct current E39 M5 manual advert meeting the <=50,000-mile rule."
     },
     {
       "id": "model-097:autotrader:bmw-e39-m5-manual-uk",
@@ -25160,10 +25150,10 @@
       "priority": true,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T07:20:48Z",
+      "lastSearchedAt": "2026-09-16T21:01:48Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "FerrariChat search produced no direct current UK E39 M5 sale advert within the <=50,000-mile watch rule."
+      "limitation": "FerrariChat search did not surface a direct current UK E39 M5 advert meeting the <=50,000-mile rule."
     },
     {
       "id": "model-097:lamborghini-talk:bmw-e39-m5-manual-uk",
@@ -25177,10 +25167,10 @@
       "priority": true,
       "cadenceHours": 6,
       "status": "blocked",
-      "lastSearchedAt": "2026-09-16T07:20:48Z",
+      "lastSearchedAt": "2026-09-16T21:01:48Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "LamborghiniTalk is blocked from public web retrieval by robots.txt; no bypass attempted."
+      "limitation": "Public web access to LamborghiniTalk is blocked by robots.txt; no bypass was attempted."
     },
     {
       "id": "model-097:specialist-dealers:bmw-e39-m5-manual-uk",
@@ -25211,10 +25201,10 @@
       "priority": true,
       "cadenceHours": 6,
       "status": "blocked",
-      "lastSearchedAt": "2026-09-16T07:20:48Z",
+      "lastSearchedAt": "2026-09-16T21:01:48Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public Facebook-group search did not expose an accessible direct current sale post; login/generic group results cannot be verified."
+      "limitation": "Public Facebook group search exposed login/generic group pages rather than an accessible current E39 M5 sale post."
     },
     {
       "id": "model-097:ebay:bmw-m5-e39-6-speed-manual-uk",
@@ -25279,12 +25269,12 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T11:23:08Z",
+      "lastSearchedAt": "2026-09-16T21:01:48Z",
       "lastResultCount": 1,
       "candidateUrls": [
         "https://www.carandclassic.com/car/C2060885"
       ],
-      "limitation": "The already-tracked/published 2003 E39 M5 at £50,000 and 46,637 miles remains explicitly For Sale on Car & Classic. No new vehicle identity found."
+      "limitation": "The already-tracked 2003 E39 M5 remains a direct Car & Classic For Sale advert at £50,000, 46,637 miles and six-speed manual. It is LHD/US-supplied; no new vehicle identity was added."
     },
     {
       "id": "model-097:collecting-cars:bmw-m5-e39-6-speed-manual-uk",
@@ -25383,10 +25373,10 @@
       "priority": true,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T07:20:48Z",
+      "lastSearchedAt": "2026-09-16T21:01:48Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "FerrariChat search produced no direct current UK E39 M5 sale advert within the <=50,000-mile watch rule."
+      "limitation": "FerrariChat search did not surface a direct current UK E39 M5 advert meeting the <=50,000-mile rule."
     },
     {
       "id": "model-097:lamborghini-talk:bmw-m5-e39-6-speed-manual-uk",
@@ -25400,10 +25390,10 @@
       "priority": true,
       "cadenceHours": 6,
       "status": "blocked",
-      "lastSearchedAt": "2026-09-16T07:20:48Z",
+      "lastSearchedAt": "2026-09-16T21:01:48Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "LamborghiniTalk is blocked from public web retrieval by robots.txt; no bypass attempted."
+      "limitation": "Public web access to LamborghiniTalk is blocked by robots.txt; no bypass was attempted."
     },
     {
       "id": "model-097:specialist-dealers:bmw-m5-e39-6-speed-manual-uk",
