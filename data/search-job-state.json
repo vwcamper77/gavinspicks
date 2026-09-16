@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-16T21:50:43Z",
+  "updatedAt": "2026-09-16T22:44:36Z",
   "compactedFromQueueAt": "2026-09-10T06:41:54.207Z",
   "note": "Cumulative worker-write state. Job results are merged from immutable run deltas and folded back into data/search-queue.json by scripts/build-search-queue.mjs.",
   "jobs": {
@@ -19,14 +19,13 @@
     },
     "model-056:pistonheads:bmw-z4-m-coupe": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T13:40:18Z",
-      "lastResultCount": 3,
+      "lastSearchedAt": "2026-09-16T22:44:36Z",
+      "lastResultCount": 2,
       "candidateUrls": [
-        "https://www.pistonheads.com/buy/listing/20914114",
         "https://www.pistonheads.com/buy/listing/20952644",
         "https://www.pistonheads.com/buy/listing/20766605"
       ],
-      "limitation": "Three current direct Z4 M Coupe adverts were retained. #20914114 is a newly discovered 2006 £19,995/69,500-mile manual; #20952644 and #20766605 were already tracked. Older surfaced adverts explicitly no longer available were rejected. Mandatory seller-gallery manual-control/unavailable-overlay checks remain incomplete, so none was published from this job."
+      "limitation": "Two already-tracked current Z4 M Coupe adverts retained; an explicitly unavailable older advert was rejected. Photo/manual-control verification is still incomplete."
     },
     "model-056:car-and-classic:bmw-z4-m-coupe": {
       "status": "searched",
@@ -47,26 +46,26 @@
     },
     "model-056:specialist-dealers:bmw-z4-m-coupe": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T14:07:15Z",
+      "lastSearchedAt": "2026-09-16T22:44:36Z",
       "lastResultCount": 1,
       "candidateUrls": [
         "https://rsvautomotive.co.uk/cars/bmw-z4-m-z4-m-coupe/"
       ],
-      "limitation": "RSV Automotive still presents a current 2006 BMW Z4 M Coupe at £25,995, 52,000 miles and manual; this vehicle identity is already tracked, so no duplicate candidate was created."
+      "limitation": "RSV still lists the already-tracked 2006 Z4 M Coupe at £25,995, 52,000 miles and manual; no new identity."
     },
     "model-070:ebay:ford-focus-rs-mk1": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T14:07:15Z",
+      "lastSearchedAt": "2026-09-16T22:44:36Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "eBay results were engines, model cars, decals and other parts rather than a current Mk1 Focus RS vehicle advert."
+      "limitation": "Parts/model items and an auction-format high-mileage Mk1 were rejected; no fixed-price exceptional candidate retained."
     },
     "model-070:autotrader:ford-focus-rs-mk1": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T14:07:15Z",
+      "lastSearchedAt": "2026-09-16T22:44:36Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Auto Trader search returned the generic Focus RS inventory page rather than a direct current Mk1 car-details URL."
+      "limitation": "Search returned generic inventory rather than a retainable direct current Mk1 RS car-details advert."
     },
     "model-070:pistonheads:ford-focus-rs-mk1": {
       "status": "searched",
@@ -84,10 +83,10 @@
     },
     "model-070:car-and-classic:ford-focus-rs-mk1": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T14:07:15Z",
+      "lastSearchedAt": "2026-09-16T22:44:36Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Car & Classic search did not produce a new direct current UK Mk1 Focus RS advert beyond already-tracked stock."
+      "limitation": "Fresh direct examples were weak/high-mileage or materially modified; sold/removed pages rejected."
     },
     "model-070:gumtree:ford-focus-rs-mk1": {
       "status": "searched",
@@ -107,17 +106,17 @@
     },
     "model-070:ebay:ford-focus-rs-mk2": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T14:07:15Z",
+      "lastSearchedAt": "2026-09-16T22:44:36Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "eBay surfaced parts and a £31,995/23,500-mile 2010 Focus RS listing last updated July 2025; it was treated as stale/recycled and rejected before verification."
+      "limitation": "A high-mileage ordinary example and a stale 2025 advert were rejected."
     },
     "model-070:autotrader:ford-focus-rs-mk2": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T14:07:15Z",
+      "lastSearchedAt": "2026-09-16T22:44:36Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Auto Trader search returned generic Focus RS inventory rather than a direct current Mk2 car-details URL."
+      "limitation": "Search returned generic inventory rather than a retainable direct current Mk2 RS car-details advert."
     },
     "model-070:pistonheads:ford-focus-rs-mk2": {
       "status": "searched",
@@ -132,12 +131,13 @@
     },
     "model-070:car-and-classic:ford-focus-rs-mk2": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T14:07:15Z",
-      "lastResultCount": 1,
+      "lastSearchedAt": "2026-09-16T22:44:36Z",
+      "lastResultCount": 2,
       "candidateUrls": [
-        "https://www.carandclassic.com/l/C2104792"
+        "https://www.carandclassic.com/l/C2104792",
+        "https://www.carandclassic.com/l/C1902894"
       ],
-      "limitation": "A current direct 2009 Focus RS Mk2 advert at £25,995/63,000 miles/manual remains visible on Car & Classic; this URL is already tracked."
+      "limitation": "Two already-tracked current Mk2 adverts retained; C1902894 is materially modified and remains verification/editorial pending."
     },
     "model-070:gumtree:ford-focus-rs-mk2": {
       "status": "searched",
@@ -159,17 +159,17 @@
     },
     "model-070:ebay:ford-focus-rs500": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T14:07:15Z",
+      "lastSearchedAt": "2026-09-16T22:44:36Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "eBay surfaced parts/model items and a 39-mile RS500 page explicitly marked SOLD; no current vehicle advert retained."
+      "limitation": "The surfaced 39-mile RS500 is explicitly SOLD; remaining results were parts/models."
     },
     "model-070:autotrader:ford-focus-rs500": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T14:07:15Z",
+      "lastSearchedAt": "2026-09-16T22:44:36Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Auto Trader search returned generic Focus RS inventory rather than a direct current RS500 car-details URL."
+      "limitation": "No direct current RS500 car-details advert found."
     },
     "model-001:ebay:ferrari-360-modena-spider-manual": {
       "status": "searched",
@@ -487,17 +487,17 @@
     },
     "model-096:autotrader:bmw-e46-m3-manual-coupe-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T13:40:18Z",
+      "lastSearchedAt": "2026-09-16T22:44:36Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Auto Trader returned generic manual M3 Coupe inventory/category pages rather than a direct current car-details URL; generic pages were rejected."
+      "limitation": "No direct current Auto Trader advert met the E46 M3 manual Coupe mileage and price rules."
     },
     "model-096:autotrader:bmw-m3-e46-6-speed-manual-coupe-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T13:40:18Z",
+      "lastSearchedAt": "2026-09-16T22:44:36Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Auto Trader returned generic manual M3 Coupe inventory/category pages rather than a direct current car-details URL; generic pages were rejected."
+      "limitation": "No direct current Auto Trader advert met the E46 M3 6-speed manual Coupe mileage and price rules."
     },
     "model-096:bonhams-cars:bmw-e46-m3-manual-coupe-uk": {
       "status": "searched",
@@ -515,23 +515,17 @@
     },
     "model-096:car-and-classic:bmw-e46-m3-manual-coupe-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T13:40:18Z",
-      "lastResultCount": 2,
-      "candidateUrls": [
-        "https://www.carandclassic.com/car/C1704609",
-        "https://www.carandclassic.com/car/C2017514"
-      ],
-      "limitation": "Two current sub-50,000-mile manual E46 M3 Coupe adverts remain plausible and are already tracked: the modified 34,000-mile Black & White Cars example and the 3,100-mile Hexagon example. Seller/current-stock evidence remains live, but mandatory exact-gallery manual-control and unavailable-overlay inspection is incomplete, so both remain unverified."
+      "lastSearchedAt": "2026-09-16T22:44:36Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Current direct results failed the 50,000-mile or £50,000 model limits; removed/sold pages were rejected."
     },
     "model-096:car-and-classic:bmw-m3-e46-6-speed-manual-coupe-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T13:40:18Z",
-      "lastResultCount": 2,
-      "candidateUrls": [
-        "https://www.carandclassic.com/car/C1704609",
-        "https://www.carandclassic.com/car/C2017514"
-      ],
-      "limitation": "Two current sub-50,000-mile manual E46 M3 Coupe adverts remain plausible and are already tracked: the modified 34,000-mile Black & White Cars example and the 3,100-mile Hexagon example. Seller/current-stock evidence remains live, but mandatory exact-gallery manual-control and unavailable-overlay inspection is incomplete, so both remain unverified."
+      "lastSearchedAt": "2026-09-16T22:44:36Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "No current Car & Classic result met both the 50,000-mile and £50,000 target limits."
     },
     "model-019:911uk:tvr-tamora": {
       "status": "searched",
@@ -777,10 +771,10 @@
     },
     "model-096:ebay:bmw-e46-m3-manual-coupe-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T13:40:18Z",
+      "lastSearchedAt": "2026-09-16T22:44:36Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "eBay search surfaced category pages and non-qualifying/ambiguous cars rather than a direct current factory-manual E46 M3 Coupe advert under 50,000 miles."
+      "limitation": "No direct current qualifying E46 M3 factory-manual Coupe advert; ended, parts and non-qualifying results rejected."
     },
     "model-096:ebay:bmw-m3-e46-6-speed-manual-coupe-uk": {
       "status": "searched",
@@ -1587,10 +1581,10 @@
     },
     "model-097:gumtree:bmw-e39-m5-manual-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T13:40:18Z",
+      "lastSearchedAt": "2026-09-16T22:44:36Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No direct current Gumtree E39 M5 manual advert at or below 50,000 miles was found."
+      "limitation": "No direct current UK E39 M5 manual advert at or below 50,000 miles found."
     },
     "model-097:gumtree:bmw-m5-e39-6-speed-manual-uk": {
       "status": "searched",
@@ -2274,10 +2268,10 @@
     },
     "model-070:911uk:ford-focus-rs500": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T08:56:00Z",
+      "lastSearchedAt": "2026-09-16T22:44:36Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Fresh 911UK indexed search found no direct current Ford Focus RS500 sale thread; generic and historical discussion results were rejected."
+      "limitation": "No direct current Focus RS500 sale advert found on indexed 911UK results."
     },
     "model-070:facebook-groups:ford-focus-rs-mk2": {
       "status": "searched",
@@ -2287,11 +2281,11 @@
       "limitation": "Public Facebook search returned generic, login-gated or irrelevant group pages rather than an accessible current direct Focus RS Mk2 sale post."
     },
     "model-070:facebook-groups:ford-focus-rs500": {
-      "status": "blocked",
-      "lastSearchedAt": "2026-09-16T08:56:00Z",
+      "status": "searched",
+      "lastSearchedAt": "2026-09-16T22:44:36Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public Facebook-group search did not expose an accessible current RS500 sale post without login/membership; generic/login results were not counted."
+      "limitation": "No accessible direct current RS500 sale post; generic/login group pages were not treated as adverts."
     },
     "model-070:ferrarichat:ford-focus-rs-mk1": {
       "status": "searched",
@@ -2309,10 +2303,10 @@
     },
     "model-070:ferrarichat:ford-focus-rs500": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T08:56:00Z",
+      "lastSearchedAt": "2026-09-16T22:44:36Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "FerrariChat search produced no direct current UK Focus RS500 sale advert; irrelevant discussion results were rejected."
+      "limitation": "No direct current UK Focus RS500 sale advert found."
     },
     "model-070:lamborghini-talk:ford-focus-rs-mk1": {
       "status": "blocked",
@@ -2542,10 +2536,10 @@
     },
     "model-070:car-and-classic:ford-focus-rs500": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T14:07:15Z",
+      "lastSearchedAt": "2026-09-16T22:44:36Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No direct current UK Focus RS500 advert survived the Car & Classic search; surfaced RS500 material was non-UK, stale or not a qualifying live advert."
+      "limitation": "No current UK RS500 advert; overseas, sold and auction-result pages rejected."
     },
     "model-070:pistonheads:ford-focus-rs500": {
       "status": "searched",
@@ -9384,10 +9378,10 @@
     },
     "model-091:lamborghini-talk:mitsubishi-evo-x-fq400-manual": {
       "status": "blocked",
-      "lastSearchedAt": "2026-09-14T13:41:28Z",
+      "lastSearchedAt": "2026-09-16T22:44:36Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "LamborghiniTalk was blocked by robots.txt during this run; no bypass or authenticated access was attempted."
+      "limitation": "Public web access to LamborghiniTalk is blocked by robots.txt; no bypass attempted."
     },
     "model-091:pistonheads:mitsubishi-evo-x-fq360-manual": {
       "status": "searched",
@@ -9419,10 +9413,10 @@
     },
     "model-093:911uk:alfa-romeo-147-gta-manual-under-50000-miles-low-owners": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T13:41:28Z",
+      "lastSearchedAt": "2026-09-16T22:44:36Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "911UK surfaced unrelated parts/owner-signature material rather than a current Alfa Romeo 147 GTA sale advert; no candidate was retained."
+      "limitation": "No direct current UK 147 GTA manual sale advert found."
     },
     "model-093:autotrader:alfa-romeo-147-gta-manual-under-50000-miles-low-owners": {
       "status": "searched",
@@ -9468,17 +9462,17 @@
     },
     "model-093:facebook-groups:alfa-romeo-147-gta-manual-under-50000-miles-low-owners": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T13:41:28Z",
+      "lastSearchedAt": "2026-09-16T22:44:36Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public indexed Facebook-group search returned no direct accessible current Alfa Romeo 147 GTA manual sale post; private/authenticated group coverage was not attempted."
+      "limitation": "No accessible direct current 147 GTA manual sale post; generic/login pages rejected."
     },
     "model-093:ferrarichat:alfa-romeo-147-gta-manual-under-50000-miles-low-owners": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T13:41:28Z",
+      "lastSearchedAt": "2026-09-16T22:44:36Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Fresh FerrariChat indexed search returned no direct current qualifying Alfa Romeo 147 GTA manual sale advert."
+      "limitation": "No direct current UK 147 GTA manual sale advert found."
     },
     "model-093:gumtree:alfa-romeo-147-gta-manual-under-50000-miles-low-owners": {
       "status": "searched",
@@ -9489,10 +9483,10 @@
     },
     "model-093:lamborghini-talk:alfa-romeo-147-gta-manual-under-50000-miles-low-owners": {
       "status": "blocked",
-      "lastSearchedAt": "2026-09-14T13:41:28Z",
+      "lastSearchedAt": "2026-09-16T22:44:36Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "LamborghiniTalk was blocked by robots.txt during this run; no bypass or authenticated access was attempted."
+      "limitation": "Public web access to LamborghiniTalk is blocked by robots.txt; no bypass attempted."
     },
     "model-093:pistonheads:alfa-romeo-147-gta-manual-under-50000-miles-low-owners": {
       "status": "searched",
@@ -9510,10 +9504,10 @@
     },
     "model-094:911uk:alfa-romeo-156-gta-saloon-manual-under-50000-miles-low-owners": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T13:41:28Z",
+      "lastSearchedAt": "2026-09-16T22:44:36Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Fresh 911UK indexed search returned no direct current qualifying Alfa Romeo 156 GTA saloon manual sale advert."
+      "limitation": "No direct current UK 156 GTA saloon manual sale advert found."
     },
     "model-094:autotrader:alfa-romeo-156-gta-saloon-manual-under-50000-miles-low-owners": {
       "status": "searched",
@@ -9559,17 +9553,17 @@
     },
     "model-094:facebook-groups:alfa-romeo-156-gta-saloon-manual-under-50000-miles-low-owners": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T13:41:28Z",
+      "lastSearchedAt": "2026-09-16T22:44:36Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public indexed Facebook-group search returned no direct accessible current Alfa Romeo 156 GTA saloon manual sale post; private/authenticated group coverage was not attempted."
+      "limitation": "No accessible direct current 156 GTA saloon manual sale post; generic/login pages rejected."
     },
     "model-094:ferrarichat:alfa-romeo-156-gta-saloon-manual-under-50000-miles-low-owners": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T13:41:28Z",
+      "lastSearchedAt": "2026-09-16T22:44:36Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Fresh FerrariChat indexed search returned no direct current qualifying Alfa Romeo 156 GTA saloon manual sale advert."
+      "limitation": "No direct current UK 156 GTA saloon manual sale advert found."
     },
     "model-094:gumtree:alfa-romeo-156-gta-saloon-manual-under-50000-miles-low-owners": {
       "status": "searched",
@@ -9580,10 +9574,10 @@
     },
     "model-094:lamborghini-talk:alfa-romeo-156-gta-saloon-manual-under-50000-miles-low-owners": {
       "status": "blocked",
-      "lastSearchedAt": "2026-09-14T13:41:28Z",
+      "lastSearchedAt": "2026-09-16T22:44:36Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "LamborghiniTalk was blocked by robots.txt during this run; no bypass or authenticated access was attempted."
+      "limitation": "Public web access to LamborghiniTalk is blocked by robots.txt; no bypass attempted."
     },
     "model-094:pistonheads:alfa-romeo-156-gta-saloon-manual-under-50000-miles-low-owners": {
       "status": "searched",
@@ -9601,10 +9595,10 @@
     },
     "model-095:911uk:alfa-romeo-156-gta-sportwagon-manual-under-50000-miles-low-owners": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T13:41:28Z",
+      "lastSearchedAt": "2026-09-16T22:44:36Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Fresh 911UK indexed search returned no direct current qualifying Alfa Romeo 156 GTA Sportwagon manual sale advert."
+      "limitation": "No direct current UK 156 GTA Sportwagon manual sale advert found."
     },
     "model-095:autotrader:alfa-romeo-156-gta-sportwagon-manual-under-50000-miles-low-owners": {
       "status": "searched",
@@ -9650,17 +9644,17 @@
     },
     "model-095:facebook-groups:alfa-romeo-156-gta-sportwagon-manual-under-50000-miles-low-owners": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T13:41:28Z",
+      "lastSearchedAt": "2026-09-16T22:44:36Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public indexed Facebook-group search returned no direct accessible current Alfa Romeo 156 GTA Sportwagon manual sale post; private/authenticated group coverage was not attempted."
+      "limitation": "No accessible direct current 156 GTA Sportwagon manual sale post; generic/login pages rejected."
     },
     "model-095:ferrarichat:alfa-romeo-156-gta-sportwagon-manual-under-50000-miles-low-owners": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-14T13:41:28Z",
+      "lastSearchedAt": "2026-09-16T22:44:36Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Fresh FerrariChat indexed search returned no direct current qualifying Alfa Romeo 156 GTA Sportwagon manual sale advert."
+      "limitation": "No direct current UK 156 GTA Sportwagon manual sale advert found."
     },
     "model-095:gumtree:alfa-romeo-156-gta-sportwagon-manual-under-50000-miles-low-owners": {
       "status": "searched",
@@ -9671,10 +9665,10 @@
     },
     "model-095:lamborghini-talk:alfa-romeo-156-gta-sportwagon-manual-under-50000-miles-low-owners": {
       "status": "blocked",
-      "lastSearchedAt": "2026-09-14T13:41:28Z",
+      "lastSearchedAt": "2026-09-16T22:44:36Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "LamborghiniTalk was blocked by robots.txt during this run; no bypass or authenticated access was attempted."
+      "limitation": "Public web access to LamborghiniTalk is blocked by robots.txt; no bypass attempted."
     },
     "model-095:pistonheads:alfa-romeo-156-gta-sportwagon-manual-under-50000-miles-low-owners": {
       "status": "searched",
@@ -9824,129 +9818,128 @@
     },
     "model-009:ebay:noble-m12-gto-gto-3-gto-3r": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-15T08:32:21Z",
-      "lastResultCount": 1,
-      "candidateUrls": [
-        "https://www.ebay.co.uk/itm/227387821806"
-      ],
-      "limitation": "The current-looking £43,995 Noble M12 GTO-3R eBay classified was rediscovered and is already in the verification queue; no new vehicle identity surfaced."
+      "lastSearchedAt": "2026-09-16T22:44:36Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Tracked eBay #227387821806 is now explicitly ended by the seller because it is no longer available; other results were parts/merchandise."
     },
     "model-009:gumtree:noble-m12-gto-gto-3-gto-3r": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-15T08:32:21Z",
+      "lastSearchedAt": "2026-09-16T22:44:36Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Fresh Gumtree search produced no plausible current direct Noble M12 GTO/GTO-3/GTO-3R advert strong enough to retain."
+      "limitation": "No plausible direct current Noble M12 vehicle advert found."
     },
     "model-009:pistonheads:noble-m12-gto-gto-3-gto-3r": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-15T08:32:21Z",
+      "lastSearchedAt": "2026-09-16T22:44:36Z",
       "lastResultCount": 2,
       "candidateUrls": [
         "https://www.pistonheads.com/buy/listing/20986597",
         "https://www.pistonheads.com/buy/listing/20878736"
       ],
-      "limitation": "Two current PistonHeads Noble adverts were confirmed. Listing 20986597 is already published; listing 20878736 is the same BX53KCV/16,955-mile Parkway vehicle already tracked under another advert, so no duplicate vehicle candidate was added."
+      "limitation": "Two current M12 adverts confirmed; #20878736 duplicates already-tracked BX53KCV, so no duplicate candidate added."
     },
     "model-010:autotrader:noble-m400": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-15T08:32:21Z",
+      "lastSearchedAt": "2026-09-16T22:44:36Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No direct current Auto Trader Noble M400 car-details URL strong enough to retain was found; generic results were rejected."
+      "limitation": "No direct current Noble M400 car-details advert found."
     },
     "model-010:car-and-classic:noble-m400": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-15T08:32:21Z",
+      "lastSearchedAt": "2026-09-16T22:44:36Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Fresh Car & Classic search produced no direct current genuine Noble M400 advert strong enough to retain."
+      "limitation": "No direct current UK Noble M400 advert found."
     },
     "model-010:ebay:noble-m400": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-15T08:32:21Z",
+      "lastSearchedAt": "2026-09-16T22:44:36Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Fresh eBay search produced no plausible current genuine Noble M400 vehicle advert; parts/noise were rejected."
+      "limitation": "Search results were parts/accessories and unrelated items, not a current M400 vehicle advert."
     },
     "model-010:gumtree:noble-m400": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-15T08:32:21Z",
+      "lastSearchedAt": "2026-09-16T22:44:36Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Fresh Gumtree search produced no plausible current direct Noble M400 advert."
+      "limitation": "No direct current Noble M400 vehicle advert found."
     },
     "model-010:pistonheads:noble-m400": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-15T08:32:21Z",
+      "lastSearchedAt": "2026-09-16T22:44:36Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "A PistonHeads page titled M400 describes a 2003 M12 GTO-3, conflicting with the genuine M400 identity/year rules; it was rejected rather than misclassified."
+      "limitation": "No direct current Noble M400 advert; generic inventory pages rejected."
     },
     "model-010:specialist-dealers:noble-m400": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-15T08:32:21Z",
+      "lastSearchedAt": "2026-09-16T22:44:36Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Fresh specialist-dealer search produced no new direct current genuine Noble M400 stock advert strong enough to retain."
+      "limitation": "No direct current UK specialist-dealer M400 stock advert with a qualifying fixed price found."
     },
     "model-011:autotrader:lotus-esprit-v8-v8-gt": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-15T08:32:21Z",
+      "lastSearchedAt": "2026-09-16T22:44:36Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Auto Trader surfaced generic Esprit V8 inventory rather than a direct current car-details URL; generic inventory pages were rejected."
+      "limitation": "No new direct current Esprit V8/V8 GT car-details URL surfaced; existing tracked candidates remain pending."
     },
     "model-011:car-and-classic:lotus-esprit-v8-v8-gt": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-15T08:32:21Z",
-      "lastResultCount": 1,
+      "lastSearchedAt": "2026-09-16T22:44:36Z",
+      "lastResultCount": 2,
       "candidateUrls": [
-        "https://www.carandclassic.com/car/C1831033"
+        "https://www.carandclassic.com/car/C1938698",
+        "https://www.carandclassic.com/car/C2049406"
       ],
-      "limitation": "Fresh direct advert C1831033 is currently For Sale: 1998 Lotus Esprit V8 GT, £54,995, 38,000 miles, RHD five-speed manual, UK dealer, with a 15-photo gallery. Retained for full seller-stock/photo verification."
+      "limitation": "Two tracked current Esprit V8 adverts rechecked; image assets cache-missed, so mandatory visual overlay/manual-control checks remain incomplete."
     },
     "model-011:ebay:lotus-esprit-v8-v8-gt": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-15T08:32:21Z",
+      "lastSearchedAt": "2026-09-16T22:44:36Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Fresh eBay search returned parts, brochures/models or otherwise non-qualifying pages rather than a current direct Esprit V8 vehicle advert."
+      "limitation": "No direct current qualifying Esprit V8/V8 GT vehicle advert found."
     },
     "model-011:gumtree:lotus-esprit-v8-v8-gt": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-15T08:32:21Z",
+      "lastSearchedAt": "2026-09-16T22:44:36Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Fresh Gumtree search produced no plausible current direct Lotus Esprit V8/V8 GT advert."
+      "limitation": "No plausible direct current Esprit V8/V8 GT vehicle advert found."
     },
     "model-011:pistonheads:lotus-esprit-v8-v8-gt": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-15T08:32:21Z",
+      "lastSearchedAt": "2026-09-16T22:44:36Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "The current-looking PistonHeads Esprit V8 result is POA, which fails the fixed-price rule; no qualifying direct advert was retained."
+      "limitation": "No new direct current Esprit V8/V8 GT advert retained."
     },
     "model-011:specialist-dealers:lotus-esprit-v8-v8-gt": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-15T08:32:21Z",
+      "lastSearchedAt": "2026-09-16T22:44:36Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Specialist search did not produce a new direct seller URL that could be independently retained in this run; the fresh Car & Classic V8 GT advert was captured under its originating source."
+      "limitation": "No new direct current Esprit V8/V8 GT identity beyond already-tracked stock."
     },
     "model-012:autotrader:dodge-viper-rt-10-gts-srt-10": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-15T08:32:21Z",
+      "lastSearchedAt": "2026-09-16T22:44:36Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Fresh Auto Trader search produced no direct current qualifying UK Dodge Viper advert."
+      "limitation": "No direct current UK Dodge Viper RT/10, GTS or SRT-10 car-details advert within the rules."
     },
     "model-012:car-and-classic:dodge-viper-rt-10-gts-srt-10": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-15T08:32:21Z",
+      "lastSearchedAt": "2026-09-16T22:44:36Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Fresh Car & Classic search produced no new plausible current direct UK Viper advert meeting the rules."
+      "limitation": "No direct current UK Dodge Viper RT/10, GTS or SRT-10 advert within the rules."
     },
     "model-012:ebay:dodge-viper-rt-10-gts-srt-10": {
       "status": "searched",
