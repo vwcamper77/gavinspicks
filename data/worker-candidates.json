@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-17T02:46:17Z",
+  "updatedAt": "2026-09-17T03:15:40Z",
   "candidates": [
     {
       "modelId": "model-056",
@@ -397,9 +397,9 @@
       "url": "https://www.carandclassic.com/car/C2017514",
       "source": "car-and-classic",
       "discoveredAt": "2026-09-10T08:42:28Z",
-      "status": "verification-pending",
+      "status": "rejected",
       "note": "Rechecked 13 Sep 2026: the originating Hexagon seller page is live today at £99,995 for the 2003 E46 M3 Coupe, 3,100 miles, factory 6-speed manual, one owner from new, full BMW main-dealer history and explicitly 'Available to view now'. Classic Trader simultaneously displays the same car at £120,000, so the originating seller remains authoritative. The seller specification strongly supports factory-manual identity, but an exact current seller cabin/gallery image could not be visually inspected in this worker run; keep verification-pending rather than publish.",
-      "lastCheckedAt": "2026-09-16T13:40:18Z",
+      "lastCheckedAt": "2026-09-17T03:15:40Z",
       "vehicleIdentity": "2003 BMW M3 E46 Coupe | BM03LEE | £99,995 | 3,100 miles | Hexagon Classics",
       "checkedAt": "2026-09-16T06:02:59Z"
     },
@@ -525,8 +525,8 @@
       "discoveredAt": "2026-09-10T13:56:00Z",
       "status": "verification-pending",
       "vehicleIdentity": "2008 Lotus Exige S 240 Triple Pack | Graphite Grey | 43000 miles",
-      "note": "2008 Lotus Exige S 240 Triple Pack, £34,990, 43,000 miles, manual, private seller in London/Essex. Current direct PistonHeads advert and contact controls were visible; seller describes a Hangar111 engine rebuild after oil starvation plus upgrades. Eleven photos are indicated, but the original seller images could not be visually fetched in this run, so sold-overlay/manual-photo verification remains outstanding and the car is not publishable yet.",
-      "lastCheckedAt": "2026-09-14T01:33:19Z"
+      "note": "Rechecked 17 Sep 2026: fresh PistonHeads search indexing shows this 2008 Lotus Exige S 240 Triple Pack at £34,990, 43,000 miles, manual, with active private-seller contact in London/Essex. The direct page cache still shows an older £36,990 snapshot, so the fresher indexed price is treated as the current lead rather than a verified price change. Seller gallery image assets cache-missed and could not be visually checked for SOLD/RESERVED overlays or manual controls; keep verification-pending and do not publish.",
+      "lastCheckedAt": "2026-09-17T03:15:40Z"
     },
     {
       "modelId": "model-028",
@@ -822,8 +822,8 @@
       "source": "car-and-classic",
       "discoveredAt": "2026-09-10T20:56:37Z",
       "status": "verification-pending",
-      "note": "Rechecked 15 Sep 2026: Car & Classic still marks KR52ZTT For Sale at £50,000, 46,637 miles, six-speed manual, 2003 and UK-located dealer stock with a 27-image gallery. No material price/status change was found. This run did not repeat a full exact-image visual inspection, so this candidate update does not refresh any publication checkedAt timestamp.",
-      "lastCheckedAt": "2026-09-15T12:34:20Z",
+      "note": "Rechecked 17 Sep 2026: a fresh Car & Classic index still explicitly marks KR52ZTT For Sale at £50,000, 46,637 miles, 2003, UK-located and six-speed manual. The actual advert remains accessible with seller contact and a 27-image gallery. The seller's own website is access-challenged in this worker path and the exact gallery was not fully visually re-inspected, so this candidate check does not refresh the publication checkedAt timestamp.",
+      "lastCheckedAt": "2026-09-17T03:15:40Z",
       "vehicleIdentity": "2003 BMW M5 E39 | KR52ZTT | £50,000 | 46,637 miles | LHD"
     },
     {
