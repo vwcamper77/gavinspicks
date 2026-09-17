@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-17T19:57:18Z",
+  "updatedAt": "2026-09-17T20:08:07Z",
   "compactedFromQueueAt": "2026-09-10T06:41:54.207Z",
   "note": "Cumulative worker-write state. Job results are merged from immutable run deltas and folded back into data/search-queue.json by scripts/build-search-queue.mjs.",
   "jobs": {
@@ -386,10 +386,10 @@
     },
     "model-075:classic-trader:audi-tt-quattro-sport": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T09:59:57Z",
+      "lastSearchedAt": "2026-09-17T20:08:07Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Classic Trader surfaced non-UK TT quattro Sport stock, including a German car, rather than a qualifying current UK advert; no candidate retained."
+      "limitation": "Classic Trader surfaced an Audi TT quattro Sport advert outside the UK; rejected before candidate collection."
     },
     "model-075:ferrarichat:audi-tt-quattro-sport": {
       "status": "searched",
@@ -765,18 +765,18 @@
       "limitation": "Search surfaced under-floor, wrong-body, high-mileage or stale eBay results; no current in-rule advert was retained."
     },
     "model-096:facebook-groups:bmw-e46-m3-manual-coupe-uk": {
-      "status": "blocked",
-      "lastSearchedAt": "2026-09-17T07:41:10Z",
+      "status": "searched",
+      "lastSearchedAt": "2026-09-17T20:08:07Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public web search did not expose an accessible current BMW E46 M3 factory-manual Coupe sale post from Facebook groups; surfaced group material was generic or access-limited. No access-control bypass was attempted."
+      "limitation": "Public Facebook indexing returned no verifiable current seller advert URL for a qualifying E46 M3 manual coupe."
     },
     "model-096:facebook-groups:bmw-m3-e46-6-speed-manual-coupe-uk": {
-      "status": "blocked",
-      "lastSearchedAt": "2026-09-17T07:41:10Z",
+      "status": "searched",
+      "lastSearchedAt": "2026-09-17T20:08:07Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public web search did not expose an accessible current BMW E46 M3 six-speed manual Coupe sale post from Facebook groups at no more than 50,000 miles. No access-control bypass was attempted."
+      "limitation": "Public Facebook indexing returned no verifiable current seller advert URL for a qualifying E46 M3 manual coupe."
     },
     "model-096:ferrarichat:bmw-e46-m3-manual-coupe-uk": {
       "status": "searched",
@@ -1172,25 +1172,25 @@
       "limitation": "Specialist-dealer search found no current genuine E82 BMW 1M manual within the £45,000-£55,000 model band with sufficient live-stock evidence."
     },
     "model-078:facebook-groups:renault-clio-182-trophy": {
-      "status": "blocked",
-      "lastSearchedAt": "2026-09-17T07:02:21Z",
+      "status": "searched",
+      "lastSearchedAt": "2026-09-17T20:08:07Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public Facebook group search returned generic or login-gated group material rather than an accessible current qualifying Clio 182 Trophy sale post. No access-control bypass was attempted."
+      "limitation": "Public Facebook indexing returned no verifiable current seller advert URL; group/login/generic results were discarded."
     },
     "model-078:ebay:renault-clio-182-trophy": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T13:04:10Z",
+      "lastSearchedAt": "2026-09-17T20:08:07Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "eBay search produced no plausible direct current UK Clio 182 Trophy advert satisfying the strict mileage and ownership rules."
+      "limitation": "eBay results were ended and/or exceeded mileage/owner caps; no qualifying current advert collected."
     },
     "model-078:autotrader:renault-clio-182-trophy": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T13:04:10Z",
+      "lastSearchedAt": "2026-09-17T20:08:07Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Auto Trader search returned generic/category material rather than a direct current Clio 182 Trophy advert satisfying the strict under-30,000-mile and maximum-two-total-owner rules."
+      "limitation": "Auto Trader search returned no plausible direct Clio 182 Trophy advert satisfying the strict sub-30,000-mile / maximum-two-owner rule."
     },
     "model-078:pistonheads:renault-clio-182-trophy": {
       "status": "searched",
@@ -1201,10 +1201,10 @@
     },
     "model-078:car-and-classic:renault-clio-182-trophy": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T13:04:10Z",
+      "lastSearchedAt": "2026-09-17T20:08:07Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Direct Clio 182 Trophy adverts surfaced but were sold/removed or over the strict 29,999-mile maximum; no qualifying current candidate was retained."
+      "limitation": "Car & Classic returned current Trophy adverts, but the visible examples exceeded the strict mileage cap; rejected before candidate collection."
     },
     "model-078:collecting-cars:renault-clio-182-trophy": {
       "status": "searched",
@@ -1439,17 +1439,17 @@
     },
     "model-097:autotrader:bmw-e39-m5-manual-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T11:57:52Z",
+      "lastSearchedAt": "2026-09-17T20:08:07Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No plausible current Auto Trader E39 M5 manual advert at or below 50,000 miles surfaced in public search."
+      "limitation": "Public search executed; no plausible current direct advert matching the configured rule survived pre-verification. Category/search pages, stale/completed, duplicate and out-of-rule results were discarded."
     },
     "model-097:autotrader:bmw-m5-e39-6-speed-manual-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T11:57:52Z",
+      "lastSearchedAt": "2026-09-17T20:08:07Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No plausible current Auto Trader E39 M5 six-speed manual advert at or below 50,000 miles surfaced in public search."
+      "limitation": "Public search executed; no plausible current direct advert matching the configured rule survived pre-verification. Category/search pages, stale/completed, duplicate and out-of-rule results were discarded."
     },
     "model-097:bonhams-cars:bmw-e39-m5-manual-uk": {
       "status": "searched",
@@ -1467,12 +1467,12 @@
     },
     "model-097:car-and-classic:bmw-e39-m5-manual-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T11:57:52Z",
+      "lastSearchedAt": "2026-09-17T20:08:07Z",
       "lastResultCount": 1,
       "candidateUrls": [
         "https://www.carandclassic.com/car/C2060885"
       ],
-      "limitation": "A current Car & Classic advert remains live for the 2003 E39 M5 manual at £50,000 and 46,637 miles in Surrey; the URL is already tracked and was retained as a candidate rather than treated as a new find."
+      "limitation": "Current direct UK advert found for a 2003 BMW E39 M5 at £50,000, 46,637 miles and six-speed manual. It is an existing verification-pending candidate; photo/provenance gate remains unresolved."
     },
     "model-097:car-and-classic:bmw-m5-e39-6-speed-manual-uk": {
       "status": "searched",
@@ -1879,19 +1879,19 @@
     },
     "model-076:autotrader:ford-focus-st500": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T13:04:10Z",
+      "lastSearchedAt": "2026-09-17T20:08:07Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Auto Trader search exposed generic Focus inventory rather than a direct current ST500 car-details advert, so no URL was retained."
+      "limitation": "Public search executed; no plausible current direct advert matching the configured rule survived pre-verification. Category/search pages, stale/completed, duplicate and out-of-rule results were discarded."
     },
     "model-076:car-and-classic:ford-focus-st500": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T13:04:10Z",
+      "lastSearchedAt": "2026-09-17T20:08:07Z",
       "lastResultCount": 1,
       "candidateUrls": [
         "https://www.carandclassic.com/l/C1644726"
       ],
-      "limitation": "The already-tracked 2008 Focus ST500 remains presented For Sale at £19,750, 33,200 miles and manual in Dromore. Exact-edition provenance and sufficiently strong current seller-photo verification remain incomplete, so it stays pending."
+      "limitation": "Current direct ST500 advert remains For Sale at £19,750, 33,200 miles and six-speed manual. Existing candidate retained verification-pending because its two-photo gallery is insufficient for the mandatory cabin/manual and unavailable-overlay visual gate."
     },
     "model-076:ebay:ford-focus-st500": {
       "status": "searched",
@@ -2207,17 +2207,17 @@
     },
     "model-076:bonhams-cars:ford-focus-st500": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T09:59:57Z",
+      "lastSearchedAt": "2026-09-17T20:08:07Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No active Bonhams Cars Focus ST500 lot qualified as a current fixed-price UK advert."
+      "limitation": "Public search executed; no plausible current direct advert matching the configured rule survived pre-verification. Category/search pages, stale/completed, duplicate and out-of-rule results were discarded."
     },
     "model-076:classic-trader:ford-focus-st500": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T09:59:57Z",
+      "lastSearchedAt": "2026-09-17T20:08:07Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No direct current Classic Trader Focus ST500 advert meeting the £10,000 floor and strict edition/current-status checks was found."
+      "limitation": "Public search executed; no plausible current direct advert matching the configured rule survived pre-verification. Category/search pages, stale/completed, duplicate and out-of-rule results were discarded."
     },
     "model-076:collecting-cars:ford-focus-st500": {
       "status": "searched",
@@ -2552,17 +2552,17 @@
     },
     "model-085:bonhams-cars:subaru-impreza-rb320": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T09:59:57Z",
+      "lastSearchedAt": "2026-09-17T20:08:07Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No active Bonhams Cars RB320 met the strict under-30,000-mile and one-or-two-total-owner policy; historical sold lots were excluded."
+      "limitation": "Public search executed; no plausible current direct advert matching the configured rule survived pre-verification. Category/search pages, stale/completed, duplicate and out-of-rule results were discarded."
     },
     "model-085:collecting-cars:subaru-impreza-rb320": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T10:30:00Z",
+      "lastSearchedAt": "2026-09-17T20:08:07Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No active current RB320 auction/listing meeting the mileage/owner rules was surfaced; completed/historical results were rejected."
+      "limitation": "Public search executed; no plausible current direct advert matching the configured rule survived pre-verification. Category/search pages, stale/completed, duplicate and out-of-rule results were discarded."
     },
     "model-075:autotrader:audi-tt-quattro-sport": {
       "status": "searched",
@@ -3192,10 +3192,10 @@
     },
     "model-075:collecting-cars:audi-tt-quattro-sport": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T09:59:57Z",
+      "lastSearchedAt": "2026-09-17T20:08:07Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No active current Collecting Cars TT quattro Sport sale with a qualifying fixed asking price was found; completed auction material was excluded."
+      "limitation": "Collecting Cars surfaced only a completed historical TT quattro Sport auction; rejected."
     },
     "model-078:classic-trader:renault-clio-182-trophy": {
       "status": "searched",
@@ -3206,17 +3206,17 @@
     },
     "model-085:classic-trader:subaru-impreza-rb320": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T09:59:57Z",
+      "lastSearchedAt": "2026-09-17T20:08:07Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No direct current Classic Trader RB320 advert with verified mileage below 30,000 and one or two total owners was found."
+      "limitation": "Public search executed; no plausible current direct advert matching the configured rule survived pre-verification. Category/search pages, stale/completed, duplicate and out-of-rule results were discarded."
     },
     "model-088:bonhams-cars:mitsubishi-evo-vi-tommi-makinen-edition": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T10:30:00Z",
+      "lastSearchedAt": "2026-09-17T20:08:07Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No active current Evo VI Tommi Makinen Edition lot meeting the mileage/owner rules was surfaced; completed/historical results were rejected."
+      "limitation": "Public search executed; no plausible current direct advert matching the configured rule survived pre-verification. Category/search pages, stale/completed, duplicate and out-of-rule results were discarded."
     },
     "model-035:ferrarichat:lotus-europa-s-se": {
       "status": "searched",
@@ -3911,10 +3911,10 @@
     },
     "model-078:911uk:renault-clio-182-trophy": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T07:02:21Z",
+      "lastSearchedAt": "2026-09-17T20:08:07Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No direct current 911UK Renault Clio 182 Trophy sale advert satisfying the strict under-30,000-mile and maximum-two-total-owner rules surfaced."
+      "limitation": "Public search executed; no plausible current direct advert matching the configured rule survived pre-verification. Category/search pages, stale/completed, duplicate and out-of-rule results were discarded."
     },
     "model-078:ferrarichat:renault-clio-182-trophy": {
       "status": "searched",
@@ -4270,10 +4270,10 @@
     },
     "model-042:ferrarichat:aston-martin-v8-vantage-4-3-4-7-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-15T13:48:11Z",
+      "lastSearchedAt": "2026-09-17T20:08:07Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No current direct FerrariChat owner-sale thread for an Aston Martin V8 Vantage 4.3/4.7 manual was found."
+      "limitation": "FerrariChat public indexing returned no plausible current Aston Martin V8 Vantage manual seller advert."
     },
     "model-042:gumtree:aston-martin-v8-vantage-4-3-4-7-manual": {
       "status": "searched",
@@ -4284,10 +4284,10 @@
     },
     "model-042:lamborghini-talk:aston-martin-v8-vantage-4-3-4-7-manual": {
       "status": "blocked",
-      "lastSearchedAt": "2026-09-15T13:48:11Z",
+      "lastSearchedAt": "2026-09-17T20:08:07Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public search of lamborghini-talk.com was blocked by robots.txt in this run; no candidate could be assessed."
+      "limitation": "Public crawl of LamborghiniTalk was blocked by robots.txt; no advert could be verified."
     },
     "model-042:pistonheads:aston-martin-v8-vantage-4-3-4-7-manual": {
       "status": "searched",
@@ -4308,10 +4308,10 @@
     },
     "model-043:911uk:aston-martin-v8-vantage-n400-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-15T13:48:11Z",
+      "lastSearchedAt": "2026-09-17T20:08:07Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No current direct 911UK owner-sale thread for an Aston Martin V8 Vantage N400 manual was found."
+      "limitation": "911UK public search returned no plausible current N400 manual seller advert."
     },
     "model-043:autotrader:aston-martin-v8-vantage-n400-manual": {
       "status": "searched",
@@ -4360,17 +4360,17 @@
     },
     "model-043:facebook-groups:aston-martin-v8-vantage-n400-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-15T13:48:11Z",
+      "lastSearchedAt": "2026-09-17T20:08:07Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No plausible current direct publicly indexed Facebook group-sale post for an Aston Martin V8 Vantage N400 manual was found."
+      "limitation": "Public Facebook indexing returned no verifiable current N400 manual advert URL."
     },
     "model-043:ferrarichat:aston-martin-v8-vantage-n400-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-15T13:48:11Z",
+      "lastSearchedAt": "2026-09-17T20:08:07Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No current direct FerrariChat owner-sale thread for an Aston Martin V8 Vantage N400 manual was found."
+      "limitation": "FerrariChat public indexing returned no plausible current N400 manual seller advert."
     },
     "model-043:gumtree:aston-martin-v8-vantage-n400-manual": {
       "status": "searched",
@@ -4381,10 +4381,10 @@
     },
     "model-043:lamborghini-talk:aston-martin-v8-vantage-n400-manual": {
       "status": "blocked",
-      "lastSearchedAt": "2026-09-15T13:48:11Z",
+      "lastSearchedAt": "2026-09-17T20:08:07Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public search of lamborghini-talk.com was blocked by robots.txt in this run; no candidate could be assessed."
+      "limitation": "Public crawl of LamborghiniTalk was blocked by robots.txt; no advert could be verified."
     },
     "model-043:pistonheads:aston-martin-v8-vantage-n400-manual": {
       "status": "searched",
@@ -7065,10 +7065,10 @@
     },
     "model-073:ebay:audi-ur-quattro": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T08:56:00Z",
+      "lastSearchedAt": "2026-09-17T20:08:07Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "eBay search surfaced later Audi quattro-badged cars/irrelevant items rather than a direct current original 1980–1991 ur-quattro advert."
+      "limitation": "eBay search returned no plausible current direct UK ur-quattro advert matching the target."
     },
     "model-073:facebook-groups:audi-ur-quattro": {
       "status": "searched",
@@ -7086,10 +7086,10 @@
     },
     "model-073:gumtree:audi-ur-quattro": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T08:56:00Z",
+      "lastSearchedAt": "2026-09-17T20:08:07Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Gumtree search produced no direct current original ur-quattro advert with a qualifying fixed asking price."
+      "limitation": "Gumtree result was not a qualifying ur-quattro advert; rejected."
     },
     "model-073:lamborghini-talk:audi-ur-quattro": {
       "status": "blocked",
@@ -7100,20 +7100,22 @@
     },
     "model-073:pistonheads:audi-ur-quattro": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T08:56:00Z",
-      "lastResultCount": 2,
+      "lastSearchedAt": "2026-09-17T20:08:07Z",
+      "lastResultCount": 4,
       "candidateUrls": [
+        "https://www.pistonheads.com/buy/listing/19296052",
         "https://www.pistonheads.com/buy/listing/16723245",
-        "https://www.pistonheads.com/buy/listing/19296052"
+        "https://www.pistonheads.com/buy/listing/20952619",
+        "https://www.pistonheads.com/buy/listing/20606947"
       ],
-      "limitation": "Two direct current original ur-quattro adverts were retained from PistonHeads; both identities were already present in the verification queue. Additional category stock was not added without direct advert-level verification."
+      "limitation": "Four plausible current direct PistonHeads ur-quattro adverts survived pre-verification. Three were already queued; the 1983 A717 BWV Horizon Performance Cars advert is newly queued pending mandatory gallery/manual visual verification."
     },
     "model-073:specialist-dealers:audi-ur-quattro": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T08:56:00Z",
+      "lastSearchedAt": "2026-09-17T20:08:07Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Specialist search did not produce a new direct dealer advert distinct from already-tracked ur-quattro identities."
+      "limitation": "Specialist-dealer search produced no additional direct current advert URL with stronger seller-stock authority than candidates already queued."
     },
     "model-074:911uk:porsche-996-40th-anniversary-manual": {
       "status": "searched",
@@ -7124,10 +7126,10 @@
     },
     "model-074:autotrader:porsche-996-40th-anniversary-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T08:56:00Z",
+      "lastSearchedAt": "2026-09-17T20:08:07Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Auto Trader search did not expose a direct current car-details URL for a verified 996 40th Anniversary manual."
+      "limitation": "Auto Trader returned no new plausible direct 996 40th Anniversary manual advert."
     },
     "model-074:bonhams-cars:porsche-996-40th-anniversary-manual": {
       "status": "searched",
@@ -7138,10 +7140,12 @@
     },
     "model-074:car-and-classic:porsche-996-40th-anniversary-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T08:56:00Z",
-      "lastResultCount": 0,
-      "candidateUrls": [],
-      "limitation": "Car & Classic search did not produce a new direct current qualifying 996 40th Anniversary manual advert."
+      "lastSearchedAt": "2026-09-17T20:08:07Z",
+      "lastResultCount": 1,
+      "candidateUrls": [
+        "https://www.carandclassic.com/l/C2114774"
+      ],
+      "limitation": "Current direct Car & Classic advert for Anniversary #1132 remains For Sale at £29,500 and manual. It is already queued and deduplicated by vehicle identity against the 911UK advert."
     },
     "model-074:classic-trader:porsche-996-40th-anniversary-manual": {
       "status": "searched",
@@ -7159,10 +7163,10 @@
     },
     "model-074:ebay:porsche-996-40th-anniversary-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T08:56:00Z",
+      "lastSearchedAt": "2026-09-17T20:08:07Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "eBay results were generic 996 stock or unrelated items; no direct current verified 40th Anniversary manual advert retained."
+      "limitation": "eBay returned no plausible current direct 996 40th Anniversary manual advert."
     },
     "model-074:facebook-groups:porsche-996-40th-anniversary-manual": {
       "status": "searched",
@@ -7180,10 +7184,10 @@
     },
     "model-074:gumtree:porsche-996-40th-anniversary-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T08:56:00Z",
+      "lastSearchedAt": "2026-09-17T20:08:07Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Gumtree search produced no direct current qualifying 996 40th Anniversary manual advert."
+      "limitation": "Gumtree returned no plausible current direct 996 40th Anniversary manual advert."
     },
     "model-074:lamborghini-talk:porsche-996-40th-anniversary-manual": {
       "status": "blocked",
@@ -7194,19 +7198,20 @@
     },
     "model-074:pistonheads:porsche-996-40th-anniversary-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T08:56:00Z",
-      "lastResultCount": 1,
+      "lastSearchedAt": "2026-09-17T20:08:07Z",
+      "lastResultCount": 2,
       "candidateUrls": [
-        "https://www.pistonheads.com/buy/listing/20492444"
+        "https://www.pistonheads.com/buy/listing/20492444",
+        "https://www.pistonheads.com/buy/listing/21034204"
       ],
-      "limitation": "PistonHeads #20492444 is currently advertised at £49,995, 10,677 miles and six-speed manual with X51/LSD/M030 claims, but mandatory gallery/manual-control verification remains incomplete. Previously tracked #19057785 now explicitly says MOT Expired and no longer available and was marked unavailable."
+      "limitation": "Two plausible current direct PistonHeads 996 40th Anniversary manual adverts survived pre-verification; both are already verification-pending candidates."
     },
     "model-074:specialist-dealers:porsche-996-40th-anniversary-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T08:56:00Z",
+      "lastSearchedAt": "2026-09-17T20:08:07Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Specialist searches surfaced 40th Anniversary stock pages, but no new direct advert was retained after current-status/deduplication checks in this run."
+      "limitation": "Specialist-dealer results included stale/duplicate product pages and generic stock pages; no additional direct advert was collected without current-inventory proof."
     },
     "model-077:911uk:ford-focus-st170-estate-under-50000-miles-low-owners": {
       "status": "searched",
@@ -7231,24 +7236,24 @@
     },
     "model-077:autotrader:ford-focus-st170-estate-under-50000-miles-low-owners": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T08:56:00Z",
+      "lastSearchedAt": "2026-09-17T20:08:07Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No qualifying current exceptional ST170 Estate retained; surfaced results were sold/ended, high-mileage, below £10k, modified or otherwise weak."
+      "limitation": "Auto Trader returned no qualifying current direct ST170 Estate advert under 50,000 miles."
     },
     "model-077:autotrader:ford-focus-st170-under-50000-miles-low-owners": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T08:56:00Z",
+      "lastSearchedAt": "2026-09-17T20:08:07Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No qualifying current exceptional ST170 retained; surfaced results were sold/ended, high-mileage, below £10k, modified or otherwise weak."
+      "limitation": "Auto Trader returned no qualifying current direct ST170 advert under 50,000 miles."
     },
     "model-077:autotrader:ford-focus-st225-st2-st3-under-50000-miles-low-owners": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T08:56:00Z",
+      "lastSearchedAt": "2026-09-17T20:08:07Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No qualifying current exceptional ST225 ST2/ST3 retained; surfaced results were sold/ended, high-mileage, below £10k, modified or otherwise weak."
+      "limitation": "Auto Trader returned no qualifying current direct Mk2 ST225/ST2/ST3 advert under 50,000 miles."
     },
     "model-077:bonhams-cars:ford-focus-st170-estate-under-50000-miles-low-owners": {
       "status": "searched",
@@ -7273,24 +7278,26 @@
     },
     "model-077:car-and-classic:ford-focus-st170-estate-under-50000-miles-low-owners": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T08:56:00Z",
+      "lastSearchedAt": "2026-09-17T20:08:07Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No qualifying current exceptional ST170 Estate retained; surfaced results were sold/ended, high-mileage, below £10k, modified or otherwise weak."
+      "limitation": "Car & Classic returned no qualifying current ST170 Estate advert under 50,000 miles."
     },
     "model-077:car-and-classic:ford-focus-st170-under-50000-miles-low-owners": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T08:56:00Z",
+      "lastSearchedAt": "2026-09-17T20:08:07Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No qualifying current exceptional ST170 retained; surfaced results were sold/ended, high-mileage, below £10k, modified or otherwise weak."
+      "limitation": "Car & Classic returned no qualifying current ST170 advert under 50,000 miles."
     },
     "model-077:car-and-classic:ford-focus-st225-st2-st3-under-50000-miles-low-owners": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T08:56:00Z",
-      "lastResultCount": 0,
-      "candidateUrls": [],
-      "limitation": "No qualifying current exceptional ST225 ST2/ST3 retained; surfaced results were sold/ended, high-mileage, below £10k, modified or otherwise weak."
+      "lastSearchedAt": "2026-09-17T20:08:07Z",
+      "lastResultCount": 1,
+      "candidateUrls": [
+        "https://www.carandclassic.com/car/C2181004"
+      ],
+      "limitation": "Current dealer advert remains For Sale at £12,995, 39,000 miles, six-speed manual and described as completely standard with extensive Ford main-dealer history. Existing candidate remains verification-pending because gallery images could not be inspected strongly enough for the mandatory manual-control/unavailable-overlay gate."
     },
     "model-077:classic-trader:ford-focus-st170-estate-under-50000-miles-low-owners": {
       "status": "searched",
@@ -7336,24 +7343,24 @@
     },
     "model-077:ebay:ford-focus-st170-estate-under-50000-miles-low-owners": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T08:56:00Z",
+      "lastSearchedAt": "2026-09-17T20:08:07Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No qualifying current exceptional ST170 Estate retained; surfaced results were sold/ended, high-mileage, below £10k, modified or otherwise weak."
+      "limitation": "eBay returned no qualifying current direct ST170 Estate advert under 50,000 miles."
     },
     "model-077:ebay:ford-focus-st170-under-50000-miles-low-owners": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T08:56:00Z",
+      "lastSearchedAt": "2026-09-17T20:08:07Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No qualifying current exceptional ST170 retained; surfaced results were sold/ended, high-mileage, below £10k, modified or otherwise weak."
+      "limitation": "eBay returned only an out-of-budget/insufficient-evidence ST170 classified; rejected before candidate collection."
     },
     "model-077:ebay:ford-focus-st225-st2-st3-under-50000-miles-low-owners": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T08:56:00Z",
+      "lastSearchedAt": "2026-09-17T20:08:07Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No qualifying current exceptional ST225 ST2/ST3 retained; surfaced results were sold/ended, high-mileage, below £10k, modified or otherwise weak."
+      "limitation": "eBay results were high-mileage or otherwise out of rule; no qualifying current ST225/ST2/ST3 advert collected."
     },
     "model-077:facebook-groups:ford-focus-st170-estate-under-50000-miles-low-owners": {
       "status": "blocked",
@@ -7399,24 +7406,24 @@
     },
     "model-077:gumtree:ford-focus-st170-estate-under-50000-miles-low-owners": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T08:56:00Z",
+      "lastSearchedAt": "2026-09-17T20:08:07Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No qualifying current exceptional ST170 Estate retained; surfaced results were sold/ended, high-mileage, below £10k, modified or otherwise weak."
+      "limitation": "Gumtree returned no qualifying current ST170 Estate advert under 50,000 miles."
     },
     "model-077:gumtree:ford-focus-st170-under-50000-miles-low-owners": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T08:56:00Z",
+      "lastSearchedAt": "2026-09-17T20:08:07Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No qualifying current exceptional ST170 retained; surfaced results were sold/ended, high-mileage, below £10k, modified or otherwise weak."
+      "limitation": "Gumtree returned no qualifying current ST170 advert under 50,000 miles."
     },
     "model-077:gumtree:ford-focus-st225-st2-st3-under-50000-miles-low-owners": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T08:56:00Z",
+      "lastSearchedAt": "2026-09-17T20:08:07Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No qualifying current exceptional ST225 ST2/ST3 retained; surfaced results were sold/ended, high-mileage, below £10k, modified or otherwise weak."
+      "limitation": "Gumtree returned modified/high-mileage or wrong-derivative Focus results; rejected."
     },
     "model-077:lamborghini-talk:ford-focus-st170-estate-under-50000-miles-low-owners": {
       "status": "blocked",
@@ -7441,17 +7448,17 @@
     },
     "model-077:pistonheads:ford-focus-st170-estate-under-50000-miles-low-owners": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T08:56:00Z",
+      "lastSearchedAt": "2026-09-17T20:08:07Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No qualifying current exceptional ST170 Estate retained; surfaced results were sold/ended, high-mileage, below £10k, modified or otherwise weak."
+      "limitation": "PistonHeads returned no qualifying current ST170 Estate advert under 50,000 miles."
     },
     "model-077:pistonheads:ford-focus-st170-under-50000-miles-low-owners": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T08:56:00Z",
+      "lastSearchedAt": "2026-09-17T20:08:07Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No qualifying current exceptional ST170 retained; surfaced results were sold/ended, high-mileage, below £10k, modified or otherwise weak."
+      "limitation": "PistonHeads returned no qualifying current ST170 advert under 50,000 miles; an explicit unavailable/high-mileage result was rejected."
     },
     "model-077:pistonheads:ford-focus-st225-st2-st3-under-50000-miles-low-owners": {
       "status": "searched",
