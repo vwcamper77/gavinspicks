@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-16T23:44:42Z",
+  "updatedAt": "2026-09-17T00:39:46Z",
   "candidates": [
     {
       "modelId": "model-056",
@@ -338,8 +338,8 @@
       "discoveredAt": "2026-09-10T06:29:37Z",
       "status": "verification-pending",
       "note": "Rechecked 15 Sep 2026: current PistonHeads advert for a 1998 TVR Chimaera 500 at £22,000, 43,800 miles, manual, private seller in Bath. Page has live contact controls and valid MOT to 30 Jul 2027. Seven listing photos are exposed, but exact image assets were not reliably inspectable for unavailable overlays/manual controls; keep verification-pending.",
-      "lastCheckedAt": "2026-09-15T10:16:24Z",
-      "vehicleIdentity": "1998 TVR Chimaera 500 | £22,000 | 43,800 miles | private seller Bath"
+      "lastCheckedAt": "2026-09-17T00:39:46Z",
+      "vehicleIdentity": "1998 TVR Chimaera 500 silver Bath"
     },
     {
       "modelId": "model-018",
@@ -1282,9 +1282,9 @@
       "source": "pistonheads",
       "discoveredAt": "2026-09-12T05:04:02Z",
       "status": "verification-pending",
-      "note": "Rechecked 15 Sep 2026: current PistonHeads advert for a 1998 TVR Griffith 500 at £30,795, 32,600 miles, manual, Amore Autos in Wotton-under-Edge, with valid MOT and live seller-contact controls. Advert describes recent Powers Performance cam/timing-chain work, 2020 body-off outriggers and 2023 clutch. PistonHeads exposes a 21-photo gallery, but exact image fetches were not reliably inspectable for unavailable overlays/manual controls; keep verification-pending.",
-      "lastCheckedAt": "2026-09-15T10:16:24Z",
-      "vehicleIdentity": "1998 TVR Griffith 500 | £30,795 | 32,600 miles | Amore Autos"
+      "note": "Fresh check: PistonHeads advert is live at £30,795, 32,600/32,666 miles, 1998, manual, Amore Autos, valid MOT and active seller contact. Amore's own current advert independently lists the same car at £30,795. Five seller gallery images were opened; no SOLD/RESERVED/DEPOSIT TAKEN/UNDER OFFER overlay was visible and the cabin image clearly shows a conventional manual lever. Car & Classic C2188969 corroborates the same S995JCK vehicle as For Sale. Not promoted yet because the one-per-watch-class rule requires comparison with current Griffith C2183025; that competing advert is live and qualifying on text but its gallery could not be rendered strongly enough this run.",
+      "lastCheckedAt": "2026-09-17T00:39:46Z",
+      "vehicleIdentity": "1998 TVR Griffith 500 S995JCK"
     },
     {
       "modelId": "model-019",
@@ -1780,9 +1780,10 @@
       "url": "https://www.carandclassic.com/car/C2014112",
       "source": "car-and-classic",
       "discoveredAt": "2026-09-13T22:08:05Z",
-      "lastCheckedAt": "2026-09-13T23:48:00Z",
-      "status": "verification-pending",
-      "note": "Rechecked 13 Sep 2026: Car & Classic C2014112 remains For Sale at £54,495 for Premier GT's 1999 Lotus Esprit Sport 350, 47,080 miles, RHD, five-speed manual, with 54 photos. PistonHeads 20458222 and Premier GT stock independently show the same car live at £54,995 and available for immediate purchase. A current Premier GT exterior image was visually inspected with no SOLD/RESERVED overlay, but exact cabin/manual-control images from this vehicle could not be reliably isolated from search results despite the large gallery. Keep verification-pending; do not publish until exact interior/gear-selector photo evidence is inspected."
+      "lastCheckedAt": "2026-09-17T00:39:46Z",
+      "status": "rejected-rule",
+      "note": "Rechecked 13 Sep 2026: Car & Classic C2014112 remains For Sale at £54,495 for Premier GT's 1999 Lotus Esprit Sport 350, 47,080 miles, RHD, five-speed manual, with 54 photos. PistonHeads 20458222 and Premier GT stock independently show the same car live at £54,995 and available for immediate purchase. A current Premier GT exterior image was visually inspected with no SOLD/RESERVED overlay, but exact cabin/manual-control images from this vehicle could not be reliably isolated from search results despite the large gallery. Keep verification-pending; do not publish until exact interior/gear-selector photo evidence is inspected.",
+      "vehicleIdentity": "1999 Lotus Esprit Sport 350 Premier GT 47080"
     },
     {
       "modelId": "model-023",
@@ -2353,6 +2354,16 @@
       "note": "Fresh direct PistonHeads advert: 1998 TVR Cerbera 4.2, £34,995, 39,000 miles, manual, Cureton Green, Shmoo Automotive, with a 22-photo gallery and detailed full-chassis-restoration history. Current seller controls are visible, but the gallery has not been visually inspected strongly enough for unavailable overlays/manual controls in this run; keep pending.",
       "lastCheckedAt": "2026-09-16T23:44:42Z",
       "vehicleIdentity": "1998 TVR Cerbera 4.2 | £34,995 | 39,000 miles | Shmoo Automotive"
+    },
+    {
+      "modelId": "model-017",
+      "url": "https://www.carandclassic.com/l/C2183025",
+      "source": "car-and-classic",
+      "discoveredAt": "2026-09-17T00:39:46Z",
+      "lastCheckedAt": "2026-09-17T00:39:46Z",
+      "status": "verification-pending",
+      "vehicleIdentity": "1999 TVR Griffith 500 G5OOX",
+      "note": "Current 1999 Griffith 500, £29,750, 49,800 miles, 5-speed manual, private seller near Chester. Advert documents body-off chassis refurbishment, T5 gearbox rebuild, cam replacement, August 2026 service and MOT to March 2027. Page is explicitly For Sale, but direct gallery assets returned cache misses, so photo-overlay/manual-photo verification is not strong enough for publication. Compare against S995JCK before selecting the single best Griffith."
     }
   ]
 }
