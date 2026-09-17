@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-17T14:17:04Z",
+  "updatedAt": "2026-09-17T15:36:37Z",
   "compactedFromQueueAt": "2026-09-10T06:41:54.207Z",
   "note": "Cumulative worker-write state. Job results are merged from immutable run deltas and folded back into data/search-queue.json by scripts/build-search-queue.mjs.",
   "jobs": {
@@ -54,10 +54,10 @@
     },
     "model-070:ebay:ford-focus-rs-mk1": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T07:02:21Z",
+      "lastSearchedAt": "2026-09-17T15:36:37Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Fresh eBay results were parts, models, weak or non-current material rather than a qualifying direct current Focus RS Mk1 vehicle advert."
+      "limitation": "Fresh eBay search returned parts, models, stale/non-current material and no direct current qualifying Focus RS Mk1 vehicle advert strong enough to retain."
     },
     "model-070:autotrader:ford-focus-rs-mk1": {
       "status": "searched",
@@ -68,14 +68,10 @@
     },
     "model-070:pistonheads:ford-focus-rs-mk1": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T07:41:10Z",
-      "lastResultCount": 3,
-      "candidateUrls": [
-        "https://www.pistonheads.com/buy/listing/20975833",
-        "https://www.pistonheads.com/buy/listing/20788132",
-        "https://www.pistonheads.com/buy/listing/20729603"
-      ],
-      "limitation": "Three plausible current direct Focus RS Mk1 adverts were retained. The £32,995 KGF car is already tracked; the £20,000 private car remains a verification/editorial candidate. The £19,995/91,898-mile Kinsley Collection car is current-looking but does not establish the exceptional originality/provenance case required for publication. Stale pages including an advert with expired MOT evidence were rejected."
+      "lastSearchedAt": "2026-09-17T15:36:37Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Search execution produced no new direct current Mk1 identity strong enough to retain beyond already tracked PistonHeads candidates; prior candidates remain unchanged."
     },
     "model-070:car-and-classic:ford-focus-rs-mk1": {
       "status": "searched",
@@ -86,10 +82,10 @@
     },
     "model-070:gumtree:ford-focus-rs-mk1": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T07:41:10Z",
+      "lastSearchedAt": "2026-09-17T15:36:37Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No direct current Gumtree Focus RS Mk1 vehicle advert strong enough to retain surfaced in the executed search."
+      "limitation": "Fresh Gumtree search exposed no new direct current Focus RS Mk1 advert strong enough to retain."
     },
     "model-070:specialist-dealers:ford-focus-rs-mk1": {
       "status": "searched",
@@ -102,10 +98,10 @@
     },
     "model-070:ebay:ford-focus-rs-mk2": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T07:02:21Z",
+      "lastSearchedAt": "2026-09-17T15:36:37Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "The surfaced £31,995/23,500-mile Mk2 advert was last updated in 2025 and remains too stale to retain as current; parts and other non-qualifying results were rejected."
+      "limitation": "The surfaced 2010 manual Mk2 advert was last updated in 2025 and remains too stale to retain as current; other results were non-qualifying."
     },
     "model-070:autotrader:ford-focus-rs-mk2": {
       "status": "searched",
@@ -135,12 +131,10 @@
     },
     "model-070:gumtree:ford-focus-rs-mk2": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T07:41:10Z",
-      "lastResultCount": 1,
-      "candidateUrls": [
-        "https://www.gumtree.com/p/ford/ford-focus-rs-mk2/1802710411"
-      ],
-      "limitation": "The already-tracked private Gumtree advert is current at £27,500, 54,242 miles and manual in Immingham. All accessible seller photos were inspected this run, including clear H-pattern gear lever and three-pedal evidence with no unavailable overlay. It is materially modified (CP420/Level 3, exhaust, suspension/spacers and related changes), so it fails Gavin's exceptional/original-example editorial gate and is not publishable."
+      "lastSearchedAt": "2026-09-17T15:36:37Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "No new qualifying Mk2 identity was found beyond previously tracked stock; no new candidate URL retained in this run."
     },
     "model-070:specialist-dealers:ford-focus-rs-mk2": {
       "status": "searched",
@@ -153,10 +147,10 @@
     },
     "model-070:ebay:ford-focus-rs500": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T07:02:21Z",
+      "lastSearchedAt": "2026-09-17T15:36:37Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "The surfaced RS500 vehicle advert explicitly carried SOLD in the listing title and was rejected; remaining eBay results were parts or model items."
+      "limitation": "The surfaced RS500 advert explicitly carried SOLD in the listing title; remaining eBay results were parts or model items."
     },
     "model-070:autotrader:ford-focus-rs500": {
       "status": "searched",
@@ -481,17 +475,17 @@
     },
     "model-096:autotrader:bmw-e46-m3-manual-coupe-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T07:02:21Z",
+      "lastSearchedAt": "2026-09-17T15:36:37Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No direct current Auto Trader BMW E46 M3 factory six-speed manual Coupe advert at no more than 50,000 miles was retained."
+      "limitation": "No direct current Auto Trader E46 M3 factory-manual coupe advert within the configured 50,000-mile and £20,000-£50,000 limits was retained."
     },
     "model-096:autotrader:bmw-m3-e46-6-speed-manual-coupe-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T07:02:21Z",
+      "lastSearchedAt": "2026-09-17T15:36:37Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No direct current Auto Trader BMW E46 M3 factory six-speed manual Coupe advert at no more than 50,000 miles was retained under this alias search."
+      "limitation": "No direct current Auto Trader E46 M3 six-speed manual coupe advert within the configured mileage and price limits was retained."
     },
     "model-096:bonhams-cars:bmw-e46-m3-manual-coupe-uk": {
       "status": "searched",
@@ -509,17 +503,17 @@
     },
     "model-096:car-and-classic:bmw-e46-m3-manual-coupe-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T07:02:21Z",
+      "lastSearchedAt": "2026-09-17T15:36:37Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No direct current qualifying Car & Classic E46 M3 factory-manual Coupe at no more than 50,000 miles was strong enough to retain."
+      "limitation": "Direct Car & Classic manual-coupe results surfaced, but the plausible cars were outside the configured gate: 130,000 miles/£18,995, 62,000 miles, or £99,995. None retained."
     },
     "model-096:car-and-classic:bmw-m3-e46-6-speed-manual-coupe-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T07:02:21Z",
+      "lastSearchedAt": "2026-09-17T15:36:37Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No direct current qualifying Car & Classic E46 M3 factory six-speed manual Coupe at no more than 50,000 miles was retained under this alias search."
+      "limitation": "Car & Classic results were over the 50,000-mile cap, over the £50,000 ceiling, below the price floor, or removed; no qualifying current advert retained."
     },
     "model-019:911uk:tvr-tamora": {
       "status": "searched",
@@ -761,10 +755,10 @@
     },
     "model-096:ebay:bmw-e46-m3-manual-coupe-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T07:02:21Z",
+      "lastSearchedAt": "2026-09-17T15:36:37Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Fresh eBay search produced no direct current qualifying factory-manual E46 M3 Coupe at no more than 50,000 miles; SMG, parts, stale and non-direct results were excluded."
+      "limitation": "Fresh eBay search produced no direct current E46 M3 factory-manual coupe advert that satisfied the configured price and 50,000-mile gates."
     },
     "model-096:ebay:bmw-m3-e46-6-speed-manual-coupe-uk": {
       "status": "searched",
@@ -1531,10 +1525,10 @@
     },
     "model-097:ebay:bmw-m5-e39-6-speed-manual-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T07:02:21Z",
+      "lastSearchedAt": "2026-09-17T15:36:37Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Fresh eBay UK search returned ordinary E39s, parts and non-qualifying material rather than a direct current BMW E39 M5 factory-manual advert at no more than 50,000 miles."
+      "limitation": "Surfaced E39 M5 material was high-mileage, stale, sold or otherwise outside the configured 50,000-mile and £25,000-£60,000 gate; no candidate retained."
     },
     "model-097:facebook-groups:bmw-e39-m5-manual-uk": {
       "status": "blocked",
@@ -1566,17 +1560,17 @@
     },
     "model-097:gumtree:bmw-e39-m5-manual-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T07:02:21Z",
+      "lastSearchedAt": "2026-09-17T15:36:37Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No direct current Gumtree BMW E39 M5 factory-manual advert at no more than 50,000 miles was found."
+      "limitation": "The current-looking Gumtree E39 M5 was £12,750 with about 148,000 miles, failing both price floor and mileage cap; no qualifying advert retained."
     },
     "model-097:gumtree:bmw-m5-e39-6-speed-manual-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T07:41:10Z",
+      "lastSearchedAt": "2026-09-17T15:36:37Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No direct current Gumtree BMW E39 M5 factory six-speed manual advert at no more than 50,000 miles was retained."
+      "limitation": "The surfaced Gumtree E39 M5 was far above the 50,000-mile cap and below the configured price floor; no qualifying six-speed-manual candidate retained."
     },
     "model-097:lamborghini-talk:bmw-e39-m5-manual-uk": {
       "status": "blocked",
@@ -1806,17 +1800,17 @@
     },
     "model-097:pistonheads:bmw-e39-m5-manual-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T07:41:10Z",
+      "lastSearchedAt": "2026-09-17T15:36:37Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "The only surfaced sub-50,000-mile E39 M5 direct advert was listing 16225032, which has already been positively identified as no longer available. Higher-mileage E39 M5 results fail the model's 50,000-mile cap and were rejected."
+      "limitation": "No direct current PistonHeads E39 M5 advert meeting the configured £25,000-£60,000 and 50,000-mile limits was retained."
     },
     "model-097:pistonheads:bmw-m5-e39-6-speed-manual-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T07:41:10Z",
+      "lastSearchedAt": "2026-09-17T15:36:37Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No current qualifying PistonHeads E39 M5 factory six-speed manual advert at no more than 50,000 miles remained after rejecting the known unavailable listing and higher-mileage stock."
+      "limitation": "No direct current PistonHeads E39 M5 six-speed-manual advert inside the configured mileage and price gates was retained."
     },
     "model-097:specialist-dealers:bmw-e39-m5-manual-uk": {
       "status": "searched",
@@ -1855,10 +1849,10 @@
     },
     "model-070:classic-trader:ford-focus-rs-mk1": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T05:18:54Z",
+      "lastSearchedAt": "2026-09-17T15:36:37Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No new direct current qualifying UK Focus RS Mk1 advert."
+      "limitation": "No new direct current UK Classic Trader Focus RS Mk1 advert strong enough to retain surfaced in this pass."
     },
     "model-070:classic-trader:ford-focus-rs-mk2": {
       "status": "searched",
@@ -2228,10 +2222,10 @@
     },
     "model-076:collecting-cars:ford-focus-st500": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T05:18:54Z",
+      "lastSearchedAt": "2026-09-17T15:36:37Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No active current Focus ST500 sale; completed/historical auctions rejected."
+      "limitation": "No active current Collecting Cars ST500 auction or fixed-price advert was found; historical/completed material was excluded."
     },
     "model-070:911uk:ford-focus-rs-mk1": {
       "status": "searched",
@@ -2467,18 +2461,18 @@
       "limitation": "Parts/wheels or non-qualifying variants only; no vehicle advert retained."
     },
     "model-030:facebook-groups:lotus-exige-cup-240-cup-260": {
-      "status": "searched",
-      "lastSearchedAt": "2026-09-15T08:32:21Z",
+      "status": "blocked",
+      "lastSearchedAt": "2026-09-17T15:36:37Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public indexed Facebook Groups search produced no plausible current direct Lotus Exige Cup 240/Cup 260 sale post; private/login-only group content was not inspected."
+      "limitation": "Public indexed Facebook-group search did not expose an accessible current Exige Cup 240/260 sale post; private/login-gated group content is not available to this worker."
     },
     "model-030:ferrarichat:lotus-exige-cup-240-cup-260": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-15T08:32:21Z",
+      "lastSearchedAt": "2026-09-17T15:36:37Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public indexed FerrariChat search produced no plausible fresh direct UK Lotus Exige Cup 240/Cup 260 sale thread."
+      "limitation": "FerrariChat search surfaced no direct current UK Lotus Exige Cup 240/260 advert; discussion and historical material were not retained."
     },
     "model-030:gumtree:lotus-exige-cup-240-cup-260": {
       "status": "searched",
@@ -2489,10 +2483,10 @@
     },
     "model-030:lamborghini-talk:lotus-exige-cup-240-cup-260": {
       "status": "blocked",
-      "lastSearchedAt": "2026-09-15T08:32:21Z",
+      "lastSearchedAt": "2026-09-17T15:36:37Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "LamborghiniTalk is blocked by robots.txt in the public web search path; the source could not be inspected and is not recorded as a zero-match search."
+      "limitation": "Public web access to LamborghiniTalk is blocked by robots.txt; no bypass was attempted."
     },
     "model-030:pistonheads:lotus-exige-cup-240-cup-260": {
       "status": "searched",
@@ -2650,10 +2644,10 @@
     },
     "model-031:911uk:lotus-elise-s1-111s": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-15T08:32:21Z",
+      "lastSearchedAt": "2026-09-17T15:36:37Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public indexed 911UK search produced no plausible fresh direct Lotus Elise S1 111S owner-sale thread."
+      "limitation": "911UK search returned no direct current UK Lotus Elise S1 111S sale advert strong enough to retain."
     },
     "model-031:autotrader:lotus-elise-s1-111s": {
       "status": "searched",
@@ -2701,18 +2695,18 @@
       "limitation": "Posters/parts and non-qualifying items only; no vehicle advert retained."
     },
     "model-031:facebook-groups:lotus-elise-s1-111s": {
-      "status": "searched",
-      "lastSearchedAt": "2026-09-15T08:32:21Z",
+      "status": "blocked",
+      "lastSearchedAt": "2026-09-17T15:36:37Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public indexed Facebook Groups search produced no plausible current direct Elise S1 111S sale post; private/login-only group content was not inspected."
+      "limitation": "Public indexed Facebook-group search did not expose an accessible current Elise S1 111S sale post; private/login-gated content is unavailable."
     },
     "model-031:ferrarichat:lotus-elise-s1-111s": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-15T08:32:21Z",
+      "lastSearchedAt": "2026-09-17T15:36:37Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public indexed FerrariChat search produced no plausible fresh direct UK Lotus Elise S1 111S sale thread."
+      "limitation": "FerrariChat search surfaced no direct current UK Elise S1 111S advert; non-advert discussion and historical material were rejected."
     },
     "model-031:gumtree:lotus-elise-s1-111s": {
       "status": "searched",
@@ -2723,10 +2717,10 @@
     },
     "model-031:lamborghini-talk:lotus-elise-s1-111s": {
       "status": "blocked",
-      "lastSearchedAt": "2026-09-15T08:32:21Z",
+      "lastSearchedAt": "2026-09-17T15:36:37Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "LamborghiniTalk is blocked by robots.txt in the public web search path; the source could not be inspected and is not recorded as a zero-match search."
+      "limitation": "Public web access to LamborghiniTalk is blocked by robots.txt; no bypass was attempted."
     },
     "model-031:pistonheads:lotus-elise-s1-111s": {
       "status": "searched",
@@ -2748,10 +2742,10 @@
     },
     "model-032:911uk:lotus-elise-sport-160": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-15T08:32:21Z",
+      "lastSearchedAt": "2026-09-17T15:36:37Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public indexed 911UK search produced no plausible fresh direct Lotus Elise Sport 160 owner-sale thread."
+      "limitation": "911UK search returned no direct current UK Lotus Elise Sport 160 sale advert strong enough to retain."
     },
     "model-032:autotrader:lotus-elise-sport-160": {
       "status": "searched",
@@ -2797,17 +2791,17 @@
     },
     "model-032:facebook-groups:lotus-elise-sport-160": {
       "status": "blocked",
-      "lastSearchedAt": "2026-09-15T09:18:54Z",
+      "lastSearchedAt": "2026-09-17T15:36:37Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Facebook group content requires login; no inspectable current Elise Sport 160 advert was exposed publicly."
+      "limitation": "Public indexed Facebook-group search did not expose an accessible current Elise Sport 160 sale post; private/login-gated group content is unavailable."
     },
     "model-032:ferrarichat:lotus-elise-sport-160": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-15T09:18:54Z",
+      "lastSearchedAt": "2026-09-17T15:36:37Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No plausible current direct Elise Sport 160 advert surfaced on FerrariChat."
+      "limitation": "FerrariChat search surfaced no direct current UK Elise Sport 160 advert; discussion/historical material was rejected."
     },
     "model-032:gumtree:lotus-elise-sport-160": {
       "status": "searched",
@@ -2913,17 +2907,17 @@
     },
     "model-056:classic-trader:bmw-z4-m-coupe": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T05:18:54Z",
+      "lastSearchedAt": "2026-09-17T15:36:37Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No new direct current UK Z4 M Coupe advert; non-UK/historical results rejected."
+      "limitation": "No new direct current UK Classic Trader Z4 M Coupe advert strong enough to retain surfaced in this pass; previously tracked candidates remain unchanged."
     },
     "model-056:collecting-cars:bmw-z4-m-coupe": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T05:18:54Z",
+      "lastSearchedAt": "2026-09-17T15:36:37Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Results were completed/historical auctions, not current purchasable adverts."
+      "limitation": "Collecting Cars search surfaced no active current qualifying Z4 M Coupe sale; completed/historical auction material was excluded."
     },
     "model-070:bonhams-cars:ford-focus-rs-mk1": {
       "status": "searched",
@@ -4894,10 +4888,10 @@
     },
     "model-049:car-and-classic:porsche-997-1-gt3": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T03:00:49Z",
+      "lastSearchedAt": "2026-09-17T15:36:37Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No current direct Car & Classic 997.1 GT3 advert was positively verified in this pass."
+      "limitation": "Search surfaced a £99,950/39,539-mile 2007 manual GT3, but current-status evidence conflicts: one Car & Classic rendering says For Sale while current localized mirrors say the advert was removed through sale or otherwise. Another advert was explicitly removed and another SOLD. Ambiguous current availability means no candidate retained."
     },
     "model-049:classic-trader:porsche-997-1-gt3": {
       "status": "searched",
@@ -4915,10 +4909,10 @@
     },
     "model-049:ebay:porsche-997-1-gt3": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T03:00:49Z",
+      "lastSearchedAt": "2026-09-17T15:36:37Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "eBay search produced irrelevant/parts or non-current results rather than a qualifying live 997.1 GT3 car advert."
+      "limitation": "Fresh eBay results did not yield a direct current qualifying 2006-2008 997.1 GT3 advert; a surfaced 2005 Carrera was not a GT3."
     },
     "model-049:facebook-groups:porsche-997-1-gt3": {
       "status": "searched",
@@ -4936,10 +4930,10 @@
     },
     "model-049:gumtree:porsche-997-1-gt3": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T03:00:49Z",
+      "lastSearchedAt": "2026-09-17T15:36:37Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No plausible current direct Gumtree 997.1 GT3 advert was found."
+      "limitation": "No direct current Gumtree 997.1 GT3 advert within the configured £90,000-£100,000 range was retained."
     },
     "model-049:lamborghini-talk:porsche-997-1-gt3": {
       "status": "blocked",
@@ -4950,17 +4944,17 @@
     },
     "model-049:pistonheads:porsche-997-1-gt3": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T03:00:49Z",
+      "lastSearchedAt": "2026-09-17T15:36:37Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Tracked 2007 997.1 GT3 at £86,991/43,519 miles now has an explicit PistonHeads 'no longer available for purchase' notice; rejected and candidate marked unavailable."
+      "limitation": "No new direct current PistonHeads 997.1 GT3 advert inside the configured range was retained; sold/unavailable material was excluded."
     },
     "model-049:specialist-dealers:porsche-997-1-gt3": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T03:00:49Z",
+      "lastSearchedAt": "2026-09-17T15:36:37Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Specialist search surfaced sold/archive or RESERVED 997.1 GT3 stock only; hard availability rules reject all of them."
+      "limitation": "No specialist-dealer 997.1 GT3 with unambiguous current availability and a qualifying fixed £90,000-£100,000 asking price was retained."
     },
     "model-050:911uk:porsche-996-turbo-manual-x50-turbo-s": {
       "status": "searched",
@@ -4971,10 +4965,10 @@
     },
     "model-050:autotrader:porsche-996-turbo-manual-x50-turbo-s": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T03:00:49Z",
+      "lastSearchedAt": "2026-09-17T15:36:37Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No current direct Auto Trader 996 Turbo manual/X50/Turbo S advert was retained."
+      "limitation": "No new direct current Auto Trader 996 Turbo factory-manual/X50/Turbo S advert strong enough to retain surfaced in this pass."
     },
     "model-050:bonhams-cars:porsche-996-turbo-manual-x50-turbo-s": {
       "status": "searched",
@@ -4985,10 +4979,10 @@
     },
     "model-050:car-and-classic:porsche-996-turbo-manual-x50-turbo-s": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T03:00:49Z",
+      "lastSearchedAt": "2026-09-17T15:36:37Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No current direct Car & Classic 996 Turbo manual/X50/Turbo S advert was retained."
+      "limitation": "No direct current Car & Classic 996 Turbo manual/X50/Turbo S advert with sufficiently strong current-status and specification evidence was retained."
     },
     "model-050:classic-trader:porsche-996-turbo-manual-x50-turbo-s": {
       "status": "searched",
@@ -5006,10 +5000,10 @@
     },
     "model-050:ebay:porsche-996-turbo-manual-x50-turbo-s": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T03:00:49Z",
+      "lastSearchedAt": "2026-09-17T15:36:37Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "An eBay 2004 manual Turbo result was explicitly ENDED; another live-looking Turbo was Tiptronic automatic. Both rejected."
+      "limitation": "Fresh eBay search yielded no direct current qualifying 996 Turbo manual/X50/Turbo S vehicle advert; parts, stale and non-qualifying results were rejected."
     },
     "model-050:facebook-groups:porsche-996-turbo-manual-x50-turbo-s": {
       "status": "searched",
@@ -5027,10 +5021,10 @@
     },
     "model-050:gumtree:porsche-996-turbo-manual-x50-turbo-s": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T03:00:49Z",
+      "lastSearchedAt": "2026-09-17T15:36:37Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No plausible current direct Gumtree 996 Turbo manual/X50/Turbo S advert was retained."
+      "limitation": "No direct current Gumtree 996 Turbo factory-manual/X50/Turbo S advert strong enough to retain was found."
     },
     "model-050:lamborghini-talk:porsche-996-turbo-manual-x50-turbo-s": {
       "status": "blocked",
@@ -5041,17 +5035,17 @@
     },
     "model-050:pistonheads:porsche-996-turbo-manual-x50-turbo-s": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T03:00:49Z",
+      "lastSearchedAt": "2026-09-17T15:36:37Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No current PistonHeads 996 Turbo manual/X50/Turbo S advert was positively retained in this pass."
+      "limitation": "No new direct current qualifying PistonHeads 996 Turbo manual/X50/Turbo S identity was retained in this pass; unavailable/sold and non-manual cars were excluded."
     },
     "model-050:specialist-dealers:porsche-996-turbo-manual-x50-turbo-s": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T03:00:49Z",
+      "lastSearchedAt": "2026-09-17T15:36:37Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Philip Raby's £37,995 manual 996 Turbo product page persists, but the exact car is explicitly listed in the dealer's Sold Cars inventory and absent from current stock. A second old 2003 page is also absent from current stock. No candidate retained."
+      "limitation": "A Rennzone surface showed a 2003 X50 manual at £55,995, but authoritative RPM Technik seller stock identifies the exact car as Sold - Archive. A Philip Raby X50 result was automatic. No current qualifying specialist candidate retained."
     },
     "model-051:911uk:porsche-997-turbo-manual-coupe-cabriolet": {
       "status": "searched",
@@ -5062,10 +5056,10 @@
     },
     "model-051:autotrader:porsche-997-turbo-manual-coupe-cabriolet": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T03:00:49Z",
+      "lastSearchedAt": "2026-09-17T15:36:37Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No current direct Auto Trader 997 Turbo factory-manual advert was retained."
+      "limitation": "No direct current Auto Trader 997 Turbo factory-manual Coupe/Cabriolet advert with sufficient current-status evidence was retained."
     },
     "model-051:bonhams-cars:porsche-997-turbo-manual-coupe-cabriolet": {
       "status": "searched",
@@ -5076,10 +5070,10 @@
     },
     "model-051:car-and-classic:porsche-997-turbo-manual-coupe-cabriolet": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T03:00:49Z",
+      "lastSearchedAt": "2026-09-17T15:36:37Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No current direct Car & Classic 997 Turbo factory-manual advert was retained."
+      "limitation": "No direct current Car & Classic 997 Turbo factory-manual Coupe/Cabriolet advert strong enough to retain surfaced; removed/sold or ambiguous pages were excluded."
     },
     "model-051:classic-trader:porsche-997-turbo-manual-coupe-cabriolet": {
       "status": "searched",
@@ -5097,12 +5091,10 @@
     },
     "model-051:ebay:porsche-997-turbo-manual-coupe-cabriolet": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T03:00:49Z",
-      "lastResultCount": 1,
-      "candidateUrls": [
-        "https://www.ebay.co.uk/itm/227264222185"
-      ],
-      "limitation": "Existing tracked 2006 997 Turbo Coupe remains a live eBay classified at £84,995, 23,000 miles, RHD manual in St Albans. Exact seller-gallery visual verification remains incomplete, so keep pending."
+      "lastSearchedAt": "2026-09-17T15:36:37Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "A 2008 Turbo manual £59,995 advert surfaced but the exact eBay listing had ended on 28 August and only stated that it was relisted; the ended URL was not retained because the live relist was not resolved."
     },
     "model-051:facebook-groups:porsche-997-turbo-manual-coupe-cabriolet": {
       "status": "searched",
@@ -5120,12 +5112,10 @@
     },
     "model-051:gumtree:porsche-997-turbo-manual-coupe-cabriolet": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T03:00:49Z",
-      "lastResultCount": 1,
-      "candidateUrls": [
-        "https://www.gumtree.com/p/porsche/porsche-911-3-6-997-turbo-cabriolet-awd-2dr-rare-manual/1505436000"
-      ],
-      "limitation": "Fresh direct Gumtree trade advert posted one day ago: 2008 997 Turbo Cabriolet, £59,995, 78,500 miles, manual, Huddersfield. The 37-image gallery is exposed but image fetch failed, so manual-control/overlay verification remains pending."
+      "lastSearchedAt": "2026-09-17T15:36:37Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "No direct current Gumtree 997 Turbo factory-manual Coupe/Cabriolet advert strong enough to retain was found."
     },
     "model-051:lamborghini-talk:porsche-997-turbo-manual-coupe-cabriolet": {
       "status": "blocked",
@@ -5136,10 +5126,10 @@
     },
     "model-051:pistonheads:porsche-997-turbo-manual-coupe-cabriolet": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T03:00:49Z",
+      "lastSearchedAt": "2026-09-17T15:36:37Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No current PistonHeads 997 Turbo factory-manual advert was positively retained in this pass."
+      "limitation": "Search surfaced sold manual stock and current Tiptronic/automatic stock, but no direct current qualifying factory-manual 997 Turbo advert was retained."
     },
     "model-051:specialist-dealers:porsche-997-turbo-manual-coupe-cabriolet": {
       "status": "searched",
@@ -9494,10 +9484,10 @@
     },
     "model-094:bonhams-cars:alfa-romeo-156-gta-saloon-manual-under-50000-miles-low-owners": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-15T20:19:23Z",
+      "lastSearchedAt": "2026-09-17T15:36:37Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No active Bonhams Cars Alfa Romeo 156 GTA saloon manual under 50,000 miles retained."
+      "limitation": "No active current Bonhams Cars UK Alfa 156 GTA saloon manual advert meeting the search criteria was found; completed/historical lots were excluded."
     },
     "model-094:car-and-classic:alfa-romeo-156-gta-saloon-manual-under-50000-miles-low-owners": {
       "status": "searched",
@@ -9508,17 +9498,17 @@
     },
     "model-094:classic-trader:alfa-romeo-156-gta-saloon-manual-under-50000-miles-low-owners": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-15T20:19:23Z",
+      "lastSearchedAt": "2026-09-17T15:36:37Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No current direct Classic Trader 156 GTA saloon manual under 50,000 miles retained."
+      "limitation": "A 2004 manual GTA result around £25,429 was seller-located in Brummen, Netherlands, not the UK; no qualifying UK candidate retained."
     },
     "model-094:collecting-cars:alfa-romeo-156-gta-saloon-manual-under-50000-miles-low-owners": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-15T20:19:23Z",
+      "lastSearchedAt": "2026-09-17T15:36:37Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No active Collecting Cars 156 GTA saloon manual auction retained; historical pages rejected."
+      "limitation": "Collecting Cars results were completed/sold historical auctions rather than current purchasable UK GTA saloons; no candidate retained."
     },
     "model-094:ebay:alfa-romeo-156-gta-saloon-manual-under-50000-miles-low-owners": {
       "status": "searched",
@@ -9585,10 +9575,10 @@
     },
     "model-095:bonhams-cars:alfa-romeo-156-gta-sportwagon-manual-under-50000-miles-low-owners": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-15T20:19:23Z",
+      "lastSearchedAt": "2026-09-17T15:36:37Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No active Bonhams Cars Alfa Romeo 156 GTA Sportwagon manual under 50,000 miles retained."
+      "limitation": "No active current Bonhams Cars UK 156 GTA Sportwagon manual advert satisfying the criteria was found; completed/withdrawn material was excluded."
     },
     "model-095:car-and-classic:alfa-romeo-156-gta-sportwagon-manual-under-50000-miles-low-owners": {
       "status": "searched",
