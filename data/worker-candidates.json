@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-17T09:59:57Z",
+  "updatedAt": "2026-09-17T10:30:00Z",
   "candidates": [
     {
       "modelId": "model-056",
@@ -847,10 +847,10 @@
       "url": "https://www.carandclassic.com/l/C2114837",
       "source": "car-and-classic",
       "discoveredAt": "2026-09-10T21:37:37Z",
-      "status": "verification-pending",
-      "note": "Rechecked live: 2008 Aston Martin V8 Vantage 4.7 Litre Manual, £32,500, 78,100 miles, RHD, private seller in Bletchingley, advert type For Sale, MOT stated to April 2027. Ten-photo gallery exists but image assets were cache-limited, so manual-control and sold-overlay visual verification remains incomplete; do not publish yet.",
-      "lastCheckedAt": "2026-09-15T21:45:26Z",
-      "vehicleIdentity": "2008 Aston Martin V8 Vantage 4.7 manual | NK58ACU | 78,100 miles | Bletchingley"
+      "status": "verified",
+      "note": "Verified 17 Sep 2026: direct Car & Classic advert is explicitly For Sale at £32,500 for a 2008 V8 Vantage 4.7 manual, 78,100 miles, NK58ACU, private seller in Bletchingley, Surrey. Nine current seller gallery images were inspected; no SOLD/RESERVED/DEPOSIT TAKEN/UNDER OFFER overlay is visible and cabin photographs clearly show the conventional manual gear lever. Published to the combined feed.",
+      "lastCheckedAt": "2026-09-17T10:30:00Z",
+      "vehicleIdentity": "2008 Aston Martin V8 Vantage 4.7 manual | NK58ACU | 78,100 miles | £32,500 | Bletchingley private seller"
     },
     {
       "modelId": "model-043",
@@ -1652,9 +1652,10 @@
       "url": "https://www.pistonheads.com/buy/listing/20557025",
       "source": "pistonheads",
       "discoveredAt": "2026-09-12T23:50:22Z",
-      "status": "verification-pending",
-      "lastCheckedAt": "2026-09-12T23:50:22Z",
-      "note": "2002 Maserati 4200 GT Coupe manual at £12,995, 41,000 miles, advertised one previous owner, full history and 33 photos. It passes the initial fixed-price/year/manual screen, but exact gallery SOLD/RESERVED-overlay and manual-control verification is still outstanding, so it remains off the live feed."
+      "status": "verification-rejected",
+      "lastCheckedAt": "2026-09-17T10:30:00Z",
+      "note": "Checked 17 Sep 2026: direct PistonHeads advert remains accessible for a 2002 Maserati 4200 GT manual at £13,495, 41,000 miles, one previous owner, Platinum Autos in Princes Risborough. It is below model-061's configured £15,000 guide floor and the source page is not freshly crawled, so it is not publishable.",
+      "vehicleIdentity": "2002 Maserati 4200 GT manual | 41,000 miles | £13,495 | Platinum Autos"
     },
     {
       "modelId": "model-066",
@@ -2211,9 +2212,9 @@
       "source": "car-and-classic",
       "discoveredAt": "2026-09-15T21:45:26Z",
       "status": "verification-pending",
-      "lastCheckedAt": "2026-09-15T21:45:26Z",
-      "note": "Rechecked current Car & Classic advert: 2001 Maserati 3200 GT Assetto Corsa 19/75, £19,200, 37,276 miles, RHD, advertised gated six-speed manual, private seller in Northolt, advert type For Sale. Listing/gallery is current but image assets could not be fetched for gear-lever/pedal and sold-overlay inspection, so keep unverified.",
-      "vehicleIdentity": "2001 Maserati 3200 GT Assetto Corsa 19/75 | CG51AS | 37,276 miles | Northolt"
+      "lastCheckedAt": "2026-09-17T10:30:00Z",
+      "note": "Checked 17 Sep 2026: direct Car & Classic advert is explicitly For Sale at £19,200 for a 2001 Maserati 3200 GT Assetto Corsa 19/75, 37,276 miles, six-speed manual, CG51MAS, private seller in Northolt. Current seller gallery is accessible and no unavailable overlay was observed in the inspected images, but the accessible image subset did not establish the gear selector strongly enough for the manual-only publication rule. Keep pending.",
+      "vehicleIdentity": "2001 Maserati 3200 GT Assetto Corsa 19/75 | CG51MAS | 37,276 miles | £19,200 | Northolt private seller"
     },
     {
       "modelId": "model-070",
