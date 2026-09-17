@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-17T18:27:16Z",
+  "updatedAt": "2026-09-17T19:57:18Z",
   "candidates": [
     {
       "modelId": "model-056",
@@ -1114,9 +1114,10 @@
       "url": "https://www.carandclassic.com/car/C2059185",
       "source": "car-and-classic",
       "discoveredAt": "2026-09-11T11:25:19Z",
-      "status": "verification-pending",
-      "note": "Rechecked 15 Sep 2026: Pendine's current showroom and the Car & Classic advert confirm a £94,500 2005 Vanquish S, RHD, about 21,800 miles. Pendine explicitly documents the Aston Martin Works six-speed three-pedal conversion performed in 2009 at 11,944 miles and currently lists the car For sale. Exact seller gallery images could not be fetched for visual SOLD/RESERVED/manual-control validation in this run, so keep verification-pending and do not publish.",
-      "lastCheckedAt": "2026-09-15T03:48:26Z"
+      "status": "verified",
+      "note": "Verified 17 Sep 2026: Car & Classic and current Pendine/PistonHeads seller stock show this exact 2005 Vanquish S Works 6-speed manual For Sale at £94,500 in Bicester/Launton, UK, 21,800 miles. PistonHeads seller gallery was visually inspected including a clear three-pedal/manual-lever cabin photo and exterior images, with no SOLD/RESERVED/DEPOSIT TAKEN/UNDER OFFER overlay. This is the same vehicle already represented in the feed, so no duplicate publication was created.",
+      "lastCheckedAt": "2026-09-17T19:57:18Z",
+      "vehicleIdentity": "2005 Aston Martin Vanquish S | FA05YGV | £94,500 | 21,800 miles | Pendine Historic Cars"
     },
     {
       "modelId": "model-071",
@@ -1982,9 +1983,10 @@
       "url": "https://www.pistonheads.com/buy/listing/20335829",
       "source": "pistonheads",
       "discoveredAt": "2026-09-14T19:19:33Z",
-      "status": "verification-pending",
+      "status": "verified",
       "note": "Fresh recheck 14 Sep 2026: PistonHeads and Pendine seller stock both show this 2005 Vanquish S Works 6-speed manual conversion for sale at £94,500 with 21,800 miles. Direct advert states Aston Martin Works conversion, manual gearbox, UK seller and viewing/demonstration availability. 56-photo gallery is exposed but exact image assets could not be visually inspected for SOLD/RESERVED overlays and three-pedal/manual-control evidence in this run; do not publish yet.",
-      "vehicleIdentity": "2005 Aston Martin Vanquish S | Works 6-speed manual conversion | £94,500 | 21,800 miles | Pendine Historic Cars"
+      "vehicleIdentity": "2005 Aston Martin Vanquish S | FA05YGV | £94,500 | 21,800 miles | Pendine Historic Cars",
+      "lastCheckedAt": "2026-09-17T19:57:18Z"
     },
     {
       "modelId": "model-069",
@@ -1992,8 +1994,9 @@
       "source": "pistonheads",
       "discoveredAt": "2026-09-14T19:19:33Z",
       "status": "verification-pending",
-      "note": "Fresh recheck 14 Sep 2026: Speedsters' current PistonHeads stock shows this 2006 LHD Vanquish S Aston Martin factory-engineered manual conversion at £85,000 and 23,096 miles; the direct advert remains accessible and describes the genuine Aston Martin manual conversion. Seller stock confirms it is still offered. Photo/manual-control visual inspection remains incomplete, so keep verification-pending and do not publish.",
-      "vehicleIdentity": "2006 Aston Martin Vanquish S | LHD Aston Martin manual conversion | £85,000 | 23,096 miles | Speedsters"
+      "note": "Rechecked 17 Sep 2026: live PistonHeads advert and current Car & Classic Speedsters inventory show £85,000, 23,096 miles, manual, LHD, UK seller/location and valid MOT. Four seller gallery images were inspected; manual lever/three-pedal cabin visible and no unavailable overlay. Seller describes an Aston Martin factory-engineered conversion, but documentary evidence tying this exact car to Aston Martin Works was not independently visible. Keep verification-pending under the target's documented-Works-only rule.",
+      "vehicleIdentity": "2006 Aston Martin Vanquish S | AX56TZJ | £85,000 | 23,096 miles | Speedsters Loughborough",
+      "lastCheckedAt": "2026-09-17T19:57:18Z"
     },
     {
       "modelId": "model-001",
@@ -2489,8 +2492,98 @@
       "discoveredAt": "2026-09-17T18:27:16Z",
       "status": "verification-pending",
       "note": "Fresh 2002 Porsche 996 GT2, GT02YEP, £99,989, 34,000 miles, RHD six-speed manual, Motorhub in Keighley. Car & Classic explicitly marks the advert For Sale, listed 18/08/2026, and the Motorhub seller surface shows 187 live listings. Seller states C16 UK GT2, full service history and a recent major service including clutch. A 30-photo seller gallery is exposed; multiple exterior seller images were inspected with no SOLD/RESERVED/DEPOSIT/UNDER OFFER overlay. Exact interior/manual-control seller-photo verification could not be completed, so keep verification-pending and do not publish despite the price sitting just inside the configured £100k ceiling.",
-      "lastCheckedAt": "2026-09-17T18:27:16Z",
+      "lastCheckedAt": "2026-09-17T19:57:18Z",
       "vehicleIdentity": "2002 Porsche 996 GT2 | GT02YEP | £99,989 | 34,000 miles | Motorhub Keighley"
+    },
+    {
+      "modelId": "model-075",
+      "url": "https://philipraby.co.uk/product/2005-audi-tt-quattro-sport",
+      "source": "specialist-dealers",
+      "discoveredAt": "2026-09-17T19:57:18Z",
+      "status": "rejected",
+      "note": "Current Philip Raby direct stock advert: 2005 Audi TT quattro Sport, £8,995, 74,500 miles, manual. Rejected by configured £10,000 minimum asking-price rule."
+    },
+    {
+      "modelId": "model-082",
+      "url": "https://www.pistonheads.com/buy/listing/19331225",
+      "source": "pistonheads",
+      "discoveredAt": "2026-09-17T19:57:18Z",
+      "status": "rejected",
+      "note": "Current direct Subaru Impreza P1 advert at £49,950 and 68,000 miles. Rejected: strict target requires under 30,000 miles."
+    },
+    {
+      "modelId": "model-082",
+      "url": "https://www.pistonheads.com/buy/listing/17710572",
+      "source": "pistonheads",
+      "discoveredAt": "2026-09-17T19:57:18Z",
+      "status": "rejected",
+      "note": "Current direct Subaru Impreza P1 advert at £46,995 and 76,586 miles. Rejected: strict target requires under 30,000 miles."
+    },
+    {
+      "modelId": "model-082",
+      "url": "https://www.pistonheads.com/buy/listing/20388241",
+      "source": "pistonheads",
+      "discoveredAt": "2026-09-17T19:57:18Z",
+      "status": "rejected",
+      "note": "Current direct Subaru Impreza P1 advert at £52,990 and 41,124 miles. Rejected: strict target requires under 30,000 miles."
+    },
+    {
+      "modelId": "model-096",
+      "url": "https://www.pistonheads.com/buy/listing/19915003",
+      "source": "pistonheads",
+      "discoveredAt": "2026-09-17T19:57:18Z",
+      "status": "rejected",
+      "note": "Current 2003 BMW E46 M3 manual Coupe with 3,100 miles at £99,995. Rejected because configured model ceiling is £50,000."
+    },
+    {
+      "modelId": "model-068",
+      "url": "https://www.pistonheads.com/buy/listing/19861897",
+      "source": "pistonheads",
+      "discoveredAt": "2026-09-17T19:57:18Z",
+      "status": "rejected",
+      "note": "Current 2001 Porsche 996 GT2 manual, 40,545 miles, £114,991. Rejected because configured model ceiling is £100,000."
+    },
+    {
+      "modelId": "model-069",
+      "url": "https://www.pistonheads.com/buy/listing/20293837",
+      "source": "pistonheads",
+      "discoveredAt": "2026-09-17T19:57:18Z",
+      "status": "rejected",
+      "note": "Current 2007 Vanquish S manual at £109,850. Rejected because configured model ceiling is £100,000."
+    },
+    {
+      "modelId": "model-069",
+      "url": "https://www.pistonheads.com/buy/listing/18980474",
+      "source": "pistonheads",
+      "discoveredAt": "2026-09-17T19:57:18Z",
+      "status": "rejected",
+      "note": "Current Vanquish S Works-manual advert at £104,950. Rejected because configured model ceiling is £100,000."
+    },
+    {
+      "modelId": "model-069",
+      "url": "https://www.chilternaston.co.uk/car/2007-aston-martin-vanquish-manual/",
+      "source": "specialist-dealers",
+      "discoveredAt": "2026-09-17T19:57:18Z",
+      "status": "rejected",
+      "note": "Current Chiltern Aston manual Vanquish advert at £109,850. Rejected because configured model ceiling is £100,000."
+    },
+    {
+      "modelId": "model-071",
+      "url": "https://www.pistonheads.com/buy/listing/20029282",
+      "source": "pistonheads",
+      "discoveredAt": "2026-09-17T19:57:18Z",
+      "status": "verification-pending",
+      "lastCheckedAt": "2026-09-17T19:57:18Z",
+      "vehicleIdentity": "BMW E61 M5 Touring | £31,990 | 84,000 miles | James Paul Car Sales",
+      "note": "Current direct PistonHeads classified at £31,990, 84,000 miles, E61 Touring and SMG, UK dealer. The listing header identifies the car as 2006 while the description calls it 2007; model rules require 2007-2010. Keep unverified until the registration year is resolved from authoritative vehicle identity evidence."
+    },
+    {
+      "modelId": "model-071",
+      "url": "https://www.pistonheads.com/buy/auction/21063267",
+      "source": "pistonheads",
+      "discoveredAt": "2026-09-17T19:57:18Z",
+      "status": "rejected",
+      "note": "Active-looking 2007 BMW M5 Touring SMG auction surfaced, but no fixed GBP asking price is provided. Rejected from publication under the fixed-price rule."
     }
   ]
 }
