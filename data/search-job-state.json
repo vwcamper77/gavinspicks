@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-17T16:29:31Z",
+  "updatedAt": "2026-09-17T17:42:36Z",
   "compactedFromQueueAt": "2026-09-10T06:41:54.207Z",
   "note": "Cumulative worker-write state. Job results are merged from immutable run deltas and folded back into data/search-queue.json by scripts/build-search-queue.mjs.",
   "jobs": {
@@ -1087,10 +1087,10 @@
     },
     "model-072:ebay:bmw-1m-coupe-manual-45000-55000-full-service-history": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T09:59:57Z",
+      "lastSearchedAt": "2026-09-17T17:42:36Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No direct current eBay UK BMW 1M vehicle advert meeting the £45,000-£55,000 factory-manual rule was found; parts, wrong-model and stale results were excluded."
+      "limitation": "eBay results were irrelevant 1 Series stock, old/sold material or otherwise not a genuine current E82 1M within the £45,000-£55,000 rules."
     },
     "model-072:autotrader:bmw-1m-coupe-manual-45000-55000-full-service-history": {
       "status": "searched",
@@ -1101,45 +1101,45 @@
     },
     "model-072:pistonheads:bmw-1m-coupe-manual-45000-55000-full-service-history": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T09:59:57Z",
+      "lastSearchedAt": "2026-09-17T17:42:36Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "The surfaced PistonHeads BMW 1M material was stale or explicitly no longer available and/or outside the £45,000-£55,000 band; no candidate retained."
+      "limitation": "PistonHeads search produced no direct current BMW 1M advert within the £45,000-£55,000 model price band strong enough to retain."
     },
     "model-072:car-and-classic:bmw-1m-coupe-manual-45000-55000-full-service-history": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T09:59:57Z",
+      "lastSearchedAt": "2026-09-17T17:42:36Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Car & Classic search surfaced old, sold or removed 1M adverts rather than a new current qualifying £45,000-£55,000 factory-manual UK advert."
+      "limitation": "Car & Classic results were removed, historical or otherwise not a current qualifying £45,000-£55,000 BMW 1M advert."
     },
     "model-072:collecting-cars:bmw-1m-coupe-manual-45000-55000-full-service-history": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T08:09:53Z",
+      "lastSearchedAt": "2026-09-17T17:42:36Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No current fixed-price UK BMW 1M advert was found; auction/history material was excluded."
+      "limitation": "Collecting Cars results were completed/historical BMW 1M auctions rather than a current fixed-price qualifying advert."
     },
     "model-072:bonhams-cars:bmw-1m-coupe-manual-45000-55000-full-service-history": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T07:41:10Z",
+      "lastSearchedAt": "2026-09-17T17:42:36Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No active Bonhams Cars BMW 1M Coupe advert with a qualifying fixed £45,000-£55,000 asking price and verified current availability was retained."
+      "limitation": "No active Bonhams Cars BMW 1M advert with a fixed £45,000-£55,000 asking price and current availability was found; historical auction material was excluded."
     },
     "model-072:classic-trader:bmw-1m-coupe-manual-45000-55000-full-service-history": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T07:41:10Z",
+      "lastSearchedAt": "2026-09-17T17:42:36Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No direct current Classic Trader genuine E82 BMW 1M Coupe at the required £45,000-£55,000 price range was retained."
+      "limitation": "Classic Trader surfaced a 2012 BMW 1M manual at about £59,840, above the model £55,000 ceiling; no qualifying current advert retained."
     },
     "model-072:gumtree:bmw-1m-coupe-manual-45000-55000-full-service-history": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T09:59:57Z",
+      "lastSearchedAt": "2026-09-17T17:42:36Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No direct current Gumtree UK BMW 1M advert meeting the fixed-price £45,000-£55,000 rule was found."
+      "limitation": "No direct current Gumtree BMW 1M advert meeting the £45,000-£55,000 model rules was found."
     },
     "model-072:911uk:bmw-1m-coupe-manual-45000-55000-full-service-history": {
       "status": "searched",
@@ -1164,12 +1164,10 @@
     },
     "model-072:specialist-dealers:bmw-1m-coupe-manual-45000-55000-full-service-history": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T09:59:57Z",
-      "lastResultCount": 1,
-      "candidateUrls": [
-        "https://www.salinemotors.co.uk/details/prestige-car-in-scotland/bmw/1series/3.0-m-euro-5-2dr/1572812/"
-      ],
-      "limitation": "Saline Motors still lists the already-tracked 2012 BMW 1M at £48,995, 41,399 miles and six-speed manual in its live stock. Current status is strong, but exact seller-gallery manual-control/unavailable-overlay verification and the exceptional-example provenance gate remain incomplete."
+      "lastSearchedAt": "2026-09-17T17:42:36Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Specialist-dealer search found no current genuine E82 BMW 1M manual within the £45,000-£55,000 model band with sufficient live-stock evidence."
     },
     "model-078:facebook-groups:renault-clio-182-trophy": {
       "status": "blocked",
@@ -1858,24 +1856,24 @@
     },
     "model-070:classic-trader:ford-focus-rs500": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T07:41:10Z",
+      "lastSearchedAt": "2026-09-17T17:42:36Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No direct current Classic Trader Focus RS500 advert strong enough to retain surfaced in the executed search."
+      "limitation": "Classic Trader search exposed no direct current UK Focus RS500 advert with a fixed qualifying asking price; stale/non-current material was rejected."
     },
     "model-070:collecting-cars:ford-focus-rs-mk2": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T07:41:10Z",
+      "lastSearchedAt": "2026-09-17T17:42:36Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Collecting Cars search did not expose an active live Focus RS Mk2 auction suitable for retention; completed/historical results were rejected."
+      "limitation": "A low-mileage Focus RS Mk2 page surfaced, but the current fixed asking price was not established and auction/status signals were ambiguous; historical sold results were also present. Nothing retained."
     },
     "model-070:collecting-cars:ford-focus-rs500": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T07:41:10Z",
+      "lastSearchedAt": "2026-09-17T17:42:36Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No active live Collecting Cars Focus RS500 auction was retained; completed auction pages do not meet the current-advert rule."
+      "limitation": "Collecting Cars search returned historical/completed RS500 auction material, not a current fixed-price qualifying advert."
     },
     "model-076:autotrader:ford-focus-st500": {
       "status": "searched",
@@ -2224,10 +2222,10 @@
     },
     "model-070:911uk:ford-focus-rs-mk1": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T04:55:42Z",
+      "lastSearchedAt": "2026-09-17T17:42:36Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "911UK search returned no direct current Focus RS Mk1 vehicle advert strong enough to retain."
+      "limitation": "911UK search returned no direct current UK Ford Focus RS Mk1 advert strong enough to retain."
     },
     "model-070:911uk:ford-focus-rs-mk2": {
       "status": "searched",
@@ -2259,10 +2257,10 @@
     },
     "model-070:ferrarichat:ford-focus-rs-mk1": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T04:55:42Z",
+      "lastSearchedAt": "2026-09-17T17:42:36Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "FerrariChat search returned no direct current UK Focus RS Mk1 sale advert."
+      "limitation": "FerrariChat search returned no direct current UK Focus RS Mk1 advert strong enough to retain."
     },
     "model-070:ferrarichat:ford-focus-rs-mk2": {
       "status": "searched",
@@ -2520,10 +2518,10 @@
     },
     "model-070:specialist-dealers:ford-focus-rs500": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T09:59:57Z",
+      "lastSearchedAt": "2026-09-17T17:42:36Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No direct current UK specialist-dealer Focus RS500 advert with a qualifying fixed asking price and strong current-stock evidence was found; historical stock and ordinary Mk2 RS material were excluded."
+      "limitation": "Specialist-dealer search found no new direct current qualifying Focus RS500 identity with a fixed asking price; sold/historical stock was excluded."
     },
     "model-082:bonhams-cars:subaru-impreza-p1": {
       "status": "searched",
@@ -2923,10 +2921,10 @@
     },
     "model-070:collecting-cars:ford-focus-rs-mk1": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T07:41:10Z",
+      "lastSearchedAt": "2026-09-17T17:42:36Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Collecting Cars search did not expose an active live Focus RS Mk1 auction suitable for retention; completed sale-result pages were rejected."
+      "limitation": "Collecting Cars results were completed/historical Focus RS Mk1 auctions rather than a current qualifying advert; nothing retained."
     },
     "model-033:classic-trader:lotus-elise-s2-135r": {
       "status": "searched",
@@ -3179,10 +3177,10 @@
     },
     "model-075:bonhams-cars:audi-tt-quattro-sport": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T08:09:53Z",
+      "lastSearchedAt": "2026-09-17T17:42:36Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No active Bonhams Cars Audi TT quattro Sport advert with a qualifying fixed asking price was found."
+      "limitation": "Bonhams Cars search returned no active fixed-price UK Mk1 Audi TT quattro Sport advert; historical/completed auction material was excluded."
     },
     "model-075:collecting-cars:audi-tt-quattro-sport": {
       "status": "searched",
@@ -3651,10 +3649,10 @@
     },
     "model-056:911uk:bmw-z4-m-coupe": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T04:55:42Z",
+      "lastSearchedAt": "2026-09-17T17:42:36Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "911UK search returned no direct current BMW Z4 M Coupe sale advert strong enough to retain."
+      "limitation": "911UK search returned no direct current UK BMW Z4 M Coupe advert strong enough to retain."
     },
     "model-056:facebook-groups:bmw-z4-m-coupe": {
       "status": "blocked",
@@ -3665,24 +3663,24 @@
     },
     "model-056:ferrarichat:bmw-z4-m-coupe": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T04:55:42Z",
+      "lastSearchedAt": "2026-09-17T17:42:36Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "FerrariChat search returned no direct current UK BMW Z4 M Coupe sale advert."
+      "limitation": "FerrariChat search returned discussion/irrelevant material rather than a direct current UK BMW Z4 M Coupe advert."
     },
     "model-056:lamborghini-talk:bmw-z4-m-coupe": {
       "status": "blocked",
-      "lastSearchedAt": "2026-09-17T04:55:42Z",
+      "lastSearchedAt": "2026-09-17T17:42:36Z",
       "lastResultCount": 0,
       "candidateUrls": [],
       "limitation": "Public web access to LamborghiniTalk is blocked by robots.txt; no bypass was attempted."
     },
     "model-070:facebook-groups:ford-focus-rs-mk1": {
       "status": "blocked",
-      "lastSearchedAt": "2026-09-17T04:55:42Z",
+      "lastSearchedAt": "2026-09-17T17:42:36Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public Facebook-group search did not expose an accessible current Focus RS Mk1 sale post; login/group access would be required for deeper verification and no access control was bypassed."
+      "limitation": "Public Facebook-group search did not expose an accessible current Focus RS Mk1 sale post; results were generic/login-gated group surfaces."
     },
     "model-037:specialist-dealers:vauxhall-vx220-2-2-turbo": {
       "status": "searched",
@@ -5685,10 +5683,10 @@
     },
     "model-055:gumtree:bmw-z3-m-coupe-s54": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T04:26:26Z",
+      "lastSearchedAt": "2026-09-17T17:42:36Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No qualifying current direct Gumtree BMW Z3 M Coupe S54 advert within the watch rules surfaced."
+      "limitation": "No direct current Gumtree BMW Z3 M Coupe S54 advert within the model rules was found."
     },
     "model-055:lamborghini-talk:bmw-z3-m-coupe-s54": {
       "status": "blocked",
@@ -5699,21 +5697,21 @@
     },
     "model-055:pistonheads:bmw-z3-m-coupe-s54": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T04:26:26Z",
+      "lastSearchedAt": "2026-09-17T17:42:36Z",
       "lastResultCount": 1,
       "candidateUrls": [
         "https://www.pistonheads.com/buy/listing/20738127"
       ],
-      "limitation": "Existing Hero Motor Company 2002 S54 Z3 M Coupe remains live at £60,000, 54,500 miles and manual with seller contact controls; dealer's own current page corroborates the same car and price."
+      "limitation": "The already-tracked 2002 Titan Silver S54 Z3 M Coupe remains represented on PistonHeads at £60,000/54,500 miles/manual, and the selling dealer's current inventory independently lists the same car for sale. Exact seller-gallery visual overlay and gear-selector inspection could not be completed, so it remains unverified."
     },
     "model-055:specialist-dealers:bmw-z3-m-coupe-s54": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T04:26:26Z",
+      "lastSearchedAt": "2026-09-17T17:42:36Z",
       "lastResultCount": 1,
       "candidateUrls": [
         "https://heromotorcompany.co.uk/cars/bmw-e36-z3-m-coupe-titan-silver/"
       ],
-      "limitation": "Hero Motor Company's direct current page confirms the existing 2002 S54 Z3 M Coupe at £60,000, 54,500 miles, manual, four previous owners and full service history; no material change."
+      "limitation": "Hero Motor Company's current offered-for-sale inventory lists the same already-tracked 2002 Titan Silver S54 Z3 M Coupe at £60,000, 54,500 miles, manual, full service history and four previous owners. This is a duplicate vehicle identity of PistonHeads 20738127, so no second worker candidate was added; seller image assets were not retrievable for full visual verification."
     },
     "model-057:911uk:bmw-z4-m-roadster": {
       "status": "searched",
@@ -5731,10 +5729,10 @@
     },
     "model-057:bonhams-cars:bmw-z4-m-roadster": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T00:17:33Z",
+      "lastSearchedAt": "2026-09-17T17:42:36Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No current direct fixed-price Bonhams Cars BMW Z4 M Roadster advert surfaced."
+      "limitation": "Bonhams Cars search returned no active current fixed-price UK BMW Z4 M Roadster advert within the model rules; historical lots were excluded."
     },
     "model-057:car-and-classic:bmw-z4-m-roadster": {
       "status": "searched",
@@ -5745,17 +5743,17 @@
     },
     "model-057:classic-trader:bmw-z4-m-roadster": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T00:17:33Z",
+      "lastSearchedAt": "2026-09-17T17:42:36Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No current direct UK Classic Trader BMW Z4 M Roadster advert strong enough to retain surfaced."
+      "limitation": "Classic Trader search returned no direct current UK BMW Z4 M Roadster advert within the model rules strong enough to retain."
     },
     "model-057:collecting-cars:bmw-z4-m-roadster": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T00:17:33Z",
+      "lastSearchedAt": "2026-09-17T17:42:36Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No current fixed-price Collecting Cars BMW Z4 M Roadster advert surfaced; auction/history pages were rejected."
+      "limitation": "Collecting Cars results were completed/historical BMW Z4 M Roadster auctions rather than a current fixed-price qualifying advert."
     },
     "model-057:ebay:bmw-z4-m-roadster": {
       "status": "searched",
@@ -6274,10 +6272,10 @@
     },
     "model-063:autotrader:chevrolet-corvette-c6-z06": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T06:02:59Z",
+      "lastSearchedAt": "2026-09-17T17:42:36Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Auto Trader returned only current-generation C8 Z06 inventory/category pages, not a C6 Z06 direct advert."
+      "limitation": "Auto Trader search exposed generic/category inventory rather than a direct current C6 Z06 car-details advert; generic search pages were rejected."
     },
     "model-063:bonhams-cars:chevrolet-corvette-c6-z06": {
       "status": "searched",
@@ -6288,10 +6286,10 @@
     },
     "model-063:car-and-classic:chevrolet-corvette-c6-z06": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T06:02:59Z",
+      "lastSearchedAt": "2026-09-17T17:42:36Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Car & Classic search produced no direct current UK C6 Z06 advert strong enough to retain."
+      "limitation": "Car & Classic results included removed/historical C6 Z06 material; no direct current qualifying UK advert was retained."
     },
     "model-063:classic-trader:chevrolet-corvette-c6-z06": {
       "status": "searched",
@@ -6309,10 +6307,10 @@
     },
     "model-063:ebay:chevrolet-corvette-c6-z06": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T06:02:59Z",
+      "lastSearchedAt": "2026-09-17T17:42:36Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "eBay results were parts/model cars and other non-vehicle items; no C6 Z06 vehicle advert retained."
+      "limitation": "eBay search results were parts, models or otherwise non-qualifying rather than a direct current UK C6 Z06 vehicle advert."
     },
     "model-063:facebook-groups:chevrolet-corvette-c6-z06": {
       "status": "searched",
@@ -6330,10 +6328,10 @@
     },
     "model-063:gumtree:chevrolet-corvette-c6-z06": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T06:02:59Z",
+      "lastSearchedAt": "2026-09-17T17:42:36Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Gumtree search produced no plausible current direct C6 Z06 advert."
+      "limitation": "No direct current Gumtree Chevrolet Corvette C6 Z06 advert strong enough to retain was found."
     },
     "model-063:lamborghini-talk:chevrolet-corvette-c6-z06": {
       "status": "blocked",
@@ -6344,17 +6342,17 @@
     },
     "model-063:pistonheads:chevrolet-corvette-c6-z06": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T06:02:59Z",
+      "lastSearchedAt": "2026-09-17T17:42:36Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "PistonHeads current Chevrolet inventory did not contain a qualifying C6 Z06 direct advert."
+      "limitation": "PistonHeads search produced no direct current UK C6 Z06 advert within the model price rules strong enough to retain."
     },
     "model-063:specialist-dealers:chevrolet-corvette-c6-z06": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T06:02:59Z",
+      "lastSearchedAt": "2026-09-17T17:42:36Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Specialist-dealer search produced no direct current UK C6 Z06 stock advert that passed the pre-verification filters."
+      "limitation": "Specialist-dealer search found no new direct current UK C6 Z06 identity within the model rules strong enough to retain."
     },
     "model-064:911uk:bmw-e46-m3-csl": {
       "status": "searched",
@@ -6365,10 +6363,10 @@
     },
     "model-064:autotrader:bmw-e46-m3-csl": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T06:02:59Z",
+      "lastSearchedAt": "2026-09-17T17:42:36Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Auto Trader returned a generic M3 CSL category page; current examples shown there were above the £100,000 watch ceiling, so no direct candidate retained."
+      "limitation": "Auto Trader search produced no direct current E46 M3 CSL car-details advert within the £65,000-£100,000 model band."
     },
     "model-064:bonhams-cars:bmw-e46-m3-csl": {
       "status": "searched",
@@ -6379,10 +6377,10 @@
     },
     "model-064:car-and-classic:bmw-e46-m3-csl": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T06:02:59Z",
+      "lastSearchedAt": "2026-09-17T17:42:36Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Car & Classic surfaced a CSL page without a current fixed asking price strong enough for qualification; no candidate retained."
+      "limitation": "Car & Classic search produced no direct current UK E46 M3 CSL advert within the £65,000-£100,000 model band strong enough to retain."
     },
     "model-064:classic-trader:bmw-e46-m3-csl": {
       "status": "searched",
@@ -6400,10 +6398,10 @@
     },
     "model-064:ebay:bmw-e46-m3-csl": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T06:02:59Z",
+      "lastSearchedAt": "2026-09-17T17:42:36Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "eBay search results were non-CSL E46 M3s or ended/irrelevant adverts; no CSL candidate retained."
+      "limitation": "eBay results were ordinary E46 M3s/parts or otherwise not a genuine CSL; no qualifying advert retained."
     },
     "model-064:facebook-groups:bmw-e46-m3-csl": {
       "status": "blocked",
@@ -6421,10 +6419,10 @@
     },
     "model-064:gumtree:bmw-e46-m3-csl": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T06:02:59Z",
+      "lastSearchedAt": "2026-09-17T17:42:36Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Gumtree result was a non-CSL E46 convertible/manual advert; no CSL candidate retained."
+      "limitation": "No direct current Gumtree genuine E46 M3 CSL advert within the model rules was found."
     },
     "model-064:lamborghini-talk:bmw-e46-m3-csl": {
       "status": "blocked",
@@ -6435,17 +6433,17 @@
     },
     "model-064:pistonheads:bmw-e46-m3-csl": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T06:02:59Z",
+      "lastSearchedAt": "2026-09-17T17:42:36Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "PistonHeads surfaced current CSLs above the £100,000 watch ceiling and a £97,500 example explicitly unavailable; no candidate retained."
+      "limitation": "A current 2004 E46 M3 CSL at £139,995 surfaced on PistonHeads, but it exceeds the £100,000 model ceiling; no qualifying advert retained."
     },
     "model-064:specialist-dealers:bmw-e46-m3-csl": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T06:02:59Z",
+      "lastSearchedAt": "2026-09-17T17:42:36Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Specialist search found City Classics' E46 M3 CSL explicitly marked SOLD; no candidate retained."
+      "limitation": "Hero Motor Company currently shows an E46 M3 CSL at £105,000, above the £100,000 model ceiling; no qualifying specialist-dealer advert retained."
     },
     "model-065:911uk:maserati-gransport-mc-victory": {
       "status": "searched",
@@ -6456,10 +6454,10 @@
     },
     "model-065:autotrader:maserati-gransport-mc-victory": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T06:02:59Z",
+      "lastSearchedAt": "2026-09-17T17:42:36Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Auto Trader search produced no direct current Maserati GranSport MC Victory car-details advert."
+      "limitation": "Auto Trader search produced no direct current UK Maserati GranSport MC Victory advert within the £30,000-£50,000 model band strong enough to retain."
     },
     "model-065:bonhams-cars:maserati-gransport-mc-victory": {
       "status": "searched",
@@ -6470,10 +6468,10 @@
     },
     "model-065:car-and-classic:maserati-gransport-mc-victory": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T06:02:59Z",
+      "lastSearchedAt": "2026-09-17T17:42:36Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Car & Classic search produced no direct current UK Maserati GranSport MC Victory advert with fixed qualifying price."
+      "limitation": "Car & Classic's £49,995 blue MC Victory advert C2049895 is now explicitly removed; currently visible UK MC Victory stock around £29,925 is below the model £30,000 floor. No qualifying advert retained."
     },
     "model-065:classic-trader:maserati-gransport-mc-victory": {
       "status": "searched",
@@ -6491,10 +6489,10 @@
     },
     "model-065:ebay:maserati-gransport-mc-victory": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T06:02:59Z",
+      "lastSearchedAt": "2026-09-17T17:42:36Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "eBay search produced no direct current Maserati GranSport MC Victory vehicle advert."
+      "limitation": "eBay search returned no direct current qualifying UK Maserati GranSport MC Victory vehicle advert within the model rules."
     },
     "model-065:facebook-groups:maserati-gransport-mc-victory": {
       "status": "blocked",
@@ -9587,10 +9585,10 @@
     },
     "model-095:collecting-cars:alfa-romeo-156-gta-sportwagon-manual-under-50000-miles-low-owners": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-15T23:04:32Z",
+      "lastSearchedAt": "2026-09-17T17:42:36Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Only completed/sold auction-result pages surfaced; rejected before verification."
+      "limitation": "Collecting Cars search returned no active current fixed-price UK Alfa Romeo 156 GTA Sportwagon advert meeting the manual/condition criteria; completed sale material was excluded."
     },
     "model-095:ebay:alfa-romeo-156-gta-sportwagon-manual-under-50000-miles-low-owners": {
       "status": "searched",
@@ -10151,59 +10149,59 @@
     },
     "model-011:bonhams-cars:lotus-esprit-v8-v8-gt": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T00:05:48Z",
+      "lastSearchedAt": "2026-09-17T17:42:36Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No current purchasable Bonhams Cars Lotus Esprit V8/V8 GT lot surfaced; historical results rejected."
+      "limitation": "Bonhams Cars search returned no active current fixed-price UK Lotus Esprit V8/V8 GT advert; historical/completed lots were excluded."
     },
     "model-011:classic-trader:lotus-esprit-v8-v8-gt": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T00:05:48Z",
+      "lastSearchedAt": "2026-09-17T17:42:36Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No direct current UK Classic Trader Lotus Esprit V8/V8 GT advert strong enough to retain surfaced."
+      "limitation": "Classic Trader search returned no direct current UK Lotus Esprit V8/V8 GT advert within the model rules strong enough to retain."
     },
     "model-011:collecting-cars:lotus-esprit-v8-v8-gt": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T00:05:48Z",
+      "lastSearchedAt": "2026-09-17T17:42:36Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Surfaced Lotus Esprit V8 Collecting Cars pages were historical/completed auctions; none retained."
+      "limitation": "Collecting Cars results were completed/historical Lotus Esprit V8 material rather than a current fixed-price qualifying advert."
     },
     "model-012:bonhams-cars:dodge-viper-rt-10-gts-srt-10": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T00:05:48Z",
+      "lastSearchedAt": "2026-09-17T17:42:36Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No current purchasable UK Bonhams Cars Dodge Viper RT/10, GTS or SRT-10 lot surfaced."
+      "limitation": "Bonhams Cars search returned no active current fixed-price UK Dodge Viper RT/10, GTS or SRT-10 advert within the model rules."
     },
     "model-012:classic-trader:dodge-viper-rt-10-gts-srt-10": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T00:17:33Z",
+      "lastSearchedAt": "2026-09-17T17:42:36Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No plausible current direct UK Classic Trader Dodge Viper fixed-price advert surfaced strongly enough to retain."
+      "limitation": "Classic Trader search returned no direct current UK Dodge Viper advert within the model rules strong enough to retain."
     },
     "model-012:collecting-cars:dodge-viper-rt-10-gts-srt-10": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T00:17:33Z",
+      "lastSearchedAt": "2026-09-17T17:42:36Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Collecting Cars surfaced auction/historical Dodge Viper pages, including ended lots; no current fixed-price candidate retained."
+      "limitation": "Collecting Cars results were completed/historical Dodge Viper auctions rather than a current fixed-price qualifying advert."
     },
     "model-015:bonhams-cars:tvr-tuscan-tuscan-s-mk2": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T00:17:33Z",
+      "lastSearchedAt": "2026-09-17T17:42:36Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No current direct fixed-price Bonhams Cars TVR Tuscan/Tuscan S/Mk2 advert surfaced."
+      "limitation": "Bonhams Cars search returned no active current fixed-price UK TVR Tuscan/Tuscan S/Mk2 advert; completed or historical lots were excluded."
     },
     "model-015:classic-trader:tvr-tuscan-tuscan-s-mk2": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T00:17:33Z",
+      "lastSearchedAt": "2026-09-17T17:42:36Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Classic Trader surfaced an auction/expired TVR Tuscan advert rather than a current fixed-price listing; nothing retained."
+      "limitation": "Classic Trader search returned no direct current UK TVR Tuscan/Tuscan S/Mk2 advert within the model rules strong enough to retain."
     },
     "model-015:collecting-cars:tvr-tuscan-tuscan-s-mk2": {
       "status": "searched",
