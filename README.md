@@ -63,3 +63,9 @@ Open `/admin` (also linked in the footer) and sign in with the private `GP_ADMIN
 The admin queue shows visitor reports, original adverts, hidden cars and review history. Check the original advert, add a review note, then confirm unavailable and hide, or dismiss a report that is incorrect. Reports never hide cars automatically. Hidden cars can have their admin hold removed after a new check; this does not bypass ordinary eligibility or freshness rules.
 
 Reviews are immutable records in private Blob under `availability-reviews/`. A report is cleared only after its review is saved. Hides apply by listing ID and original URL to the initial page, refreshed feed, shared car page and newly generated share images. Feed updates cannot override an admin hold. If review storage cannot be read, new page loads suppress listings and the feed API reports an error rather than republishing hidden cars. Existing visitors refresh their listings every minute. Previously cached third-party share previews may take time to update.
+
+## Daily selection report
+
+Run `npm run selection-report` to write `data/reports/latest-selection-report.json` from the current public feed. Failed feed requests retain the previous snapshot. The existing daily automation runs this command; hourly watchlist schedules are unchanged.
+
+`/report` (or `/report?locale=es`) and `/api/selection-report` generate the same selection at request time, respecting owner holds and approvals. Fixed criteria: 1995–2010, £10,000–£100,000, no BMW 1M or Focus RS, no 3/4-speed gearboxes, maximum 4 per year, 3 per model, 50 overall. Seller and photo checks must be within 24 hours even when the main feed retains older verified adverts. Query parameters cannot relax these rules. Report generation does not recheck seller adverts or change their check timestamps.

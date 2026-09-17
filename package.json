@@ -12,7 +12,8 @@
     "lint": "oxlint",
     "format": "oxfmt",
     "typecheck": "tsc --noEmit",
-    "test": "node --experimental-strip-types --test tests/*.test.mjs"
+    "test": "node --experimental-strip-types --test tests/*.test.mjs",
+    "selection-report": "node --experimental-strip-types scripts/build-selection-report.mjs"
   },
   "dependencies": {
     "@base-ui/react": "1.7.0",
