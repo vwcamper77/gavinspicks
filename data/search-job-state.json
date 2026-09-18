@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-18T08:40:51Z",
+  "updatedAt": "2026-09-18T09:33:48Z",
   "compactedFromQueueAt": "2026-09-10T06:41:54.207Z",
   "note": "Cumulative worker-write state. Job results are merged from immutable run deltas and folded back into data/search-queue.json by scripts/build-search-queue.mjs.",
   "jobs": {
@@ -492,17 +492,17 @@
     },
     "model-096:bonhams-cars:bmw-e46-m3-manual-coupe-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T23:58:41Z",
+      "lastSearchedAt": "2026-09-18T09:33:48Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No current fixed-price qualifying factory-manual E46 M3 Coupé at or below 50,000 miles surfaced; auction/history and non-qualifying material was rejected."
+      "limitation": "Bonhams search returned historical/irrelevant material rather than a current purchasable UK E46 M3 manual coupe lot. No candidate retained."
     },
     "model-096:bonhams-cars:bmw-m3-e46-6-speed-manual-coupe-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T23:58:41Z",
+      "lastSearchedAt": "2026-09-18T09:33:48Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No current fixed-price qualifying factory-manual E46 M3 Coupé at or below 50,000 miles surfaced; auction/history and non-qualifying material was rejected."
+      "limitation": "Bonhams search returned historical/irrelevant material rather than a current purchasable UK E46 M3 factory 6-speed manual coupe lot. No candidate retained."
     },
     "model-096:car-and-classic:bmw-e46-m3-manual-coupe-uk": {
       "status": "searched",
@@ -772,17 +772,17 @@
     },
     "model-096:facebook-groups:bmw-e46-m3-manual-coupe-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T20:08:07Z",
+      "lastSearchedAt": "2026-09-18T09:33:48Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public Facebook indexing returned no verifiable current seller advert URL for a qualifying E46 M3 manual coupe."
+      "limitation": "Public Facebook indexing did not expose an inspectable current UK E46 M3 manual coupe advert. No candidate retained."
     },
     "model-096:facebook-groups:bmw-m3-e46-6-speed-manual-coupe-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T20:08:07Z",
+      "lastSearchedAt": "2026-09-18T09:33:48Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public Facebook indexing returned no verifiable current seller advert URL for a qualifying E46 M3 manual coupe."
+      "limitation": "Public Facebook indexing did not expose an inspectable current UK E46 M3 factory 6-speed manual coupe advert. No candidate retained."
     },
     "model-096:ferrarichat:bmw-e46-m3-manual-coupe-uk": {
       "status": "searched",
@@ -1091,10 +1091,10 @@
     },
     "model-072:ebay:bmw-1m-coupe-manual-45000-55000-full-service-history": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-18T01:22:31Z",
+      "lastSearchedAt": "2026-09-18T09:33:48Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search executed. No qualifying current eBay UK BMW 1M Coupe classified advert surfaced."
+      "limitation": "No direct current eBay BMW 1M advert matching the configured £45,000–£55,000 band surfaced."
     },
     "model-072:autotrader:bmw-1m-coupe-manual-45000-55000-full-service-history": {
       "status": "searched",
@@ -1105,17 +1105,17 @@
     },
     "model-072:pistonheads:bmw-1m-coupe-manual-45000-55000-full-service-history": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-18T01:22:31Z",
+      "lastSearchedAt": "2026-09-18T09:33:48Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search executed. No direct current PistonHeads BMW 1M Coupe advert meeting the £45,000-£55,000/manual/history target surfaced."
+      "limitation": "PistonHeads listing 19247488 surfaced but explicitly says the car is no longer available for purchase and is outside the requested 45k–55k profile; it was rejected."
     },
     "model-072:car-and-classic:bmw-1m-coupe-manual-45000-55000-full-service-history": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-18T01:22:31Z",
+      "lastSearchedAt": "2026-09-18T09:33:48Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search executed. No direct current Car & Classic BMW 1M Coupe advert meeting the £45,000-£55,000 target and required history surfaced."
+      "limitation": "No direct current Car & Classic BMW 1M advert matching the configured £45,000–£55,000 band and requested history profile surfaced."
     },
     "model-072:collecting-cars:bmw-1m-coupe-manual-45000-55000-full-service-history": {
       "status": "searched",
@@ -1140,10 +1140,10 @@
     },
     "model-072:gumtree:bmw-1m-coupe-manual-45000-55000-full-service-history": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-18T01:22:31Z",
+      "lastSearchedAt": "2026-09-18T09:33:48Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search executed. No qualifying current Gumtree BMW 1M Coupe advert surfaced."
+      "limitation": "No direct current Gumtree BMW 1M advert matching the configured £45,000–£55,000 band surfaced."
     },
     "model-072:911uk:bmw-1m-coupe-manual-45000-55000-full-service-history": {
       "status": "searched",
@@ -1168,17 +1168,17 @@
     },
     "model-072:specialist-dealers:bmw-1m-coupe-manual-45000-55000-full-service-history": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-18T01:22:31Z",
+      "lastSearchedAt": "2026-09-18T09:33:48Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search executed. No new current specialist-dealer BMW 1M Coupe advert meeting the configured target was retained."
+      "limitation": "Specialist search surfaced sold/POA or non-qualifying 1M material; no direct current advert matching the £45,000–£55,000 rule was retained."
     },
     "model-078:facebook-groups:renault-clio-182-trophy": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T20:08:07Z",
+      "lastSearchedAt": "2026-09-18T09:33:48Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public Facebook indexing returned no verifiable current seller advert URL; group/login/generic results were discarded."
+      "limitation": "Public Facebook indexing did not expose an inspectable current Clio 182 Trophy sale advert; login/group surfaces were not retained."
     },
     "model-078:ebay:renault-clio-182-trophy": {
       "status": "searched",
@@ -1809,17 +1809,21 @@
     },
     "model-097:specialist-dealers:bmw-e39-m5-manual-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-18T01:22:31Z",
-      "lastResultCount": 0,
-      "candidateUrls": [],
-      "limitation": "Search executed. One current 46,637-mile Car & Classic dealer advert (C2060885) was re-found, but that exact vehicle is already tracked; other surfaced E39 M5 adverts exceeded the 50,000-mile cap, were sold/POA, or were historical."
+      "lastSearchedAt": "2026-09-18T09:33:48Z",
+      "lastResultCount": 1,
+      "candidateUrls": [
+        "https://www.carandclassic.com/car/C2060885"
+      ],
+      "limitation": "Current dealer-backed Car & Classic advert C2060885 remains For Sale at £50,000, 46,637 miles and six-speed manual in Surrey. Vehicle identity is already tracked, so no duplicate candidate was added."
     },
     "model-097:specialist-dealers:bmw-m5-e39-6-speed-manual-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-18T01:22:31Z",
-      "lastResultCount": 0,
-      "candidateUrls": [],
-      "limitation": "Search executed. The qualifying 46,637-mile C2060885 E39 M5 was already present by vehicle identity; other current-looking results exceeded the 50,000-mile cap or failed current-stock/fixed-price rules."
+      "lastSearchedAt": "2026-09-18T09:33:48Z",
+      "lastResultCount": 1,
+      "candidateUrls": [
+        "https://www.carandclassic.com/car/C2060885"
+      ],
+      "limitation": "Current dealer-backed Car & Classic advert C2060885 remains For Sale at £50,000, 46,637 miles and six-speed manual in Surrey. Same vehicle is already tracked; duplicate identity suppressed."
     },
     "model-070:gumtree:ford-focus-rs500": {
       "status": "searched",
@@ -1911,31 +1915,31 @@
     },
     "model-076:pistonheads:ford-focus-st500": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-18T00:44:06Z",
+      "lastSearchedAt": "2026-09-18T09:33:48Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search executed. No current direct PistonHeads ST500 advert surfaced."
+      "limitation": "Public search returned PistonHeads Focus/ST inventory surfaces but no direct current ST500 advert URL. Generic search/category pages were rejected."
     },
     "model-076:specialist-dealers:ford-focus-st500": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-18T00:44:06Z",
+      "lastSearchedAt": "2026-09-18T09:33:48Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search executed. No new current specialist-dealer ST500 advert meeting the fixed-price/current-stock rules was found."
+      "limitation": "Specialist-dealer search did not surface a direct current Ford Focus ST500 advert meeting the actual-advert requirement. Aggregation and generic stock pages were rejected."
     },
     "model-082:autotrader:subaru-impreza-p1": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-18T00:44:06Z",
+      "lastSearchedAt": "2026-09-18T09:33:48Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search executed. No current Auto Trader P1 could be verified with the required <30,000 miles and 1-2 total owners."
+      "limitation": "Auto Trader results were generic inventory/category surfaces rather than a direct current P1 car-details advert. No candidate retained."
     },
     "model-082:car-and-classic:subaru-impreza-p1": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-18T00:44:06Z",
+      "lastSearchedAt": "2026-09-18T09:33:48Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search executed. Surfaced P1 adverts were auctions/older pages or exceeded the strict 29,999-mile maximum; none retained."
+      "limitation": "Direct P1 results were over the configured sub-30,000-mile cap, sold/removed, or historical auction material. No qualifying current advert retained."
     },
     "model-026:collecting-cars:lotus-exige-s1": {
       "status": "searched",
@@ -2149,17 +2153,17 @@
     },
     "model-082:ebay:subaru-impreza-p1": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-18T00:44:06Z",
+      "lastSearchedAt": "2026-09-18T09:33:48Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search executed. Surfaced eBay P1 was an auction/ended or over the strict mileage cap; no qualifying fixed-price current advert retained."
+      "limitation": "Surfaced P1 adverts were a post-date auction listing over 40,000 miles or an unfinished/project car; both failed the target rules/current-advert gate."
     },
     "model-082:gumtree:subaru-impreza-p1": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-18T01:22:31Z",
+      "lastSearchedAt": "2026-09-18T09:33:48Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search executed. No current Gumtree Subaru Impreza P1 advert surfaced that could satisfy the strict under-30,000-mile and 1-2-total-owner rules."
+      "limitation": "A Gumtree P1 result referenced a live auction dated 12 September and 40,180 miles. The auction date has passed and mileage exceeds the strict cap, so it was rejected."
     },
     "model-082:pistonheads:subaru-impreza-p1": {
       "status": "searched",
@@ -2522,10 +2526,10 @@
     },
     "model-070:specialist-dealers:ford-focus-rs500": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-18T01:22:31Z",
+      "lastSearchedAt": "2026-09-18T09:33:48Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search executed. No new current specialist-dealer Ford Focus RS500 advert meeting the rules was found."
+      "limitation": "No direct current specialist-dealer Focus RS500 advert survived current-availability and actual-advert filtering in this search."
     },
     "model-082:bonhams-cars:subaru-impreza-p1": {
       "status": "searched",
@@ -3907,10 +3911,10 @@
     },
     "model-078:911uk:renault-clio-182-trophy": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T20:08:07Z",
+      "lastSearchedAt": "2026-09-18T09:33:48Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public search executed; no plausible current direct advert matching the configured rule survived pre-verification. Category/search pages, stale/completed, duplicate and out-of-rule results were discarded."
+      "limitation": "No direct current 911UK owner-sale advert for a qualifying Clio 182 Trophy surfaced. Informational/forum discussion was rejected."
     },
     "model-078:ferrarichat:renault-clio-182-trophy": {
       "status": "searched",
@@ -4321,10 +4325,10 @@
     },
     "model-043:bonhams-cars:aston-martin-v8-vantage-n400-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T14:07:15Z",
+      "lastSearchedAt": "2026-09-18T09:33:48Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Bonhams Cars search returned no current fixed-price UK advert for this exact manual Aston Martin derivative; historical/completed auction and generic inventory pages were rejected."
+      "limitation": "No current purchasable UK Bonhams N400 manual lot surfaced; historical/completed auction material was rejected."
     },
     "model-043:car-and-classic:aston-martin-v8-vantage-n400-manual": {
       "status": "searched",
@@ -4335,17 +4339,17 @@
     },
     "model-043:classic-trader:aston-martin-v8-vantage-n400-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T14:07:15Z",
+      "lastSearchedAt": "2026-09-18T09:33:48Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Classic Trader search returned no current fixed-price UK advert for this exact manual Aston Martin derivative; historical/completed auction and generic inventory pages were rejected."
+      "limitation": "A live Classic Trader N400 surfaced but it is a Netherlands-based LHD automatic, not a UK manual target. Rejected before candidate retention."
     },
     "model-043:collecting-cars:aston-martin-v8-vantage-n400-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T14:07:15Z",
+      "lastSearchedAt": "2026-09-18T09:33:48Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Collecting Cars search returned no current fixed-price UK advert for this exact manual Aston Martin derivative; historical/completed auction and generic inventory pages were rejected."
+      "limitation": "Collecting Cars N400 results were historical/completed auction material, not a current purchasable advert. No candidate retained."
     },
     "model-043:ebay:aston-martin-v8-vantage-n400-manual": {
       "status": "searched",
@@ -4412,10 +4416,10 @@
     },
     "model-044:bonhams-cars:aston-martin-v8-vantage-n420-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T14:07:15Z",
+      "lastSearchedAt": "2026-09-18T09:33:48Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Bonhams Cars search returned no current fixed-price UK advert for this exact manual Aston Martin derivative; historical/completed auction and generic inventory pages were rejected."
+      "limitation": "No current purchasable UK Bonhams N420 manual lot surfaced; historical material rejected."
     },
     "model-044:car-and-classic:aston-martin-v8-vantage-n420-manual": {
       "status": "searched",
@@ -4426,17 +4430,17 @@
     },
     "model-044:classic-trader:aston-martin-v8-vantage-n420-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T14:07:15Z",
+      "lastSearchedAt": "2026-09-18T09:33:48Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Classic Trader search returned no current fixed-price UK advert for this exact manual Aston Martin derivative; historical/completed auction and generic inventory pages were rejected."
+      "limitation": "No direct current UK Classic Trader N420 manual advert satisfying the target surfaced."
     },
     "model-044:collecting-cars:aston-martin-v8-vantage-n420-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T14:07:15Z",
+      "lastSearchedAt": "2026-09-18T09:33:48Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Collecting Cars search returned no current fixed-price UK advert for this exact manual Aston Martin derivative; historical/completed auction and generic inventory pages were rejected."
+      "limitation": "The surfaced 2012 N420 Roadster Collecting Cars auction is completed/sold; completed auctions are rejected."
     },
     "model-044:ebay:aston-martin-v8-vantage-n420-manual": {
       "status": "searched",
@@ -4503,10 +4507,10 @@
     },
     "model-045:bonhams-cars:aston-martin-db9-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T14:07:15Z",
+      "lastSearchedAt": "2026-09-18T09:33:48Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Bonhams Cars search returned no current fixed-price UK advert for this exact manual Aston Martin derivative; historical/completed auction and generic inventory pages were rejected."
+      "limitation": "No current purchasable UK Bonhams DB9 manual lot surfaced; historical/completed lots were rejected."
     },
     "model-045:car-and-classic:aston-martin-db9-manual": {
       "status": "searched",
@@ -4517,17 +4521,17 @@
     },
     "model-045:classic-trader:aston-martin-db9-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T14:07:15Z",
+      "lastSearchedAt": "2026-09-18T09:33:48Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Classic Trader search returned no current fixed-price UK advert for this exact manual Aston Martin derivative; historical/completed auction and generic inventory pages were rejected."
+      "limitation": "No direct current UK Classic Trader DB9 manual advert survived location/current-status filtering."
     },
     "model-045:collecting-cars:aston-martin-db9-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T14:07:15Z",
+      "lastSearchedAt": "2026-09-18T09:33:48Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Collecting Cars search returned no current fixed-price UK advert for this exact manual Aston Martin derivative; historical/completed auction and generic inventory pages were rejected."
+      "limitation": "Surfaced manual DB9 Collecting Cars pages were historical auctions rather than active current sales. No candidate retained."
     },
     "model-045:ebay:aston-martin-db9-manual": {
       "status": "searched",
@@ -4594,10 +4598,10 @@
     },
     "model-046:bonhams-cars:aston-martin-db7-vantage-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T14:07:15Z",
+      "lastSearchedAt": "2026-09-18T09:33:48Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Bonhams Cars search returned no current purchasable DB7 Vantage manual advert."
+      "limitation": "No current purchasable UK Bonhams DB7 Vantage manual lot surfaced."
     },
     "model-046:car-and-classic:aston-martin-db7-vantage-manual": {
       "status": "searched",
@@ -4608,17 +4612,17 @@
     },
     "model-046:classic-trader:aston-martin-db7-vantage-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T14:07:15Z",
+      "lastSearchedAt": "2026-09-18T09:33:48Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Classic Trader surfaced a 1996 DB7 manual in Italy, not a UK DB7 Vantage manual; no qualifying advert retained."
+      "limitation": "Surfaced Classic Trader DB7 Vantage manual advert was outside the UK; no qualifying UK candidate retained."
     },
     "model-046:collecting-cars:aston-martin-db7-vantage-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T14:07:15Z",
+      "lastSearchedAt": "2026-09-18T09:33:48Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Collecting Cars surfaced DB7 Vantage manual auction pages, but the indexed examples were historical/completed or could not be confirmed as an active qualifying fixed-price advert; none retained."
+      "limitation": "Collecting Cars DB7 Vantage manual results were completed/historical auctions. No current candidate retained."
     },
     "model-046:ebay:aston-martin-db7-vantage-manual": {
       "status": "searched",
@@ -4685,10 +4689,10 @@
     },
     "model-047:bonhams-cars:aston-martin-db7-gt": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T14:07:15Z",
+      "lastSearchedAt": "2026-09-18T09:33:48Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Bonhams Cars search returned no current purchasable UK DB7 GT advert."
+      "limitation": "No current purchasable UK Bonhams DB7 GT lot surfaced; historical auction results were rejected."
     },
     "model-047:car-and-classic:aston-martin-db7-gt": {
       "status": "searched",
@@ -4702,17 +4706,17 @@
     },
     "model-047:classic-trader:aston-martin-db7-gt": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T14:07:15Z",
+      "lastSearchedAt": "2026-09-18T09:33:48Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Classic Trader search returned DB7 inventory but no direct current UK DB7 GT advert strong enough to retain."
+      "limitation": "Classic Trader DB7 GT results were non-UK or otherwise non-qualifying for the current UK watch. No candidate retained."
     },
     "model-047:collecting-cars:aston-martin-db7-gt": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T14:07:15Z",
+      "lastSearchedAt": "2026-09-18T09:33:48Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "The 2004 DB7 GT manual Collecting Cars page explicitly states it is sold; historical/completed auction pages were rejected."
+      "limitation": "Collecting Cars DB7 GT results were completed historical auctions, not current purchasable adverts."
     },
     "model-047:ebay:aston-martin-db7-gt": {
       "status": "searched",
@@ -4783,10 +4787,10 @@
     },
     "model-048:bonhams-cars:porsche-996-gt3-mk1-mk2": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T14:07:15Z",
+      "lastSearchedAt": "2026-09-18T09:33:48Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Bonhams Cars search returned no current purchasable UK 996 GT3 advert."
+      "limitation": "No current purchasable UK Bonhams 996 GT3 Mk1/Mk2 lot surfaced; historical/completed results were rejected."
     },
     "model-048:car-and-classic:porsche-996-gt3-mk1-mk2": {
       "status": "searched",
@@ -9214,10 +9218,10 @@
     },
     "model-090:specialist-dealers:mitsubishi-evo-ix-mr-fq360": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T19:40:26Z",
+      "lastSearchedAt": "2026-09-18T09:33:48Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Current specialist FQ360 examples were about 48,000 and 80,000 miles, outside the strict cap."
+      "limitation": "Direct specialist FQ360 adverts surfaced at 38k–80k miles, above this target's strict sub-30,000-mile cap; no qualifying candidate retained."
     },
     "model-091:911uk:mitsubishi-evo-x-fq360-manual": {
       "status": "searched",
@@ -9235,17 +9239,17 @@
     },
     "model-091:autotrader:mitsubishi-evo-x-fq360-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T19:40:26Z",
+      "lastSearchedAt": "2026-09-18T09:33:48Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No direct current FQ360 manual car-details advert met 2008-2010, under 30,000 miles and maximum two owners."
+      "limitation": "No direct current Auto Trader FQ360 manual advert satisfying the strict sub-30,000-mile and maximum-two-owner rules surfaced."
     },
     "model-091:autotrader:mitsubishi-evo-x-fq400-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T19:40:26Z",
+      "lastSearchedAt": "2026-09-18T09:33:48Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No direct current FQ400 manual car-details advert met 2008-2010, under 30,000 miles and maximum two owners."
+      "limitation": "No direct current Auto Trader FQ400 manual advert satisfying the strict sub-30,000-mile and maximum-two-owner rules surfaced."
     },
     "model-091:bonhams-cars:mitsubishi-evo-x-fq360-manual": {
       "status": "searched",
@@ -9263,17 +9267,17 @@
     },
     "model-091:car-and-classic:mitsubishi-evo-x-fq360-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T19:40:26Z",
+      "lastSearchedAt": "2026-09-18T09:33:48Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "The surfaced FQ360 is 92,978 miles and labelled NOW SOLD in current inventory; it fails mileage and availability."
+      "limitation": "Car & Classic FQ360 material was sold or far over the strict mileage cap; no qualifying current candidate retained."
     },
     "model-091:car-and-classic:mitsubishi-evo-x-fq400-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T19:40:26Z",
+      "lastSearchedAt": "2026-09-18T09:33:48Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "The exact 2009 Mirfield 26,000-mile FQ400 advert now says removed through sale or otherwise; the other 27,752-mile FQ400 is advertised as 2011, outside the year rule."
+      "limitation": "The current 27,752-mile FQ400 #31/35 advert has six former keepers and Cat S history, exceeding the maximum-two-owner rule; another low-mileage advert is removed. No qualifying candidate retained."
     },
     "model-091:classic-trader:mitsubishi-evo-x-fq360-manual": {
       "status": "searched",
@@ -9305,17 +9309,17 @@
     },
     "model-091:ebay:mitsubishi-evo-x-fq360-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T19:40:26Z",
+      "lastSearchedAt": "2026-09-18T09:33:48Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "The direct eBay FQ360 has 114,000 miles and four previous owners, failing both hard caps."
+      "limitation": "No direct current eBay FQ360 manual advert satisfying the strict mileage/owner caps surfaced."
     },
     "model-091:ebay:mitsubishi-evo-x-fq400-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T19:40:26Z",
+      "lastSearchedAt": "2026-09-18T09:33:48Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No direct current FQ400 manual vehicle advert met 2008-2010, under 30,000 miles and maximum two owners."
+      "limitation": "No direct current eBay FQ400 manual advert satisfying the strict mileage/owner caps surfaced."
     },
     "model-091:facebook-groups:mitsubishi-evo-x-fq360-manual": {
       "status": "searched",
@@ -9347,17 +9351,17 @@
     },
     "model-091:gumtree:mitsubishi-evo-x-fq360-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T19:40:26Z",
+      "lastSearchedAt": "2026-09-18T09:33:48Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "The direct Gumtree FQ360 is a 2008 manual but has about 79,000 miles, failing the strict sub-30,000-mile rule."
+      "limitation": "No direct current Gumtree FQ360 manual advert satisfying the strict mileage/owner caps surfaced."
     },
     "model-091:gumtree:mitsubishi-evo-x-fq400-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T19:40:26Z",
+      "lastSearchedAt": "2026-09-18T09:33:48Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No direct current FQ400 manual advert met the model year, mileage and ownership rules."
+      "limitation": "No direct current Gumtree FQ400 manual advert satisfying the strict mileage/owner caps surfaced."
     },
     "model-091:lamborghini-talk:mitsubishi-evo-x-fq360-manual": {
       "status": "blocked",
@@ -9375,31 +9379,31 @@
     },
     "model-091:pistonheads:mitsubishi-evo-x-fq360-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T19:40:26Z",
+      "lastSearchedAt": "2026-09-18T09:33:48Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Results were NOW SOLD, historical auction pages, or failed year/mileage/owner caps; no qualifying current advert retained."
+      "limitation": "PistonHeads FQ360 results were sold/unavailable or over the strict mileage/owner caps; no qualifying current candidate retained."
     },
     "model-091:pistonheads:mitsubishi-evo-x-fq400-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T19:40:26Z",
+      "lastSearchedAt": "2026-09-18T09:33:48Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No current FQ400 manual advert met 2008-2010, under 30,000 miles and maximum two owners."
+      "limitation": "No current PistonHeads FQ400 manual advert satisfying the strict sub-30,000-mile and maximum-two-owner rules survived filtering."
     },
     "model-091:specialist-dealers:mitsubishi-evo-x-fq360-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T19:40:26Z",
+      "lastSearchedAt": "2026-09-18T09:33:48Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No current specialist FQ360 manual example met all year, mileage and owner rules."
+      "limitation": "Specialist search did not surface a qualifying current FQ360 manual within both strict mileage and owner caps."
     },
     "model-091:specialist-dealers:mitsubishi-evo-x-fq400-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T19:40:26Z",
+      "lastSearchedAt": "2026-09-18T09:33:48Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No current specialist FQ400 manual example met all year, mileage and owner rules."
+      "limitation": "Specialist search did not surface a qualifying current FQ400 manual within both strict mileage and owner caps."
     },
     "model-093:911uk:alfa-romeo-147-gta-manual-under-50000-miles-low-owners": {
       "status": "searched",
@@ -9410,10 +9414,10 @@
     },
     "model-093:autotrader:alfa-romeo-147-gta-manual-under-50000-miles-low-owners": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T19:40:26Z",
+      "lastSearchedAt": "2026-09-18T09:33:48Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Auto Trader exposed only generic 147 GTA inventory/category results, not a direct current car-details advert URL."
+      "limitation": "Auto Trader search exposed generic Alfa/147 inventory rather than a direct current 147 GTA manual car-details advert. Generic pages were rejected."
     },
     "model-093:bonhams-cars:alfa-romeo-147-gta-manual-under-50000-miles-low-owners": {
       "status": "searched",
