@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-18T01:22:31Z",
+  "updatedAt": "2026-09-18T02:41:12Z",
   "compactedFromQueueAt": "2026-09-10T06:41:54.207Z",
   "note": "Cumulative worker-write state. Job results are merged from immutable run deltas and folded back into data/search-queue.json by scripts/build-search-queue.mjs.",
   "jobs": {
@@ -375,10 +375,10 @@
     },
     "model-070:lamborghini-talk:ford-focus-rs500": {
       "status": "blocked",
-      "lastSearchedAt": "2026-09-17T13:56:26Z",
+      "lastSearchedAt": "2026-09-18T02:41:12Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public LamborghiniTalk access/search did not expose an accessible current Focus RS500 sale advert; the source remains access-limited and no bypass was attempted."
+      "limitation": "Public web access to LamborghiniTalk was blocked by robots.txt; no bypass was attempted."
     },
     "model-075:911uk:audi-tt-quattro-sport": {
       "status": "searched",
@@ -403,10 +403,10 @@
     },
     "model-075:gumtree:audi-tt-quattro-sport": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T18:27:16Z",
+      "lastSearchedAt": "2026-09-18T02:41:12Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Gumtree search produced no direct current qualifying Audi TT quattro Sport advert."
+      "limitation": "Fresh Gumtree results were later-model TT TDI/quattro Sport cars rather than the 2005-2006 TT quattro Sport 240 target; no qualifying candidate retained."
     },
     "model-075:lamborghini-talk:audi-tt-quattro-sport": {
       "status": "blocked",
@@ -426,10 +426,10 @@
     },
     "model-088:911uk:mitsubishi-evo-vi-tommi-makinen-edition": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T14:17:04Z",
+      "lastSearchedAt": "2026-09-18T02:41:12Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No current qualifying UK TME advert found."
+      "limitation": "No direct current UK Mitsubishi Evo VI Tommi Makinen Edition sale post satisfying the under-30,000-mile and maximum-two-owner rules surfaced on 911UK."
     },
     "model-088:ferrarichat:mitsubishi-evo-vi-tommi-makinen-edition": {
       "status": "searched",
@@ -1833,17 +1833,17 @@
     },
     "model-070:bonhams-cars:ford-focus-rs-mk2": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T16:29:31Z",
+      "lastSearchedAt": "2026-09-18T02:41:12Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Bonhams Cars search surfaced no active currently purchasable Focus RS Mk2 lot; historical/completed material was excluded."
+      "limitation": "No active fixed-price direct Bonhams Cars Ford Focus RS Mk2 advert surfaced; historical/completed auction material was excluded."
     },
     "model-070:bonhams-cars:ford-focus-rs500": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T16:29:31Z",
+      "lastSearchedAt": "2026-09-18T02:41:12Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Bonhams Cars search surfaced no active currently purchasable Focus RS500 lot; historical/completed material was excluded."
+      "limitation": "No active fixed-price direct Bonhams Cars Ford Focus RS500 advert surfaced; historical/completed auction material was excluded."
     },
     "model-070:classic-trader:ford-focus-rs-mk1": {
       "status": "searched",
@@ -1854,10 +1854,10 @@
     },
     "model-070:classic-trader:ford-focus-rs-mk2": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T16:29:31Z",
+      "lastSearchedAt": "2026-09-18T02:41:12Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Classic Trader search returned no direct current qualifying UK Focus RS Mk2 advert strong enough to retain."
+      "limitation": "No direct current qualifying UK Ford Focus RS Mk2 advert surfaced from Classic Trader."
     },
     "model-070:classic-trader:ford-focus-rs500": {
       "status": "searched",
@@ -2359,10 +2359,10 @@
     },
     "model-029:collecting-cars:lotus-exige-240r": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T07:20:48Z",
+      "lastSearchedAt": "2026-09-18T02:41:12Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Collecting Cars surfaced historical/completed Exige auctions, not a current fixed-price Exige 240R advert."
+      "limitation": "No active currently purchasable Lotus Exige 240R advert surfaced; historical/completed Collecting Cars auction material was excluded."
     },
     "model-029:ebay:lotus-exige-240r": {
       "status": "searched",
@@ -2429,10 +2429,10 @@
     },
     "model-030:bonhams-cars:lotus-exige-cup-240-cup-260": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T07:20:48Z",
+      "lastSearchedAt": "2026-09-18T02:41:12Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No current purchasable Bonhams Cars Exige Cup 240/Cup 260 road-registered advert was found."
+      "limitation": "No active current road-registered Lotus Exige Cup 240/Cup 260 advert surfaced on Bonhams Cars; completed/historical auction material was excluded."
     },
     "model-030:car-and-classic:lotus-exige-cup-240-cup-260": {
       "status": "searched",
@@ -2443,17 +2443,17 @@
     },
     "model-030:classic-trader:lotus-exige-cup-240-cup-260": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T07:20:48Z",
+      "lastSearchedAt": "2026-09-18T02:41:12Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No current UK Classic Trader Exige Cup 240/Cup 260 advert matching the exact derivative was found."
+      "limitation": "No direct current qualifying UK Lotus Exige Cup 240/Cup 260 advert surfaced from Classic Trader."
     },
     "model-030:collecting-cars:lotus-exige-cup-240-cup-260": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T07:20:48Z",
+      "lastSearchedAt": "2026-09-18T02:41:12Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Collecting Cars surfaced historical/sold Exige material; no current fixed-price Cup 240/Cup 260 advert retained."
+      "limitation": "No active currently purchasable Lotus Exige Cup 240/Cup 260 advert surfaced; historical/completed Collecting Cars auction material was excluded."
     },
     "model-030:ebay:lotus-exige-cup-240-cup-260": {
       "status": "searched",
@@ -2569,26 +2569,24 @@
     },
     "model-075:autotrader:audi-tt-quattro-sport": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T18:27:16Z",
+      "lastSearchedAt": "2026-09-18T02:41:12Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Fresh Auto Trader search did not surface a new direct current TT quattro Sport car-details URL strong enough to retain."
+      "limitation": "Search exposed generic Auto Trader TT inventory/category pages rather than a direct current TT quattro Sport car-details advert; generic pages were rejected."
     },
     "model-075:car-and-classic:audi-tt-quattro-sport": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T18:27:16Z",
-      "lastResultCount": 1,
-      "candidateUrls": [
-        "https://www.carandclassic.com/car/C2070853"
-      ],
-      "limitation": "The already-published 2006 Audi TT quattro Sport DU06FRC remains explicitly For Sale at £11,990/69,133 miles/manual with Zachary Luke Cars. No new better vehicle identity surfaced."
+      "lastSearchedAt": "2026-09-18T02:41:12Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "The surfaced TT quattro Sport advert C1834260 states that it has been removed through sale or otherwise; no current qualifying advert was retained."
     },
     "model-075:ebay:audi-tt-quattro-sport": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T18:27:16Z",
+      "lastSearchedAt": "2026-09-18T02:41:12Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "eBay search produced no new direct current TT quattro Sport advert strong enough to retain after rejecting stale/non-vehicle results."
+      "limitation": "The surfaced quattro Sport classified 137445754899 is ended/no longer available; another TT result was a completed non-quattro-Sport listing. No candidate retained."
     },
     "model-075:pistonheads:audi-tt-quattro-sport": {
       "status": "searched",
@@ -2662,10 +2660,10 @@
     },
     "model-031:bonhams-cars:lotus-elise-s1-111s": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T07:20:48Z",
+      "lastSearchedAt": "2026-09-18T02:41:12Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No current purchasable Bonhams Cars 1999-2000 Elise S1 111S advert was found."
+      "limitation": "No active current 1999-2000 Lotus Elise S1 111S advert surfaced on Bonhams Cars; completed/historical auction material was excluded."
     },
     "model-031:car-and-classic:lotus-elise-s1-111s": {
       "status": "searched",
@@ -2679,17 +2677,17 @@
     },
     "model-031:classic-trader:lotus-elise-s1-111s": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T07:20:48Z",
+      "lastSearchedAt": "2026-09-18T02:41:12Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Classic Trader surfaced a 1998 Elise 111/non-target cars, not a qualifying 1999-2000 S1 111S."
+      "limitation": "Classic Trader surfaced standard Elise 111 cars, wrong-year/specification examples and/or non-UK cars rather than a qualifying 1999-2000 Elise S1 111S; no candidate retained."
     },
     "model-031:collecting-cars:lotus-elise-s1-111s": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T07:20:48Z",
+      "lastSearchedAt": "2026-09-18T02:41:12Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "The relevant 1999 Elise 111S auction was completed/sold on 31 August 2026; no current qualifying advert retained."
+      "limitation": "The surfaced 1999 Lotus Elise S1 result was marked SOLD/completed; no current qualifying candidate was retained."
     },
     "model-031:ebay:lotus-elise-s1-111s": {
       "status": "searched",
@@ -2760,10 +2758,10 @@
     },
     "model-032:bonhams-cars:lotus-elise-sport-160": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T07:20:48Z",
+      "lastSearchedAt": "2026-09-18T02:41:12Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No current purchasable Bonhams Cars Elise Sport 160 advert was found."
+      "limitation": "No active current Lotus Elise Sport 160 advert surfaced on Bonhams Cars; completed/historical auction material was excluded."
     },
     "model-032:car-and-classic:lotus-elise-sport-160": {
       "status": "searched",
@@ -2774,17 +2772,17 @@
     },
     "model-032:classic-trader:lotus-elise-sport-160": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T07:20:48Z",
+      "lastSearchedAt": "2026-09-18T02:41:12Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No current UK Classic Trader Elise Sport 160 advert matching the exact derivative was found."
+      "limitation": "No direct current qualifying UK Lotus Elise Sport 160 advert surfaced from Classic Trader."
     },
     "model-032:collecting-cars:lotus-elise-sport-160": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T07:20:48Z",
+      "lastSearchedAt": "2026-09-18T02:41:12Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Collecting Cars surfaced historical/sold Lotus material; no current fixed-price Elise Sport 160 advert retained."
+      "limitation": "No active currently purchasable Lotus Elise Sport 160 advert surfaced; completed/historical Collecting Cars material was excluded."
     },
     "model-032:ebay:lotus-elise-sport-160": {
       "status": "searched",
@@ -2853,10 +2851,10 @@
     },
     "model-033:bonhams-cars:lotus-elise-s2-135r": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T07:20:48Z",
+      "lastSearchedAt": "2026-09-18T02:41:12Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No current purchasable Bonhams Cars Elise S2 135R advert was found."
+      "limitation": "No active current Lotus Elise S2 135R advert surfaced on Bonhams Cars; completed/historical auction material was excluded."
     },
     "model-033:car-and-classic:lotus-elise-s2-135r": {
       "status": "searched",
@@ -2925,10 +2923,10 @@
     },
     "model-070:bonhams-cars:ford-focus-rs-mk1": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T16:29:31Z",
+      "lastSearchedAt": "2026-09-18T02:41:12Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Bonhams Cars search surfaced no active currently purchasable Focus RS Mk1 lot; historical/completed material was excluded."
+      "limitation": "No active fixed-price direct Bonhams Cars Ford Focus RS Mk1 advert surfaced; historical/completed auction material was excluded."
     },
     "model-070:collecting-cars:ford-focus-rs-mk1": {
       "status": "searched",
@@ -3153,38 +3151,38 @@
     },
     "model-082:911uk:subaru-impreza-p1": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T13:56:26Z",
+      "lastSearchedAt": "2026-09-18T02:41:12Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "911UK search surfaced no direct current UK Subaru Impreza P1 advert satisfying the strict sub-30,000-mile and maximum-two-total-owner target."
+      "limitation": "No direct current UK Subaru Impreza P1 sale post satisfying the under-30,000-mile and maximum-two-owner rules surfaced on 911UK."
     },
     "model-082:facebook-groups:subaru-impreza-p1": {
-      "status": "blocked",
-      "lastSearchedAt": "2026-09-17T13:56:26Z",
+      "status": "searched",
+      "lastSearchedAt": "2026-09-18T02:41:12Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public Facebook-group search did not expose an accessible current Subaru Impreza P1 sale post; login/generic group results cannot establish a current advert."
+      "limitation": "No publicly accessible current Facebook group sale post for a qualifying Subaru Impreza P1 surfaced; generic/login/group surfaces were rejected."
     },
     "model-082:ferrarichat:subaru-impreza-p1": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T14:17:04Z",
+      "lastSearchedAt": "2026-09-18T02:41:12Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No current qualifying UK P1 advert found."
+      "limitation": "No direct current UK Subaru Impreza P1 sale post satisfying the under-30,000-mile and maximum-two-owner rules surfaced on FerrariChat."
     },
     "model-082:lamborghini-talk:subaru-impreza-p1": {
       "status": "blocked",
-      "lastSearchedAt": "2026-09-17T14:17:04Z",
+      "lastSearchedAt": "2026-09-18T02:41:12Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Blocked by robots.txt; no bypass attempted."
+      "limitation": "Public web access to LamborghiniTalk was blocked by robots.txt; no bypass was attempted."
     },
     "model-085:facebook-groups:subaru-impreza-rb320": {
-      "status": "blocked",
-      "lastSearchedAt": "2026-09-17T14:17:04Z",
+      "status": "searched",
+      "lastSearchedAt": "2026-09-18T02:41:12Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No accessible current sale post; login/generic group results rejected."
+      "limitation": "No publicly accessible current Facebook group sale post for a qualifying Subaru Impreza RB320 surfaced; generic/login/group surfaces were rejected."
     },
     "model-075:bonhams-cars:audi-tt-quattro-sport": {
       "status": "searched",
@@ -3921,24 +3919,24 @@
     },
     "model-078:ferrarichat:renault-clio-182-trophy": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T13:56:26Z",
+      "lastSearchedAt": "2026-09-18T02:41:12Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "FerrariChat search surfaced no direct current UK Clio 182 Trophy advert satisfying the strict sub-30,000-mile and maximum-two-total-owner target."
+      "limitation": "No direct current UK Renault Clio 182 Trophy sale post satisfying the under-30,000-mile and maximum-two-owner rules surfaced on FerrariChat."
     },
     "model-078:lamborghini-talk:renault-clio-182-trophy": {
       "status": "blocked",
-      "lastSearchedAt": "2026-09-17T14:17:04Z",
+      "lastSearchedAt": "2026-09-18T02:41:12Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Blocked by robots.txt; no bypass attempted."
+      "limitation": "Public web access to LamborghiniTalk was blocked by robots.txt; no bypass was attempted."
     },
     "model-085:911uk:subaru-impreza-rb320": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T14:17:04Z",
+      "lastSearchedAt": "2026-09-18T02:41:12Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No current qualifying UK RB320 advert found."
+      "limitation": "No direct current UK Subaru Impreza RB320 sale post satisfying the under-30,000-mile and maximum-two-owner rules surfaced on 911UK."
     },
     "model-040:autotrader:renault-clio-v6-phase-2": {
       "status": "searched",
@@ -4152,17 +4150,17 @@
     },
     "model-085:ferrarichat:subaru-impreza-rb320": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T14:17:04Z",
+      "lastSearchedAt": "2026-09-18T02:41:12Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No current qualifying UK RB320 advert found."
+      "limitation": "No direct current UK Subaru Impreza RB320 sale post satisfying the under-30,000-mile and maximum-two-owner rules surfaced on FerrariChat."
     },
     "model-085:lamborghini-talk:subaru-impreza-rb320": {
       "status": "blocked",
-      "lastSearchedAt": "2026-09-17T14:17:04Z",
+      "lastSearchedAt": "2026-09-18T02:41:12Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Blocked by robots.txt; no bypass attempted."
+      "limitation": "Public web access to LamborghiniTalk was blocked by robots.txt; no bypass was attempted."
     },
     "model-088:facebook-groups:mitsubishi-evo-vi-tommi-makinen-edition": {
       "status": "blocked",
@@ -4927,10 +4925,10 @@
     },
     "model-049:ferrarichat:porsche-997-1-gt3": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-15T20:02:46Z",
+      "lastSearchedAt": "2026-09-18T02:41:12Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No plausible current owner-sale advert found in the indexed FerrariChat results."
+      "limitation": "No direct current UK Porsche 997.1 GT3 sale post surfaced on FerrariChat; historical discussion and non-advert material were excluded."
     },
     "model-049:gumtree:porsche-997-1-gt3": {
       "status": "searched",
@@ -4941,10 +4939,10 @@
     },
     "model-049:lamborghini-talk:porsche-997-1-gt3": {
       "status": "blocked",
-      "lastSearchedAt": "2026-09-15T20:02:46Z",
+      "lastSearchedAt": "2026-09-18T02:41:12Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public search access to lamborghini-talk.com was blocked by robots.txt, so no advert could be verified from this source this run."
+      "limitation": "Public web access to LamborghiniTalk was blocked by robots.txt; no bypass was attempted."
     },
     "model-049:pistonheads:porsche-997-1-gt3": {
       "status": "searched",
@@ -4962,10 +4960,10 @@
     },
     "model-050:911uk:porsche-996-turbo-manual-x50-turbo-s": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-15T20:02:46Z",
+      "lastSearchedAt": "2026-09-18T02:41:12Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No fresh 911UK owner-sale thread could be verified as a current qualifying X50/Turbo S manual advert."
+      "limitation": "No direct current UK 911UK sale post for a Porsche 996 Turbo manual/X50/Turbo S surfaced; historical discussion and non-advert material were excluded."
     },
     "model-050:autotrader:porsche-996-turbo-manual-x50-turbo-s": {
       "status": "searched",
@@ -7927,24 +7925,24 @@
     },
     "model-080:specialist-dealers:renault-clio-172-cup": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T13:40:18Z",
+      "lastSearchedAt": "2026-09-18T02:41:12Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Specialist searches surfaced sold or high-mileage Clio 172 Cup examples; none met the sub-30,000-mile, maximum-two-total-owner and live-current-advert rules."
+      "limitation": "Specialist search surfaced high-mileage or sold Clio 172 Cup examples; current 39,000/66,000-mile examples exceed the strict under-30,000-mile cap. No candidate retained."
     },
     "model-080:specialist-dealers:renault-clio-182-cup": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T13:40:18Z",
+      "lastSearchedAt": "2026-09-18T02:41:12Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Specialist searches surfaced sold or high-mileage Clio 182 Cup examples; none met the sub-30,000-mile, maximum-two-total-owner and live-current-advert rules."
+      "limitation": "Surfaced specialist Clio 182 Cup material included an 88,000-mile example explicitly marked SOLD; no current under-30,000-mile, maximum-two-owner candidate was retained."
     },
     "model-080:specialist-dealers:renault-clio-r27-f1-team": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T13:40:18Z",
+      "lastSearchedAt": "2026-09-18T02:41:12Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Current R27 material found was above the strict mileage cap or otherwise non-qualifying; no direct qualifying specialist advert was retained."
+      "limitation": "A current Clio R27 F1 Team advert at £11,680/44,500 miles surfaced, but it exceeds the strict under-30,000-mile cap; no qualifying candidate retained."
     },
     "model-081:911uk:renault-megane-r26-f1-team": {
       "status": "searched",
@@ -7962,17 +7960,17 @@
     },
     "model-081:autotrader:renault-megane-r26-f1-team": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T13:40:18Z",
+      "lastSearchedAt": "2026-09-18T02:41:12Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Auto Trader returned generic Megane Renaultsport inventory/category pages but no direct qualifying car-details URL meeting the strict mileage/owner rules."
+      "limitation": "Search returned generic Auto Trader Renaultsport/Team inventory rather than a direct qualifying Megane R26 F1 Team car-details advert; generic pages were rejected."
     },
     "model-081:autotrader:renault-megane-r26-r": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T13:40:18Z",
+      "lastSearchedAt": "2026-09-18T02:41:12Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Auto Trader returned generic Megane Renaultsport inventory/category pages but no direct qualifying R26.R car-details URL meeting the strict mileage/owner rules."
+      "limitation": "Search returned generic Auto Trader inventory rather than a direct qualifying Megane R26.R car-details advert; generic pages were rejected."
     },
     "model-081:bonhams-cars:renault-megane-r26-f1-team": {
       "status": "searched",
@@ -7990,17 +7988,17 @@
     },
     "model-081:car-and-classic:renault-megane-r26-f1-team": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T13:40:18Z",
+      "lastSearchedAt": "2026-09-18T02:41:12Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Surfaced R26 adverts were removed/sold or exceeded the strict 30,000-mile and/or two-total-owner limits; no qualifying current URL was retained."
+      "limitation": "No direct current Car & Classic Megane R26 F1 Team advert satisfying the configured mileage/owner rules surfaced."
     },
     "model-081:car-and-classic:renault-megane-r26-r": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T13:40:18Z",
+      "lastSearchedAt": "2026-09-18T02:41:12Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Surfaced R26.R adverts were historical/removed or above the strict 30,000-mile limit; no qualifying current URL was retained."
+      "limitation": "No direct current Car & Classic Megane R26.R advert satisfying the configured mileage/owner rules surfaced."
     },
     "model-081:classic-trader:renault-megane-r26-f1-team": {
       "status": "searched",
@@ -8032,17 +8030,17 @@
     },
     "model-081:ebay:renault-megane-r26-f1-team": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T13:40:18Z",
+      "lastSearchedAt": "2026-09-18T02:41:12Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No direct current eBay R26 F1 Team advert meeting the strict mileage and total-owner limits was found."
+      "limitation": "No direct current eBay UK Megane R26 F1 Team vehicle advert satisfying the configured mileage/owner rules surfaced; parts/stale material was rejected."
     },
     "model-081:ebay:renault-megane-r26-r": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T13:40:18Z",
+      "lastSearchedAt": "2026-09-18T02:41:12Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No direct current eBay R26.R advert meeting the strict mileage and total-owner limits was found."
+      "limitation": "No direct current eBay UK Megane R26.R vehicle advert satisfying the configured mileage/owner rules surfaced; parts/stale material was rejected."
     },
     "model-081:facebook-groups:renault-megane-r26-f1-team": {
       "status": "searched",
@@ -8074,17 +8072,17 @@
     },
     "model-081:gumtree:renault-megane-r26-f1-team": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T13:40:18Z",
+      "lastSearchedAt": "2026-09-18T02:41:12Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No direct current Gumtree R26 F1 Team advert meeting the strict mileage and total-owner limits was found."
+      "limitation": "No direct current qualifying Gumtree Megane R26 F1 Team advert satisfying the configured mileage/owner rules surfaced."
     },
     "model-081:gumtree:renault-megane-r26-r": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T13:40:18Z",
+      "lastSearchedAt": "2026-09-18T02:41:12Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No direct current Gumtree R26.R advert meeting the strict mileage and total-owner limits was found."
+      "limitation": "No direct current qualifying Gumtree Megane R26.R advert satisfying the configured mileage/owner rules surfaced."
     },
     "model-081:lamborghini-talk:renault-megane-r26-f1-team": {
       "status": "blocked",
@@ -8102,31 +8100,31 @@
     },
     "model-081:pistonheads:renault-megane-r26-f1-team": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T13:40:18Z",
+      "lastSearchedAt": "2026-09-18T02:41:12Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "PistonHeads search produced no direct current R26 F1 Team advert meeting the strict mileage and total-owner rules."
+      "limitation": "No direct current PistonHeads Megane R26 F1 Team advert satisfying the configured mileage/owner rules surfaced."
     },
     "model-081:pistonheads:renault-megane-r26-r": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T13:40:18Z",
+      "lastSearchedAt": "2026-09-18T02:41:12Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "PistonHeads search produced no direct current R26.R advert meeting the strict mileage and total-owner rules."
+      "limitation": "No direct current PistonHeads Megane R26.R advert satisfying the configured mileage/owner rules surfaced."
     },
     "model-081:specialist-dealers:renault-megane-r26-f1-team": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T13:40:18Z",
+      "lastSearchedAt": "2026-09-18T02:41:12Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Specialist-dealer search produced no current R26 F1 Team advert meeting the strict sub-30,000-mile and maximum-two-total-owner rules."
+      "limitation": "No direct current specialist-dealer Megane R26 F1 Team advert satisfying the under-30,000-mile and maximum-two-owner rules surfaced."
     },
     "model-081:specialist-dealers:renault-megane-r26-r": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T13:40:18Z",
+      "lastSearchedAt": "2026-09-18T02:41:12Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Specialist-dealer search produced no current R26.R advert meeting the strict sub-30,000-mile and maximum-two-total-owner rules."
+      "limitation": "No direct current specialist-dealer Megane R26.R advert satisfying the under-30,000-mile and maximum-two-owner rules surfaced."
     },
     "model-083:911uk:subaru-impreza-rb5": {
       "status": "searched",
@@ -8137,10 +8135,10 @@
     },
     "model-083:autotrader:subaru-impreza-rb5": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T13:40:18Z",
+      "lastSearchedAt": "2026-09-18T02:41:12Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Auto Trader search produced no direct current RB5 car-details URL meeting the strict sub-30,000-mile and maximum-two-total-owner rules."
+      "limitation": "No direct current qualifying Auto Trader Subaru Impreza RB5 car-details advert satisfying the under-30,000-mile and maximum-two-owner rules surfaced."
     },
     "model-083:bonhams-cars:subaru-impreza-rb5": {
       "status": "searched",
