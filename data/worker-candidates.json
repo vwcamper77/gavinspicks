@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-18T19:32:04Z",
+  "updatedAt": "2026-09-18T20:47:48Z",
   "candidates": [
     {
       "modelId": "model-056",
@@ -1416,19 +1416,20 @@
       "url": "https://www.pistonheads.com/buy/listing/20287776",
       "source": "pistonheads",
       "discoveredAt": "2026-09-12T10:19:44Z",
-      "lastCheckedAt": "2026-09-17T07:41:10Z",
+      "lastCheckedAt": "2026-09-18T20:47:48Z",
       "status": "verification-pending",
-      "note": "2005 Vauxhall VX220 Turbo, £14,750, 75,800 miles, manual, private seller in Silchester. Current PistonHeads advert shows valid MOT, seller controls and a 29-photo gallery; car is modified with suspension/exhaust/remap work. Exact gallery images were not visually verified for overlays/manual-control evidence, so keep pending.",
-      "vehicleIdentity": "2005 Vauxhall VX220 Turbo | £14,500 | 75,800 miles | Silchester private seller"
+      "note": "Rechecked 18 Sep 2026: the actual PistonHeads advert is live and purchasable at £14,750 for a 2005 VX220 Turbo with 75,800 miles, manual gearbox, five previous owners, valid MOT and active private-seller contact controls in Silchester. The advert exposes a 29-photo seller gallery and does not state sold, reserved, deposit taken, under offer or unavailable. However, the exact PistonHeads image assets returned cache misses in this worker path, so the mandatory visual overlay and manual-control inspection could not be completed. Keep verification-pending; do not publish.",
+      "vehicleIdentity": "2005 Vauxhall VX220 Turbo | £14,750 | 75,800 miles | manual | Silchester private seller"
     },
     {
       "modelId": "model-037",
       "url": "https://www.pistonheads.com/buy/listing/20275189",
       "source": "pistonheads",
       "discoveredAt": "2026-09-12T10:19:44Z",
-      "lastCheckedAt": "2026-09-15T18:14:09Z",
+      "lastCheckedAt": "2026-09-18T20:47:48Z",
       "status": "unavailable",
-      "note": "2002 Vauxhall VX220 2.2, £14,299, 27,700 miles, manual, nine previous owners, current direct PistonHeads listing with 22 photos and seller purchase controls in search output. Detail-page fetch was not reliable in this run and exact images remain unverified, so do not publish yet."
+      "note": "Rechecked 18 Sep 2026: the actual PistonHeads advert for the 2002 Vauxhall VX220 2.2 at £14,299/27,700 miles/manual now explicitly states “This car is no longer available for purchase.” It therefore fails the hard current-availability rule and must remain excluded from publication/reverification queues. This is an unavailable outcome, not an assumption that the car was sold.",
+      "vehicleIdentity": "2002 Vauxhall VX220 2.2 | £14,299 | 27,700 miles | manual | PistonHeads #20275189"
     },
     {
       "modelId": "model-038",
