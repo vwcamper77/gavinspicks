@@ -1,0 +1,426 @@
+{
+  "createdAt": "2026-09-18T08:40:51Z",
+  "jobs": [
+    {
+      "id": "model-070:gumtree:ford-focus-rs-mk1",
+      "status": "searched",
+      "lastSearchedAt": "2026-09-18T08:40:51Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Public web query executed. Results did not contain a plausible current genuine Focus RS Mk1 advert after rejecting replicas, unrelated cars and stale pages."
+    },
+    {
+      "id": "model-070:gumtree:ford-focus-rs-mk2",
+      "status": "searched",
+      "lastSearchedAt": "2026-09-18T08:40:51Z",
+      "lastResultCount": 1,
+      "candidateUrls": ["https://www.gumtree.com/p/ford/ford-focus-rs-mk2/1802710411"],
+      "limitation": "One live Gumtree RS Mk2 advert surfaced. The URL already exists in worker state and has previously been rejected during verification; it was not re-added as a new candidate."
+    },
+    {
+      "id": "model-070:pistonheads:ford-focus-rs-mk1",
+      "status": "searched",
+      "lastSearchedAt": "2026-09-18T08:40:51Z",
+      "lastResultCount": 1,
+      "candidateUrls": ["https://www.pistonheads.com/buy/listing/20975833"],
+      "limitation": "Listing 20975833 is live and currently purchasable. Search also resurfaced listing 18346448, but the actual advert says MOT expired and no longer available, so it was excluded."
+    },
+    {
+      "id": "model-096:autotrader:bmw-e46-m3-manual-coupe-uk",
+      "status": "searched",
+      "lastSearchedAt": "2026-09-18T08:40:51Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "No plausible current Auto Trader advert satisfying the factory manual Coupe and 50,000-mile search constraint was returned."
+    },
+    {
+      "id": "model-096:autotrader:bmw-m3-e46-6-speed-manual-coupe-uk",
+      "status": "searched",
+      "lastSearchedAt": "2026-09-18T08:40:51Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "No plausible current Auto Trader advert satisfying the factory six-speed manual Coupe and 50,000-mile search constraint was returned."
+    },
+    {
+      "id": "model-096:car-and-classic:bmw-e46-m3-manual-coupe-uk",
+      "status": "searched",
+      "lastSearchedAt": "2026-09-18T08:40:51Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Car & Classic returned live E46 M3 adverts, but the low-mileage 3,100-mile car is £99,995, above model-096's £50,000 guide ceiling, while the other results exceeded the 50,000-mile cap or were removed. No qualifying advert URL retained."
+    },
+    {
+      "id": "model-096:car-and-classic:bmw-m3-e46-6-speed-manual-coupe-uk",
+      "status": "searched",
+      "lastSearchedAt": "2026-09-18T08:40:51Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Car & Classic returned live E46 M3 adverts, but none remained inside both the configured £20,000-£50,000 range and maximum 50,000 miles after filtering."
+    },
+    {
+      "id": "model-096:ebay:bmw-e46-m3-manual-coupe-uk",
+      "status": "searched",
+      "lastSearchedAt": "2026-09-18T08:40:51Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "eBay results were over the 50,000-mile cap, outside the configured price range, non-Coupe or stale. No plausible qualifying current advert retained."
+    },
+    {
+      "id": "model-097:ebay:bmw-m5-e39-6-speed-manual-uk",
+      "status": "searched",
+      "lastSearchedAt": "2026-09-18T08:40:51Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "No current E39 M5 six-speed manual advert at or below the 50,000-mile search cap was returned; unrelated E39 listings were rejected."
+    },
+    {
+      "id": "model-097:gumtree:bmw-e39-m5-manual-uk",
+      "status": "searched",
+      "lastSearchedAt": "2026-09-18T08:40:51Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "A live Gumtree E39 M5 was found at 148,000 miles, well above the 50,000-mile target cap, so no candidate URL was retained."
+    },
+    {
+      "id": "model-097:gumtree:bmw-m5-e39-6-speed-manual-uk",
+      "status": "searched",
+      "lastSearchedAt": "2026-09-18T08:40:51Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "A live Gumtree E39 M5 six-speed manual was found at 148,000 miles, above the 50,000-mile target cap, so no candidate URL was retained."
+    },
+    {
+      "id": "model-097:pistonheads:bmw-e39-m5-manual-uk",
+      "status": "searched",
+      "lastSearchedAt": "2026-09-18T08:40:51Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Current PistonHeads classified found was 95,000 miles; another 86,055-mile page explicitly says no longer available, and a 45,998-mile result is an auction page rather than a current qualifying classified. No candidate retained."
+    },
+    {
+      "id": "model-097:pistonheads:bmw-m5-e39-6-speed-manual-uk",
+      "status": "searched",
+      "lastSearchedAt": "2026-09-18T08:40:51Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "No current PistonHeads E39 M5 six-speed manual classified remained within the 50,000-mile cap after excluding over-mileage, unavailable and auction pages."
+    },
+    {
+      "id": "model-070:pistonheads:ford-focus-rs-mk2",
+      "status": "searched",
+      "lastSearchedAt": "2026-09-18T08:40:51Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Public web query executed; no plausible current PistonHeads Focus RS Mk2 advert URL survived filtering."
+    },
+    {
+      "id": "model-070:pistonheads:ford-focus-rs500",
+      "status": "searched",
+      "lastSearchedAt": "2026-09-18T08:40:51Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Public web query executed; no plausible current PistonHeads Focus RS500 advert URL survived filtering."
+    },
+    {
+      "id": "model-070:specialist-dealers:ford-focus-rs-mk1",
+      "status": "searched",
+      "lastSearchedAt": "2026-09-18T08:40:51Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Specialist-dealer search resurfaced a Car Cave RS Mk1 page explicitly marked Sold. It was rejected as historical/unavailable."
+    },
+    {
+      "id": "model-070:specialist-dealers:ford-focus-rs-mk2",
+      "status": "searched",
+      "lastSearchedAt": "2026-09-18T08:40:51Z",
+      "lastResultCount": 1,
+      "candidateUrls": ["https://carcavescotland.co.uk/ford-focus-rs-mk2/"],
+      "limitation": "Car Cave's current stock page shows a 2010 Frozen White Focus RS Mk2 at £44,995 and 5,699 miles as FOR SALE. This appears to be the same vehicle identity already held as a Car & Classic verification candidate, so the seller URL was not added as a duplicate candidate."
+    },
+    {
+      "id": "model-072:autotrader:bmw-1m-coupe-manual-45000-55000-full-service-history",
+      "status": "searched",
+      "lastSearchedAt": "2026-09-18T08:40:51Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "No plausible current Auto Trader BMW 1M Coupe advert matching the 45,000-55,000-mile/manual/history query was returned."
+    },
+    {
+      "id": "model-076:ebay:ford-focus-st500",
+      "status": "searched",
+      "lastSearchedAt": "2026-09-18T08:40:51Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Search surfaced eBay item 358421513335, but the actual item URL now returns 404. Other results were parts or unrelated Focus ST cars. No current advert retained."
+    },
+    {
+      "id": "model-076:gumtree:ford-focus-st500",
+      "status": "searched",
+      "lastSearchedAt": "2026-09-18T08:40:51Z",
+      "lastResultCount": 1,
+      "candidateUrls": ["https://www.gumtree.com/p/ford/ford-focus-st-500-limited-edition-/1802086090"],
+      "limitation": "One live actual Gumtree advert was found at £7,995. A second ST500 advert used a £1 placeholder and 'serious cash offers', so it was rejected for lacking a fixed asking price. The £7,995 advert was verified as live but fails model-076's configured £10,000 guide floor and therefore is not publishable."
+    },
+    {
+      "id": "model-001:facebook-groups:ferrari-360-modena-spider-manual",
+      "status": "searched",
+      "lastSearchedAt": "2026-09-18T08:40:51Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Public search returned Facebook login/group surfaces rather than an inspectable current vehicle advert. No candidate collected."
+    },
+    {
+      "id": "model-001:ferrarichat:ferrari-360-modena-spider-manual",
+      "status": "searched",
+      "lastSearchedAt": "2026-09-18T08:40:51Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "FerrariChat results were informational or historical discussion, not current seller adverts."
+    },
+    {
+      "id": "model-001:lamborghini-talk:ferrari-360-modena-spider-manual",
+      "status": "blocked",
+      "lastSearchedAt": "2026-09-18T08:40:51Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "lamborghini-talk.com was blocked by robots.txt in the public web search environment; no advert URLs could be verified from this source."
+    },
+    {
+      "id": "model-002:facebook-groups:ferrari-f355-manual",
+      "status": "searched",
+      "lastSearchedAt": "2026-09-18T08:40:51Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Public Facebook indexing exposed login/group pages only; no inspectable current F355 advert was found."
+    },
+    {
+      "id": "model-002:ferrarichat:ferrari-f355-manual",
+      "status": "searched",
+      "lastSearchedAt": "2026-09-18T08:40:51Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "FerrariChat search returned no plausible current UK F355 manual seller advert."
+    },
+    {
+      "id": "model-002:lamborghini-talk:ferrari-f355-manual",
+      "status": "blocked",
+      "lastSearchedAt": "2026-09-18T08:40:51Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "lamborghini-talk.com was blocked by robots.txt in the public web search environment; no advert URLs could be verified from this source."
+    },
+    {
+      "id": "model-003:facebook-groups:ferrari-550-maranello",
+      "status": "searched",
+      "lastSearchedAt": "2026-09-18T08:40:51Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Public Facebook results did not expose a current inspectable UK Ferrari 550 advert."
+    },
+    {
+      "id": "model-003:ferrarichat:ferrari-550-maranello",
+      "status": "searched",
+      "lastSearchedAt": "2026-09-18T08:40:51Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "FerrariChat results were historical/informational, not current seller adverts."
+    },
+    {
+      "id": "model-003:lamborghini-talk:ferrari-550-maranello",
+      "status": "blocked",
+      "lastSearchedAt": "2026-09-18T08:40:51Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "lamborghini-talk.com was blocked by robots.txt in the public web search environment; no advert URLs could be verified from this source."
+    },
+    {
+      "id": "model-004:facebook-groups:ferrari-456-gt-456m-gt-manual",
+      "status": "searched",
+      "lastSearchedAt": "2026-09-18T08:40:51Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Public Facebook indexing did not expose an inspectable current UK Ferrari 456 GT/456M GT manual advert."
+    },
+    {
+      "id": "model-064:911uk:bmw-e46-m3-csl",
+      "status": "searched",
+      "lastSearchedAt": "2026-09-18T08:40:51Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "911UK results were old forum threads, replicas or historical sold posts rather than a current M3 CSL advert."
+    },
+    {
+      "id": "model-064:facebook-groups:bmw-e46-m3-csl",
+      "status": "searched",
+      "lastSearchedAt": "2026-09-18T08:40:51Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Public Facebook results exposed group/login pages only; no current inspectable BMW E46 M3 CSL advert was found."
+    },
+    {
+      "id": "model-064:ferrarichat:bmw-e46-m3-csl",
+      "status": "searched",
+      "lastSearchedAt": "2026-09-18T08:40:51Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "FerrariChat search returned no plausible current UK BMW E46 M3 CSL seller advert."
+    },
+    {
+      "id": "model-064:lamborghini-talk:bmw-e46-m3-csl",
+      "status": "blocked",
+      "lastSearchedAt": "2026-09-18T08:40:51Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "lamborghini-talk.com was blocked by robots.txt in the public web search environment; no advert URLs could be verified from this source."
+    },
+    {
+      "id": "model-065:911uk:maserati-gransport-mc-victory",
+      "status": "searched",
+      "lastSearchedAt": "2026-09-18T08:40:51Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "911UK results were discussion pages, not a current Maserati GranSport MC Victory seller advert."
+    },
+    {
+      "id": "model-065:facebook-groups:maserati-gransport-mc-victory",
+      "status": "searched",
+      "lastSearchedAt": "2026-09-18T08:40:51Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Public Facebook results did not expose a current inspectable Maserati GranSport MC Victory advert."
+    },
+    {
+      "id": "model-065:ferrarichat:maserati-gransport-mc-victory",
+      "status": "searched",
+      "lastSearchedAt": "2026-09-18T08:40:51Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "FerrariChat search returned no plausible current UK Maserati GranSport MC Victory seller advert."
+    },
+    {
+      "id": "model-065:lamborghini-talk:maserati-gransport-mc-victory",
+      "status": "blocked",
+      "lastSearchedAt": "2026-09-18T08:40:51Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "lamborghini-talk.com was blocked by robots.txt in the public web search environment; no advert URLs could be verified from this source."
+    },
+    {
+      "id": "model-040:classic-trader:renault-clio-v6-phase-1",
+      "status": "searched",
+      "lastSearchedAt": "2026-09-18T08:40:51Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Classic Trader results were generic search/reference pages containing expired or POA historical listings, not a current qualifying Phase 1 advert."
+    },
+    {
+      "id": "model-040:classic-trader:renault-clio-v6-phase-2",
+      "status": "searched",
+      "lastSearchedAt": "2026-09-18T08:40:51Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Classic Trader results were generic search/reference pages containing expired or POA historical listings, not a current qualifying Phase 2 advert."
+    },
+    {
+      "id": "model-040:collecting-cars:renault-clio-v6-phase-1",
+      "status": "searched",
+      "lastSearchedAt": "2026-09-18T08:40:51Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Collecting Cars results were completed historical auctions marked Sold; completed auction pages were rejected."
+    },
+    {
+      "id": "model-040:collecting-cars:renault-clio-v6-phase-2",
+      "status": "searched",
+      "lastSearchedAt": "2026-09-18T08:40:51Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Collecting Cars results were completed historical auctions, including a September 2026 car marked Sold; completed auction pages were rejected."
+    },
+    {
+      "id": "model-041:bonhams-cars:aston-martin-v12-vantage-manual",
+      "status": "searched",
+      "lastSearchedAt": "2026-09-18T08:40:51Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "No plausible current Bonhams Cars/The Market V12 Vantage manual advert was returned."
+    },
+    {
+      "id": "model-041:classic-trader:aston-martin-v12-vantage-manual",
+      "status": "searched",
+      "lastSearchedAt": "2026-09-18T08:40:51Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "No plausible current UK Classic Trader V12 Vantage manual advert was returned."
+    },
+    {
+      "id": "model-041:collecting-cars:aston-martin-v12-vantage-manual",
+      "status": "searched",
+      "lastSearchedAt": "2026-09-18T08:40:51Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Search returned a 2013 historical Collecting Cars auction, outside model-041's 2009-2010 target years and not a current advert."
+    },
+    {
+      "id": "model-042:bonhams-cars:aston-martin-v8-vantage-4-3-4-7-manual",
+      "status": "searched",
+      "lastSearchedAt": "2026-09-18T08:40:51Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "No plausible current Bonhams Cars/The Market Aston Martin V8 Vantage manual advert was returned."
+    },
+    {
+      "id": "model-042:classic-trader:aston-martin-v8-vantage-4-3-4-7-manual",
+      "status": "searched",
+      "lastSearchedAt": "2026-09-18T08:40:51Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "No plausible current UK Classic Trader Aston Martin V8 Vantage manual advert was returned."
+    },
+    {
+      "id": "model-042:collecting-cars:aston-martin-v8-vantage-4-3-4-7-manual",
+      "status": "searched",
+      "lastSearchedAt": "2026-09-18T08:40:51Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Collecting Cars result was a completed 2009 V8 Vantage manual auction marked Sold, so it was rejected as historical/unavailable."
+    },
+    {
+      "id": "model-090:pistonheads:mitsubishi-evo-ix-mr-fq360",
+      "status": "searched",
+      "lastSearchedAt": "2026-09-18T08:40:51Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "No plausible current PistonHeads Evo IX MR FQ360 advert meeting the under-30,000-mile and maximum-two-owner query was returned."
+    },
+    {
+      "id": "model-090:specialist-dealers:mitsubishi-evo-ix-fq340",
+      "status": "searched",
+      "lastSearchedAt": "2026-09-18T08:40:51Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "No plausible current specialist-dealer Evo IX FQ340 advert meeting the under-30,000-mile and maximum-two-owner query was returned."
+    }
+  ],
+  "candidates": [
+    {
+      "modelId": "model-076",
+      "url": "https://www.gumtree.com/p/ford/ford-focus-st-500-limited-edition-/1802086090",
+      "source": "gumtree",
+      "discoveredAt": "2026-09-18T08:40:51Z",
+      "lastCheckedAt": "2026-09-18T08:40:51Z",
+      "status": "rejected",
+      "vehicleIdentity": "2008 Ford Focus ST500 | black | 81000 miles | Bournemouth",
+      "note": "Live Gumtree advert: 2008 black manual Focus ST500, £7,995, 81,000 miles, private seller in Bournemouth; seller states service history, cambelt, clutch/flywheel, block mod, uprated driveshafts, suspension refurbishment, stainless exhaust, intercooler and stage-one remap. The actual advert is live with seller contact/offer controls and a 16-image gallery. It is below model-076's configured £10,000 guide floor, so it fails the price rule and is rejected without publication. Genuine ST500 identity is also not independently established from an edition plaque or equivalent photo evidence in this run."
+    },
+    {
+      "modelId": "model-070",
+      "url": "https://www.pistonheads.com/buy/listing/20975833",
+      "source": "pistonheads",
+      "lastCheckedAt": "2026-09-18T08:40:51Z",
+      "status": "verification-pending",
+      "vehicleIdentity": "2003 Ford Focus RS Mk1 | 61360 miles | £20000 | Chippenham",
+      "note": "Rechecked on the actual PistonHeads advert: still live at £20,000, 61,360 miles, manual, private seller in Chippenham, valid MOT and explicit 'Available to view now'. Advert describes long-term ownership and light modifications. Current availability is strong, but exact gallery images were not visually inspectable for SOLD/RESERVED overlays and manual-control evidence in this run, so keep verification-pending and do not publish."
+    }
+  ]
+}
