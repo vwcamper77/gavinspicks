@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-18T21:12:59Z",
+  "updatedAt": "2026-09-18T22:15:16Z",
   "compactedFromQueueAt": "2026-09-10T06:41:54.207Z",
   "note": "Cumulative worker-write state. Job results are merged from immutable run deltas and folded back into data/search-queue.json by scripts/build-search-queue.mjs.",
   "jobs": {
@@ -45,12 +45,12 @@
     },
     "model-056:specialist-dealers:bmw-z4-m-coupe": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-18T14:33:20Z",
+      "lastSearchedAt": "2026-09-18T22:15:16Z",
       "lastResultCount": 1,
       "candidateUrls": [
         "https://rsvautomotive.co.uk/cars/bmw-z4-m-z4-m-coupe/"
       ],
-      "limitation": "The current £25,995 RSV Z4 M Coupe is already a verified/published vehicle; no genuinely new specialist example was found."
+      "limitation": "RSV's current £25,995 BMW Z4 M Coupe remains live. It is already a verified/published vehicle; no genuinely new specialist example was found."
     },
     "model-070:ebay:ford-focus-rs-mk1": {
       "status": "searched",
@@ -61,10 +61,10 @@
     },
     "model-070:autotrader:ford-focus-rs-mk1": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-18T14:33:20Z",
+      "lastSearchedAt": "2026-09-18T22:15:16Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "Auto Trader query executed; surfaced material was generic category/search content rather than a direct current car-details advert."
     },
     "model-070:pistonheads:ford-focus-rs-mk1": {
       "status": "searched",
@@ -78,10 +78,10 @@
     },
     "model-070:car-and-classic:ford-focus-rs-mk1": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-18T14:33:20Z",
+      "lastSearchedAt": "2026-09-18T22:15:16Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "Car & Classic search executed. Surfaced Mk1 material was either non-qualifying or an extensively modified ordinary example, so no new current advert was retained."
     },
     "model-070:gumtree:ford-focus-rs-mk1": {
       "status": "searched",
@@ -106,10 +106,10 @@
     },
     "model-070:autotrader:ford-focus-rs-mk2": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-18T14:33:20Z",
+      "lastSearchedAt": "2026-09-18T22:15:16Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "Auto Trader query executed; no direct current car-details advert URL survived filtering."
     },
     "model-070:pistonheads:ford-focus-rs-mk2": {
       "status": "searched",
@@ -122,10 +122,12 @@
     },
     "model-070:car-and-classic:ford-focus-rs-mk2": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-18T14:33:20Z",
-      "lastResultCount": 0,
-      "candidateUrls": [],
-      "limitation": null
+      "lastSearchedAt": "2026-09-18T22:15:16Z",
+      "lastResultCount": 1,
+      "candidateUrls": [
+        "https://www.carandclassic.com/car/C2117480"
+      ],
+      "limitation": "Current direct Car & Classic advert remains For Sale at £44,995/5,699 miles/manual. The vehicle is already tracked, so no duplicate candidate was added."
     },
     "model-070:gumtree:ford-focus-rs-mk2": {
       "status": "searched",
@@ -154,10 +156,10 @@
     },
     "model-070:autotrader:ford-focus-rs500": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-18T14:33:20Z",
+      "lastSearchedAt": "2026-09-18T22:15:16Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "Auto Trader query executed; no direct current RS500 car-details advert URL survived filtering."
     },
     "model-001:ebay:ferrari-360-modena-spider-manual": {
       "status": "searched",
@@ -441,10 +443,10 @@
     },
     "model-088:gumtree:mitsubishi-evo-vi-tommi-makinen-edition": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-18T14:33:20Z",
+      "lastSearchedAt": "2026-09-18T22:15:16Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "Gumtree query executed; no direct current qualifying Tommi Makinen Edition advert with verifiable rule-compliant mileage/ownership surfaced."
     },
     "model-088:lamborghini-talk:mitsubishi-evo-vi-tommi-makinen-edition": {
       "status": "blocked",
@@ -455,10 +457,10 @@
     },
     "model-088:specialist-dealers:mitsubishi-evo-vi-tommi-makinen-edition": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-18T14:33:20Z",
+      "lastSearchedAt": "2026-09-18T22:15:16Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Indexed specialist results were either sale-agreed, over the strict mileage cap, or duplicates of the existing Auto Torque/PistonHeads vehicle."
+      "limitation": "Specialist search executed. Qualifying W122DAK cross-posts were already tracked; other specialist material was sale-agreed, stale or over the mileage cap, so no distinct new direct URL was retained."
     },
     "model-096:911uk:bmw-e46-m3-manual-coupe-uk": {
       "status": "searched",
@@ -847,10 +849,10 @@
     },
     "model-096:specialist-dealers:bmw-m3-e46-6-speed-manual-coupe-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-18T14:06:14Z",
+      "lastSearchedAt": "2026-09-18T22:15:16Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search executed; surfaced cars were sold, above the model price ceiling, or above the 50,000-mile cap."
+      "limitation": "Specialist search executed. Current Hexagon 2003 manual Coupe at £99,995 is above the configured £50,000 ceiling; sold, stale and over-mileage alternatives were rejected."
     },
     "model-097:911uk:bmw-e39-m5-manual-uk": {
       "status": "searched",
@@ -1444,17 +1446,17 @@
     },
     "model-097:autotrader:bmw-e39-m5-manual-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-18T14:06:14Z",
+      "lastSearchedAt": "2026-09-18T22:15:16Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search executed; no qualifying current Auto Trader detail advert URL survived the pre-verification filters."
+      "limitation": "Auto Trader query executed; no direct current car-details URL meeting the E39 M5 rules surfaced. Generic category/search results were rejected."
     },
     "model-097:autotrader:bmw-m5-e39-6-speed-manual-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-18T14:06:14Z",
+      "lastSearchedAt": "2026-09-18T22:15:16Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search executed; no qualifying current Auto Trader detail advert URL survived the pre-verification filters."
+      "limitation": "Auto Trader query executed; no direct current car-details URL meeting the E39 M5 rules surfaced. Generic category/search results were rejected."
     },
     "model-097:bonhams-cars:bmw-e39-m5-manual-uk": {
       "status": "searched",
@@ -1472,12 +1474,12 @@
     },
     "model-097:car-and-classic:bmw-e39-m5-manual-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-18T14:06:14Z",
+      "lastSearchedAt": "2026-09-18T22:15:16Z",
       "lastResultCount": 1,
       "candidateUrls": [
         "https://www.carandclassic.com/car/C2060885"
       ],
-      "limitation": "Search executed; one current actual advert within the model year, price and mileage rules was found."
+      "limitation": "Current direct advert remains For Sale at £50,000/46,637 miles/6-speed manual in Surrey. The URL is already tracked, so no duplicate candidate was added."
     },
     "model-097:car-and-classic:bmw-m5-e39-6-speed-manual-uk": {
       "status": "searched",
@@ -1844,17 +1846,17 @@
     },
     "model-070:bonhams-cars:ford-focus-rs-mk2": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-18T12:21:56Z",
+      "lastSearchedAt": "2026-09-18T22:15:16Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No plausible direct current Bonhams Cars Focus RS Mk2 advert survived filtering; historical/auction-result and generic material were rejected."
+      "limitation": "Bonhams search executed; no active current Focus RS Mk2 advert survived filtering. Historical/completed lots were rejected."
     },
     "model-070:bonhams-cars:ford-focus-rs500": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-18T12:21:56Z",
+      "lastSearchedAt": "2026-09-18T22:15:16Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No plausible direct current Bonhams Cars Focus RS500 advert survived filtering; historical/auction-result and generic material were rejected."
+      "limitation": "Bonhams search executed; no active current Focus RS500 advert survived filtering. Historical/completed lots were rejected."
     },
     "model-070:classic-trader:ford-focus-rs-mk1": {
       "status": "searched",
@@ -1865,10 +1867,10 @@
     },
     "model-070:classic-trader:ford-focus-rs-mk2": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-18T12:21:56Z",
+      "lastSearchedAt": "2026-09-18T22:15:16Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No direct current qualifying Classic Trader Focus RS Mk2 advert was established from the public results."
+      "limitation": "Classic Trader query executed; no direct current qualifying Focus RS Mk2 advert URL surfaced."
     },
     "model-070:classic-trader:ford-focus-rs500": {
       "status": "searched",
@@ -2520,10 +2522,10 @@
     },
     "model-070:car-and-classic:ford-focus-rs500": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-18T14:33:20Z",
+      "lastSearchedAt": "2026-09-18T22:15:16Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "Car & Classic search executed; no direct current qualifying RS500 advert URL surfaced."
     },
     "model-070:pistonheads:ford-focus-rs500": {
       "status": "searched",
@@ -2891,26 +2893,28 @@
     },
     "model-088:car-and-classic:mitsubishi-evo-vi-tommi-makinen-edition": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-18T14:06:14Z",
-      "lastResultCount": 0,
-      "candidateUrls": [],
-      "limitation": "Search executed; no qualifying current Car & Classic advert passed the mileage/ownership pre-filters."
+      "lastSearchedAt": "2026-09-18T22:15:16Z",
+      "lastResultCount": 1,
+      "candidateUrls": [
+        "https://www.carandclassic.com/car/C2179361"
+      ],
+      "limitation": "Direct current advert surfaced for W122DAK at £99,995/18,460 miles/manual. It is the same vehicle already tracked via PistonHeads listing 20971451, so no duplicate worker candidate was added."
     },
     "model-088:ebay:mitsubishi-evo-vi-tommi-makinen-edition": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-18T14:33:20Z",
+      "lastSearchedAt": "2026-09-18T22:15:16Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "eBay query executed. A current complete-car advert at 56,000 miles failed the model's strict under-30,000-mile rule; no qualifying URL was retained."
     },
     "model-088:pistonheads:mitsubishi-evo-vi-tommi-makinen-edition": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-18T14:33:20Z",
+      "lastSearchedAt": "2026-09-18T22:15:16Z",
       "lastResultCount": 1,
       "candidateUrls": [
         "https://www.pistonheads.com/buy/listing/20971451"
       ],
-      "limitation": "One current low-mileage advert was rediscovered. It remains verification-pending because total pre-import ownership cannot be established within the maximum-two-total-owners rule."
+      "limitation": "Current direct advert remains £99,995/18,460 miles/manual with one recorded previous owner. It is already tracked; total pre-import ownership and full photo verification remain unresolved."
     },
     "model-056:bonhams-cars:bmw-z4-m-coupe": {
       "status": "searched",
@@ -2935,10 +2939,10 @@
     },
     "model-070:bonhams-cars:ford-focus-rs-mk1": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-18T12:21:56Z",
+      "lastSearchedAt": "2026-09-18T22:15:16Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No plausible direct current Bonhams Cars Focus RS Mk1 advert survived filtering; historical/auction-result and generic material were rejected."
+      "limitation": "Bonhams search executed; no active current Focus RS Mk1 advert survived filtering. Historical/completed lots were rejected."
     },
     "model-070:collecting-cars:ford-focus-rs-mk1": {
       "status": "searched",
@@ -4084,24 +4088,24 @@
     },
     "model-040:pistonheads:renault-clio-v6-phase-1": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T09:59:57Z",
+      "lastSearchedAt": "2026-09-18T22:15:16Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No direct current PistonHeads Clio V6 Phase 1 advert met the strict sub-30,000-mile and one-or-two-total-owner rules; historical sale material was excluded."
+      "limitation": "PistonHeads query executed. Surfaced Phase 1 adverts were explicitly unavailable or failed the strict under-30,000-mile/two-owner rule."
     },
     "model-040:pistonheads:renault-clio-v6-phase-2": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T09:59:57Z",
+      "lastSearchedAt": "2026-09-18T22:15:16Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No direct current PistonHeads Clio V6 Phase 2 advert met the strict sub-30,000-mile and one-or-two-total-owner rules."
+      "limitation": "PistonHeads query executed. Surfaced Phase 2 material was unavailable or over the strict mileage/owner limits; no current qualifying advert was retained."
     },
     "model-040:specialist-dealers:renault-clio-v6-phase-1": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T09:59:57Z",
+      "lastSearchedAt": "2026-09-18T22:15:16Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "A current-looking one-owner Phase 1 specialist advert at 36,000 miles was found but fails the strict mileage-below-30,000 rule; no candidate retained."
+      "limitation": "Specialist search executed; surfaced dealer stock was sold/unavailable or failed the strict mileage/owner rule, so no current qualifying direct advert was retained."
     },
     "model-040:specialist-dealers:renault-clio-v6-phase-2": {
       "status": "searched",
@@ -5746,10 +5750,10 @@
     },
     "model-057:autotrader:bmw-z4-m-roadster": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T08:09:53Z",
+      "lastSearchedAt": "2026-09-18T22:15:16Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Only generic inventory/search material surfaced; no direct current Auto Trader Z4 M Roadster car-details URL retained."
+      "limitation": "Auto Trader query executed; no direct current car-details URL surfaced. Generic category results were rejected."
     },
     "model-057:bonhams-cars:bmw-z4-m-roadster": {
       "status": "searched",
@@ -5760,10 +5764,10 @@
     },
     "model-057:car-and-classic:bmw-z4-m-roadster": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T08:09:53Z",
+      "lastSearchedAt": "2026-09-18T22:15:16Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "A seemingly current indexed Z4 M Roadster result was opened and explicitly says the advert has been removed; weaker/recycled results were not retained."
+      "limitation": "Two plausible indexed adverts were checked at source; C1864975 and C2183223 both now explicitly say the advert has been removed through sale or otherwise, so neither was retained."
     },
     "model-057:classic-trader:bmw-z4-m-roadster": {
       "status": "searched",
@@ -5781,10 +5785,10 @@
     },
     "model-057:ebay:bmw-z4-m-roadster": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T08:09:53Z",
+      "lastSearchedAt": "2026-09-18T22:15:16Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No direct current qualifying BMW Z4 M Roadster vehicle advert was found on eBay."
+      "limitation": "eBay query executed; surfaced results were generic category material or ended/sold adverts rather than a plausible current direct advert."
     },
     "model-057:facebook-groups:bmw-z4-m-roadster": {
       "status": "blocked",
@@ -7273,24 +7277,24 @@
     },
     "model-077:bonhams-cars:ford-focus-st170-estate-under-50000-miles-low-owners": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T02:46:17Z",
+      "lastSearchedAt": "2026-09-18T22:15:16Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Bonhams Cars search produced no plausible current fixed-price direct advert for this exceptional Focus target; generic, historical or auction-result material was rejected."
+      "limitation": "Bonhams query executed; no active current direct advert meeting the requested Focus ST mileage/originality profile survived filtering."
     },
     "model-077:bonhams-cars:ford-focus-st170-under-50000-miles-low-owners": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T02:46:17Z",
+      "lastSearchedAt": "2026-09-18T22:15:16Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Bonhams Cars search produced no plausible current fixed-price direct advert for this exceptional Focus target; generic, historical or auction-result material was rejected."
+      "limitation": "Bonhams query executed; no active current direct advert meeting the requested Focus ST mileage/originality profile survived filtering."
     },
     "model-077:bonhams-cars:ford-focus-st225-st2-st3-under-50000-miles-low-owners": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T02:46:17Z",
+      "lastSearchedAt": "2026-09-18T22:15:16Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Bonhams Cars search produced no plausible current fixed-price direct advert for this exceptional Focus target; generic, historical or auction-result material was rejected."
+      "limitation": "Bonhams query executed; no active current direct advert meeting the requested Focus ST mileage/originality profile survived filtering."
     },
     "model-077:car-and-classic:ford-focus-st170-estate-under-50000-miles-low-owners": {
       "status": "searched",
@@ -7317,45 +7321,45 @@
     },
     "model-077:classic-trader:ford-focus-st170-estate-under-50000-miles-low-owners": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T02:46:17Z",
+      "lastSearchedAt": "2026-09-18T22:15:16Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Classic Trader search produced no plausible current fixed-price direct advert for this exceptional Focus target; generic, historical or auction-result material was rejected."
+      "limitation": "Classic Trader query executed; no direct current qualifying Focus ST advert URL surfaced."
     },
     "model-077:classic-trader:ford-focus-st170-under-50000-miles-low-owners": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T02:46:17Z",
+      "lastSearchedAt": "2026-09-18T22:15:16Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Classic Trader search produced no plausible current fixed-price direct advert for this exceptional Focus target; generic, historical or auction-result material was rejected."
+      "limitation": "Classic Trader query executed; no direct current qualifying Focus ST advert URL surfaced."
     },
     "model-077:classic-trader:ford-focus-st225-st2-st3-under-50000-miles-low-owners": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T02:46:17Z",
+      "lastSearchedAt": "2026-09-18T22:15:16Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Classic Trader search produced no plausible current fixed-price direct advert for this exceptional Focus target; generic, historical or auction-result material was rejected."
+      "limitation": "Classic Trader query executed; no direct current qualifying Focus ST advert URL surfaced."
     },
     "model-077:collecting-cars:ford-focus-st170-estate-under-50000-miles-low-owners": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T02:46:17Z",
+      "lastSearchedAt": "2026-09-18T22:15:16Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Collecting Cars search produced no plausible current fixed-price direct advert for this exceptional Focus target; generic, historical or auction-result material was rejected."
+      "limitation": "Collecting Cars query executed; no active live qualifying auction survived filtering. Completed/historical sales were rejected."
     },
     "model-077:collecting-cars:ford-focus-st170-under-50000-miles-low-owners": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T02:46:17Z",
+      "lastSearchedAt": "2026-09-18T22:15:16Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Collecting Cars search produced no plausible current fixed-price direct advert for this exceptional Focus target; generic, historical or auction-result material was rejected."
+      "limitation": "Collecting Cars query executed; no active live qualifying auction survived filtering. Completed/historical sales were rejected."
     },
     "model-077:collecting-cars:ford-focus-st225-st2-st3-under-50000-miles-low-owners": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T02:46:17Z",
+      "lastSearchedAt": "2026-09-18T22:15:16Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Collecting Cars search produced no plausible current fixed-price direct advert for this exceptional Focus target; generic, historical or auction-result material was rejected."
+      "limitation": "Collecting Cars query executed; no active live qualifying auction survived filtering. Completed/historical sales were rejected."
     },
     "model-077:ebay:ford-focus-st170-estate-under-50000-miles-low-owners": {
       "status": "searched",
@@ -7534,17 +7538,17 @@
     },
     "model-079:bonhams-cars:renault-clio-williams-2": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T02:46:17Z",
+      "lastSearchedAt": "2026-09-18T22:15:16Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Bonhams Cars search produced no plausible current fixed-price Williams advert satisfying the strict <30,000-mile/max-two-total-owner rules; historical/auction material was rejected."
+      "limitation": "Bonhams query executed; no active current Clio Williams advert meeting the strict under-30,000-mile/two-owner rule survived filtering."
     },
     "model-079:bonhams-cars:renault-clio-williams-3": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T02:46:17Z",
+      "lastSearchedAt": "2026-09-18T22:15:16Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Bonhams Cars search produced no plausible current fixed-price Williams advert satisfying the strict <30,000-mile/max-two-total-owner rules; historical/auction material was rejected."
+      "limitation": "Bonhams query executed; no active current Clio Williams advert meeting the strict under-30,000-mile/two-owner rule survived filtering."
     },
     "model-079:car-and-classic:renault-clio-williams-2": {
       "status": "searched",
@@ -7562,31 +7566,31 @@
     },
     "model-079:classic-trader:renault-clio-williams-2": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T02:46:17Z",
+      "lastSearchedAt": "2026-09-18T22:15:16Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Classic Trader search produced no plausible current fixed-price Williams advert satisfying the strict <30,000-mile/max-two-total-owner rules; historical/auction material was rejected."
+      "limitation": "Classic Trader query executed; no direct current Clio Williams advert meeting the strict mileage/owner rule surfaced."
     },
     "model-079:classic-trader:renault-clio-williams-3": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T02:46:17Z",
+      "lastSearchedAt": "2026-09-18T22:15:16Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Classic Trader search produced no plausible current fixed-price Williams advert satisfying the strict <30,000-mile/max-two-total-owner rules; historical/auction material was rejected."
+      "limitation": "Classic Trader query executed; no direct current Clio Williams advert meeting the strict mileage/owner rule surfaced."
     },
     "model-079:collecting-cars:renault-clio-williams-2": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T02:46:17Z",
+      "lastSearchedAt": "2026-09-18T22:15:16Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Collecting Cars search produced no plausible current fixed-price Williams advert satisfying the strict <30,000-mile/max-two-total-owner rules; historical/auction material was rejected."
+      "limitation": "Collecting Cars query executed; surfaced Williams material was completed/historical and/or failed the strict mileage/owner rule."
     },
     "model-079:collecting-cars:renault-clio-williams-3": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T02:46:17Z",
+      "lastSearchedAt": "2026-09-18T22:15:16Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Collecting Cars search produced no plausible current fixed-price Williams advert satisfying the strict <30,000-mile/max-two-total-owner rules; historical/auction material was rejected."
+      "limitation": "Collecting Cars query executed; surfaced Williams material was completed/historical and/or failed the strict mileage/owner rule."
     },
     "model-079:ebay:renault-clio-williams-2": {
       "status": "searched",
@@ -7730,24 +7734,24 @@
     },
     "model-080:bonhams-cars:renault-clio-172-cup": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T02:46:17Z",
+      "lastSearchedAt": "2026-09-18T22:15:16Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Bonhams Cars search produced no plausible current fixed-price direct advert meeting the strict mileage/ownership rules."
+      "limitation": "Bonhams query executed; no active current advert meeting the strict under-30,000-mile/two-owner rule survived filtering."
     },
     "model-080:bonhams-cars:renault-clio-182-cup": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T02:46:17Z",
+      "lastSearchedAt": "2026-09-18T22:15:16Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Bonhams Cars search produced no plausible current fixed-price direct advert meeting the strict mileage/ownership rules."
+      "limitation": "Bonhams query executed; no active current advert meeting the strict under-30,000-mile/two-owner rule survived filtering."
     },
     "model-080:bonhams-cars:renault-clio-r27-f1-team": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T02:46:17Z",
+      "lastSearchedAt": "2026-09-18T22:15:16Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Bonhams Cars search produced no plausible current fixed-price direct advert meeting the strict mileage/ownership rules."
+      "limitation": "Bonhams query executed; no active current advert meeting the strict under-30,000-mile/two-owner rule survived filtering."
     },
     "model-080:car-and-classic:renault-clio-172-cup": {
       "status": "searched",
@@ -7772,45 +7776,45 @@
     },
     "model-080:classic-trader:renault-clio-172-cup": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T02:46:17Z",
+      "lastSearchedAt": "2026-09-18T22:15:16Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Classic Trader search produced no plausible current fixed-price direct advert meeting the strict mileage/ownership rules."
+      "limitation": "Classic Trader query executed; no direct current advert meeting the strict mileage/owner rule surfaced."
     },
     "model-080:classic-trader:renault-clio-182-cup": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T02:46:17Z",
+      "lastSearchedAt": "2026-09-18T22:15:16Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Classic Trader search produced no plausible current fixed-price direct advert meeting the strict mileage/ownership rules."
+      "limitation": "Classic Trader query executed; no direct current advert meeting the strict mileage/owner rule surfaced."
     },
     "model-080:classic-trader:renault-clio-r27-f1-team": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T02:46:17Z",
+      "lastSearchedAt": "2026-09-18T22:15:16Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Classic Trader search produced no plausible current fixed-price direct advert meeting the strict mileage/ownership rules."
+      "limitation": "Classic Trader query executed; no direct current advert meeting the strict mileage/owner rule surfaced."
     },
     "model-080:collecting-cars:renault-clio-172-cup": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T02:46:17Z",
+      "lastSearchedAt": "2026-09-18T22:15:16Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Collecting Cars search produced no plausible current fixed-price direct advert meeting the strict mileage/ownership rules. Completed Collecting Cars sale-result pages were specifically rejected."
+      "limitation": "Collecting Cars query executed; surfaced cars were completed historical auctions and/or failed the strict mileage/owner rule."
     },
     "model-080:collecting-cars:renault-clio-182-cup": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T02:46:17Z",
+      "lastSearchedAt": "2026-09-18T22:15:16Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Collecting Cars search produced no plausible current fixed-price direct advert meeting the strict mileage/ownership rules. Completed Collecting Cars sale-result pages were specifically rejected."
+      "limitation": "Collecting Cars query executed; surfaced cars were completed historical auctions and/or failed the strict mileage/owner rule."
     },
     "model-080:collecting-cars:renault-clio-r27-f1-team": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T02:46:17Z",
+      "lastSearchedAt": "2026-09-18T22:15:16Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Collecting Cars search produced no plausible current fixed-price direct advert meeting the strict mileage/ownership rules. Completed Collecting Cars sale-result pages were specifically rejected."
+      "limitation": "Collecting Cars query executed; surfaced cars were completed historical auctions and/or failed the strict mileage/owner rule."
     },
     "model-080:ebay:renault-clio-172-cup": {
       "status": "searched",
