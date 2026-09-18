@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-18T20:47:48Z",
+  "updatedAt": "2026-09-18T21:12:59Z",
   "candidates": [
     {
       "modelId": "model-056",
@@ -820,8 +820,9 @@
       "discoveredAt": "2026-09-10T19:30:54Z",
       "status": "verification-pending",
       "note": "Rechecked 17 Sep 2026 on the actual Car & Classic advert: explicitly For Sale at £29,950, 22,900 miles, RHD five-speed manual, VXR220 no.38 of 65, registration FL54NUJ, private seller in Maidenhead. Seller says owned since early 2010 after two previous owners, with period Ohlins suspension and a light Courtenay Sport remap; advert declares no import, outstanding finance, total loss or major structural issue. The first nine accessible seller-gallery images were visually inspected and show no SOLD/RESERVED/DEPOSIT/UNDER OFFER overlay. No gear-selector/interior image was exposed among those accessible assets, so manual-photo verification remains incomplete; keep pending.",
-      "lastCheckedAt": "2026-09-17T08:09:53Z",
-      "vehicleIdentity": "2004 Vauxhall VXR220 #38/65 | FL54NUJ | 22,900 miles | £29,950 | Maidenhead private seller"
+      "lastCheckedAt": "2026-09-18T21:12:59Z",
+      "vehicleIdentity": "2004 Vauxhall VXR220 #38/65 | FL54NUJ | £29,950 | 22,900 miles | manual",
+      "sourceJobId": "model-038:car-and-classic:vauxhall-vxr220"
     },
     {
       "modelId": "model-096",
@@ -1416,10 +1417,11 @@
       "url": "https://www.pistonheads.com/buy/listing/20287776",
       "source": "pistonheads",
       "discoveredAt": "2026-09-12T10:19:44Z",
-      "lastCheckedAt": "2026-09-18T20:47:48Z",
+      "lastCheckedAt": "2026-09-18T21:12:59Z",
       "status": "verification-pending",
       "note": "Rechecked 18 Sep 2026: the actual PistonHeads advert is live and purchasable at £14,750 for a 2005 VX220 Turbo with 75,800 miles, manual gearbox, five previous owners, valid MOT and active private-seller contact controls in Silchester. The advert exposes a 29-photo seller gallery and does not state sold, reserved, deposit taken, under offer or unavailable. However, the exact PistonHeads image assets returned cache misses in this worker path, so the mandatory visual overlay and manual-control inspection could not be completed. Keep verification-pending; do not publish.",
-      "vehicleIdentity": "2005 Vauxhall VX220 Turbo | £14,750 | 75,800 miles | manual | Silchester private seller"
+      "vehicleIdentity": "2005 Vauxhall VX220 Turbo | £14,750 | 75,800 miles | manual | Silchester",
+      "sourceJobId": "model-037:specialist-dealers:vauxhall-vx220-2-2-turbo"
     },
     {
       "modelId": "model-037",
@@ -1854,8 +1856,10 @@
       "source": "car-and-classic",
       "discoveredAt": "2026-09-14T03:36:13Z",
       "status": "verification-pending",
-      "lastCheckedAt": "2026-09-15T18:14:09Z",
-      "note": "Rechecked 15 Sep 2026: Car & Classic currently presents this 2003 Vauxhall VX220 For Sale at £19,950, 40,000 miles, RHD and five-speed manual from a UK dealer, with a 24-photo gallery. Exact gallery assets were not sufficiently inspectable for SOLD/RESERVED-overlay and manual-control visual verification, so keep verification-pending."
+      "lastCheckedAt": "2026-09-18T21:12:59Z",
+      "note": "Rechecked 15 Sep 2026: Car & Classic currently presents this 2003 Vauxhall VX220 For Sale at £19,950, 40,000 miles, RHD and five-speed manual from a UK dealer, with a 24-photo gallery. Exact gallery assets were not sufficiently inspectable for SOLD/RESERVED-overlay and manual-control visual verification, so keep verification-pending.",
+      "sourceJobId": "model-037:specialist-dealers:vauxhall-vx220-2-2-turbo",
+      "vehicleIdentity": "2003 Vauxhall VX220 2.2 | £19,950 | 40,000 miles | manual | Lytham St Annes"
     },
     {
       "modelId": "model-037",
