@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-18T14:33:20Z",
+  "updatedAt": "2026-09-18T15:20:32Z",
   "candidates": [
     {
       "modelId": "model-056",
@@ -2162,9 +2162,9 @@
       "url": "https://www.carandclassic.com/car/C2023303",
       "source": "car-and-classic",
       "status": "verification-pending",
-      "lastCheckedAt": "2026-09-15T12:34:20Z",
-      "vehicleIdentity": "2004 Morgan Aero 8 GTN No.001 | £64,995 | circa 17,000 miles | New Elms Berkshire",
-      "note": "Rechecked 15 Sep 2026: Car & Classic still explicitly presents Morgan Aero 8 GTN No.001 For Sale at £64,995, circa 17,000 miles, RHD and six-speed manual from New Elms, with a 26-photo gallery. Exact gallery asset fetches failed in this run, so current SOLD/RESERVED-overlay and interior/manual-control visual checks could not be completed. Keep verification-pending and do not publish."
+      "lastCheckedAt": "2026-09-18T15:20:32Z",
+      "vehicleIdentity": "2004 Morgan Aero 8 GTN No.001 | RG53EHP | £64,995 | ~17,000 miles | New Elms",
+      "note": "Rechecked 18 Sep 2026: Car & Classic still explicitly marks Morgan Aero 8 GTN No.001, registration RG53EHP, For Sale at £64,995 with New Elms, around 16,900–17,000 miles and advertised six-speed manual. Current status/specification remain plausible, but exact gallery image assets were cache-inaccessible in this run, so mandatory unavailable-overlay and manual-control visual verification remains incomplete. Keep verification-pending; do not publish."
     },
     {
       "modelId": "model-070",
@@ -2686,6 +2686,46 @@
       "lastCheckedAt": "2026-09-18T14:33:20Z",
       "status": "verification-pending",
       "note": "Fresh HPC Classics dealer advert listed 17 September 2026: 2004 TVR T350C KE04 ZHB, £39,500, 46,000 miles, Eastbourne. The seller description specifies a 5-speed manual T5 even though Car & Classic's structured header says 6-speed. It claims eight former keepers, a build sheet, 18 service stamps and recent/pre-sale mechanical work. Kept unverified rather than published: the existing HPC 2005 T350C at £44,995 / 24,000 miles remains live and materially stronger on mileage/ownership, and this new car has not displaced it under the best-of-class rule."
+    },
+    {
+      "modelId": "model-014",
+      "url": "https://www.pistonheads.com/buy/listing/20954694",
+      "source": "pistonheads",
+      "discoveredAt": "2026-09-18T15:20:32Z",
+      "status": "verification-pending",
+      "note": "Checked 18 Sep 2026: current PistonHeads advert for a 2004 TVR T350C at £37,495 and 50,100 miles, manual, with Amore Autos and active availability controls. Seller describes a 2020 engine rebuild plus extensive later repaint/retrim/recommissioning and modifications; advert also records a Category D marker from 2007 and seven previous owners. It is a plausible current advert but not an automatic exceptional-example pick. Exact seller-gallery unavailable-overlay/manual-control inspection was not completed strongly enough in this run; keep verification-pending and do not publish.",
+      "lastCheckedAt": "2026-09-18T15:20:32Z",
+      "vehicleIdentity": "2004 TVR T350C | £37,495 | 50,100 miles | Amore Autos"
+    },
+    {
+      "modelId": "model-015",
+      "url": "https://www.pistonheads.com/buy/listing/20575446",
+      "source": "pistonheads",
+      "discoveredAt": "2026-09-18T15:20:32Z",
+      "status": "verification-pending",
+      "note": "Checked 18 Sep 2026: current PistonHeads advert for a 2003 TVR Tuscan at £39,995 and 22,097 miles, manual, with Hamptons of Surrey. PistonHeads shows a valid MOT and a 43-photo gallery. The advert is a plausible current fixed-price UK lead, but exact seller-gallery unavailable-overlay and manual-control visual verification could not be completed strongly enough in this run. Keep verification-pending; do not publish.",
+      "lastCheckedAt": "2026-09-18T15:20:32Z",
+      "vehicleIdentity": "2003 TVR Tuscan | £39,995 | 22,097 miles | Hamptons of Surrey"
+    },
+    {
+      "modelId": "model-023",
+      "url": "https://www.pistonheads.com/buy/listing/20637333",
+      "source": "pistonheads",
+      "discoveredAt": "2026-09-18T15:20:32Z",
+      "status": "verification-pending",
+      "note": "Checked 18 Sep 2026: current PistonHeads advert for a 2007 Morgan Aero 8 Series 3 at £64,950 and 17,000 miles, advertised six-speed manual, with Hofmanns and a valid MOT to February 2027. The seller lists substantial service history and claims a Salon Privé Best in Class award. A 25-photo gallery is referenced, but exact image assets were not reliably inspectable in this run for SOLD/RESERVED overlays and manual-control evidence. Keep verification-pending; do not publish.",
+      "lastCheckedAt": "2026-09-18T15:20:32Z",
+      "vehicleIdentity": "2007 Morgan Aero 8 Series 3 | £64,950 | 17,000 miles | Hofmanns"
+    },
+    {
+      "modelId": "model-025",
+      "url": "https://www.carandclassic.com/car/C2040045",
+      "source": "car-and-classic",
+      "discoveredAt": "2026-09-18T15:20:32Z",
+      "status": "verification-pending",
+      "note": "Checked 18 Sep 2026: Car & Classic explicitly shows this 2000 road-registered Ultima GTR For Sale at £54,995, 11,000 miles, RHD and advertised five-speed manual, registration W98SJU, with Total Head Turners. Seller states SVA/IVA road registration on 17/03/2000, Chevrolet 5.7 V8 and Porsche G50 five-speed transaxle. The first nine accessible seller images were visually inspected and showed no SOLD/RESERVED/DEPOSIT TAKEN/UNDER OFFER overlay, but they were exterior/engine views and did not expose the gear selector strongly enough for the hard manual-photo gate. Keep verification-pending; do not publish.",
+      "lastCheckedAt": "2026-09-18T15:20:32Z",
+      "vehicleIdentity": "2000 Ultima GTR | W98SJU | £54,995 | 11,000 miles | Total Head Turners"
     }
   ]
 }
