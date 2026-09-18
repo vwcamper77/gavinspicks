@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-18T09:33:48Z",
+  "updatedAt": "2026-09-18T11:03:10Z",
   "candidates": [
     {
       "modelId": "model-056",
@@ -305,8 +305,8 @@
       "source": "pistonheads",
       "discoveredAt": "2026-09-10T05:43:24Z",
       "status": "verification-pending",
-      "note": "Rechecked 18 Sep 2026. PistonHeads still exposes the exact 2006 TT quattro Sport at 77,000 miles/manual with live contact controls, while Snippersgate's authoritative current vehicle page identifies registration OY06ZZL, 77,000 miles, six-speed manual and £11,990. The marketplace currently shows £12,490 and MOT Expired, so the dealer's own £11,990 inventory is used for price/current-stock evidence. Exact seller-gallery image assets could not be fetched strongly enough for a manual-control/SOLD-RESERVED overlay check; keep verification-pending and do not publish.",
-      "lastCheckedAt": "2026-09-18T03:13:36Z",
+      "note": "Rechecked 18 Sep 2026. The PistonHeads advert remains live today at £11,990, 77,000 miles and manual with active Snippersgate seller controls, and Snippersgate's authoritative current Audi inventory independently lists the same 2006 TT quattro Sport at £11,990. PistonHeads reports MOT Expired, which is a purchase-risk flag but does not by itself prove the advert unavailable. A 21-photo gallery exists, but exact seller-gallery pixels still could not be inspected strongly enough for the mandatory SOLD/RESERVED/DEPOSIT/UNDER-OFFER overlay and manual-control visual check. Keep verification-pending; do not publish.",
+      "lastCheckedAt": "2026-09-18T11:03:10Z",
       "vehicleIdentity": "2006 Audi TT quattro Sport | OY06ZZL | 77,000 miles | Snippersgate",
       "year": 2006,
       "price": 11990,
@@ -1767,7 +1767,8 @@
       "source": "pistonheads",
       "discoveredAt": "2026-09-13T18:02:09Z",
       "status": "verification-pending",
-      "note": "Current PistonHeads dealer advert: 2007 Audi R8 4.2 V8, £43,995, 41,000 miles, manual, five previous owners, valid MOT, Ikonik Motors in Walsall with current contact/stock controls and 26-photo gallery. Gallery still needs visual SOLD/RESERVED and manual-control inspection before publication."
+      "note": "Rechecked 18 Sep 2026. PistonHeads still shows this 2007 Audi R8 4.2 V8 at £43,995, 41,000 miles, manual, five previous owners and valid MOT with active Ikonik Motors seller controls. Ikonik's own current Audi inventory independently lists the same 'Gated Manual V8 + MAG RIDE' R8 at £43,995/41,000 miles, so current availability is strongly corroborated by the seller. A 26-photo marketplace gallery is exposed, but exact seller-gallery pixels were not inspectable strongly enough in this run for the mandatory SOLD/RESERVED/DEPOSIT/UNDER-OFFER overlay and gated-manual-control visual check. Keep verification-pending; do not publish.",
+      "lastCheckedAt": "2026-09-18T11:03:10Z"
     },
     {
       "modelId": "model-070",
@@ -2656,6 +2657,16 @@
       "status": "rejected",
       "vehicleIdentity": "2008 Ford Focus ST500 | black | 81000 miles | Bournemouth",
       "note": "Live Gumtree advert: 2008 black manual Focus ST500, £7,995, 81,000 miles, private seller in Bournemouth; seller states service history, cambelt, clutch/flywheel, block mod, uprated driveshafts, suspension refurbishment, stainless exhaust, intercooler and stage-one remap. The actual advert is live with seller contact/offer controls and a 16-image gallery. It is below model-076's configured £10,000 guide floor, so it fails the price rule and is rejected without publication. Genuine ST500 identity is also not independently established from an edition plaque or equivalent photo evidence in this run."
+    },
+    {
+      "modelId": "model-075",
+      "url": "https://www.carandclassic.com/car/C2070853",
+      "source": "car-and-classic",
+      "discoveredAt": "2026-09-18T11:03:10Z",
+      "status": "verification-pending",
+      "lastCheckedAt": "2026-09-18T11:03:10Z",
+      "vehicleIdentity": "2006 Audi TT quattro Sport | DU06FRC | 69,133 miles | £11,990 | Zachary Luke Cars",
+      "note": "Discovered/rechecked 18 Sep 2026. Zachary Luke Cars' authoritative current stock lists this genuine 2006 Mk1 TT quattro Sport at £11,990, 69,133 miles and manual, in Misano Red with Phantom Black roof, and Car & Classic advert C2070853 is also currently For Sale in the UK. The seller describes Pole Position Recaros, rear-seat delete, Alcantara controls and recent cambelt/water-pump work. A 13-photo marketplace gallery is exposed, but the exact gallery pixels could not be inspected strongly enough in this run for SOLD/RESERVED/DEPOSIT/UNDER-OFFER overlays and manual-control evidence. Keep verification-pending; do not publish."
     }
   ]
 }
