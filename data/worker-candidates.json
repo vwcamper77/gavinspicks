@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-19T02:07:42Z",
+  "updatedAt": "2026-09-19T03:27:15Z",
   "candidates": [
     {
       "modelId": "model-056",
@@ -124,7 +124,7 @@
       "discoveredAt": "2026-09-10T01:09:53Z",
       "status": "verification-pending",
       "note": "Rechecked 16 Sep 2026: Car & Classic still explicitly marks this 2008 Focus ST500 no.157/500 For Sale at £19,750, 33,200 miles, RHD and six-speed manual in Dromore, listed 31/08/2026. The seller states genuine Ford timing-belt replacement at 30,000 miles and good history. Only two gallery images are exposed and the exact image asset fetch remained cache-limited, so SOLD/RESERVED-overlay and cabin/manual-control visual verification remains incomplete. Keep verification-pending; do not publish.",
-      "lastCheckedAt": "2026-09-18T12:05:22Z",
+      "lastCheckedAt": "2026-09-19T03:27:15Z",
       "vehicleIdentity": "2008 Ford Focus ST500 #157/500 | MDZ7777 | 33,200 miles | £19,750 | Dromore private seller"
     },
     {
@@ -469,9 +469,10 @@
       "url": "https://www.pistonheads.com/buy/listing/20412916",
       "source": "pistonheads",
       "discoveredAt": "2026-09-10T10:10:00Z",
-      "status": "unavailable",
-      "note": "1997 Lotus Esprit GT3, £47,000, 47,000 miles, manual, private seller in Buckingham. Recent advert evidence reports MOT to March 2027 and extensive history; exact seller-photo/manual and sold-overlay checks remain outstanding.",
-      "lastCheckedAt": "2026-09-16T00:05:48Z"
+      "status": "verification-pending",
+      "note": "Rechecked 19 Sep 2026: the actual PistonHeads advert has reappeared as a live/current 1997 Lotus Esprit GT3 at £47,000, 47,000 miles, manual, Buckingham UK, with seller contact controls and a 19-photo gallery. This reverses the earlier unavailable state. The gallery image assets could not be fetched closely enough in this run to complete the mandatory unavailable-overlay and manual-control visual checks, so restore to verification-pending only; do not publish.",
+      "lastCheckedAt": "2026-09-19T03:27:15Z",
+      "vehicleIdentity": "1997 Lotus Esprit GT3 | £47,000 | 47,000 miles | manual | Buckingham private seller"
     },
     {
       "modelId": "model-022",
@@ -870,9 +871,9 @@
       "url": "https://www.carandclassic.com/l/C2110294",
       "source": "car-and-classic",
       "discoveredAt": "2026-09-10T21:37:37Z",
-      "status": "unavailable",
-      "note": "Rechecked 14 Sep 2026: Car & Classic still explicitly marks RX08KFJ For Sale at £30,500, 84,400 miles, RHD and six-speed manual in London, with a 25-photo gallery. Exact current seller-image assets failed to fetch in this worker run, so SOLD/RESERVED-overlay and cabin/manual-control visual inspection remains incomplete. Keep verification-pending and do not publish.",
-      "lastCheckedAt": "2026-09-17T13:56:26Z",
+      "status": "verification-pending",
+      "note": "Rechecked 19 Sep 2026: the canonical Car & Classic advert currently renders explicitly For Sale at £30,500 for a 2008 Aston Martin V8 Vantage N400 Roadster, registration RX08KFJ, 84,400 miles, RHD six-speed manual, private seller in London, with a 25-photo gallery and active seller controls. This reverses the earlier unavailable state. Exact gallery image assets were cache-inaccessible for mandatory unavailable-overlay/manual-control visual inspection, so restore to verification-pending only; do not publish.",
+      "lastCheckedAt": "2026-09-19T03:27:15Z",
       "vehicleIdentity": "2008 Aston Martin V8 Vantage N400 Roadster | RX08KFJ | £30,500 | 84,400 miles | six-speed manual"
     },
     {
@@ -2829,6 +2830,26 @@
       "status": "verification-rejected",
       "vehicleIdentity": "2001 Maserati 3200 GT manual | 39,000 miles | £15,950 | J Hair Motors",
       "note": "Fresh direct J Hair Motors stock advert and dealer inventory checked this run: current 2001 Maserati 3200 GT, £15,950, 39,000 miles, manual, blue, dealer in Newtownards, Northern Ireland. It is a genuine current actual advert but is below model-060's configured £18,000 guide floor, so it is verification-rejected and must not enter the publication queue."
+    },
+    {
+      "modelId": "model-045",
+      "url": "https://www.carandclassic.com/car/C1997186",
+      "source": "car-and-classic",
+      "discoveredAt": "2026-09-19T03:27:15Z",
+      "status": "verification-pending",
+      "note": "Discovered/rechecked 19 Sep 2026: direct Car & Classic advert explicitly shows For Sale at £37,995 for a 2006 Aston Martin DB9 5.9 V12, registration KJ06AML, 39,768 miles, RHD six-speed manual, Richard Harris Cars in Birkenhead, with 54 seller photos and a detailed Aston Martin service history plus an August 2025 clutch claim. The exact gallery image assets returned cache misses, so SOLD/RESERVED overlay and manual-control visual verification are incomplete. Keep verification-pending; do not publish.",
+      "lastCheckedAt": "2026-09-19T03:27:15Z",
+      "vehicleIdentity": "2006 Aston Martin DB9 5.9 V12 Manual | KJ06AML | £37,995 | 39,768 miles | Richard Harris Cars"
+    },
+    {
+      "modelId": "model-045",
+      "url": "https://www.pistonheads.com/buy/listing/21066324",
+      "source": "pistonheads",
+      "discoveredAt": "2026-09-19T03:27:15Z",
+      "status": "verification-pending",
+      "note": "Discovered 19 Sep 2026: fresh PistonHeads search surfaced a 2007 Aston Martin DB9 manual at £39,990, 67,266 miles, two previous owners, from Rivendell Cars Limited in Fourstones with seller/contact metadata. The direct advert refresh returned a cache miss, so current page status, exact seller gallery, unavailable overlays and manual-control evidence could not be verified strongly enough. Keep verification-pending; do not publish.",
+      "lastCheckedAt": "2026-09-19T03:27:15Z",
+      "vehicleIdentity": "2007 Aston Martin DB9 manual | £39,990 | 67,266 miles | Rivendell Cars Limited | Fourstones"
     }
   ]
 }
