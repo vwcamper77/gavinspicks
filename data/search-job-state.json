@@ -1,47 +1,44 @@
 {
-  "updatedAt": "2026-09-19T04:54:46Z",
+  "updatedAt": "2026-09-19T06:03:19Z",
   "compactedFromQueueAt": "2026-09-10T06:41:54.207Z",
   "note": "Cumulative worker-write state. Job results are merged from immutable run deltas and folded back into data/search-queue.json by scripts/build-search-queue.mjs.",
   "jobs": {
     "model-056:ebay:bmw-z4-m-coupe": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-18T21:12:59Z",
+      "lastSearchedAt": "2026-09-19T06:03:19Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public web search completed; surfaced eBay results were wrong variants, ended or otherwise not qualifying current adverts."
+      "limitation": "Surfaced actual adverts were below the configured £23,000 floor; no qualifying candidate retained."
     },
     "model-056:autotrader:bmw-z4-m-coupe": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-18T21:12:59Z",
+      "lastSearchedAt": "2026-09-19T06:03:19Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public web search completed; no direct qualifying Auto Trader advert URL surfaced."
+      "limitation": "No new qualifying current direct Auto Trader advert retained."
     },
     "model-056:pistonheads:bmw-z4-m-coupe": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-18T21:12:59Z",
-      "lastResultCount": 2,
+      "lastSearchedAt": "2026-09-19T06:03:19Z",
+      "lastResultCount": 1,
       "candidateUrls": [
-        "https://www.pistonheads.com/buy/listing/20952644",
         "https://www.pistonheads.com/buy/listing/20766605"
       ],
-      "limitation": "Public web search completed; two plausible current exact adverts remained. Older surfaced listings explicitly marked unavailable were rejected."
+      "limitation": "One already-known plausible current advert retained; publication remains blocked on the existing hard photo-verification requirement."
     },
     "model-056:car-and-classic:bmw-z4-m-coupe": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-18T21:12:59Z",
-      "lastResultCount": 1,
-      "candidateUrls": [
-        "https://www.carandclassic.com/car/C2127428"
-      ],
-      "limitation": "Public web search completed; one plausible current exact advert remained after filtering. It is already known to the candidate set."
+      "lastSearchedAt": "2026-09-19T06:03:19Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Surfaced live adverts were below the configured £23,000 floor or already removed; no new qualifying advert retained."
     },
     "model-056:gumtree:bmw-z4-m-coupe": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-18T21:12:59Z",
+      "lastSearchedAt": "2026-09-19T06:03:19Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public web search completed; surfaced Gumtree results were wrong models/variants, so none qualified."
+      "limitation": "No qualifying Z4 M Coupe actual advert retained."
     },
     "model-056:specialist-dealers:bmw-z4-m-coupe": {
       "status": "searched",
@@ -434,10 +431,10 @@
     },
     "model-088:ferrarichat:mitsubishi-evo-vi-tommi-makinen-edition": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-18T16:44:51Z",
+      "lastSearchedAt": "2026-09-19T06:03:19Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search executed; surfaced FerrariChat material was discussion/historical content, not a current qualifying UK seller advert."
+      "limitation": "No current qualifying owner-sale advert surfaced."
     },
     "model-088:gumtree:mitsubishi-evo-vi-tommi-makinen-edition": {
       "status": "searched",
@@ -490,17 +487,17 @@
     },
     "model-096:bonhams-cars:bmw-e46-m3-manual-coupe-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-18T19:32:04Z",
+      "lastSearchedAt": "2026-09-19T06:03:19Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Bonhams Cars search executed; no active UK E46 M3 factory-manual coupé advert under the 50,000-mile cap survived filtering."
+      "limitation": "No qualifying active current lot or fixed-price actual advert surfaced; completed/historical material excluded."
     },
     "model-096:bonhams-cars:bmw-m3-e46-6-speed-manual-coupe-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-18T19:32:04Z",
+      "lastSearchedAt": "2026-09-19T06:03:19Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Bonhams Cars search executed; no active UK E46 M3 factory 6-speed manual coupé advert under the 50,000-mile cap survived filtering."
+      "limitation": "No qualifying active current lot or fixed-price actual advert surfaced; completed/historical material excluded."
     },
     "model-096:car-and-classic:bmw-e46-m3-manual-coupe-uk": {
       "status": "searched",
@@ -767,10 +764,10 @@
     },
     "model-096:ebay:bmw-m3-e46-6-speed-manual-coupe-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-18T20:47:48Z",
+      "lastSearchedAt": "2026-09-19T06:03:19Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "eBay search executed; no direct current UK factory-manual E46 M3 Coupe advert at or below 50,000 miles and within the £20,000–£50,000 model range survived filtering."
+      "limitation": "No qualifying current factory-manual coupe within the configured £20k-£50k and <=50,000-mile rules was retained."
     },
     "model-096:facebook-groups:bmw-e46-m3-manual-coupe-uk": {
       "status": "searched",
@@ -802,17 +799,17 @@
     },
     "model-096:gumtree:bmw-e46-m3-manual-coupe-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-18T20:47:48Z",
+      "lastSearchedAt": "2026-09-19T06:03:19Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Gumtree search executed; surfaced E46 material was non-M3, convertible, over the mileage cap or otherwise non-qualifying. No current qualifying advert retained."
+      "limitation": "No qualifying current actual advert; surfaced cars were wrong body, over mileage or otherwise outside model rules."
     },
     "model-096:gumtree:bmw-m3-e46-6-speed-manual-coupe-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-18T20:47:48Z",
+      "lastSearchedAt": "2026-09-19T06:03:19Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Gumtree search executed; no direct current factory 6-speed manual E46 M3 Coupe within the mileage and price rules survived filtering."
+      "limitation": "No qualifying current actual advert; surfaced cars were wrong body, over mileage or otherwise outside model rules."
     },
     "model-096:lamborghini-talk:bmw-e46-m3-manual-coupe-uk": {
       "status": "blocked",
@@ -830,24 +827,24 @@
     },
     "model-096:pistonheads:bmw-e46-m3-manual-coupe-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-18T20:47:48Z",
+      "lastSearchedAt": "2026-09-19T06:03:19Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "PistonHeads search executed. Listing 19481897 appeared in Coupe search results at 48,000 miles/£27,500, but the actual advert description explicitly identifies the car as a convertible, so it was rejected. Other surfaced cars were unavailable, over 50,000 miles or outside the £20,000–£50,000 model range."
+      "limitation": "Current £27,500/48,000-mile result has conflicting seller copy describing a convertible; other results were unavailable or over the configured price ceiling."
     },
     "model-096:pistonheads:bmw-m3-e46-6-speed-manual-coupe-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-18T20:47:48Z",
+      "lastSearchedAt": "2026-09-19T06:03:19Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "PistonHeads search executed. The apparent 48,000-mile manual result was rejected after the actual advert identified it as a convertible; other direct listings were unavailable, over the mileage cap or outside the model price range."
+      "limitation": "Current £27,500/48,000-mile result has conflicting seller copy describing a convertible; other results were unavailable or over the configured price ceiling."
     },
     "model-096:specialist-dealers:bmw-e46-m3-manual-coupe-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-18T20:47:48Z",
+      "lastSearchedAt": "2026-09-19T06:03:19Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Specialist-dealer search executed. A current Hexagon 3,100-mile manual Coupe is £99,995, above the configured £50,000 model ceiling; no qualifying direct specialist advert retained."
+      "limitation": "Specialist stock found was over the configured £50,000 ceiling, over mileage, sold or otherwise non-qualifying."
     },
     "model-096:specialist-dealers:bmw-m3-e46-6-speed-manual-coupe-uk": {
       "status": "searched",
@@ -1203,10 +1200,10 @@
     },
     "model-078:pistonheads:renault-clio-182-trophy": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-18T21:12:59Z",
+      "lastSearchedAt": "2026-09-19T06:03:19Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public web search completed; surfaced Trophy adverts exceeded the 30,000-mile cap or were auctions, so none qualified."
+      "limitation": "Current advert surfaced at about 47,000 miles, failing the strict under-30,000-mile rule; historical auctions excluded."
     },
     "model-078:car-and-classic:renault-clio-182-trophy": {
       "status": "searched",
@@ -2881,17 +2878,17 @@
     },
     "model-085:specialist-dealers:subaru-impreza-rb320": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-18T20:47:48Z",
+      "lastSearchedAt": "2026-09-19T06:03:19Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Specialist-dealer search executed. Surfaced RB320 material was historical/unavailable or failed the strict under-30,000-mile and maximum-two-total-owner rules; no current qualifying advert retained."
+      "limitation": "No current actual advert could be proven with under-30,000 total miles and no more than two total owners."
     },
     "model-088:autotrader:mitsubishi-evo-vi-tommi-makinen-edition": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-18T21:12:59Z",
+      "lastSearchedAt": "2026-09-19T06:03:19Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public web search completed; no direct qualifying current Auto Trader advert URL surfaced."
+      "limitation": "No new qualifying current direct Auto Trader advert retained."
     },
     "model-088:car-and-classic:mitsubishi-evo-vi-tommi-makinen-edition": {
       "status": "searched",
@@ -3447,10 +3444,10 @@
     },
     "model-001:collecting-cars:ferrari-360-modena-spider-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T09:59:57Z",
+      "lastSearchedAt": "2026-09-19T06:03:19Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Only past/completed Collecting Cars Ferrari 360 manual auction material surfaced; no current fixed-price qualifying advert retained."
+      "limitation": "Only completed/historical auction pages surfaced; completed sales excluded."
     },
     "model-001:bonhams-cars:ferrari-360-modena-spider-manual": {
       "status": "searched",
@@ -3475,17 +3472,17 @@
     },
     "model-002:bonhams-cars:ferrari-f355-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T09:59:57Z",
+      "lastSearchedAt": "2026-09-19T06:03:19Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No active current Bonhams Cars F355 manual advert with a qualifying fixed UK asking price was found."
+      "limitation": "No qualifying active current lot or fixed-price advert surfaced."
     },
     "model-002:classic-trader:ferrari-f355-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T09:59:57Z",
+      "lastSearchedAt": "2026-09-19T06:03:19Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No direct current UK Classic Trader F355 factory-manual advert inside the £10,000-£100,000 price cap was found."
+      "limitation": "Surfaced adverts were over £100,000, non-UK, expired or POA; none qualified."
     },
     "model-003:collecting-cars:ferrari-550-maranello": {
       "status": "searched",
@@ -3659,17 +3656,17 @@
     },
     "model-088:classic-trader:mitsubishi-evo-vi-tommi-makinen-edition": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-18T18:34:53Z",
+      "lastSearchedAt": "2026-09-19T06:03:19Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search executed; no current UK TME advert meeting the strict mileage/ownership rules was found."
+      "limitation": "No qualifying current UK advert proved; non-current, non-UK and non-advert results excluded."
     },
     "model-088:collecting-cars:mitsubishi-evo-vi-tommi-makinen-edition": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-18T18:34:53Z",
+      "lastSearchedAt": "2026-09-19T06:03:19Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search executed; surfaced historical/completed auction material and over-limit examples only; no current fixed-price qualifying advert advanced."
+      "limitation": "Only completed or historical auction material surfaced; completed auctions excluded."
     },
     "model-056:911uk:bmw-z4-m-coupe": {
       "status": "searched",
@@ -4181,10 +4178,10 @@
     },
     "model-088:facebook-groups:mitsubishi-evo-vi-tommi-makinen-edition": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-18T16:44:51Z",
+      "lastSearchedAt": "2026-09-19T06:03:19Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public Facebook indexing returned group/login surfaces and non-inspectable discussion rather than a current qualifying UK Evo VI Tommi Makinen Edition advert with verified sub-30,000-mile and maximum-two-owner evidence."
+      "limitation": "Public indexed group search returned no inspectable current qualifying advert; no login, membership or access-control bypass attempted."
     },
     "model-041:facebook-groups:aston-martin-v12-vantage-manual": {
       "status": "searched",
@@ -4950,10 +4947,10 @@
     },
     "model-049:gumtree:porsche-997-1-gt3": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T15:36:37Z",
+      "lastSearchedAt": "2026-09-19T06:03:19Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No direct current Gumtree 997.1 GT3 advert within the configured £90,000-£100,000 range was retained."
+      "limitation": "No qualifying current actual advert retained."
     },
     "model-049:lamborghini-talk:porsche-997-1-gt3": {
       "status": "blocked",
@@ -4964,17 +4961,17 @@
     },
     "model-049:pistonheads:porsche-997-1-gt3": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T15:36:37Z",
+      "lastSearchedAt": "2026-09-19T06:03:19Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No new direct current PistonHeads 997.1 GT3 advert inside the configured range was retained; sold/unavailable material was excluded."
+      "limitation": "Current Paragon example is £124,995, above the £100,000 maximum; older unavailable listings excluded."
     },
     "model-049:specialist-dealers:porsche-997-1-gt3": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T15:36:37Z",
+      "lastSearchedAt": "2026-09-19T06:03:19Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No specialist-dealer 997.1 GT3 with unambiguous current availability and a qualifying fixed £90,000-£100,000 asking price was retained."
+      "limitation": "Current specialist example found is above £100,000; sold archive stock excluded."
     },
     "model-050:911uk:porsche-996-turbo-manual-x50-turbo-s": {
       "status": "searched",
@@ -4985,10 +4982,10 @@
     },
     "model-050:autotrader:porsche-996-turbo-manual-x50-turbo-s": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T15:36:37Z",
+      "lastSearchedAt": "2026-09-19T06:03:19Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No new direct current Auto Trader 996 Turbo factory-manual/X50/Turbo S advert strong enough to retain surfaced in this pass."
+      "limitation": "No new qualifying current direct Auto Trader advert retained."
     },
     "model-050:bonhams-cars:porsche-996-turbo-manual-x50-turbo-s": {
       "status": "searched",
@@ -4999,10 +4996,12 @@
     },
     "model-050:car-and-classic:porsche-996-turbo-manual-x50-turbo-s": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T15:36:37Z",
-      "lastResultCount": 0,
-      "candidateUrls": [],
-      "limitation": "No direct current Car & Classic 996 Turbo manual/X50/Turbo S advert with sufficiently strong current-status and specification evidence was retained."
+      "lastSearchedAt": "2026-09-19T06:03:19Z",
+      "lastResultCount": 1,
+      "candidateUrls": [
+        "https://www.carandclassic.com/car/C2191131"
+      ],
+      "limitation": "New live dealer advert retained for verification: 2002 996 Turbo manual, advertised X50, £64,995."
     },
     "model-050:classic-trader:porsche-996-turbo-manual-x50-turbo-s": {
       "status": "searched",
@@ -5020,10 +5019,10 @@
     },
     "model-050:ebay:porsche-996-turbo-manual-x50-turbo-s": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T15:36:37Z",
+      "lastSearchedAt": "2026-09-19T06:03:19Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Fresh eBay search yielded no direct current qualifying 996 Turbo manual/X50/Turbo S vehicle advert; parts, stale and non-qualifying results were rejected."
+      "limitation": "Ended, stale, automatic or non-qualifying results excluded."
     },
     "model-050:facebook-groups:porsche-996-turbo-manual-x50-turbo-s": {
       "status": "blocked",
@@ -5041,10 +5040,10 @@
     },
     "model-050:gumtree:porsche-996-turbo-manual-x50-turbo-s": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T15:36:37Z",
+      "lastSearchedAt": "2026-09-19T06:03:19Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No direct current Gumtree 996 Turbo factory-manual/X50/Turbo S advert strong enough to retain was found."
+      "limitation": "No new qualifying current actual advert retained."
     },
     "model-050:lamborghini-talk:porsche-996-turbo-manual-x50-turbo-s": {
       "status": "blocked",
@@ -5055,17 +5054,17 @@
     },
     "model-050:pistonheads:porsche-996-turbo-manual-x50-turbo-s": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T15:36:37Z",
+      "lastSearchedAt": "2026-09-19T06:03:19Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No new direct current qualifying PistonHeads 996 Turbo manual/X50/Turbo S identity was retained in this pass; unavailable/sold and non-manual cars were excluded."
+      "limitation": "Surfaced manual Turbo was explicitly DEPOSIT TAKEN; stale and unavailable stock excluded."
     },
     "model-050:specialist-dealers:porsche-996-turbo-manual-x50-turbo-s": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T15:36:37Z",
+      "lastSearchedAt": "2026-09-19T06:03:19Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "A Rennzone surface showed a 2003 X50 manual at £55,995, but authoritative RPM Technik seller stock identifies the exact car as Sold - Archive. A Philip Raby X50 result was automatic. No current qualifying specialist candidate retained."
+      "limitation": "Dealer authority marked surfaced stock deposit taken or sold; syndicated/stale copies excluded."
     },
     "model-051:911uk:porsche-997-turbo-manual-coupe-cabriolet": {
       "status": "searched",
@@ -5076,10 +5075,10 @@
     },
     "model-051:autotrader:porsche-997-turbo-manual-coupe-cabriolet": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T15:36:37Z",
+      "lastSearchedAt": "2026-09-19T06:03:19Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No direct current Auto Trader 997 Turbo factory-manual Coupe/Cabriolet advert with sufficient current-status evidence was retained."
+      "limitation": "No new qualifying current direct Auto Trader advert retained."
     },
     "model-051:bonhams-cars:porsche-997-turbo-manual-coupe-cabriolet": {
       "status": "searched",
@@ -5090,10 +5089,10 @@
     },
     "model-051:car-and-classic:porsche-997-turbo-manual-coupe-cabriolet": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T15:36:37Z",
+      "lastSearchedAt": "2026-09-19T06:03:19Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No direct current Car & Classic 997 Turbo factory-manual Coupe/Cabriolet advert strong enough to retain surfaced; removed/sold or ambiguous pages were excluded."
+      "limitation": "C1885537 explicitly says the advert has been removed through sale or otherwise; other surfaced manual stock exceeded £100,000."
     },
     "model-051:classic-trader:porsche-997-turbo-manual-coupe-cabriolet": {
       "status": "searched",
@@ -5111,10 +5110,10 @@
     },
     "model-051:ebay:porsche-997-turbo-manual-coupe-cabriolet": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T15:36:37Z",
+      "lastSearchedAt": "2026-09-19T06:03:19Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "A 2008 Turbo manual £59,995 advert surfaced but the exact eBay listing had ended on 28 August and only stated that it was relisted; the ended URL was not retained because the live relist was not resolved."
+      "limitation": "eBay item 227264222185 still renders, but the seller's current Porsche inventory now marks the exact 2006/23,000-mile manual Turbo SOLD SIMILAR WANTED; excluded as unavailable."
     },
     "model-051:facebook-groups:porsche-997-turbo-manual-coupe-cabriolet": {
       "status": "blocked",
@@ -5132,10 +5131,12 @@
     },
     "model-051:gumtree:porsche-997-turbo-manual-coupe-cabriolet": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T15:36:37Z",
-      "lastResultCount": 0,
-      "candidateUrls": [],
-      "limitation": "No direct current Gumtree 997 Turbo factory-manual Coupe/Cabriolet advert strong enough to retain was found."
+      "lastSearchedAt": "2026-09-19T06:03:19Z",
+      "lastResultCount": 1,
+      "candidateUrls": [
+        "https://www.gumtree.com/p/porsche/porsche-911-3-6-997-turbo-cabriolet-awd-2dr-rare-manual/1505436000"
+      ],
+      "limitation": "Current dealer advert retained; exact hard photo/manual-control verification remains incomplete."
     },
     "model-051:lamborghini-talk:porsche-997-turbo-manual-coupe-cabriolet": {
       "status": "blocked",
@@ -5146,10 +5147,12 @@
     },
     "model-051:pistonheads:porsche-997-turbo-manual-coupe-cabriolet": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T15:36:37Z",
-      "lastResultCount": 0,
-      "candidateUrls": [],
-      "limitation": "Search surfaced sold manual stock and current Tiptronic/automatic stock, but no direct current qualifying factory-manual 997 Turbo advert was retained."
+      "lastSearchedAt": "2026-09-19T06:03:19Z",
+      "lastResultCount": 1,
+      "candidateUrls": [
+        "https://www.pistonheads.com/buy/listing/20371468"
+      ],
+      "limitation": "Fresh qualifying dealer advert retained; duplicate cross-post of the known Shaks Cabriolet was not added separately."
     },
     "model-051:specialist-dealers:porsche-997-turbo-manual-coupe-cabriolet": {
       "status": "searched",
@@ -9176,31 +9179,31 @@
     },
     "model-090:facebook-groups:mitsubishi-evo-ix-fq340": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T21:50:43Z",
+      "lastSearchedAt": "2026-09-19T06:03:19Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public Facebook-group search returned no accessible direct current Evo IX FQ340 sale post proving under 30,000 total miles and no more than two total owners; no login/access-control bypass was attempted."
+      "limitation": "No inspectable current qualifying advert in public indexed group results; no access-control bypass attempted."
     },
     "model-090:facebook-groups:mitsubishi-evo-ix-mr-fq360": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T21:50:43Z",
+      "lastSearchedAt": "2026-09-19T06:03:19Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public Facebook-group search returned no accessible direct current Evo IX MR FQ360 sale post proving the strict mileage and total-owner rules; no login/access-control bypass was attempted."
+      "limitation": "No inspectable current qualifying advert in public indexed group results; no access-control bypass attempted."
     },
     "model-090:ferrarichat:mitsubishi-evo-ix-fq340": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T21:50:43Z",
+      "lastSearchedAt": "2026-09-19T06:03:19Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "FerrariChat public search returned no plausible current UK Evo IX FQ340 sale advert meeting the mileage/owner rules."
+      "limitation": "No current qualifying owner-sale advert surfaced."
     },
     "model-090:ferrarichat:mitsubishi-evo-ix-mr-fq360": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T21:50:43Z",
+      "lastSearchedAt": "2026-09-19T06:03:19Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "FerrariChat public search returned no plausible current UK Evo IX MR FQ360 sale advert meeting the mileage/owner rules."
+      "limitation": "No current qualifying owner-sale advert surfaced."
     },
     "model-090:gumtree:mitsubishi-evo-ix-fq340": {
       "status": "searched",
@@ -9218,17 +9221,17 @@
     },
     "model-090:lamborghini-talk:mitsubishi-evo-ix-fq340": {
       "status": "blocked",
-      "lastSearchedAt": "2026-09-16T21:50:43Z",
+      "lastSearchedAt": "2026-09-19T06:03:19Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public web access to LamborghiniTalk is blocked by robots.txt; no bypass was attempted."
+      "limitation": "Public web access to LamborghiniTalk search results was blocked by robots.txt; no bypass attempted."
     },
     "model-090:lamborghini-talk:mitsubishi-evo-ix-mr-fq360": {
       "status": "blocked",
-      "lastSearchedAt": "2026-09-16T21:50:43Z",
+      "lastSearchedAt": "2026-09-19T06:03:19Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public web access to LamborghiniTalk is blocked by robots.txt; no bypass was attempted."
+      "limitation": "Public web access to LamborghiniTalk search results was blocked by robots.txt; no bypass attempted."
     },
     "model-090:pistonheads:mitsubishi-evo-ix-fq340": {
       "status": "searched",
@@ -9260,17 +9263,17 @@
     },
     "model-091:911uk:mitsubishi-evo-x-fq360-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T21:50:43Z",
+      "lastSearchedAt": "2026-09-19T06:03:19Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "911UK public search returned no direct current UK Evo X FQ360 manual sale thread proving under 30,000 total miles and no more than two total owners."
+      "limitation": "No current qualifying actual owner-sale advert surfaced."
     },
     "model-091:911uk:mitsubishi-evo-x-fq400-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T21:50:43Z",
+      "lastSearchedAt": "2026-09-19T06:03:19Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "911UK public search returned no direct current UK Evo X FQ400 manual sale thread proving the strict mileage and total-owner rules."
+      "limitation": "No current qualifying actual owner-sale advert surfaced."
     },
     "model-091:autotrader:mitsubishi-evo-x-fq360-manual": {
       "status": "searched",
@@ -9358,31 +9361,31 @@
     },
     "model-091:facebook-groups:mitsubishi-evo-x-fq360-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T21:50:43Z",
+      "lastSearchedAt": "2026-09-19T06:03:19Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public Facebook-group search returned no accessible current Evo X FQ360 manual sale post meeting the strict mileage/ownership criteria; no login/access-control bypass was attempted."
+      "limitation": "No inspectable current qualifying advert in public indexed group results; no access-control bypass attempted."
     },
     "model-091:facebook-groups:mitsubishi-evo-x-fq400-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T21:50:43Z",
+      "lastSearchedAt": "2026-09-19T06:03:19Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public Facebook-group search returned no accessible current Evo X FQ400 manual sale post meeting the strict mileage/ownership criteria; no login/access-control bypass was attempted."
+      "limitation": "No inspectable current qualifying advert in public indexed group results; no access-control bypass attempted."
     },
     "model-091:ferrarichat:mitsubishi-evo-x-fq360-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T21:50:43Z",
+      "lastSearchedAt": "2026-09-19T06:03:19Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "FerrariChat public search returned no plausible current UK Evo X FQ360 manual advert meeting the strict mileage and owner rules."
+      "limitation": "No current qualifying owner-sale advert surfaced."
     },
     "model-091:ferrarichat:mitsubishi-evo-x-fq400-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T21:50:43Z",
+      "lastSearchedAt": "2026-09-19T06:03:19Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "FerrariChat public search returned no plausible current UK Evo X FQ400 manual advert meeting the strict mileage and owner rules."
+      "limitation": "No current qualifying owner-sale advert surfaced."
     },
     "model-091:gumtree:mitsubishi-evo-x-fq360-manual": {
       "status": "searched",
@@ -9400,10 +9403,10 @@
     },
     "model-091:lamborghini-talk:mitsubishi-evo-x-fq360-manual": {
       "status": "blocked",
-      "lastSearchedAt": "2026-09-16T21:50:43Z",
+      "lastSearchedAt": "2026-09-19T06:03:19Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public web access to LamborghiniTalk is blocked by robots.txt; no bypass was attempted."
+      "limitation": "Public web access to LamborghiniTalk search results was blocked by robots.txt; no bypass attempted."
     },
     "model-091:lamborghini-talk:mitsubishi-evo-x-fq400-manual": {
       "status": "blocked",
