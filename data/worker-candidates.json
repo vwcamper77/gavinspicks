@@ -1,32 +1,32 @@
 {
-  "updatedAt": "2026-09-19T20:52:49Z",
+  "updatedAt": "2026-09-19T21:50:32Z",
   "candidates": [
     {
       "modelId": "model-056",
       "url": "https://www.ebay.co.uk/itm/800309038343",
       "source": "ebay",
       "discoveredAt": "2026-09-09T22:34:18Z",
-      "status": "verification-pending",
-      "note": "2007 BMW Z4 M Coupe, £19,925, 87,000 miles, manual, UK classified. Live-status/photo/current-stock verification still required before publication.",
-      "lastCheckedAt": "2026-09-14T03:36:13Z"
+      "status": "rejected",
+      "note": "Rechecked 19 Sep 2026: current 2007 BMW Z4 M Coupe advert at £19,925 / 87,000 miles is below the configured model-056 £23,000 minimum, so it fails the current watch rules and is rejected from verification.",
+      "lastCheckedAt": "2026-09-19T21:50:32Z"
     },
     {
       "modelId": "model-056",
       "url": "https://www.ebay.co.uk/itm/157708719903",
       "source": "ebay",
       "discoveredAt": "2026-09-09T22:34:18Z",
-      "status": "verification-pending",
-      "note": "2007 BMW Z4 M Coupe, £15,995, 101,293 miles, manual. Plausible advert but high-mileage/ordinary example; retain only for verification/editorial rejection evidence.",
-      "lastCheckedAt": "2026-09-14T03:36:13Z"
+      "status": "rejected",
+      "note": "Rechecked 19 Sep 2026: current 2007 BMW Z4 M Coupe advert at £15,995 / 101,293 miles is below the configured £23,000 minimum and is not an exceptional target; rejected.",
+      "lastCheckedAt": "2026-09-19T21:50:32Z"
     },
     {
       "modelId": "model-056",
       "url": "https://www.carandclassic.com/car/C2127428",
       "source": "car-and-classic",
       "discoveredAt": "2026-09-09T22:34:18Z",
-      "status": "verification-pending",
+      "status": "rejected",
       "note": "Rechecked 18 Sep 2026: the direct Car & Classic advert is currently For Sale at £21,995, 73,800 miles, RHD six-speed manual, registration SP07UPS, with Speedbroker and a 34-photo seller gallery. Seller states five previous owners and MOT to June 2027. Current status/specification are strong, but this run still could not visually inspect the exact gallery pixels closely enough for mandatory SOLD/RESERVED overlay and manual-control evidence. Keep verification-pending; do not publish.",
-      "lastCheckedAt": "2026-09-18T01:22:31Z",
+      "lastCheckedAt": "2026-09-19T21:50:32Z",
       "vehicleIdentity": "2007 BMW Z4 M Coupe | SP07UPS | 73,800 miles | £21,995 | Speedbroker Ltd"
     },
     {
@@ -34,9 +34,9 @@
       "url": "https://www.carandclassic.com/car/C1248397",
       "source": "car-and-classic",
       "discoveredAt": "2026-09-09T22:34:18Z",
-      "status": "verification-pending",
-      "note": "2006 BMW Z4 M Coupe, £18,995, 83,652 miles, manual, UK dealer. Current advert indexed; full current-stock/photo verification still required.",
-      "lastCheckedAt": "2026-09-14T03:36:13Z"
+      "status": "rejected",
+      "note": "Existing 2006 BMW Z4 M Coupe candidate at £18,995 fails the current model-056 £23,000 minimum and is rejected from the active verification queue.",
+      "lastCheckedAt": "2026-09-19T21:50:32Z"
     },
     {
       "modelId": "model-070",
@@ -45,7 +45,7 @@
       "discoveredAt": "2026-09-09T22:34:18Z",
       "status": "verification-pending",
       "note": "Rechecked 14 Sep 2026: KGF's own direct advert and current showroom both explicitly list this exact 2003 Focus RS Mk1 build #3260 FOR SALE at £32,995 and 53,227 miles. Car & Classic independently still marks R5FNW For Sale with a 100-photo gallery and five-speed manual. KGF describes the car as totally standard, two former keepers, ten service stamps and a July 2026 Ford main-dealer service/cambelt. Exact KGF seller-image asset fetch failed in this run, so SOLD/RESERVED-overlay and cabin/manual-control visual inspection remains incomplete; keep verification-pending and do not publish.",
-      "lastCheckedAt": "2026-09-18T01:22:31Z",
+      "lastCheckedAt": "2026-09-19T21:50:32Z",
       "vehicleIdentity": "2003 Ford Focus RS Mk1 | R5FNW | build #3260 | 53,227 miles | KGF Classic Cars"
     },
     {
@@ -102,9 +102,9 @@
       "url": "https://www.pistonheads.com/buy/listing/20952644",
       "source": "pistonheads",
       "discoveredAt": "2026-09-09T23:35:56Z",
-      "status": "verification-pending",
+      "status": "rejected",
       "note": "Rechecked 16 Sep 2026: current PistonHeads advert remains £17,500, 96,615 miles, 6 previous owners and manual, from a private seller in Belfast with active seller controls and a 23-photo gallery. Mandatory visual unavailable-overlay/manual-control inspection remains incomplete; keep verification-pending and do not publish.",
-      "lastCheckedAt": "2026-09-16T13:40:18Z",
+      "lastCheckedAt": "2026-09-19T21:50:32Z",
       "vehicleIdentity": "2007 BMW Z4 M Coupe | £17,500 | 96,615 miles | Belfast private seller"
     },
     {
