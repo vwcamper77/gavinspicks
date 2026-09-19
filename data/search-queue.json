@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T01:58:20.609Z",
+  "generatedAt": "2026-09-19T02:16:02.541Z",
   "modelCount": 96,
   "sourceCount": 13,
   "jobCount": 1482,
@@ -4303,10 +4303,10 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T13:04:10Z",
+      "lastSearchedAt": "2026-09-19T02:07:42Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "eBay results were models, brochures, parts or other non-vehicle material; no current S4s car advert was retained."
+      "limitation": "eBay query executed; surfaced material was non-qualifying, parts, stale or not a direct current S4s advert."
     },
     {
       "id": "model-020:autotrader:lotus-esprit-s4s",
@@ -4339,10 +4339,12 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T13:04:10Z",
-      "lastResultCount": 0,
-      "candidateUrls": [],
-      "limitation": "A current-looking 1995 S4s at £39,995 was below the model's £40,000 configured minimum and another advert was DEPOSIT TAKEN; both were rejected."
+      "lastSearchedAt": "2026-09-19T02:07:42Z",
+      "lastResultCount": 1,
+      "candidateUrls": [
+        "https://www.pistonheads.com/buy/listing/20862221"
+      ],
+      "limitation": "PistonHeads query executed. The known 1995 Esprit S4s at £39,995/64,000 miles/manual remains a plausible current advert; another surfaced Esprit advert explicitly showed deposit taken and was rejected."
     },
     {
       "id": "model-020:car-and-classic:lotus-esprit-s4s",
@@ -4356,10 +4358,10 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T13:04:10Z",
+      "lastSearchedAt": "2026-09-19T02:07:42Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "The direct Lotus Esprit S4s advert surfaced by Car & Classic was sold/removed; no current qualifying advert was retained."
+      "limitation": "Car & Classic query executed; no new plausible current direct Lotus Esprit S4s advert survived filtering."
     },
     {
       "id": "model-020:collecting-cars:lotus-esprit-s4s",
@@ -4424,10 +4426,10 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T13:04:10Z",
+      "lastSearchedAt": "2026-09-19T02:07:42Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Gumtree search produced no plausible direct current qualifying Lotus Esprit S4s advert."
+      "limitation": "Gumtree query executed; no plausible current direct Lotus Esprit S4s advert survived filtering."
     },
     {
       "id": "model-020:911uk:lotus-esprit-s4s",
@@ -4492,10 +4494,10 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T13:04:10Z",
+      "lastSearchedAt": "2026-09-19T02:07:42Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Specialist results did not produce a current direct S4s advert meeting the configured £40,000 minimum; the visible £39,995 car was excluded."
+      "limitation": "Specialist-dealer search executed; no additional direct current Esprit S4s specialist-stock advert survived filtering."
     },
     {
       "id": "model-021:facebook-groups:lotus-esprit-gt3",
@@ -9456,13 +9458,10 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T13:04:10Z",
-      "lastResultCount": 2,
-      "candidateUrls": [
-        "https://www.pistonheads.com/buy/listing/20915841",
-        "https://www.pistonheads.com/buy/listing/21057311"
-      ],
-      "limitation": "Two direct current manual V8 Vantage adverts were retained for verification. The £33,980 Coupe has nine previous owners and Bamford Rose modifications; the £33,400 Roadster is heavily supercharged/modified and its manual controls were not visually verified in this run. Neither passes the exceptional/original-example publication gate yet."
+      "lastSearchedAt": "2026-09-19T02:07:42Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "PistonHeads query executed. The surfaced direct manual V8 Vantage was a 2012 car and therefore outside model-042's 2005-2010 year rule; no qualifying advert was retained."
     },
     {
       "id": "model-042:car-and-classic:aston-martin-v8-vantage-4-3-4-7-manual",
@@ -9547,10 +9546,10 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T13:04:10Z",
+      "lastSearchedAt": "2026-09-19T02:07:42Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Gumtree search produced no plausible direct current Aston Martin V8 Vantage manual advert."
+      "limitation": "Gumtree query executed; no plausible current direct qualifying 2005-2010 manual V8 Vantage advert survived filtering."
     },
     {
       "id": "model-042:911uk:aston-martin-v8-vantage-4-3-4-7-manual",
@@ -9615,10 +9614,10 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T13:04:10Z",
+      "lastSearchedAt": "2026-09-19T02:07:42Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Specialist-dealer search did not expose a new direct current V8 Vantage manual advert strong enough to retain beyond already-known cars."
+      "limitation": "Specialist-dealer search executed; surfaced manual V8 Vantage stock was outside the configured model-042 year rule or already-known/non-qualifying, so no new candidate was retained."
     },
     {
       "id": "model-043:facebook-groups:aston-martin-v8-vantage-n400-manual",
@@ -9666,13 +9665,10 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T13:04:10Z",
-      "lastResultCount": 2,
-      "candidateUrls": [
-        "https://www.autotrader.co.uk/car-details/202609025638939",
-        "https://www.autotrader.co.uk/car-details/202609025657488"
-      ],
-      "limitation": "Two current direct N400 manual adverts were retained. The £35,991 dealer car remains pending because manual-photo verification was incomplete. The £39,500 / 29,000-mile private N400 Roadster was fully verified from the live advert and seller gallery and has been published."
+      "lastSearchedAt": "2026-09-19T02:07:42Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Auto Trader query executed; only generic inventory/search surfaces were returned, not a new direct current car-details advert URL, so no candidate was retained."
     },
     {
       "id": "model-043:pistonheads:aston-martin-v8-vantage-n400-manual",
@@ -16252,10 +16248,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-18T18:34:53Z",
+      "lastSearchedAt": "2026-09-19T02:07:42Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search executed; no plausible current actual Gumtree Focus RS500 advert was found."
+      "limitation": "Gumtree query executed; no plausible current direct RS500 advert survived filtering."
     },
     {
       "id": "model-070:911uk:ford-focus-rs500",
@@ -17251,10 +17247,12 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-18T18:34:53Z",
-      "lastResultCount": 0,
-      "candidateUrls": [],
-      "limitation": "Search executed; one high-mileage eBay quattro Sport result was not strong enough under the exceptional-example policy/current-status gate, so it was not advanced."
+      "lastSearchedAt": "2026-09-19T02:07:42Z",
+      "lastResultCount": 1,
+      "candidateUrls": [
+        "https://www.ebay.co.uk/itm/307025500032"
+      ],
+      "limitation": "eBay query and follow-up executed. One plausible direct £10,000 manual TT quattro Sport classified remains indexed and is already tracked; an older surfaced listing was explicitly ended as no longer available and was rejected."
     },
     {
       "id": "model-075:autotrader:audi-tt-quattro-sport",
@@ -17268,10 +17266,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-18T18:34:53Z",
+      "lastSearchedAt": "2026-09-19T02:07:42Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search executed; generic/search results surfaced but no current actual Auto Trader detail advert strong enough to advance."
+      "limitation": "Auto Trader query executed; surfaced material was generic/category content rather than a qualifying direct current car-details advert."
     },
     {
       "id": "model-075:pistonheads:audi-tt-quattro-sport",
@@ -17285,12 +17283,12 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-18T18:34:53Z",
+      "lastSearchedAt": "2026-09-19T02:07:42Z",
       "lastResultCount": 1,
       "candidateUrls": [
         "https://www.pistonheads.com/buy/listing/19212579"
       ],
-      "limitation": "Search executed; one current actual quattro Sport advert was found. Verification shows 77,000 miles and five previous owners, so it fails the exceptional-example editorial gate and is marked rejected."
+      "limitation": "PistonHeads query executed. The known £11,990 manual TT quattro Sport remains a plausible current advert; a previously unavailable identity was not re-admitted because stale/recycled adverts are excluded."
     },
     {
       "id": "model-075:car-and-classic:audi-tt-quattro-sport",
@@ -17304,10 +17302,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-18T18:34:53Z",
+      "lastSearchedAt": "2026-09-19T02:07:42Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search executed; surfaced removed/stale TT quattro Sport pages; no plausible current actual advert advanced."
+      "limitation": "Car & Classic query executed; the surfaced exact-model advert was explicitly removed through sale or otherwise, so no current advert was retained."
     },
     {
       "id": "model-075:collecting-cars:audi-tt-quattro-sport",
@@ -17321,10 +17319,10 @@
       "priority": true,
       "cadenceHours": 3,
       "status": "searched",
-      "lastSearchedAt": "2026-09-18T17:13:23Z",
+      "lastSearchedAt": "2026-09-19T02:07:42Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Only historical/completed Collecting Cars Audi TT quattro Sport auction material surfaced; no current qualifying advert retained."
+      "limitation": "Collecting Cars query executed; no active current TT quattro Sport sale with a qualifying fixed asking price survived filtering; completed auctions were excluded."
     },
     {
       "id": "model-075:bonhams-cars:audi-tt-quattro-sport",
@@ -17355,10 +17353,10 @@
       "priority": true,
       "cadenceHours": 3,
       "status": "searched",
-      "lastSearchedAt": "2026-09-18T15:20:32Z",
+      "lastSearchedAt": "2026-09-19T02:07:42Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search executed. The surfaced 2006 Audi TT quattro Sport manual was located in Pirna, Germany, so it failed the UK-location rule; no qualifying current UK advert was retained."
+      "limitation": "Classic Trader query executed; no plausible current direct UK Audi TT quattro Sport advert survived filtering."
     },
     {
       "id": "model-075:gumtree:audi-tt-quattro-sport",
@@ -17372,10 +17370,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-18T18:34:53Z",
+      "lastSearchedAt": "2026-09-19T02:07:42Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search executed; results were standard TT/quattro cars rather than a verified Mk1 quattro Sport special edition."
+      "limitation": "Gumtree query executed. A fresh exact-model advert at £7,580 was below the £10,000 global floor and was rejected; other surfaced material was wrong-variant or non-qualifying."
     },
     {
       "id": "model-075:911uk:audi-tt-quattro-sport",
@@ -17440,10 +17438,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-18T18:34:53Z",
+      "lastSearchedAt": "2026-09-19T02:07:42Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search executed; the current specialist advert found is £8,995, below the £10,000 floor, so it does not qualify."
+      "limitation": "Specialist-dealer search executed. Philip Raby's current £8,995 example is below the £10,000 eligibility floor, so no qualifying advert was retained."
     },
     {
       "id": "model-076:facebook-groups:ford-focus-st500",
@@ -18466,10 +18464,10 @@
       "priority": true,
       "cadenceHours": 3,
       "status": "searched",
-      "lastSearchedAt": "2026-09-18T15:20:32Z",
+      "lastSearchedAt": "2026-09-19T02:07:42Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search executed. No direct current UK Clio 182 Trophy advert satisfying both the strict under-30,000-mile and maximum-two-total-owner rules was retained."
+      "limitation": "Classic Trader query executed; no direct current Clio 182 Trophy advert satisfying the strict sub-30,000-mile and maximum-two-total-owner rules survived filtering."
     },
     {
       "id": "model-078:gumtree:renault-clio-182-trophy",
@@ -18483,10 +18481,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-18T18:34:53Z",
+      "lastSearchedAt": "2026-09-19T02:07:42Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search executed; no plausible current actual Gumtree Trophy advert meeting the strict mileage/ownership rules was found."
+      "limitation": "Gumtree query executed; no direct current Clio 182 Trophy advert satisfying the strict sub-30,000-mile and maximum-two-total-owner rules survived filtering."
     },
     {
       "id": "model-078:911uk:renault-clio-182-trophy",
@@ -18551,10 +18549,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-18T18:34:53Z",
+      "lastSearchedAt": "2026-09-19T02:07:42Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search executed; surfaced sold or over-limit examples only; no current qualifying specialist advert advanced."
+      "limitation": "Specialist-dealer search executed; surfaced Trophy examples were sold or failed the strict mileage/ownership rules, so no current qualifying advert was retained."
     },
     {
       "id": "model-079:facebook-groups:renault-clio-williams-2",
@@ -20132,10 +20130,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-18T18:34:53Z",
+      "lastSearchedAt": "2026-09-19T02:07:42Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search executed; no plausible current actual eBay P1 advert meeting the strict mileage/ownership rules was found."
+      "limitation": "eBay query executed; no plausible current direct P1 advert satisfying the strict mileage and ownership rules survived filtering."
     },
     {
       "id": "model-082:autotrader:subaru-impreza-p1",
@@ -20183,10 +20181,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-18T18:34:53Z",
+      "lastSearchedAt": "2026-09-19T02:07:42Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search executed; results were stale, sold/auction history, or exceeded the strict mileage/ownership rules. No plausible current qualifying advert advanced."
+      "limitation": "Car & Classic query executed; no direct current P1 advert satisfying the strict sub-30,000-mile and maximum-two-total-owner rules survived filtering."
     },
     {
       "id": "model-082:collecting-cars:subaru-impreza-p1",
@@ -20200,10 +20198,10 @@
       "priority": true,
       "cadenceHours": 3,
       "status": "searched",
-      "lastSearchedAt": "2026-09-18T15:20:32Z",
+      "lastSearchedAt": "2026-09-19T02:07:42Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search executed. Surfaced Collecting Cars P1 pages were completed/historical auctions and/or over the strict mileage cap, so none qualified."
+      "limitation": "Collecting Cars query executed; no active current P1 sale satisfying the strict mileage and ownership rules survived filtering; completed auctions were excluded."
     },
     {
       "id": "model-082:bonhams-cars:subaru-impreza-p1",
@@ -20217,10 +20215,10 @@
       "priority": true,
       "cadenceHours": 3,
       "status": "searched",
-      "lastSearchedAt": "2026-09-18T15:20:32Z",
+      "lastSearchedAt": "2026-09-19T02:07:42Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search executed. Bonhams results were historical/completed or otherwise not current fixed-price qualifying UK P1 adverts; no candidate retained."
+      "limitation": "Bonhams Cars query executed; no active purchasable P1 lot satisfying the strict mileage and ownership rules survived filtering; completed/historical auction material was excluded."
     },
     {
       "id": "model-082:classic-trader:subaru-impreza-p1",
@@ -20234,10 +20232,10 @@
       "priority": true,
       "cadenceHours": 3,
       "status": "searched",
-      "lastSearchedAt": "2026-09-18T15:20:32Z",
+      "lastSearchedAt": "2026-09-19T02:07:42Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search executed. No direct current UK Impreza P1 advert satisfying the strict under-30,000-mile and maximum-two-total-owner rules was retained."
+      "limitation": "Classic Trader query executed; no direct current UK P1 advert satisfying the strict mileage and ownership rules survived filtering."
     },
     {
       "id": "model-082:gumtree:subaru-impreza-p1",
@@ -20251,10 +20249,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-18T18:34:53Z",
+      "lastSearchedAt": "2026-09-19T02:07:42Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search executed; no plausible current actual Gumtree P1 advert meeting the strict mileage/ownership rules was found."
+      "limitation": "Gumtree query executed; no plausible current direct P1 advert satisfying the strict mileage and ownership rules survived filtering."
     },
     {
       "id": "model-082:911uk:subaru-impreza-p1",
@@ -21169,10 +21167,10 @@
       "priority": false,
       "cadenceHours": 24,
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T19:06:58Z",
+      "lastSearchedAt": "2026-09-19T02:07:42Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "FerrariChat search surfaced discussion/historical material rather than a direct current UK 22B sale advert meeting the strict rules."
+      "limitation": "FerrariChat query executed; no plausible fresh UK owner-sale advert satisfying the strict mileage and ownership rules surfaced."
     },
     {
       "id": "model-086:lamborghini-talk:subaru-impreza-22b",
@@ -21186,10 +21184,10 @@
       "priority": false,
       "cadenceHours": 24,
       "status": "blocked",
-      "lastSearchedAt": "2026-09-16T19:06:58Z",
+      "lastSearchedAt": "2026-09-19T02:07:42Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "LamborghiniTalk blocks public web access via robots.txt; no bypass was attempted."
+      "limitation": "Public web search attempted, but lamborghini-talk.com is blocked by robots.txt in this environment; no current advert pages could be inspected."
     },
     {
       "id": "model-086:specialist-dealers:subaru-impreza-22b",
@@ -21390,10 +21388,10 @@
       "priority": false,
       "cadenceHours": 24,
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T19:06:58Z",
+      "lastSearchedAt": "2026-09-19T02:07:42Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No direct current UK Subaru STI Type R sale advert meeting the strict mileage/ownership rules surfaced on FerrariChat."
+      "limitation": "FerrariChat query executed; no plausible fresh UK STI Type R owner-sale advert satisfying the strict mileage and ownership rules surfaced."
     },
     {
       "id": "model-086:lamborghini-talk:subaru-impreza-sti-type-r",
@@ -21407,10 +21405,10 @@
       "priority": false,
       "cadenceHours": 24,
       "status": "blocked",
-      "lastSearchedAt": "2026-09-16T19:06:58Z",
+      "lastSearchedAt": "2026-09-19T02:07:42Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "LamborghiniTalk blocks public web access via robots.txt; no bypass was attempted."
+      "limitation": "Public web search attempted, but lamborghini-talk.com is blocked by robots.txt in this environment; no current advert pages could be inspected."
     },
     {
       "id": "model-086:specialist-dealers:subaru-impreza-sti-type-r",
@@ -21613,10 +21611,10 @@
       "priority": false,
       "cadenceHours": 24,
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T19:06:58Z",
+      "lastSearchedAt": "2026-09-19T02:07:42Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No direct current UK Subaru STI Type RA sale advert meeting the strict mileage/ownership rules surfaced on FerrariChat."
+      "limitation": "FerrariChat query executed; no plausible fresh UK STI Type RA owner-sale advert satisfying the strict mileage and ownership rules surfaced."
     },
     {
       "id": "model-086:lamborghini-talk:subaru-impreza-sti-type-ra",
@@ -21630,10 +21628,10 @@
       "priority": false,
       "cadenceHours": 24,
       "status": "blocked",
-      "lastSearchedAt": "2026-09-16T19:06:58Z",
+      "lastSearchedAt": "2026-09-19T02:07:42Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "LamborghiniTalk blocks public web access via robots.txt; no bypass was attempted."
+      "limitation": "Public web search attempted, but lamborghini-talk.com is blocked by robots.txt in this environment; no current advert pages could be inspected."
     },
     {
       "id": "model-086:specialist-dealers:subaru-impreza-sti-type-ra",
@@ -21663,11 +21661,11 @@
       "query": "site:facebook.com/groups Subaru Impreza S202 UK for sale under 30000 miles maximum 2 total owners",
       "priority": false,
       "cadenceHours": 24,
-      "status": "blocked",
-      "lastSearchedAt": "2026-09-16T19:06:58Z",
+      "status": "searched",
+      "lastSearchedAt": "2026-09-19T02:07:42Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public Facebook-group search returned login/generic group pages rather than an accessible current S202 sale post."
+      "limitation": "Public Facebook-group query executed; surfaced pages were not a verifiable current S202 owner-sale advert, so no candidate was retained."
     },
     {
       "id": "model-087:ebay:subaru-impreza-s202",
@@ -21817,10 +21815,10 @@
       "priority": false,
       "cadenceHours": 24,
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T19:06:58Z",
+      "lastSearchedAt": "2026-09-19T02:07:42Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "911UK search produced no direct current qualifying S202 sale advert."
+      "limitation": "911UK query executed; no plausible fresh UK S202 owner-sale advert satisfying the strict mileage and ownership rules surfaced."
     },
     {
       "id": "model-087:ferrarichat:subaru-impreza-s202",
@@ -21834,10 +21832,10 @@
       "priority": false,
       "cadenceHours": 24,
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T19:06:58Z",
+      "lastSearchedAt": "2026-09-19T02:07:42Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "FerrariChat search returned no direct current UK S202 sale advert meeting the strict rules."
+      "limitation": "FerrariChat query executed; no plausible fresh UK S202 owner-sale advert satisfying the strict mileage and ownership rules surfaced."
     },
     {
       "id": "model-087:lamborghini-talk:subaru-impreza-s202",
@@ -21851,10 +21849,10 @@
       "priority": false,
       "cadenceHours": 24,
       "status": "blocked",
-      "lastSearchedAt": "2026-09-16T19:06:58Z",
+      "lastSearchedAt": "2026-09-19T02:07:42Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "LamborghiniTalk blocks public web access via robots.txt; no bypass was attempted."
+      "limitation": "Public web search attempted, but lamborghini-talk.com is blocked by robots.txt in this environment; no current advert pages could be inspected."
     },
     {
       "id": "model-087:specialist-dealers:subaru-impreza-s202",
@@ -21884,11 +21882,11 @@
       "query": "site:facebook.com/groups Subaru Impreza S203 UK for sale under 30000 miles maximum 2 total owners",
       "priority": false,
       "cadenceHours": 24,
-      "status": "blocked",
-      "lastSearchedAt": "2026-09-16T19:06:58Z",
+      "status": "searched",
+      "lastSearchedAt": "2026-09-19T02:07:42Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public Facebook-group search returned login/generic group pages rather than an accessible current S203 sale post."
+      "limitation": "Public Facebook-group query executed; surfaced pages were not a verifiable current S203 owner-sale advert, so no candidate was retained."
     },
     {
       "id": "model-087:ebay:subaru-impreza-s203",
@@ -22038,10 +22036,10 @@
       "priority": false,
       "cadenceHours": 24,
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T19:06:58Z",
+      "lastSearchedAt": "2026-09-19T02:07:42Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "911UK search produced no direct current qualifying S203 sale advert."
+      "limitation": "911UK query executed; no plausible fresh UK S203 owner-sale advert satisfying the strict mileage and ownership rules surfaced."
     },
     {
       "id": "model-087:ferrarichat:subaru-impreza-s203",
@@ -22055,10 +22053,10 @@
       "priority": false,
       "cadenceHours": 24,
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T19:06:58Z",
+      "lastSearchedAt": "2026-09-19T02:07:42Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "FerrariChat search returned no direct current UK S203 sale advert meeting the strict rules."
+      "limitation": "FerrariChat query executed; no plausible fresh UK S203 owner-sale advert satisfying the strict mileage and ownership rules surfaced."
     },
     {
       "id": "model-087:lamborghini-talk:subaru-impreza-s203",
@@ -22072,10 +22070,10 @@
       "priority": false,
       "cadenceHours": 24,
       "status": "blocked",
-      "lastSearchedAt": "2026-09-16T19:06:58Z",
+      "lastSearchedAt": "2026-09-19T02:07:42Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "LamborghiniTalk blocks public web access via robots.txt; no bypass was attempted."
+      "limitation": "Public web search attempted, but lamborghini-talk.com is blocked by robots.txt in this environment; no current advert pages could be inspected."
     },
     {
       "id": "model-087:specialist-dealers:subaru-impreza-s203",
@@ -22105,11 +22103,11 @@
       "query": "site:facebook.com/groups Subaru Impreza S204 UK for sale under 30000 miles maximum 2 total owners",
       "priority": false,
       "cadenceHours": 24,
-      "status": "blocked",
-      "lastSearchedAt": "2026-09-16T19:06:58Z",
+      "status": "searched",
+      "lastSearchedAt": "2026-09-19T02:07:42Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public Facebook-group search returned login/generic group pages rather than an accessible current S204 sale post."
+      "limitation": "Public Facebook-group query executed; surfaced pages were not a verifiable current S204 owner-sale advert, so no candidate was retained."
     },
     {
       "id": "model-087:ebay:subaru-impreza-s204",
@@ -22261,10 +22259,10 @@
       "priority": false,
       "cadenceHours": 24,
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T19:06:58Z",
+      "lastSearchedAt": "2026-09-19T02:07:42Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "911UK search produced no direct current qualifying S204 sale advert."
+      "limitation": "911UK query executed; no plausible fresh UK S204 owner-sale advert satisfying the strict mileage and ownership rules surfaced."
     },
     {
       "id": "model-087:ferrarichat:subaru-impreza-s204",
@@ -22278,10 +22276,10 @@
       "priority": false,
       "cadenceHours": 24,
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T19:06:58Z",
+      "lastSearchedAt": "2026-09-19T02:07:42Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "FerrariChat search returned no direct current UK S204 sale advert meeting the strict rules."
+      "limitation": "FerrariChat query executed; no plausible fresh UK S204 owner-sale advert satisfying the strict mileage and ownership rules surfaced."
     },
     {
       "id": "model-087:lamborghini-talk:subaru-impreza-s204",
@@ -22295,10 +22293,10 @@
       "priority": false,
       "cadenceHours": 24,
       "status": "blocked",
-      "lastSearchedAt": "2026-09-16T19:06:58Z",
+      "lastSearchedAt": "2026-09-19T02:07:42Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "LamborghiniTalk blocks public web access via robots.txt; no bypass was attempted."
+      "limitation": "Public web search attempted, but lamborghini-talk.com is blocked by robots.txt in this environment; no current advert pages could be inspected."
     },
     {
       "id": "model-087:specialist-dealers:subaru-impreza-s204",
@@ -22709,10 +22707,10 @@
       "priority": false,
       "cadenceHours": 24,
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T19:06:58Z",
+      "lastSearchedAt": "2026-09-19T02:07:42Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "911UK search returned no direct current Evo VIII MR FQ320 advert meeting the strict rules."
+      "limitation": "911UK query executed; no plausible fresh UK Evo VIII MR FQ320 owner-sale advert satisfying the strict mileage and ownership rules surfaced."
     },
     {
       "id": "model-089:ferrarichat:mitsubishi-evo-viii-mr-fq320",
@@ -22776,11 +22774,11 @@
       "query": "site:facebook.com/groups Mitsubishi Evo VIII FQ400 UK for sale under 30000 miles maximum 2 total owners",
       "priority": false,
       "cadenceHours": 24,
-      "status": "blocked",
-      "lastSearchedAt": "2026-09-16T19:40:26Z",
+      "status": "searched",
+      "lastSearchedAt": "2026-09-19T02:07:42Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public Facebook indexing exposed no accessible current Evo VIII FQ400 sale post with verifiable mileage/ownership."
+      "limitation": "Public Facebook-group query executed; surfaced pages were not a verifiable current Evo VIII FQ400 owner-sale advert, so no candidate was retained."
     },
     {
       "id": "model-089:ebay:mitsubishi-evo-viii-fq400",
@@ -22930,10 +22928,10 @@
       "priority": false,
       "cadenceHours": 24,
       "status": "searched",
-      "lastSearchedAt": "2026-09-16T19:06:58Z",
+      "lastSearchedAt": "2026-09-19T02:07:42Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "911UK search returned no direct current Evo VIII FQ400 advert meeting the under-30,000-mile and maximum-two-total-owner rules."
+      "limitation": "911UK query executed; no plausible fresh UK Evo VIII FQ400 owner-sale advert satisfying the strict mileage and ownership rules surfaced."
     },
     {
       "id": "model-089:ferrarichat:mitsubishi-evo-viii-fq400",
@@ -25193,12 +25191,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-18T18:34:53Z",
-      "lastResultCount": 1,
-      "candidateUrls": [
-        "https://www.carandclassic.com/car/C2060885"
-      ],
-      "limitation": "Search executed; one current actual E39 M5 manual advert was found. It is already tracked/published, so no duplicate candidate was added."
+      "lastSearchedAt": "2026-09-19T02:07:42Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Specialist-dealer search executed; no direct current UK E39 M5 factory-manual advert at or below 50,000 miles survived filtering."
     },
     {
       "id": "model-097:facebook-groups:bmw-m5-e39-6-speed-manual-uk",
@@ -25416,12 +25412,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-18T18:34:53Z",
-      "lastResultCount": 1,
-      "candidateUrls": [
-        "https://www.carandclassic.com/car/C2060885"
-      ],
-      "limitation": "Search executed; one current actual E39 M5 manual advert was found. It is already tracked/published, so no duplicate candidate was added."
+      "lastSearchedAt": "2026-09-19T02:07:42Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Specialist-dealer search executed; no direct current UK E39 M5 factory six-speed-manual advert at or below 50,000 miles survived filtering."
     }
   ]
 }
