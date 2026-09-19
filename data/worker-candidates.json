@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-19T07:42:35Z",
+  "updatedAt": "2026-09-19T08:47:35Z",
   "candidates": [
     {
       "modelId": "model-056",
@@ -219,8 +219,8 @@
       "discoveredAt": "2026-09-10T04:58:26Z",
       "status": "verification-pending",
       "note": "Rechecked on the actual PistonHeads advert: still live at £20,000, 61,360 miles, manual, private seller in Chippenham, valid MOT and explicit 'Available to view now'. Advert describes long-term ownership and light modifications. Current availability is strong, but exact gallery images were not visually inspectable for SOLD/RESERVED overlays and manual-control evidence in this run, so keep verification-pending and do not publish.",
-      "lastCheckedAt": "2026-09-18T16:44:51Z",
-      "vehicleIdentity": "2003 Ford Focus RS Mk1 | 61360 miles | £20000 | Chippenham"
+      "lastCheckedAt": "2026-09-19T08:47:35Z",
+      "vehicleIdentity": "2003 Ford Focus RS Mk1 | 61,360 miles | £20,000 | private seller Chippenham"
     },
     {
       "modelId": "model-070",
@@ -2191,16 +2191,17 @@
       "discoveredAt": "2026-09-15T14:56:13Z",
       "status": "verification-pending",
       "note": "Rechecked 16 Sep 2026 on the direct PistonHeads advert: still explicitly FOR SALE at £32,995, 53,227 miles, manual, with two previous owners, valid MOT and live KGF Classic Cars seller controls. Seller describes build #3260 as totally standard with strong original presentation, ten service stamps, a July 2026 Ford main-dealer service and cambelt, two keys and extensive invoices/MOT history; PistonHeads exposes 99 seller photos. Exact gallery images were not fully visually inspected in this worker run for SOLD/RESERVED overlays and manual-control evidence, so the hard photo gate remains incomplete. Keep verification-pending; do not publish.",
-      "lastCheckedAt": "2026-09-17T07:41:10Z",
-      "vehicleIdentity": "2003 Ford Focus RS Mk1 | R5FNW | build #3260 | 53,227 miles | KGF Classic Cars"
+      "lastCheckedAt": "2026-09-19T08:47:35Z",
+      "vehicleIdentity": "2003 Ford Focus RS Mk1 | build 3260 | 53,227 miles | £32,995 | KGF Classic Cars"
     },
     {
       "modelId": "model-070",
       "url": "https://www.pistonheads.com/buy/listing/18623605",
       "source": "pistonheads",
       "discoveredAt": "2026-09-15T14:56:13Z",
-      "status": "verification-pending",
-      "note": "2003 Focus RS Mk1, £12,495, 66,228 miles, manual, six previous owners and modified over time. Current-looking advert; weak originality/provenance means it is research-only pending verification."
+      "status": "unavailable",
+      "note": "Actual PistonHeads advert opened this run: £12,495 2003 Focus RS Mk1 project, 66,228 miles. Vehicle history shows MOT Expired and the page explicitly states 'This car is no longer available for purchase.' Mark unavailable; do not requeue.",
+      "lastCheckedAt": "2026-09-19T08:47:35Z"
     },
     {
       "modelId": "model-027",
@@ -2894,6 +2895,16 @@
       "note": "2001 BMW Z3 M Coupe S54, £48,000, 65,843 miles, five-speed manual, private UK seller. Current fixed asking price and offer controls verified. Nine exact seller gallery photographs inspected with no unavailable overlay; manual gear lever visible. Advert states BMW UK press-launch/EVO Fast Fleet provenance and 12 documented service entries. Published this run.",
       "lastCheckedAt": "2026-09-19T07:04:24Z",
       "vehicleIdentity": "2001 BMW Z3 M Coupe S54 | Y952NBL | 65,843 miles | £48,000 | private seller"
+    },
+    {
+      "modelId": "model-070",
+      "url": "https://carcavescotland.co.uk/ford-focus-rs-mk2/",
+      "source": "specialist-dealers",
+      "discoveredAt": "2026-09-19T08:47:35Z",
+      "status": "verification-pending",
+      "lastCheckedAt": "2026-09-19T08:47:35Z",
+      "vehicleIdentity": "2010 Ford Focus RS Mk2 | Frozen White | 5,699 miles | £44,995 | Car Cave Scotland",
+      "note": "Direct Car Cave Scotland seller result is marked FOR SALE at £44,995 for a 2010 Frozen White Focus RS Mk2 with 5,699 miles, three previous owners, eight service stamps and an originality-led description. Direct page/gallery fetch failed in this environment, so mandatory visual photo/overlay and complete current-stock verification are incomplete. Keep verification-pending; do not publish."
     }
   ]
 }
