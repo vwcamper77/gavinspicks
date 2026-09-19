@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-18T23:07:31Z",
+  "updatedAt": "2026-09-19T00:51:14Z",
   "candidates": [
     {
       "modelId": "model-056",
@@ -1668,9 +1668,10 @@
       "url": "https://www.pistonheads.com/buy/listing/19516427",
       "source": "pistonheads",
       "discoveredAt": "2026-09-12T23:50:22Z",
-      "status": "verification-pending",
-      "lastCheckedAt": "2026-09-12T23:50:22Z",
-      "note": "2000 Maserati 3200 GT manual at £13,995 and 79,000 miles with a valid MOT and current-looking PistonHeads seller controls. It fits the price/year/manual target but photographs and current seller availability still need full visual verification before it can be published."
+      "status": "verification-rejected",
+      "lastCheckedAt": "2026-09-19T00:51:14Z",
+      "note": "Rechecked on the direct PistonHeads advert this run: live seller controls, valid MOT, £12,995, 79,000 miles and advertised six-speed manual. It is below model-060's configured £18,000 guide floor, so it fails the price rule and is verification-rejected without publication. Previous tracked asking price was £13,995; the reduction is not a user notification because this car was never fully verified/published.",
+      "vehicleIdentity": "2000 Maserati 3200 GT | 79,000 miles | £12,995 | The Classic Connection"
     },
     {
       "modelId": "model-061",
@@ -1678,9 +1679,9 @@
       "source": "pistonheads",
       "discoveredAt": "2026-09-12T23:50:22Z",
       "status": "verification-rejected",
-      "lastCheckedAt": "2026-09-17T10:30:00Z",
+      "lastCheckedAt": "2026-09-19T00:51:14Z",
       "note": "Checked 17 Sep 2026: direct PistonHeads advert remains accessible for a 2002 Maserati 4200 GT manual at £13,495, 41,000 miles, one previous owner, Platinum Autos in Princes Risborough. It is below model-061's configured £15,000 guide floor and the source page is not freshly crawled, so it is not publishable.",
-      "vehicleIdentity": "2002 Maserati 4200 GT manual | 41,000 miles | £13,495 | Platinum Autos"
+      "vehicleIdentity": "2002 Maserati 4200 GT Coupe manual | 41,000 miles | £13,495 | Platinum Autos"
     },
     {
       "modelId": "model-066",
@@ -2242,9 +2243,9 @@
       "source": "car-and-classic",
       "discoveredAt": "2026-09-15T21:45:26Z",
       "status": "verification-pending",
-      "lastCheckedAt": "2026-09-17T10:30:00Z",
-      "note": "Checked 17 Sep 2026: direct Car & Classic advert is explicitly For Sale at £19,200 for a 2001 Maserati 3200 GT Assetto Corsa 19/75, 37,276 miles, six-speed manual, CG51MAS, private seller in Northolt. Current seller gallery is accessible and no unavailable overlay was observed in the inspected images, but the accessible image subset did not establish the gear selector strongly enough for the manual-only publication rule. Keep pending.",
-      "vehicleIdentity": "2001 Maserati 3200 GT Assetto Corsa 19/75 | CG51MAS | 37,276 miles | £19,200 | Northolt private seller"
+      "lastCheckedAt": "2026-09-19T00:51:14Z",
+      "note": "Rechecked this run on the direct advert: explicitly For Sale at £19,200, 37,276 miles, RHD six-speed manual, UK-supplied Assetto Corsa 19/75, registration CG51AS. Accessible seller images were visually inspected and show the matching car/registration plus the Assetto Corsa 19/75 plaque with no unavailable overlay. The accessible image subset still does not show the gear lever strongly enough for the manual-only publication gate. Seller states the last MOT expired 20/06/2025 and the car will be sold with a new MOT. Keep verification-pending.",
+      "vehicleIdentity": "2001 Maserati 3200 GT Assetto Corsa 19/75 | CG51AS | 37,276 miles | £19,200 | Northolt private seller"
     },
     {
       "modelId": "model-070",
@@ -2806,6 +2807,26 @@
       "note": "Checked 19 Sep 2026: current eBay classified at £26,995, 27,000 miles, 2009, RHD manual, one previous owner, Chester business seller MW Performance Cars. Advert claims full Honda history and garaged from new; live seller contact controls and 17-photo gallery are present. Individual eBay image assets were cache-inaccessible, so the mandatory photo-overlay/interior visual check is incomplete. Do not publish yet.",
       "lastCheckedAt": "2026-09-18T23:07:31Z",
       "vehicleIdentity": "2009 Honda S2000 | £26,995 | 27,000 miles | MW Performance Cars"
+    },
+    {
+      "modelId": "model-042",
+      "url": "https://www.carandclassic.com/car/C2174691",
+      "source": "car-and-classic",
+      "discoveredAt": "2026-09-19T00:51:14Z",
+      "lastCheckedAt": "2026-09-19T00:51:14Z",
+      "status": "verification-pending",
+      "vehicleIdentity": "2007 Aston Martin V8 Vantage | TO07ARM | 65,000 miles | £27,000 | Just Astons Ltd",
+      "note": "Fresh direct Car & Classic advert checked this run: For Sale at £27,000, 65,000 miles, RHD six-speed manual, registration TO07ARM, dealer Just Astons Ltd in Leek. Seller states the original car was upgraded by Bamford Rose to a 4.7 engine with twin-plate clutch. Nine accessible seller-gallery images were visually inspected: they match TO07ARM and show no SOLD/RESERVED/DEPOSIT TAKEN/UNDER OFFER overlay, but they are exterior views and do not prove the manual controls. Keep verification-pending; require a clear cabin/gear-lever image and provenance for the 4.7 conversion before publication."
+    },
+    {
+      "modelId": "model-060",
+      "url": "https://www.jhairmotors.co.uk/used-cars/maserati-3200-gt-rare-manual/19934",
+      "source": "specialist-dealers",
+      "discoveredAt": "2026-09-19T00:51:14Z",
+      "lastCheckedAt": "2026-09-19T00:51:14Z",
+      "status": "verification-rejected",
+      "vehicleIdentity": "2001 Maserati 3200 GT manual | 39,000 miles | £15,950 | J Hair Motors",
+      "note": "Fresh direct J Hair Motors stock advert and dealer inventory checked this run: current 2001 Maserati 3200 GT, £15,950, 39,000 miles, manual, blue, dealer in Newtownards, Northern Ireland. It is a genuine current actual advert but is below model-060's configured £18,000 guide floor, so it is verification-rejected and must not enter the publication queue."
     }
   ]
 }
