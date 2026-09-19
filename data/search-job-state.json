@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-19T00:51:14Z",
+  "updatedAt": "2026-09-19T01:45:59Z",
   "compactedFromQueueAt": "2026-09-10T06:41:54.207Z",
   "note": "Cumulative worker-write state. Job results are merged from immutable run deltas and folded back into data/search-queue.json by scripts/build-search-queue.mjs.",
   "jobs": {
@@ -546,10 +546,10 @@
     },
     "model-019:gumtree:tvr-tamora": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T13:04:10Z",
+      "lastSearchedAt": "2026-09-19T01:45:59Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Gumtree search produced no plausible direct current qualifying TVR Tamora advert."
+      "limitation": "Search completed; no plausible current qualifying direct advert survived filtering."
     },
     "model-019:lamborghini-talk:tvr-tamora": {
       "status": "blocked",
@@ -560,10 +560,10 @@
     },
     "model-019:specialist-dealers:tvr-tamora": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T13:04:10Z",
+      "lastSearchedAt": "2026-09-19T01:45:59Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Specialist results were sold or under offer; current Str8six stock did not expose a qualifying available Tamora, so no candidate was retained."
+      "limitation": "Search completed; no plausible current qualifying direct advert survived filtering."
     },
     "model-020:911uk:lotus-esprit-s4s": {
       "status": "searched",
@@ -574,10 +574,12 @@
     },
     "model-020:autotrader:lotus-esprit-s4s": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T13:04:10Z",
-      "lastResultCount": 0,
-      "candidateUrls": [],
-      "limitation": "Auto Trader exposed generic S4s inventory rather than a direct current car-details advert; the visible £39,000 example was also below the model's £40,000 configured minimum."
+      "lastSearchedAt": "2026-09-19T01:45:59Z",
+      "lastResultCount": 1,
+      "candidateUrls": [
+        "https://www.autotrader.co.uk/car-details/202605032099522"
+      ],
+      "limitation": "One current direct advert retained; existing candidate remains verification-pending pending full gallery/manual visual check."
     },
     "model-020:bonhams-cars:lotus-esprit-s4s": {
       "status": "searched",
@@ -861,10 +863,10 @@
     },
     "model-097:911uk:bmw-m5-e39-6-speed-manual-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-18T12:05:22Z",
+      "lastSearchedAt": "2026-09-19T01:45:59Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "911UK results were unrelated or historical discussion rather than a current qualifying E39 M5 six-speed manual sale advert; no candidate retained."
+      "limitation": "Search completed; no plausible current qualifying direct advert survived filtering."
     },
     "model-021:lamborghini-talk:lotus-esprit-gt3": {
       "status": "blocked",
@@ -1092,10 +1094,10 @@
     },
     "model-072:ebay:bmw-1m-coupe-manual-45000-55000-full-service-history": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-18T17:13:23Z",
+      "lastSearchedAt": "2026-09-19T01:45:59Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "eBay search surfaced parts/non-vehicle material rather than a current qualifying complete BMW 1M Coupe advert. No candidate retained."
+      "limitation": "Search completed; no plausible current qualifying direct advert survived filtering."
     },
     "model-072:autotrader:bmw-1m-coupe-manual-45000-55000-full-service-history": {
       "status": "searched",
@@ -1106,17 +1108,17 @@
     },
     "model-072:pistonheads:bmw-1m-coupe-manual-45000-55000-full-service-history": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-18T17:13:23Z",
+      "lastSearchedAt": "2026-09-19T01:45:59Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Surfaced BMW 1M adverts were non-qualifying: one was £37,995 and explicitly no longer available; another was POA and marked under offer/deposit taken. No candidate retained."
+      "limitation": "Search completed; surfaced direct 1M advert was explicitly unavailable; none retained."
     },
     "model-072:car-and-classic:bmw-1m-coupe-manual-45000-55000-full-service-history": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-18T17:13:23Z",
+      "lastSearchedAt": "2026-09-19T01:45:59Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No current qualifying BMW 1M Coupe advert in the configured £45,000–£55,000 range with strong current-sale evidence surfaced from Car & Classic."
+      "limitation": "Search completed; no plausible current qualifying direct advert survived filtering."
     },
     "model-072:collecting-cars:bmw-1m-coupe-manual-45000-55000-full-service-history": {
       "status": "searched",
@@ -1141,10 +1143,10 @@
     },
     "model-072:gumtree:bmw-1m-coupe-manual-45000-55000-full-service-history": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-18T17:13:23Z",
+      "lastSearchedAt": "2026-09-19T01:45:59Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No current qualifying BMW 1M Coupe advert in the configured £45,000–£55,000 range surfaced from Gumtree."
+      "limitation": "Search completed; no plausible current qualifying direct advert survived filtering."
     },
     "model-072:911uk:bmw-1m-coupe-manual-45000-55000-full-service-history": {
       "status": "searched",
@@ -1169,10 +1171,10 @@
     },
     "model-072:specialist-dealers:bmw-1m-coupe-manual-45000-55000-full-service-history": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-18T17:13:23Z",
+      "lastSearchedAt": "2026-09-19T01:45:59Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Specialist search did not surface a current qualifying BMW 1M Coupe with fixed £45,000–£55,000 asking price and strong current-sale evidence."
+      "limitation": "Search completed; no plausible current qualifying direct advert survived filtering."
     },
     "model-078:facebook-groups:renault-clio-182-trophy": {
       "status": "searched",
@@ -1530,59 +1532,59 @@
     },
     "model-097:facebook-groups:bmw-e39-m5-manual-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-18T12:05:22Z",
+      "lastSearchedAt": "2026-09-19T01:45:59Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public Facebook search returned platform/login/group surfaces rather than an inspectable current E39 M5 advert; no candidate retained."
+      "limitation": "Search completed; no plausible current qualifying direct advert survived filtering."
     },
     "model-097:facebook-groups:bmw-m5-e39-6-speed-manual-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-18T12:05:22Z",
+      "lastSearchedAt": "2026-09-19T01:45:59Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public Facebook search returned platform/login/group surfaces rather than an inspectable current E39 M5 advert; no candidate retained."
+      "limitation": "Search completed; no plausible current qualifying direct advert survived filtering."
     },
     "model-097:ferrarichat:bmw-e39-m5-manual-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-18T12:05:22Z",
+      "lastSearchedAt": "2026-09-19T01:45:59Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No direct current qualifying E39 M5 owner advert surfaced from FerrariChat."
+      "limitation": "Search completed; no plausible current qualifying direct advert survived filtering."
     },
     "model-097:ferrarichat:bmw-m5-e39-6-speed-manual-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-18T12:05:22Z",
+      "lastSearchedAt": "2026-09-19T01:45:59Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No direct current qualifying E39 M5 six-speed manual owner advert surfaced from FerrariChat."
+      "limitation": "Search completed; no plausible current qualifying direct advert survived filtering."
     },
     "model-097:gumtree:bmw-e39-m5-manual-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-18T17:13:23Z",
+      "lastSearchedAt": "2026-09-19T01:45:59Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search executed; current E39 M5 results were above the model's 50,000-mile cap or otherwise non-qualifying. No candidate retained."
+      "limitation": "Search completed; no plausible current qualifying direct advert survived filtering."
     },
     "model-097:gumtree:bmw-m5-e39-6-speed-manual-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-18T17:13:23Z",
+      "lastSearchedAt": "2026-09-19T01:45:59Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search executed; current E39 M5 results were above the model's 50,000-mile cap or otherwise non-qualifying. No candidate retained."
+      "limitation": "Search completed; no plausible current qualifying direct advert survived filtering."
     },
     "model-097:lamborghini-talk:bmw-e39-m5-manual-uk": {
       "status": "blocked",
-      "lastSearchedAt": "2026-09-18T12:05:22Z",
+      "lastSearchedAt": "2026-09-19T01:45:59Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "lamborghini-talk.com is blocked by robots.txt in the public web environment; no advert URLs could be inspected from this source."
+      "limitation": "Source blocked by robots.txt in public web runtime; no candidate retained."
     },
     "model-097:lamborghini-talk:bmw-m5-e39-6-speed-manual-uk": {
       "status": "blocked",
-      "lastSearchedAt": "2026-09-18T12:05:22Z",
+      "lastSearchedAt": "2026-09-19T01:45:59Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "lamborghini-talk.com is blocked by robots.txt in the public web environment; no advert URLs could be inspected from this source."
+      "limitation": "Source blocked by robots.txt in public web runtime; no candidate retained."
     },
     "model-024:autotrader:morgan-aero-8-gtn": {
       "status": "searched",
@@ -1803,17 +1805,17 @@
     },
     "model-097:pistonheads:bmw-e39-m5-manual-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-18T17:13:23Z",
+      "lastSearchedAt": "2026-09-19T01:45:59Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search executed; a 26,900-mile E39 M5 advert URL resurfaced but that exact URL is already recorded unavailable from prior verification, so it was rejected as recycled/stale. Other surfaced results exceeded 50,000 miles or were auctions."
+      "limitation": "Search completed; no plausible current qualifying direct advert survived filtering."
     },
     "model-097:pistonheads:bmw-m5-e39-6-speed-manual-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-18T17:13:23Z",
+      "lastSearchedAt": "2026-09-19T01:45:59Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search executed; a 26,900-mile E39 M5 advert URL resurfaced but that exact URL is already recorded unavailable from prior verification, so it was rejected as recycled/stale. Other surfaced results exceeded 50,000 miles or were auctions."
+      "limitation": "Search completed; no plausible current qualifying direct advert survived filtering."
     },
     "model-097:specialist-dealers:bmw-e39-m5-manual-uk": {
       "status": "searched",
@@ -1923,24 +1925,24 @@
     },
     "model-076:pistonheads:ford-focus-st500": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-18T17:13:23Z",
+      "lastSearchedAt": "2026-09-19T01:45:59Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "PistonHeads results did not yield a current fixed-price qualifying Ford Focus ST500 advert; auction/historical material was excluded."
+      "limitation": "Search completed; no plausible current qualifying direct advert survived filtering."
     },
     "model-076:specialist-dealers:ford-focus-st500": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-18T17:13:23Z",
+      "lastSearchedAt": "2026-09-19T01:45:59Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Specialist search surfaced sold/historical Ford Focus ST500 material rather than a current qualifying dealer-stock advert."
+      "limitation": "Search completed; surfaced ST500 dealer advert was explicitly sold; none retained."
     },
     "model-082:autotrader:subaru-impreza-p1": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-18T17:13:23Z",
+      "lastSearchedAt": "2026-09-19T01:45:59Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No direct current Auto Trader Subaru Impreza P1 advert was found that could satisfy the strict under-30,000-mile and maximum-two-total-owner rules."
+      "limitation": "Search completed; no plausible current qualifying direct advert survived filtering."
     },
     "model-082:car-and-classic:subaru-impreza-p1": {
       "status": "searched",
@@ -2534,10 +2536,10 @@
     },
     "model-070:specialist-dealers:ford-focus-rs500": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-18T17:13:23Z",
+      "lastSearchedAt": "2026-09-19T01:45:59Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Specialist search surfaced historical auction/syndicated material rather than a current dealer-stock Ford Focus RS500 advert with a qualifying fixed asking price. No candidate retained."
+      "limitation": "Search completed; no plausible current qualifying direct advert survived filtering."
     },
     "model-082:bonhams-cars:subaru-impreza-p1": {
       "status": "searched",
@@ -8002,17 +8004,17 @@
     },
     "model-081:bonhams-cars:renault-megane-r26-f1-team": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T04:55:42Z",
+      "lastSearchedAt": "2026-09-19T01:45:59Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Bonhams Cars search returned no current purchasable Megane R26 F1 Team advert meeting the strict Renault mileage/ownership rules."
+      "limitation": "Search completed; no plausible current qualifying direct advert survived filtering."
     },
     "model-081:bonhams-cars:renault-megane-r26-r": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T04:55:42Z",
+      "lastSearchedAt": "2026-09-19T01:45:59Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Bonhams Cars search returned no current purchasable Megane R26.R advert meeting the strict Renault mileage/ownership rules."
+      "limitation": "Search completed; no plausible current qualifying direct advert survived filtering."
     },
     "model-081:car-and-classic:renault-megane-r26-f1-team": {
       "status": "searched",
@@ -8030,31 +8032,31 @@
     },
     "model-081:classic-trader:renault-megane-r26-f1-team": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T04:55:42Z",
+      "lastSearchedAt": "2026-09-19T01:45:59Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Classic Trader search returned no direct current UK Megane R26 F1 Team advert meeting the strict mileage/ownership rules."
+      "limitation": "Search completed; no plausible current qualifying direct advert survived filtering."
     },
     "model-081:classic-trader:renault-megane-r26-r": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T04:55:42Z",
+      "lastSearchedAt": "2026-09-19T01:45:59Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Classic Trader search returned no direct current UK Megane R26.R advert meeting the strict mileage/ownership rules."
+      "limitation": "Search completed; no plausible current qualifying direct advert survived filtering."
     },
     "model-081:collecting-cars:renault-megane-r26-f1-team": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T04:55:42Z",
+      "lastSearchedAt": "2026-09-19T01:45:59Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Collecting Cars results were historical completed sales rather than current fixed-price adverts; none retained."
+      "limitation": "Search completed; surfaced pages were historical/completed or non-qualifying; no current candidate retained."
     },
     "model-081:collecting-cars:renault-megane-r26-r": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T04:55:42Z",
+      "lastSearchedAt": "2026-09-19T01:45:59Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Collecting Cars results were historical/completed auction pages; no current fixed-price qualifying advert retained."
+      "limitation": "Search completed; surfaced pages were historical/completed or non-qualifying; no current candidate retained."
     },
     "model-081:ebay:renault-megane-r26-f1-team": {
       "status": "searched",
@@ -8170,10 +8172,10 @@
     },
     "model-083:bonhams-cars:subaru-impreza-rb5": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T04:55:42Z",
+      "lastSearchedAt": "2026-09-19T01:45:59Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Bonhams Cars search returned no current purchasable RB5 advert meeting the strict Subaru mileage/ownership rules."
+      "limitation": "Search completed; no plausible current qualifying direct advert survived filtering."
     },
     "model-083:car-and-classic:subaru-impreza-rb5": {
       "status": "searched",
@@ -8184,17 +8186,17 @@
     },
     "model-083:classic-trader:subaru-impreza-rb5": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T04:55:42Z",
+      "lastSearchedAt": "2026-09-19T01:45:59Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Classic Trader search returned no direct current UK RB5 advert meeting the strict mileage/ownership rules."
+      "limitation": "Search completed; no plausible current qualifying direct advert survived filtering."
     },
     "model-083:collecting-cars:subaru-impreza-rb5": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T04:55:42Z",
+      "lastSearchedAt": "2026-09-19T01:45:59Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Collecting Cars results were historical completed sales; no current fixed-price qualifying RB5 advert retained."
+      "limitation": "Search completed; surfaced pages were historical/completed or non-qualifying; no current candidate retained."
     },
     "model-083:ebay:subaru-impreza-rb5": {
       "status": "searched",
@@ -8261,10 +8263,10 @@
     },
     "model-084:bonhams-cars:subaru-impreza-wr1": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T04:55:42Z",
+      "lastSearchedAt": "2026-09-19T01:45:59Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Bonhams Cars search returned no current purchasable WR1 advert meeting the strict Subaru mileage/ownership rules."
+      "limitation": "Search completed; no plausible current qualifying direct advert survived filtering."
     },
     "model-084:car-and-classic:subaru-impreza-wr1": {
       "status": "searched",
@@ -8275,17 +8277,17 @@
     },
     "model-084:classic-trader:subaru-impreza-wr1": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T05:18:54Z",
+      "lastSearchedAt": "2026-09-19T01:45:59Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No current UK WR1 advert meeting mileage/owner constraints."
+      "limitation": "Search completed; no plausible current qualifying direct advert survived filtering."
     },
     "model-084:collecting-cars:subaru-impreza-wr1": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T05:18:54Z",
+      "lastSearchedAt": "2026-09-19T01:45:59Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Historical/completed WR1 auctions only; no active qualifying sale."
+      "limitation": "Search completed; surfaced pages were historical/completed or non-qualifying; no current candidate retained."
     },
     "model-084:ebay:subaru-impreza-wr1": {
       "status": "searched",
@@ -8380,24 +8382,24 @@
     },
     "model-086:bonhams-cars:subaru-impreza-22b": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T05:18:54Z",
+      "lastSearchedAt": "2026-09-19T01:45:59Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No active current UK 22B lot meeting strict mileage/owner rules."
+      "limitation": "Search completed; no plausible current qualifying direct advert survived filtering."
     },
     "model-086:bonhams-cars:subaru-impreza-sti-type-r": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T05:18:54Z",
+      "lastSearchedAt": "2026-09-19T01:45:59Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No active current UK STI Type R lot meeting strict mileage/owner rules."
+      "limitation": "Search completed; no plausible current qualifying direct advert survived filtering."
     },
     "model-086:bonhams-cars:subaru-impreza-sti-type-ra": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T05:18:54Z",
+      "lastSearchedAt": "2026-09-19T01:45:59Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No active current UK STI Type RA lot meeting strict mileage/owner rules."
+      "limitation": "Search completed; no plausible current qualifying direct advert survived filtering."
     },
     "model-086:car-and-classic:subaru-impreza-22b": {
       "status": "searched",
@@ -8422,38 +8424,38 @@
     },
     "model-086:classic-trader:subaru-impreza-22b": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T05:18:54Z",
+      "lastSearchedAt": "2026-09-19T01:45:59Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Surfaced 22B identity was non-UK/over-budget; no qualifying UK advert retained."
+      "limitation": "Search completed; no plausible current qualifying direct advert survived filtering."
     },
     "model-086:classic-trader:subaru-impreza-sti-type-r": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T05:18:54Z",
+      "lastSearchedAt": "2026-09-19T01:45:59Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No direct current UK STI Type R advert meeting strict rules."
+      "limitation": "Search completed; no plausible current qualifying direct advert survived filtering."
     },
     "model-086:classic-trader:subaru-impreza-sti-type-ra": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T05:18:54Z",
+      "lastSearchedAt": "2026-09-19T01:45:59Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No direct current UK STI Type RA advert meeting strict rules."
+      "limitation": "Search completed; no plausible current qualifying direct advert survived filtering."
     },
     "model-086:collecting-cars:subaru-impreza-22b": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T05:18:54Z",
+      "lastSearchedAt": "2026-09-19T01:45:59Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Sold/ended 22B auctions or non-qualifying examples only."
+      "limitation": "Search completed; surfaced pages were historical/completed or non-qualifying; no current candidate retained."
     },
     "model-086:collecting-cars:subaru-impreza-sti-type-r": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T05:18:54Z",
+      "lastSearchedAt": "2026-09-19T01:45:59Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Completed/historical Type R auctions or non-qualifying examples only."
+      "limitation": "Search completed; surfaced pages were historical/completed or non-qualifying; no current candidate retained."
     },
     "model-086:collecting-cars:subaru-impreza-sti-type-ra": {
       "status": "searched",
@@ -8484,25 +8486,25 @@
       "limitation": "eBay produced no direct current qualifying STI Type RA advert meeting the strict mileage and ownership rules."
     },
     "model-086:facebook-groups:subaru-impreza-22b": {
-      "status": "blocked",
-      "lastSearchedAt": "2026-09-16T17:56:02Z",
+      "status": "searched",
+      "lastSearchedAt": "2026-09-19T01:45:59Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No accessible current Subaru 22B sale post in public Facebook groups; login/generic pages only."
+      "limitation": "Search completed; no plausible current qualifying direct advert survived filtering."
     },
     "model-086:facebook-groups:subaru-impreza-sti-type-r": {
-      "status": "blocked",
-      "lastSearchedAt": "2026-09-16T17:56:02Z",
+      "status": "searched",
+      "lastSearchedAt": "2026-09-19T01:45:59Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No accessible current Subaru STI Type R sale post in public Facebook groups; login/generic pages only."
+      "limitation": "Search completed; no plausible current qualifying direct advert survived filtering."
     },
     "model-086:facebook-groups:subaru-impreza-sti-type-ra": {
-      "status": "blocked",
-      "lastSearchedAt": "2026-09-16T17:56:02Z",
+      "status": "searched",
+      "lastSearchedAt": "2026-09-19T01:45:59Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No accessible current Subaru STI Type RA sale post in public Facebook groups; login/generic pages only."
+      "limitation": "Search completed; no plausible current qualifying direct advert survived filtering."
     },
     "model-086:ferrarichat:subaru-impreza-22b": {
       "status": "searched",
@@ -10172,31 +10174,31 @@
     },
     "model-019:autotrader:tvr-tamora": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T13:04:10Z",
+      "lastSearchedAt": "2026-09-19T01:45:59Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Auto Trader exposed generic Tamora inventory rather than a direct current car-details advert, so no URL was retained."
+      "limitation": "Search completed; no plausible current qualifying direct advert survived filtering."
     },
     "model-019:car-and-classic:tvr-tamora": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T13:04:10Z",
+      "lastSearchedAt": "2026-09-19T01:45:59Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "The relevant direct Car & Classic Tamora advert was explicitly UNDER OFFER and was rejected under the hard availability rule."
+      "limitation": "Search completed; surfaced Tamora adverts were explicitly removed/sold; none retained."
     },
     "model-019:ebay:tvr-tamora": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T13:04:10Z",
+      "lastSearchedAt": "2026-09-19T01:45:59Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "eBay search surfaced parts/non-vehicle material rather than a current Tamora vehicle advert."
+      "limitation": "Search completed; no plausible current qualifying direct advert survived filtering."
     },
     "model-019:pistonheads:tvr-tamora": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-17T13:04:10Z",
+      "lastSearchedAt": "2026-09-19T01:45:59Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "PistonHeads current-looking results were under offer or old/unavailable; no qualifying live Tamora advert was retained."
+      "limitation": "Search completed; no plausible current qualifying direct advert survived filtering."
     },
     "model-011:bonhams-cars:lotus-esprit-v8-v8-gt": {
       "status": "searched",
