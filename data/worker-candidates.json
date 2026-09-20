@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-20T13:17:53Z",
+  "updatedAt": "2026-09-20T14:48:10Z",
   "candidates": [
     {
       "modelId": "model-056",
@@ -833,11 +833,11 @@
       "url": "https://www.hexagonclassics.com/car/bmw-m3-coupe--e46---manual--2003",
       "source": "specialist-dealers",
       "discoveredAt": "2026-09-10T20:56:37Z",
-      "status": "verification-pending",
-      "note": "Current seller-direct Hexagon Classics stock: 2003 BMW E46 M3 Coupe at £99,995 with 3,100 miles, Titanium Silver/Black Nappa, factory six-speed manual, advertised one owner from new and full BMW main-dealer history. Seller states an Inspection II and brake-fluid service at 3,079 miles in February 2026 and says it is available to view now. Current seller stock and the PistonHeads cross-post support availability, but exact gallery assets could not be visually inspected for unavailable overlays/manual controls in this worker run. Keep verification-pending; do not publish yet.",
+      "status": "verification-rejected",
+      "note": "Rechecked 20 Sep 2026 against the current model rules and seller-direct Hexagon Classics advert. The car is a 2003 BMW E46 M3 Coupé advertised at £99,995 with 3,100 miles, factory six-speed manual, Titanium Silver/Black Nappa, one owner from new and strong BMW main-dealer history claims. However model-096 currently has a configured guide/search range of £20,000–£50,000 and a maximum mileage of 50,000. The £99,995 fixed asking price is nearly double the permitted maximum. It therefore fails the current price rule regardless of provenance, mileage or manual specification. Mark verification-rejected and do not publish/re-alert under model-096 unless the model rules are explicitly changed; a retained or indexed seller page is not an exception to the configured price ceiling.",
       "vehicleIdentity": "2003 BMW M3 E46 manual | 3,100 miles | one owner | Hexagon Classics",
       "checkedAt": "2026-09-13T12:49:13Z",
-      "lastCheckedAt": "2026-09-15T18:14:09Z"
+      "lastCheckedAt": "2026-09-20T14:48:10Z"
     },
     {
       "modelId": "model-097",
@@ -1555,10 +1555,10 @@
       "url": "https://www.carandclassic.com/l/C2026591",
       "source": "car-and-classic",
       "discoveredAt": "2026-09-12T13:25:49Z",
-      "status": "verification-pending",
-      "note": "Fresh direct Car & Classic advert rechecked 16 Sep 2026: currently For Sale in Carterton at £22,995 ONO, 89,192 miles, RHD and five-speed manual. Seller identifies RS build #2476 and a heavily modified circa-370 bhp forged-engine fast-road specification with extensive Demon Performance Centre work. It is a plausible live advert, but the modification level is a major originality/editorial-quality risk and the accessible gallery has not been fully visually inspected for unavailable overlays/manual-control evidence. Keep verification-pending; do not publish.",
-      "lastCheckedAt": "2026-09-15T23:04:32Z",
-      "vehicleIdentity": "2003 Ford Focus RS Mk1 | RS53MMM | build #2476 | 89,192 miles | private seller Carterton"
+      "status": "verification-rejected",
+      "note": "Rechecked 20 Sep 2026 on the exact Car & Classic advert for the modified 2003 Ford Focus RS Mk1, registration RS53MMM, build #2476, previously advertised at £22,995 ONO with 89,192 miles and a five-speed manual. The page now explicitly states: 'This advert has now been removed through sale or otherwise. Please see the list below for similar live adverts.' This is authoritative current-unavailability evidence from the originating advert. Mark verification-rejected/unavailable, do not publish, and do not requeue merely because the retained advert page remains indexed. The page does not establish whether the car sold or was withdrawn, so the outcome is recorded only as unavailable.",
+      "lastCheckedAt": "2026-09-20T14:48:10Z",
+      "vehicleIdentity": "2003 Ford Focus RS Mk1 | RS53MMM | build #2476 | 89,192 miles | £22,995 ONO"
     },
     {
       "modelId": "model-043",
@@ -1692,9 +1692,9 @@
       "source": "pistonheads",
       "discoveredAt": "2026-09-12T23:50:22Z",
       "status": "verification-rejected",
-      "lastCheckedAt": "2026-09-19T00:51:14Z",
-      "note": "Checked 17 Sep 2026: direct PistonHeads advert remains accessible for a 2002 Maserati 4200 GT manual at £13,495, 41,000 miles, one previous owner, Platinum Autos in Princes Risborough. It is below model-061's configured £15,000 guide floor and the source page is not freshly crawled, so it is not publishable.",
-      "vehicleIdentity": "2002 Maserati 4200 GT Coupe manual | 41,000 miles | £13,495 | Platinum Autos"
+      "lastCheckedAt": "2026-09-20T14:48:10Z",
+      "note": "Rechecked 20 Sep 2026 on the direct PistonHeads advert: 2002 Maserati 4200 GT manual, now £12,995, 41,000 miles, one previous owner, Platinum Autos in Princes Risborough, with current seller/contact controls. The previous worker check recorded £13,495, so the live asking price has reduced by £500. It remains below model-061's configured £15,000 minimum and therefore fails the current watch rules despite being a genuine live manual advert. Keep verification-rejected; this is not a qualifying live pick and the price change must not trigger a user alert.",
+      "vehicleIdentity": "2002 Maserati 4200 GT Coupe manual | 41,000 miles | £12,995 | Platinum Autos"
     },
     {
       "modelId": "model-066",
@@ -2643,9 +2643,9 @@
       "source": "car-and-classic",
       "discoveredAt": "2026-09-17T22:36:05Z",
       "status": "verification-pending",
-      "note": "Rechecked 19 Sep 2026 against the exact current Car & Classic advert: explicitly For Sale at £37,995, 21,192 miles, RHD five-speed manual, registration EN52OOH, with Car Cave (Scotland) Ltd in Midlothian and a 40-photo seller gallery. Seller states two previous owners, 14 service stamps (nine main dealer), timing belt changed in late 2022 at 21,190 miles, dry storage since, original alloys and standard interior. An exact current seller exterior image was visually inspected and showed no SOLD/RESERVED/DEPOSIT TAKEN/UNDER OFFER overlay. Exact interior/gear-selector seller pixels could not be retrieved strongly enough in this run, so the mandatory manual-photo gate remains incomplete. Keep verification-pending; do not publish.",
-      "lastCheckedAt": "2026-09-19T22:18:46Z",
-      "vehicleIdentity": "2003 Ford Focus RS Mk1 | EN52OOH | car #0277 | 21,192 miles | £37,995 | Car Cave (Scotland) Ltd"
+      "note": "Rechecked 20 Sep 2026 against the exact current Car & Classic advert: explicitly For Sale at £37,995, 21,192 miles, RHD five-speed manual, registration EN52OOH, with Car Cave (Scotland) Ltd in Bonnyrigg/Midlothian and a 40-photo seller gallery. Seller states two previous owners, 14 service stamps including nine main-dealer stamps, timing belt changed in late 2022 at 21,190 miles, dry storage since, original alloys and standard interior. Nine exact seller-gallery photographs were opened in this run; they show the same EN52OOH car and no SOLD, RESERVED, DEPOSIT TAKEN or UNDER OFFER overlay. Those accessible images are exterior views and do not show the gear lever or three pedals, so the mandatory manual-photo gate remains incomplete. Keep verification-pending; do not publish.",
+      "lastCheckedAt": "2026-09-20T14:48:10Z",
+      "vehicleIdentity": "2003 Ford Focus RS Mk1 | EN52OOH | 21,192 miles | £37,995 | Car Cave Scotland"
     },
     {
       "modelId": "model-001",
@@ -2899,8 +2899,8 @@
       "source": "specialist-dealers",
       "discoveredAt": "2026-09-19T07:04:24Z",
       "status": "verification-pending",
-      "note": "Rechecked 19 Sep 2026 through fresh public search: BAM Specialist Cars' direct dealer advert still surfaces at £29,995, 49,155 miles and manual, with the matching PistonHeads cross-post indicating the same vehicle identity. The direct seller page was cache-inaccessible when opened in this run and exact current seller-gallery pixels/manual-control evidence could not be inspected. Keep verification-pending; do not publish.",
-      "lastCheckedAt": "2026-09-19T22:18:46Z",
+      "note": "Rechecked 20 Sep 2026 on the seller-direct BAM Specialist Cars advert: £29,995, 49,155 miles, Interlagos Blue, UK dealer in Clay Cross, registration SW57GNF, three previous owners and advertised six-speed manual. The advert has active enquiry/test-drive controls and remains current. The only directly retrievable seller image in this run is explicitly overlaid 'Awaiting Prep / Photos'; it is an exterior image and does not permit visual confirmation of the gear lever/three pedals or a complete SOLD/RESERVED overlay sweep. Keep verification-pending and do not publish until the seller gallery is populated and the manual/photo availability gate can be completed.",
+      "lastCheckedAt": "2026-09-20T14:48:10Z",
       "vehicleIdentity": "2008 BMW Z4 M Coupe | SW57GNF | 49,155 miles | £29,995 | BAM Specialist Cars"
     },
     {
@@ -3048,6 +3048,16 @@
       "note": "20 Sep 2026: direct eBay classified is current-looking at £38,895 for a 2009 Aston Martin V8 Vantage 4.7 manual coupe with 35,621 miles, RHD, MOT to March 2027 and 24 seller photos. Independent current Cotswold Car Hub inventory also shows the same 2009 manual car at £38,895 / 35,628 miles, stock 10085. Current status/specification are strong, but the exact seller-gallery pixels were not sufficiently inspectable in this run for the mandatory SOLD/RESERVED overlay and manual-control visual gate. Keep verification-pending; do not publish.",
       "lastCheckedAt": "2026-09-20T13:17:53Z",
       "vehicleIdentity": "2009 Aston Martin V8 Vantage 4.7 manual coupe | Cotswold Car Hub stock 10085 | 35,628 miles | £38,895"
+    },
+    {
+      "modelId": "model-069",
+      "url": "https://www.classic-trader.com/uk/cars/listing/aston-martin/vanquish/v12-vanquish-s/2005/447344",
+      "source": "classic-trader",
+      "discoveredAt": "2026-09-20T14:48:10Z",
+      "status": "verification-rejected",
+      "lastCheckedAt": "2026-09-20T14:48:10Z",
+      "vehicleIdentity": "2005 Aston Martin V12 Vanquish S | V12 PFC | 15,475 miles | £79,750 | Graeme Hunt Ltd",
+      "note": "Discovered and verified 20 Sep 2026 on the current Classic Trader advert: 2005 Aston Martin V12 Vanquish S, £79,750, 15,475 miles, RHD, Graeme Hunt Ltd in London. Classic Trader's structured field labels the gearbox 'Manual', so it was initially plausible for model-069. The hard verification gate fails. Multiple exact seller-gallery cabin photographs were visually inspected: the centre console has no conventional manual gear lever and the pedal view does not evidence a three-pedal manual layout. No SOLD/RESERVED overlay was seen, but the advert description also contains no claim or documentation of an Aston Martin Works manual conversion. Model-069 explicitly requires a documented Aston Works conversion. Reject as wrong/unsupported transmission specification and do not publish."
     }
   ]
 }
