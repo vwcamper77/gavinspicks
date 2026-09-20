@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-20T14:48:10Z",
+  "updatedAt": "2026-09-20T15:28:28Z",
   "candidates": [
     {
       "modelId": "model-056",
@@ -435,9 +435,10 @@
       "url": "https://www.pistonheads.com/buy/listing/20862221",
       "source": "pistonheads",
       "discoveredAt": "2026-09-10T08:42:28Z",
-      "status": "verification-pending",
-      "note": "Rechecked 19 Sep 2026: fresh public search again surfaced the actual 1995 Lotus Esprit S4s advert at £39,995, 64,000 miles and manual as a plausible current PistonHeads listing. A direct advert refresh in this run returned a cache miss, so the seller gallery could not be inspected strongly enough for SOLD/RESERVED/DEPOSIT TAKEN/UNDER OFFER overlays or manual-control evidence. Keep verification-pending; do not publish.",
-      "lastCheckedAt": "2026-09-19T02:07:42Z"
+      "status": "rejected",
+      "note": "Rechecked 20 Sep 2026 against the exact current PistonHeads advert and the current model rules. The advert is genuinely live and identifies a 1995 Lotus Esprit S4S, 64,000 miles, manual, valid MOT, £39,995, with Stocks Sports Car Limited in Chelmsford and active seller-contact controls. However model-020 is configured for 1995-1996 S4s cars at a fixed asking price of £40,000-£65,000. At £39,995 this car is £5 below the hard configured minimum, so it fails the current model rule despite being live. Reject from the active verification queue rather than publishing or retaining as verification-pending.",
+      "lastCheckedAt": "2026-09-20T15:28:28Z",
+      "vehicleIdentity": "1995 Lotus Esprit S4S | 64,000 miles | £39,995 | Stocks Sports Car Limited"
     },
     {
       "modelId": "model-021",
@@ -3058,6 +3059,36 @@
       "lastCheckedAt": "2026-09-20T14:48:10Z",
       "vehicleIdentity": "2005 Aston Martin V12 Vanquish S | V12 PFC | 15,475 miles | £79,750 | Graeme Hunt Ltd",
       "note": "Discovered and verified 20 Sep 2026 on the current Classic Trader advert: 2005 Aston Martin V12 Vanquish S, £79,750, 15,475 miles, RHD, Graeme Hunt Ltd in London. Classic Trader's structured field labels the gearbox 'Manual', so it was initially plausible for model-069. The hard verification gate fails. Multiple exact seller-gallery cabin photographs were visually inspected: the centre console has no conventional manual gear lever and the pedal view does not evidence a three-pedal manual layout. No SOLD/RESERVED overlay was seen, but the advert description also contains no claim or documentation of an Aston Martin Works manual conversion. Model-069 explicitly requires a documented Aston Works conversion. Reject as wrong/unsupported transmission specification and do not publish."
+    },
+    {
+      "modelId": "model-019",
+      "url": "https://www.pistonheads.com/buy/listing/20342293",
+      "source": "pistonheads",
+      "discoveredAt": "2026-09-20T15:28:28Z",
+      "lastCheckedAt": "2026-09-20T15:28:28Z",
+      "status": "verification-pending",
+      "vehicleIdentity": "2003 TVR Tamora | AS03 TAM | 30,000 miles | £24,995 | Chelmsford private seller",
+      "note": "New candidate checked 20 Sep 2026. The actual PistonHeads advert is live at £24,995 for a 2003 TVR Tamora, registration AS03 TAM, 30,000 miles, manual, private seller in Chelmsford, with valid MOT and active seller-contact controls; the current PistonHeads blue-Tamora inventory also lists the same car. The configured model-019 year and £23,000-£38,000 price rules pass. Thirteen listing photos are exposed, but the exact image assets cache-missed during this run, so SOLD/RESERVED/DEPOSIT/UNDER-OFFER overlays and the manual gear-control evidence could not be visually confirmed. Keep verification-pending and do not publish."
+    },
+    {
+      "modelId": "model-042",
+      "url": "https://www.pistonheads.com/buy/listing/21083527",
+      "source": "pistonheads",
+      "discoveredAt": "2026-09-20T15:28:28Z",
+      "lastCheckedAt": "2026-09-20T15:28:28Z",
+      "status": "verification-pending",
+      "vehicleIdentity": "2007 Aston Martin V8 Vantage 4.3 | £34,995 | 49,500 miles | Wheelbase Bagshot",
+      "note": "New candidate checked 20 Sep 2026. The actual PistonHeads advert is current at £34,995, 49,500 miles, 2007, UK, and explicitly six-speed manual, with valid MOT and active seller contact controls. Wheelbase Bagshot's current PistonHeads stock page separately lists the exact £34,995 / 49,500-mile car. It passes model-042 year and £23,000-£45,000 price rules. A 47-photo gallery is exposed, but exact image assets were not retrievable for mandatory unavailable-overlay and manual-control visual verification. Keep verification-pending; do not publish."
+    },
+    {
+      "modelId": "model-042",
+      "url": "https://aston.co.uk/cars-for-sale/aston-martin/v8-vantage/car2721",
+      "source": "specialist-dealers",
+      "discoveredAt": "2026-09-20T15:28:28Z",
+      "lastCheckedAt": "2026-09-20T15:28:28Z",
+      "status": "verification-pending",
+      "vehicleIdentity": "2007 Aston Martin V8 Vantage 4.3 | AW051123 | 28,242 miles | £36,950 | Aston Workshop",
+      "note": "New candidate checked 20 Sep 2026. Aston Workshop's dealer-direct page presents reference AW051123 as a 2007 RHD V8 Vantage, manual, 28,242 miles, £36,950, with active enquiry controls and says it will be freshly serviced with six-month warranty and 12 months MOT. The site distinguishes Available Cars from Sold Cars and this car is on the sale page. It passes model-042 year and £23,000-£45,000 price rules. The listing exposes a large seller gallery, but exact image assets cache-missed, so SOLD/RESERVED/DEPOSIT/UNDER-OFFER overlays and manual-control imagery could not be inspected strongly enough. Keep verification-pending; do not publish."
     }
   ]
 }
