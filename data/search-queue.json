@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T21:01:57.734Z",
+  "generatedAt": "2026-09-20T22:09:47.911Z",
   "modelCount": 96,
   "sourceCount": 13,
   "jobCount": 1482,
@@ -12575,10 +12575,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T13:17:53Z",
+      "lastSearchedAt": "2026-09-20T22:08:17Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "eBay surfaced current-looking Z4 M Coupe adverts at £19,925 and £15,995, both below the configured £23,000 search floor, plus sold/ended material. No candidate retained."
+      "limitation": "eBay query executed. Surfaced material was completed, non-target ordinary Z4 stock or otherwise non-qualifying; no current direct Z4 M Coupe advert retained."
     },
     {
       "id": "model-056:autotrader:bmw-z4-m-coupe",
@@ -12592,10 +12592,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T13:17:53Z",
+      "lastSearchedAt": "2026-09-20T22:08:17Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Auto Trader search executed. Results were generic Z4 M Coupe inventory/search pages rather than direct current car-details adverts; no candidate retained."
+      "limitation": "Auto Trader query executed. Search exposed a generic Z4 M Coupe inventory page rather than a direct current car-details URL; generic search/category pages were not retained."
     },
     {
       "id": "model-056:pistonheads:bmw-z4-m-coupe",
@@ -12609,12 +12609,12 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T13:17:53Z",
+      "lastSearchedAt": "2026-09-20T22:08:17Z",
       "lastResultCount": 1,
       "candidateUrls": [
         "https://www.pistonheads.com/buy/listing/20766605"
       ],
-      "limitation": "PistonHeads search executed. The £29,995 / 49,155-mile Z4 M Coupe advert remains a plausible current actual advert already tracked; a £17,500 car is below the configured search floor and an older £24,995 advert is explicitly unavailable."
+      "limitation": "PistonHeads listing 20766605 remains a plausible current advert at £29,995 / 49,155 miles / manual. BAM's own seller advert and Car & Classic cross-post independently match SW57GNF; mandatory seller-photo/manual-control verification remains incomplete."
     },
     {
       "id": "model-056:car-and-classic:bmw-z4-m-coupe",
@@ -12628,10 +12628,12 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T13:17:53Z",
-      "lastResultCount": 0,
-      "candidateUrls": [],
-      "limitation": "Car & Classic surfaced C2127428 at £21,995, below the configured model-056 £23,000 search floor; other results were stale/removed. No qualifying candidate retained."
+      "lastSearchedAt": "2026-09-20T22:08:17Z",
+      "lastResultCount": 1,
+      "candidateUrls": [
+        "https://www.carandclassic.com/car/C2114176"
+      ],
+      "limitation": "Car & Classic currently marks C2114176 For Sale at £29,995 / 49,155 miles / six-speed manual in the UK. It is the same SW57GNF vehicle already tracked via PistonHeads/BAM, so no duplicate worker candidate was added."
     },
     {
       "id": "model-056:collecting-cars:bmw-z4-m-coupe",
@@ -12662,10 +12664,10 @@
       "priority": true,
       "cadenceHours": 3,
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T10:47:45Z",
+      "lastSearchedAt": "2026-09-20T22:08:17Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Bonhams Cars search executed; no plausible current direct fixed-price Z4 M Coupé advert URL surfaced."
+      "limitation": "Bonhams Cars query executed. No active current fixed-price qualifying Z4 M Coupe advert surfaced; historical/completed auction material was excluded."
     },
     {
       "id": "model-056:classic-trader:bmw-z4-m-coupe",
@@ -12696,10 +12698,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T13:17:53Z",
+      "lastSearchedAt": "2026-09-20T22:08:17Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Gumtree search executed. Surfaced results were ordinary/non-target Z4s or otherwise non-qualifying; no current Z4 M Coupe advert retained."
+      "limitation": "Gumtree query executed. Surfaced cars were ordinary/non-target Z4s rather than a qualifying current Z4 M Coupe advert; no candidate retained."
     },
     {
       "id": "model-056:911uk:bmw-z4-m-coupe",
@@ -14352,10 +14354,10 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-19T07:42:35Z",
+      "lastSearchedAt": "2026-09-20T22:08:17Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "eBay search returned parts, ended listings or ordinary E46 M3 material rather than a current qualifying CSL advert."
+      "limitation": "eBay query executed. No plausible current UK E46 M3 CSL vehicle advert with a fixed qualifying asking price survived filtering."
     },
     {
       "id": "model-064:autotrader:bmw-e46-m3-csl",
@@ -14386,10 +14388,10 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-19T07:42:35Z",
+      "lastSearchedAt": "2026-09-20T22:08:17Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Several live CSL adverts surfaced, but the available fixed-price cars were above the configured £100,000 maximum; the £97,500 result was explicitly unavailable. No candidate retained."
+      "limitation": "PistonHeads query executed. Current-looking CSL adverts were over the £100,000 ceiling; the £97,500 advert explicitly says no longer available, and auction pages lack a fixed qualifying asking price. No candidate retained."
     },
     {
       "id": "model-064:car-and-classic:bmw-e46-m3-csl",
@@ -14471,10 +14473,10 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-19T07:42:35Z",
+      "lastSearchedAt": "2026-09-20T22:08:17Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Gumtree search surfaced ordinary/non-CSL E46 M3 material; no qualifying CSL advert retained."
+      "limitation": "Gumtree query executed. No direct current qualifying E46 M3 CSL advert surfaced."
     },
     {
       "id": "model-064:911uk:bmw-e46-m3-csl",
@@ -14539,10 +14541,10 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-19T07:42:35Z",
+      "lastSearchedAt": "2026-09-20T22:08:17Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Specialist stock search found an exact CSL page explicitly marked SOLD; it was rejected before candidate retention."
+      "limitation": "Specialist-dealer search executed. City Classics' CSL is explicitly SOLD; other surfaced specialist CSL pages were SOLD, POA or stale retained stock. No current fixed-price qualifying advert retained."
     },
     {
       "id": "model-065:facebook-groups:maserati-gransport-mc-victory",
@@ -14573,10 +14575,10 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-19T07:42:35Z",
+      "lastSearchedAt": "2026-09-20T22:08:17Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "eBay search executed; no direct current qualifying MC Victory advert survived filtering."
+      "limitation": "eBay query executed. Results were parts/non-vehicle material or otherwise non-qualifying; no current MC Victory vehicle advert retained."
     },
     {
       "id": "model-065:autotrader:maserati-gransport-mc-victory",
@@ -14590,10 +14592,10 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-19T07:42:35Z",
+      "lastSearchedAt": "2026-09-20T22:08:17Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Auto Trader search surfaced other Maserati/GranSport material but no direct current MC Victory advert within the configured £30,000–£50,000 range."
+      "limitation": "Auto Trader query executed. Results were generic GranSport/GranCabrio inventory rather than a direct current exact MC Victory car-details advert; no candidate retained."
     },
     {
       "id": "model-065:pistonheads:maserati-gransport-mc-victory",
@@ -14607,10 +14609,10 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-19T07:42:35Z",
+      "lastSearchedAt": "2026-09-20T22:08:17Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "PistonHeads search surfaced ordinary GranSport adverts rather than the MC Victory derivative; no qualifying candidate retained."
+      "limitation": "PistonHeads query executed. No direct current qualifying GranSport MC Victory advert with strong current-availability evidence surfaced."
     },
     {
       "id": "model-065:car-and-classic:maserati-gransport-mc-victory",
@@ -14624,10 +14626,10 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-19T07:42:35Z",
+      "lastSearchedAt": "2026-09-20T22:08:17Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "The surfaced MC Victory Car & Classic advert is removed through sale or otherwise; it was rejected as unavailable."
+      "limitation": "Car & Classic query executed. No direct current purchasable UK GranSport MC Victory advert within the configured rules survived filtering."
     },
     {
       "id": "model-065:collecting-cars:maserati-gransport-mc-victory",
@@ -14692,10 +14694,10 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-19T07:42:35Z",
+      "lastSearchedAt": "2026-09-20T22:08:17Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Gumtree search executed; no plausible current qualifying MC Victory advert was retained."
+      "limitation": "Gumtree query executed. No direct current qualifying Maserati GranSport MC Victory advert surfaced."
     },
     {
       "id": "model-065:911uk:maserati-gransport-mc-victory",
@@ -14760,10 +14762,10 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-19T07:42:35Z",
+      "lastSearchedAt": "2026-09-20T22:08:17Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Richard Grace direct 'for-sale' MC Victory pages surfaced, but the £42,950 car is absent from the dealer's current stocklist, making availability ambiguous/stale; the other surfaced examples are above the configured £50,000 maximum. No candidate retained."
+      "limitation": "Specialist-dealer search executed. Richard Grace page /606 still renders £34,950, but the dealer's authoritative current Stocklist contains only a Porsche 991.2 GT3 and Maserati MC Stradale, not the MC Victory; /606 was rejected as stale. Other surfaced MC Victory stock was sold."
     },
     {
       "id": "model-066:facebook-groups:ferrari-f430-factory-manual",
@@ -18399,10 +18401,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T13:17:53Z",
+      "lastSearchedAt": "2026-09-20T22:08:17Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "PistonHeads surfaced a current £15,995 Clio 182 Trophy at 47,000 miles, which fails the strict under-30,000-mile rule; auction/historical pages were excluded. No qualifying candidate retained."
+      "limitation": "PistonHeads query executed. No direct current Clio 182 Trophy advert was found that could satisfy the strict sub-30,000-mile and maximum-two-total-owner rules."
     },
     {
       "id": "model-078:car-and-classic:renault-clio-182-trophy",
@@ -18433,10 +18435,10 @@
       "priority": true,
       "cadenceHours": 3,
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T10:47:45Z",
+      "lastSearchedAt": "2026-09-20T22:08:17Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Collecting Cars search executed; no qualifying current direct advert with a fixed GBP asking price surfaced. Completed/historical auction material was not retained."
+      "limitation": "Collecting Cars query executed. Results were historical/completed auction material or otherwise did not establish a live qualifying fixed-price advert; no candidate retained."
     },
     {
       "id": "model-078:bonhams-cars:renault-clio-182-trophy",
@@ -18450,10 +18452,10 @@
       "priority": true,
       "cadenceHours": 3,
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T10:47:45Z",
+      "lastSearchedAt": "2026-09-20T22:08:17Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Bonhams Cars search executed; no current direct Clio 182 Trophy advert meeting the strict mileage/ownership policy surfaced."
+      "limitation": "Bonhams Cars query executed. No active current Clio 182 Trophy advert meeting the strict sub-30,000-mile and maximum-two-total-owner rules surfaced; historical/completed material was excluded."
     },
     {
       "id": "model-078:classic-trader:renault-clio-182-trophy",
@@ -19759,10 +19761,10 @@
       "priority": false,
       "cadenceHours": 12,
       "status": "searched",
-      "lastSearchedAt": "2026-09-19T01:45:59Z",
+      "lastSearchedAt": "2026-09-20T22:08:17Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search completed; surfaced pages were historical/completed or non-qualifying; no current candidate retained."
+      "limitation": "Collecting Cars query executed. Surfaced material was completed/historical auction content or failed the hard mileage/ownership gate; no live qualifying candidate retained."
     },
     {
       "id": "model-081:bonhams-cars:renault-megane-r26-f1-team",
@@ -19776,10 +19778,10 @@
       "priority": false,
       "cadenceHours": 12,
       "status": "searched",
-      "lastSearchedAt": "2026-09-19T01:45:59Z",
+      "lastSearchedAt": "2026-09-20T22:08:17Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search completed; no plausible current qualifying direct advert survived filtering."
+      "limitation": "Bonhams Cars query executed. No active current R26 F1 Team advert satisfying the strict mileage/ownership rules surfaced; historical/completed material was excluded."
     },
     {
       "id": "model-081:classic-trader:renault-megane-r26-f1-team",
@@ -19793,10 +19795,10 @@
       "priority": false,
       "cadenceHours": 12,
       "status": "searched",
-      "lastSearchedAt": "2026-09-19T01:45:59Z",
+      "lastSearchedAt": "2026-09-20T22:08:17Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search completed; no plausible current qualifying direct advert survived filtering."
+      "limitation": "Classic Trader query executed. No current UK R26 F1 Team advert meeting the sub-30,000-mile and maximum-two-total-owner requirements was established."
     },
     {
       "id": "model-081:gumtree:renault-megane-r26-f1-team",
@@ -19980,10 +19982,10 @@
       "priority": false,
       "cadenceHours": 12,
       "status": "searched",
-      "lastSearchedAt": "2026-09-19T01:45:59Z",
+      "lastSearchedAt": "2026-09-20T22:08:17Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search completed; surfaced pages were historical/completed or non-qualifying; no current candidate retained."
+      "limitation": "Collecting Cars query executed. Surfaced R26.R material was completed/historical or failed the hard mileage/ownership gate; no live qualifying candidate retained."
     },
     {
       "id": "model-081:bonhams-cars:renault-megane-r26-r",
@@ -19997,10 +19999,10 @@
       "priority": false,
       "cadenceHours": 12,
       "status": "searched",
-      "lastSearchedAt": "2026-09-19T01:45:59Z",
+      "lastSearchedAt": "2026-09-20T22:08:17Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search completed; no plausible current qualifying direct advert survived filtering."
+      "limitation": "Bonhams Cars query executed. No active current R26.R advert satisfying the strict mileage/ownership rules surfaced; historical/completed material was excluded."
     },
     {
       "id": "model-081:classic-trader:renault-megane-r26-r",
@@ -20014,10 +20016,10 @@
       "priority": false,
       "cadenceHours": 12,
       "status": "searched",
-      "lastSearchedAt": "2026-09-19T01:45:59Z",
+      "lastSearchedAt": "2026-09-20T22:08:17Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search completed; no plausible current qualifying direct advert survived filtering."
+      "limitation": "Classic Trader query executed. No current UK R26.R advert meeting the sub-30,000-mile and maximum-two-total-owner requirements was established."
     },
     {
       "id": "model-081:gumtree:renault-megane-r26-r",
@@ -20422,10 +20424,10 @@
       "priority": false,
       "cadenceHours": 12,
       "status": "searched",
-      "lastSearchedAt": "2026-09-19T01:45:59Z",
+      "lastSearchedAt": "2026-09-20T22:08:17Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search completed; surfaced pages were historical/completed or non-qualifying; no current candidate retained."
+      "limitation": "Collecting Cars query executed. Results were historical/completed auction material or otherwise failed the strict mileage/ownership gate; no candidate retained."
     },
     {
       "id": "model-083:bonhams-cars:subaru-impreza-rb5",
@@ -20439,10 +20441,10 @@
       "priority": false,
       "cadenceHours": 12,
       "status": "searched",
-      "lastSearchedAt": "2026-09-19T01:45:59Z",
+      "lastSearchedAt": "2026-09-20T22:08:17Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search completed; no plausible current qualifying direct advert survived filtering."
+      "limitation": "Bonhams Cars query executed. No active current RB5 advert satisfying the strict sub-30,000-mile and maximum-two-total-owner rules surfaced."
     },
     {
       "id": "model-083:classic-trader:subaru-impreza-rb5",
@@ -20456,10 +20458,10 @@
       "priority": false,
       "cadenceHours": 12,
       "status": "searched",
-      "lastSearchedAt": "2026-09-19T01:45:59Z",
+      "lastSearchedAt": "2026-09-20T22:08:17Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search completed; no plausible current qualifying direct advert survived filtering."
+      "limitation": "Classic Trader query executed. No current UK RB5 advert satisfying the strict mileage and total-ownership rules surfaced."
     },
     {
       "id": "model-083:gumtree:subaru-impreza-rb5",
@@ -20643,10 +20645,10 @@
       "priority": false,
       "cadenceHours": 12,
       "status": "searched",
-      "lastSearchedAt": "2026-09-19T01:45:59Z",
+      "lastSearchedAt": "2026-09-20T22:08:17Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search completed; surfaced pages were historical/completed or non-qualifying; no current candidate retained."
+      "limitation": "Collecting Cars query executed. Surfaced WR1 material was historical/completed auction content; old low-mileage examples were not treated as current adverts."
     },
     {
       "id": "model-084:bonhams-cars:subaru-impreza-wr1",
@@ -20660,10 +20662,10 @@
       "priority": false,
       "cadenceHours": 12,
       "status": "searched",
-      "lastSearchedAt": "2026-09-19T01:45:59Z",
+      "lastSearchedAt": "2026-09-20T22:08:17Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search completed; no plausible current qualifying direct advert survived filtering."
+      "limitation": "Bonhams Cars query executed. No active current WR1 advert satisfying the strict sub-30,000-mile and maximum-two-total-owner rules surfaced."
     },
     {
       "id": "model-084:classic-trader:subaru-impreza-wr1",
@@ -20677,10 +20679,10 @@
       "priority": false,
       "cadenceHours": 12,
       "status": "searched",
-      "lastSearchedAt": "2026-09-19T01:45:59Z",
+      "lastSearchedAt": "2026-09-20T22:08:17Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search completed; no plausible current qualifying direct advert survived filtering."
+      "limitation": "Classic Trader query executed. No current UK WR1 advert satisfying the strict mileage and total-ownership rules surfaced."
     },
     {
       "id": "model-084:gumtree:subaru-impreza-wr1",
@@ -20796,10 +20798,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T12:27:01Z",
+      "lastSearchedAt": "2026-09-20T22:08:17Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "eBay query executed. No plausible current fixed-price RB320 advert meeting the strict mileage and ownership caps survived filtering."
+      "limitation": "eBay query executed. Results were parts, brochures or non-vehicle material rather than a current RB320 vehicle advert; no candidate retained."
     },
     {
       "id": "model-085:autotrader:subaru-impreza-rb320",
@@ -20813,10 +20815,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T12:27:01Z",
+      "lastSearchedAt": "2026-09-20T22:08:17Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Auto Trader query executed. No direct current RB320 car-details advert meeting the strict sub-30,000-mile and maximum-two-total-owner rules was retained."
+      "limitation": "Auto Trader query executed. No direct current car-details RB320 advert survived filtering; category/search material was not retained."
     },
     {
       "id": "model-085:pistonheads:subaru-impreza-rb320",
@@ -20830,10 +20832,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T12:27:01Z",
+      "lastSearchedAt": "2026-09-20T22:08:17Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "PistonHeads surfaced a numerically strong 2007 RB320 at £39,950 / 23,855 miles, but opening the actual advert states that the car is no longer available for purchase. It was rejected before candidate import."
+      "limitation": "PistonHeads search surfaced listing 20395030 at £39,950 / 23,855 miles / one owner, but the actual advert explicitly states 'This car is no longer available for purchase.' It was excluded."
     },
     {
       "id": "model-085:car-and-classic:subaru-impreza-rb320",
@@ -20847,10 +20849,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T12:27:01Z",
+      "lastSearchedAt": "2026-09-20T22:08:17Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Car & Classic query executed. Surfaced RB320 material was a completed auction / over the mileage cap rather than a current qualifying fixed-price advert."
+      "limitation": "Car & Classic query executed. Surfaced RB320 material was historical/completed rather than a current purchasable UK advert; no candidate retained."
     },
     {
       "id": "model-085:collecting-cars:subaru-impreza-rb320",
@@ -20915,10 +20917,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T12:27:01Z",
+      "lastSearchedAt": "2026-09-20T22:08:17Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Gumtree query executed. No direct current RB320 advert with verified sub-30,000 mileage and no more than two total owners survived filtering."
+      "limitation": "Gumtree query executed. No direct current qualifying RB320 vehicle advert surfaced."
     },
     {
       "id": "model-085:911uk:subaru-impreza-rb320",
@@ -20983,10 +20985,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T13:17:53Z",
+      "lastSearchedAt": "2026-09-20T22:08:17Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Specialist-dealer search executed. No direct current Subaru Impreza RB320 advert with verified under-30,000 mileage and at most two total owners survived filtering."
+      "limitation": "Specialist-dealer search executed. The indexed PistonHeads RB320 #20395030 is explicitly unavailable on the actual advert and no independent current dealer-stock advert for a qualifying RB320 was established."
     },
     {
       "id": "model-086:facebook-groups:subaru-impreza-22b",
@@ -21085,10 +21087,10 @@
       "priority": false,
       "cadenceHours": 12,
       "status": "searched",
-      "lastSearchedAt": "2026-09-19T01:45:59Z",
+      "lastSearchedAt": "2026-09-20T22:08:17Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search completed; surfaced pages were historical/completed or non-qualifying; no current candidate retained."
+      "limitation": "Collecting Cars query executed. Surfaced 22B material was historical/completed sales rather than a live fixed-price current advert; no candidate retained."
     },
     {
       "id": "model-086:bonhams-cars:subaru-impreza-22b",
@@ -21102,10 +21104,10 @@
       "priority": false,
       "cadenceHours": 12,
       "status": "searched",
-      "lastSearchedAt": "2026-09-19T01:45:59Z",
+      "lastSearchedAt": "2026-09-20T22:08:17Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search completed; no plausible current qualifying direct advert survived filtering."
+      "limitation": "Bonhams Cars query executed. No active current 22B advert satisfying UK, fixed-price, sub-30,000-mile and maximum-two-total-owner rules surfaced."
     },
     {
       "id": "model-086:classic-trader:subaru-impreza-22b",
@@ -21119,10 +21121,10 @@
       "priority": false,
       "cadenceHours": 12,
       "status": "searched",
-      "lastSearchedAt": "2026-09-19T01:45:59Z",
+      "lastSearchedAt": "2026-09-20T22:08:17Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search completed; no plausible current qualifying direct advert survived filtering."
+      "limitation": "Classic Trader query executed. The current-looking 22B/Type R result was in the Netherlands at about £244,758 and 69,301 km, so it fails UK, price and mileage rules; UK results were expired/POA. No candidate retained."
     },
     {
       "id": "model-086:gumtree:subaru-impreza-22b",
@@ -21306,10 +21308,10 @@
       "priority": false,
       "cadenceHours": 12,
       "status": "searched",
-      "lastSearchedAt": "2026-09-19T01:45:59Z",
+      "lastSearchedAt": "2026-09-20T22:08:17Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search completed; surfaced pages were historical/completed or non-qualifying; no current candidate retained."
+      "limitation": "Collecting Cars query executed. Surfaced Type R/related Impreza material was historical/completed or over the strict mileage/ownership limits; no live qualifying candidate retained."
     },
     {
       "id": "model-086:bonhams-cars:subaru-impreza-sti-type-r",
@@ -21323,10 +21325,10 @@
       "priority": false,
       "cadenceHours": 12,
       "status": "searched",
-      "lastSearchedAt": "2026-09-19T01:45:59Z",
+      "lastSearchedAt": "2026-09-20T22:08:17Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search completed; no plausible current qualifying direct advert survived filtering."
+      "limitation": "Bonhams Cars query executed. No active current STI Type R advert satisfying the strict UK mileage/ownership rules surfaced."
     },
     {
       "id": "model-086:classic-trader:subaru-impreza-sti-type-r",
@@ -21340,10 +21342,10 @@
       "priority": false,
       "cadenceHours": 12,
       "status": "searched",
-      "lastSearchedAt": "2026-09-19T01:45:59Z",
+      "lastSearchedAt": "2026-09-20T22:08:17Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search completed; no plausible current qualifying direct advert survived filtering."
+      "limitation": "Classic Trader query executed. Surfaced current Type R/22B material was non-UK, over the price ceiling and over the mileage cap; UK references were expired/POA. No candidate retained."
     },
     {
       "id": "model-086:gumtree:subaru-impreza-sti-type-r",
@@ -21544,10 +21546,10 @@
       "priority": false,
       "cadenceHours": 12,
       "status": "searched",
-      "lastSearchedAt": "2026-09-19T01:45:59Z",
+      "lastSearchedAt": "2026-09-20T22:08:17Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search completed; no plausible current qualifying direct advert survived filtering."
+      "limitation": "Bonhams Cars query executed. No active current STI Type RA advert satisfying the strict UK mileage/ownership rules surfaced."
     },
     {
       "id": "model-086:classic-trader:subaru-impreza-sti-type-ra",
@@ -21561,10 +21563,10 @@
       "priority": false,
       "cadenceHours": 12,
       "status": "searched",
-      "lastSearchedAt": "2026-09-19T01:45:59Z",
+      "lastSearchedAt": "2026-09-20T22:08:17Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search completed; no plausible current qualifying direct advert survived filtering."
+      "limitation": "Classic Trader query executed. No current UK STI Type RA advert meeting the strict mileage, ownership and fixed-price rules was established."
     },
     {
       "id": "model-086:gumtree:subaru-impreza-sti-type-ra",
@@ -22360,10 +22362,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T13:17:53Z",
+      "lastSearchedAt": "2026-09-20T22:08:17Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Auto Trader search executed. No direct current car-details advert for a qualifying Evo VI Tommi Makinen Edition with verified under-30,000 mileage and at most two total owners survived filtering."
+      "limitation": "Auto Trader query executed. Only generic/category results were exposed rather than a direct current car-details URL; a surfaced dealer TME at 89,411 miles also fails the strict sub-30,000-mile rule. No candidate retained."
     },
     {
       "id": "model-088:pistonheads:mitsubishi-evo-vi-tommi-makinen-edition",
@@ -24680,10 +24682,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T13:17:53Z",
+      "lastSearchedAt": "2026-09-20T22:08:17Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Gumtree search executed. Surfaced E46 M3 results were convertible/SMG or otherwise outside the manual-coupe target; no candidate retained."
+      "limitation": "Gumtree query executed. Surfaced M3 material included SMG/convertible and over-mileage cars; no current factory-manual Coupé within the 50,000-mile cap was retained."
     },
     {
       "id": "model-096:911uk:bmw-e46-m3-manual-coupe-uk",
@@ -24782,10 +24784,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T13:17:53Z",
+      "lastSearchedAt": "2026-09-20T22:08:17Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "eBay surfaced a current-looking 2002 E46 M3 manual coupe at £14,495, below the configured model-096 £20,000 search floor; other results were convertibles/SMG or non-qualifying. No candidate retained."
+      "limitation": "eBay query executed. Surfaced cars were ended, over the 50,000-mile cap, convertibles or otherwise non-qualifying; no current factory six-speed manual Coupé candidate retained."
     },
     {
       "id": "model-096:autotrader:bmw-m3-e46-6-speed-manual-coupe-uk",
@@ -25198,12 +25200,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T12:27:01Z",
-      "lastResultCount": 1,
-      "candidateUrls": [
-        "https://www.carandclassic.com/au/car/C2060885"
-      ],
-      "limitation": "Specialist-dealer/current-stock search executed. The live £50,000 / 46,637-mile 2003 E39 M5 six-speed manual on Car & Classic remains current and is already tracked/published; no genuinely new candidate found."
+      "lastSearchedAt": "2026-09-20T22:08:17Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Specialist-dealer search executed. Current surfaced E39 M5 manuals were over the configured 50,000-mile cap, below the model price floor, POA or sold; no qualifying direct advert retained."
     },
     {
       "id": "model-097:facebook-groups:bmw-m5-e39-6-speed-manual-uk",
@@ -25423,12 +25423,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T12:27:01Z",
-      "lastResultCount": 1,
-      "candidateUrls": [
-        "https://www.carandclassic.com/au/car/C2060885"
-      ],
-      "limitation": "Specialist-dealer/current-stock search executed. The live £50,000 / 46,637-mile 2003 E39 M5 six-speed manual on Car & Classic remains current and is already tracked/published; other surfaced cars exceeded the mileage cap or were sold."
+      "lastSearchedAt": "2026-09-20T22:08:17Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Specialist-dealer search executed for the six-speed-manual variant. Surfaced cars were over 50,000 miles, below the configured floor, POA or sold; no qualifying direct advert retained."
     }
   ]
 }
