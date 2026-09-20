@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T22:52:40.404Z",
+  "generatedAt": "2026-09-20T23:43:43.980Z",
   "modelCount": 96,
   "sourceCount": 13,
   "jobCount": 1482,
@@ -12715,10 +12715,10 @@
       "priority": true,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T10:47:45Z",
+      "lastSearchedAt": "2026-09-20T23:31:00Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "911UK search executed; no plausible current direct Z4 M Coupé advert URL surfaced."
+      "limitation": "Public web search executed; no plausible current direct Z4 M Coupe sale advert surfaced."
     },
     {
       "id": "model-056:ferrarichat:bmw-z4-m-coupe",
@@ -12732,10 +12732,10 @@
       "priority": true,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T10:47:45Z",
+      "lastSearchedAt": "2026-09-20T23:31:00Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "FerrariChat search executed; no plausible current direct UK Z4 M Coupé sale advert surfaced."
+      "limitation": "Public web search executed; no plausible current direct UK Z4 M Coupe sale advert surfaced."
     },
     {
       "id": "model-056:lamborghini-talk:bmw-z4-m-coupe",
@@ -12749,10 +12749,10 @@
       "priority": true,
       "cadenceHours": 6,
       "status": "blocked",
-      "lastSearchedAt": "2026-09-20T10:47:45Z",
+      "lastSearchedAt": "2026-09-20T23:31:00Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public search access to lamborghini-talk.com was blocked by robots.txt for this query, so no advert could be verified from that source in this run."
+      "limitation": "lamborghini-talk.com was blocked by robots.txt in public web search; no bypass attempted."
     },
     {
       "id": "model-056:specialist-dealers:bmw-z4-m-coupe",
@@ -15686,10 +15686,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T15:28:28Z",
+      "lastSearchedAt": "2026-09-20T23:31:00Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public eBay search returned parts, generic results or ended/stale material rather than a plausible current Mk1 vehicle advert."
+      "limitation": "Public web search executed; no plausible current Mk1 RS vehicle advert survived ended/stale/parts filtering."
     },
     {
       "id": "model-070:autotrader:ford-focus-rs-mk1",
@@ -15720,13 +15720,13 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T15:28:28Z",
+      "lastSearchedAt": "2026-09-20T23:31:00Z",
       "lastResultCount": 2,
       "candidateUrls": [
-        "https://www.pistonheads.com/buy/listing/20975833",
-        "https://www.pistonheads.com/buy/listing/20771916"
+        "https://www.pistonheads.com/buy/listing/20788132",
+        "https://www.pistonheads.com/buy/listing/20975833"
       ],
-      "limitation": "Two current UK Mk1 adverts were retained from PistonHeads and are already tracked. A heavily modified 91,898-mile car previously rejected by the worker was not re-added."
+      "limitation": "Public web search executed; retained current direct adverts only. Both vehicles are already known in worker state by vehicle identity/cross-post or prior editorial review, so no duplicate candidate was added."
     },
     {
       "id": "model-070:car-and-classic:ford-focus-rs-mk1",
@@ -15808,10 +15808,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T15:28:28Z",
+      "lastSearchedAt": "2026-09-20T23:31:00Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Gumtree search returned no direct current qualifying Focus RS Mk1 advert."
+      "limitation": "Public web search executed; no plausible current direct Mk1 RS advert was established."
     },
     {
       "id": "model-070:911uk:ford-focus-rs-mk1",
@@ -15876,10 +15876,12 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T16:14:21Z",
-      "lastResultCount": 0,
-      "candidateUrls": [],
-      "limitation": "Specialist-dealer search executed. The surfaced Car Cave Mk1 page is explicitly SOLD; no new current direct dealer advert was retained."
+      "lastSearchedAt": "2026-09-20T23:31:00Z",
+      "lastResultCount": 1,
+      "candidateUrls": [
+        "https://www.kgfclassiccars.co.uk/vehicles/36295/"
+      ],
+      "limitation": "Public web search executed; KGF current-stock advert is explicitly FOR SALE at a fixed qualifying price and is already tracked."
     },
     {
       "id": "model-070:facebook-groups:ford-focus-rs-mk2",
@@ -15910,10 +15912,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T15:28:28Z",
+      "lastSearchedAt": "2026-09-20T23:31:00Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "The vehicle result surfaced by eBay was the already-rejected 226615603512 page with dated 2025 listing metadata; it was excluded under the stale/recycled-advert rule."
+      "limitation": "Public web search executed; surfaced eBay vehicle result was ended, so no current advert retained."
     },
     {
       "id": "model-070:autotrader:ford-focus-rs-mk2",
@@ -15944,15 +15946,12 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T16:14:21Z",
-      "lastResultCount": 4,
+      "lastSearchedAt": "2026-09-20T23:31:00Z",
+      "lastResultCount": 1,
       "candidateUrls": [
-        "https://www.pistonheads.com/buy/listing/21062629",
-        "https://www.pistonheads.com/buy/listing/20937158",
-        "https://www.pistonheads.com/buy/listing/20771951",
-        "https://www.pistonheads.com/buy/listing/20871788"
+        "https://www.pistonheads.com/buy/listing/20771951"
       ],
-      "limitation": "PistonHeads search returned four plausible current Mk2 vehicle adverts. One older result (#18742854) explicitly states it is no longer available and was rejected."
+      "limitation": "Public web search executed; current direct advert retained. Other surfaced cars were materially modified, unavailable or duplicate cross-posts; the retained vehicle is already in worker state."
     },
     {
       "id": "model-070:car-and-classic:ford-focus-rs-mk2",
@@ -15966,16 +15965,13 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T15:28:28Z",
-      "lastResultCount": 5,
+      "lastSearchedAt": "2026-09-20T23:31:00Z",
+      "lastResultCount": 2,
       "candidateUrls": [
-        "https://www.carandclassic.com/car/C2190247",
-        "https://www.carandclassic.com/l/C2104792",
-        "https://www.carandclassic.com/car/C2133874",
-        "https://www.carandclassic.com/l/C2122028",
-        "https://www.carandclassic.com/car/C2117480"
+        "https://www.carandclassic.com/car/C2117480",
+        "https://www.carandclassic.com/l/C2104792"
       ],
-      "limitation": "Car & Classic search was checked against live related inventory. Five current UK Mk2 adverts already tracked remain plausible actual adverts. A surfaced C1972136 page is explicitly removed and was excluded."
+      "limitation": "Public web search executed; retained only current direct Focus RS Mk2 adverts. Other results were stale, unavailable, generic or non-qualifying."
     },
     {
       "id": "model-070:collecting-cars:ford-focus-rs-mk2",
@@ -16040,10 +16036,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T15:28:28Z",
+      "lastSearchedAt": "2026-09-20T23:31:00Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Gumtree search returned no direct current qualifying Focus RS Mk2 advert."
+      "limitation": "Public web search executed; no plausible current direct Mk2 RS advert was established."
     },
     {
       "id": "model-070:911uk:ford-focus-rs-mk2",
@@ -16108,13 +16104,12 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T16:14:21Z",
-      "lastResultCount": 2,
+      "lastSearchedAt": "2026-09-20T23:31:00Z",
+      "lastResultCount": 1,
       "candidateUrls": [
-        "https://carcavescotland.co.uk/ford-focus-rs-mk2/",
-        "https://mwperformance.co.uk/135-focus-rs-mk2-white-frs/"
+        "https://carcavescotland.co.uk/ford-focus-rs-mk2/"
       ],
-      "limitation": "Two current dealer-direct Mk2 adverts were retained: Car Cave's 5,699-mile £44,995 car and MW Performance's 29,000-mile £34,995 car. Both were already tracked."
+      "limitation": "Public web search executed; known Car Cave current-stock URL retained as an existing candidate. Direct page access was limited in this pass, so no verification upgrade was made."
     },
     {
       "id": "model-070:facebook-groups:ford-focus-rs500",
@@ -16145,10 +16140,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T15:28:28Z",
+      "lastSearchedAt": "2026-09-20T23:31:00Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "eBay search did not yield a plausible current UK RS500 vehicle advert; parts, ended and non-qualifying results were rejected."
+      "limitation": "Public web search executed; surfaced RS500 result was sold/ended and above the configured price ceiling, so none retained."
     },
     {
       "id": "model-070:autotrader:ford-focus-rs500",
@@ -16179,10 +16174,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T16:14:21Z",
+      "lastSearchedAt": "2026-09-20T23:31:00Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search executed. Results were a generic Focus RS inventory page and an old 2021 editorial article rather than a direct current RS500 advert."
+      "limitation": "Public web search executed; no plausible current direct RS500 advert survived filtering."
     },
     {
       "id": "model-070:car-and-classic:ford-focus-rs500",
@@ -16196,10 +16191,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T15:28:28Z",
+      "lastSearchedAt": "2026-09-20T23:31:00Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search surfaced no qualifying current UK RS500 advert; visible RS500 material was non-UK/LHD or otherwise not a qualifying UK advert."
+      "limitation": "Public web search executed; no plausible current RS500 direct advert survived stale/sold/auction/category filtering."
     },
     {
       "id": "model-070:collecting-cars:ford-focus-rs500",
@@ -16332,10 +16327,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T16:14:21Z",
+      "lastSearchedAt": "2026-09-20T23:31:00Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Specialist-dealer search executed; no direct current RS500 dealer advert was returned."
+      "limitation": "Public web search executed; no plausible current direct specialist-dealer RS500 advert was established."
     },
     {
       "id": "model-071:facebook-groups:bmw-m5-touring-e61-5-0-v10-smg",
@@ -16366,10 +16361,10 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-19T09:21:59Z",
+      "lastSearchedAt": "2026-09-20T23:31:00Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search executed. No current qualifying E61 M5 Touring actual eBay advert survived; generic, parts or non-matching material excluded."
+      "limitation": "Public web search executed; surfaced eBay M5 Touring listing 336681759881 ended on 20 July 2026, so it was rejected as non-current."
     },
     {
       "id": "model-071:autotrader:bmw-m5-touring-e61-5-0-v10-smg",
@@ -16400,10 +16395,10 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-19T09:21:59Z",
+      "lastSearchedAt": "2026-09-20T23:31:00Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search executed. Listing 16870606 was opened and explicitly says it is no longer available for purchase; auction/current-bid material without a qualifying fixed asking price was also rejected."
+      "limitation": "Public web search executed; surfaced direct listing 16870606 explicitly says it is no longer available. Other results were auctions, ambiguous or non-qualifying."
     },
     {
       "id": "model-071:car-and-classic:bmw-m5-touring-e61-5-0-v10-smg",
@@ -16485,10 +16480,10 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-19T09:21:59Z",
+      "lastSearchedAt": "2026-09-20T23:31:00Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search executed. No current qualifying E61 M5 Touring actual Gumtree advert survived pre-verification."
+      "limitation": "Public web search executed; no plausible current direct E61 M5 Touring V10 SMG advert was established."
     },
     {
       "id": "model-071:911uk:bmw-m5-touring-e61-5-0-v10-smg",
@@ -16553,10 +16548,10 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-19T09:21:59Z",
+      "lastSearchedAt": "2026-09-20T23:31:00Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Specialist-dealer search executed. No current direct qualifying E61 M5 Touring dealer-stock advert survived pre-verification."
+      "limitation": "Public web search executed; no new qualifying factory-SMG specialist advert survived verification. A known manual-conversion car remains excluded."
     },
     {
       "id": "model-072:facebook-groups:bmw-1m-coupe-manual-45000-55000-full-service-history",
@@ -16810,10 +16805,10 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-19T09:21:59Z",
+      "lastSearchedAt": "2026-09-20T23:31:00Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search executed. No direct current qualifying original Audi ur-quattro actual eBay advert survived pre-verification."
+      "limitation": "Public web search executed; no plausible current direct original ur-quattro vehicle advert survived filtering."
     },
     {
       "id": "model-073:autotrader:audi-ur-quattro",
@@ -16827,10 +16822,10 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-19T09:21:59Z",
+      "lastSearchedAt": "2026-09-20T23:31:00Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search executed. Surfaced Auto Trader material did not yield a direct current original ur-quattro advert URL; generic/search surfaces were rejected."
+      "limitation": "Public web search executed; no direct Auto Trader ur-quattro advert could be positively established as current in this pass."
     },
     {
       "id": "model-073:pistonheads:audi-ur-quattro",
@@ -16844,10 +16839,12 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-19T09:21:59Z",
-      "lastResultCount": 0,
-      "candidateUrls": [],
-      "limitation": "Search executed. Search surfaced a generic PistonHeads category/deals page rather than direct actual advert URLs; generic pages are rejected before verification."
+      "lastSearchedAt": "2026-09-20T23:31:00Z",
+      "lastResultCount": 1,
+      "candidateUrls": [
+        "https://www.pistonheads.com/buy/listing/20952619"
+      ],
+      "limitation": "Public web search executed; current direct 1989 MB ur-quattro advert retained and rechecked with fixed price, UK seller, valid MOT and manual specification."
     },
     {
       "id": "model-073:car-and-classic:audi-ur-quattro",
@@ -16861,10 +16858,12 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-19T09:21:59Z",
-      "lastResultCount": 0,
-      "candidateUrls": [],
-      "limitation": "Search executed. Surfaced Car & Classic ur-quattro material was historical/removed auction content; no current actual advert retained."
+      "lastSearchedAt": "2026-09-20T23:31:00Z",
+      "lastResultCount": 1,
+      "candidateUrls": [
+        "https://www.carandclassic.com/be-fr/voiture/C2176605"
+      ],
+      "limitation": "Public web search executed; current direct 1989 MB ur-quattro advert retained. It is the same vehicle identity as an existing PistonHeads candidate, so no duplicate candidate was added."
     },
     {
       "id": "model-073:collecting-cars:audi-ur-quattro",
@@ -16929,10 +16928,10 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-19T09:21:59Z",
+      "lastSearchedAt": "2026-09-20T23:31:00Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search executed. No direct current qualifying original Audi ur-quattro actual Gumtree advert survived pre-verification."
+      "limitation": "Public web search executed; no plausible current direct original ur-quattro advert was established."
     },
     {
       "id": "model-073:911uk:audi-ur-quattro",
@@ -16997,10 +16996,10 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-19T09:21:59Z",
+      "lastSearchedAt": "2026-09-20T23:31:00Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Specialist-dealer search executed. No direct current original ur-quattro stock advert URL survived pre-verification."
+      "limitation": "Public web search executed; the known 4 Star Classics car remains current via direct marketplace cross-posts, but no new specialist-site advert URL was established in this pass."
     },
     {
       "id": "model-074:facebook-groups:porsche-996-40th-anniversary-manual",
@@ -17031,10 +17030,10 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-19T09:21:59Z",
+      "lastSearchedAt": "2026-09-20T23:31:00Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search executed. Surfaced eBay result was not a genuine 996 40th Anniversary model or was otherwise non-qualifying; no candidate retained."
+      "limitation": "Public web search executed; no plausible current direct eBay 996 40th Anniversary vehicle advert survived filtering."
     },
     {
       "id": "model-074:autotrader:porsche-996-40th-anniversary-manual",
@@ -17048,10 +17047,10 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-19T09:21:59Z",
+      "lastSearchedAt": "2026-09-20T23:31:00Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search executed. No direct current qualifying Auto Trader 996 40th Anniversary manual advert URL survived pre-verification."
+      "limitation": "Public web search executed; no direct Auto Trader 996 40th Anniversary manual advert could be positively established as current."
     },
     {
       "id": "model-074:pistonheads:porsche-996-40th-anniversary-manual",
@@ -17065,12 +17064,13 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-19T09:21:59Z",
-      "lastResultCount": 1,
+      "lastSearchedAt": "2026-09-20T23:31:00Z",
+      "lastResultCount": 2,
       "candidateUrls": [
-        "https://www.pistonheads.com/buy/listing/20492444"
+        "https://www.pistonheads.com/buy/listing/20492444",
+        "https://www.pistonheads.com/buy/listing/21034204"
       ],
-      "limitation": "One already-known live direct 2004 996 40th Anniversary manual advert at £49,995/10,677 miles survived pre-verification. It is already in worker candidates and remains verification-pending; no duplicate candidate added."
+      "limitation": "Public web search executed; two current direct manual 40th Anniversary adverts retained. Other surfaced PistonHeads adverts explicitly said no longer available."
     },
     {
       "id": "model-074:car-and-classic:porsche-996-40th-anniversary-manual",
@@ -17084,10 +17084,10 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-19T09:21:59Z",
+      "lastSearchedAt": "2026-09-20T23:31:00Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search executed. Surfaced material was historical/non-current or did not resolve to a qualifying current direct advert; no candidate retained."
+      "limitation": "Public web search executed; no new qualifying current direct Car & Classic 996 40th advert survived duplicate/stale filtering."
     },
     {
       "id": "model-074:collecting-cars:porsche-996-40th-anniversary-manual",
@@ -17152,10 +17152,10 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-19T09:21:59Z",
+      "lastSearchedAt": "2026-09-20T23:31:00Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search executed. No direct current qualifying 996 40th Anniversary manual Gumtree advert survived pre-verification."
+      "limitation": "Public web search executed; no plausible current direct Gumtree 996 40th Anniversary advert was established."
     },
     {
       "id": "model-074:911uk:porsche-996-40th-anniversary-manual",
@@ -17220,13 +17220,12 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-19T09:21:59Z",
-      "lastResultCount": 2,
+      "lastSearchedAt": "2026-09-20T23:31:00Z",
+      "lastResultCount": 1,
       "candidateUrls": [
-        "https://philipraby.co.uk/product/2004-porsche-996-40th-annversary",
         "https://philipraby.co.uk/product/2004-porsche-996-40th-anniversary"
       ],
-      "limitation": "Two distinct current Philip Raby specialist-stock adverts survived pre-verification: car #1070 at £33,995/53,200 miles and car #1189 at £33,995/65,000 miles, both manual. Exact seller-gallery pixels/current unavailable-overlay checks were not completed strongly enough to publish; both were queued for verification."
+      "limitation": "Public web search executed; Philip Raby product advert is current-looking with fixed price/manual details, but reused product-page identity/current-stock ambiguity prevents any publication upgrade."
     },
     {
       "id": "model-075:facebook-groups:audi-tt-quattro-sport",
@@ -17699,10 +17698,10 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-19T09:21:59Z",
+      "lastSearchedAt": "2026-09-20T23:31:00Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search executed. No qualifying current exceptional ST170 actual eBay advert at or above £10,000 survived pre-verification."
+      "limitation": "Public web search executed; eBay results were below the £10,000 floor, ended, sold or otherwise non-qualifying."
     },
     {
       "id": "model-077:autotrader:ford-focus-st170-under-50000-miles-low-owners",
@@ -17716,10 +17715,10 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-19T09:21:59Z",
+      "lastSearchedAt": "2026-09-20T23:31:00Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search executed. No direct current exceptional ST170 advert at or above the £10,000 floor survived pre-verification."
+      "limitation": "Public web search executed; no qualifying current direct ST170 advert surfaced."
     },
     {
       "id": "model-077:pistonheads:ford-focus-st170-under-50000-miles-low-owners",
@@ -17750,10 +17749,10 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-19T09:21:59Z",
+      "lastSearchedAt": "2026-09-20T23:31:00Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search executed. Surfaced ST170 material was below the £10,000 floor, sold/stale or non-current; no candidate retained."
+      "limitation": "Public web search executed; no qualifying current direct ST170 advert survived filtering."
     },
     {
       "id": "model-077:collecting-cars:ford-focus-st170-under-50000-miles-low-owners",
@@ -17818,10 +17817,10 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-19T09:21:59Z",
+      "lastSearchedAt": "2026-09-20T23:31:00Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search executed. Surfaced ST170 cars were below the £10,000 floor; no candidate retained."
+      "limitation": "Public web search executed; no qualifying current direct ST170 advert was established."
     },
     {
       "id": "model-077:911uk:ford-focus-st170-under-50000-miles-low-owners",
@@ -17920,10 +17919,10 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-19T09:21:59Z",
+      "lastSearchedAt": "2026-09-20T23:31:00Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search executed. No qualifying current exceptional ST170 Estate actual eBay advert at or above £10,000 survived pre-verification."
+      "limitation": "Public web search executed; eBay results were below the £10,000 floor, ended or non-qualifying."
     },
     {
       "id": "model-077:autotrader:ford-focus-st170-estate-under-50000-miles-low-owners",
@@ -17937,10 +17936,10 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-19T09:21:59Z",
+      "lastSearchedAt": "2026-09-20T23:31:00Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search executed. No direct current exceptional ST170 Estate advert at or above the £10,000 floor survived pre-verification."
+      "limitation": "Public web search executed; no qualifying current direct ST170 Estate advert surfaced."
     },
     {
       "id": "model-077:pistonheads:ford-focus-st170-estate-under-50000-miles-low-owners",
@@ -17954,10 +17953,10 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-19T09:21:59Z",
+      "lastSearchedAt": "2026-09-20T23:31:00Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search executed. No qualifying current exceptional ST170 Estate direct PistonHeads advert at or above £10,000 survived pre-verification."
+      "limitation": "Public web search executed; no qualifying current direct ST170 Estate advert surfaced."
     },
     {
       "id": "model-077:car-and-classic:ford-focus-st170-estate-under-50000-miles-low-owners",
@@ -17971,10 +17970,10 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-19T09:21:59Z",
+      "lastSearchedAt": "2026-09-20T23:31:00Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search executed. Surfaced ST170 Estate material was below the £10,000 floor, stale or non-current; no candidate retained."
+      "limitation": "Public web search executed; surfaced ST170 Estate material was unavailable, over the mileage preference or otherwise non-qualifying."
     },
     {
       "id": "model-077:collecting-cars:ford-focus-st170-estate-under-50000-miles-low-owners",
@@ -18039,10 +18038,10 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-19T09:21:59Z",
+      "lastSearchedAt": "2026-09-20T23:31:00Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search executed. No qualifying current exceptional ST170 Estate Gumtree advert at or above £10,000 survived pre-verification."
+      "limitation": "Public web search executed; no qualifying current direct ST170 Estate advert was established."
     },
     {
       "id": "model-077:911uk:ford-focus-st170-estate-under-50000-miles-low-owners",
@@ -18073,10 +18072,10 @@
       "priority": false,
       "cadenceHours": 24,
       "status": "searched",
-      "lastSearchedAt": "2026-09-18T15:20:32Z",
+      "lastSearchedAt": "2026-09-20T23:31:00Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search executed. No direct current qualifying Focus ST170 Estate owner-sale advert surfaced from FerrariChat."
+      "limitation": "Public web search executed; no qualifying current direct ST170 Estate advert surfaced."
     },
     {
       "id": "model-077:lamborghini-talk:ford-focus-st170-estate-under-50000-miles-low-owners",
@@ -18141,10 +18140,10 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-19T09:21:59Z",
+      "lastSearchedAt": "2026-09-20T23:31:00Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search executed. No qualifying current exceptional original ST225 ST2/ST3 actual eBay advert at or above £10,000 survived pre-verification."
+      "limitation": "Public web search executed; eBay results were below the price floor, ended or high-mileage/non-qualifying."
     },
     {
       "id": "model-077:autotrader:ford-focus-st225-st2-st3-under-50000-miles-low-owners",
@@ -18158,10 +18157,10 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-19T09:21:59Z",
+      "lastSearchedAt": "2026-09-20T23:31:00Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search executed. No direct current exceptional original ST225 ST2/ST3 advert at or above the £10,000 floor survived pre-verification."
+      "limitation": "Public web search executed; no qualifying current direct ST225 ST2/ST3 advert surfaced."
     },
     {
       "id": "model-077:pistonheads:ford-focus-st225-st2-st3-under-50000-miles-low-owners",
@@ -18192,10 +18191,10 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-19T09:21:59Z",
+      "lastSearchedAt": "2026-09-20T23:31:00Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search executed. Surfaced low-mileage ST225 material was historical/removed or otherwise non-current; no candidate retained."
+      "limitation": "Public web search executed; no qualifying current direct ST225 ST2/ST3 advert survived filtering."
     },
     {
       "id": "model-077:collecting-cars:ford-focus-st225-st2-st3-under-50000-miles-low-owners",
@@ -18260,10 +18259,10 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-19T09:21:59Z",
+      "lastSearchedAt": "2026-09-20T23:31:00Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search executed. Surfaced ST225 material was below the £10,000 floor and/or modified; no qualifying exceptional original candidate retained."
+      "limitation": "Public web search executed; surfaced Gumtree ST225 material was below the price floor, high-mileage and materially modified."
     },
     {
       "id": "model-077:911uk:ford-focus-st225-st2-st3-under-50000-miles-low-owners",
@@ -22393,10 +22392,12 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T15:28:28Z",
-      "lastResultCount": 0,
-      "candidateUrls": [],
-      "limitation": "Search surfaced C2179361, which is already held in rejected candidate state under the configured TME rules, plus a 2001 automatic/high-mileage non-qualifier. No new qualifying URL retained."
+      "lastSearchedAt": "2026-09-20T23:31:00Z",
+      "lastResultCount": 1,
+      "candidateUrls": [
+        "https://www.carandclassic.com/us/car/C2179361"
+      ],
+      "limitation": "Public web search executed; current direct Auto Torque TME cross-post retained. It duplicates an existing vehicle identity and remains verification-pending because pre-import total ownership is not evidenced."
     },
     {
       "id": "model-088:collecting-cars:mitsubishi-evo-vi-tommi-makinen-edition",
@@ -22512,10 +22513,10 @@
       "priority": true,
       "cadenceHours": 6,
       "status": "blocked",
-      "lastSearchedAt": "2026-09-20T10:47:45Z",
+      "lastSearchedAt": "2026-09-20T23:31:00Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public search access to lamborghini-talk.com was blocked by robots.txt for this query, so no advert could be verified from that source in this run."
+      "limitation": "lamborghini-talk.com was blocked by robots.txt in public web search; no bypass attempted."
     },
     {
       "id": "model-088:specialist-dealers:mitsubishi-evo-vi-tommi-makinen-edition",
@@ -24692,10 +24693,10 @@
       "priority": true,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T10:47:45Z",
+      "lastSearchedAt": "2026-09-20T23:31:00Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "911UK search executed; no plausible current direct E46 M3 manual Coupé advert URL surfaced."
+      "limitation": "Public web search executed; no plausible current direct UK E46 M3 manual Coupe advert surfaced."
     },
     {
       "id": "model-096:ferrarichat:bmw-e46-m3-manual-coupe-uk",
@@ -24915,10 +24916,10 @@
       "priority": true,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T10:47:45Z",
+      "lastSearchedAt": "2026-09-20T23:31:00Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "911UK search executed; no plausible current direct E46 M3 six-speed manual Coupé advert URL surfaced."
+      "limitation": "Public web search executed; no plausible current direct UK E46 M3 six-speed manual Coupe advert surfaced."
     },
     {
       "id": "model-096:ferrarichat:bmw-m3-e46-6-speed-manual-coupe-uk",
