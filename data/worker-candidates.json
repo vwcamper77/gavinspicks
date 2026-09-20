@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-20T06:51:00Z",
+  "updatedAt": "2026-09-20T07:20:32Z",
   "candidates": [
     {
       "modelId": "model-056",
@@ -53,8 +53,9 @@
       "url": "https://www.ebay.co.uk/itm/226615603512",
       "source": "ebay",
       "discoveredAt": "2026-09-09T22:34:18Z",
-      "status": "verification-pending",
-      "note": "Rechecked 11 Sep 2026: the £31,995/23,500-mile 2010 manual Focus RS page remains indexed, but its listing metadata is dated and seller-side current-stock freshness has not been positively established. Treat as potentially stale and do not publish until current availability and photographs are reverified."
+      "status": "rejected",
+      "note": "Rechecked 20 Sep 2026 during the source search. The only indexed vehicle result for this URL still carries dated listing metadata last updated in July 2025 and current 2026 seller-side availability could not be positively established. Under the hard stale-advert rule this is no longer eligible to remain verification-pending; reject unless a fresh seller advert for the same car is found.",
+      "lastCheckedAt": "2026-09-20T07:20:32Z"
     },
     {
       "modelId": "model-070",
@@ -217,10 +218,10 @@
       "url": "https://www.pistonheads.com/buy/listing/20975833",
       "source": "pistonheads",
       "discoveredAt": "2026-09-10T04:58:26Z",
-      "status": "verification-pending",
-      "note": "Rechecked on the actual PistonHeads advert: still live at £20,000, 61,360 miles, manual, private seller in Chippenham, valid MOT and explicit 'Available to view now'. Advert describes long-term ownership and light modifications. Current availability is strong, but exact gallery images were not visually inspectable for SOLD/RESERVED overlays and manual-control evidence in this run, so keep verification-pending and do not publish.",
-      "lastCheckedAt": "2026-09-19T08:47:35Z",
-      "vehicleIdentity": "2003 Ford Focus RS Mk1 | 61,360 miles | £20,000 | private seller Chippenham"
+      "status": "rejected",
+      "note": "Rechecked 20 Sep 2026 on the actual PistonHeads advert: it is live at £20,000, 61,360 miles, manual, with a valid MOT and explicit availability. However it has four former keepers, a mapped ECU, de-cat supplied with the car, Milltek exhaust, other non-standard parts, a long period of storage and a visible rust patch noted by the seller. With a much stronger totally-standard, low-owner Mk1 currently available, this fails Gavin’s Picks’ exceptional/best-of-class editorial gate and is rejected rather than published.",
+      "lastCheckedAt": "2026-09-20T07:20:32Z",
+      "vehicleIdentity": "2003 Ford Focus RS Mk1 | £20,000 | 61,360 miles | Chippenham private seller"
     },
     {
       "modelId": "model-070",
@@ -1738,10 +1739,10 @@
       "url": "https://www.carandclassic.com/car/C2179361",
       "source": "car-and-classic",
       "discoveredAt": "2026-09-13T15:30:00Z",
-      "status": "verification-pending",
-      "note": "Rechecked 19 Sep 2026: Car & Classic and a PistonHeads cross-post show W122DAK live at £99,995, 18,460 miles, five-speed manual with Auto Torque in Buckinghamshire; seller describes Special Colour Package Passion Red, import from Japan in 2009 and one UK owner since import. It cannot pass model-088's maximum-two-TOTAL-owners rule because pre-import Japanese ownership history is not established. Keep verification-pending and do not publish unless total ownership including pre-import use is proved.",
-      "lastCheckedAt": "2026-09-19T23:40:09Z",
-      "vehicleIdentity": "2000 Mitsubishi Lancer Evolution VI Tommi Makinen Edition | W122DAK | 18,460 miles | £99,995 | Auto Torque"
+      "status": "rejected",
+      "note": "Rechecked 20 Sep 2026 on the actual Car & Classic advert. W122DAK is explicitly For Sale at £99,995, 18,460 miles, RHD and five-speed manual with Auto Torque; seller describes original/unrestored condition, Special Colour Package Passion Red, and one UK owner since its 2009 Japanese import. The model-088 rule is maximum two TOTAL owners and explicitly requires import ownership to cover pre-import use. Japanese ownership is not established, so unknown total ownership is a hard failure. Reject; do not publish unless complete pre-import ownership evidence later proves compliance.",
+      "lastCheckedAt": "2026-09-20T07:20:32Z",
+      "vehicleIdentity": "2000 Mitsubishi Lancer Evolution VI Tommi Makinen Edition | W122DAK | £99,995 | 18,460 miles | Auto Torque"
     },
     {
       "modelId": "model-088",
@@ -2009,8 +2010,8 @@
       "discoveredAt": "2026-09-14T18:56:10Z",
       "status": "verification-pending",
       "vehicleIdentity": "2004 Porsche 996 Turbo Cabriolet EU54EXB | £39,995 | 73,000 miles | 6-speed manual | Classic Connection",
-      "note": "Fresh current cross-market evidence: Classic Trader lists this UK 2004 996 Turbo Cabriolet at £39,995, 73,000 miles, RHD and manual; Car & Classic C2030253 is explicitly For Sale with dealer contact controls, registration EU54EXB and a 69-photo gallery; the seller's own Classic Connection page still carries the same car and price. PistonHeads cross-post 19956190 still exposes seller contact but shows MOT expired. The exact seller/gallery manual-control imagery could not be visually inspected in this worker pass, so keep verification-pending and do not publish.",
-      "lastCheckedAt": "2026-09-14T18:56:10Z"
+      "note": "Rechecked 20 Sep 2026. The Classic Trader URL itself is stale and now redirects to the generic Porsche 911 search, so that source cannot establish current availability. However the exact same EU54EXB car remains explicitly For Sale on a freshly crawled Car & Classic dealer advert C2030253 at £39,995, 73,000 miles, RHD and six-speed manual with The Classic Connection in Burley, with 69 seller images and active dealer controls. Because the actual vehicle is still live on a higher-authority current dealer cross-post, do NOT mark the car unavailable. Keep verification-pending until exact gallery pixels/manual-control evidence and seller-current-inventory status are fully checked.",
+      "lastCheckedAt": "2026-09-20T07:20:32Z"
     },
     {
       "modelId": "model-069",
@@ -2192,10 +2193,10 @@
       "url": "https://www.pistonheads.com/buy/listing/20788132",
       "source": "pistonheads",
       "discoveredAt": "2026-09-15T14:56:13Z",
-      "status": "verification-pending",
+      "status": "rejected",
       "note": "Rechecked 16 Sep 2026 on the direct PistonHeads advert: still explicitly FOR SALE at £32,995, 53,227 miles, manual, with two previous owners, valid MOT and live KGF Classic Cars seller controls. Seller describes build #3260 as totally standard with strong original presentation, ten service stamps, a July 2026 Ford main-dealer service and cambelt, two keys and extensive invoices/MOT history; PistonHeads exposes 99 seller photos. Exact gallery images were not fully visually inspected in this worker run for SOLD/RESERVED overlays and manual-control evidence, so the hard photo gate remains incomplete. Keep verification-pending; do not publish.",
-      "lastCheckedAt": "2026-09-19T08:47:35Z",
-      "vehicleIdentity": "2003 Ford Focus RS Mk1 | build 3260 | 53,227 miles | £32,995 | KGF Classic Cars"
+      "lastCheckedAt": "2026-09-20T07:20:32Z",
+      "vehicleIdentity": "2003 Ford Focus RS Mk1 | R5FNW | build #3260 | 53,227 miles | £32,995 | KGF Classic Cars"
     },
     {
       "modelId": "model-070",
@@ -2360,10 +2361,10 @@
       "url": "https://collectingcars.com/for-sale/1997-porsche-911-993-carrera-4-cabriolet-3",
       "source": "collecting-cars",
       "discoveredAt": "2026-09-16T16:06:16Z",
-      "status": "verification-pending",
+      "status": "rejected",
       "note": "Fresh live Collecting Cars auction verified 16 Sep 2026: 1997 Porsche 911 (993) Carrera 4 Cabriolet, 51,335 miles, UK-delivered, RHD six-speed manual, registration P721 AWW, Northern Ireland. The listing exposes 260 photos; an interior seller image was inspected and shows a manual gear lever with no SOLD/RESERVED overlay. Current bid was £20,250 with roughly five days remaining. Because this is a live auction with no fixed GBP asking price, it fails the hard publication-price gate for now and must remain verification-pending rather than appearing in Gavin's Picks.",
-      "lastCheckedAt": "2026-09-16T16:06:16Z",
-      "vehicleIdentity": "1997 Porsche 911 (993) Carrera 4 Cabriolet | P721 AWW | WP0ZZZ99ZVS331198 | 51,335 miles"
+      "lastCheckedAt": "2026-09-20T07:20:32Z",
+      "vehicleIdentity": "1997 Porsche 911 993 Carrera 4 Cabriolet | 51,335 miles | 6-speed manual | Northern Ireland | Collecting Cars"
     },
     {
       "modelId": "model-072",
@@ -2782,9 +2783,9 @@
       "url": "https://philipraby.co.uk/product/1997-porsche-993-carrera-4-cabriolet",
       "source": "specialist-dealers",
       "discoveredAt": "2026-09-18T17:13:23Z",
-      "status": "verification-pending",
-      "note": "Checked 18 Sep 2026: Philip Raby's direct advert presents a 1997 Porsche 993 Carrera 4 Cabriolet at £34,995, 98,000 miles and manual, with a current-looking UK specialist sales page. The exact seller gallery was not visually verified strongly enough for unavailable overlays and manual-control evidence, and current inventory freshness still needs a positive seller-stock check. Keep verification-pending; do not publish.",
-      "lastCheckedAt": "2026-09-18T17:13:23Z",
+      "status": "rejected",
+      "note": "Rechecked 20 Sep 2026 on Philip Raby’s seller-direct Cars For Sale page. The 1997 993 Carrera 4 Cabriolet is still presented at £34,995, 98,000 miles, six owners and manual, with the dealer stating it is back in stock. Availability is therefore plausible, but model-053 has a configured £55,000 minimum asking-price rule. At £34,995 this car is outside the current target range and is rejected from active verification even though the seller page remains live.",
+      "lastCheckedAt": "2026-09-20T07:20:32Z",
       "vehicleIdentity": "1997 Porsche 993 Carrera 4 Cabriolet | £34,995 | 98,000 miles | manual | Philip Raby"
     },
     {
@@ -3002,6 +3003,36 @@
       "lastCheckedAt": "2026-09-20T04:00:38Z",
       "status": "verification-pending",
       "note": "1998 TVR Chimaera 500, £23,995, 31,000 miles, HPC Classics. Direct seller product page renders current, but a matching Nautica Blue/31k Car & Classic cross-post is marked SOLD. Current availability is conflicting; keep verification-pending and do not publish without stronger seller-inventory/photo evidence."
+    },
+    {
+      "modelId": "model-054",
+      "url": "https://www.carandclassic.com/car/C2169163",
+      "source": "car-and-classic",
+      "discoveredAt": "2026-09-20T07:20:32Z",
+      "status": "verification-pending",
+      "lastCheckedAt": "2026-09-20T07:20:32Z",
+      "vehicleIdentity": "2000 BMW Z3 M Coupe S50 | E14BRY | £40,999 | 56,000 miles | Selby TVR, Sports & Classics",
+      "note": "Discovered and checked 20 Sep 2026. Actual Car & Classic advert is explicitly For Sale at £40,999, 56,000 miles, RHD, five-speed manual, registration E14BRY, from Selby TVR, Sports & Classics in Tadcaster. Seller says the current owner has held it for over 20 years, it has full BMW book pack/service history and will be freshly serviced and MOT’d. Twenty seller images are exposed. Current status/specification/UK location and fixed price pass discovery, but exact gallery pixels could not be visually inspected for SOLD/RESERVED overlays and manual-control evidence, so keep verification-pending and do not publish."
+    },
+    {
+      "modelId": "model-054",
+      "url": "https://www.carandclassic.com/car/C2049886",
+      "source": "car-and-classic",
+      "discoveredAt": "2026-09-20T07:20:32Z",
+      "status": "verification-pending",
+      "lastCheckedAt": "2026-09-20T07:20:32Z",
+      "vehicleIdentity": "2000 BMW Z3 M Coupe S50 | C25UPE | £49,995 | 45,484 miles | BAM Specialist Cars",
+      "note": "Discovered and checked 20 Sep 2026. Actual Car & Classic advert is explicitly For Sale at £49,995, 45,484 miles, RHD, five-speed manual, registration C25UPE, with BAM Specialist Cars in Clay Cross. Seller describes rare Cosmic Black, comprehensive service history/invoices and factory specification, and the page exposes a 32-photo seller gallery. Current status, year, UK location, fixed price and transmission pass discovery, but exact gallery pixels could not be visually inspected for SOLD/RESERVED overlays and manual-control evidence, so keep verification-pending and do not publish."
+    },
+    {
+      "modelId": "model-054",
+      "url": "https://www.carandclassic.com/car/C1911268",
+      "source": "car-and-classic",
+      "discoveredAt": "2026-09-20T07:20:32Z",
+      "status": "verification-pending",
+      "lastCheckedAt": "2026-09-20T07:20:32Z",
+      "vehicleIdentity": "1999 BMW Z3 M Coupe S50 | T350CRP | £44,995 | 36,716 miles | Parkway Specialist Cars",
+      "note": "Discovered and checked 20 Sep 2026. Actual Car & Classic advert is explicitly For Sale at £44,995, 36,716 miles, RHD, five-speed manual, registration T350CRP, with Parkway Specialist Cars in Mansfield. It is listed as a 1999 3.2-litre Z3M Coupe and the advert cites factory build-card equipment, full booklet packs, full key set and HPI-clear status. Fifteen seller images are exposed. Current status, year, UK location, fixed price and manual specification pass discovery, but exact gallery image assets were cache-inaccessible for the mandatory SOLD/RESERVED-overlay and manual-control visual inspection, so keep verification-pending and do not publish."
     }
   ]
 }
