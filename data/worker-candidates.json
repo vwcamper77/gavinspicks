@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-20T12:27:01Z",
+  "updatedAt": "2026-09-20T13:17:53Z",
   "candidates": [
     {
       "modelId": "model-056",
@@ -94,7 +94,7 @@
       "discoveredAt": "2026-09-09T23:35:56Z",
       "status": "verification-pending",
       "note": "Rechecked 18 Sep 2026: the actual PistonHeads advert is live at £29,995, 49,155 miles, two previous owners, manual, valid MOT and active seller contact controls for BAM Specialist Cars. Only two seller photos are exposed by this PistonHeads rendering and their image assets were cache-inaccessible, so the mandatory current SOLD/RESERVED-overlay and manual-control visual check remains incomplete. Keep verification-pending; do not publish.",
-      "lastCheckedAt": "2026-09-19T12:17:47Z",
+      "lastCheckedAt": "2026-09-20T13:17:53Z",
       "vehicleIdentity": "2008 BMW Z4 M Coupe | SW57GNF | 49,155 miles | £29,995 | BAM Specialist Cars",
       "checkedAt": "2026-09-16T06:02:59Z"
     },
@@ -1067,17 +1067,19 @@
       "source": "car-and-classic",
       "discoveredAt": "2026-09-11T06:51:52Z",
       "status": "verification-pending",
-      "vehicleIdentity": "2001 Maserati 3200 GT Assetto Corsa 19/75 | 37,276 miles | manual",
-      "note": "Fresh 11 Sep direct advert: Car & Classic marks this 2001 Maserati 3200 GT Assetto Corsa 19/75 For Sale at £19,200, 37,276 miles, RHD six-speed manual, private seller in Northolt, with a 37-image gallery. Exact seller-photo sold/reserved-overlay and manual-cockpit checks remain outstanding before publication."
+      "vehicleIdentity": "2001 Maserati 3200 GT Assetto Corsa #19/75 | CG51AS | 37,276 miles | £19,200 | Northolt private seller",
+      "note": "Rechecked 20 Sep 2026: Car & Classic currently shows this exact 2001 Maserati 3200 GT Assetto Corsa #19/75, registration CG51AS, For Sale at £19,200, 37,276 miles, RHD and six-speed manual in Northolt with private-seller contact controls and a large gallery. Current status/specification are strong and Assetto Corsa is the priority derivative, but exact gallery asset inspection failed in the web cache, so SOLD/RESERVED overlay and manual-control visual verification remain incomplete. Keep verification-pending; do not publish.",
+      "lastCheckedAt": "2026-09-20T13:17:53Z"
     },
     {
       "modelId": "model-060",
       "url": "https://www.carandclassic.com/us/car/C2082222",
       "source": "car-and-classic",
       "discoveredAt": "2026-09-11T06:51:52Z",
-      "status": "verification-pending",
-      "vehicleIdentity": "2001 Maserati 3200 GT Assetto Corsa | 51,000 miles | manual | McGrath Maserati",
-      "note": "New 11 Sep candidate: Car & Classic marks this 2001 Maserati 3200 GT Assetto Corsa For Sale at £24,000, 51,000 miles, RHD six-speed manual, McGrath Maserati in Kimpton, with a 49-image gallery. It fits the Assetto Corsa priority but current dealer-stock corroboration and seller-photo manual/overlay inspection remain outstanding; do not publish yet."
+      "status": "unavailable",
+      "vehicleIdentity": "2001 Maserati 3200 GT Assetto Corsa #59/75 | RX51PZB | 51,000 miles | previously £24,000 | McGrath Maserati",
+      "note": "Rechecked 20 Sep 2026: the exact Car & Classic advert for 2001 Maserati 3200 GT Assetto Corsa #59/75, registration RX51PZB, 51,000 miles and manual gearbox now displays SOLD imagery and explicitly states that the advert has been removed through sale or otherwise. Localised versions of the same canonical vehicle page show the same removed/unavailable outcome. Mark unavailable and exclude from requeueing; do not infer a completed sale beyond Car & Classic's removal wording.",
+      "lastCheckedAt": "2026-09-20T13:17:53Z"
     },
     {
       "modelId": "model-061",
@@ -1608,8 +1610,8 @@
       "discoveredAt": "2026-09-12T18:51:38Z",
       "status": "verification-pending",
       "note": "Rechecked 17 Sep 2026 on the UK S2000 Owners Club classified. The advert remains publicly presented as For sale at £30,000 ONO for GT Edition 100 number 25, with 22,200 miles advertised, MOT to 06 May 2027 and Sevenoaks, Kent location. Seller states ownership since 2014 from 17,400 miles, three previous owners, dry storage, 2025 fluids/filters/auxiliary belt/tappet/spark-plug work, and says the car is original apart from gloss-black powder-coated wheels. This is a strong special-edition lead, but the accessible source in this run did not expose a sufficiently complete exact seller-photo set to reconfirm the numbered plaque, odometer discrepancy previously noted, manual controls and absence of SOLD/RESERVED overlays. Keep verification-pending; do not publish.",
-      "lastCheckedAt": "2026-09-17T09:59:57Z",
-      "vehicleIdentity": "2009 Honda S2000 GT Edition 100 #25 | £30,000 | 22,200 miles advertised | Sevenoaks private seller"
+      "lastCheckedAt": "2026-09-20T13:17:53Z",
+      "vehicleIdentity": "2009 Honda S2000 GT Edition 100 #25 | 22,200 advertised miles | £30,000 | Sevenoaks private seller"
     },
     {
       "modelId": "model-050",
@@ -3036,6 +3038,16 @@
       "lastCheckedAt": "2026-09-20T07:20:32Z",
       "vehicleIdentity": "1999 BMW Z3 M Coupe S50 | T350CRP | £44,995 | 36,716 miles | Parkway Specialist Cars",
       "note": "Discovered and checked 20 Sep 2026. Actual Car & Classic advert is explicitly For Sale at £44,995, 36,716 miles, RHD, five-speed manual, registration T350CRP, with Parkway Specialist Cars in Mansfield. It is listed as a 1999 3.2-litre Z3M Coupe and the advert cites factory build-card equipment, full booklet packs, full key set and HPI-clear status. Fifteen seller images are exposed. Current status, year, UK location, fixed price and manual specification pass discovery, but exact gallery image assets were cache-inaccessible for the mandatory SOLD/RESERVED-overlay and manual-control visual inspection, so keep verification-pending and do not publish."
+    },
+    {
+      "modelId": "model-042",
+      "url": "https://www.ebay.co.uk/itm/168248887860",
+      "source": "ebay",
+      "discoveredAt": "2026-09-20T13:17:53Z",
+      "status": "verification-pending",
+      "note": "20 Sep 2026: direct eBay classified is current-looking at £38,895 for a 2009 Aston Martin V8 Vantage 4.7 manual coupe with 35,621 miles, RHD, MOT to March 2027 and 24 seller photos. Independent current Cotswold Car Hub inventory also shows the same 2009 manual car at £38,895 / 35,628 miles, stock 10085. Current status/specification are strong, but the exact seller-gallery pixels were not sufficiently inspectable in this run for the mandatory SOLD/RESERVED overlay and manual-control visual gate. Keep verification-pending; do not publish.",
+      "lastCheckedAt": "2026-09-20T13:17:53Z",
+      "vehicleIdentity": "2009 Aston Martin V8 Vantage 4.7 manual coupe | Cotswold Car Hub stock 10085 | 35,628 miles | £38,895"
     }
   ]
 }
