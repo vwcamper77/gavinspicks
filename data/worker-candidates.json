@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-20T22:08:17Z",
+  "updatedAt": "2026-09-20T22:40:22Z",
   "candidates": [
     {
       "modelId": "model-056",
@@ -1151,8 +1151,10 @@
       "url": "https://www.carandclassic.com/car/C2185792",
       "source": "car-and-classic",
       "discoveredAt": "2026-09-11T11:25:19Z",
-      "status": "verification-pending",
-      "note": "Current 2007 BMW E61 M5 Touring at £37,500, 59,350 miles, RHD, Speedbroker Ltd, listed 7 September 2026 with a 36-photo gallery. Advert transmission metadata says automatic/6-speed while the target requires original seven-speed SMG, so transmission/specification and exact gallery need verification before publication."
+      "status": "rejected",
+      "note": "Rechecked 20 Sep 2026: C2185792 is currently For Sale at £37,500/59,350 miles/2007 in Wheathampstead, but exact PY57VDK is already identified in the repository E61 review as a six-speed manual conversion. Model-071 is factory E61 M5 Touring V10 SMG only, so this conversion is outside target despite current page metadata. Reject; do not publish.",
+      "lastCheckedAt": "2026-09-20T22:40:22Z",
+      "vehicleIdentity": "2007 BMW E61 M5 Touring | PY57VDK | 59,350 miles | £37,500 | Speedbroker"
     },
     {
       "modelId": "model-073",
@@ -2036,10 +2038,10 @@
       "url": "https://www.pistonheads.com/buy/listing/19853206",
       "source": "pistonheads",
       "discoveredAt": "2026-09-14T19:19:33Z",
-      "status": "verification-pending",
-      "note": "Rechecked 17 Sep 2026: live PistonHeads advert and current Car & Classic Speedsters inventory show £85,000, 23,096 miles, manual, LHD, UK seller/location and valid MOT. Four seller gallery images were inspected; manual lever/three-pedal cabin visible and no unavailable overlay. Seller describes an Aston Martin factory-engineered conversion, but documentary evidence tying this exact car to Aston Martin Works was not independently visible. Keep verification-pending under the target's documented-Works-only rule.",
-      "vehicleIdentity": "2006 Aston Martin Vanquish S | AX56TZJ | £85,000 | 23,096 miles | Speedsters Loughborough",
-      "lastCheckedAt": "2026-09-17T19:57:18Z"
+      "status": "verified",
+      "note": "Rechecked 20 Sep 2026: listing 19853206 remains live at £85,000/23,096 miles for a 2006 LHD Vanquish S. Advert documents the official £40,000 Aston Martin factory-engineered manual conversion with genuine Aston components, correct pedal box/linkages and factory-level integration; latest Aston service stated 13 Aug 2026 at 23,096 miles. Speedsters current stock independently lists the exact car. Seller gallery was visually inspected: no SOLD/RESERVED/DEPOSIT TAKEN/UNDER OFFER overlay in inspected exterior images and cabin clearly shows the manual lever. Fully passes verification, but not added as a duplicate live-feed pick because the class already has a stronger verified RHD Works-manual example.",
+      "vehicleIdentity": "2006 Aston Martin Vanquish S | LHD | 23,096 miles | £85,000 | Speedsters",
+      "lastCheckedAt": "2026-09-20T22:40:22Z"
     },
     {
       "modelId": "model-001",
@@ -3102,6 +3104,16 @@
       "lastCheckedAt": "2026-09-20T20:53:51Z",
       "vehicleIdentity": "2010 Porsche 987 Boxster Spyder | 42,000 miles | £59,995 | Ashgood Classic & Sportscars",
       "note": "Fresh direct Ashgood seller advert: 2010 Porsche 987 Boxster Spyder Manual at £59,995 / 42,000 miles, GT Silver over Cocoa leather, with Enquire Now controls and a full Porsche main-dealer service history through 9 June 2025 at 41,073 miles. Year, UK seller, fixed price and advertised manual specification fit model-052. The originating seller page timed out when opened for full gallery inspection, so exact seller photographs could not be checked for SOLD/RESERVED/DEPOSIT TAKEN overlays or a visible manual gear selector/three pedals. Keep verification-pending; do not publish."
+    },
+    {
+      "modelId": "model-069",
+      "url": "https://www.carandclassic.com/car/C2107558",
+      "source": "car-and-classic",
+      "discoveredAt": "2026-09-20T22:40:22Z",
+      "status": "verification-pending",
+      "note": "Discovered/rechecked 20 Sep 2026: C2107558 is explicitly For Sale, listed 3 Sep/published 16 Sep, at £68,500/19,640 miles for a 2005 RHD Vanquish S with Aston Engineering in Derby. Advert labels it Manual, 6 speed with a 47-photo gallery, but does not document the required Aston Works/factory manual-conversion provenance. Keep pending; do not publish until Works conversion and photo/manual-control evidence are positively verified.",
+      "lastCheckedAt": "2026-09-20T22:40:22Z",
+      "vehicleIdentity": "2005 Aston Martin Vanquish S | RHD | 19,640 miles | £68,500 | Aston Engineering"
     }
   ]
 }
