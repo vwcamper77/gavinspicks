@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-20T04:00:38Z",
+  "updatedAt": "2026-09-20T04:24:48Z",
   "compactedFromQueueAt": "2026-09-10T06:41:54.207Z",
   "note": "Cumulative worker-write state. Job results are merged from immutable run deltas and folded back into data/search-queue.json by scripts/build-search-queue.mjs.",
   "jobs": {
@@ -993,10 +993,10 @@
     },
     "model-022:specialist-dealers:lotus-esprit-sport-350": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-18T15:20:32Z",
+      "lastSearchedAt": "2026-09-20T04:24:48Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Specialist search executed. Romans' Sport 350 is explicitly DEPOSIT TAKEN and rejected; another current example surfaced below the configured £55,000 floor. No candidate retained."
+      "limitation": "No direct current qualifying Lotus Esprit Sport 350 specialist advert survived filtering; historical/retained stock material was excluded."
     },
     "model-023:911uk:morgan-aero-8-series-1-4-manual": {
       "status": "searched",
@@ -1007,10 +1007,10 @@
     },
     "model-023:autotrader:morgan-aero-8-series-1-4-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-18T15:20:32Z",
+      "lastSearchedAt": "2026-09-20T04:24:48Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Auto Trader search executed. No new direct current qualifying Morgan Aero 8 Series 1–4 manual detail advert was retained beyond known/cross-posted stock."
+      "limitation": "No direct current Auto Trader Aero 8 Series 1-4 manual car-details advert survived filtering."
     },
     "model-023:bonhams-cars:morgan-aero-8-series-1-4-manual": {
       "status": "searched",
@@ -1021,13 +1021,12 @@
     },
     "model-023:car-and-classic:morgan-aero-8-series-1-4-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-18T15:20:32Z",
-      "lastResultCount": 2,
+      "lastSearchedAt": "2026-09-20T04:24:48Z",
+      "lastResultCount": 1,
       "candidateUrls": [
-        "https://www.carandclassic.com/car/C2020106",
         "https://www.carandclassic.com/car/C2036644"
       ],
-      "limitation": "Two current qualifying Aero 8 manual adverts were rediscovered; both are existing verification candidates, so no duplicate candidate was added."
+      "limitation": "Current 2001 Aero 8 AE51MOG remains For Sale at £59,995 / 22,300 miles / manual. Existing verification-pending candidate; exact gallery/manual-control and seller-stock visual checks remain incomplete."
     },
     "model-023:classic-trader:morgan-aero-8-series-1-4-manual": {
       "status": "searched",
@@ -1045,10 +1044,10 @@
     },
     "model-023:ebay:morgan-aero-8-series-1-4-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-18T15:20:32Z",
+      "lastSearchedAt": "2026-09-20T04:24:48Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "eBay search executed. No direct current qualifying UK Aero 8 Series 1–4 manual advert survived filtering."
+      "limitation": "eBay search returned model cars/parts or non-qualifying material, not a plausible current whole-car Aero 8 advert."
     },
     "model-023:facebook-groups:morgan-aero-8-series-1-4-manual": {
       "status": "searched",
@@ -1066,10 +1065,10 @@
     },
     "model-023:gumtree:morgan-aero-8-series-1-4-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-18T15:20:32Z",
+      "lastSearchedAt": "2026-09-20T04:24:48Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Gumtree search executed. No direct current qualifying UK Aero 8 Series 1–4 manual advert survived filtering."
+      "limitation": "No direct current Gumtree Aero 8 Series 1-4 manual advert survived filtering."
     },
     "model-023:lamborghini-talk:morgan-aero-8-series-1-4-manual": {
       "status": "blocked",
@@ -1080,21 +1079,19 @@
     },
     "model-023:pistonheads:morgan-aero-8-series-1-4-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-18T15:20:32Z",
+      "lastSearchedAt": "2026-09-20T04:24:48Z",
       "lastResultCount": 1,
       "candidateUrls": [
         "https://www.pistonheads.com/buy/listing/20637333"
       ],
-      "limitation": "One new current 2007 Aero 8 Series 3 manual advert was retained for verification. Exact seller-gallery manual-control/overlay inspection remained incomplete, so it was not published."
+      "limitation": "Hofmanns' 2007 Aero 8 Series 3 remains a plausible current £64,950 / 17,000-mile six-speed-manual advert. Existing verification-pending candidate; exact seller-gallery status/manual checks remain incomplete."
     },
     "model-023:specialist-dealers:morgan-aero-8-series-1-4-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-18T15:20:32Z",
-      "lastResultCount": 1,
-      "candidateUrls": [
-        "https://www.newelmsberkshire.com/car-sales/car/morgan-aero-8-mk-4-4-8-manual/"
-      ],
-      "limitation": "New Elms' current Mk4 4.8 manual stock was rediscovered; it is the same vehicle identity as an existing Car & Classic candidate, so no duplicate candidate was added."
+      "lastSearchedAt": "2026-09-20T04:24:48Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Specialist search did not yield a new direct seller advert distinct from already-tracked Morgan Aero 8 vehicle identities."
     },
     "model-024:911uk:morgan-aero-8-gtn": {
       "status": "searched",
@@ -1205,17 +1202,17 @@
     },
     "model-078:ebay:renault-clio-182-trophy": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-19T20:52:49Z",
+      "lastSearchedAt": "2026-09-20T04:24:48Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "eBay surfaced ended or high-mileage Trophy material, including a 159,000-mile advert with four previous owners; no current qualifying car retained."
+      "limitation": "Surfaced eBay whole-car material was ended/stale and non-qualifying on mileage/ownership; no current advert retained."
     },
     "model-078:autotrader:renault-clio-182-trophy": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-19T20:52:49Z",
+      "lastSearchedAt": "2026-09-20T04:24:48Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Auto Trader query executed; no direct current Clio 182 Trophy advert meeting the strict sub-30,000-mile and maximum-two-total-owner rules surfaced."
+      "limitation": "No direct current Auto Trader Clio 182 Trophy advert meeting the strict <30,000-mile and <=2-total-owner rules survived filtering."
     },
     "model-078:pistonheads:renault-clio-182-trophy": {
       "status": "searched",
@@ -1226,10 +1223,10 @@
     },
     "model-078:car-and-classic:renault-clio-182-trophy": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-19T20:52:49Z",
+      "lastSearchedAt": "2026-09-20T04:24:48Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Car & Classic results were live or sold high-mileage Trophy adverts, including examples around 49,700 to 117,000 miles; none met the strict mileage and ownership rules."
+      "limitation": "Results were sold/removed or over the strict 30,000-mile cap; no current qualifying advert retained."
     },
     "model-078:collecting-cars:renault-clio-182-trophy": {
       "status": "searched",
@@ -1359,12 +1356,13 @@
     },
     "model-014:pistonheads:tvr-t350c-t350t": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-18T15:20:32Z",
-      "lastResultCount": 1,
+      "lastSearchedAt": "2026-09-20T04:24:48Z",
+      "lastResultCount": 2,
       "candidateUrls": [
+        "https://www.pistonheads.com/buy/listing/21010484",
         "https://www.pistonheads.com/buy/listing/20954694"
       ],
-      "limitation": "One new current fixed-price T350C advert was retained for verification. Other surfaced pages were below the model price floor, unavailable, stale or weaker/non-qualifying examples."
+      "limitation": "Two plausible current PistonHeads adverts remain: HPC's £44,995/24,000-mile 2005 T350C (same vehicle already published) and Amore's £37,495/50,100-mile 2004 T350C (already verification-pending). Unavailable and below-floor results were excluded."
     },
     "model-014:car-and-classic:tvr-t350c-t350t": {
       "status": "searched",
@@ -1399,10 +1397,10 @@
     },
     "model-014:gumtree:tvr-t350c-t350t": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-18T15:20:32Z",
+      "lastSearchedAt": "2026-09-20T04:24:48Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Gumtree search executed. No plausible direct current qualifying TVR T350C/T advert URL survived current-availability and advert-page filtering."
+      "limitation": "No direct current Gumtree T350C/T advert survived current-advert filtering."
     },
     "model-014:911uk:tvr-t350c-t350t": {
       "status": "searched",
@@ -1427,12 +1425,12 @@
     },
     "model-014:specialist-dealers:tvr-t350c-t350t": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-18T15:20:32Z",
+      "lastSearchedAt": "2026-09-20T04:24:48Z",
       "lastResultCount": 1,
       "candidateUrls": [
         "https://www.hpcclassics.co.uk/product-page/2005-tvr-t350c-3"
       ],
-      "limitation": "HPC's published 2005 T350C remains current at £44,995. A separate 2003 HPC T350C is explicitly Under offer and was rejected. No duplicate candidate was added for the already-published car."
+      "limitation": "HPC current stock still lists the already-published 2005 T350C at £44,995. A £33,995 2003 T350C product page explicitly says UNDER OFFER and was rejected; the newer 2004 £39,500 example is already tracked via a cross-post."
     },
     "model-015:facebook-groups:tvr-tuscan-tuscan-s-mk2": {
       "status": "searched",
@@ -1443,27 +1441,27 @@
     },
     "model-015:ebay:tvr-tuscan-tuscan-s-mk2": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-18T15:20:32Z",
+      "lastSearchedAt": "2026-09-20T04:24:48Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "eBay search executed. Surfaced complete-car result was ended/unavailable; parts, generic and stale material was rejected."
+      "limitation": "eBay search returned parts/accessories and non-qualifying material rather than a plausible current whole-car Tuscan advert."
     },
     "model-015:autotrader:tvr-tuscan-tuscan-s-mk2": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-18T15:20:32Z",
+      "lastSearchedAt": "2026-09-20T04:24:48Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Auto Trader search executed. Results did not expose a direct current detail advert strong enough to retain; generic/category surfaces were rejected."
+      "limitation": "Auto Trader search surfaced generic category/inventory material rather than a direct current qualifying Tuscan car-details advert."
     },
     "model-015:pistonheads:tvr-tuscan-tuscan-s-mk2": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-18T15:20:32Z",
+      "lastSearchedAt": "2026-09-20T04:24:48Z",
       "lastResultCount": 2,
       "candidateUrls": [
         "https://www.pistonheads.com/buy/listing/19335969",
-        "https://www.pistonheads.com/buy/listing/20575446"
+        "https://www.pistonheads.com/buy/listing/20950444"
       ],
-      "limitation": "Two plausible current Tuscan adverts were retained: listing 19335969 is already tracked; listing 20575446 is a new current fixed-price lead queued for full photo/manual verification. Explicitly sold/unavailable pages were rejected."
+      "limitation": "Two current-looking manual Tuscan adverts remain plausible but both vehicle identities are already tracked in the verification queue. The published HPC Tuscan's seller page separately shows a small price change, but current photo assets were not re-inspectable in this run, so checkedAt was not refreshed."
     },
     "model-097:autotrader:bmw-e39-m5-manual-uk": {
       "status": "searched",
@@ -1607,10 +1605,10 @@
     },
     "model-024:autotrader:morgan-aero-8-gtn": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-18T15:20:32Z",
+      "lastSearchedAt": "2026-09-20T04:24:48Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Auto Trader search executed. No additional direct current qualifying Aero 8 GTN advert was retained."
+      "limitation": "No direct current Auto Trader Aero 8 GTN car-details advert survived filtering."
     },
     "model-024:bonhams-cars:morgan-aero-8-gtn": {
       "status": "searched",
@@ -1621,12 +1619,12 @@
     },
     "model-024:car-and-classic:morgan-aero-8-gtn": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-18T15:20:32Z",
+      "lastSearchedAt": "2026-09-20T04:24:48Z",
       "lastResultCount": 1,
       "candidateUrls": [
         "https://www.carandclassic.com/car/C2023303"
       ],
-      "limitation": "Aero 8 GTN No.001 remains explicitly For Sale at £64,995 and is already tracked. Exact gallery/manual-control visual verification remained incomplete, so it stays verification-pending."
+      "limitation": "Morgan Aero 8 GTN No.001 remains a plausible current £64,995 / ~17,000-mile manual advert with New Elms. Existing verification-pending candidate; exact manual-control gallery check is still incomplete."
     },
     "model-024:classic-trader:morgan-aero-8-gtn": {
       "status": "searched",
@@ -1644,10 +1642,10 @@
     },
     "model-024:ebay:morgan-aero-8-gtn": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-18T15:20:32Z",
+      "lastSearchedAt": "2026-09-20T04:24:48Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "eBay search executed. No direct current qualifying UK Aero 8 GTN vehicle advert survived filtering."
+      "limitation": "eBay search returned model cars/parts or non-qualifying material, not a plausible current whole-car GTN advert."
     },
     "model-024:facebook-groups:morgan-aero-8-gtn": {
       "status": "searched",
@@ -1665,10 +1663,10 @@
     },
     "model-024:gumtree:morgan-aero-8-gtn": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-18T15:20:32Z",
+      "lastSearchedAt": "2026-09-20T04:24:48Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Gumtree search executed. No direct current qualifying UK Aero 8 GTN advert survived filtering."
+      "limitation": "No direct current Gumtree Aero 8 GTN advert survived filtering."
     },
     "model-024:lamborghini-talk:morgan-aero-8-gtn": {
       "status": "blocked",
@@ -1679,17 +1677,19 @@
     },
     "model-024:pistonheads:morgan-aero-8-gtn": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-18T15:20:32Z",
+      "lastSearchedAt": "2026-09-20T04:24:48Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "PistonHeads search executed. No additional direct current qualifying Aero 8 GTN advert was retained."
+      "limitation": "No new direct current PistonHeads Aero 8 GTN advert survived filtering; generic/historical material excluded."
     },
     "model-024:specialist-dealers:morgan-aero-8-gtn": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-18T15:20:32Z",
-      "lastResultCount": 0,
-      "candidateUrls": [],
-      "limitation": "Specialist-dealer search executed. Current New Elms GTN No.001 is already represented by the existing Car & Classic candidate; no distinct new vehicle was found."
+      "lastSearchedAt": "2026-09-20T04:24:48Z",
+      "lastResultCount": 1,
+      "candidateUrls": [
+        "https://www.newelmsberkshire.com/car-sales/car/2004-morgan-aero-8-gtn-limited-edition/"
+      ],
+      "limitation": "New Elms' Aero 8 GTN No.001 remains a plausible current seller advert at £64,995; same vehicle is already verification-pending via its Car & Classic cross-post, so no duplicate candidate added."
     },
     "model-025:911uk:ultima-gtr-road-registered": {
       "status": "searched",
@@ -1700,10 +1700,10 @@
     },
     "model-025:autotrader:ultima-gtr-road-registered": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-18T15:20:32Z",
+      "lastSearchedAt": "2026-09-20T04:24:48Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Auto Trader search executed. No new direct current qualifying road-registered Ultima GTR detail advert within the configured price range was retained."
+      "limitation": "No direct current Auto Trader road-registered Ultima GTR car-details advert survived filtering."
     },
     "model-025:bonhams-cars:ultima-gtr-road-registered": {
       "status": "searched",
@@ -1838,17 +1838,21 @@
     },
     "model-097:specialist-dealers:bmw-e39-m5-manual-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-19T20:52:49Z",
-      "lastResultCount": 0,
-      "candidateUrls": [],
-      "limitation": "Specialist stock surfaced high-mileage E39 M5 examples around 100,000 to 148,000 miles or sold stock; no current dealer car within the 50,000-mile cap was retained."
+      "lastSearchedAt": "2026-09-20T04:24:48Z",
+      "lastResultCount": 1,
+      "candidateUrls": [
+        "https://www.carandclassic.com/car/C2060885"
+      ],
+      "limitation": "KR52ZTT remains a plausible current 2003 E39 M5 at £50,000 / 46,637 miles / six-speed manual via dealer Car & Classic advert. Existing verification-pending candidate; exact gallery/manual-control visual gate is still incomplete."
     },
     "model-097:specialist-dealers:bmw-m5-e39-6-speed-manual-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-19T20:52:49Z",
-      "lastResultCount": 0,
-      "candidateUrls": [],
-      "limitation": "Specialist stock surfaced high-mileage E39 M5 examples or sold stock; no current factory six-speed manual dealer car within the 50,000-mile cap was retained."
+      "lastSearchedAt": "2026-09-20T04:24:48Z",
+      "lastResultCount": 1,
+      "candidateUrls": [
+        "https://www.carandclassic.com/car/C2060885"
+      ],
+      "limitation": "Same existing KR52ZTT dealer advert remains plausible current at £50,000 / 46,637 miles / six-speed manual. Deduplicated by vehicle identity; photo/manual hard gate remains incomplete."
     },
     "model-070:gumtree:ford-focus-rs500": {
       "status": "searched",
@@ -1908,19 +1912,19 @@
     },
     "model-076:autotrader:ford-focus-st500": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-19T19:52:14Z",
+      "lastSearchedAt": "2026-09-20T04:24:48Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Auto Trader query executed; no direct current genuine ST500 car-details advert survived filtering."
+      "limitation": "Auto Trader query executed; only generic/search inventory surfaces appeared, not a direct current ST500 car-details advert."
     },
     "model-076:car-and-classic:ford-focus-st500": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-19T19:52:14Z",
+      "lastSearchedAt": "2026-09-20T04:24:48Z",
       "lastResultCount": 1,
       "candidateUrls": [
         "https://www.carandclassic.com/l/C1644726"
       ],
-      "limitation": "The existing candidate C1644726 remains For Sale at £19,750 / 33,200 miles, advertised as ST500 no.157/500 and manual. Only two gallery images are exposed and the manual-control/photo gate remains insufficient, so it stays unverified."
+      "limitation": "Direct advert C1644726 remains For Sale at £19,750 / 33,200 miles / six-speed manual for ST500 no.157/500. Existing verification-pending candidate; exact seller image assets remain cache-inaccessible, so photo/manual hard gate is incomplete."
     },
     "model-076:ebay:ford-focus-st500": {
       "status": "searched",
@@ -1959,10 +1963,10 @@
     },
     "model-082:car-and-classic:subaru-impreza-p1": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-19T20:52:49Z",
+      "lastSearchedAt": "2026-09-20T04:24:48Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Car & Classic P1 results were auction, removed, or at least 35,618 miles; none met the strict sub-30,000-mile rule."
+      "limitation": "Current/historical P1 material surfaced, but examples were over the strict 30,000-mile cap; no qualifying advert retained."
     },
     "model-026:collecting-cars:lotus-exige-s1": {
       "status": "searched",
@@ -2178,59 +2182,59 @@
     },
     "model-082:ebay:subaru-impreza-p1": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-19T20:52:49Z",
+      "lastSearchedAt": "2026-09-20T04:24:48Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "eBay surfaced auction, project, or high-mileage P1 material; no current qualifying sub-30,000-mile, maximum-two-total-owner advert was retained."
+      "limitation": "eBay results were auction/estimate, project or non-qualifying P1 material; no qualifying current fixed-price advert retained."
     },
     "model-082:gumtree:subaru-impreza-p1": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-19T20:52:49Z",
+      "lastSearchedAt": "2026-09-20T04:24:48Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No direct current Gumtree Subaru Impreza P1 advert meeting the strict mileage and ownership rules surfaced."
+      "limitation": "Gumtree surfaced auction-estimate/non-qualifying P1 material, not a qualifying fixed-price current advert under 30,000 miles."
     },
     "model-082:pistonheads:subaru-impreza-p1": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-19T20:52:49Z",
+      "lastSearchedAt": "2026-09-20T04:24:48Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Current PistonHeads P1 classifieds surfaced at roughly 41,124 to 72,043 miles; all fail the strict sub-30,000-mile requirement."
+      "limitation": "Direct current P1 adverts found were 41k-68k miles and therefore fail the strict <30,000-mile rule; no candidate retained."
     },
     "model-082:specialist-dealers:subaru-impreza-p1": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-19T20:52:49Z",
+      "lastSearchedAt": "2026-09-20T04:24:48Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Dealer and auction search surfaced 40,000-mile-plus P1 examples; no qualifying strict low-mileage current stock was retained."
+      "limitation": "No specialist-stock P1 meeting the strict <30,000-mile and <=2-total-owner rules survived filtering."
     },
     "model-085:autotrader:subaru-impreza-rb320": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-19T20:52:49Z",
+      "lastSearchedAt": "2026-09-20T04:24:48Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Auto Trader query executed; no direct current RB320 advert meeting the strict sub-30,000-mile and maximum-two-total-owner rules surfaced."
+      "limitation": "No direct current Auto Trader RB320 advert meeting the strict mileage/ownership rules survived filtering."
     },
     "model-085:car-and-classic:subaru-impreza-rb320": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-19T20:52:49Z",
+      "lastSearchedAt": "2026-09-20T04:24:48Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Car & Classic surfaced a completed RB320 auction at 51,200 miles; no current qualifying advert was retained."
+      "limitation": "Surfaced RB320 material was completed/historical or over the strict 30,000-mile cap; no candidate retained."
     },
     "model-085:ebay:subaru-impreza-rb320": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-19T20:52:49Z",
+      "lastSearchedAt": "2026-09-20T04:24:48Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No direct current eBay RB320 advert meeting the strict sub-30,000-mile and maximum-two-total-owner rules surfaced."
+      "limitation": "No plausible current fixed-price RB320 advert meeting the strict mileage/ownership rules survived eBay filtering."
     },
     "model-085:pistonheads:subaru-impreza-rb320": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-19T20:52:49Z",
+      "lastSearchedAt": "2026-09-20T04:24:48Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "PistonHeads listing 20395030 initially looks numerically eligible at 23,855 miles and one owner, but the actual advert explicitly says the car is no longer available for purchase; rejected before candidate collection."
+      "limitation": "No direct current PistonHeads RB320 advert meeting the strict <30,000-mile and <=2-total-owner rules survived filtering."
     },
     "model-076:bonhams-cars:ford-focus-st500": {
       "status": "searched",
@@ -2262,10 +2266,10 @@
     },
     "model-070:911uk:ford-focus-rs-mk2": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-19T16:03:52Z",
+      "lastSearchedAt": "2026-09-20T04:24:48Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "911UK search returned no plausible current Focus RS Mk2 sale advert."
+      "limitation": "911UK search returned discussion/irrelevant Porsche material rather than a fresh current Focus RS Mk2 seller advert; no candidate retained."
     },
     "model-070:911uk:ford-focus-rs500": {
       "status": "searched",
@@ -2649,24 +2653,24 @@
     },
     "model-078:gumtree:renault-clio-182-trophy": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-19T20:52:49Z",
+      "lastSearchedAt": "2026-09-20T04:24:48Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No direct current Gumtree Clio 182 Trophy advert meeting the strict sub-30,000-mile and maximum-two-total-owner rules surfaced."
+      "limitation": "No direct current Gumtree Clio 182 Trophy advert meeting mileage and ownership caps survived filtering."
     },
     "model-078:specialist-dealers:renault-clio-182-trophy": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-19T20:52:49Z",
+      "lastSearchedAt": "2026-09-20T04:24:48Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Specialist search surfaced sold or high-mileage stock such as Motorspark and Oakwood examples; no current sub-30,000-mile, maximum-two-total-owner Trophy retained."
+      "limitation": "Specialist search surfaced sold or non-qualifying Trophy stock; no current <30,000-mile, <=2-total-owner fixed-price advert retained."
     },
     "model-085:gumtree:subaru-impreza-rb320": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-19T20:52:49Z",
+      "lastSearchedAt": "2026-09-20T04:24:48Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No direct current Gumtree RB320 advert meeting the strict sub-30,000-mile and maximum-two-total-owner rules surfaced."
+      "limitation": "No plausible current fixed-price RB320 advert meeting the strict mileage/ownership rules survived Gumtree filtering."
     },
     "model-031:911uk:lotus-elise-s1-111s": {
       "status": "searched",
@@ -4003,31 +4007,31 @@
     },
     "model-040:classic-trader:renault-clio-v6-phase-1": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-18T08:40:51Z",
+      "lastSearchedAt": "2026-09-20T04:24:48Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Classic Trader results were generic search/reference pages containing expired or POA historical listings, not a current qualifying Phase 1 advert."
+      "limitation": "Classic Trader search produced no direct current UK Phase 1 advert meeting the strict <30,000-mile, <=2-total-owner rules."
     },
     "model-040:classic-trader:renault-clio-v6-phase-2": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-18T08:40:51Z",
+      "lastSearchedAt": "2026-09-20T04:24:48Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Classic Trader results were generic search/reference pages containing expired or POA historical listings, not a current qualifying Phase 2 advert."
+      "limitation": "Classic Trader search produced no direct current UK Phase 2 advert meeting the strict <30,000-mile, <=2-total-owner rules."
     },
     "model-040:collecting-cars:renault-clio-v6-phase-1": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-18T08:40:51Z",
+      "lastSearchedAt": "2026-09-20T04:24:48Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Collecting Cars results were completed historical auctions marked Sold; completed auction pages were rejected."
+      "limitation": "Collecting Cars results were completed/historical rather than an active qualifying current Phase 1 sale; no candidate retained."
     },
     "model-040:collecting-cars:renault-clio-v6-phase-2": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-18T08:40:51Z",
+      "lastSearchedAt": "2026-09-20T04:24:48Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Collecting Cars results were completed historical auctions, including a September 2026 car marked Sold; completed auction pages were rejected."
+      "limitation": "Collecting Cars results were completed/historical rather than an active qualifying current Phase 2 sale; no candidate retained."
     },
     "model-040:ebay:renault-clio-v6-phase-1": {
       "status": "searched",
@@ -4143,10 +4147,10 @@
     },
     "model-041:bonhams-cars:aston-martin-v12-vantage-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-18T08:40:51Z",
+      "lastSearchedAt": "2026-09-20T04:24:48Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No plausible current Bonhams Cars/The Market V12 Vantage manual advert was returned."
+      "limitation": "Bonhams Cars search yielded no active current fixed-price UK V12 Vantage manual advert; completed/historical lots excluded."
     },
     "model-041:car-and-classic:aston-martin-v12-vantage-manual": {
       "status": "searched",
@@ -4157,17 +4161,17 @@
     },
     "model-041:classic-trader:aston-martin-v12-vantage-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-18T08:40:51Z",
+      "lastSearchedAt": "2026-09-20T04:24:48Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No plausible current UK Classic Trader V12 Vantage manual advert was returned."
+      "limitation": "Classic Trader search yielded no direct current qualifying UK V12 Vantage manual advert within the watch rules."
     },
     "model-041:collecting-cars:aston-martin-v12-vantage-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-18T08:40:51Z",
+      "lastSearchedAt": "2026-09-20T04:24:48Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search returned a 2013 historical Collecting Cars auction, outside model-041's 2009-2010 target years and not a current advert."
+      "limitation": "Collecting Cars search yielded completed/historical auction material rather than a qualifying current fixed-price advert."
     },
     "model-041:ebay:aston-martin-v12-vantage-manual": {
       "status": "searched",
@@ -4255,10 +4259,10 @@
     },
     "model-042:bonhams-cars:aston-martin-v8-vantage-4-3-4-7-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-18T08:40:51Z",
+      "lastSearchedAt": "2026-09-20T04:24:48Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No plausible current Bonhams Cars/The Market Aston Martin V8 Vantage manual advert was returned."
+      "limitation": "Bonhams Cars search yielded no active current fixed-price qualifying UK V8 Vantage manual advert; completed lots excluded."
     },
     "model-042:car-and-classic:aston-martin-v8-vantage-4-3-4-7-manual": {
       "status": "searched",
@@ -4272,17 +4276,17 @@
     },
     "model-042:classic-trader:aston-martin-v8-vantage-4-3-4-7-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-18T08:40:51Z",
+      "lastSearchedAt": "2026-09-20T04:24:48Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No plausible current UK Classic Trader Aston Martin V8 Vantage manual advert was returned."
+      "limitation": "Classic Trader search yielded no direct current qualifying UK V8 Vantage manual advert retained."
     },
     "model-042:collecting-cars:aston-martin-v8-vantage-4-3-4-7-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-18T08:40:51Z",
+      "lastSearchedAt": "2026-09-20T04:24:48Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Collecting Cars result was a completed 2009 V8 Vantage manual auction marked Sold, so it was rejected as historical/unavailable."
+      "limitation": "Collecting Cars results were completed/historical auction material rather than a qualifying current fixed-price advert."
     },
     "model-042:ebay:aston-martin-v8-vantage-4-3-4-7-manual": {
       "status": "searched",
