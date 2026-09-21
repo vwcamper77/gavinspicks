@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T16:09:49.492Z",
+  "generatedAt": "2026-09-21T16:50:25.248Z",
   "modelCount": 96,
   "sourceCount": 13,
   "jobCount": 1482,
@@ -2740,10 +2740,10 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T04:00:38Z",
+      "lastSearchedAt": "2026-09-21T16:39:00Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search results were predominantly Sagaris parts/memorabilia rather than actual current vehicle adverts; rejected."
+      "limitation": "Search returned parts/accessories rather than vehicle adverts; none retained."
     },
     {
       "id": "model-013:autotrader:tvr-sagaris",
@@ -2774,10 +2774,10 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T04:00:38Z",
+      "lastSearchedAt": "2026-09-21T16:39:00Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No direct current qualifying PistonHeads Sagaris advert survived filtering."
+      "limitation": "The matching PistonHeads advert found was explicitly no longer available; no current advert retained."
     },
     {
       "id": "model-013:car-and-classic:tvr-sagaris",
@@ -2791,7 +2791,7 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T04:00:38Z",
+      "lastSearchedAt": "2026-09-21T16:39:00Z",
       "lastResultCount": 0,
       "candidateUrls": [],
       "limitation": "No direct current fixed-price UK Sagaris advert survived filtering."
@@ -2859,7 +2859,7 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T04:00:38Z",
+      "lastSearchedAt": "2026-09-21T16:39:00Z",
       "lastResultCount": 0,
       "candidateUrls": [],
       "limitation": "No direct current Gumtree Sagaris vehicle advert surfaced."
@@ -2927,7 +2927,7 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T04:00:38Z",
+      "lastSearchedAt": "2026-09-21T16:39:00Z",
       "lastResultCount": 0,
       "candidateUrls": [],
       "limitation": "No additional direct current specialist-dealer Sagaris advert survived filtering."
@@ -2961,10 +2961,10 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T04:00:38Z",
+      "lastSearchedAt": "2026-09-21T16:39:00Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search results were parts/non-vehicle pages; no plausible current T350 vehicle advert retained."
+      "limitation": "Search returned parts/accessories rather than vehicle adverts; none retained."
     },
     {
       "id": "model-014:autotrader:tvr-t350c-t350t",
@@ -2978,7 +2978,7 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T04:00:38Z",
+      "lastSearchedAt": "2026-09-21T16:39:00Z",
       "lastResultCount": 0,
       "candidateUrls": [],
       "limitation": "No direct current Auto Trader car-details URL survived filtering."
@@ -3015,12 +3015,9 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T04:00:38Z",
-      "lastResultCount": 2,
-      "candidateUrls": [
-        "https://www.carandclassic.com/car/C2184311",
-        "https://www.carandclassic.com/car/C2193608"
-      ],
+      "lastSearchedAt": "2026-09-21T16:39:00Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
       "limitation": "Two current fixed-price T350C adverts surfaced. FJ55ONR/£44,995 matches an existing published vehicle; C2193608/£39,500 is already a tracked verification candidate."
     },
     {
@@ -3450,10 +3447,10 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T04:00:38Z",
+      "lastSearchedAt": "2026-09-21T16:39:00Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Exact surfaced PistonHeads Cerbera listings state that the cars are no longer available for purchase; rejected."
+      "limitation": "Matching PistonHeads adverts inspected were unavailable, under offer/deposit taken, or otherwise failed the current-availability gate."
     },
     {
       "id": "model-016:car-and-classic:tvr-cerbera-4-2-4-5-ajp-v8",
@@ -3603,10 +3600,12 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T04:00:38Z",
-      "lastResultCount": 0,
-      "candidateUrls": [],
-      "limitation": "Specialist search surfaced sold/historical stock rather than an additional current qualifying advert."
+      "lastSearchedAt": "2026-09-21T16:39:00Z",
+      "lastResultCount": 1,
+      "candidateUrls": [
+        "https://www.hpcclassics.co.uk/product-page/1996-tvr-cerbera-4-2-1"
+      ],
+      "limitation": "Current dealer advert is a plausible lead, but seller-hosted gallery images could not be fetched strongly enough for hard photo verification; candidate remains unverified."
     },
     {
       "id": "model-017:facebook-groups:tvr-griffith-500-se",
@@ -3637,11 +3636,9 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T04:00:38Z",
-      "lastResultCount": 1,
-      "candidateUrls": [
-        "https://www.ebay.co.uk/itm/198224050871"
-      ],
+      "lastSearchedAt": "2026-09-21T16:39:00Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
       "limitation": "Current-looking 1996 Griffith 500 at £18,900 surfaced; already tracked as verification-pending and remains below publication confidence without full current/photo checks."
     },
     {
@@ -3656,7 +3653,7 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T04:00:38Z",
+      "lastSearchedAt": "2026-09-21T16:39:00Z",
       "lastResultCount": 0,
       "candidateUrls": [],
       "limitation": "No direct current Auto Trader Griffith 500/SE car-details URL survived filtering."
@@ -3673,10 +3670,12 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T04:00:38Z",
-      "lastResultCount": 0,
-      "candidateUrls": [],
-      "limitation": "Surfaced PistonHeads Griffith adverts were unavailable/removed or otherwise failed current-availability filtering."
+      "lastSearchedAt": "2026-09-21T16:39:00Z",
+      "lastResultCount": 1,
+      "candidateUrls": [
+        "https://www.pistonheads.com/buy/listing/21039214"
+      ],
+      "limitation": "Current advert is live, but the example is a colour-changed car with seven previous owners and was not promoted under the exceptional-example editorial gate."
     },
     {
       "id": "model-017:car-and-classic:tvr-griffith-500-se",
@@ -3690,11 +3689,9 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T04:00:38Z",
-      "lastResultCount": 1,
-      "candidateUrls": [
-        "https://www.carandclassic.com/l/C2183025"
-      ],
+      "lastSearchedAt": "2026-09-21T16:39:00Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
       "limitation": "C2183025 remains a plausible current fixed-price Griffith 500 advert and is already tracked for verification; gallery/photo gate remains incomplete."
     },
     {
@@ -3760,7 +3757,7 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T04:00:38Z",
+      "lastSearchedAt": "2026-09-21T16:39:00Z",
       "lastResultCount": 0,
       "candidateUrls": [],
       "limitation": "No direct current Gumtree Griffith 500/SE vehicle advert surfaced."
@@ -3828,12 +3825,9 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T04:00:38Z",
-      "lastResultCount": 2,
-      "candidateUrls": [
-        "https://www.hpcclassics.co.uk/product-page/1998-tvr-griffith-500-1",
-        "https://www.amoreautos.co.uk/car-listings/tvr-griffith-500-pearl-white-1998-only-33k-miles-pas"
-      ],
+      "lastSearchedAt": "2026-09-21T16:39:00Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
       "limitation": "Two plausible direct dealer adverts surfaced. Both retain fixed asking prices and no visible sold wording in indexed/direct pages, but exact gallery/manual-control checks and vehicle-identity dedupe against marketplace cross-posts remain incomplete."
     },
     {
@@ -3865,10 +3859,10 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T04:00:38Z",
+      "lastSearchedAt": "2026-09-21T16:39:00Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No direct current eBay Chimaera 500 vehicle advert survived filtering."
+      "limitation": "Search returned parts/accessories rather than vehicle adverts; none retained."
     },
     {
       "id": "model-018:autotrader:tvr-chimaera-500",
@@ -3882,10 +3876,10 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T04:00:38Z",
+      "lastSearchedAt": "2026-09-21T16:39:00Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No direct current Auto Trader Chimaera 500 car-details URL survived filtering."
+      "limitation": "Search surfaced a generic Auto Trader model page rather than a concrete advert URL; none retained."
     },
     {
       "id": "model-018:pistonheads:tvr-chimaera-500",
@@ -3899,12 +3893,13 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T04:00:38Z",
-      "lastResultCount": 1,
+      "lastSearchedAt": "2026-09-21T16:39:00Z",
+      "lastResultCount": 2,
       "candidateUrls": [
+        "https://www.pistonheads.com/buy/listing/19797180",
         "https://www.pistonheads.com/buy/listing/20975829"
       ],
-      "limitation": "Listing 20975829 renders as a live fixed-price 1998 Chimaera 500 at £22,000/43,800 miles with seller contact, but exact listing images failed to load for manual/photo-overlay verification; already tracked, so remains pending."
+      "limitation": "Two concrete live PistonHeads adverts were plausible leads; both remain unverified pending full photo/editorial checks."
     },
     {
       "id": "model-018:car-and-classic:tvr-chimaera-500",
@@ -3918,12 +3913,10 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T04:00:38Z",
-      "lastResultCount": 1,
-      "candidateUrls": [
-        "https://www.carandclassic.com/us/l/C2190992"
-      ],
-      "limitation": "Current 1998 Chimaera 500 private advert at £12,500 surfaced. It is plausible but unusually low against the watch guide and remains verification-pending rather than publishable."
+      "lastSearchedAt": "2026-09-21T16:39:00Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Matching Car & Classic advert found was explicitly sold; no current advert retained."
     },
     {
       "id": "model-018:collecting-cars:tvr-chimaera-500",
@@ -3988,7 +3981,7 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T04:00:38Z",
+      "lastSearchedAt": "2026-09-21T16:39:00Z",
       "lastResultCount": 0,
       "candidateUrls": [],
       "limitation": "No direct current Gumtree Chimaera 500 vehicle advert surfaced."
@@ -4056,12 +4049,10 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T04:00:38Z",
-      "lastResultCount": 1,
-      "candidateUrls": [
-        "https://www.hpcclassics.co.uk/product-page/1998-tvr-chimaera-500"
-      ],
-      "limitation": "HPC direct product page renders a £23,995/31,000-mile Chimaera 500, but a matching Car & Classic cross-post is marked SOLD. Availability is therefore conflicting; retain only as verification-pending, not publishable."
+      "lastSearchedAt": "2026-09-21T16:39:00Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "A retained dealer product page was found, but seller current-stock evidence was not strong enough to treat it as a current advert lead."
     },
     {
       "id": "model-019:facebook-groups:tvr-tamora",
@@ -4589,10 +4580,12 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T04:00:38Z",
-      "lastResultCount": 0,
-      "candidateUrls": [],
-      "limitation": "Surfaced GT3 material was auction-oriented rather than a current fixed-price advert meeting the worker rules; no candidate retained."
+      "lastSearchedAt": "2026-09-21T16:39:00Z",
+      "lastResultCount": 1,
+      "candidateUrls": [
+        "https://www.carandclassic.com/car/C2104561"
+      ],
+      "limitation": "Concrete current advert at £39,995/35,000 miles/manual in the UK; gallery is present but exact seller-photo inspection could not be completed strongly enough, so it remains unverified."
     },
     {
       "id": "model-021:collecting-cars:lotus-esprit-gt3",
@@ -4657,7 +4650,7 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T04:00:38Z",
+      "lastSearchedAt": "2026-09-21T16:39:00Z",
       "lastResultCount": 0,
       "candidateUrls": [],
       "limitation": "No direct current Gumtree Esprit GT3 vehicle advert surfaced."
@@ -4725,7 +4718,7 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T04:00:38Z",
+      "lastSearchedAt": "2026-09-21T16:39:00Z",
       "lastResultCount": 0,
       "candidateUrls": [],
       "limitation": "No additional direct current specialist-dealer Esprit GT3 advert survived filtering."
@@ -4759,7 +4752,7 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T04:00:38Z",
+      "lastSearchedAt": "2026-09-21T16:39:00Z",
       "lastResultCount": 0,
       "candidateUrls": [],
       "limitation": "No direct current eBay UK Esprit Sport 350 vehicle advert survived filtering."
@@ -4776,7 +4769,7 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T04:00:38Z",
+      "lastSearchedAt": "2026-09-21T16:39:00Z",
       "lastResultCount": 0,
       "candidateUrls": [],
       "limitation": "No additional direct Auto Trader URL retained; the known Premier GT Sport 350 is already represented by cross-post candidates and remains pending the photo gate."
@@ -4812,11 +4805,9 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T04:00:38Z",
-      "lastResultCount": 1,
-      "candidateUrls": [
-        "https://www.carandclassic.com/car/C2014112"
-      ],
+      "lastSearchedAt": "2026-09-21T16:39:00Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
       "limitation": "Current Premier GT Sport 350 advert remains live at £54,495/47,080 miles/manual with a 54-image gallery. Candidate is already tracked; images have not been visually cleared for overlays/manual-control evidence, so no publication."
     },
     {
@@ -7291,7 +7282,7 @@
       "priority": false,
       "cadenceHours": 12,
       "status": "searched",
-      "lastSearchedAt": "2026-09-19T21:50:32Z",
+      "lastSearchedAt": "2026-09-21T16:39:00Z",
       "lastResultCount": 0,
       "candidateUrls": [],
       "limitation": "A cached Collecting Cars page for a 2003 Elise 135R at 18,363 miles surfaced, but exact current live-auction status could not be established strongly enough; it was not collected."
@@ -7325,7 +7316,7 @@
       "priority": false,
       "cadenceHours": 12,
       "status": "searched",
-      "lastSearchedAt": "2026-09-19T21:50:32Z",
+      "lastSearchedAt": "2026-09-21T16:39:00Z",
       "lastResultCount": 0,
       "candidateUrls": [],
       "limitation": "Classic Trader query executed; no direct current UK Elise S2 135R advert within the configured rules was retained."
@@ -12552,10 +12543,10 @@
       "priority": true,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-21T04:00:37Z",
+      "lastSearchedAt": "2026-09-21T16:39:00Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public search exposed no direct current UK Facebook-group Z4 M Coupé advert."
+      "limitation": "Public web search found no accessible current advert posts; login/private-group content was not assessed."
     },
     {
       "id": "model-056:ebay:bmw-z4-m-coupe",
@@ -16575,10 +16566,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-21T08:24:08Z",
+      "lastSearchedAt": "2026-09-21T16:39:00Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "eBay UK query executed; surfaced results were ordinary BMWs, ended listings or otherwise non-qualifying. No current direct BMW 1M advert was retained."
+      "limitation": "Search returned unrelated BMW listings; no plausible current 1M advert URL retained."
     },
     {
       "id": "model-072:autotrader:bmw-1m-coupe-manual-45000-55000-full-service-history",
@@ -16592,10 +16583,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-21T08:24:08Z",
+      "lastSearchedAt": "2026-09-21T16:39:00Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Auto Trader query executed; surfaced material was generic inventory or non-target BMW stock rather than a direct current qualifying 1M car-details advert. No candidate URL was retained."
+      "limitation": "Search returned only generic/category or non-matching results; no plausible current advert URL retained."
     },
     {
       "id": "model-072:pistonheads:bmw-1m-coupe-manual-45000-55000-full-service-history",
@@ -16626,10 +16617,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-21T08:24:08Z",
+      "lastSearchedAt": "2026-09-21T16:39:00Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Car & Classic query executed; surfaced 1M material was removed, sold, historical or otherwise failed the current £45k–£55k/value-led target checks. No current qualifying advert was retained."
+      "limitation": "Returned BMW 1M adverts were removed/sold or outside the requested mileage range; none retained."
     },
     {
       "id": "model-072:collecting-cars:bmw-1m-coupe-manual-45000-55000-full-service-history",
@@ -17570,7 +17561,7 @@
       "priority": true,
       "cadenceHours": 3,
       "status": "searched",
-      "lastSearchedAt": "2026-09-21T05:56:07Z",
+      "lastSearchedAt": "2026-09-21T16:39:00Z",
       "lastResultCount": 0,
       "candidateUrls": [],
       "limitation": "Classic Trader query executed. No plausible current UK direct Ford Focus ST500 advert survived current-sale and target filtering."
@@ -18454,7 +18445,7 @@
       "priority": true,
       "cadenceHours": 3,
       "status": "searched",
-      "lastSearchedAt": "2026-09-21T05:56:07Z",
+      "lastSearchedAt": "2026-09-21T16:39:00Z",
       "lastResultCount": 0,
       "candidateUrls": [],
       "limitation": "Classic Trader query executed. No current UK direct Clio 182 Trophy advert met the 30,000-mile and maximum-two-owner target."
@@ -18488,7 +18479,7 @@
       "priority": true,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-21T04:00:37Z",
+      "lastSearchedAt": "2026-09-21T16:39:00Z",
       "lastResultCount": 0,
       "candidateUrls": [],
       "limitation": "No direct current Trophy advert met the strict mileage and owner-count rules."
@@ -20188,7 +20179,7 @@
       "priority": true,
       "cadenceHours": 3,
       "status": "searched",
-      "lastSearchedAt": "2026-09-21T05:56:07Z",
+      "lastSearchedAt": "2026-09-21T16:39:00Z",
       "lastResultCount": 0,
       "candidateUrls": [],
       "limitation": "Collecting Cars query executed. Surfaced P1 lots were completed/historical or above the 30,000-mile cap; none retained."
@@ -20205,7 +20196,7 @@
       "priority": true,
       "cadenceHours": 3,
       "status": "searched",
-      "lastSearchedAt": "2026-09-21T05:56:07Z",
+      "lastSearchedAt": "2026-09-21T16:39:00Z",
       "lastResultCount": 0,
       "candidateUrls": [],
       "limitation": "Bonhams Cars query executed. Surfaced P1 material was historical/completed or outside mileage/owner limits; no current qualifying advert retained."
@@ -20222,7 +20213,7 @@
       "priority": true,
       "cadenceHours": 3,
       "status": "searched",
-      "lastSearchedAt": "2026-09-21T05:56:07Z",
+      "lastSearchedAt": "2026-09-21T16:39:00Z",
       "lastResultCount": 0,
       "candidateUrls": [],
       "limitation": "Classic Trader query executed. No plausible current UK P1 advert met the target limits."
@@ -20851,7 +20842,7 @@
       "priority": true,
       "cadenceHours": 3,
       "status": "searched",
-      "lastSearchedAt": "2026-09-21T05:56:07Z",
+      "lastSearchedAt": "2026-09-21T16:39:00Z",
       "lastResultCount": 0,
       "candidateUrls": [],
       "limitation": "Collecting Cars query executed. Surfaced RB320 lots were historical/sold or above the target mileage; none retained."
@@ -20868,7 +20859,7 @@
       "priority": true,
       "cadenceHours": 3,
       "status": "searched",
-      "lastSearchedAt": "2026-09-21T05:56:07Z",
+      "lastSearchedAt": "2026-09-21T16:39:00Z",
       "lastResultCount": 0,
       "candidateUrls": [],
       "limitation": "Bonhams Cars query executed. No active UK RB320 lot met the mileage/owner criteria."
@@ -20885,7 +20876,7 @@
       "priority": true,
       "cadenceHours": 3,
       "status": "searched",
-      "lastSearchedAt": "2026-09-21T05:56:07Z",
+      "lastSearchedAt": "2026-09-21T16:39:00Z",
       "lastResultCount": 0,
       "candidateUrls": [],
       "limitation": "Classic Trader query executed. No plausible current UK RB320 direct advert retained."
@@ -22338,12 +22329,13 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-21T08:24:08Z",
-      "lastResultCount": 1,
+      "lastSearchedAt": "2026-09-21T16:39:00Z",
+      "lastResultCount": 2,
       "candidateUrls": [
-        "https://www.ebay.co.uk/itm/168646098672"
+        "https://www.ebay.co.uk/itm/227246173704",
+        "https://www.ebay.co.uk/itm/227406711952"
       ],
-      "limitation": "eBay query found a current-looking 2000 Evo VI Tommi Makinen Edition at £99,995 / 18,460 miles / manual in Aylesbury. Its £99,995/18,460-mile Passion Red identity matches the already tracked W122DAK/Auto Torque car, so it is a duplicate vehicle identity. The eBay advert states two previous owners, which implies at least three total keepers including the current keeper and therefore fails model-088's maximum-two-total-owner rule."
+      "limitation": "Two current classified advert URLs were plausible leads; mileage/ownership could not be fully verified from accessible advert text, so they remain candidates only."
     },
     {
       "id": "model-088:autotrader:mitsubishi-evo-vi-tommi-makinen-edition",
@@ -22393,7 +22385,7 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-21T07:19:48Z",
+      "lastSearchedAt": "2026-09-21T16:39:00Z",
       "lastResultCount": 0,
       "candidateUrls": [],
       "limitation": "Public web query executed against Car & Classic; removed/sold, auction-only, duplicate and non-qualifying results were filtered."
@@ -22427,7 +22419,7 @@
       "priority": true,
       "cadenceHours": 3,
       "status": "searched",
-      "lastSearchedAt": "2026-09-21T05:56:07Z",
+      "lastSearchedAt": "2026-09-21T16:39:00Z",
       "lastResultCount": 0,
       "candidateUrls": [],
       "limitation": "Bonhams Cars query executed. No qualifying current UK Tommi Makinen Edition direct lot survived active-sale and target filtering."
@@ -22461,7 +22453,7 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-21T08:24:08Z",
+      "lastSearchedAt": "2026-09-21T16:39:00Z",
       "lastResultCount": 0,
       "candidateUrls": [],
       "limitation": "Gumtree query executed; no direct current UK Evo VI Tommi Makinen Edition advert satisfying the strict mileage and ownership rules was exposed."
@@ -24592,9 +24584,11 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-21T07:19:48Z",
-      "lastResultCount": 0,
-      "candidateUrls": [],
+      "lastSearchedAt": "2026-09-21T16:39:00Z",
+      "lastResultCount": 1,
+      "candidateUrls": [
+        "https://www.pistonheads.com/buy/listing/19915003"
+      ],
       "limitation": "Public web query executed against PistonHeads; non-advert, stale/unavailable, duplicate and non-qualifying results were filtered before candidate recording."
     },
     {
@@ -24745,9 +24739,11 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-21T07:19:48Z",
-      "lastResultCount": 0,
-      "candidateUrls": [],
+      "lastSearchedAt": "2026-09-21T16:39:00Z",
+      "lastResultCount": 1,
+      "candidateUrls": [
+        "https://www.hexagonclassics.com/car/bmw-m3-coupe--e46---manual--2003"
+      ],
       "limitation": "Public web query executed across specialist dealer stock; retained/stale pages, duplicates and non-qualifying stock were filtered."
     },
     {
@@ -24813,9 +24809,11 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-21T07:19:48Z",
-      "lastResultCount": 0,
-      "candidateUrls": [],
+      "lastSearchedAt": "2026-09-21T16:39:00Z",
+      "lastResultCount": 1,
+      "candidateUrls": [
+        "https://www.pistonheads.com/buy/listing/19915003"
+      ],
       "limitation": "Public web query executed against PistonHeads; non-advert, stale/unavailable, duplicate and non-qualifying results were filtered before candidate recording."
     },
     {
