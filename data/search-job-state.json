@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-21T09:31:20Z",
+  "updatedAt": "2026-09-21T10:56:03Z",
   "compactedFromQueueAt": "2026-09-10T06:41:54.207Z",
   "note": "Cumulative worker-write state. Job results are merged from immutable run deltas and folded back into data/search-queue.json by scripts/build-search-queue.mjs.",
   "jobs": {
@@ -417,10 +417,10 @@
     },
     "model-088:911uk:mitsubishi-evo-vi-tommi-makinen-edition": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T20:53:51Z",
+      "lastSearchedAt": "2026-09-21T10:56:03Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "911UK search executed; no direct current UK Mitsubishi Evo VI Tommi Makinen Edition advert meeting the configured target surfaced."
+      "limitation": "911UK query executed; no direct current UK Evo VI Tommi Makinen Edition advert meeting the under-30,000-mile / maximum-two-total-owners target was exposed."
     },
     "model-088:ferrarichat:mitsubishi-evo-vi-tommi-makinen-edition": {
       "status": "searched",
@@ -730,26 +730,24 @@
     },
     "model-096:classic-trader:bmw-m3-e46-6-speed-manual-coupe-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-21T00:37:30Z",
-      "lastResultCount": 1,
-      "candidateUrls": [
-        "https://www.classic-trader.com/uk/cars/listing/bmw/3-series/m3/2003/449229"
-      ],
-      "limitation": "Current direct advert retained for the already-known Hexagon 2003 E46 M3, £99,995, 3,100 miles, six-speed manual; no duplicate candidate added."
+      "lastSearchedAt": "2026-09-21T10:56:03Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Classic Trader query executed; no direct current UK factory-manual E46 M3 Coupe advert at or below 50,000 miles was retained."
     },
     "model-096:collecting-cars:bmw-e46-m3-manual-coupe-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-21T00:37:30Z",
+      "lastSearchedAt": "2026-09-21T10:56:03Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Query executed; surfaced E46 M3 pages were completed/historical auctions or failed current/mileage requirements."
+      "limitation": "Collecting Cars results were historical/completed E46 M3 manual auctions; completed sales were rejected."
     },
     "model-096:collecting-cars:bmw-m3-e46-6-speed-manual-coupe-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-21T00:37:30Z",
+      "lastSearchedAt": "2026-09-21T10:56:03Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Query executed; no current qualifying fixed-price E46 M3 advert retained."
+      "limitation": "Collecting Cars results were historical/completed E46 M3 manual auctions; completed sales were rejected."
     },
     "model-096:ebay:bmw-e46-m3-manual-coupe-uk": {
       "status": "searched",
@@ -1262,24 +1260,24 @@
     },
     "model-013:collecting-cars:tvr-sagaris": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-19T16:03:52Z",
+      "lastSearchedAt": "2026-09-21T10:56:03Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Collecting Cars result was a completed 2021 Sagaris auction explicitly sold; excluded."
+      "limitation": "Collecting Cars surfaced historical sold Sagaris auctions; completed sales were rejected."
     },
     "model-013:bonhams-cars:tvr-sagaris": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-19T16:03:52Z",
+      "lastSearchedAt": "2026-09-21T10:56:03Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Bonhams Cars search returned no plausible current TVR Sagaris advert."
+      "limitation": "Bonhams Cars query executed; no direct active current TVR Sagaris lot/advert was retained."
     },
     "model-013:classic-trader:tvr-sagaris": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-19T16:03:52Z",
+      "lastSearchedAt": "2026-09-21T10:56:03Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Classic Trader search returned no plausible current UK TVR Sagaris advert."
+      "limitation": "Classic Trader query executed; no direct current TVR Sagaris advert survived stale/expired filtering."
     },
     "model-013:gumtree:tvr-sagaris": {
       "status": "searched",
@@ -1359,24 +1357,24 @@
     },
     "model-014:collecting-cars:tvr-t350c-t350t": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-19T16:03:52Z",
+      "lastSearchedAt": "2026-09-21T10:56:03Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Collecting Cars search returned no plausible current TVR T350C/T350T advert; historical auction material excluded."
+      "limitation": "Collecting Cars results were historical/completed T350 auctions; no current auction was retained."
     },
     "model-014:bonhams-cars:tvr-t350c-t350t": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-19T16:03:52Z",
+      "lastSearchedAt": "2026-09-21T10:56:03Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Bonhams Cars search returned no plausible current TVR T350C/T350T advert."
+      "limitation": "Bonhams Cars query executed; no direct active current TVR T350C/T advert was retained."
     },
     "model-014:classic-trader:tvr-t350c-t350t": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-19T16:03:52Z",
+      "lastSearchedAt": "2026-09-21T10:56:03Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Classic Trader search returned no plausible current UK TVR T350C/T350T advert."
+      "limitation": "Classic Trader results were expired/stale T350 listings; no current advert was retained."
     },
     "model-014:gumtree:tvr-t350c-t350t": {
       "status": "searched",
@@ -1462,17 +1460,17 @@
     },
     "model-097:bonhams-cars:bmw-e39-m5-manual-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-21T00:37:30Z",
+      "lastSearchedAt": "2026-09-21T10:56:03Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Query executed; no current direct UK E39 M5 manual advert at or below 50,000 miles established."
+      "limitation": "Bonhams Cars query executed; no direct active UK E39 M5 manual lot/advert at or below 50,000 miles was retained."
     },
     "model-097:bonhams-cars:bmw-m5-e39-6-speed-manual-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-21T00:37:30Z",
+      "lastSearchedAt": "2026-09-21T10:56:03Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Query executed; no current direct UK six-speed E39 M5 advert at or below 50,000 miles established."
+      "limitation": "Bonhams Cars query executed; no direct active UK E39 M5 six-speed manual lot/advert at or below 50,000 miles was retained."
     },
     "model-097:car-and-classic:bmw-e39-m5-manual-uk": {
       "status": "searched",
@@ -1490,31 +1488,31 @@
     },
     "model-097:classic-trader:bmw-e39-m5-manual-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-21T00:37:30Z",
+      "lastSearchedAt": "2026-09-21T10:56:03Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Query executed; surfaced E39 M5 was in Germany and about 220,000 km, failing UK and mileage rules."
+      "limitation": "Classic Trader query executed; no direct current UK E39 M5 manual advert at or below 50,000 miles was retained."
     },
     "model-097:classic-trader:bmw-m5-e39-6-speed-manual-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-21T00:37:30Z",
+      "lastSearchedAt": "2026-09-21T10:56:03Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Query executed; surfaced E39 M5 was non-UK and far above the 50,000-mile cap."
+      "limitation": "Classic Trader query executed; no direct current UK E39 M5 six-speed manual advert at or below 50,000 miles was retained."
     },
     "model-097:collecting-cars:bmw-e39-m5-manual-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-21T00:37:30Z",
+      "lastSearchedAt": "2026-09-21T10:56:03Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Query executed; no current UK E39 M5 manual advert survived completed-auction/current-availability filtering."
+      "limitation": "Collecting Cars query executed; no active current UK E39 M5 manual auction meeting the mileage target was exposed; historical/completed material was rejected."
     },
     "model-097:collecting-cars:bmw-m5-e39-6-speed-manual-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-21T00:37:30Z",
+      "lastSearchedAt": "2026-09-21T10:56:03Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Query executed; no current UK six-speed E39 M5 advert meeting mileage/current-availability rules retained."
+      "limitation": "Collecting Cars query executed; no active current UK E39 M5 six-speed manual auction meeting the mileage target was exposed; historical/completed material was rejected."
     },
     "model-097:ebay:bmw-e39-m5-manual-uk": {
       "status": "searched",
@@ -1832,10 +1830,10 @@
     },
     "model-070:gumtree:ford-focus-rs500": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-21T02:11:06Z",
+      "lastSearchedAt": "2026-09-21T10:56:03Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Gumtree query executed. No plausible current direct UK Focus RS500 advert survived filtering."
+      "limitation": "Gumtree query executed; no direct current Ford Focus RS500 advert survived current-advert filtering."
     },
     "model-070:bonhams-cars:ford-focus-rs-mk2": {
       "status": "searched",
@@ -1932,10 +1930,10 @@
     },
     "model-082:autotrader:subaru-impreza-p1": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-21T02:11:06Z",
+      "lastSearchedAt": "2026-09-21T10:56:03Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Auto Trader query executed. No direct current P1 car-details advert with verified sub-30,000 mileage and one-or-two total owners was retained."
+      "limitation": "Auto Trader query executed; no direct current car-details URL for a Subaru Impreza P1 meeting the under-30,000-mile / maximum-two-total-owners target was retained."
     },
     "model-082:car-and-classic:subaru-impreza-p1": {
       "status": "searched",
@@ -2577,17 +2575,17 @@
     },
     "model-075:autotrader:audi-tt-quattro-sport": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-21T02:11:06Z",
+      "lastSearchedAt": "2026-09-21T10:56:03Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Auto Trader query executed. Only generic inventory/category material surfaced; no direct current TT quattro Sport car-details URL was retained."
+      "limitation": "Auto Trader query returned generic TT inventory rather than a direct current quattro Sport car-details advert; generic/category pages were rejected."
     },
     "model-075:car-and-classic:audi-tt-quattro-sport": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-21T02:11:06Z",
+      "lastSearchedAt": "2026-09-21T10:56:03Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Car & Classic query executed. Surfaced TT quattro Sport adverts C1652900 and C2100084 are explicitly removed/unavailable; historical auction material was also rejected."
+      "limitation": "Car & Classic results were checked. DV06UCW (C2126147) and GF55YVS (C1834260) now state that the adverts have been removed through sale or otherwise, and other surfaced pages were sold/removed; no current advert was retained."
     },
     "model-075:ebay:audi-tt-quattro-sport": {
       "status": "searched",
@@ -3177,24 +3175,24 @@
     },
     "model-082:ferrarichat:subaru-impreza-p1": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T20:53:51Z",
+      "lastSearchedAt": "2026-09-21T10:56:03Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "FerrariChat search executed; no direct current UK Subaru Impreza P1 advert meeting the strict mileage/owner target surfaced."
+      "limitation": "FerrariChat public-web query executed; no direct current UK Subaru Impreza P1 advert meeting the under-30,000-mile / maximum-two-total-owners target was exposed."
     },
     "model-082:lamborghini-talk:subaru-impreza-p1": {
       "status": "blocked",
-      "lastSearchedAt": "2026-09-20T20:53:51Z",
+      "lastSearchedAt": "2026-09-21T10:56:03Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "LamborghiniTalk blocked automated public retrieval via robots/access controls; no current qualifying Subaru Impreza P1 advert could be verified from this source."
+      "limitation": "LamborghiniTalk blocked automated public retrieval via robots/access controls; no current Subaru Impreza P1 advert could be verified from this source."
     },
     "model-085:facebook-groups:subaru-impreza-rb320": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T20:53:51Z",
+      "lastSearchedAt": "2026-09-21T10:56:03Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public Facebook-group search executed; no directly accessible current UK Subaru Impreza RB320 advert meeting the strict mileage/owner target surfaced; group/category pages were excluded."
+      "limitation": "Public Facebook-group search exposed no direct current UK Subaru Impreza RB320 advert; group/category pages were not retained."
     },
     "model-075:bonhams-cars:audi-tt-quattro-sport": {
       "status": "searched",
@@ -3944,10 +3942,10 @@
     },
     "model-085:911uk:subaru-impreza-rb320": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T20:53:51Z",
+      "lastSearchedAt": "2026-09-21T10:56:03Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "911UK search executed; no direct current UK Subaru Impreza RB320 advert meeting the under-30,000-mile and maximum-two-total-owner target surfaced."
+      "limitation": "911UK query executed; no direct current UK Subaru Impreza RB320 advert meeting the under-30,000-mile / maximum-two-total-owners target was exposed."
     },
     "model-040:autotrader:renault-clio-v6-phase-2": {
       "status": "searched",
@@ -4161,17 +4159,17 @@
     },
     "model-085:ferrarichat:subaru-impreza-rb320": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T20:53:51Z",
+      "lastSearchedAt": "2026-09-21T10:56:03Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "FerrariChat search executed; no direct current UK Subaru Impreza RB320 advert meeting the strict mileage/owner target surfaced."
+      "limitation": "FerrariChat public-web query executed; no direct current UK Subaru Impreza RB320 advert meeting the target constraints was exposed."
     },
     "model-085:lamborghini-talk:subaru-impreza-rb320": {
       "status": "blocked",
-      "lastSearchedAt": "2026-09-20T20:53:51Z",
+      "lastSearchedAt": "2026-09-21T10:56:03Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "LamborghiniTalk blocked automated public retrieval via robots/access controls; no current qualifying Subaru Impreza RB320 advert could be verified from this source."
+      "limitation": "LamborghiniTalk blocked automated public retrieval via robots/access controls; no current Subaru Impreza RB320 advert could be verified from this source."
     },
     "model-088:facebook-groups:mitsubishi-evo-vi-tommi-makinen-edition": {
       "status": "searched",
@@ -6037,10 +6035,10 @@
     },
     "model-060:bonhams-cars:maserati-3200-gt-assetto-corsa-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-19T16:03:52Z",
+      "lastSearchedAt": "2026-09-21T10:56:03Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Bonhams Cars search returned no plausible current fixed-price UK 3200 GT/Assetto Corsa manual advert."
+      "limitation": "Bonhams Cars query executed; no direct active current UK Maserati 3200 GT/Assetto Corsa manual advert was retained."
     },
     "model-060:car-and-classic:maserati-3200-gt-assetto-corsa-manual": {
       "status": "searched",
@@ -6053,17 +6051,17 @@
     },
     "model-060:classic-trader:maserati-3200-gt-assetto-corsa-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-19T16:03:52Z",
+      "lastSearchedAt": "2026-09-21T10:56:03Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Classic Trader search returned no plausible current UK 3200 GT/Assetto Corsa manual advert."
+      "limitation": "Classic Trader query executed; no direct current UK Maserati 3200 GT/Assetto Corsa manual advert survived stale/expired filtering."
     },
     "model-060:collecting-cars:maserati-3200-gt-assetto-corsa-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-19T16:03:52Z",
+      "lastSearchedAt": "2026-09-21T10:56:03Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Collecting Cars results were completed/sold auctions from 2022–2025; excluded."
+      "limitation": "Collecting Cars query executed; no active current UK Maserati 3200 GT/Assetto Corsa manual auction was retained; completed sales were rejected."
     },
     "model-060:ebay:maserati-3200-gt-assetto-corsa-manual": {
       "status": "searched",
@@ -6130,10 +6128,10 @@
     },
     "model-061:bonhams-cars:maserati-4200-coupe-spyder-gt-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-19T16:03:52Z",
+      "lastSearchedAt": "2026-09-21T10:56:03Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Bonhams Cars search returned no plausible current fixed-price UK 4200 GT manual advert."
+      "limitation": "Bonhams Cars query executed; no direct active current UK Maserati 4200 Coupe/Spyder GT manual advert was retained."
     },
     "model-061:car-and-classic:maserati-4200-coupe-spyder-gt-manual": {
       "status": "searched",
@@ -6144,17 +6142,17 @@
     },
     "model-061:classic-trader:maserati-4200-coupe-spyder-gt-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-19T16:03:52Z",
+      "lastSearchedAt": "2026-09-21T10:56:03Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Classic Trader result was a non-UK Cambiocorsa/semi-automatic car; no qualifying UK manual candidate retained."
+      "limitation": "Classic Trader query executed; no direct current UK Maserati 4200 Coupe/Spyder GT manual advert survived stale/expired filtering."
     },
     "model-061:collecting-cars:maserati-4200-coupe-spyder-gt-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-19T16:03:52Z",
+      "lastSearchedAt": "2026-09-21T10:56:03Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Collecting Cars results were completed/sold auctions; excluded."
+      "limitation": "Collecting Cars query executed; no active current UK Maserati 4200 Coupe/Spyder GT manual auction was retained; historical/completed pages were rejected."
     },
     "model-061:ebay:maserati-4200-coupe-spyder-gt-manual": {
       "status": "searched",
@@ -9280,17 +9278,17 @@
     },
     "model-091:car-and-classic:mitsubishi-evo-x-fq360-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-19T21:50:32Z",
+      "lastSearchedAt": "2026-09-21T10:56:03Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Car & Classic query executed; no current qualifying FQ360 manual advert satisfying the mileage/owner rules was retained."
+      "limitation": "Car & Classic query executed; no direct current FQ360 advert meeting the under-30,000-mile / maximum-two-total-owners target was retained."
     },
     "model-091:car-and-classic:mitsubishi-evo-x-fq400-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-19T21:50:32Z",
+      "lastSearchedAt": "2026-09-21T10:56:03Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "The plausible 2009 FQ400 page surfaced by Car & Classic is explicitly removed through sale or otherwise, so it was rejected as unavailable."
+      "limitation": "Car & Classic query executed; no direct current FQ400 advert meeting the under-30,000-mile / maximum-two-total-owners target was retained."
     },
     "model-091:classic-trader:mitsubishi-evo-x-fq360-manual": {
       "status": "searched",
@@ -9322,17 +9320,17 @@
     },
     "model-091:ebay:mitsubishi-evo-x-fq360-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-19T21:50:32Z",
+      "lastSearchedAt": "2026-09-21T10:56:03Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "eBay surfaced a 2009 FQ360 manual at about 114,000 miles with four owners, failing both the under-30,000-mile and maximum-two-owner rules."
+      "limitation": "eBay query executed; no direct current FQ360 advert meeting the target mileage/ownership constraints was retained."
     },
     "model-091:ebay:mitsubishi-evo-x-fq400-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-19T21:50:32Z",
+      "lastSearchedAt": "2026-09-21T10:56:03Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "eBay query executed; no direct current qualifying FQ400 manual advert satisfying the mileage/owner rules was retained."
+      "limitation": "eBay query executed; no direct current FQ400 advert meeting the target mileage/ownership constraints was retained."
     },
     "model-091:facebook-groups:mitsubishi-evo-x-fq360-manual": {
       "status": "searched",
@@ -9364,17 +9362,17 @@
     },
     "model-091:gumtree:mitsubishi-evo-x-fq360-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-19T21:50:32Z",
+      "lastSearchedAt": "2026-09-21T10:56:03Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Gumtree surfaced FQ360 material around 79,000 miles, including a Cat N car, so it failed the under-30,000-mile exceptional-example rules."
+      "limitation": "Gumtree surfaced an FQ360 at 79,000 miles; it fails the under-30,000-mile target and was not retained."
     },
     "model-091:gumtree:mitsubishi-evo-x-fq400-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-19T21:50:32Z",
+      "lastSearchedAt": "2026-09-21T10:56:03Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Gumtree query executed; no current qualifying FQ400 manual advert satisfying the mileage/owner rules survived filtering."
+      "limitation": "Gumtree query executed; no direct current FQ400 advert meeting the target mileage/ownership constraints was retained."
     },
     "model-091:lamborghini-talk:mitsubishi-evo-x-fq360-manual": {
       "status": "blocked",
@@ -9392,31 +9390,31 @@
     },
     "model-091:pistonheads:mitsubishi-evo-x-fq360-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-19T21:50:32Z",
+      "lastSearchedAt": "2026-09-21T10:56:03Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "PistonHeads surfaced an FQ360 that is NOW SOLD and another at about 33,000 miles with five owners; both fail hard rules."
+      "limitation": "PistonHeads surfaced one sold FQ360, one live 33,000-mile car with five previous owners, and one live 18,200-mile car with two previous owners (therefore more than two total owners). None meets the configured target, so no candidate URL was retained."
     },
     "model-091:pistonheads:mitsubishi-evo-x-fq400-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-19T21:50:32Z",
+      "lastSearchedAt": "2026-09-21T10:56:03Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "PistonHeads query executed; no direct current FQ400 manual advert satisfying the under-30,000-mile and maximum-two-owner rules was retained."
+      "limitation": "PistonHeads query executed; no direct current FQ400 advert meeting the under-30,000-mile / maximum-two-total-owners target was retained."
     },
     "model-091:specialist-dealers:mitsubishi-evo-x-fq360-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-19T21:50:32Z",
+      "lastSearchedAt": "2026-09-21T10:56:03Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Specialist-dealer search executed; no direct current FQ360 manual satisfying the strict mileage/owner rules was retained."
+      "limitation": "Specialist-dealer search surfaced a current FQ330 rather than the target FQ360; no qualifying direct FQ360 advert was retained."
     },
     "model-091:specialist-dealers:mitsubishi-evo-x-fq400-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-19T21:50:32Z",
+      "lastSearchedAt": "2026-09-21T10:56:03Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Specialist-dealer search executed; no direct current qualifying FQ400 manual satisfying the strict mileage/owner rules surfaced."
+      "limitation": "Specialist-dealer search executed; no direct current FQ400 advert meeting the configured target was retained."
     },
     "model-093:911uk:alfa-romeo-147-gta-manual-under-50000-miles-low-owners": {
       "status": "searched",
@@ -9427,10 +9425,10 @@
     },
     "model-093:autotrader:alfa-romeo-147-gta-manual-under-50000-miles-low-owners": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-19T21:50:32Z",
+      "lastSearchedAt": "2026-09-21T10:56:03Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Auto Trader results were generic inventory/category pages rather than a direct current car-details advert; generic search pages are rejected before verification."
+      "limitation": "Auto Trader exposed generic 147 manual inventory including GTA stock but no direct current car-details URL with mileage/ownership evidence matching this job; generic pages were rejected."
     },
     "model-093:bonhams-cars:alfa-romeo-147-gta-manual-under-50000-miles-low-owners": {
       "status": "searched",
@@ -10252,52 +10250,52 @@
     },
     "model-015:collecting-cars:tvr-tuscan-tuscan-s-mk2": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-19T16:03:52Z",
+      "lastSearchedAt": "2026-09-21T10:56:03Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Collecting Cars search returned no plausible current TVR Tuscan/Tuscan S/Mk2 advert; completed auction material excluded."
+      "limitation": "Collecting Cars query executed; no active current TVR Tuscan/Tuscan S/Mk2 auction was retained; historical material was rejected."
     },
     "model-016:bonhams-cars:tvr-cerbera-4-2-4-5-ajp-v8": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-19T16:03:52Z",
+      "lastSearchedAt": "2026-09-21T10:56:03Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Bonhams Cars search returned no plausible current TVR Cerbera 4.2/4.5 advert."
+      "limitation": "Bonhams Cars query executed; no direct active current TVR Cerbera AJP V8 lot/advert was retained."
     },
     "model-016:classic-trader:tvr-cerbera-4-2-4-5-ajp-v8": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-19T16:03:52Z",
+      "lastSearchedAt": "2026-09-21T10:56:03Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Classic Trader search returned no plausible current UK TVR Cerbera 4.2/4.5 advert."
+      "limitation": "Classic Trader surfaced expired historical Cerbera listings; no current advert was retained."
     },
     "model-016:collecting-cars:tvr-cerbera-4-2-4-5-ajp-v8": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-19T16:03:52Z",
+      "lastSearchedAt": "2026-09-21T10:56:03Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Collecting Cars search returned no plausible current TVR Cerbera 4.2/4.5 advert; historical auction material excluded."
+      "limitation": "Collecting Cars query executed; no active current Cerbera AJP V8 auction was retained; completed/historical pages were rejected."
     },
     "model-017:bonhams-cars:tvr-griffith-500-se": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-19T16:03:52Z",
+      "lastSearchedAt": "2026-09-21T10:56:03Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Bonhams Cars search returned no plausible current TVR Griffith 500/SE advert."
+      "limitation": "Bonhams Cars query executed; no direct active current TVR Griffith 500/SE lot/advert was retained."
     },
     "model-017:classic-trader:tvr-griffith-500-se": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-19T16:03:52Z",
+      "lastSearchedAt": "2026-09-21T10:56:03Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Classic Trader search returned no plausible current UK TVR Griffith 500/SE advert."
+      "limitation": "Classic Trader query executed; no direct current Griffith 500/SE advert survived stale/expired filtering."
     },
     "model-017:collecting-cars:tvr-griffith-500-se": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-19T16:03:52Z",
+      "lastSearchedAt": "2026-09-21T10:56:03Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Collecting Cars search returned no plausible current TVR Griffith 500/SE advert; historical auction material excluded."
+      "limitation": "Collecting Cars query executed; no active current Griffith 500/SE auction was retained; historical/completed pages were rejected."
     },
     "model-018:bonhams-cars:tvr-chimaera-500": {
       "status": "searched",
