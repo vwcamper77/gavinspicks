@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-21T20:31:32Z",
+  "updatedAt": "2026-09-21T21:37:36Z",
   "candidates": [
     {
       "modelId": "model-056",
@@ -569,9 +569,9 @@
       "source": "pistonheads",
       "discoveredAt": "2026-09-10T13:56:00Z",
       "status": "verification-pending",
-      "vehicleIdentity": "2006 Lotus Exige Cup 240 Race Spec | A240CUP | 22,233 miles | £44,995",
-      "note": "2006 Lotus Exige 240 Cup Race Spec, £44,995, 22,233 miles, manual and advertised fully road legal, private seller in Ascot. Current PistonHeads advert and contact controls were visible; seller describes 2025 recommissioning and 2026 supercharger rebuild/service work. Forty photos are indicated, but original seller images could not be visually fetched in this run, so identity/overlay/manual-photo verification remains outstanding.",
-      "lastCheckedAt": "2026-09-20T08:34:31Z"
+      "vehicleIdentity": "2006 Lotus Exige Cup 240 Race Spec | A240CUP | current advert 21,111 miles | £47,950",
+      "note": "Rechecked 21 Sep 2026 on the direct PistonHeads advert. It is live with active private-seller contact controls in Ascot and now states £47,950, 21,111 miles, manual, registration A240CUP and detailed 2025/2026 recommissioning/service work. That mileage conflicts with the previously recorded 22,233 miles, and exact gallery image assets could not be fetched reliably for the mandatory SOLD/RESERVED-overlay and manual-control visual check. Keep verification-pending; do not publish.",
+      "lastCheckedAt": "2026-09-21T21:37:36Z"
     },
     {
       "modelId": "model-075",
@@ -1665,8 +1665,8 @@
       "source": "specialist-dealers",
       "discoveredAt": "2026-09-12T21:04:59Z",
       "status": "verification-pending",
-      "note": "Rechecked 15 Sep 2026: Philip Raby's direct seller page still presents this 2000 BMW Z3 M Coupe S50 at £36,995, 41,500 miles, manual, three owners and full service history with active buying contact. It remains within the configured £30,000–£50,000 model band. The advert states the last service was June 2021 and the required seller-photo SOLD/RESERVED-overlay/manual-control visual verification remains incomplete, so do not publish.",
-      "lastCheckedAt": "2026-09-20T08:34:31Z",
+      "note": "Rechecked 21 Sep 2026. The direct Philip Raby page still renders at £36,995, 41,500 miles, three owners, full service history and manual S50 specification with an active buying form. However, the car is absent from the dealer homepage's current/newest stock display while other live and RESERVED cars are explicitly shown. Current availability is therefore ambiguous rather than positively verified; keep verification-pending and do not publish or call it sold. Seller-photo overlay/manual-control verification also remains incomplete.",
+      "lastCheckedAt": "2026-09-21T21:37:36Z",
       "vehicleIdentity": "2000 BMW Z3 M Coupe S50 | Estoril Blue | 41,500 miles | £36,995 | Philip Raby"
     },
     {
@@ -3265,6 +3265,26 @@
       "lastCheckedAt": "2026-09-21T20:31:32Z",
       "vehicleIdentity": "1997 Porsche 993 Carrera 4 Cabriolet | P983 RYU | 56,000 miles | £74,990 | Baker Brothers",
       "note": "Direct Baker Brothers seller advert currently renders at £74,990, 56,000 miles, 1997, manual, Ocean Blue over Classic Grey, four owners, with active enquiry/reserve controls and January 2026 GT One service / March 2026 soft-top work stated. Exact seller gallery images were visually inspected: no SOLD/RESERVED/DEPOSIT TAKEN/UNDER OFFER overlay was visible and the cabin clearly shows a conventional manual gear lever. However, Baker Brothers' current used-car inventory says 54 cars are available and does not list this 993. Under the highest-authority current-inventory and stale-advert rules, current availability is not strong enough to publish; keep verification-pending until the seller inventory and detail page agree."
+    },
+    {
+      "modelId": "model-029",
+      "url": "https://www.jonsealsportscars.com/cars/lotus/exige/1.8/1774093/",
+      "source": "specialist-dealers",
+      "discoveredAt": "2026-09-21T21:37:36Z",
+      "status": "verification-rejected",
+      "lastCheckedAt": "2026-09-21T21:37:36Z",
+      "vehicleIdentity": "2005 Lotus Exige 240R No.17 | 28,000 miles | Jon Seal Sportscars",
+      "note": "New lead verified against the authoritative seller inventory on 21 Sep 2026. Jon Seal's direct advert identifies the 2005 Exige 240R No.17 at 28,000 miles/manual, but the dealer's current-stock page explicitly marks this exact car RESERVED. A still-rendering PistonHeads cross-post does not override seller inventory. Hard availability gate fails; do not publish or requeue as current."
+    },
+    {
+      "modelId": "model-031",
+      "url": "https://www.autostorico.co.uk/cars-for-sale/lotus-elise-111s",
+      "source": "specialist-dealers",
+      "discoveredAt": "2026-09-21T21:37:36Z",
+      "status": "verification-pending",
+      "lastCheckedAt": "2026-09-21T21:37:36Z",
+      "vehicleIdentity": "2000 Lotus Elise S1 111S | £22,950 | 65,208 miles | Auto Storico",
+      "note": "New direct seller-page lead surfaced at £22,950 for a 2000 Elise S1 111S, 65,208 miles and manual. A fresh direct page fetch returned HTTP 425 and current seller inventory/gallery could not be independently verified strongly enough in this run. Under the hard availability/photo gate it remains verification-pending and must not be published."
     }
   ]
 }
