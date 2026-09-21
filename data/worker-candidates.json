@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-21T18:55:58Z",
+  "updatedAt": "2026-09-21T19:32:04Z",
   "candidates": [
     {
       "modelId": "model-056",
@@ -455,10 +455,10 @@
       "url": "https://www.ebay.co.uk/itm/206363441512",
       "source": "ebay",
       "discoveredAt": "2026-09-10T10:10:00Z",
-      "status": "unavailable",
-      "note": "Current-looking 2002 E46 M3 manual at £14,495. Actual vehicle advert surfaced, but coupe body, total mileage <=50,000, factory-manual provenance, current seller controls and exact seller-photo checks are not yet proven. Do not publish until all are verified.",
-      "vehicleIdentity": "2002 BMW E46 M3 | manual | eBay 206363441512",
-      "lastCheckedAt": "2026-09-15T04:57:37Z"
+      "status": "verification-pending",
+      "note": "Rechecked 21 Sep 2026 against the exact eBay advert. Item 206363441512 is currently showing £14,495 or Best Offer, active time-left and private-seller controls, year 2002, manual transmission, two doors, service history and MOT expiry May 2027. This is strong enough to treat the URL as a plausible current advert again, but the listing text exposed in this run does not establish mileage, factory-manual provenance or Coupe body beyond two doors, and the 24-photo gallery pixels were not sufficiently inspectable for the mandatory three-pedal/manual-control and SOLD/RESERVED overlay gate. Move back to verification-pending; do not publish.",
+      "vehicleIdentity": "2002 BMW E46 M3 | silver | manual | eBay 206363441512 | £14,495",
+      "lastCheckedAt": "2026-09-21T19:32:04Z"
     },
     {
       "modelId": "model-096",
@@ -539,9 +539,9 @@
       "source": "pistonheads",
       "discoveredAt": "2026-09-10T13:56:00Z",
       "status": "verification-pending",
-      "vehicleIdentity": "2008 Lotus Exige S 240 Triple Pack | Graphite Grey | 43000 miles",
-      "note": "Rechecked 17 Sep 2026: fresh PistonHeads search indexing shows this 2008 Lotus Exige S 240 Triple Pack at £34,990, 43,000 miles, manual, with active private-seller contact in London/Essex. The direct page cache still shows an older £36,990 snapshot, so the fresher indexed price is treated as the current lead rather than a verified price change. Seller gallery image assets cache-missed and could not be visually checked for SOLD/RESERVED overlays or manual controls; keep verification-pending and do not publish.",
-      "lastCheckedAt": "2026-09-17T03:15:40Z"
+      "vehicleIdentity": "2008 Lotus Exige S 240 Triple Pack | Graphite Grey | 43,000 miles | £34,995",
+      "note": "Rechecked 21 Sep 2026 against the exact PistonHeads advert, crawled today. Listing 20772154 remains live at £34,995, 43,000 miles, manual, four previous owners, with active private-seller contact controls, a 10-photo gallery and London/Essex location. The prior indexed £34,990 figure differs by only £5 and is not a meaningful price change. Seller discloses a recent Hangar111 bottom-end rebuild after an oil-starvation incident plus extensive upgrades. Exact seller-gallery pixels still could not be inspected strongly enough for the mandatory SOLD/RESERVED/DEPOSIT/UNDER-OFFER overlay and manual-control photo gate, so keep verification-pending and do not publish.",
+      "lastCheckedAt": "2026-09-21T19:32:04Z"
     },
     {
       "modelId": "model-028",
@@ -807,8 +807,9 @@
       "source": "classic-trader",
       "discoveredAt": "2026-09-10T17:42:36Z",
       "status": "verification-pending",
-      "vehicleIdentity": "2002 Noble M12 GTO | NOB61X | 30,000 miles | black",
-      "note": "Fresh candidate from current Classic Trader search. 2002 Noble M12-GTO, £43,500, RHD five-speed manual, 30,000 miles stated in description, UK dealer Vintage & Prestige Fine Motor Cars in Northampton. The exact advert is live and says ready to be seen/driven away; the seller's own site also carries the same car at £43,500. Exact current seller-photo/manual-gate and sold/reserved-overlay inspection could not be completed because the Classic Trader CDN images were not fetchable, so keep verification-pending and do not publish."
+      "vehicleIdentity": "2002 Noble M12 GTO | NOB61X | 30,000 miles | £43,500 | Vintage & Prestige Fine Motor Cars",
+      "note": "Rechecked 21 Sep 2026 against the exact Classic Trader advert and current Noble M12 inventory. Advert 268086 remains the sole current M12 offer at £43,500 from Vintage & Prestige Fine Motor Cars in Northampton; seller copy identifies NOB61X, 2002, RHD, five-speed manual and states 30,000 miles, with the car ready to be seen and driven away. Current availability/specification evidence is strong, but this run still could not visually inspect the exact 50-image seller gallery closely enough for the mandatory unavailable-overlay and manual-control photo gate. Keep verification-pending; do not publish.",
+      "lastCheckedAt": "2026-09-21T19:32:04Z"
     },
     {
       "modelId": "model-096",
