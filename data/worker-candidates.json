@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-22T11:36:32Z",
+  "updatedAt": "2026-09-22T11:45:00Z",
   "candidates": [
     {
       "modelId": "model-056",
@@ -2634,10 +2634,10 @@
       "url": "https://www.pistonheads.com/buy/listing/20029282",
       "source": "pistonheads",
       "discoveredAt": "2026-09-17T19:57:18Z",
-      "status": "rejected",
-      "lastCheckedAt": "2026-09-22T11:36:32Z",
+      "status": "unavailable",
+      "lastCheckedAt": "2026-09-22T11:45:00Z",
       "vehicleIdentity": "BMW E61 M5 Touring | £31,990 | 84,000 miles | James Paul Car Sales",
-      "note": "Current direct PistonHeads classified at £31,990, 84,000 miles, E61 Touring and SMG, UK dealer. The listing header identifies the car as 2006 while the description calls it 2007; model rules require 2007-2010. Keep unverified until the registration year is resolved from authoritative vehicle identity evidence."
+      "note": "Rechecked 22 Sep 2026 against the exact originating PistonHeads classified, not a search snippet. The retained advert still identifies the E61 M5 Touring at £31,990 / 84,000 miles with the factory SMG transmission and James Paul Car Sales, but the vehicle-history section now explicitly states: 'This car is no longer available for purchase.' That originating-advert status overrides the stale listing text, price and seller controls. The car therefore fails the hard current-availability gate and moves from verification-pending to unavailable. Do not infer that it was sold rather than withdrawn, and do not republish or alert it as live unless a genuinely fresh seller-origin advert is established."
     },
     {
       "modelId": "model-071",
@@ -2948,9 +2948,9 @@
       "url": "https://philipraby.co.uk/product/2004-porsche-996-40th-annversary",
       "source": "specialist-dealers",
       "discoveredAt": "2026-09-19T09:21:59Z",
-      "status": "rejected",
-      "note": "Current Philip Raby specialist-stock advert for 2004 Porsche 996 40th Anniversary no.1070 at £33,995, 53,200 miles and manual. The seller page is current with enquiry controls and states Porsche main-dealer history, a new clutch at 49,920 miles and a July 2026 service. Exact seller-gallery pixels were not inspected strongly enough for the mandatory SOLD/RESERVED/DEPOSIT TAKEN/UNDER OFFER overlay and manual-control visual gate, so keep verification-pending and do not publish.",
-      "lastCheckedAt": "2026-09-22T11:36:32Z",
+      "status": "unavailable",
+      "note": "Rechecked 22 Sep 2026 against Philip Raby Specialist Cars' authoritative live Cars For Sale inventory. The old direct product page for 2004 Porsche 996 40th Anniversary #1070 still renders and still contains historical 'in stock' wording, a £33,995 price, 53,200-mile figure and enquiry controls, but the dealer's current-stock page lists its complete available/reserved inventory and does not include this 40th Anniversary car. The current inventory also explicitly labels reserved stock, so a retained legacy product URL is not sufficient evidence of purchasability. Under the hard stale/recycled-advert rule and the evidence hierarchy that seller current inventory outranks retained product pages, mark #1070 unavailable. Do not assume it sold rather than being withdrawn, and only reactivate it if a fresh seller-origin current-stock entry or genuine relist appears.",
+      "lastCheckedAt": "2026-09-22T11:45:00Z",
       "vehicleIdentity": "2004 Porsche 996 40th Anniversary #1070 | 53,200 miles | £33,995 | Philip Raby Specialist Cars"
     },
     {
@@ -2958,9 +2958,9 @@
       "url": "https://philipraby.co.uk/product/2004-porsche-996-40th-anniversary",
       "source": "specialist-dealers",
       "discoveredAt": "2026-09-19T09:21:59Z",
-      "status": "rejected",
-      "note": "Current Philip Raby specialist-stock advert for 2004 Porsche 996 40th Anniversary no.1189 at £33,995, 65,000 miles and manual. The seller page is current with enquiry controls and documented service-history claims. Exact seller-gallery pixels were not inspected strongly enough for the mandatory SOLD/RESERVED/DEPOSIT TAKEN/UNDER OFFER overlay and manual-control visual gate, so keep verification-pending and do not publish.",
-      "lastCheckedAt": "2026-09-22T11:36:32Z",
+      "status": "unavailable",
+      "note": "Rechecked 22 Sep 2026 against Philip Raby Specialist Cars' authoritative live Cars For Sale inventory. The retained direct product page for 2004 Porsche 996 40th Anniversary #1189 still renders with £33,995, 65,000 miles, manual-transmission details and enquiry controls, but #1189 is absent from the dealer's current-stock page, which lists the dealer's actual available inventory and separately labels reserved cars. That current seller inventory is higher-authority evidence than a legacy product page that remains online. Under the hard stale/recycled-advert rule this candidate can no longer remain verification-pending and is marked unavailable. Do not infer a completed sale; treat it as withdrawn/unavailable unless a fresh seller-origin current advert is established later.",
+      "lastCheckedAt": "2026-09-22T11:45:00Z",
       "vehicleIdentity": "2004 Porsche 996 40th Anniversary #1189 | 65,000 miles | £33,995 | Philip Raby Specialist Cars"
     },
     {
