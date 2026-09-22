@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T02:35:37.726Z",
+  "generatedAt": "2026-09-22T02:56:51.423Z",
   "modelCount": 96,
   "sourceCount": 13,
   "jobCount": 1482,
@@ -4084,10 +4084,10 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T15:28:28Z",
+      "lastSearchedAt": "2026-09-22T02:45:20Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "eBay Tamora results were stale/ended or did not establish current availability strongly enough to retain."
+      "limitation": "eBay search primarily returned TVR parts/accessories or stale material rather than a current Tamora vehicle advert."
     },
     {
       "id": "model-019:autotrader:tvr-tamora",
@@ -4101,10 +4101,10 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T15:28:28Z",
+      "lastSearchedAt": "2026-09-22T02:45:20Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Auto Trader results were generic Tamora inventory/search pages rather than a direct current car-details advert."
+      "limitation": "Auto Trader search surfaced generic Tamora inventory rather than a fresh direct car-details advert; generic pages were rejected."
     },
     {
       "id": "model-019:pistonheads:tvr-tamora",
@@ -4118,12 +4118,10 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T15:28:28Z",
-      "lastResultCount": 1,
-      "candidateUrls": [
-        "https://www.pistonheads.com/buy/listing/20342293"
-      ],
-      "limitation": "Current PistonHeads advert retained: 2003 Tamora AS03 TAM, £24,995, 30,000 miles, manual, private seller in Chelmsford. PistonHeads current Tamora inventory also shows it. Listing image assets cache-missed, so overlay/manual-control visual verification remains incomplete."
+      "lastSearchedAt": "2026-09-22T02:45:20Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "A surfaced 2004 Tamora advert is explicitly MOT expired/no longer available for purchase; it was rejected. No fresh qualifying direct advert was retained."
     },
     {
       "id": "model-019:car-and-classic:tvr-tamora",
@@ -4137,10 +4135,10 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T15:28:28Z",
+      "lastSearchedAt": "2026-09-22T02:45:20Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Car & Classic Tamora results checked in this run were removed/sold or otherwise non-qualifying; no new current advert retained."
+      "limitation": "Car & Classic search produced no new direct current Tamora advert surviving stale/removed/duplicate filtering."
     },
     {
       "id": "model-019:collecting-cars:tvr-tamora",
@@ -4205,10 +4203,10 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T15:28:28Z",
+      "lastSearchedAt": "2026-09-22T02:45:20Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Gumtree search did not yield a direct current qualifying Tamora vehicle advert."
+      "limitation": "Gumtree search produced no direct current TVR Tamora advert that could be positively verified."
     },
     {
       "id": "model-019:911uk:tvr-tamora",
@@ -4273,10 +4271,10 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T15:28:28Z",
+      "lastSearchedAt": "2026-09-22T02:45:20Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Specialist search surfaced removed/sold Tamora pages and no new qualifying dealer-current advert."
+      "limitation": "Specialist-dealer search produced no distinct fresh current Tamora advert surviving duplicate/current-status filtering."
     },
     {
       "id": "model-020:facebook-groups:lotus-esprit-s4s",
@@ -4307,10 +4305,10 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T15:28:28Z",
+      "lastSearchedAt": "2026-09-22T02:45:20Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "eBay search yielded no plausible current qualifying 1995-1996 Esprit S4s advert."
+      "limitation": "eBay search returned parts, models, brochures or otherwise non-qualifying material rather than a current S4s vehicle advert."
     },
     {
       "id": "model-020:autotrader:lotus-esprit-s4s",
@@ -4324,10 +4322,10 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T15:28:28Z",
+      "lastSearchedAt": "2026-09-22T02:45:20Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Auto Trader search did not return a direct current 1995-1996 S4s car-details advert within the configured price rules."
+      "limitation": "Auto Trader surfaced generic Esprit inventory rather than a direct current S4s advert. Generic pages were rejected."
     },
     {
       "id": "model-020:pistonheads:lotus-esprit-s4s",
@@ -4341,10 +4339,10 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T15:28:28Z",
+      "lastSearchedAt": "2026-09-22T02:45:20Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "The current 1995 PistonHeads S4s advert 20862221 is £39,995, £5 below the configured £40,000 minimum, so it is not retained as a qualifying candidate and its existing candidate record is rejected."
+      "limitation": "One live 1995 S4s at £39,995 falls below the configured £40,000 minimum, while another qualifying-price car is marked deposit taken. Neither was retained."
     },
     {
       "id": "model-020:car-and-classic:lotus-esprit-s4s",
@@ -4358,10 +4356,10 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T15:28:28Z",
+      "lastSearchedAt": "2026-09-22T02:45:20Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Car & Classic search did not yield a qualifying current 1995-1996 S4s advert within the configured £40,000-£65,000 range."
+      "limitation": "Car & Classic search produced no fresh current Lotus Esprit S4s advert within the configured model rules."
     },
     {
       "id": "model-020:collecting-cars:lotus-esprit-s4s",
@@ -4426,10 +4424,10 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T15:28:28Z",
+      "lastSearchedAt": "2026-09-22T02:45:20Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Gumtree search yielded no direct current qualifying 1995-1996 Esprit S4s advert."
+      "limitation": "Gumtree search produced no direct current qualifying Lotus Esprit S4s advert."
     },
     {
       "id": "model-020:911uk:lotus-esprit-s4s",
@@ -4494,10 +4492,10 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T15:28:28Z",
+      "lastSearchedAt": "2026-09-22T02:45:20Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Specialist search surfaced a DMB car described as a 1994 Esprit S4 despite an S4s page title, at £39,995; it is outside the model year and price rules. No qualifying candidate retained."
+      "limitation": "Specialist-dealer search produced no distinct current Lotus Esprit S4s advert within the configured rules."
     },
     {
       "id": "model-021:facebook-groups:lotus-esprit-gt3",
@@ -6072,10 +6070,10 @@
       "priority": false,
       "cadenceHours": 24,
       "status": "searched",
-      "lastSearchedAt": "2026-09-19T20:52:49Z",
+      "lastSearchedAt": "2026-09-22T02:45:20Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public Facebook indexing exposed group or login surfaces rather than an inspectable current Lotus Exige S/S240 owner-sale advert."
+      "limitation": "Public indexed Facebook-group search produced no accessible current actual Lotus Exige S/S 240 advert URL."
     },
     {
       "id": "model-028:ebay:lotus-exige-s-s-240",
@@ -6244,10 +6242,10 @@
       "priority": false,
       "cadenceHours": 24,
       "status": "searched",
-      "lastSearchedAt": "2026-09-19T20:52:49Z",
+      "lastSearchedAt": "2026-09-22T02:45:20Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No direct current UK Lotus Exige S/S240 seller advert surfaced from FerrariChat public results."
+      "limitation": "FerrariChat public search produced no direct current UK Lotus Exige S/S 240 advert."
     },
     {
       "id": "model-028:lamborghini-talk:lotus-exige-s-s-240",
@@ -6261,10 +6259,10 @@
       "priority": false,
       "cadenceHours": 24,
       "status": "blocked",
-      "lastSearchedAt": "2026-09-19T20:52:49Z",
+      "lastSearchedAt": "2026-09-22T02:45:20Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "lamborghini-talk.com is blocked by robots.txt in the public web environment; no advert could be inspected from this source."
+      "limitation": "lamborghini-talk.com blocked automated public retrieval via robots.txt/access controls; no bypass was attempted."
     },
     {
       "id": "model-028:specialist-dealers:lotus-exige-s-s-240",
@@ -6295,10 +6293,10 @@
       "priority": false,
       "cadenceHours": 24,
       "status": "searched",
-      "lastSearchedAt": "2026-09-19T20:52:49Z",
+      "lastSearchedAt": "2026-09-22T02:45:20Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public Facebook indexing exposed group or login surfaces rather than an inspectable current Exige 240R owner-sale advert."
+      "limitation": "Public indexed Facebook-group search produced no accessible current actual Lotus Exige 240R advert URL."
     },
     {
       "id": "model-029:ebay:lotus-exige-240r",
@@ -6450,10 +6448,10 @@
       "priority": false,
       "cadenceHours": 24,
       "status": "searched",
-      "lastSearchedAt": "2026-09-19T20:52:49Z",
+      "lastSearchedAt": "2026-09-22T02:45:20Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No direct current 911UK owner-sale advert for a Lotus Exige 240R surfaced."
+      "limitation": "911UK search produced no fresh owner-sale Lotus Exige 240R thread with verified current availability."
     },
     {
       "id": "model-029:ferrarichat:lotus-exige-240r",
@@ -6467,10 +6465,10 @@
       "priority": false,
       "cadenceHours": 24,
       "status": "searched",
-      "lastSearchedAt": "2026-09-19T20:52:49Z",
+      "lastSearchedAt": "2026-09-22T02:45:20Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No direct current UK Lotus Exige 240R seller advert surfaced from FerrariChat public results."
+      "limitation": "FerrariChat public search produced no direct current UK Lotus Exige 240R advert."
     },
     {
       "id": "model-029:lamborghini-talk:lotus-exige-240r",
@@ -6484,10 +6482,10 @@
       "priority": false,
       "cadenceHours": 24,
       "status": "blocked",
-      "lastSearchedAt": "2026-09-19T20:52:49Z",
+      "lastSearchedAt": "2026-09-22T02:45:20Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "lamborghini-talk.com is blocked by robots.txt in the public web environment; no advert could be inspected from this source."
+      "limitation": "lamborghini-talk.com blocked automated public retrieval via robots.txt/access controls; no bypass was attempted."
     },
     {
       "id": "model-029:specialist-dealers:lotus-exige-240r",
@@ -6520,10 +6518,10 @@
       "priority": false,
       "cadenceHours": 24,
       "status": "searched",
-      "lastSearchedAt": "2026-09-19T21:50:32Z",
+      "lastSearchedAt": "2026-09-22T02:45:20Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public Facebook indexing exposed group/login surfaces rather than an inspectable current Exige Cup 240/Cup 260 sale advert."
+      "limitation": "Public indexed Facebook-group search produced no accessible current actual Lotus Exige Cup 240/Cup 260 advert URL."
     },
     {
       "id": "model-030:ebay:lotus-exige-cup-240-cup-260",
@@ -6675,10 +6673,10 @@
       "priority": false,
       "cadenceHours": 24,
       "status": "searched",
-      "lastSearchedAt": "2026-09-19T20:52:49Z",
+      "lastSearchedAt": "2026-09-22T02:45:20Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No direct current 911UK owner-sale advert for a road-registered Exige Cup 240 or Cup 260 surfaced."
+      "limitation": "911UK search produced no fresh owner-sale Lotus Exige Cup 240/Cup 260 thread with verified current availability."
     },
     {
       "id": "model-030:ferrarichat:lotus-exige-cup-240-cup-260",
@@ -6692,10 +6690,10 @@
       "priority": false,
       "cadenceHours": 24,
       "status": "searched",
-      "lastSearchedAt": "2026-09-19T21:50:32Z",
+      "lastSearchedAt": "2026-09-22T02:45:20Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "FerrariChat query executed; no inspectable current UK Exige Cup 240/Cup 260 seller advert was retained."
+      "limitation": "FerrariChat public search produced no direct current UK Lotus Exige Cup 240/Cup 260 advert."
     },
     {
       "id": "model-030:lamborghini-talk:lotus-exige-cup-240-cup-260",
@@ -6709,10 +6707,10 @@
       "priority": false,
       "cadenceHours": 24,
       "status": "blocked",
-      "lastSearchedAt": "2026-09-19T21:50:32Z",
+      "lastSearchedAt": "2026-09-22T02:45:20Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "lamborghini-talk.com was blocked by robots.txt in the public web environment, so this source could not be inspected and no result count beyond zero retained candidates is asserted."
+      "limitation": "lamborghini-talk.com blocked automated public retrieval via robots.txt/access controls; no bypass was attempted."
     },
     {
       "id": "model-030:specialist-dealers:lotus-exige-cup-240-cup-260",
@@ -9463,12 +9461,16 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T15:28:28Z",
-      "lastResultCount": 1,
+      "lastSearchedAt": "2026-09-22T02:45:20Z",
+      "lastResultCount": 5,
       "candidateUrls": [
-        "https://www.pistonheads.com/buy/listing/21083527"
+        "https://www.pistonheads.com/buy/listing/20963096",
+        "https://www.pistonheads.com/buy/listing/21031840",
+        "https://www.pistonheads.com/buy/listing/20915841",
+        "https://www.pistonheads.com/buy/listing/20839534",
+        "https://www.pistonheads.com/buy/listing/20843145"
       ],
-      "limitation": "Current PistonHeads advert retained: 2007 V8 Vantage 4.3, £34,995, 49,500 miles, six-speed manual, Wheelbase Bagshot in Bracknell. Seller stock also lists the exact car. Gallery is exposed but exact image pixels were not retrievable for the mandatory overlay/manual-control check."
+      "limitation": "Five direct current PistonHeads V8 Vantage manual adverts within the 2005-2010/£23k-£45k rules survived initial filtering. Four were already tracked; 20963096 is a fresh 2010 £39,995 / 33,000-mile manual lead. Exact gallery-pixel overlay/manual-control verification is incomplete, so none is newly published. An additional surfaced 2009 advert 20087108 is now explicitly unavailable and was excluded."
     },
     {
       "id": "model-042:car-and-classic:aston-martin-v8-vantage-4-3-4-7-manual",
@@ -9550,10 +9552,10 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T15:28:28Z",
+      "lastSearchedAt": "2026-09-22T02:45:20Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Gumtree search yielded no direct current qualifying V8 Vantage 4.3/4.7 manual advert."
+      "limitation": "Gumtree search produced no direct current qualifying 2005-2010 Aston Martin V8 Vantage manual advert with sufficiently strong status evidence."
     },
     {
       "id": "model-042:911uk:aston-martin-v8-vantage-4-3-4-7-manual",
@@ -9618,12 +9620,10 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T15:28:28Z",
-      "lastResultCount": 1,
-      "candidateUrls": [
-        "https://aston.co.uk/cars-for-sale/aston-martin/v8-vantage/car2721"
-      ],
-      "limitation": "Aston Workshop's dealer-direct current page retained: reference AW051123, 2007 V8 Vantage 4.3 manual, £36,950, 28,242 miles, RHD. The page exposes a large gallery and active enquiry controls, but image assets cache-missed, so visual overlay/manual-control verification remains incomplete."
+      "lastSearchedAt": "2026-09-22T02:45:20Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Specialist-dealer search did not expose a distinct seller-direct current-stock URL strong enough to add beyond the PistonHeads adverts handled by the dedicated source job."
     },
     {
       "id": "model-043:facebook-groups:aston-martin-v8-vantage-n400-manual",
@@ -9671,10 +9671,10 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T15:28:28Z",
+      "lastSearchedAt": "2026-09-22T02:45:20Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Auto Trader search did not yield a direct current qualifying N400 manual car-details advert."
+      "limitation": "Auto Trader search produced no direct current qualifying V8 Vantage N400 manual car-details advert; generic or wrong-variant pages were rejected."
     },
     {
       "id": "model-043:pistonheads:aston-martin-v8-vantage-n400-manual",
@@ -12634,10 +12634,10 @@
       "priority": true,
       "cadenceHours": 3,
       "status": "searched",
-      "lastSearchedAt": "2026-09-21T18:55:58Z",
+      "lastSearchedAt": "2026-09-22T02:45:20Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public web query executed; no direct current qualifying UK advert survived filtering."
+      "limitation": "Collecting Cars search did not produce an active qualifying Z4 M Coupe sale; completed/historical auction material was rejected."
     },
     {
       "id": "model-056:bonhams-cars:bmw-z4-m-coupe",
@@ -12668,10 +12668,10 @@
       "priority": true,
       "cadenceHours": 3,
       "status": "searched",
-      "lastSearchedAt": "2026-09-21T18:55:58Z",
+      "lastSearchedAt": "2026-09-22T02:45:20Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public web query executed; only generic BMW Z4 search/category material surfaced, not a direct current qualifying UK Z4 M Coupe advert."
+      "limitation": "Classic Trader search produced no fresh direct current UK BMW Z4 M Coupe advert surviving current-status and duplicate filtering."
     },
     {
       "id": "model-056:gumtree:bmw-z4-m-coupe",
@@ -13942,10 +13942,10 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T14:48:10Z",
+      "lastSearchedAt": "2026-09-22T02:45:20Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "PistonHeads search did not surface a specific current qualifying UK C5 Z06 advert."
+      "limitation": "PistonHeads search produced generic Corvette inventory rather than a fresh qualifying direct C5 Z06 advert; generic pages were rejected."
     },
     {
       "id": "model-062:car-and-classic:chevrolet-corvette-c5-z06",
@@ -14027,10 +14027,10 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T14:48:10Z",
+      "lastSearchedAt": "2026-09-22T02:45:20Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Gumtree search did not surface a specific current qualifying UK C5 Z06 advert."
+      "limitation": "Gumtree search produced no direct current UK Corvette C5 Z06 advert that could be positively verified."
     },
     {
       "id": "model-062:911uk:chevrolet-corvette-c5-z06",
@@ -14095,10 +14095,10 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T14:48:10Z",
+      "lastSearchedAt": "2026-09-22T02:45:20Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "An HPC Classics C5 Z06 product page remains online at £27,995 / 47,950 miles, but the car is absent from HPC's current-stock page crawled today and the retained description cites MOT only to August 2024. Seller inventory is higher authority, so the page was treated as stale and not retained."
+      "limitation": "A retained HPC C5 Z06 product page still renders, but HPC's current-stock page no longer lists that Corvette. Under the stale-advert rule it was not retained as a current candidate."
     },
     {
       "id": "model-063:facebook-groups:chevrolet-corvette-c6-z06",
@@ -15787,10 +15787,10 @@
       "priority": true,
       "cadenceHours": 3,
       "status": "searched",
-      "lastSearchedAt": "2026-09-21T18:55:58Z",
+      "lastSearchedAt": "2026-09-22T02:45:20Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public web query executed; only a generic Ford Focus category page surfaced, not a direct current qualifying Mk1 RS advert."
+      "limitation": "Classic Trader search produced no fresh direct current UK Focus RS Mk1 advert surviving stale/duplicate filtering."
     },
     {
       "id": "model-070:gumtree:ford-focus-rs-mk1",
@@ -17538,10 +17538,10 @@
       "priority": true,
       "cadenceHours": 3,
       "status": "searched",
-      "lastSearchedAt": "2026-09-21T18:55:58Z",
+      "lastSearchedAt": "2026-09-22T02:45:20Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public web query executed; no direct current qualifying ST500 advert survived filtering."
+      "limitation": "Collecting Cars search found no active current Focus ST500 sale; historical/completed auction results were excluded."
     },
     {
       "id": "model-076:bonhams-cars:ford-focus-st500",
@@ -18354,10 +18354,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-21T20:31:32Z",
+      "lastSearchedAt": "2026-09-22T02:45:20Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "eBay UK query executed; no current direct Clio 182 Trophy advert met the strict sub-30,000-mile and maximum-two-total-owner rules."
+      "limitation": "eBay results were ended/stale or non-qualifying. The surfaced Trophy example had very high mileage and an ended/relisted history, so no current qualifying advert was retained."
     },
     {
       "id": "model-078:autotrader:renault-clio-182-trophy",
@@ -18422,10 +18422,10 @@
       "priority": true,
       "cadenceHours": 3,
       "status": "searched",
-      "lastSearchedAt": "2026-09-21T18:55:58Z",
+      "lastSearchedAt": "2026-09-22T02:45:20Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public web query executed; indexed results were completed/historical auctions and/or failed the strict mileage/owner rules, so no current advert URL was retained."
+      "limitation": "Collecting Cars search found no active current Clio 182 Trophy meeting the strict mileage/owner rules; historical sales were rejected."
     },
     {
       "id": "model-078:bonhams-cars:renault-clio-182-trophy",
@@ -18473,10 +18473,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-21T20:31:32Z",
+      "lastSearchedAt": "2026-09-22T02:45:20Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Gumtree public query executed; no plausible current direct Clio 182 Trophy advert met the strict mileage and total-owner rules."
+      "limitation": "Gumtree search produced no direct current Clio 182 Trophy advert satisfying the under-30,000-mile and maximum-two-owner rules."
     },
     {
       "id": "model-078:911uk:renault-clio-182-trophy",
@@ -18541,10 +18541,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-21T20:31:32Z",
+      "lastSearchedAt": "2026-09-22T02:45:20Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Specialist-dealer search executed. Surfaced Trophy stock was sold and/or materially above the strict mileage/ownership caps; no qualifying current advert retained."
+      "limitation": "Specialist-dealer search found a Motorspark Trophy example marked SOLD and no other current qualifying under-30,000-mile, maximum-two-owner car."
     },
     {
       "id": "model-079:facebook-groups:renault-clio-williams-2",
@@ -20122,10 +20122,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-21T20:31:32Z",
+      "lastSearchedAt": "2026-09-22T02:45:20Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "eBay UK query executed. Surfaced P1 vehicle material included a completed auction and higher-mileage/project cars; none met current availability, mileage, ownership and exceptional-example rules."
+      "limitation": "eBay search produced no direct current Subaru Impreza P1 advert satisfying the under-30,000-mile and maximum-two-owner rules."
     },
     {
       "id": "model-082:autotrader:subaru-impreza-p1",
@@ -20156,10 +20156,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-21T20:31:32Z",
+      "lastSearchedAt": "2026-09-22T02:45:20Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "PistonHeads query executed. Surfaced direct P1 adverts were over 30,000 miles, over the owner cap and/or explicitly no longer available; none qualified."
+      "limitation": "PistonHeads P1 results inspected were unavailable or exceeded the configured mileage/owner limits; no candidate retained."
     },
     {
       "id": "model-082:car-and-classic:subaru-impreza-p1",
@@ -20173,10 +20173,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-21T20:31:32Z",
+      "lastSearchedAt": "2026-09-22T02:45:20Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Car & Classic query executed. Direct P1 results found were above the strict 29,999-mile ceiling or otherwise non-qualifying, so none were retained."
+      "limitation": "Car & Classic surfaced P1 auction/historical stock, including a 40,180-mile example, but no current fixed-price advert within the strict under-30,000-mile and maximum-two-owner rules."
     },
     {
       "id": "model-082:collecting-cars:subaru-impreza-p1",
@@ -20241,10 +20241,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-21T20:31:32Z",
+      "lastSearchedAt": "2026-09-22T02:45:20Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Gumtree query executed. The surfaced P1 was tied to an already completed September auction and exceeded the mileage ceiling; no current candidate retained."
+      "limitation": "Gumtree surfaced auction/historical P1 material above the mileage cap; no qualifying current direct advert was retained."
     },
     {
       "id": "model-082:911uk:subaru-impreza-p1",
@@ -20309,10 +20309,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-21T20:31:32Z",
+      "lastSearchedAt": "2026-09-22T02:45:20Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Specialist-dealer search executed; no current exceptional P1 with verified sub-30,000 mileage and no more than two total owners was retained."
+      "limitation": "Specialist-dealer search found no current Subaru Impreza P1 meeting the strict under-30,000-mile and maximum-two-owner rules."
     },
     {
       "id": "model-083:facebook-groups:subaru-impreza-rb5",
@@ -22412,10 +22412,10 @@
       "priority": true,
       "cadenceHours": 3,
       "status": "searched",
-      "lastSearchedAt": "2026-09-21T18:55:58Z",
+      "lastSearchedAt": "2026-09-22T02:45:20Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public web query executed; indexed results were historical/completed and/or exceeded the strict 30,000-mile rule, so no current candidate was retained."
+      "limitation": "Collecting Cars surfaced historical/completed TME material, including a 70,000-plus-mile 2025 sale; no active qualifying sale was retained."
     },
     {
       "id": "model-088:bonhams-cars:mitsubishi-evo-vi-tommi-makinen-edition",
@@ -22446,10 +22446,10 @@
       "priority": true,
       "cadenceHours": 3,
       "status": "searched",
-      "lastSearchedAt": "2026-09-21T18:55:58Z",
+      "lastSearchedAt": "2026-09-22T02:45:20Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public web query executed. The direct TME result found was located in Switzerland, not the UK, so it was rejected before verification."
+      "limitation": "Classic Trader search produced no current UK Evo VI Tommi Makinen Edition advert satisfying the configured under-30,000-mile and maximum-two-owner rules."
     },
     {
       "id": "model-088:gumtree:mitsubishi-evo-vi-tommi-makinen-edition",
@@ -25044,10 +25044,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-21T20:31:32Z",
+      "lastSearchedAt": "2026-09-22T02:45:20Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "PistonHeads query executed. Current-looking E39 M5 adverts were above the 50,000-mile cap; the low-mileage listing 16225032 explicitly says MOT expired and no longer available, so no candidate retained."
+      "limitation": "PistonHeads current E39 M5 adverts surfaced were above the 50,000-mile cap, POA, sold or otherwise non-qualifying. No candidate retained."
     },
     {
       "id": "model-097:car-and-classic:bmw-e39-m5-manual-uk",
@@ -25131,10 +25131,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-21T19:32:04Z",
+      "lastSearchedAt": "2026-09-22T02:45:20Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Gumtree surfaced a 2001 E39 M5 at about 148,000 miles, above the configured 50,000-mile maximum; no qualifying current advert was retained."
+      "limitation": "Gumtree surfaced a current 2001 E39 M5 manual around £12,750 with 148,000 miles. It fails both the configured £25,000 minimum and 50,000-mile cap, so it was rejected."
     },
     {
       "id": "model-097:911uk:bmw-e39-m5-manual-uk",
@@ -25233,10 +25233,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-21T19:32:04Z",
+      "lastSearchedAt": "2026-09-22T02:45:20Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "eBay item 237074439512 was current-looking but cross-source mileage is about 148,000 miles, above the 50,000-mile maximum; no qualifying URL was retained."
+      "limitation": "eBay search executed. Surfaced E39 M5 material did not establish a current UK 1998-2003 six-speed manual advert within the configured £25,000-£60,000 band and 50,000-mile cap; no candidate retained."
     },
     {
       "id": "model-097:autotrader:bmw-m5-e39-6-speed-manual-uk",
@@ -25267,10 +25267,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-21T20:31:32Z",
+      "lastSearchedAt": "2026-09-22T02:45:20Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "PistonHeads query executed. Current-looking E39 M5 adverts were above the 50,000-mile cap; the low-mileage listing 16225032 explicitly says MOT expired and no longer available, so no candidate retained."
+      "limitation": "PistonHeads search found no current UK E39 M5 six-speed manual within the configured 50,000-mile cap and price band."
     },
     {
       "id": "model-097:car-and-classic:bmw-m5-e39-6-speed-manual-uk",
@@ -25354,10 +25354,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-21T20:31:32Z",
+      "lastSearchedAt": "2026-09-22T02:45:20Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Gumtree query executed. The surfaced E39 M5 was about 148,000 miles and £12,750, failing model-097 mileage and configured price rules."
+      "limitation": "Gumtree surfaced the same 2001 E39 M5 manual around £12,750 / 148,000 miles; it fails the model price and mileage rules."
     },
     {
       "id": "model-097:911uk:bmw-m5-e39-6-speed-manual-uk",
