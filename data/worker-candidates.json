@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-22T14:31:21Z",
+  "updatedAt": "2026-09-22T15:59:35Z",
   "candidates": [
     {
       "modelId": "model-056",
@@ -341,10 +341,10 @@
       "url": "https://www.pistonheads.com/buy/listing/20971451",
       "source": "pistonheads",
       "discoveredAt": "2026-09-10T06:29:37Z",
-      "status": "verification-pending",
+      "status": "rejected",
       "note": "Rechecked 19 Sep 2026. The direct PistonHeads advert is still rendered at £99,995, 18,460 miles, manual and in Buckinghamshire, with live seller-contact controls. Five exact seller photographs were visually inspected: no SOLD/RESERVED/DEPOSIT/UNDER-OFFER overlay was visible, and a cabin photograph clearly shows an H-pattern manual lever and three pedals. However, the advert states one previous owner while also saying the car was imported from Japan in 2009 and has had one UK owner since import; pre-import Japanese ownership is not evidenced, so the model-088 maximum-two-total-owner rule cannot be verified. In addition, Auto Torque's current PistonHeads seller-stock page now shows only one Subaru and does not show this TME, creating a current-inventory contradiction. Keep verification-pending and do not publish.",
-      "lastCheckedAt": "2026-09-22T01:17:49Z",
-      "vehicleIdentity": "2000 Mitsubishi Lancer Evolution VI Tommi Makinen Edition | Passion Red | 18,460 miles | £99,995 | Auto Torque"
+      "lastCheckedAt": "2026-09-22T15:59:35Z",
+      "vehicleIdentity": "2000 Mitsubishi Lancer Evolution VI Tommi Makinen Edition Special Colour Package | 18,460 miles | £99,995 | Auto Torque"
     },
     {
       "modelId": "model-018",
@@ -3479,6 +3479,16 @@
       "lastCheckedAt": "2026-09-22T14:31:21Z",
       "vehicleIdentity": "2011 BMW 1M Coupe LJ11EZV | Black Sapphire | £47,995 | 47,000 miles | 6-speed manual | Bonnevilles",
       "note": "Rechecked 22 Sep 2026 on the exact Car & Classic advert. It remains explicitly For Sale at £47,995, 47,000 miles, six-speed manual, registration LJ11EZV, UK dealer Bonnevilles of Berkshire, with two owners from new and a 48-photo gallery. The price is within the model-072 target band and current advert controls are present. Exact gallery pixels were not fully inspected for unavailable overlays/manual-control evidence in this run, and the seller-direct vehicle-detail page was not independently recovered, so keep verification-pending and do not publish."
+    },
+    {
+      "modelId": "model-081",
+      "url": "https://www.carandclassic.com/car/C2174522",
+      "source": "car-and-classic",
+      "discoveredAt": "2026-09-22T15:59:35Z",
+      "status": "rejected",
+      "note": "Discovered and verified 22 Sep 2026: current Car & Classic advert is For Sale at £54,995, 13,300 miles, UK dealer CC Drivers Lounge and six-speed manual. The exact current PistonHeads cross-post (listing 20913915) explicitly reports 6 previous owners. That already exceeds model-081's maximum-two-total-owner rule, so this car is rejected without publication; no duplicate cross-post candidate was added.",
+      "lastCheckedAt": "2026-09-22T15:59:35Z",
+      "vehicleIdentity": "2009 Renault Megane R26.R | 13,300 miles | £54,995 | CC Drivers Lounge"
     }
   ]
 }
