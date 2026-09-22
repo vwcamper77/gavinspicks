@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-22T02:45:20Z",
+  "updatedAt": "2026-09-22T03:49:06Z",
   "candidates": [
     {
       "modelId": "model-056",
@@ -26,7 +26,7 @@
       "discoveredAt": "2026-09-09T22:34:18Z",
       "status": "rejected",
       "note": "Rechecked 18 Sep 2026: the direct Car & Classic advert is currently For Sale at £21,995, 73,800 miles, RHD six-speed manual, registration SP07UPS, with Speedbroker and a 34-photo seller gallery. Seller states five previous owners and MOT to June 2027. Current status/specification are strong, but this run still could not visually inspect the exact gallery pixels closely enough for mandatory SOLD/RESERVED overlay and manual-control evidence. Keep verification-pending; do not publish.",
-      "lastCheckedAt": "2026-09-19T21:50:32Z",
+      "lastCheckedAt": "2026-09-22T03:49:06Z",
       "vehicleIdentity": "2007 BMW Z4 M Coupe | SP07UPS | 73,800 miles | £21,995 | Speedbroker Ltd"
     },
     {
@@ -477,8 +477,8 @@
       "discoveredAt": "2026-09-10T10:10:00Z",
       "status": "verification-pending",
       "note": "Rechecked 19 Sep 2026: the actual PistonHeads advert has reappeared as a live/current 1997 Lotus Esprit GT3 at £47,000, 47,000 miles, manual, Buckingham UK, with seller contact controls and a 19-photo gallery. This reverses the earlier unavailable state. The gallery image assets could not be fetched closely enough in this run to complete the mandatory unavailable-overlay and manual-control visual checks, so restore to verification-pending only; do not publish.",
-      "lastCheckedAt": "2026-09-20T16:14:21Z",
-      "vehicleIdentity": "1997 Lotus Esprit GT3 | £47,000 | 47,000 miles | manual | private seller Buckingham"
+      "lastCheckedAt": "2026-09-22T03:49:06Z",
+      "vehicleIdentity": "1997 Lotus Esprit GT3 | £47,000 | 47,000 miles | manual | Buckingham private seller"
     },
     {
       "modelId": "model-022",
@@ -2162,7 +2162,7 @@
       "discoveredAt": "2026-09-15T10:16:24Z",
       "status": "rejected",
       "note": "Rechecked 15 Sep 2026: Classic Trader and Hexagon Classics' own current-stock page both show this 2003 E46 M3 Coupe at £99,995 with 3,100 miles, factory 6-speed manual, RHD and current London showroom availability. PistonHeads independently cross-posts it today and states one previous owner. Exact Classic Trader image assets returned cache misses, so the required SOLD/RESERVED-overlay and cabin/manual-control visual inspection is incomplete; keep verification-pending and do not publish.",
-      "lastCheckedAt": "2026-09-19T07:42:35Z",
+      "lastCheckedAt": "2026-09-22T03:49:06Z",
       "vehicleIdentity": "2003 BMW E46 M3 Coupe manual | 3,100 miles | £99,995 | Hexagon Classics"
     },
     {
@@ -3348,6 +3348,16 @@
       "lastCheckedAt": "2026-09-22T02:45:20Z",
       "vehicleIdentity": "2010 Aston Martin V8 Vantage 4.7 Coupe | 33,000 miles | £39,995 | Smith Sports and Performance",
       "note": "New current direct advert found 22 Sep 2026. PistonHeads currently shows a 2010 V8 Vantage Coupe at £39,995, 33,000 miles, 4 previous owners, 4.7L, six-speed manual, valid MOT and active Smith Sports and Performance seller controls in Melton Mowbray, with a 43-photo gallery. Year, UK location, fixed price and advertised manual specification fit model-042. Exact seller-gallery pixels were not sufficiently inspectable this run for the mandatory SOLD/RESERVED/DEPOSIT/UNDER-OFFER overlay and manual gear-selector check, so keep verification-pending and do not publish."
+    },
+    {
+      "modelId": "model-044",
+      "url": "https://www.pistonheads.com/buy/listing/19780719",
+      "source": "pistonheads",
+      "discoveredAt": "2026-09-22T03:49:06Z",
+      "status": "rejected",
+      "lastCheckedAt": "2026-09-22T03:49:06Z",
+      "vehicleIdentity": "2012 Aston Martin V8 Vantage N420 | £38,925 | 55,000 miles | manual",
+      "note": "New 22 Sep 2026 search hit: direct PistonHeads advert is current at £38,925 / 55,000 miles / manual. It is a 2012 N420, outside the configured model-044 2010-only year rule, and is also below the configured £40,000 minimum, so it is rejected and not published."
     }
   ]
 }
