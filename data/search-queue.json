@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T10:12:42.061Z",
+  "generatedAt": "2026-09-22T10:45:16.410Z",
   "modelCount": 96,
   "sourceCount": 13,
   "jobCount": 1482,
@@ -11864,10 +11864,10 @@
       "priority": false,
       "cadenceHours": 24,
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T05:12:01Z",
+      "lastSearchedAt": "2026-09-22T10:34:19Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public web search of Facebook groups returned no directly verifiable current whole-car UK 993 Carrera/Carrera S manual advert."
+      "limitation": "Search returned forum/social discussions or generic pages rather than a verifiable current Porsche 993 sale advert; no candidate URL was retained."
     },
     {
       "id": "model-053:ebay:porsche-993-carrera-carrera-s-manual-coupe-cabriolet-targa",
@@ -12036,10 +12036,10 @@
       "priority": false,
       "cadenceHours": 24,
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T05:12:01Z",
+      "lastSearchedAt": "2026-09-22T10:34:19Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "FerrariChat search executed. No directly verifiable current UK 993 Carrera/Carrera S manual advert was retained."
+      "limitation": "Search returned forum/social discussions or generic pages rather than a verifiable current Porsche 993 sale advert; no candidate URL was retained."
     },
     {
       "id": "model-053:lamborghini-talk:porsche-993-carrera-carrera-s-manual-coupe-cabriolet-targa",
@@ -12053,10 +12053,10 @@
       "priority": false,
       "cadenceHours": 24,
       "status": "blocked",
-      "lastSearchedAt": "2026-09-20T05:12:01Z",
+      "lastSearchedAt": "2026-09-22T10:34:19Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "lamborghini-talk.com is blocked by robots.txt in the public-web fetch/search path for this run; no candidate URL could be verified from that source."
+      "limitation": "Public web search was blocked by robots.txt for lamborghini-talk.com; no current advert URL was collected."
     },
     {
       "id": "model-053:specialist-dealers:porsche-993-carrera-carrera-s-manual-coupe-cabriolet-targa",
@@ -12089,10 +12089,10 @@
       "priority": false,
       "cadenceHours": 24,
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T05:12:01Z",
+      "lastSearchedAt": "2026-09-22T10:34:19Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public web search of Facebook groups returned no directly verifiable current whole-car BMW Z3 M Coupe S50 advert."
+      "limitation": "Search returned forum/social pages but no verifiable current BMW Z3 M Coupe S50 sale advert; no candidate URL was retained."
     },
     {
       "id": "model-054:ebay:bmw-z3-m-coupe-s50",
@@ -12242,10 +12242,10 @@
       "priority": false,
       "cadenceHours": 24,
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T05:12:01Z",
+      "lastSearchedAt": "2026-09-22T10:34:19Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "911UK search executed. No plausible current whole-car BMW Z3 M Coupe S50 advert was retained."
+      "limitation": "Search returned forum/social pages but no verifiable current BMW Z3 M Coupe S50 sale advert; no candidate URL was retained."
     },
     {
       "id": "model-054:ferrarichat:bmw-z3-m-coupe-s50",
@@ -12550,10 +12550,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-22T03:49:06Z",
+      "lastSearchedAt": "2026-09-22T10:34:19Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "eBay UK query executed; no fresh direct current Z4 M Coupe item URL survived parts/category/stale filtering."
+      "limitation": "Search returned parts, toys, or non-target results rather than a qualifying current Z4 M Coupe advert; no candidate URL was retained."
     },
     {
       "id": "model-056:autotrader:bmw-z4-m-coupe",
@@ -12567,10 +12567,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-22T03:49:06Z",
+      "lastSearchedAt": "2026-09-22T10:34:19Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Auto Trader query returned the generic Z4 M Coupe inventory page rather than a direct car-details advert; generic search/category pages were rejected before verification."
+      "limitation": "Search returned Auto Trader category/search pages rather than a qualifying direct car-details advert; generic pages were excluded."
     },
     {
       "id": "model-056:pistonheads:bmw-z4-m-coupe",
@@ -12584,12 +12584,14 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-22T03:49:06Z",
-      "lastResultCount": 1,
+      "lastSearchedAt": "2026-09-22T10:34:19Z",
+      "lastResultCount": 3,
       "candidateUrls": [
-        "https://www.pistonheads.com/buy/listing/20952644"
+        "https://www.pistonheads.com/buy/listing/20626756",
+        "https://www.pistonheads.com/buy/listing/20952644",
+        "https://www.pistonheads.com/buy/listing/20766605"
       ],
-      "limitation": "PistonHeads direct advert 20952644 remains live at £17,500 / 96,615 miles / manual and is already tracked/rejected below the configured £23,000 minimum. Listing 18409358 was explicitly no longer available and was discarded; the generic Z4M inventory page was not retained."
+      "limitation": "Search surfaced three plausible current direct adverts already tracked in worker candidates; a fourth tracked advert, listing 18231276, now explicitly says it is no longer available and was excluded from candidateUrls."
     },
     {
       "id": "model-056:car-and-classic:bmw-z4-m-coupe",
@@ -12603,12 +12605,12 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-22T03:49:06Z",
+      "lastSearchedAt": "2026-09-22T10:34:19Z",
       "lastResultCount": 1,
       "candidateUrls": [
-        "https://www.carandclassic.com/car/C2127428"
+        "https://www.carandclassic.com/car/C2192731"
       ],
-      "limitation": "Car & Classic C2127428 remains a current direct advert at £21,995 / 73,800 miles / RHD six-speed manual, but the asking price is below the configured model-056 £23,000 minimum; already tracked/rejected. Historical auction result C1629633 was discarded."
+      "limitation": "One new plausible current direct advert survived initial discovery filters. It remains verification-pending because gallery/manual-control evidence was not strong enough for publication."
     },
     {
       "id": "model-056:collecting-cars:bmw-z4-m-coupe",
@@ -12673,10 +12675,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-22T03:49:06Z",
+      "lastSearchedAt": "2026-09-22T10:34:19Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Gumtree query executed; no direct current qualifying Z4 M Coupe advert surfaced."
+      "limitation": "Search returned wrong-model or non-qualifying Gumtree results rather than a current Z4 M Coupe advert; no candidate URL was retained."
     },
     {
       "id": "model-056:911uk:bmw-z4-m-coupe",
@@ -16350,10 +16352,10 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T23:31:00Z",
+      "lastSearchedAt": "2026-09-22T10:34:19Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public web search executed; surfaced eBay M5 Touring listing 336681759881 ended on 20 July 2026, so it was rejected as non-current."
+      "limitation": "Search returned parts, unrelated 5 Series cars, replicas, or other non-target results; no current BMW M5 E61 Touring 5.0 V10 SMG advert was retained."
     },
     {
       "id": "model-071:autotrader:bmw-m5-touring-e61-5-0-v10-smg",
@@ -16471,10 +16473,10 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T23:31:00Z",
+      "lastSearchedAt": "2026-09-22T10:34:19Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public web search executed; no plausible current direct E61 M5 Touring V10 SMG advert was established."
+      "limitation": "Search returned parts, unrelated 5 Series cars, replicas, or other non-target results; no current BMW M5 E61 Touring 5.0 V10 SMG advert was retained."
     },
     {
       "id": "model-071:911uk:bmw-m5-touring-e61-5-0-v10-smg",
@@ -17313,10 +17315,10 @@
       "priority": true,
       "cadenceHours": 3,
       "status": "searched",
-      "lastSearchedAt": "2026-09-22T01:02:23Z",
+      "lastSearchedAt": "2026-09-22T10:34:19Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Collecting Cars query executed; no active current qualifying fixed-price TT quattro Sport advert survived filtering; completed/historical auction material was rejected."
+      "limitation": "Search returned no current direct Audi TT quattro Sport advert suitable for verification; historical/completed auction and generic pages were excluded."
     },
     {
       "id": "model-075:bonhams-cars:audi-tt-quattro-sport",
@@ -17347,10 +17349,10 @@
       "priority": true,
       "cadenceHours": 3,
       "status": "searched",
-      "lastSearchedAt": "2026-09-22T01:02:23Z",
+      "lastSearchedAt": "2026-09-22T10:34:19Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Classic Trader query executed; no distinct current UK genuine Mk1 TT quattro Sport actual advert survived filtering."
+      "limitation": "Search returned no current direct Audi TT quattro Sport advert suitable for verification; historical/completed auction and generic pages were excluded."
     },
     {
       "id": "model-075:gumtree:audi-tt-quattro-sport",
@@ -17551,10 +17553,10 @@
       "priority": true,
       "cadenceHours": 3,
       "status": "searched",
-      "lastSearchedAt": "2026-09-22T01:02:23Z",
+      "lastSearchedAt": "2026-09-22T10:34:19Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Bonhams Cars query executed; no current direct qualifying ST500 advert with a fixed eligible asking price was retained."
+      "limitation": "Search returned no current direct Ford Focus ST500 advert suitable for verification; historical/completed auction and generic pages were excluded."
     },
     {
       "id": "model-076:classic-trader:ford-focus-st500",
@@ -17568,10 +17570,10 @@
       "priority": true,
       "cadenceHours": 3,
       "status": "searched",
-      "lastSearchedAt": "2026-09-22T02:10:50Z",
+      "lastSearchedAt": "2026-09-22T10:34:19Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search executed; no plausible current direct advert URL survived pre-verification filtering."
+      "limitation": "Search returned no current direct Ford Focus ST500 advert suitable for verification; historical/completed auction and generic pages were excluded."
     },
     {
       "id": "model-076:gumtree:ford-focus-st500",
@@ -17755,10 +17757,10 @@
       "priority": false,
       "cadenceHours": 12,
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T17:27:37Z",
+      "lastSearchedAt": "2026-09-22T10:34:19Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Results were completed/historical auctions or non-target cars; no active qualifying advert retained."
+      "limitation": "Search returned historical/completed auction pages, unrelated cars, or no current direct advert for the specified Focus variant; no candidate URL was retained."
     },
     {
       "id": "model-077:bonhams-cars:ford-focus-st170-under-50000-miles-low-owners",
@@ -17772,10 +17774,10 @@
       "priority": false,
       "cadenceHours": 12,
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T17:27:37Z",
+      "lastSearchedAt": "2026-09-22T10:34:19Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No active current qualifying advert survived filtering; historical/completed material was excluded."
+      "limitation": "Search returned historical/completed auction pages, unrelated cars, or no current direct advert for the specified Focus variant; no candidate URL was retained."
     },
     {
       "id": "model-077:classic-trader:ford-focus-st170-under-50000-miles-low-owners",
@@ -17789,10 +17791,10 @@
       "priority": false,
       "cadenceHours": 12,
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T17:27:37Z",
+      "lastSearchedAt": "2026-09-22T10:34:19Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Results were expired/historical or otherwise not a current qualifying UK advert."
+      "limitation": "Search returned historical/completed auction pages, unrelated cars, or no current direct advert for the specified Focus variant; no candidate URL was retained."
     },
     {
       "id": "model-077:gumtree:ford-focus-st170-under-50000-miles-low-owners",
@@ -17976,10 +17978,10 @@
       "priority": false,
       "cadenceHours": 12,
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T17:27:37Z",
+      "lastSearchedAt": "2026-09-22T10:34:19Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Results were completed/historical auctions or non-target cars; no active qualifying advert retained."
+      "limitation": "Search returned historical/completed auction pages, unrelated cars, or no current direct advert for the specified Focus variant; no candidate URL was retained."
     },
     {
       "id": "model-077:bonhams-cars:ford-focus-st170-estate-under-50000-miles-low-owners",
@@ -17993,10 +17995,10 @@
       "priority": false,
       "cadenceHours": 12,
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T17:27:37Z",
+      "lastSearchedAt": "2026-09-22T10:34:19Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No active current qualifying advert survived filtering; historical/completed material was excluded."
+      "limitation": "Search returned historical/completed auction pages, unrelated cars, or no current direct advert for the specified Focus variant; no candidate URL was retained."
     },
     {
       "id": "model-077:classic-trader:ford-focus-st170-estate-under-50000-miles-low-owners",
@@ -18010,10 +18012,10 @@
       "priority": false,
       "cadenceHours": 12,
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T17:27:37Z",
+      "lastSearchedAt": "2026-09-22T10:34:19Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Results were expired/historical or otherwise not a current qualifying UK advert."
+      "limitation": "Search returned historical/completed auction pages, unrelated cars, or no current direct advert for the specified Focus variant; no candidate URL was retained."
     },
     {
       "id": "model-077:gumtree:ford-focus-st170-estate-under-50000-miles-low-owners",
@@ -18197,10 +18199,10 @@
       "priority": false,
       "cadenceHours": 12,
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T17:27:37Z",
+      "lastSearchedAt": "2026-09-22T10:34:19Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Results were completed/historical auctions or non-target cars; no active qualifying advert retained."
+      "limitation": "Search returned historical/completed auction pages, unrelated cars, or no current direct advert for the specified Focus variant; no candidate URL was retained."
     },
     {
       "id": "model-077:bonhams-cars:ford-focus-st225-st2-st3-under-50000-miles-low-owners",
@@ -18214,10 +18216,10 @@
       "priority": false,
       "cadenceHours": 12,
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T17:27:37Z",
+      "lastSearchedAt": "2026-09-22T10:34:19Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No active current qualifying advert survived filtering; historical/completed material was excluded."
+      "limitation": "Search returned historical/completed auction pages, unrelated cars, or no current direct advert for the specified Focus variant; no candidate URL was retained."
     },
     {
       "id": "model-077:classic-trader:ford-focus-st225-st2-st3-under-50000-miles-low-owners",
@@ -18231,10 +18233,10 @@
       "priority": false,
       "cadenceHours": 12,
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T17:27:37Z",
+      "lastSearchedAt": "2026-09-22T10:34:19Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Results were expired/historical or otherwise not a current qualifying UK advert."
+      "limitation": "Search returned historical/completed auction pages, unrelated cars, or no current direct advert for the specified Focus variant; no candidate URL was retained."
     },
     {
       "id": "model-077:gumtree:ford-focus-st225-st2-st3-under-50000-miles-low-owners",
@@ -18384,10 +18386,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-22T03:49:06Z",
+      "lastSearchedAt": "2026-09-22T10:34:19Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search surfaced an old PistonHeads auction page for a 118,000-mile, three-previous-owner Trophy with stale MOT metadata; it fails the under-30,000-mile/two-owner rules and was not retained as a current advert."
+      "limitation": "Search results for Clio 182 Trophy were historical, auction/completed, stale, or exceeded the under-30,000-mile and maximum-two-owner rules; no qualifying candidate URL was retained."
     },
     {
       "id": "model-078:car-and-classic:renault-clio-182-trophy",
@@ -18452,10 +18454,10 @@
       "priority": true,
       "cadenceHours": 3,
       "status": "searched",
-      "lastSearchedAt": "2026-09-22T02:10:50Z",
+      "lastSearchedAt": "2026-09-22T10:34:19Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search executed; no plausible current direct advert URL survived pre-verification filtering."
+      "limitation": "Search results for Clio 182 Trophy were historical, auction/completed, stale, or exceeded the under-30,000-mile and maximum-two-owner rules; no qualifying candidate URL was retained."
     },
     {
       "id": "model-078:gumtree:renault-clio-182-trophy",
@@ -18639,10 +18641,10 @@
       "priority": false,
       "cadenceHours": 12,
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T17:27:37Z",
+      "lastSearchedAt": "2026-09-22T10:34:19Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Results were completed historical auctions; no active qualifying Clio Williams advert retained."
+      "limitation": "Search returned no current direct Renault advert that satisfied the under-30,000-mile and maximum-two-owner rules; historical/completed auction and generic pages were excluded."
     },
     {
       "id": "model-079:bonhams-cars:renault-clio-williams-2",
@@ -18656,10 +18658,10 @@
       "priority": false,
       "cadenceHours": 12,
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T17:27:37Z",
+      "lastSearchedAt": "2026-09-22T10:34:19Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No active UK advert met the under-30,000-mile and maximum-two-owner rules."
+      "limitation": "Search returned no current direct Renault advert that satisfied the under-30,000-mile and maximum-two-owner rules; historical/completed auction and generic pages were excluded."
     },
     {
       "id": "model-079:classic-trader:renault-clio-williams-2",
@@ -18673,10 +18675,10 @@
       "priority": false,
       "cadenceHours": 12,
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T17:27:37Z",
+      "lastSearchedAt": "2026-09-22T10:34:19Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Results were non-UK/POA or historical auction material; no current UK advert met the mileage/owner rules."
+      "limitation": "Search returned no current direct Renault advert that satisfied the under-30,000-mile and maximum-two-owner rules; historical/completed auction and generic pages were excluded."
     },
     {
       "id": "model-079:gumtree:renault-clio-williams-2",
@@ -18860,10 +18862,10 @@
       "priority": false,
       "cadenceHours": 12,
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T17:27:37Z",
+      "lastSearchedAt": "2026-09-22T10:34:19Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Results were completed historical auctions; no active qualifying Clio Williams advert retained."
+      "limitation": "Search returned no current direct Renault advert that satisfied the under-30,000-mile and maximum-two-owner rules; historical/completed auction and generic pages were excluded."
     },
     {
       "id": "model-079:bonhams-cars:renault-clio-williams-3",
@@ -18877,10 +18879,10 @@
       "priority": false,
       "cadenceHours": 12,
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T17:27:37Z",
+      "lastSearchedAt": "2026-09-22T10:34:19Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No active UK advert met the under-30,000-mile and maximum-two-owner rules."
+      "limitation": "Search returned no current direct Renault advert that satisfied the under-30,000-mile and maximum-two-owner rules; historical/completed auction and generic pages were excluded."
     },
     {
       "id": "model-079:classic-trader:renault-clio-williams-3",
@@ -18894,10 +18896,10 @@
       "priority": false,
       "cadenceHours": 12,
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T17:27:37Z",
+      "lastSearchedAt": "2026-09-22T10:34:19Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Results were non-UK/POA or historical auction material; no current UK advert met the mileage/owner rules."
+      "limitation": "Search returned no current direct Renault advert that satisfied the under-30,000-mile and maximum-two-owner rules; historical/completed auction and generic pages were excluded."
     },
     {
       "id": "model-079:gumtree:renault-clio-williams-3",
@@ -19081,10 +19083,10 @@
       "priority": false,
       "cadenceHours": 12,
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T17:27:37Z",
+      "lastSearchedAt": "2026-09-22T10:34:19Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Results were completed historical auctions; no active qualifying advert retained."
+      "limitation": "Search returned no current direct Renault advert that satisfied the under-30,000-mile and maximum-two-owner rules; historical/completed auction and generic pages were excluded."
     },
     {
       "id": "model-080:bonhams-cars:renault-clio-172-cup",
@@ -19098,10 +19100,10 @@
       "priority": false,
       "cadenceHours": 12,
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T17:27:37Z",
+      "lastSearchedAt": "2026-09-22T10:34:19Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No active UK advert met the under-30,000-mile and maximum-two-owner rules."
+      "limitation": "Search returned no current direct Renault advert that satisfied the under-30,000-mile and maximum-two-owner rules; historical/completed auction and generic pages were excluded."
     },
     {
       "id": "model-080:classic-trader:renault-clio-172-cup",
@@ -19115,10 +19117,10 @@
       "priority": false,
       "cadenceHours": 12,
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T17:27:37Z",
+      "lastSearchedAt": "2026-09-22T10:34:19Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Results were non-UK or otherwise non-qualifying; no current UK advert met the mileage/owner rules."
+      "limitation": "Search returned no current direct Renault advert that satisfied the under-30,000-mile and maximum-two-owner rules; historical/completed auction and generic pages were excluded."
     },
     {
       "id": "model-080:gumtree:renault-clio-172-cup",
@@ -19302,10 +19304,10 @@
       "priority": false,
       "cadenceHours": 12,
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T17:27:37Z",
+      "lastSearchedAt": "2026-09-22T10:34:19Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Results were completed historical auctions; no active qualifying advert retained."
+      "limitation": "Search returned no current direct Renault advert that satisfied the under-30,000-mile and maximum-two-owner rules; historical/completed auction and generic pages were excluded."
     },
     {
       "id": "model-080:bonhams-cars:renault-clio-182-cup",
@@ -19319,10 +19321,10 @@
       "priority": false,
       "cadenceHours": 12,
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T17:27:37Z",
+      "lastSearchedAt": "2026-09-22T10:34:19Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No active UK advert met the under-30,000-mile and maximum-two-owner rules."
+      "limitation": "Search returned no current direct Renault advert that satisfied the under-30,000-mile and maximum-two-owner rules; historical/completed auction and generic pages were excluded."
     },
     {
       "id": "model-080:classic-trader:renault-clio-182-cup",
@@ -19336,10 +19338,10 @@
       "priority": false,
       "cadenceHours": 12,
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T17:27:37Z",
+      "lastSearchedAt": "2026-09-22T10:34:19Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Results were non-UK or otherwise non-qualifying; no current UK advert met the mileage/owner rules."
+      "limitation": "Search returned no current direct Renault advert that satisfied the under-30,000-mile and maximum-two-owner rules; historical/completed auction and generic pages were excluded."
     },
     {
       "id": "model-080:gumtree:renault-clio-182-cup",
@@ -19540,10 +19542,10 @@
       "priority": false,
       "cadenceHours": 12,
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T17:27:37Z",
+      "lastSearchedAt": "2026-09-22T10:34:19Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No active UK advert met the under-30,000-mile and maximum-two-owner rules."
+      "limitation": "Search returned no current direct Renault advert that satisfied the under-30,000-mile and maximum-two-owner rules; historical/completed auction and generic pages were excluded."
     },
     {
       "id": "model-080:classic-trader:renault-clio-r27-f1-team",
@@ -19557,10 +19559,10 @@
       "priority": false,
       "cadenceHours": 12,
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T17:27:37Z",
+      "lastSearchedAt": "2026-09-22T10:34:19Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Results were non-UK or otherwise non-qualifying; no current UK advert met the mileage/owner rules."
+      "limitation": "Search returned no current direct Renault advert that satisfied the under-30,000-mile and maximum-two-owner rules; historical/completed auction and generic pages were excluded."
     },
     {
       "id": "model-080:gumtree:renault-clio-r27-f1-team",
@@ -20203,10 +20205,10 @@
       "priority": true,
       "cadenceHours": 3,
       "status": "searched",
-      "lastSearchedAt": "2026-09-22T02:10:50Z",
+      "lastSearchedAt": "2026-09-22T10:34:19Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search executed; no plausible current direct advert URL survived pre-verification filtering."
+      "limitation": "Search surfaced Subaru Impreza P1 adverts, but current examples found exceeded the under-30,000-mile and/or maximum-two-owner rules, or were auction/stale pages; no qualifying candidate URL was retained."
     },
     {
       "id": "model-082:classic-trader:subaru-impreza-p1",
@@ -20305,10 +20307,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-22T02:45:20Z",
+      "lastSearchedAt": "2026-09-22T10:34:19Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Specialist-dealer search found no current Subaru Impreza P1 meeting the strict under-30,000-mile and maximum-two-owner rules."
+      "limitation": "Search surfaced Subaru Impreza P1 adverts, but current examples found exceeded the under-30,000-mile and/or maximum-two-owner rules, or were auction/stale pages; no qualifying candidate URL was retained."
     },
     {
       "id": "model-083:facebook-groups:subaru-impreza-rb5",
@@ -20798,10 +20800,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-22T03:49:06Z",
+      "lastSearchedAt": "2026-09-22T10:34:19Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Auto Trader query executed; no direct current RB320 car-details advert meeting the under-30,000-mile/two-owner target surfaced."
+      "limitation": "No current Subaru Impreza RB320 advert was found that could be verified within the under-30,000-mile and maximum-two-owner rules; generic/stale results were excluded."
     },
     {
       "id": "model-085:pistonheads:subaru-impreza-rb320",
@@ -20832,10 +20834,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-22T03:49:06Z",
+      "lastSearchedAt": "2026-09-22T10:34:19Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Car & Classic query executed; no direct current RB320 advert meeting the under-30,000-mile/two-owner target surfaced."
+      "limitation": "No current Subaru Impreza RB320 advert was found that could be verified within the under-30,000-mile and maximum-two-owner rules; generic/stale results were excluded."
     },
     {
       "id": "model-085:collecting-cars:subaru-impreza-rb320",
@@ -25030,10 +25032,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-22T02:45:20Z",
+      "lastSearchedAt": "2026-09-22T10:34:19Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "PistonHeads current E39 M5 adverts surfaced were above the 50,000-mile cap, POA, sold or otherwise non-qualifying. No candidate retained."
+      "limitation": "Search surfaced E39 M5 adverts, but the direct current examples found exceeded the model's 50,000-mile cap; no qualifying candidate URL was retained."
     },
     {
       "id": "model-097:car-and-classic:bmw-e39-m5-manual-uk",
@@ -25117,10 +25119,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-22T02:45:20Z",
+      "lastSearchedAt": "2026-09-22T10:34:19Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Gumtree surfaced a current 2001 E39 M5 manual around £12,750 with 148,000 miles. It fails both the configured £25,000 minimum and 50,000-mile cap, so it was rejected."
+      "limitation": "Search surfaced E39 M5 adverts, but the direct current examples found exceeded the model's 50,000-mile cap; no qualifying candidate URL was retained."
     },
     {
       "id": "model-097:911uk:bmw-e39-m5-manual-uk",
@@ -25219,10 +25221,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-22T02:45:20Z",
+      "lastSearchedAt": "2026-09-22T10:34:19Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "eBay search executed. Surfaced E39 M5 material did not establish a current UK 1998-2003 six-speed manual advert within the configured £25,000-£60,000 band and 50,000-mile cap; no candidate retained."
+      "limitation": "Search surfaced E39 M5 adverts, but the direct current examples found exceeded the model's 50,000-mile cap; no qualifying candidate URL was retained."
     },
     {
       "id": "model-097:autotrader:bmw-m5-e39-6-speed-manual-uk",
@@ -25253,10 +25255,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-22T02:45:20Z",
+      "lastSearchedAt": "2026-09-22T10:34:19Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "PistonHeads search found no current UK E39 M5 six-speed manual within the configured 50,000-mile cap and price band."
+      "limitation": "Search surfaced E39 M5 adverts, but the direct current examples found exceeded the model's 50,000-mile cap; no qualifying candidate URL was retained."
     },
     {
       "id": "model-097:car-and-classic:bmw-m5-e39-6-speed-manual-uk",
@@ -25340,10 +25342,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-22T02:45:20Z",
+      "lastSearchedAt": "2026-09-22T10:34:19Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Gumtree surfaced the same 2001 E39 M5 manual around £12,750 / 148,000 miles; it fails the model price and mileage rules."
+      "limitation": "Search surfaced E39 M5 adverts, but the direct current examples found exceeded the model's 50,000-mile cap; no qualifying candidate URL was retained."
     },
     {
       "id": "model-097:911uk:bmw-m5-e39-6-speed-manual-uk",
