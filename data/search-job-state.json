@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-22T01:02:23Z",
+  "updatedAt": "2026-09-22T01:17:49Z",
   "compactedFromQueueAt": "2026-09-10T06:41:54.207Z",
   "note": "Cumulative worker-write state. Job results are merged from immutable run deltas and folded back into data/search-queue.json by scripts/build-search-queue.mjs.",
   "jobs": {
@@ -453,12 +453,10 @@
     },
     "model-088:specialist-dealers:mitsubishi-evo-vi-tommi-makinen-edition": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-21T17:28:21Z",
-      "lastResultCount": 1,
-      "candidateUrls": [
-        "https://www.autotorquecars.co.uk/used-mitsubishi-lancer-aylesbury-buckinghamshire-8197756"
-      ],
-      "limitation": "Auto Torque confirms same 2000 TME at £99,995, 18,460 miles, 5-speed manual and two keepers; exact-gallery gate incomplete."
+      "lastSearchedAt": "2026-09-22T01:17:49Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Specialist-dealer search executed. Surfaced cars were over the 30,000-mile cap, sale-agreed, stale, or otherwise non-qualifying; no new direct current advert retained."
     },
     "model-096:911uk:bmw-e46-m3-manual-coupe-uk": {
       "status": "searched",
@@ -834,30 +832,28 @@
     },
     "model-096:pistonheads:bmw-e46-m3-manual-coupe-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-21T16:39:00Z",
+      "lastSearchedAt": "2026-09-22T01:17:49Z",
       "lastResultCount": 1,
       "candidateUrls": [
-        "https://www.pistonheads.com/buy/listing/19915003"
+        "https://www.pistonheads.com/buy/listing/17710678"
       ],
-      "limitation": null
+      "limitation": "Current 2005 E46 M3 Silverstone Edition manual coupé advert 17710678 remains live at £39,995 / 49,000 miles with active seller controls. Other surfaced M3s were over the 50,000-mile cap, convertibles, SMG/non-manual, or explicitly unavailable."
     },
     "model-096:pistonheads:bmw-m3-e46-6-speed-manual-coupe-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-21T16:39:00Z",
+      "lastSearchedAt": "2026-09-22T01:17:49Z",
       "lastResultCount": 1,
       "candidateUrls": [
-        "https://www.pistonheads.com/buy/listing/19915003"
+        "https://www.pistonheads.com/buy/listing/17710678"
       ],
-      "limitation": null
+      "limitation": "Same current Silverstone Edition factory-manual coupé advert 17710678 is the only retained direct result within the 50,000-mile ceiling; duplicate vehicle identity is not added twice."
     },
     "model-096:specialist-dealers:bmw-e46-m3-manual-coupe-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-21T16:39:00Z",
-      "lastResultCount": 1,
-      "candidateUrls": [
-        "https://www.hexagonclassics.com/car/bmw-m3-coupe--e46---manual--2003"
-      ],
-      "limitation": null
+      "lastSearchedAt": "2026-09-22T01:17:49Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Specialist-dealer search executed. A 3,100-mile manual coupé at £99,995 exceeded the £50,000 model ceiling; another £39,950 car had 109,000 miles and SMG-related specification. No qualifying current advert retained."
     },
     "model-096:specialist-dealers:bmw-m3-e46-6-speed-manual-coupe-uk": {
       "status": "searched",
@@ -977,10 +973,10 @@
     },
     "model-022:lamborghini-talk:lotus-esprit-sport-350": {
       "status": "blocked",
-      "lastSearchedAt": "2026-09-19T17:21:07Z",
+      "lastSearchedAt": "2026-09-22T01:17:49Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "lamborghini-talk.com was blocked by robots.txt in the public web environment; no advert URLs could be verified from this source."
+      "limitation": "LamborghiniTalk automated public retrieval remains blocked by robots/access controls; no Esprit Sport 350 advert could be verified from this source."
     },
     "model-022:pistonheads:lotus-esprit-sport-350": {
       "status": "searched",
@@ -998,10 +994,10 @@
     },
     "model-023:911uk:morgan-aero-8-series-1-4-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-19T17:21:07Z",
+      "lastSearchedAt": "2026-09-22T01:17:49Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "911UK search returned no fresh direct owner-sale/classified Morgan Aero 8 Series 1–4 manual advert; discussion/index/non-advert material was excluded."
+      "limitation": "911UK query executed; no direct current Morgan Aero 8 Series 1–4 manual advert survived filtering."
     },
     "model-023:autotrader:morgan-aero-8-series-1-4-manual": {
       "status": "searched",
@@ -1047,17 +1043,17 @@
     },
     "model-023:facebook-groups:morgan-aero-8-series-1-4-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-19T17:21:07Z",
+      "lastSearchedAt": "2026-09-22T01:17:49Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public Facebook indexing returned group/login/discussion surfaces rather than an inspectable current Morgan Aero 8 manual seller advert."
+      "limitation": "Public indexed Facebook-group search executed; no direct current UK Aero 8 manual sale post suitable for verification was retained."
     },
     "model-023:ferrarichat:morgan-aero-8-series-1-4-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-19T17:21:07Z",
+      "lastSearchedAt": "2026-09-22T01:17:49Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "FerrariChat search returned no current direct Morgan Aero 8 manual seller advert that survived filtering."
+      "limitation": "FerrariChat query executed; no direct current UK Morgan Aero 8 manual advert survived filtering."
     },
     "model-023:gumtree:morgan-aero-8-series-1-4-manual": {
       "status": "searched",
@@ -1068,10 +1064,10 @@
     },
     "model-023:lamborghini-talk:morgan-aero-8-series-1-4-manual": {
       "status": "blocked",
-      "lastSearchedAt": "2026-09-19T17:21:07Z",
+      "lastSearchedAt": "2026-09-22T01:17:49Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "lamborghini-talk.com was blocked by robots.txt in the public web environment; no advert URLs could be verified from this source."
+      "limitation": "LamborghiniTalk automated public retrieval remains blocked by robots/access controls; no Morgan Aero 8 advert could be verified from this source."
     },
     "model-023:pistonheads:morgan-aero-8-series-1-4-manual": {
       "status": "searched",
@@ -1094,10 +1090,10 @@
     },
     "model-024:911uk:morgan-aero-8-gtn": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-19T17:21:07Z",
+      "lastSearchedAt": "2026-09-22T01:17:49Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "911UK search returned no fresh direct owner-sale/classified Morgan Aero 8 GTN advert; discussion/index/non-advert material was excluded."
+      "limitation": "911UK query executed; no direct current Morgan Aero 8 GTN advert survived filtering."
     },
     "model-072:facebook-groups:bmw-1m-coupe-manual-45000-55000-full-service-history": {
       "status": "searched",
@@ -1122,10 +1118,10 @@
     },
     "model-072:pistonheads:bmw-1m-coupe-manual-45000-55000-full-service-history": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-21T17:28:21Z",
+      "lastSearchedAt": "2026-09-22T01:17:49Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Surfaced 1M pages were sold, POA, unavailable or outside the £45k–£55k target."
+      "limitation": "PistonHeads query executed. Surfaced material did not yield a direct current qualifying 1M advert; a 49,580-mile example found elsewhere was explicitly sold."
     },
     "model-072:car-and-classic:bmw-1m-coupe-manual-45000-55000-full-service-history": {
       "status": "searched",
@@ -1159,17 +1155,17 @@
     },
     "model-072:gumtree:bmw-1m-coupe-manual-45000-55000-full-service-history": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-21T17:28:21Z",
+      "lastSearchedAt": "2026-09-22T01:17:49Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Gumtree searched; no direct current qualifying 1M in the £45k–£55k target retained."
+      "limitation": "Gumtree query executed; no direct current 1M Coupé advert matching the requested manual / 45,000–55,000-mile / strong-history profile survived filtering."
     },
     "model-072:911uk:bmw-1m-coupe-manual-45000-55000-full-service-history": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-21T13:37:01Z",
+      "lastSearchedAt": "2026-09-22T01:17:49Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "911UK public search was executed for the priority BMW 1M specification; no direct current qualifying advert was retained."
+      "limitation": "911UK query executed; no direct fresh 1M Coupé owner-sale advert matching the requested mileage/history profile was retained."
     },
     "model-072:ferrarichat:bmw-1m-coupe-manual-45000-55000-full-service-history": {
       "status": "searched",
@@ -1187,10 +1183,10 @@
     },
     "model-072:specialist-dealers:bmw-1m-coupe-manual-45000-55000-full-service-history": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-21T17:28:21Z",
+      "lastSearchedAt": "2026-09-22T01:17:49Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Specialist search found only sold or out-of-target 1M examples."
+      "limitation": "Specialist-dealer query executed; no direct current qualifying 1M advert in the requested mileage/history band was retained."
     },
     "model-078:facebook-groups:renault-clio-182-trophy": {
       "status": "searched",
@@ -1915,31 +1911,31 @@
     },
     "model-076:ebay:ford-focus-st500": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-21T17:28:21Z",
+      "lastSearchedAt": "2026-09-22T01:17:49Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "eBay searched; parts/non-vehicle results rejected and no qualifying ST500 advert at £10k+ retained."
+      "limitation": "eBay UK query executed. A current-looking 2007 ST500 advert at £5,995 is below the configured £10,000 minimum; parts and non-car results were rejected. No qualifying URL retained."
     },
     "model-076:gumtree:ford-focus-st500": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-21T17:28:21Z",
+      "lastSearchedAt": "2026-09-22T01:17:49Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Current Gumtree ST500 adverts surfaced below the £10,000 floor and were rejected."
+      "limitation": "Gumtree query executed. Current ST500 adverts at £7,995 and £3,300 are both below the configured £10,000 minimum, so neither was retained for verification."
     },
     "model-076:pistonheads:ford-focus-st500": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-21T17:28:21Z",
+      "lastSearchedAt": "2026-09-22T01:17:49Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Surfaced ST500 auction/history page was not a current fixed-price advert."
+      "limitation": "PistonHeads query executed; no direct current qualifying Focus ST500 advert survived filtering."
     },
     "model-076:specialist-dealers:ford-focus-st500": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-21T17:28:21Z",
+      "lastSearchedAt": "2026-09-22T01:17:49Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No current qualifying ST500 specialist-dealer advert with fixed asking price was retained."
+      "limitation": "Specialist-dealer search executed; no distinct current ST500 advert meeting the configured rules was retained."
     },
     "model-082:autotrader:subaru-impreza-p1": {
       "status": "searched",
@@ -2244,10 +2240,10 @@
     },
     "model-070:911uk:ford-focus-rs-mk1": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-21T13:37:01Z",
+      "lastSearchedAt": "2026-09-22T01:17:49Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "911UK public search was executed; no direct current Focus RS Mk1 advert survived filtering."
+      "limitation": "911UK query executed; no direct fresh current qualifying Focus RS Mk1 advert survived filtering."
     },
     "model-070:911uk:ford-focus-rs-mk2": {
       "status": "searched",
@@ -2279,10 +2275,10 @@
     },
     "model-070:ferrarichat:ford-focus-rs-mk1": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-21T13:37:01Z",
+      "lastSearchedAt": "2026-09-22T01:17:49Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "FerrariChat public search was executed; no direct current Focus RS Mk1 advert survived filtering."
+      "limitation": "FerrariChat query executed; no direct current qualifying Focus RS Mk1 advert survived filtering."
     },
     "model-070:ferrarichat:ford-focus-rs-mk2": {
       "status": "searched",
@@ -2300,10 +2296,10 @@
     },
     "model-070:lamborghini-talk:ford-focus-rs-mk1": {
       "status": "blocked",
-      "lastSearchedAt": "2026-09-21T13:37:01Z",
+      "lastSearchedAt": "2026-09-22T01:17:49Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "LamborghiniTalk blocks automated public retrieval via robots/access controls, so no direct current Focus RS Mk1 advert could be verified from this source."
+      "limitation": "LamborghiniTalk automated public retrieval remains blocked by robots/access controls; no advert could be verified from this source."
     },
     "model-028:gumtree:lotus-exige-s-s-240": {
       "status": "searched",
@@ -2909,12 +2905,12 @@
     },
     "model-088:pistonheads:mitsubishi-evo-vi-tommi-makinen-edition": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-21T17:28:21Z",
+      "lastSearchedAt": "2026-09-22T01:17:49Z",
       "lastResultCount": 1,
       "candidateUrls": [
         "https://www.pistonheads.com/buy/listing/20971451"
       ],
-      "limitation": "Current £99,995 / 18,460-mile manual TME with one previous owner; exact gallery manual/overlay gate incomplete."
+      "limitation": "Current direct PistonHeads TME advert 20971451 remains indexed at £99,995 / 18,460 miles / manual / one previous owner, within the mileage and owner caps. It is already tracked; hard seller-gallery/manual-control and current-inventory verification remain unresolved."
     },
     "model-056:bonhams-cars:bmw-z4-m-coupe": {
       "status": "searched",
@@ -3676,10 +3672,10 @@
     },
     "model-056:911uk:bmw-z4-m-coupe": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-21T13:37:01Z",
+      "lastSearchedAt": "2026-09-22T01:17:49Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "911UK public search was executed; no direct current UK BMW Z4 M Coupe sale thread survived the current-advert and stale-page filters."
+      "limitation": "911UK query executed; no direct fresh current Z4 M Coupé owner-sale advert survived filtering."
     },
     "model-056:facebook-groups:bmw-z4-m-coupe": {
       "status": "searched",
@@ -3690,24 +3686,24 @@
     },
     "model-056:ferrarichat:bmw-z4-m-coupe": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-21T13:37:01Z",
+      "lastSearchedAt": "2026-09-22T01:17:49Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "FerrariChat public search was executed; no direct current UK BMW Z4 M Coupe advert survived filtering."
+      "limitation": "FerrariChat query executed; no direct current UK Z4 M Coupé advert survived filtering."
     },
     "model-056:lamborghini-talk:bmw-z4-m-coupe": {
       "status": "blocked",
-      "lastSearchedAt": "2026-09-21T13:37:01Z",
+      "lastSearchedAt": "2026-09-22T01:17:49Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "LamborghiniTalk blocks automated public retrieval via robots/access controls, so no direct current BMW Z4 M Coupe advert could be verified from this source."
+      "limitation": "LamborghiniTalk automated public retrieval remains blocked by robots/access controls; no advert could be verified from this source."
     },
     "model-070:facebook-groups:ford-focus-rs-mk1": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-21T13:37:01Z",
+      "lastSearchedAt": "2026-09-22T01:17:49Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "The public indexed Facebook-group query was executed; no direct publicly accessible current Focus RS Mk1 advert surfaced. Private or membership-only posts were not treated as zero-match evidence."
+      "limitation": "Public indexed Facebook-group search executed; no direct current qualifying Focus RS Mk1 sale post with verifiable advert details was retained."
     },
     "model-037:specialist-dealers:vauxhall-vx220-2-2-turbo": {
       "status": "searched",
@@ -3990,10 +3986,10 @@
     },
     "model-040:car-and-classic:renault-clio-v6-phase-2": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T11:29:56Z",
+      "lastSearchedAt": "2026-09-22T01:17:49Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Car & Classic search surfaced a live 2005 Phase 2 at 36,000 miles, which fails the strict Renault sub-30,000-mile cap, while low-mileage older pages were removed/sold; no candidate retained."
+      "limitation": "Car & Classic query executed. Low-mileage Phase 2 adverts surfaced but were explicitly removed/sold, while the live £75,000 / 36,000-mile car fails both the £65,000 ceiling and <30,000-mile rule. No qualifying current URL retained."
     },
     "model-040:classic-trader:renault-clio-v6-phase-1": {
       "status": "searched",
@@ -4025,17 +4021,17 @@
     },
     "model-040:ebay:renault-clio-v6-phase-1": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T11:29:56Z",
+      "lastSearchedAt": "2026-09-22T01:17:49Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "eBay search executed; only generic/non-matching Renault inventory surfaced, not a current qualifying Phase 1 advert."
+      "limitation": "eBay query executed; results were generic category/search material or non-qualifying cars, with no direct current qualifying Phase 1 advert retained."
     },
     "model-040:ebay:renault-clio-v6-phase-2": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T11:29:56Z",
+      "lastSearchedAt": "2026-09-22T01:17:49Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "eBay search executed; no direct current qualifying Phase 2 advert below 30,000 miles with one or two total owners surfaced."
+      "limitation": "eBay query executed; results were generic category/search material or non-qualifying cars, with no direct current qualifying Phase 2 advert retained."
     },
     "model-040:facebook-groups:renault-clio-v6-phase-1": {
       "status": "blocked",
@@ -4067,17 +4063,17 @@
     },
     "model-040:gumtree:renault-clio-v6-phase-1": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T11:29:56Z",
+      "lastSearchedAt": "2026-09-22T01:17:49Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Gumtree search executed; no direct current qualifying Renault Clio V6 Phase 1 advert surfaced."
+      "limitation": "Gumtree query executed; no direct current Phase 1 advert satisfying the <30,000-mile and maximum-two-owner rules was retained."
     },
     "model-040:gumtree:renault-clio-v6-phase-2": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T11:29:56Z",
+      "lastSearchedAt": "2026-09-22T01:17:49Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Gumtree search executed; no direct current Phase 2 advert meeting the strict mileage and ownership rules surfaced."
+      "limitation": "Gumtree query executed. A 63,197-mile Phase 2 with four previous owners surfaced but fails both configured caps; no qualifying URL retained."
     },
     "model-040:lamborghini-talk:renault-clio-v6-phase-1": {
       "status": "blocked",
@@ -4095,31 +4091,31 @@
     },
     "model-040:pistonheads:renault-clio-v6-phase-1": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T11:29:56Z",
+      "lastSearchedAt": "2026-09-22T01:17:49Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "PistonHeads search executed; no current qualifying Phase 1 advert surfaced. Returned Clio V6 pages were Phase 2 or unavailable."
+      "limitation": "PistonHeads query executed; no direct current qualifying Phase 1 advert satisfying the configured mileage/owner rules was retained."
     },
     "model-040:pistonheads:renault-clio-v6-phase-2": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T11:29:56Z",
+      "lastSearchedAt": "2026-09-22T01:17:49Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "PistonHeads returned Phase 2 adverts explicitly marked no longer available/MOT expired; no current candidate retained."
+      "limitation": "PistonHeads query executed. A 35,000-mile car was explicitly unavailable and an auction example exceeded the mileage cap; no qualifying current URL retained."
     },
     "model-040:specialist-dealers:renault-clio-v6-phase-1": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T11:29:56Z",
+      "lastSearchedAt": "2026-09-22T01:17:49Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Specialist-dealer search executed; no current Phase 1 car meeting the strict Renault sub-30k-mile and one-to-two-total-owner gate surfaced."
+      "limitation": "Specialist-dealer search executed; no current Phase 1 car under 30,000 miles, within price range and maximum two total owners was retained."
     },
     "model-040:specialist-dealers:renault-clio-v6-phase-2": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T11:29:56Z",
+      "lastSearchedAt": "2026-09-22T01:17:49Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Specialist-dealer search found a current Phase 2 at 36,000 miles, which fails the strict Renault sub-30,000-mile cap; other low-mileage pages were removed/sold. No candidate retained."
+      "limitation": "Specialist-dealer search executed; no current Phase 2 car under 30,000 miles, within price range and maximum two total owners was retained."
     },
     "model-041:911uk:aston-martin-v12-vantage-manual": {
       "status": "searched",
@@ -4130,10 +4126,10 @@
     },
     "model-041:autotrader:aston-martin-v12-vantage-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T12:27:01Z",
+      "lastSearchedAt": "2026-09-22T01:17:49Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Autotrader query executed. No direct current qualifying actual Aston Martin V12 Vantage manual advert was retained; generic/search pages, out-of-year stock and non-qualifying results were rejected."
+      "limitation": "Auto Trader query executed; no direct current 2009–2010 V12 Vantage manual car-details advert within the configured £60,000–£85,000 range was retained."
     },
     "model-041:bonhams-cars:aston-martin-v12-vantage-manual": {
       "status": "searched",
@@ -4144,10 +4140,10 @@
     },
     "model-041:car-and-classic:aston-martin-v12-vantage-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T12:27:01Z",
+      "lastSearchedAt": "2026-09-22T01:17:49Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Car And Classic query executed. No direct current qualifying actual Aston Martin V12 Vantage manual advert was retained; generic/search pages, out-of-year stock and non-qualifying results were rejected."
+      "limitation": "Car & Classic query executed; surfaced V12 Vantage manual adverts were removed/sold, outside the 2009–2010 target years, or otherwise non-current."
     },
     "model-041:classic-trader:aston-martin-v12-vantage-manual": {
       "status": "searched",
@@ -4165,10 +4161,10 @@
     },
     "model-041:ebay:aston-martin-v12-vantage-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T12:27:01Z",
+      "lastSearchedAt": "2026-09-22T01:17:49Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Ebay query executed. No direct current qualifying actual Aston Martin V12 Vantage manual advert was retained; generic/search pages, out-of-year stock and non-qualifying results were rejected."
+      "limitation": "eBay query executed; no direct current qualifying 2009–2010 V12 Vantage manual advert survived filtering."
     },
     "model-085:ferrarichat:subaru-impreza-rb320": {
       "status": "searched",
@@ -4207,10 +4203,10 @@
     },
     "model-041:gumtree:aston-martin-v12-vantage-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T12:27:01Z",
+      "lastSearchedAt": "2026-09-22T01:17:49Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Gumtree query executed. No direct current qualifying actual Aston Martin V12 Vantage manual advert was retained; generic/search pages, out-of-year stock and non-qualifying results were rejected."
+      "limitation": "Gumtree query executed; no direct current qualifying 2009–2010 V12 Vantage manual advert survived filtering."
     },
     "model-041:lamborghini-talk:aston-martin-v12-vantage-manual": {
       "status": "blocked",
@@ -4221,17 +4217,17 @@
     },
     "model-041:pistonheads:aston-martin-v12-vantage-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T12:27:01Z",
+      "lastSearchedAt": "2026-09-22T01:17:49Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "PistonHeads query executed. A 2009 V12 Vantage manual at £84,950 / 31,000 miles appeared only on a generic model/search results page; without a direct current advert URL it was rejected before verification."
+      "limitation": "PistonHeads query executed. Current manual material included a later 2018 V12 Vantage S at £149,995, outside the model's 2009–2010 years and £85,000 ceiling; no qualifying URL retained."
     },
     "model-041:specialist-dealers:aston-martin-v12-vantage-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T12:27:01Z",
+      "lastSearchedAt": "2026-09-22T01:17:49Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Specialist-dealer search executed. No direct seller advert for a qualifying 1995-2010 V12 Vantage manual with a fixed £10,000-£100,000 asking price survived filtering."
+      "limitation": "Specialist-dealer search executed. The retained Philip Raby 2010 Carbon Black product page still renders, but the authoritative current-stock page no longer lists it; a matching Car & Classic cross-post is sold/removed. The tracked candidate is therefore marked unavailable."
     },
     "model-042:911uk:aston-martin-v8-vantage-4-3-4-7-manual": {
       "status": "searched",
@@ -5764,10 +5760,10 @@
     },
     "model-057:autotrader:bmw-z4-m-roadster": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T11:29:56Z",
+      "lastSearchedAt": "2026-09-22T01:17:49Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Auto Trader search executed; no direct current Z4 M Roadster car-details URL survived filtering."
+      "limitation": "Auto Trader query executed; results exposed generic inventory/search pages rather than a fresh direct car-details advert, so nothing was retained."
     },
     "model-057:bonhams-cars:bmw-z4-m-roadster": {
       "status": "searched",
@@ -5778,10 +5774,10 @@
     },
     "model-057:car-and-classic:bmw-z4-m-roadster": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T11:29:56Z",
+      "lastSearchedAt": "2026-09-22T01:17:49Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Car & Classic search executed; surfaced BMW results were Coupes or historical/non-matching material rather than a current qualifying Z4 M Roadster advert."
+      "limitation": "Car & Classic query executed. Advert C1864975 renders vehicle details but explicitly states it was removed through sale or otherwise; rejected as unavailable."
     },
     "model-057:classic-trader:bmw-z4-m-roadster": {
       "status": "searched",
@@ -5799,10 +5795,10 @@
     },
     "model-057:ebay:bmw-z4-m-roadster": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T11:29:56Z",
+      "lastSearchedAt": "2026-09-22T01:17:49Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "eBay search executed; no direct current qualifying Z4 M Roadster advert survived filtering."
+      "limitation": "eBay query executed; surfaced cars were non-M Z4s or otherwise off-target, with no qualifying current Z4 M Roadster advert retained."
     },
     "model-057:facebook-groups:bmw-z4-m-roadster": {
       "status": "searched",
@@ -5820,10 +5816,10 @@
     },
     "model-057:gumtree:bmw-z4-m-roadster": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T12:27:01Z",
+      "lastSearchedAt": "2026-09-22T01:17:49Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Gumtree query executed. No direct current Z4 M Roadster advert was retained; the current editorial rules prioritise the Coupe and reject the Roadster from publication."
+      "limitation": "Gumtree query executed; surfaced Z4s were non-M variants, so no qualifying current Z4 M Roadster advert was retained."
     },
     "model-057:lamborghini-talk:bmw-z4-m-roadster": {
       "status": "blocked",
@@ -5834,17 +5830,17 @@
     },
     "model-057:pistonheads:bmw-z4-m-roadster": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T12:27:01Z",
+      "lastSearchedAt": "2026-09-22T01:17:49Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "PistonHeads surfaced a current-looking Z4 M Roadster, but the current editorial rules explicitly reject the Roadster in favour of the Z4 M Coupe, so no candidate was retained."
+      "limitation": "PistonHeads query executed; surfaced category/search material was not retained as an advert and no new direct current qualifying Z4 M Roadster URL was established."
     },
     "model-057:specialist-dealers:bmw-z4-m-roadster": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T12:27:01Z",
+      "lastSearchedAt": "2026-09-22T01:17:49Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Specialist-dealer search executed. The relevant surfaced RSV car was a Z4 M Coupe rather than a Roadster; no matching Roadster candidate was retained."
+      "limitation": "Specialist-dealer search executed. The surfaced Vision Car Sales Z4 M Roadster is an explicit owner editorial exclusion and must not be reimported; no other qualifying direct current advert retained."
     },
     "model-058:911uk:bmw-e46-m3-cs-manual": {
       "status": "searched",
@@ -5855,10 +5851,10 @@
     },
     "model-058:autotrader:bmw-e46-m3-cs-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T12:27:01Z",
+      "lastSearchedAt": "2026-09-22T01:17:49Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Auto Trader query executed. No direct current E46 M3 CS factory-manual car-details advert survived filtering."
+      "limitation": "Auto Trader query executed; no direct current qualifying E46 M3 CS factory-manual advert survived filtering."
     },
     "model-058:bonhams-cars:bmw-e46-m3-cs-manual": {
       "status": "searched",
@@ -5869,10 +5865,10 @@
     },
     "model-058:car-and-classic:bmw-e46-m3-cs-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T12:27:01Z",
+      "lastSearchedAt": "2026-09-22T01:17:49Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Car & Classic query executed. The surfaced E46 M3 CS manual advert is removed through sale or otherwise; no current candidate retained."
+      "limitation": "Car & Classic query executed; no direct current qualifying E46 M3 CS factory-manual advert survived filtering."
     },
     "model-058:classic-trader:bmw-e46-m3-cs-manual": {
       "status": "searched",
@@ -5890,10 +5886,10 @@
     },
     "model-058:ebay:bmw-e46-m3-cs-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T12:27:01Z",
+      "lastSearchedAt": "2026-09-22T01:17:49Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "eBay query executed. No direct current qualifying E46 M3 CS factory-manual advert survived stale/sold/spec filtering."
+      "limitation": "eBay query executed. Surfaced material was SMG, parts/manuals or non-CS cars; no factory-manual CS advert was retained."
     },
     "model-058:facebook-groups:bmw-e46-m3-cs-manual": {
       "status": "searched",
