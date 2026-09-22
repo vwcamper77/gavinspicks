@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-22T17:45:21Z",
+  "updatedAt": "2026-09-22T18:45:21Z",
   "candidates": [
     {
       "modelId": "model-056",
@@ -456,10 +456,10 @@
       "url": "https://www.ebay.co.uk/itm/206363441512",
       "source": "ebay",
       "discoveredAt": "2026-09-10T10:10:00Z",
-      "status": "verification-pending",
+      "status": "unavailable",
       "note": "Rechecked 21 Sep 2026 against the exact eBay advert. Item 206363441512 is currently showing £14,495 or Best Offer, active time-left and private-seller controls, year 2002, manual transmission, two doors, service history and MOT expiry May 2027. This is strong enough to treat the URL as a plausible current advert again, but the listing text exposed in this run does not establish mileage, factory-manual provenance or Coupe body beyond two doors, and the 24-photo gallery pixels were not sufficiently inspectable for the mandatory three-pedal/manual-control and SOLD/RESERVED overlay gate. Move back to verification-pending; do not publish.",
       "vehicleIdentity": "2002 BMW E46 M3 | silver | manual | eBay 206363441512 | £14,495",
-      "lastCheckedAt": "2026-09-21T19:32:04Z"
+      "lastCheckedAt": "2026-09-22T18:45:21Z"
     },
     {
       "modelId": "model-096",
@@ -1429,10 +1429,10 @@
       "url": "https://www.carandclassic.com/car/C2060885",
       "source": "car-and-classic",
       "discoveredAt": "2026-09-12T10:19:44Z",
-      "lastCheckedAt": "2026-09-22T10:00:08Z",
+      "lastCheckedAt": "2026-09-22T18:45:21Z",
       "status": "verification-pending",
-      "note": "Rechecked 18 Sep 2026: the direct Car & Classic advert is currently For Sale at £50,000, 46,637 miles, six-speed manual, 2003, registration KR52ZTT, dealer allAstonMartin.com in Surrey. The page shows 27 seller images, active Message/Call controls and the dealer has eight live listings. It satisfies the configured model year, price and maximum-50,000-mile rules; LHD is not excluded by the model rule. The exact gallery pixels were not fully visually inspected for unavailable overlays and manual-control evidence in this worker pass, so keep verification-pending rather than publishing from this run.",
-      "vehicleIdentity": "2003 BMW M5 E39 | KR52ZTT | 46,637 miles | £50,000 | Mogador dealer"
+      "note": "Rechecked 22 Sep 2026 on the exact Car & Classic advert. It is currently For Sale at £50,000 with active dealer Message/Call controls, 46,637 miles, 2003 registration KR52ZTT, six-speed manual, UK location in Mogador, Surrey, and 27 seller images; the advert was listed 18 Sep 2026. It fits the configured model-097 year, price and 50,000-mile rules. It is left-hand drive and US-supplied originally. Exact gallery pixels were not inspected strongly enough in this run to complete the mandatory unavailable-overlay/manual-control visual gate, so keep verification-pending rather than republishing or alerting.",
+      "vehicleIdentity": "2003 BMW E39 M5 | KR52ZTT | 46,637 miles | £50,000 | allAstonMartin.com"
     },
     {
       "modelId": "model-037",
