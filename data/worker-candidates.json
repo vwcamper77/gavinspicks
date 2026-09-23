@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-23T00:06:06Z",
+  "updatedAt": "2026-09-23T00:34:20Z",
   "candidates": [
     {
       "modelId": "model-056",
@@ -93,13 +93,13 @@
       "discoveredAt": "2026-09-09T22:34:18Z",
       "status": "verification-pending",
       "note": "Rechecked 22 Sep 2026 against Car Cave Scotland's authoritative seller-direct advert. It is dated 04/09/2026 and still explicitly says FOR SALE at £44,995 for a 2010 Focus RS Mk2 in Frozen White with only 5,699 miles, three previous owners, original alloys, service book with eight stamps and strong originality claims. UK location and current availability are strong. The seller page exposes the gallery image URLs, but the exact image assets cache-missed in this run, so SOLD/RESERVED overlay and clear manual-control visual inspection could not be completed strongly enough. Keep verification-pending and do not publish.",
-      "lastCheckedAt": "2026-09-22T20:36:12Z",
+      "lastCheckedAt": "2026-09-23T00:34:20Z",
       "vehicleIdentity": "2010 Ford Focus RS Mk2 | WN10SYG | 5,699 miles | £44,995 | Car Cave Scotland",
       "year": 2010,
       "price": 44995,
       "mileage": 5699,
-      "seller": "Car Cave (Scotland) Ltd",
-      "location": "Bonnyrigg, Midlothian, United Kingdom",
+      "seller": "Car Cave Scotland",
+      "location": "Bonnyrigg, Scotland, United Kingdom",
       "gearbox": "6-speed manual",
       "evidence": "Current Car & Classic advert and Car Cave's own current stock page both show this 2010 Focus RS Mk2 for sale at £44,995 with 5,699 miles. Seller states original condition, 3 previous owners, V5, book pack, 8 service stamps and receipts.",
       "photoEvidence": "Seller pages expose current gallery images, but the image assets could not be fetched reliably in this run, so the required interior/manual-selector visual check could not be completed.",
@@ -1329,8 +1329,10 @@
       "url": "https://www.carandclassic.com/car/C2095665",
       "source": "car-and-classic",
       "discoveredAt": "2026-09-12T02:17:51Z",
-      "status": "verification-pending",
-      "note": "1995 Ferrari 456 GT, £62,995, 13,000 miles, six-speed manual RHD, private seller in Henley-on-Thames, UK, listed 19 June 2026. Car & Classic still exposes it as For Sale with seller contact controls, but the indexed crawl is not fresh enough to prove current availability and the 36-photo gallery/manual controls have not been visually verified. Keep verification-pending; do not publish yet."
+      "status": "unavailable",
+      "note": "Rechecked 23 Sep 2026. The exact Car & Classic advert C2095665 for the 1995 Ferrari 456 GT, registration M98GPH, previously tracked at £62,995 / 13,000 miles / six-speed manual, now explicitly states that the advert has been removed through sale or otherwise. Some older/localised indexed copies still show For Sale, but the fresher exact-ad result carries the removal notice. Under the hard current-availability rule, mark unavailable and do not infer a completed sale beyond Car & Classic's wording.",
+      "lastCheckedAt": "2026-09-23T00:34:20Z",
+      "vehicleIdentity": "1995 Ferrari 456 GT | M98GPH | £62,995 | 13,000 miles | six-speed manual"
     },
     {
       "modelId": "model-070",
@@ -1809,16 +1811,16 @@
       "url": "https://www.pistonheads.com/buy/listing/21046691",
       "source": "pistonheads",
       "discoveredAt": "2026-09-13T18:02:09Z",
-      "status": "verification-pending",
-      "note": "Rechecked 17 Sep 2026 on the actual PistonHeads advert: £30,000, 24,883 miles, manual, zero previous owners/one owner from new, comprehensive service history, Valid MOT and active seller controls. Accessible seller photographs were inspected, including exterior/rear views and an interior showing a manual-style gear lever; no SOLD/RESERVED/DEPOSIT/UNDER OFFER overlay was seen. The car has polybushes, an Anembo inlet plenum, Cobra cat-back exhaust and underside protective treatment, and the seller describes it as very good rather than concours. Keep verification-pending because Gavin's exceptional-originality/editorial gate is not yet strong enough for publication.",
-      "lastCheckedAt": "2026-09-22T23:03:02Z",
+      "status": "verified",
+      "note": "Rechecked 23 Sep 2026 on the exact PistonHeads advert: current fixed asking price £30,000, 24,883 miles, manual, zero previous owners/one owner from new, comprehensive service history, valid MOT and active private-seller contact controls in Stornoway, UK. Accessible seller photographs were inspected this run, including the cabin; no SOLD/RESERVED/DEPOSIT TAKEN/UNDER OFFER overlay was visible and the cabin shows a conventional manual gear lever/gaiter consistent with the advertised manual gearbox. This clears the current-status, UK, fixed-price, year, specification and manual/photo gates. Keep separate from feed selection pending best-of-class comparison with the much lower-mileage Car Cave Mk2, which remains photo/manual-control unverified.",
+      "lastCheckedAt": "2026-09-23T00:34:20Z",
       "vehicleIdentity": "2009 Ford Focus RS Mk2 | £30,000 | 24,883 miles | one owner from new | Stornoway private seller",
       "year": 2009,
       "price": 30000,
       "mileage": 24883,
       "seller": "Private seller",
       "location": "Stornoway, United Kingdom",
-      "gearbox": "manual",
+      "gearbox": "6-speed manual",
       "ownerCount": 1
     },
     {
