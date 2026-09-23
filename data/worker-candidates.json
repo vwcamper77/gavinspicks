@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-23T08:25:37Z",
+  "updatedAt": "2026-09-23T09:36:27Z",
   "candidates": [
     {
       "modelId": "model-056",
@@ -429,8 +429,17 @@
       "discoveredAt": "2026-09-10T06:29:37Z",
       "status": "rejected",
       "note": "Rechecked 19 Sep 2026. The direct PistonHeads advert is still rendered at £99,995, 18,460 miles, manual and in Buckinghamshire, with live seller-contact controls. Five exact seller photographs were visually inspected: no SOLD/RESERVED/DEPOSIT/UNDER-OFFER overlay was visible, and a cabin photograph clearly shows an H-pattern manual lever and three pedals. However, the advert states one previous owner while also saying the car was imported from Japan in 2009 and has had one UK owner since import; pre-import Japanese ownership is not evidenced, so the model-088 maximum-two-total-owner rule cannot be verified. In addition, Auto Torque's current PistonHeads seller-stock page now shows only one Subaru and does not show this TME, creating a current-inventory contradiction. Keep verification-pending and do not publish.",
-      "lastCheckedAt": "2026-09-22T15:59:35Z",
-      "vehicleIdentity": "2000 Mitsubishi Lancer Evolution VI Tommi Makinen Edition Special Colour Package | 18,460 miles | £99,995 | Auto Torque"
+      "lastCheckedAt": "2026-09-23T09:36:27Z",
+      "vehicleIdentity": "2000 Mitsubishi Lancer Evolution VI Tommi Makinen Edition | Passion Red Special Colour Package | 18,460 miles | £99,995 | Auto Torque",
+      "year": 2000,
+      "price": 99995,
+      "mileage": 18460,
+      "seller": "Auto Torque",
+      "location": "Buckinghamshire, United Kingdom",
+      "gearbox": "manual",
+      "evidence": "Exact PistonHeads advert crawled today remains offered at £99,995 / 18,460 miles with Auto Torque seller controls. Advert says imported from Japan in 2009 and one UK owner since import.",
+      "photoEvidence": "Prior exact-gallery inspection showed no SOLD/RESERVED/DEPOSIT/UNDER-OFFER overlay and a conventional H-pattern lever/three pedals; current run could not refresh the exact image assets.",
+      "verificationLimitation": "Fails the strict ownership gate because pre-import Japanese ownership is not evidenced; do not publish."
     },
     {
       "modelId": "model-018",
@@ -705,10 +714,10 @@
       "url": "https://www.carandclassic.com/l/C2141509",
       "source": "car-and-classic",
       "discoveredAt": "2026-09-10T14:18:00Z",
-      "status": "verification-pending",
+      "status": "superseded",
       "note": "2000 Lotus Elise S1 111S, £26,950, 21,380 miles, RHD five-speed manual, private seller in Beausale/Warwickshire. Direct Car & Classic page is currently For Sale and listed 18/08/2026; seller says second owner, full history, cambelt 2,300 miles ago, Bilstein suspension and new Yokohama Neovas. Vehicle background says imported but no finance, total-loss or major structural history. A 25-photo gallery exists, but exact image assets could not be fetched for SOLD/RESERVED-overlay and manual-control visual inspection; keep verification-pending, do not publish.",
-      "lastCheckedAt": "2026-09-18T18:34:53Z",
-      "vehicleIdentity": "2000 Lotus Elise S1 111S | V758PDA | 21,380 miles | £26,950 | private seller"
+      "lastCheckedAt": "2026-09-23T09:36:27Z",
+      "vehicleIdentity": "2000 Lotus Elise S1 111S | V758PDA | 21,380 miles | private seller"
     },
     {
       "modelId": "model-031",
@@ -717,8 +726,9 @@
       "discoveredAt": "2026-09-10T14:18:00Z",
       "status": "unavailable",
       "note": "1999 Lotus Elise S1 111S; £24,995, 63,000 miles, manual, Mustard Yellow with green interior/roof, private seller near Hinckley. Direct PistonHeads page is current with seller-contact controls and valid MOT; seller claims a 24-stamp service history/large history file. 22 seller photos remain to be visually checked.",
-      "lastCheckedAt": "2026-09-20T08:34:31Z",
-      "vehicleIdentity": "1999 Lotus Elise S1 111S | Mustard Yellow / green interior | 63,000 miles | formerly £24,995"
+      "lastCheckedAt": "2026-09-23T09:36:27Z",
+      "vehicleIdentity": "1999 Lotus Elise S1 111S | £24,995 | 63,000 miles | private seller near Hinckley",
+      "evidence": "Exact PistonHeads listing 20465325 crawled today explicitly says the car is no longer available for purchase."
     },
     {
       "modelId": "model-031",
@@ -3856,6 +3866,26 @@
       "photoEvidence": "Exact seller gallery not visually inspected strongly enough.",
       "verificationLimitation": "Keep unverified pending exact photo/manual-control and unavailable-banner check.",
       "note": "Current seller-direct lead checked 23 Sep 2026; price/year/spec qualify, but hard photo/manual gate incomplete. Do not publish."
+    },
+    {
+      "modelId": "model-031",
+      "url": "https://www.carandclassic.com/l/C2196418",
+      "source": "car-and-classic",
+      "discoveredAt": "2026-09-23T09:36:27Z",
+      "status": "verification-pending",
+      "note": "Fresh relist checked 23 Sep 2026. Exact Car & Classic advert C2196418 is listed 22/09/2026 and currently For Sale at £26,750 for 2000 Lotus Elise S1 111S V758PDA, 21,380 miles, RHD five-speed manual, private seller in Beausale, Warwickshire. Seller says they are the second owner, first owner kept it 21 years, full service history, cambelt 2,300 miles ago, restored interior, Bilstein suspension and four Yokohama Advan Neova tyres. This is the same vehicle as older candidate C2141509, which is superseded. Exact gallery pixels could not be fetched this run for a fresh SOLD/RESERVED overlay and manual-control visual inspection, and the older/newer Car & Classic records conflict on import-background metadata. Keep verification-pending; do not publish.",
+      "lastCheckedAt": "2026-09-23T09:36:27Z",
+      "vehicleIdentity": "2000 Lotus Elise S1 111S | V758PDA | 21,380 miles | £26,750 | private seller",
+      "year": 2000,
+      "price": 26750,
+      "mileage": 21380,
+      "seller": "Private seller",
+      "location": "Beausale, Warwickshire, United Kingdom",
+      "gearbox": "5-speed manual",
+      "ownerCount": 2,
+      "evidence": "Fresh exact Car & Classic listing is For Sale at £26,750, listed 22 Sep 2026, UK location, 21,380 miles, five-speed manual; seller states second owner and full history.",
+      "photoEvidence": "The advert exposes a 28-photo gallery, but the exact image assets could not be fetched reliably enough this run for a fresh unavailable-overlay/manual-control inspection.",
+      "verificationLimitation": "Do not publish until exact current gallery images are visually checked and the conflicting import-background metadata between the old and new adverts is resolved."
     }
   ]
 }
