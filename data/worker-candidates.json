@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-23T13:27:22Z",
+  "updatedAt": "2026-09-23T14:11:19Z",
   "candidates": [
     {
       "modelId": "model-056",
@@ -943,10 +943,18 @@
       "url": "https://www.classic-trader.com/uk/cars/listing/noble/m12/m12-gto/2002/268086",
       "source": "classic-trader",
       "discoveredAt": "2026-09-10T17:42:36Z",
-      "status": "verification-pending",
+      "status": "verified",
       "vehicleIdentity": "2002 Noble M12 GTO | NOB61X | 30,000 miles | £43,500 | Vintage & Prestige Fine Motor Cars",
       "note": "Rechecked 21 Sep 2026 against the exact Classic Trader advert and current Noble M12 inventory. Advert 268086 remains the sole current M12 offer at £43,500 from Vintage & Prestige Fine Motor Cars in Northampton; seller copy identifies NOB61X, 2002, RHD, five-speed manual and states 30,000 miles, with the car ready to be seen and driven away. Current availability/specification evidence is strong, but this run still could not visually inspect the exact 50-image seller gallery closely enough for the mandatory unavailable-overlay and manual-control photo gate. Keep verification-pending; do not publish.",
-      "lastCheckedAt": "2026-09-21T19:32:04Z"
+      "lastCheckedAt": "2026-09-23T14:11:19Z",
+      "price": 43500,
+      "mileage": 30000,
+      "year": 2002,
+      "seller": "Vintage & Prestige Fine Motor Cars",
+      "location": "Northampton, United Kingdom",
+      "gearbox": "5-speed manual",
+      "evidence": "Exact Classic Trader advert is live at £43,500 and identifies NOB61X, VIN SA9M1R1M1K113034, 2002, UK RHD, 30,000 miles and five-speed manual. Vintage & Prestige's seller-direct page independently lists the same VIN/registration/specification and price.",
+      "photoEvidence": "Multiple exact-listing gallery images inspected. Cabin photographs clearly show a conventional manual gear lever; no SOLD, RESERVED, DEPOSIT TAKEN or UNDER OFFER overlay was visible in the inspected gallery."
     },
     {
       "modelId": "model-096",
@@ -1017,8 +1025,16 @@
       "discoveredAt": "2026-09-10T21:37:37Z",
       "status": "verified",
       "note": "Rechecked 18 Sep 2026: direct Car & Classic advert is still explicitly For Sale at £32,500, 78,100 miles, 2008, RHD and six-speed manual in Bletchingley, Surrey. Current exterior and cabin seller photographs were inspected; no unavailable overlay is visible and the cabin clearly shows the conventional manual gear lever. Availability, UK location, fixed price and manual specification remain verified; no price change.",
-      "lastCheckedAt": "2026-09-18T09:33:48Z",
-      "vehicleIdentity": "2008 Aston Martin V8 Vantage 4.7 manual | NK58ACU | 78,100 miles | £32,500 | Bletchingley private seller"
+      "lastCheckedAt": "2026-09-23T14:11:19Z",
+      "vehicleIdentity": "2008 Aston Martin V8 Vantage 4.7 manual | NK58 ACU | 78,100 miles | £32,500",
+      "price": 32500,
+      "mileage": 78100,
+      "year": 2008,
+      "seller": "Private seller",
+      "location": "Bletchingley, Redhill, Surrey, United Kingdom",
+      "gearbox": "6-speed manual",
+      "evidence": "Exact Car & Classic advert remains live as For Sale with a £32,500 asking price, UK private-seller contact controls, 2008 year, 78,100 miles and advertised six-speed manual.",
+      "photoEvidence": "Exact advert gallery inspected; multiple cabin images clearly show the manual gear lever and no unavailable-status overlay was visible."
     },
     {
       "modelId": "model-043",
@@ -1858,7 +1874,7 @@
       "source": "pistonheads",
       "discoveredAt": "2026-09-12T23:50:22Z",
       "status": "unavailable",
-      "lastCheckedAt": "2026-09-14T01:33:19Z",
+      "lastCheckedAt": "2026-09-23T14:11:19Z",
       "note": "Rechecked on 14 Sep 2026 against the original PistonHeads advert, not a search-result snippet. Although the retained listing details describe a UK-supplied BMW E39 M5 with six-speed manual gearbox, £45,000 asking price, 26,900 miles and two keepers, the original advert now explicitly displays MOT Expired and states 'This car is no longer available for purchase'. That current seller-page status overrides the attractive specification and earlier discovery evidence. Mark unavailable, exclude from verification and do not publish or alert it as a live car unless a genuinely fresh relist with new current-sale evidence appears."
     },
     {
@@ -3083,9 +3099,16 @@
       "source": "pistonheads",
       "discoveredAt": "2026-09-18T23:07:31Z",
       "status": "verification-pending",
-      "note": "Checked 19 Sep 2026: direct PistonHeads advert is live at £18,975, 43,500 miles, manual, valid MOT, with active seller contact controls from PCBS Tonbridge and a 42-photo gallery. UK/year/price/gearbox all fit model-057. Exact gallery pixels could not be reliably inspected for unavailable overlays/manual-control evidence, so keep verification-pending and do not publish.",
-      "lastCheckedAt": "2026-09-18T23:07:31Z",
-      "vehicleIdentity": "2007 BMW Z4 M Roadster | £18,975 | 43,500 miles | PCBS Tonbridge"
+      "note": "Rechecked 23 Sep 2026. The exact PistonHeads advert is live at £17,975, while seller-direct PCBS current stock is the higher-authority source and lists the same 2007 / 43,500-mile manual Z4 M Roadster at £18,975. Seller stock and enquiry controls confirm current availability. Exterior gallery images were inspected with no unavailable overlay, but a clear gear-selector/three-pedal image was not accessible from the public gallery path during this run, so the hard manual-photo gate remains unresolved and the candidate stays verification-pending.",
+      "lastCheckedAt": "2026-09-23T14:11:19Z",
+      "vehicleIdentity": "2007 BMW Z4 M Roadster | £18,975 | 43,500 miles | PCBS Tonbridge",
+      "price": 18975,
+      "mileage": 43500,
+      "year": 2007,
+      "seller": "PCBS Tonbridge",
+      "location": "Tonbridge, United Kingdom",
+      "gearbox": "6-speed manual",
+      "sellerUrl": "https://www.pcbs-sales.com/vehicle-details/used-bmw-z4-m-3-2i-convertible-2dr-petrol-manual-euro-4-343-ps-for-sale-tonbridge-u5074/"
     },
     {
       "modelId": "model-059",
