@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-23T11:59:08Z",
+  "updatedAt": "2026-09-23T12:30:17Z",
   "compactedFromQueueAt": "2026-09-10T06:41:54.207Z",
   "note": "Cumulative worker-write state. Job results are merged from immutable run deltas and folded back into data/search-queue.json by scripts/build-search-queue.mjs.",
   "jobs": {
@@ -19,12 +19,12 @@
     },
     "model-056:pistonheads:bmw-z4-m-coupe": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-23T04:14:17Z",
+      "lastSearchedAt": "2026-09-23T12:30:17Z",
       "lastResultCount": 1,
       "candidateUrls": [
         "https://www.pistonheads.com/buy/listing/20766605"
       ],
-      "limitation": "Public web search executed and stale/no-longer-available PistonHeads results were rejected before candidate collection. The existing live BAM Specialist Cars cross-post remains the only retained PistonHeads candidate from this query."
+      "limitation": "One direct current qualifying PistonHeads Z4 M Coupe advert survived: BAM Specialist Cars, 2008, £29,995, 49,155 miles, six-speed manual. Lower-priced/out-of-rule and unavailable adverts were excluded."
     },
     "model-056:car-and-classic:bmw-z4-m-coupe": {
       "status": "searched",
@@ -35,19 +35,19 @@
     },
     "model-056:gumtree:bmw-z4-m-coupe": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-23T04:14:17Z",
+      "lastSearchedAt": "2026-09-23T12:30:17Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "No direct current qualifying Gumtree BMW Z4 M Coupe advert surfaced; generic/search results were excluded."
     },
     "model-056:specialist-dealers:bmw-z4-m-coupe": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-23T04:14:17Z",
+      "lastSearchedAt": "2026-09-23T12:30:17Z",
       "lastResultCount": 1,
       "candidateUrls": [
         "https://rsvautomotive.co.uk/cars/bmw-z4-m-z4-m-coupe/"
       ],
-      "limitation": "RSV Automotive's seller-direct advert remains current. The same vehicle is already the published best-of-class Z4 M Coupe, so it was not duplicated in worker candidates."
+      "limitation": "RSV Automotive's direct seller advert remains current at £25,995 for the already-tracked Z4 M Coupe; no stronger new direct specialist advert was established."
     },
     "model-070:ebay:ford-focus-rs-mk1": {
       "status": "searched",
@@ -58,10 +58,10 @@
     },
     "model-070:autotrader:ford-focus-rs-mk1": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-23T04:14:17Z",
+      "lastSearchedAt": "2026-09-23T12:30:17Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "Auto Trader results were generic inventory/category pages rather than direct current car-details adverts; generic pages were excluded."
     },
     "model-070:pistonheads:ford-focus-rs-mk1": {
       "status": "searched",
@@ -76,13 +76,10 @@
     },
     "model-070:car-and-classic:ford-focus-rs-mk1": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-23T04:14:17Z",
-      "lastResultCount": 2,
-      "candidateUrls": [
-        "https://www.carandclassic.com/car/C2118328",
-        "https://www.carandclassic.com/car/C2005148"
-      ],
-      "limitation": null
+      "lastSearchedAt": "2026-09-23T12:30:17Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "The surfaced direct Car & Classic Mk1 result was sold/removed; no new current qualifying direct advert survived."
     },
     "model-070:gumtree:ford-focus-rs-mk1": {
       "status": "searched",
@@ -110,10 +107,10 @@
     },
     "model-070:autotrader:ford-focus-rs-mk2": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-23T04:14:17Z",
+      "lastSearchedAt": "2026-09-23T12:30:17Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "Auto Trader results were generic inventory/category pages rather than direct current car-details adverts; generic pages were excluded."
     },
     "model-070:pistonheads:ford-focus-rs-mk2": {
       "status": "searched",
@@ -162,10 +159,10 @@
     },
     "model-070:autotrader:ford-focus-rs500": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-23T04:14:17Z",
+      "lastSearchedAt": "2026-09-23T12:30:17Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": null
+      "limitation": "No direct current qualifying Auto Trader RS500 car-details advert surfaced; generic inventory/search pages were excluded."
     },
     "model-001:ebay:ferrari-360-modena-spider-manual": {
       "status": "searched",
@@ -859,10 +856,10 @@
     },
     "model-096:specialist-dealers:bmw-m3-e46-6-speed-manual-coupe-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-23T04:14:17Z",
+      "lastSearchedAt": "2026-09-23T12:30:17Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public web search executed. A current Hexagon Classics advert surfaced, but it is already known and rejected under model-096 because £99,995 exceeds the configured £50,000 guide maximum; it was not re-added as a candidate."
+      "limitation": "The current Hexagon E46 M3 manual at £99,995 exceeds model-096's £50,000 upper price rule; no other qualifying direct specialist advert surfaced."
     },
     "model-097:911uk:bmw-e39-m5-manual-uk": {
       "status": "searched",
@@ -1206,10 +1203,10 @@
     },
     "model-078:pistonheads:renault-clio-182-trophy": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-23T04:14:17Z",
+      "lastSearchedAt": "2026-09-23T12:30:17Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public web search executed. Current Trophy adverts surfaced only above the Renault hard mileage cap of 29,999 miles, so none was retained as a candidate."
+      "limitation": "PistonHeads results were completed auction/history pages or cars failing the strict under-30,000-mile / maximum-two-total-owners rules; none retained."
     },
     "model-078:car-and-classic:renault-clio-182-trophy": {
       "status": "searched",
@@ -1471,10 +1468,10 @@
     },
     "model-097:bonhams-cars:bmw-m5-e39-6-speed-manual-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-23T01:46:27Z",
+      "lastSearchedAt": "2026-09-23T12:30:17Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No current Bonhams Cars BMW E39 M5 six-speed manual advert with a qualifying fixed asking price and no more than 50,000 miles was established; auction/history pages were excluded."
+      "limitation": "No current qualifying direct Bonhams advert for a UK E39 M5 six-speed manual at 50,000 miles or less surfaced; completed/auction-history material was excluded."
     },
     "model-097:car-and-classic:bmw-e39-m5-manual-uk": {
       "status": "searched",
@@ -2258,17 +2255,17 @@
     },
     "model-070:facebook-groups:ford-focus-rs-mk2": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-22T23:03:02Z",
+      "lastSearchedAt": "2026-09-23T12:30:17Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public indexed search returned no direct current qualifying Facebook-group Mk2 RS sale advert; discussion/group pages excluded."
+      "limitation": "Public web search returned no direct current Focus RS Mk2 sale advert from Facebook Groups; group/search/discussion results were excluded."
     },
     "model-070:facebook-groups:ford-focus-rs500": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-22T23:03:02Z",
+      "lastSearchedAt": "2026-09-23T12:30:17Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public indexed search returned no direct current qualifying Facebook-group RS500 sale advert."
+      "limitation": "Public web search returned no direct current Focus RS500 sale advert from Facebook Groups; group/search/discussion results were excluded."
     },
     "model-070:ferrarichat:ford-focus-rs-mk1": {
       "status": "searched",
@@ -2279,10 +2276,10 @@
     },
     "model-070:ferrarichat:ford-focus-rs-mk2": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-22T23:03:02Z",
+      "lastSearchedAt": "2026-09-23T12:30:17Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No direct current qualifying FerrariChat Focus RS Mk2 sale advert surfaced; forum/discussion material excluded."
+      "limitation": "Public web search returned no direct current qualifying Focus RS Mk2 advert on FerrariChat; forum/discussion results were excluded."
     },
     "model-070:ferrarichat:ford-focus-rs500": {
       "status": "searched",
