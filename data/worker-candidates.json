@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-23T05:31:50Z",
+  "updatedAt": "2026-09-23T06:52:00Z",
   "candidates": [
     {
       "modelId": "model-056",
@@ -624,21 +624,21 @@
       "source": "specialist-dealers",
       "discoveredAt": "2026-09-10T11:15:44Z",
       "status": "verification-pending",
-      "note": "Rechecked 14 Sep 2026: New Elms still presents Morgan Aero 8 GTN No.001 as current stock at £64,995, 16,900 miles, RHD and six-speed manual; Car & Classic cross-post C2023303 is still For Sale with a 26-photo gallery. Current exterior seller imagery shows no SOLD/RESERVED overlay. A reliable interior/manual-control image could not be fetched, so the strict visual gearbox check remains outstanding and the car must not be published yet.",
+      "note": "Rechecked 23 Sep 2026 against New Elms' seller-direct advert, New Elms current stock and the matching current Car & Classic advert. Morgan Aero 8 GTN No.001 remains offered at £64,995 with 16,900 miles, RHD and six-speed manual; Car & Classic records RG53EHP and currently marks the advert For Sale. Multiple exact current gallery images were inspected and show the same blue/silver car without SOLD, RESERVED, DEPOSIT TAKEN or UNDER OFFER overlays. However, all accessible inspected frames are exterior views and a clear gear-selector or three-pedal image could not be obtained. Under the strict manual-photo rule, retain as verification-pending and do not publish.",
       "crossPostUrls": [
         "https://www.carandclassic.com/car/C2023303"
       ],
-      "lastCheckedAt": "2026-09-23T05:31:50Z",
-      "vehicleIdentity": "2004 Morgan Aero 8 GTN No. 001 | £64,995 | 16,900 miles | New Elms Classic Cars",
+      "lastCheckedAt": "2026-09-23T06:52:00Z",
+      "vehicleIdentity": "2004 Morgan Aero 8 GTN No.001 | RG53EHP | 16,900 miles | £64,995 | New Elms",
       "year": 2004,
       "price": 64995,
       "mileage": 16900,
-      "seller": "New Elms Classic Cars",
+      "seller": "New Elms",
       "location": "Reading, Berkshire, United Kingdom",
-      "gearbox": "Manual",
-      "evidence": "Exact New Elms seller advert and current-stock inventory list 2004 Aero 8 GTN No.001 at £64,995, 16,900 miles, RHD and manual, with enquiry controls.",
-      "photoEvidence": "Accessible seller page confirms the textual GTN identity and manual specification but did not expose a usable current vehicle-gallery set for visual SOLD/RESERVED/manual-control inspection.",
-      "verificationLimitation": "Keep unverified until exact current seller photographs can be visually checked for unavailable overlays and manual controls."
+      "gearbox": "6-speed manual",
+      "evidence": "New Elms' seller-direct advert and its current stock page both continue to offer GTN No.001 at £64,995 with 16,900 miles. The matching Car & Classic cross-post is also currently marked For Sale at £64,995, 2004, registration RG53EHP, RHD and manual.",
+      "photoEvidence": "Current Car & Classic gallery frames were inspected on 23 Sep 2026 and show the same blue/silver RG53EHP car with no SOLD, RESERVED, DEPOSIT TAKEN or UNDER OFFER overlay. The accessible inspected frames are exterior views and do not provide a sufficiently clear manual gear-selector/pedal view.",
+      "verificationLimitation": "Keep unverified until a current exact interior/manual-control image is inspectable; do not publish from advert wording alone."
     },
     {
       "modelId": "model-028",
@@ -3741,6 +3741,25 @@
       "photoEvidence": "The advert exposes five images, but its own description explicitly says the pictures only show the colour combination while the actual car is away having an extensive service and inspection. They are not sufficient exact-car evidence for the hard photo gate.",
       "verificationLimitation": "Do not publish until fresh photographs of the actual car are live and can be checked for current status and the manual control layout.",
       "note": "Fresh current advert, but the seller explicitly says the displayed pictures are only to show the colour combination while the actual car is away for service/inspection. Keep verification-pending; the current advert text qualifies on model/year/price/manual/UK, but the mandatory exact-car photo evidence is not yet available."
+    },
+    {
+      "modelId": "model-025",
+      "url": "https://www.autotrader.co.uk/car-details/202606263637668",
+      "source": "autotrader",
+      "discoveredAt": "2026-09-23T06:52:00Z",
+      "status": "verification-pending",
+      "lastCheckedAt": "2026-09-23T06:52:00Z",
+      "vehicleIdentity": "2010 Ultima GTR | 19,500 miles | £73,000 | Macclesfield private seller",
+      "year": 2010,
+      "price": 73000,
+      "mileage": 19500,
+      "seller": "Private seller",
+      "location": "Macclesfield, Cheshire, United Kingdom",
+      "gearbox": "Manual — Porsche 6-speed",
+      "evidence": "Exact Auto Trader advert is current with active Message/Call seller controls at £73,000, 19,500 miles, 2010 registration, three owners, 7.0-litre petrol and manual gearbox. Seller describes an LS7 7.0 V8 and Porsche six-speed box.",
+      "photoEvidence": "The exact advert exposes a 23-image gallery, but the current Auto Trader image assets cache-missed when opened in this run, so SOLD/RESERVED/DEPOSIT TAKEN/UNDER OFFER overlays could not be visually excluded strongly enough.",
+      "verificationLimitation": "Model rule requires build provenance and the hard photo-availability gate is incomplete. Keep verification-pending until current gallery images and build/road-registration provenance can be inspected.",
+      "note": "New candidate found 23 Sep 2026: current Auto Trader advert for a 2010 Ultima GTR at £73,000 with 19,500 miles in Macclesfield. It is within the configured 1999–2010 and £40,000–£80,000 target rules, has a fixed GBP asking price, active private-seller controls, UK location and is advertised with an LS7 7.0 V8 and Porsche six-speed manual box. Auto Trader exposes 23 gallery images, but the image assets cache-missed during exact inspection, so the mandatory current-photo availability check could not be completed. The configured target also requires build provenance, which the advert description alone does not establish. Retain verification-pending; do not publish or alert yet."
     }
   ]
 }
