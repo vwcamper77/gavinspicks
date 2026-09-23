@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-23T06:52:00Z",
+  "updatedAt": "2026-09-23T07:37:34Z",
   "candidates": [
     {
       "modelId": "model-056",
@@ -3760,6 +3760,26 @@
       "photoEvidence": "The exact advert exposes a 23-image gallery, but the current Auto Trader image assets cache-missed when opened in this run, so SOLD/RESERVED/DEPOSIT TAKEN/UNDER OFFER overlays could not be visually excluded strongly enough.",
       "verificationLimitation": "Model rule requires build provenance and the hard photo-availability gate is incomplete. Keep verification-pending until current gallery images and build/road-registration provenance can be inspected.",
       "note": "New candidate found 23 Sep 2026: current Auto Trader advert for a 2010 Ultima GTR at £73,000 with 19,500 miles in Macclesfield. It is within the configured 1999–2010 and £40,000–£80,000 target rules, has a fixed GBP asking price, active private-seller controls, UK location and is advertised with an LS7 7.0 V8 and Porsche six-speed manual box. Auto Trader exposes 23 gallery images, but the image assets cache-missed during exact inspection, so the mandatory current-photo availability check could not be completed. The configured target also requires build provenance, which the advert description alone does not establish. Retain verification-pending; do not publish or alert yet."
+    },
+    {
+      "modelId": "model-028",
+      "url": "https://www.carandclassic.com/car/C2073046",
+      "source": "car-and-classic",
+      "discoveredAt": "2026-09-23T07:37:34Z",
+      "status": "verification-pending",
+      "lastCheckedAt": "2026-09-23T07:37:34Z",
+      "vehicleIdentity": "2009 Lotus Exige S Performance Touring | £46,500 | 12,800 miles | manual | Hilton & Moss",
+      "year": 2009,
+      "price": 46500,
+      "mileage": 12800,
+      "seller": "Hilton & Moss Sportscars",
+      "location": "Bishop's Stortford, Hertfordshire, United Kingdom",
+      "gearbox": "6-speed manual",
+      "specification": "Exige S Performance Touring; factory Performance Pack (240 bhp), Touring Pack, air conditioning, Starlight Black",
+      "evidence": "Exact Car & Classic advert is currently For Sale at £46,500, 12,800 miles, 2009, RHD manual and UK dealer location. Hilton & Moss's current Lotus stock page independently lists the exact car at £46,500 / 12,800 miles without a deposit/sold marker, while other stock is explicitly marked Deposit taken. The seller-direct car page is under Cars for Sale, states Transmission: Manual and 'Available only at Hilton & Moss'. Seller states two owners and a comprehensive service record through Summer 2026.",
+      "photoEvidence": "Nine exact current Car & Classic seller-gallery images were visually inspected; no SOLD, RESERVED, DEPOSIT TAKEN or UNDER OFFER overlay was visible. The accessible frames were exterior views only and did not show the gear selector or pedals clearly enough to satisfy the hard manual-photo gate.",
+      "verificationLimitation": "Keep unverified until an exact current interior/manual-control photograph is inspectable; do not publish from text/current-stock evidence alone.",
+      "note": "Fresh 23 Sep 2026 candidate. Current advert, seller inventory, price, year, mileage, UK location and advertised manual specification are strong. Manual-photo evidence is still incomplete, so this remains verification-pending and must not be published."
     }
   ]
 }
