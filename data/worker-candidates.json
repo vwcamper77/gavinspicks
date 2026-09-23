@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-23T18:31:22Z",
+  "updatedAt": "2026-09-23T19:53:11Z",
   "candidates": [
     {
       "modelId": "model-056",
@@ -2437,10 +2437,12 @@
       "url": "https://www.classic-trader.com/uk/cars/listing/bmw/3-series/m3/2003/449229",
       "source": "classic-trader",
       "discoveredAt": "2026-09-15T10:16:24Z",
-      "status": "rejected",
-      "note": "Rechecked 15 Sep 2026: Classic Trader and Hexagon Classics' own current-stock page both show this 2003 E46 M3 Coupe at £99,995 with 3,100 miles, factory 6-speed manual, RHD and current London showroom availability. PistonHeads independently cross-posts it today and states one previous owner. Exact Classic Trader image assets returned cache misses, so the required SOLD/RESERVED-overlay and cabin/manual-control visual inspection is incomplete; keep verification-pending and do not publish.",
-      "lastCheckedAt": "2026-09-22T03:49:06Z",
-      "vehicleIdentity": "2003 BMW E46 M3 Coupe manual | 3,100 miles | £99,995 | Hexagon Classics"
+      "status": "verified",
+      "note": "Reverified 23 Sep 2026. Hexagon Classics' seller-direct page and BMW current-stock page both list this 2003 Titanium Silver E46 M3 Coupe at £99,995 with 3,100 miles, one owner from new, full BMW main-dealer history and factory six-speed manual; an Inspection II and brake-fluid change are stated at 3,079 miles in February 2026. Exact Hexagon seller image assets were inspected, including exterior, cabin and a clear conventional manual gear lever, with no SOLD/RESERVED/DEPOSIT TAKEN/UNDER OFFER overlay. Same vehicle is already represented in the repository's supplemental feed, so this is a state reconciliation rather than a new pick.",
+      "lastCheckedAt": "2026-09-23T19:53:11Z",
+      "vehicleIdentity": "2003 BMW M3 E46 Coupe | 3,100 miles | £99,995 | Hexagon Classics",
+      "evidence": "Seller-direct Hexagon advert is live at £99,995, 3,100 miles, 2003, Coupe, Titanium Silver/Black Nappa, one owner from new, full BMW main-dealer history and available to view now in London; Hexagon's current BMW stock page lists the same car.",
+      "photoEvidence": "Exact current Hexagon seller images inspected: multiple exterior views, cabin and a clear conventional manual gear lever. No unavailable-status overlay was visible in the inspected images."
     },
     {
       "modelId": "model-023",
@@ -3768,10 +3770,10 @@
       "url": "https://www.carandclassic.com/car/C2192731",
       "source": "car-and-classic",
       "discoveredAt": "2026-09-22T10:34:19Z",
-      "status": "verification-pending",
-      "lastCheckedAt": "2026-09-22T10:34:19Z",
-      "note": "Public advert checked 22 Sep 2026: Car & Classic lists AP56YZN, a 2007 BMW Z4M (E86) Coupe in Belper at £21,950, 70,500 miles, six-speed manual, dealer sale, listed 16 Sep 2026 with a 44-image gallery. The advert is current and direct, but the exact gallery pixels were not fully verified for SOLD/RESERVED/DEPOSIT TAKEN/UNDER OFFER overlays and manual-control evidence, so it remains verification-pending and must not be published.",
-      "vehicleIdentity": "2007 BMW Z4M Coupe | AP56YZN | £21,950 | 70,500 miles | six-speed manual | Motoriginals"
+      "status": "rejected",
+      "lastCheckedAt": "2026-09-23T19:53:11Z",
+      "note": "Rechecked 23 Sep 2026. Exact Car & Classic advert remains For Sale at £21,950 in Belper for AP56YZN, 70,500 miles, RHD, advertised Getrag six-speed manual, with service history and MOT to 5 Jan 2027. Accessible exact-ad seller frames show the same silver car with no unavailable overlay. However the advert states five previous owners and visible driver's-seat bolster wear. Under the current exceptional-example/best-of-class rule this is a routine higher-mileage example rather than a Gavin's Pick, so reject editorially without publication; no need to relax the manual-photo gate for a car that already fails the curation gate.",
+      "vehicleIdentity": "2007 BMW Z4 M Coupe | AP56YZN | 70,500 miles | £21,950 | Motoriginals"
     },
     {
       "modelId": "model-073",
