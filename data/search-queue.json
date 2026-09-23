@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23T14:24:36.422Z",
+  "generatedAt": "2026-09-23T15:49:14.264Z",
   "modelCount": 96,
   "sourceCount": 13,
   "jobCount": 1482,
@@ -1924,10 +1924,10 @@
       "priority": false,
       "cadenceHours": 12,
       "status": "searched",
-      "lastSearchedAt": "2026-09-21T20:31:32Z",
+      "lastSearchedAt": "2026-09-23T15:46:24Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Collecting Cars query executed. The surfaced Noble M12 material was a completed 2020 auction/sale result, so it was rejected under the no-completed-auctions rule."
+      "limitation": "Search executed. Noble M12 results were completed/historical auction pages, not active current auctions or fixed-price adverts; none retained."
     },
     {
       "id": "model-009:bonhams-cars:noble-m12-gto-gto-3-gto-3r",
@@ -2164,10 +2164,10 @@
       "priority": false,
       "cadenceHours": 12,
       "status": "searched",
-      "lastSearchedAt": "2026-09-21T20:31:32Z",
+      "lastSearchedAt": "2026-09-23T15:46:24Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Bonhams Cars / The Market query executed; no plausible current direct Noble M400 advert survived filtering."
+      "limitation": "Search executed; no active current Bonhams Noble M400 lot/advert survived filtering."
     },
     {
       "id": "model-010:classic-trader:noble-m400",
@@ -2181,10 +2181,10 @@
       "priority": false,
       "cadenceHours": 12,
       "status": "searched",
-      "lastSearchedAt": "2026-09-21T20:31:32Z",
+      "lastSearchedAt": "2026-09-23T15:46:24Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Classic Trader query executed; no plausible current direct UK Noble M400 advert survived filtering."
+      "limitation": "Classic Trader surfaced an expired/generic Noble M400 listing page rather than a current purchasable advert; none retained."
     },
     {
       "id": "model-010:gumtree:noble-m400",
@@ -12690,10 +12690,10 @@
       "priority": true,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-23T02:41:07Z",
+      "lastSearchedAt": "2026-09-23T15:46:24Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search executed; no fresh direct current qualifying Z4 M Coupe owner-sale thread was surfaced."
+      "limitation": "Search executed; no direct current qualifying 911UK BMW Z4 M Coupe sale advert survived filtering."
     },
     {
       "id": "model-056:ferrarichat:bmw-z4-m-coupe",
@@ -12707,10 +12707,10 @@
       "priority": true,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-23T02:41:07Z",
+      "lastSearchedAt": "2026-09-23T15:46:24Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search executed; no fresh direct current qualifying Z4 M Coupe advert was surfaced."
+      "limitation": "Search executed; no direct current qualifying FerrariChat BMW Z4 M Coupe sale advert survived filtering."
     },
     {
       "id": "model-056:lamborghini-talk:bmw-z4-m-coupe",
@@ -13444,10 +13444,10 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-22T02:10:50Z",
+      "lastSearchedAt": "2026-09-23T15:46:24Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search executed; no plausible current direct advert URL survived pre-verification filtering."
+      "limitation": "Search executed. Results were parts or automatic/non-qualifying cars; no current qualifying manual 3200 advert retained."
     },
     {
       "id": "model-060:autotrader:maserati-3200-gt-assetto-corsa-manual",
@@ -13461,10 +13461,10 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-22T02:10:50Z",
+      "lastSearchedAt": "2026-09-23T15:46:24Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search executed; no plausible current direct advert URL survived pre-verification filtering."
+      "limitation": "Auto Trader returned a generic Maserati manual inventory page rather than a direct car-details advert; generic page excluded."
     },
     {
       "id": "model-060:pistonheads:maserati-3200-gt-assetto-corsa-manual",
@@ -13478,10 +13478,10 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-22T02:10:50Z",
+      "lastSearchedAt": "2026-09-23T15:46:24Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search executed; no plausible current direct advert URL survived pre-verification filtering."
+      "limitation": "Direct 3200 manual result found at £12,995, below the configured £18,000 minimum, so no candidate URL retained."
     },
     {
       "id": "model-060:car-and-classic:maserati-3200-gt-assetto-corsa-manual",
@@ -13495,10 +13495,12 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-22T02:10:50Z",
-      "lastResultCount": 0,
-      "candidateUrls": [],
-      "limitation": "Search executed; no plausible current direct advert URL survived pre-verification filtering."
+      "lastSearchedAt": "2026-09-23T15:46:24Z",
+      "lastResultCount": 1,
+      "candidateUrls": [
+        "https://www.carandclassic.com/l/C1744087"
+      ],
+      "limitation": "One current direct qualifying advert survived: 2001 Maserati 3200 GT Assetto Corsa #19/75, £19,200, 37,276 miles, six-speed manual. Other localized/stale results were not duplicated."
     },
     {
       "id": "model-060:collecting-cars:maserati-3200-gt-assetto-corsa-manual",
@@ -13563,10 +13565,10 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-22T02:10:50Z",
+      "lastSearchedAt": "2026-09-23T15:46:24Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search executed; no plausible current direct advert URL survived pre-verification filtering."
+      "limitation": "Search executed; no direct current qualifying Gumtree 3200 GT / Assetto Corsa manual advert surfaced."
     },
     {
       "id": "model-060:911uk:maserati-3200-gt-assetto-corsa-manual",
@@ -13631,10 +13633,10 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-22T02:10:50Z",
+      "lastSearchedAt": "2026-09-23T15:46:24Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search executed; no plausible current direct advert URL survived pre-verification filtering."
+      "limitation": "Current specialist manual 3200 stock found at £15,950, below the configured £18,000 minimum; no qualifying candidate retained."
     },
     {
       "id": "model-061:facebook-groups:maserati-4200-coupe-spyder-gt-manual",
@@ -13665,10 +13667,10 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-22T02:10:50Z",
+      "lastSearchedAt": "2026-09-23T15:46:24Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search executed; no plausible current direct advert URL survived pre-verification filtering."
+      "limitation": "A 4200 result was below the configured £15,000 minimum and its item specifics indicated semi-auto; rejected before verification."
     },
     {
       "id": "model-061:autotrader:maserati-4200-coupe-spyder-gt-manual",
@@ -13682,13 +13684,10 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-22T02:10:50Z",
-      "lastResultCount": 2,
-      "candidateUrls": [
-        "https://www.autotrader.co.uk/car-details/202607134126712",
-        "https://www.autotrader.co.uk/car-details/202609156043977"
-      ],
-      "limitation": "Two live-looking direct Auto Trader adverts retained; manual-photo verification incomplete."
+      "lastSearchedAt": "2026-09-23T15:46:24Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Auto Trader returned generic Maserati manual inventory rather than a direct current 4200/Spyder GT car-details advert; generic page excluded."
     },
     {
       "id": "model-061:pistonheads:maserati-4200-coupe-spyder-gt-manual",
@@ -13702,12 +13701,12 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-22T02:21:18Z",
+      "lastSearchedAt": "2026-09-23T15:46:24Z",
       "lastResultCount": 1,
       "candidateUrls": [
-        "https://www.pistonheads.com/buy/listing/20557025"
+        "https://www.pistonheads.com/buy/listing/21089212"
       ],
-      "limitation": "PistonHeads has a live 2002 Maserati 4200 GT Coupe manual at £13,495 / 41,000 miles / one previous owner, but the asking price is below model-061's configured £15,000 minimum. The same vehicle is already tracked and not eligible for publication."
+      "limitation": "One fresh direct qualifying advert survived: 2004 Maserati Spyder GT, £15,750, 39,000 miles, advertised manual by J Hair Motors. Lower-priced/unavailable results were excluded."
     },
     {
       "id": "model-061:car-and-classic:maserati-4200-coupe-spyder-gt-manual",
@@ -13721,10 +13720,10 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-22T02:10:50Z",
+      "lastSearchedAt": "2026-09-23T15:46:24Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search executed; no plausible current direct advert URL survived pre-verification filtering."
+      "limitation": "Search executed; no direct current qualifying Car & Classic 4200 Coupe/Spyder GT manual advert survived filtering in this run."
     },
     {
       "id": "model-061:collecting-cars:maserati-4200-coupe-spyder-gt-manual",
@@ -13789,10 +13788,10 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-22T02:21:18Z",
+      "lastSearchedAt": "2026-09-23T15:46:24Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Gumtree query executed; no plausible current UK Maserati 4200 GT manual actual advert was returned."
+      "limitation": "Search executed; no direct current qualifying Gumtree 4200 Coupe/Spyder GT manual advert surfaced."
     },
     {
       "id": "model-061:911uk:maserati-4200-coupe-spyder-gt-manual",
@@ -13857,12 +13856,12 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-22T02:21:18Z",
+      "lastSearchedAt": "2026-09-23T15:46:24Z",
       "lastResultCount": 1,
       "candidateUrls": [
-        "https://www.platinumautos.co.uk/used-maserati-coupe-princes-risborough-buckinghamshire-7105977"
+        "https://www.jhairmotors.co.uk/used-cars/maserati-4200-spyder-gt/23699"
       ],
-      "limitation": "Platinum Autos' direct current advert and stock page positively show the 2002 4200 GT manual at £12,995 / 41,000 miles / two total owners. It is current but below model-061's £15,000 configured minimum; existing pending candidate is rejected in this run."
+      "limitation": "J Hair Motors' seller-direct current stock page confirms the 2004 Spyder GT at £15,750 / 39,000 miles / manual in Newtownards; retained as a verification candidate."
     },
     {
       "id": "model-062:facebook-groups:chevrolet-corvette-c5-z06",
@@ -13893,10 +13892,10 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-22T02:21:18Z",
+      "lastSearchedAt": "2026-09-23T15:46:24Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "eBay query results were parts, exhausts, models and accessories rather than an actual C5 Z06 car advert; all rejected before verification."
+      "limitation": "Search executed. Results were parts/models or otherwise non-car adverts; no current C5 Z06 candidate retained."
     },
     {
       "id": "model-062:autotrader:chevrolet-corvette-c5-z06",
@@ -13910,10 +13909,10 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-22T02:21:18Z",
+      "lastSearchedAt": "2026-09-23T15:46:24Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Auto Trader query returned generic/current-generation Z06 category material, not a 2001-2004 C5 Z06 actual advert."
+      "limitation": "Auto Trader search surfaced generic/newer Z06 inventory, not a direct current 2001-2004 C5 Z06 advert; none retained."
     },
     {
       "id": "model-062:pistonheads:chevrolet-corvette-c5-z06",
@@ -13944,10 +13943,10 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-22T02:21:18Z",
+      "lastSearchedAt": "2026-09-23T15:46:24Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Car & Classic returned a current 2001 C5-labelled Z06 advert at £17,995, but it is advertised as a four-speed automatic and 100,000 miles, conflicting with the manual target and below the configured £25,000 minimum; rejected before candidate intake."
+      "limitation": "Search executed; no direct current qualifying UK C5 Z06 advert survived filtering."
     },
     {
       "id": "model-062:collecting-cars:chevrolet-corvette-c5-z06",
@@ -15701,14 +15700,14 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-23T07:37:34Z",
+      "lastSearchedAt": "2026-09-23T15:46:24Z",
       "lastResultCount": 3,
       "candidateUrls": [
-        "https://www.pistonheads.com/buy/listing/20788132",
         "https://www.pistonheads.com/buy/listing/20975833",
-        "https://www.pistonheads.com/buy/listing/20729603"
+        "https://www.pistonheads.com/buy/listing/20729603",
+        "https://www.pistonheads.com/buy/listing/20788132"
       ],
-      "limitation": "Three plausible current actual PistonHeads adverts were retained; deposit-taken, stale and already-unavailable adverts were rejected before verification."
+      "limitation": "Three direct current Mk1 adverts survived pre-verification filtering. Deposit-taken/unavailable and generic category results were excluded; previously unavailable listing 18346448 was not resurfaced."
     },
     {
       "id": "model-070:car-and-classic:ford-focus-rs-mk1",
@@ -15739,10 +15738,10 @@
       "priority": true,
       "cadenceHours": 3,
       "status": "searched",
-      "lastSearchedAt": "2026-09-23T05:31:50Z",
+      "lastSearchedAt": "2026-09-23T15:46:24Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Completed/historical auctions only."
+      "limitation": "Search executed. Returned material was completed/historical auction content or non-current; no active purchasable Mk1 advert retained."
     },
     {
       "id": "model-070:bonhams-cars:ford-focus-rs-mk1",
@@ -15858,13 +15857,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-23T08:25:37Z",
-      "lastResultCount": 2,
-      "candidateUrls": [
-        "https://keeperscars.co.uk/vehicle/name/ford-focus-2-0-rs-3dr/",
-        "https://www.kgfclassiccars.co.uk/vehicles/36295/"
-      ],
-      "limitation": "Two plausible current seller-direct Mk1 adverts were retained. Keepers is newly discovered; KGF is already tracked. Both still require/retain the hard photo/manual verification gate before publication."
+      "lastSearchedAt": "2026-09-23T15:46:24Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Specialist stock searched. KGF current inventory confirms a Mk1 but only a generic stock page surfaced; stale/sold direct pages and aggregator results were excluded from candidate URLs."
     },
     {
       "id": "model-070:facebook-groups:ford-focus-rs-mk2",
@@ -15929,15 +15925,14 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-23T07:37:34Z",
-      "lastResultCount": 4,
+      "lastSearchedAt": "2026-09-23T15:46:24Z",
+      "lastResultCount": 3,
       "candidateUrls": [
         "https://www.pistonheads.com/buy/listing/21046691",
         "https://www.pistonheads.com/buy/listing/21062629",
-        "https://www.pistonheads.com/buy/listing/20937158",
-        "https://www.pistonheads.com/buy/listing/20771951"
+        "https://www.pistonheads.com/buy/listing/20937158"
       ],
-      "limitation": "Four plausible current actual PistonHeads adverts were retained; an advert explicitly no longer available was rejected."
+      "limitation": "Three direct current Mk2 adverts survived pre-verification filtering. Listing 18742854 is explicitly no longer available and was excluded."
     },
     {
       "id": "model-070:car-and-classic:ford-focus-rs-mk2",
@@ -15970,10 +15965,10 @@
       "priority": true,
       "cadenceHours": 3,
       "status": "searched",
-      "lastSearchedAt": "2026-09-23T05:31:50Z",
+      "lastSearchedAt": "2026-09-23T15:46:24Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Completed/historical auctions only."
+      "limitation": "Search executed. Returned material was completed/historical auction content or non-current; no active purchasable Mk2 advert retained."
     },
     {
       "id": "model-070:bonhams-cars:ford-focus-rs-mk2",
@@ -16093,13 +16088,12 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-23T08:25:37Z",
-      "lastResultCount": 2,
+      "lastSearchedAt": "2026-09-23T15:46:24Z",
+      "lastResultCount": 1,
       "candidateUrls": [
-        "https://keeperscars.co.uk/vehicle/name/ford-focus-2-5-rs-3dr-2/",
         "https://carcavescotland.co.uk/ford-focus-rs-mk2/"
       ],
-      "limitation": "Two plausible current seller-direct Mk2 adverts were retained. Keepers is newly discovered; the Car Cave car is already tracked. No duplicate vehicle identities were added."
+      "limitation": "Car Cave Scotland's direct current Mk2 advert remains a plausible live candidate; other specialist results were sold/stale or non-direct."
     },
     {
       "id": "model-070:facebook-groups:ford-focus-rs500",
@@ -16164,10 +16158,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-23T07:37:34Z",
+      "lastSearchedAt": "2026-09-23T15:46:24Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public web search returned no qualifying current actual advert URLs; stale, sold, category, foreign or otherwise non-qualifying results were rejected."
+      "limitation": "Search executed. Results were editorial/generic inventory rather than a direct current RS500 advert."
     },
     {
       "id": "model-070:car-and-classic:ford-focus-rs500",
@@ -16198,10 +16192,10 @@
       "priority": true,
       "cadenceHours": 3,
       "status": "searched",
-      "lastSearchedAt": "2026-09-23T05:31:50Z",
+      "lastSearchedAt": "2026-09-23T15:46:24Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Completed/historical auctions only."
+      "limitation": "Search executed. No active current RS500 auction/advert survived filtering; historical/completed material excluded."
     },
     {
       "id": "model-070:bonhams-cars:ford-focus-rs500",
@@ -16317,10 +16311,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-23T08:25:37Z",
+      "lastSearchedAt": "2026-09-23T15:46:24Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No current qualifying direct RS500 advert."
+      "limitation": "Specialist stock searched; no direct current RS500 advert survived filtering."
     },
     {
       "id": "model-071:facebook-groups:bmw-m5-touring-e61-5-0-v10-smg",
@@ -16574,10 +16568,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-23T08:25:37Z",
+      "lastSearchedAt": "2026-09-23T15:46:24Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No current qualifying direct advert."
+      "limitation": "Search executed. Results were unrelated 1 Series variants or non-current material rather than a qualifying E82 1M advert."
     },
     {
       "id": "model-072:autotrader:bmw-1m-coupe-manual-45000-55000-full-service-history",
@@ -16591,10 +16585,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-23T08:25:37Z",
+      "lastSearchedAt": "2026-09-23T15:46:24Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Generic/search pages only; no direct qualifying advert."
+      "limitation": "Auto Trader search returned generic/category inventory rather than a direct current BMW 1M car-details advert; generic pages excluded."
     },
     {
       "id": "model-072:pistonheads:bmw-1m-coupe-manual-45000-55000-full-service-history",
@@ -16625,10 +16619,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-23T08:25:37Z",
+      "lastSearchedAt": "2026-09-23T15:46:24Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "A live 2011 BMW 1M direct advert surfaced at £44,950 / 52,722 miles, but it is £50 below the configured £45,000 model floor and was rejected before verification."
+      "limitation": "Search executed. Results were historical, sold or removed 1M pages; no current qualifying advert retained."
     },
     {
       "id": "model-072:collecting-cars:bmw-1m-coupe-manual-45000-55000-full-service-history",
@@ -20296,10 +20290,10 @@
       "priority": true,
       "cadenceHours": 6,
       "status": "blocked",
-      "lastSearchedAt": "2026-09-23T02:41:07Z",
+      "lastSearchedAt": "2026-09-23T15:46:24Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public web retrieval is blocked by lamborghini-talk.com robots/access controls. No bypass attempted."
+      "limitation": "Public retrieval was blocked by robots/access controls for LamborghiniTalk; no bypass attempted."
     },
     {
       "id": "model-082:specialist-dealers:subaru-impreza-p1",
@@ -20772,10 +20766,10 @@
       "priority": true,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-23T02:41:07Z",
+      "lastSearchedAt": "2026-09-23T15:46:24Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public indexed Facebook group search executed. No accessible direct current qualifying advert/post URL was surfaced; inaccessible/private group content was not bypassed."
+      "limitation": "Public web search executed; no direct current qualifying RB320 sale post/ad with sufficient listing evidence survived filtering."
     },
     {
       "id": "model-085:ebay:subaru-impreza-rb320",
@@ -20925,10 +20919,10 @@
       "priority": true,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-23T02:41:07Z",
+      "lastSearchedAt": "2026-09-23T15:46:24Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search executed; no fresh direct owner-sale advert satisfying the strict mileage and ownership rules was surfaced."
+      "limitation": "Search executed; no direct current RB320 advert meeting the strict under-30,000-mile / max-two-owner watch surfaced."
     },
     {
       "id": "model-085:ferrarichat:subaru-impreza-rb320",
@@ -20942,10 +20936,10 @@
       "priority": true,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-23T02:41:07Z",
+      "lastSearchedAt": "2026-09-23T15:46:24Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search executed; no fresh direct current qualifying owner-sale advert was surfaced."
+      "limitation": "Search executed; no direct current qualifying RB320 sale advert survived filtering."
     },
     {
       "id": "model-085:lamborghini-talk:subaru-impreza-rb320",
@@ -20959,10 +20953,10 @@
       "priority": true,
       "cadenceHours": 6,
       "status": "blocked",
-      "lastSearchedAt": "2026-09-23T02:41:07Z",
+      "lastSearchedAt": "2026-09-23T15:46:24Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public web retrieval is blocked by lamborghini-talk.com robots/access controls. No bypass attempted."
+      "limitation": "Public retrieval was blocked by robots/access controls for LamborghiniTalk; no bypass attempted."
     },
     {
       "id": "model-085:specialist-dealers:subaru-impreza-rb320",
@@ -20993,10 +20987,10 @@
       "priority": false,
       "cadenceHours": 24,
       "status": "searched",
-      "lastSearchedAt": "2026-09-21T08:24:08Z",
+      "lastSearchedAt": "2026-09-23T15:46:24Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public Facebook-group query executed; no direct current publicly indexed UK Subaru Impreza 22B owner-sale advert URL was exposed. Group/search pages were not retained."
+      "limitation": "Public web search executed; no direct current 22B sale post/ad meeting the strict mileage/owner watch surfaced."
     },
     {
       "id": "model-086:ebay:subaru-impreza-22b",
@@ -21163,10 +21157,10 @@
       "priority": false,
       "cadenceHours": 24,
       "status": "searched",
-      "lastSearchedAt": "2026-09-21T08:24:08Z",
+      "lastSearchedAt": "2026-09-23T15:46:24Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "FerrariChat query executed; no direct current UK Subaru Impreza 22B owner-sale advert survived filtering. Discussion and historical references were not retained."
+      "limitation": "Search executed; no direct current qualifying FerrariChat Subaru 22B sale advert surfaced."
     },
     {
       "id": "model-086:lamborghini-talk:subaru-impreza-22b",
@@ -21180,10 +21174,10 @@
       "priority": false,
       "cadenceHours": 24,
       "status": "blocked",
-      "lastSearchedAt": "2026-09-21T08:24:08Z",
+      "lastSearchedAt": "2026-09-23T15:46:24Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "LamborghiniTalk blocks automated public retrieval via robots/access controls. The query could not be inspected for a current Subaru Impreza 22B advert; no access-control bypass was attempted."
+      "limitation": "Public retrieval was blocked by robots/access controls for LamborghiniTalk; no bypass attempted."
     },
     {
       "id": "model-086:specialist-dealers:subaru-impreza-22b",
@@ -21214,10 +21208,10 @@
       "priority": false,
       "cadenceHours": 24,
       "status": "searched",
-      "lastSearchedAt": "2026-09-21T08:24:08Z",
+      "lastSearchedAt": "2026-09-23T15:46:24Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public Facebook-group query executed; no direct current publicly indexed UK Subaru Impreza STI Type R owner-sale advert URL was exposed. Group/search pages were not retained."
+      "limitation": "Public web search executed; no direct current STI Type R sale post/ad meeting the strict mileage/owner watch surfaced."
     },
     {
       "id": "model-086:ebay:subaru-impreza-sti-type-r",
@@ -21384,10 +21378,10 @@
       "priority": false,
       "cadenceHours": 24,
       "status": "searched",
-      "lastSearchedAt": "2026-09-21T08:24:08Z",
+      "lastSearchedAt": "2026-09-23T15:46:24Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "FerrariChat query executed; no direct current UK Subaru Impreza STI Type R owner-sale advert survived filtering. Discussion and historical references were not retained."
+      "limitation": "Search executed; no direct current qualifying FerrariChat STI Type R sale advert surfaced."
     },
     {
       "id": "model-086:lamborghini-talk:subaru-impreza-sti-type-r",
@@ -21401,10 +21395,10 @@
       "priority": false,
       "cadenceHours": 24,
       "status": "blocked",
-      "lastSearchedAt": "2026-09-21T08:24:08Z",
+      "lastSearchedAt": "2026-09-23T15:46:24Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "LamborghiniTalk blocks automated public retrieval via robots/access controls. The query could not be inspected for a current Subaru Impreza STI Type R advert; no access-control bypass was attempted."
+      "limitation": "Public retrieval was blocked by robots/access controls for LamborghiniTalk; no bypass attempted."
     },
     {
       "id": "model-086:specialist-dealers:subaru-impreza-sti-type-r",
@@ -21435,10 +21429,10 @@
       "priority": false,
       "cadenceHours": 24,
       "status": "searched",
-      "lastSearchedAt": "2026-09-21T08:24:08Z",
+      "lastSearchedAt": "2026-09-23T15:46:24Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public Facebook-group query executed; no direct current publicly indexed UK Subaru Impreza STI Type RA owner-sale advert URL was exposed. Group/search pages were not retained."
+      "limitation": "Public web search executed; no direct current STI Type RA sale post/ad meeting the strict mileage/owner watch surfaced."
     },
     {
       "id": "model-086:ebay:subaru-impreza-sti-type-ra",
@@ -21605,10 +21599,10 @@
       "priority": false,
       "cadenceHours": 24,
       "status": "searched",
-      "lastSearchedAt": "2026-09-21T08:24:08Z",
+      "lastSearchedAt": "2026-09-23T15:46:24Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "FerrariChat query executed; no direct current UK Subaru Impreza STI Type RA owner-sale advert survived filtering. Discussion and historical references were not retained."
+      "limitation": "Search executed; no direct current qualifying FerrariChat STI Type RA sale advert surfaced."
     },
     {
       "id": "model-086:lamborghini-talk:subaru-impreza-sti-type-ra",
@@ -21622,10 +21616,10 @@
       "priority": false,
       "cadenceHours": 24,
       "status": "blocked",
-      "lastSearchedAt": "2026-09-21T08:24:08Z",
+      "lastSearchedAt": "2026-09-23T15:46:24Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "LamborghiniTalk blocks automated public retrieval via robots/access controls. The query could not be inspected for a current Subaru Impreza STI Type RA advert; no access-control bypass was attempted."
+      "limitation": "Public retrieval was blocked by robots/access controls for LamborghiniTalk; no bypass attempted."
     },
     {
       "id": "model-086:specialist-dealers:subaru-impreza-sti-type-ra",
@@ -21809,10 +21803,10 @@
       "priority": false,
       "cadenceHours": 24,
       "status": "searched",
-      "lastSearchedAt": "2026-09-21T08:24:08Z",
+      "lastSearchedAt": "2026-09-23T15:46:24Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "911UK query executed; no fresh direct current UK Subaru Impreza S202 owner-sale thread satisfying the strict mileage/ownership rules was found."
+      "limitation": "Search executed; no direct current S202 advert meeting the strict under-30,000-mile / max-two-owner watch surfaced."
     },
     {
       "id": "model-087:ferrarichat:subaru-impreza-s202",
@@ -22030,10 +22024,10 @@
       "priority": false,
       "cadenceHours": 24,
       "status": "searched",
-      "lastSearchedAt": "2026-09-21T08:24:08Z",
+      "lastSearchedAt": "2026-09-23T15:46:24Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "911UK query executed; no fresh direct current UK Subaru Impreza S203 owner-sale thread satisfying the strict mileage/ownership rules was found."
+      "limitation": "Search executed; no direct current S203 advert meeting the strict under-30,000-mile / max-two-owner watch surfaced."
     },
     {
       "id": "model-087:ferrarichat:subaru-impreza-s203",
@@ -22251,10 +22245,10 @@
       "priority": false,
       "cadenceHours": 24,
       "status": "searched",
-      "lastSearchedAt": "2026-09-21T08:24:08Z",
+      "lastSearchedAt": "2026-09-23T15:46:24Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "911UK query executed; no fresh direct current UK Subaru Impreza S204 owner-sale thread satisfying the strict mileage/ownership rules was found."
+      "limitation": "Search executed; no direct current S204 advert meeting the strict under-30,000-mile / max-two-owner watch surfaced."
     },
     {
       "id": "model-087:ferrarichat:subaru-impreza-s204",
@@ -22474,10 +22468,10 @@
       "priority": true,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-23T02:41:07Z",
+      "lastSearchedAt": "2026-09-23T15:46:24Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search executed; no direct current TME owner-sale advert meeting the <30,000-mile and maximum-two-total-owners rules was surfaced."
+      "limitation": "Search executed; no direct current TME advert meeting the strict under-30,000-mile / max-two-owner watch surfaced."
     },
     {
       "id": "model-088:ferrarichat:mitsubishi-evo-vi-tommi-makinen-edition",
