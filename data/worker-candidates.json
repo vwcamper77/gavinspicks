@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-23T15:46:24Z",
+  "updatedAt": "2026-09-23T16:55:00Z",
   "candidates": [
     {
       "modelId": "model-056",
@@ -538,7 +538,14 @@
       "source": "gumtree",
       "discoveredAt": "2026-09-10T08:42:28Z",
       "status": "verification-pending",
-      "note": "2004 TVR Tamora, £26,000, 27,000 miles, private seller in County Antrim, posted about 12 hours ago. MOT runs to October 2026 and advert cites a recent major service/radiator work. Exact seller photographs, gearbox/specification and current availability still require visual verification."
+      "note": "Rechecked through fresh public search on 23 Sep 2026: the direct Gumtree advert still surfaces as a 2004 TVR Tamora at £26,000 / 27,000 miles from a County Antrim private seller, with current-looking posting metadata. The exact Gumtree advert returned an internal fetch error in this run, so seller controls, gallery overlays and manual-control photographs could not be independently inspected. Keep verification-pending; do not publish.",
+      "lastCheckedAt": "2026-09-23T16:55:00Z",
+      "vehicleIdentity": "2004 TVR Tamora | 27,000 miles | £26,000 | County Antrim private seller",
+      "year": 2004,
+      "price": 26000,
+      "mileage": 27000,
+      "location": "County Antrim, United Kingdom",
+      "gearbox": "manual (advert claim; photo not verified)"
     },
     {
       "modelId": "model-019",
@@ -611,8 +618,17 @@
       "discoveredAt": "2026-09-10T10:51:15Z",
       "status": "verification-pending",
       "note": "Rechecked 17 Sep 2026 on the seller-direct Saline Motors advert and seller stock: still actively offered at £48,995, 41,399 miles, Alpine White with black leather and advertised six-speed manual; the page shows vehicle enquiry, finance and part-exchange controls and four former keepers. This remains within the model-072 £45k-£55k eligibility band and the seller inventory supports current availability. Exact Saline seller-gallery assets were not exposed strongly enough in this run to complete the mandatory SOLD/RESERVED overlay, cabin/manual-control and exceptional-originality/provenance checks. Keep verification-pending and do not publish from this recheck alone.",
-      "lastCheckedAt": "2026-09-23T00:06:06Z",
-      "vehicleIdentity": "2012 BMW 1M Coupe | Alpine White | £48,995 | 41,399 miles | 6-speed manual | Saline Motors"
+      "lastCheckedAt": "2026-09-23T16:55:00Z",
+      "vehicleIdentity": "2012 BMW 1M Coupe | 41,399 miles | £48,995 | Saline Motors",
+      "year": 2012,
+      "price": 48995,
+      "mileage": 41399,
+      "seller": "Saline Motors",
+      "location": "Comrie, Dunfermline, Fife, Scotland, United Kingdom",
+      "gearbox": "6-speed manual",
+      "evidence": "Seller-direct Saline Motors advert remains actively offered at £48,995 with 41,399 miles, 2012 registration, Coupe body, manual transmission, finance/enquiry/part-exchange controls and four former keepers. No SOLD/RESERVED/UNDER OFFER wording appears on the advert.",
+      "photoEvidence": "The seller advert exposes a multi-image gallery, but the exact image assets cache-missed when fetched in this run, so no visual SOLD/RESERVED overlay or manual gear-selector/three-pedal inspection could be completed.",
+      "verificationLimitation": "Keep verification-pending until exact current seller-gallery pixels can be inspected for availability overlays and genuine manual controls."
     },
     {
       "modelId": "model-014",
@@ -1514,8 +1530,15 @@
       "source": "pistonheads",
       "discoveredAt": "2026-09-12T05:04:02Z",
       "status": "unavailable",
-      "note": "Rechecked 12 Sep 2026 on the actual PistonHeads advert: the 2004 TVR Tamora, £34,995/28,000 miles/manual, is now titled 'UNDER OFFER - MORE WANTED!'. Under-offer cars fail the hard availability gate, so this candidate is unavailable for Gavin's Picks.",
-      "lastCheckedAt": "2026-09-12T14:44:20Z"
+      "note": "Rechecked 23 Sep 2026 on the exact PistonHeads advert. The 2004 TVR Tamora is now £33,995 / 28,000 miles / manual, but the title explicitly says UNDER OFFER and PistonHeads explicitly states 'This car is no longer available for purchase.' It remains unavailable under the hard rules; do not republish or treat the £1,000 lower displayed price as a qualifying price reduction.",
+      "lastCheckedAt": "2026-09-23T16:55:00Z",
+      "vehicleIdentity": "2004 TVR Tamora | 28,000 miles | £33,995 | HPC Classics",
+      "year": 2004,
+      "price": 33995,
+      "mileage": 28000,
+      "seller": "HPC Classics",
+      "location": "United Kingdom",
+      "gearbox": "manual"
     },
     {
       "modelId": "model-020",
@@ -3361,10 +3384,19 @@
       "url": "https://www.pistonheads.com/buy/listing/20342293",
       "source": "pistonheads",
       "discoveredAt": "2026-09-20T15:28:28Z",
-      "lastCheckedAt": "2026-09-20T15:28:28Z",
+      "lastCheckedAt": "2026-09-23T16:55:00Z",
       "status": "verification-pending",
       "vehicleIdentity": "2003 TVR Tamora | AS03 TAM | 30,000 miles | £24,995 | Chelmsford private seller",
-      "note": "New candidate checked 20 Sep 2026. The actual PistonHeads advert is live at £24,995 for a 2003 TVR Tamora, registration AS03 TAM, 30,000 miles, manual, private seller in Chelmsford, with valid MOT and active seller-contact controls; the current PistonHeads blue-Tamora inventory also lists the same car. The configured model-019 year and £23,000-£38,000 price rules pass. Thirteen listing photos are exposed, but the exact image assets cache-missed during this run, so SOLD/RESERVED/DEPOSIT/UNDER-OFFER overlays and the manual gear-control evidence could not be visually confirmed. Keep verification-pending and do not publish."
+      "note": "New candidate checked 20 Sep 2026. The actual PistonHeads advert is live at £24,995 for a 2003 TVR Tamora, registration AS03 TAM, 30,000 miles, manual, private seller in Chelmsford, with valid MOT and active seller-contact controls; the current PistonHeads blue-Tamora inventory also lists the same car. The configured model-019 year and £23,000-£38,000 price rules pass. Thirteen listing photos are exposed, but the exact image assets cache-missed during this run, so SOLD/RESERVED/DEPOSIT/UNDER-OFFER overlays and the manual gear-control evidence could not be visually confirmed. Keep verification-pending and do not publish.",
+      "year": 2003,
+      "price": 24995,
+      "mileage": 30000,
+      "seller": "Private seller",
+      "location": "Chelmsford, United Kingdom",
+      "gearbox": "manual",
+      "evidence": "Exact PistonHeads advert is currently live at £24,995 / 30,000 miles with manual gearbox, valid MOT and active private-seller contact controls. Registration AS03 TAM and detailed service/history narrative are present.",
+      "photoEvidence": "The advert exposes a 13-photo gallery, but current exact gallery pixels were not accessible strongly enough in this run to inspect for unavailable overlays and a clear gear-selector/three-pedal view.",
+      "verificationLimitation": "Keep verification-pending until the exact current gallery can be visually checked."
     },
     {
       "modelId": "model-042",
@@ -3629,9 +3661,18 @@
       "source": "pistonheads",
       "discoveredAt": "2026-09-22T02:45:20Z",
       "status": "verification-pending",
-      "lastCheckedAt": "2026-09-22T02:45:20Z",
+      "lastCheckedAt": "2026-09-23T16:55:00Z",
       "vehicleIdentity": "2010 Aston Martin V8 Vantage 4.7 Coupe | 33,000 miles | £39,995 | Smith Sports and Performance",
-      "note": "New current direct advert found 22 Sep 2026. PistonHeads currently shows a 2010 V8 Vantage Coupe at £39,995, 33,000 miles, 4 previous owners, 4.7L, six-speed manual, valid MOT and active Smith Sports and Performance seller controls in Melton Mowbray, with a 43-photo gallery. Year, UK location, fixed price and advertised manual specification fit model-042. Exact seller-gallery pixels were not sufficiently inspectable this run for the mandatory SOLD/RESERVED/DEPOSIT/UNDER-OFFER overlay and manual gear-selector check, so keep verification-pending and do not publish."
+      "note": "New current direct advert found 22 Sep 2026. PistonHeads currently shows a 2010 V8 Vantage Coupe at £39,995, 33,000 miles, 4 previous owners, 4.7L, six-speed manual, valid MOT and active Smith Sports and Performance seller controls in Melton Mowbray, with a 43-photo gallery. Year, UK location, fixed price and advertised manual specification fit model-042. Exact seller-gallery pixels were not sufficiently inspectable this run for the mandatory SOLD/RESERVED/DEPOSIT/UNDER-OFFER overlay and manual gear-selector check, so keep verification-pending and do not publish.",
+      "year": 2010,
+      "price": 39995,
+      "mileage": 33000,
+      "seller": "Smith Sports and Performance",
+      "location": "Melton Mowbray, United Kingdom",
+      "gearbox": "6-speed manual",
+      "evidence": "Exact current PistonHeads advert is live at £39,995 / 33,000 miles for a 2010 4.7 V8 Vantage Coupe with six-speed manual, valid MOT, active dealer contact controls and 11 advertised services.",
+      "photoEvidence": "Advert exposes 43 seller photos, but exact current image pixels were not inspectable strongly enough in this run for SOLD/RESERVED overlay and manual-control visual verification.",
+      "verificationLimitation": "Keep verification-pending until exact gallery/manual-control images can be visually inspected."
     },
     {
       "modelId": "model-044",
