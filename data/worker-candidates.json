@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-23T01:46:27Z",
+  "updatedAt": "2026-09-23T02:41:07Z",
   "candidates": [
     {
       "modelId": "model-056",
@@ -240,7 +240,18 @@
       "source": "car-and-classic",
       "discoveredAt": "2026-09-10T03:34:20Z",
       "status": "verification-pending",
-      "note": "2007 Dodge Viper SRT-10 Coupe, £71,995, 19,700 miles, six-speed manual LHD, UK dealer Bespoke Traders in Cornwall. Current For Sale advert exposes a 28-image gallery. Full seller-inventory, visual sold-overlay and manual-photo verification remain outstanding before publication."
+      "note": "Rechecked 23 Sep 2026: exact Car & Classic advert remains explicitly For Sale at £71,995 for M111VPR, 19,700 miles, LHD, 6-speed manual, with Bespoke Traders in Cornwall and a 28-photo gallery. Current status/specification are strong, but the exact gallery pixels were not sufficiently inspectable in this run for the hard unavailable-overlay/manual-control photo gate. Keep verification-pending; do not publish yet.",
+      "lastCheckedAt": "2026-09-23T02:41:07Z",
+      "vehicleIdentity": "2007 Dodge Viper SRT-10 Coupe | M111VPR | 19,700 miles | £71,995 | Bespoke Traders Ltd",
+      "year": 2007,
+      "price": 71995,
+      "mileage": 19700,
+      "seller": "Bespoke Traders Ltd",
+      "location": "Cornwall, United Kingdom",
+      "gearbox": "6-speed manual",
+      "evidence": "Exact Car & Classic page remains For Sale at £71,995 with 19,700 miles, LHD, UK location and 6-speed manual transmission; the page exposes 28 seller images and active dealer contact controls.",
+      "photoEvidence": "The gallery is present, but exact current gallery pixels were not sufficiently available in this run to complete both the unavailable-overlay and clear manual-control visual checks.",
+      "verificationLimitation": "Keep verification-pending until the exact current seller gallery can be visually checked strongly enough for status banners and manual gear-selector evidence."
     },
     {
       "modelId": "model-056",
@@ -1891,10 +1902,19 @@
       "url": "https://www.carandclassic.com/car/C2176367",
       "source": "car-and-classic",
       "discoveredAt": "2026-09-13T20:12:33Z",
-      "lastCheckedAt": "2026-09-21T14:07:40Z",
+      "lastCheckedAt": "2026-09-23T02:41:07Z",
       "status": "verification-pending",
       "note": "Rechecked 21 Sep 2026: the exact English Car & Classic page currently presents C2176367 For Sale at £44,995 as a 2005 TVR Tuscan Mk2 S, 46,500 miles, RHD five-speed manual, registration WA05URD, from Onyx Vault in Weedon Bec, with a 22-photo gallery and active seller listing. However, cached/localized variants and the earlier tracked identity still show S666TUS, around 48,000 miles and in one cache a six-speed description. That conflicting identity/spec metadata could be stale cache or a recycled/update artefact. Exact gallery pixels/manual controls were also not fully visually verified this run. Keep verification-pending and do not publish until the registration/transmission discrepancy and photo gate are resolved.",
-      "vehicleIdentity": "2005 TVR Tuscan Mk2 S | current page WA05URD / cached prior S666TUS | 46,500 miles | £44,995 | Onyx Vault"
+      "vehicleIdentity": "2005 TVR Tuscan Mk2 S | S666TUS | £44,995 | Onyx Vault | Northamptonshire",
+      "year": 2005,
+      "price": 44995,
+      "mileage": 48000,
+      "seller": "Onyx Vault",
+      "location": "Northamptonshire, United Kingdom",
+      "gearbox": "manual",
+      "evidence": "Exact current Car & Classic page is For Sale at £44,995 for a 2005 TVR Tuscan Mk2 S, registration S666TUS, with active dealer controls in Northamptonshire.",
+      "photoEvidence": "The current indexed page exposes only a very limited gallery view in this run; no sufficiently strong exact manual-control image was available for the hard publication gate.",
+      "verificationLimitation": "Current indexed metadata reports 48,000 miles and 6-speed manual, whereas earlier repository metadata for the same URL recorded 46,500 miles and 5-speed manual. Keep unverified until the seller's current specification and mileage are reconciled and exact photos are checked."
     },
     {
       "modelId": "model-015",
@@ -3045,7 +3065,17 @@
       "status": "verification-pending",
       "note": "Fresh 20 Sep 2026: 4 Star Classics' direct page still presents the 2006 Dodge Viper SRT-10 First Edition Coupe at £87,495, 7,334 miles, LHD and six-speed manual with active enquiry controls. A live eBay rendering for the same car shows a different asking price, while the same VIN 1B3JZ69236V100461 now appears entered for an upcoming Iconic Auctioneers sale on 14 Nov 2026. Exact current seller-gallery pixels could not be checked strongly enough for unavailable overlays/manual controls. Current fixed-price availability is ambiguous: keep verification-pending and do not publish.",
       "lastCheckedAt": "2026-09-20T02:09:44Z",
-      "vehicleIdentity": "2006 Dodge Viper SRT-10 First Edition Coupe | VIN 1B3JZ69236V100461 | 7,334 miles | 4 Star Classics"
+      "vehicleIdentity": "2006 Dodge Viper SRT-10 First Edition | 7,334 miles | £87,495 | 4 Star Classics | Tilford",
+      "year": 2006,
+      "price": 87495,
+      "mileage": 7334,
+      "seller": "4 Star Classics",
+      "location": "Tilford, United Kingdom",
+      "gearbox": "6-speed manual",
+      "ownerCount": 2,
+      "evidence": "4 Star Classics' seller-direct advert lists £87,495, 7,334 miles, 2006, 6-speed manual and describes one former keeper/two owners. The dealer's current-stock lists also include the car at £87,495, and eBay classified item 127827261468 is live for the same vehicle at the same price and mileage.",
+      "photoEvidence": "Current exact seller exterior images were visually surfaced with no SOLD/RESERVED/DEPOSIT/UNDER-OFFER overlay visible. The seller page exposes an interior gallery and explicitly describes the blue leather gear knob, but this run could not visually retrieve a clear exact interior/gear-selector image from that gallery.",
+      "verificationLimitation": "A Car & Classic mirror for the same car is marked sold while seller-direct inventory and the eBay classified remain live; seller-direct status is higher authority. Keep unverified until an exact current interior/gear-selector image can be visually inspected."
     },
     {
       "modelId": "model-017",
@@ -3584,6 +3614,24 @@
       "ownerCount": 6,
       "vehicleIdentity": "2008 Audi R8 4.2 V8 manual | 59,000 miles | £35,995 | CULT MOTORCYCLES LTD | Oakham",
       "note": "New plausible direct advert discovered 22 Sep 2026. Gumtree currently presents it at £35,995, 59,000 miles, trade seller CULT MOTORCYCLES LTD in Oakham, with active contact controls and 'Posted 2 hours ago'. The description explicitly says 4.2 V8 gated manual, full service history, six owners total, Larini exhaust and recent specialist maintenance. It is within the model-006 year/price rules. The page exposes a large image gallery, but the exact listing photographs could not be independently inspected for unavailable overlays and the gated selector in this run, so keep verification-pending and do not publish."
+    },
+    {
+      "modelId": "model-009",
+      "url": "https://www.pistonheads.com/buy/listing/20747336",
+      "source": "pistonheads",
+      "discoveredAt": "2026-09-23T02:41:07Z",
+      "status": "verification-pending",
+      "vehicleIdentity": "2003 Noble M12 GTO-3 | £44,950 | 38,000 miles | DT Performance Cars | Atherstone",
+      "year": 2003,
+      "price": 44950,
+      "mileage": 38000,
+      "seller": "DT Performance Cars",
+      "location": "Atherstone, Warwickshire, United Kingdom",
+      "gearbox": "manual",
+      "evidence": "Current PistonHeads advert has active seller controls and states £44,950, 38,000 miles, manual transmission and a 2003 Noble M12 GTO-3, within model-009 year and price rules.",
+      "photoEvidence": "The advert exposes five images, but its own description explicitly says the pictures only show the colour combination while the actual car is away having an extensive service and inspection. They are not sufficient exact-car evidence for the hard photo gate.",
+      "verificationLimitation": "Do not publish until fresh photographs of the actual car are live and can be checked for current status and the manual control layout.",
+      "note": "Fresh current advert, but the seller explicitly says the displayed pictures are only to show the colour combination while the actual car is away for service/inspection. Keep verification-pending; the current advert text qualifies on model/year/price/manual/UK, but the mandatory exact-car photo evidence is not yet available."
     }
   ]
 }
