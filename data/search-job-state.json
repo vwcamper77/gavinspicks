@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-23T00:37:33Z",
+  "updatedAt": "2026-09-23T01:46:27Z",
   "compactedFromQueueAt": "2026-09-10T06:41:54.207Z",
   "note": "Cumulative worker-write state. Job results are merged from immutable run deltas and folded back into data/search-queue.json by scripts/build-search-queue.mjs.",
   "jobs": {
@@ -385,10 +385,10 @@
     },
     "model-070:lamborghini-talk:ford-focus-rs500": {
       "status": "blocked",
-      "lastSearchedAt": "2026-09-22T11:36:32Z",
+      "lastSearchedAt": "2026-09-23T01:46:27Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "LamborghiniTalk blocks automated public retrieval via robots/access controls; the source could not be searched beyond public indexing for a current RS500 advert."
+      "limitation": "Public retrieval/search was blocked by robots/access controls on LamborghiniTalk; no bypass was attempted."
     },
     "model-075:911uk:audi-tt-quattro-sport": {
       "status": "searched",
@@ -413,10 +413,10 @@
     },
     "model-075:gumtree:audi-tt-quattro-sport": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-22T16:15:09Z",
+      "lastSearchedAt": "2026-09-23T01:46:27Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Executed Gumtree query. Indexed adverts were stale/ambiguous and could not establish current availability strongly enough; no candidate retained."
+      "limitation": "Public search returned no direct current qualifying Audi TT quattro Sport Gumtree advert."
     },
     "model-075:lamborghini-talk:audi-tt-quattro-sport": {
       "status": "blocked",
@@ -427,10 +427,10 @@
     },
     "model-075:specialist-dealers:audi-tt-quattro-sport": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-22T16:15:09Z",
+      "lastSearchedAt": "2026-09-23T01:46:27Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Executed specialist-dealer search. No additional qualifying seller-direct advert URL beyond already-tracked marketplace stock survived freshness and price checks."
+      "limitation": "The seller-direct Philip Raby TT quattro Sport surfaced at £8,995, below the £10,000 watch floor; no qualifying current specialist advert survived."
     },
     "model-088:911uk:mitsubishi-evo-vi-tommi-makinen-edition": {
       "status": "searched",
@@ -751,17 +751,17 @@
     },
     "model-096:collecting-cars:bmw-e46-m3-manual-coupe-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-22T14:31:21Z",
+      "lastSearchedAt": "2026-09-23T01:46:27Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public search returned only completed/historical Collecting Cars auctions or non-qualifying cars; no current sub-50,000-mile factory-manual E46 M3 Coupe advert was retained."
+      "limitation": "No active current fixed-price Collecting Cars BMW E46 M3 manual Coupé advert with no more than 50,000 miles survived; historical/completed auction pages were excluded."
     },
     "model-096:collecting-cars:bmw-m3-e46-6-speed-manual-coupe-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-22T14:31:21Z",
+      "lastSearchedAt": "2026-09-23T01:46:27Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public search returned only completed/historical Collecting Cars auctions, over-mileage cars, SMG/conversion material or otherwise non-current results; no qualifying current advert was retained."
+      "limitation": "No active current fixed-price Collecting Cars BMW E46 M3 six-speed manual Coupé advert with no more than 50,000 miles survived; historical/completed auction pages were excluded."
     },
     "model-096:ebay:bmw-e46-m3-manual-coupe-uk": {
       "status": "searched",
@@ -1199,10 +1199,10 @@
     },
     "model-078:autotrader:renault-clio-182-trophy": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-22T17:45:21Z",
+      "lastSearchedAt": "2026-09-23T01:46:27Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No direct current Auto Trader car-details advert was found that established the strict under-30,000-mile and maximum-two-total-owner criteria."
+      "limitation": "Auto Trader returned no direct current Clio 182 Trophy car-details advert satisfying the strict under-30,000-mile and maximum-two-total-owner rules."
     },
     "model-078:pistonheads:renault-clio-182-trophy": {
       "status": "searched",
@@ -1467,17 +1467,17 @@
     },
     "model-097:bonhams-cars:bmw-e39-m5-manual-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-22T14:31:21Z",
+      "lastSearchedAt": "2026-09-23T01:46:27Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No current qualifying direct Bonhams Cars/The Market E39 M5 manual advert up to 50,000 miles surfaced in the public search."
+      "limitation": "No current Bonhams Cars BMW E39 M5 manual advert with a qualifying fixed asking price and no more than 50,000 miles was established; auction/history pages were excluded."
     },
     "model-097:bonhams-cars:bmw-m5-e39-6-speed-manual-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-22T14:31:21Z",
+      "lastSearchedAt": "2026-09-23T01:46:27Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No current qualifying direct Bonhams Cars/The Market E39 M5 six-speed manual advert up to 50,000 miles surfaced in the public search."
+      "limitation": "No current Bonhams Cars BMW E39 M5 six-speed manual advert with a qualifying fixed asking price and no more than 50,000 miles was established; auction/history pages were excluded."
     },
     "model-097:car-and-classic:bmw-e39-m5-manual-uk": {
       "status": "searched",
@@ -1840,10 +1840,10 @@
     },
     "model-070:gumtree:ford-focus-rs500": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-22T16:15:09Z",
+      "lastSearchedAt": "2026-09-23T01:46:27Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Executed Gumtree query. Results were wrong Focus generations/variants or generic pages; no direct current genuine RS500 advert qualified."
+      "limitation": "Public web search returned no direct current qualifying Ford Focus RS500 Gumtree advert; generic, stale and non-advert results were excluded."
     },
     "model-070:bonhams-cars:ford-focus-rs-mk2": {
       "status": "searched",
@@ -1896,19 +1896,19 @@
     },
     "model-076:autotrader:ford-focus-st500": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-22T17:45:21Z",
+      "lastSearchedAt": "2026-09-23T01:46:27Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search returned generic Auto Trader Focus/ST inventory or category pages rather than a direct current car-details advert; generic pages were excluded."
+      "limitation": "Auto Trader search returned no direct current qualifying Focus ST500 car-details advert; generic inventory/search results were excluded."
     },
     "model-076:car-and-classic:ford-focus-st500": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-22T17:45:21Z",
+      "lastSearchedAt": "2026-09-23T01:46:27Z",
       "lastResultCount": 1,
       "candidateUrls": [
         "https://www.carandclassic.com/l/C1644726"
       ],
-      "limitation": "One direct current advert survived: a 2008 Focus ST500 at £19,750 / 33,200 miles / six-speed manual. It is already tracked and remains verification-pending because only two exterior photos are accessible and the prior registration/identity discrepancy plus edition-authentication evidence remain unresolved."
+      "limitation": "The direct Car & Classic advert remains current at £19,750 for ST500 no.157/500 with 33,200 miles and a six-speed manual. It is already tracked and remains verification-pending because the two-image gallery does not provide a sufficiently strong current manual-control/status photo check."
     },
     "model-076:ebay:ford-focus-st500": {
       "status": "searched",
@@ -2585,36 +2585,33 @@
     },
     "model-075:autotrader:audi-tt-quattro-sport": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-22T16:15:09Z",
+      "lastSearchedAt": "2026-09-23T01:46:27Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Executed Auto Trader query. Search surfaced generic/category results rather than a verifiable current car-details advert; snippets were not treated as availability proof."
+      "limitation": "Auto Trader search returned no direct current Audi TT quattro Sport car-details advert; generic inventory/search results were excluded."
     },
     "model-075:car-and-classic:audi-tt-quattro-sport": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-22T16:15:09Z",
-      "lastResultCount": 1,
-      "candidateUrls": [
-        "https://www.carandclassic.com/car/C2070853"
-      ],
-      "limitation": "Executed Car & Classic query. Retained only C2070853 as a current direct For Sale advert; sold/removed and historical TT adverts were rejected."
+      "lastSearchedAt": "2026-09-23T01:46:27Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Car & Classic results were removed/sold, historical, non-UK or otherwise non-qualifying; no current qualifying direct advert survived."
     },
     "model-075:ebay:audi-tt-quattro-sport": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-22T16:15:09Z",
+      "lastSearchedAt": "2026-09-23T01:46:27Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Executed eBay query. Direct results were below the £10,000 floor or had stale/ambiguous current status; no candidate passed pre-verification filtering."
+      "limitation": "The surfaced eBay TT quattro Sport item was explicitly ended/unavailable and below the £10,000 floor; no current qualifying direct advert survived."
     },
     "model-075:pistonheads:audi-tt-quattro-sport": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-22T16:15:09Z",
-      "lastResultCount": 2,
+      "lastSearchedAt": "2026-09-23T01:46:27Z",
+      "lastResultCount": 1,
       "candidateUrls": [
-        "https://www.pistonheads.com/buy/listing/19787652",
         "https://www.pistonheads.com/buy/listing/19212579"
       ],
-      "limitation": "Executed PistonHeads query. Retained two live direct adverts at qualifying asking prices; unavailable pages and the £8,999 below-floor advert were rejected."
+      "limitation": "One direct current qualifying advert remains live at £11,490 for a genuine manual TT quattro Sport. It is already tracked and remains editorially rejected as a non-exceptional example; lower-priced and unavailable results were excluded."
     },
     "model-076:911uk:ford-focus-st500": {
       "status": "searched",
@@ -3161,24 +3158,24 @@
     },
     "model-082:911uk:subaru-impreza-p1": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-22T11:36:32Z",
+      "lastSearchedAt": "2026-09-23T01:46:27Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "911UK public-web query executed; no direct current qualifying Subaru P1 owner/classified advert survived the mileage/ownership and availability filters."
+      "limitation": "No direct current 911UK Subaru Impreza P1 advert satisfying the strict under-30,000-mile and maximum-two-total-owner rules surfaced."
     },
     "model-082:facebook-groups:subaru-impreza-p1": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-22T11:36:32Z",
+      "lastSearchedAt": "2026-09-23T01:46:27Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Publicly indexed Facebook-group search did not expose a direct current qualifying UK Subaru P1 advert; group/category pages were not retained."
+      "limitation": "Public indexed Facebook group search returned no direct current Subaru Impreza P1 advert satisfying the strict mileage and ownership rules; inaccessible group content was not bypassed."
     },
     "model-082:ferrarichat:subaru-impreza-p1": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-22T11:36:32Z",
+      "lastSearchedAt": "2026-09-23T01:46:27Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "FerrariChat public-web query executed; no direct current qualifying UK Subaru P1 sale advert was exposed."
+      "limitation": "No direct current FerrariChat Subaru Impreza P1 advert satisfying the strict under-30,000-mile and maximum-two-total-owner rules surfaced."
     },
     "model-082:lamborghini-talk:subaru-impreza-p1": {
       "status": "blocked",
@@ -3937,17 +3934,17 @@
     },
     "model-078:ferrarichat:renault-clio-182-trophy": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-22T11:36:32Z",
+      "lastSearchedAt": "2026-09-23T01:46:27Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "FerrariChat public-web query executed; no direct current UK Clio 182 Trophy advert meeting the strict mileage/ownership rules was exposed."
+      "limitation": "No direct current FerrariChat Clio 182 Trophy advert satisfying the strict under-30,000-mile and maximum-two-total-owner rules surfaced."
     },
     "model-078:lamborghini-talk:renault-clio-182-trophy": {
       "status": "blocked",
-      "lastSearchedAt": "2026-09-22T11:36:32Z",
+      "lastSearchedAt": "2026-09-23T01:46:27Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "LamborghiniTalk blocks automated public retrieval via robots/access controls; no current Clio 182 Trophy advert could be verified from this source."
+      "limitation": "Public retrieval/search was blocked by robots/access controls on LamborghiniTalk; no bypass was attempted."
     },
     "model-085:911uk:subaru-impreza-rb320": {
       "status": "searched",
@@ -5613,10 +5610,10 @@
     },
     "model-005:lamborghini-talk:lamborghini-gallardo-5-0-manual": {
       "status": "blocked",
-      "lastSearchedAt": "2026-09-20T18:57:48Z",
+      "lastSearchedAt": "2026-09-23T01:46:27Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "LamborghiniTalk public retrieval remains access/robots constrained; no direct current UK Gallardo 5.0 gated-manual advert could be verified from this source."
+      "limitation": "Public retrieval/search was blocked by robots/access controls on LamborghiniTalk; no bypass was attempted."
     },
     "model-006:facebook-groups:audi-r8-v8-manual": {
       "status": "searched",
@@ -5760,10 +5757,10 @@
     },
     "model-057:bonhams-cars:bmw-z4-m-roadster": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-21T07:19:48Z",
+      "lastSearchedAt": "2026-09-23T01:46:27Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public web query executed against Bonhams Cars/The Market; completed/auction-only/history pages and non-qualifying results were filtered."
+      "limitation": "No current Bonhams Cars BMW Z4 M Roadster advert with a qualifying fixed asking price survived."
     },
     "model-057:car-and-classic:bmw-z4-m-roadster": {
       "status": "searched",
@@ -5774,17 +5771,17 @@
     },
     "model-057:classic-trader:bmw-z4-m-roadster": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-21T07:19:48Z",
+      "lastSearchedAt": "2026-09-23T01:46:27Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public web query executed against Classic Trader; overseas, generic, duplicate and non-qualifying results were filtered."
+      "limitation": "Classic Trader results were wrong-model, non-UK or otherwise non-qualifying; no direct current qualifying Z4 M Roadster advert survived."
     },
     "model-057:collecting-cars:bmw-z4-m-roadster": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-21T07:19:48Z",
+      "lastSearchedAt": "2026-09-23T01:46:27Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public web query executed against Collecting Cars; completed auctions and live auctions without a qualifying fixed GBP asking price were filtered."
+      "limitation": "Collecting Cars Z4 M Roadster results were completed historical sales; no current purchasable qualifying advert survived."
     },
     "model-057:ebay:bmw-z4-m-roadster": {
       "status": "searched",
@@ -5851,10 +5848,10 @@
     },
     "model-058:bonhams-cars:bmw-e46-m3-cs-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-21T07:19:48Z",
+      "lastSearchedAt": "2026-09-23T01:46:27Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public web query executed against Bonhams Cars/The Market; completed/auction-only/history pages and non-qualifying results were filtered."
+      "limitation": "No current Bonhams Cars BMW E46 M3 CS manual advert with a qualifying fixed asking price survived."
     },
     "model-058:car-and-classic:bmw-e46-m3-cs-manual": {
       "status": "searched",
@@ -6579,10 +6576,10 @@
     },
     "model-066:911uk:ferrari-f430-factory-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T19:20:13Z",
+      "lastSearchedAt": "2026-09-23T01:46:27Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search executed; no fresh direct current qualifying UK seller advert surfaced. Historical/discussion material was excluded."
+      "limitation": "No direct current 911UK Ferrari F430 factory-manual advert survived; forum/history material and conversions were excluded."
     },
     "model-066:autotrader:ferrari-f430-factory-manual": {
       "status": "searched",
@@ -6630,17 +6627,17 @@
     },
     "model-066:facebook-groups:ferrari-f430-factory-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T19:20:13Z",
+      "lastSearchedAt": "2026-09-23T01:46:27Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public web search executed; no direct current UK sale post surfaced. Generic group/pages were excluded."
+      "limitation": "Public indexed Facebook group search returned no direct current qualifying factory-manual F430 advert; inaccessible group content was not bypassed."
     },
     "model-066:ferrarichat:ferrari-f430-factory-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T19:20:13Z",
+      "lastSearchedAt": "2026-09-23T01:46:27Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search executed; no direct current qualifying UK sale advert surfaced. Historical/discussion material was excluded."
+      "limitation": "No direct current FerrariChat UK F430 factory-manual advert survived; discussions, old sale posts and conversions were excluded."
     },
     "model-066:gumtree:ferrari-f430-factory-manual": {
       "status": "searched",
@@ -6651,10 +6648,10 @@
     },
     "model-066:lamborghini-talk:ferrari-f430-factory-manual": {
       "status": "blocked",
-      "lastSearchedAt": "2026-09-20T19:20:13Z",
+      "lastSearchedAt": "2026-09-23T01:46:27Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "LamborghiniTalk blocked automated public retrieval via robots/access controls, so no current factory-manual F430 advert could be inspected from this source."
+      "limitation": "Public retrieval/search was blocked by robots/access controls on LamborghiniTalk; no bypass was attempted."
     },
     "model-066:pistonheads:ferrari-f430-factory-manual": {
       "status": "searched",
@@ -6672,10 +6669,10 @@
     },
     "model-067:911uk:porsche-996-997-hartech-manual-coupe-cabriolet": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T19:20:13Z",
+      "lastSearchedAt": "2026-09-23T01:46:27Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search executed; only old/sold/discussion material surfaced. No direct current documented-Hartech advert retained."
+      "limitation": "The surfaced 911UK Hartech-rebuilt 997.1 C4S manual Cabriolet thread dates from 2024 and is closed to further replies, so it was rejected as stale; no current qualifying owner advert survived."
     },
     "model-067:autotrader:porsche-996-997-hartech-manual-coupe-cabriolet": {
       "status": "searched",
@@ -6721,17 +6718,17 @@
     },
     "model-067:facebook-groups:porsche-996-997-hartech-manual-coupe-cabriolet": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T19:20:13Z",
+      "lastSearchedAt": "2026-09-23T01:46:27Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search executed; only old/sold/discussion material surfaced. No direct current documented-Hartech advert retained."
+      "limitation": "Public indexed Facebook group search returned no direct current qualifying documented-Hartech 996/997 manual advert; inaccessible group content was not bypassed."
     },
     "model-067:ferrarichat:porsche-996-997-hartech-manual-coupe-cabriolet": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T19:20:13Z",
+      "lastSearchedAt": "2026-09-23T01:46:27Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search executed; only old/sold/discussion material surfaced. No direct current documented-Hartech advert retained."
+      "limitation": "No direct current FerrariChat documented-Hartech 996/997 manual advert survived."
     },
     "model-067:gumtree:porsche-996-997-hartech-manual-coupe-cabriolet": {
       "status": "searched",
@@ -6742,10 +6739,10 @@
     },
     "model-067:lamborghini-talk:porsche-996-997-hartech-manual-coupe-cabriolet": {
       "status": "blocked",
-      "lastSearchedAt": "2026-09-20T19:20:13Z",
+      "lastSearchedAt": "2026-09-23T01:46:27Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "LamborghiniTalk blocked automated public retrieval via robots/access controls; no current Hartech manual 996/997 advert could be inspected."
+      "limitation": "Public retrieval/search was blocked by robots/access controls on LamborghiniTalk; no bypass was attempted."
     },
     "model-067:pistonheads:porsche-996-997-hartech-manual-coupe-cabriolet": {
       "status": "searched",
@@ -6763,10 +6760,10 @@
     },
     "model-068:911uk:porsche-996-gt2": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T19:20:13Z",
+      "lastSearchedAt": "2026-09-23T01:46:27Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search executed; only historical/sold/wanted/discussion material surfaced. No direct current 996 GT2 advert retained."
+      "limitation": "No direct current qualifying 911UK Porsche 996 GT2 advert survived; old forum/history results were excluded."
     },
     "model-068:autotrader:porsche-996-gt2": {
       "status": "searched",
@@ -6814,17 +6811,17 @@
     },
     "model-068:facebook-groups:porsche-996-gt2": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T19:20:13Z",
+      "lastSearchedAt": "2026-09-23T01:46:27Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search executed; only historical/sold/wanted/discussion material surfaced. No direct current 996 GT2 advert retained."
+      "limitation": "Public indexed Facebook group search returned no direct current qualifying Porsche 996 GT2 advert; inaccessible group content was not bypassed."
     },
     "model-068:ferrarichat:porsche-996-gt2": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T19:20:13Z",
+      "lastSearchedAt": "2026-09-23T01:46:27Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search executed; only historical/sold/wanted/discussion material surfaced. No direct current 996 GT2 advert retained."
+      "limitation": "No direct current FerrariChat Porsche 996 GT2 UK advert survived."
     },
     "model-068:gumtree:porsche-996-gt2": {
       "status": "searched",
@@ -6835,10 +6832,10 @@
     },
     "model-068:lamborghini-talk:porsche-996-gt2": {
       "status": "blocked",
-      "lastSearchedAt": "2026-09-20T19:20:13Z",
+      "lastSearchedAt": "2026-09-23T01:46:27Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "LamborghiniTalk blocked automated public retrieval via robots/access controls; no current 996 GT2 advert could be inspected."
+      "limitation": "Public retrieval/search was blocked by robots/access controls on LamborghiniTalk; no bypass was attempted."
     },
     "model-068:pistonheads:porsche-996-gt2": {
       "status": "searched",
@@ -6856,10 +6853,10 @@
     },
     "model-069:911uk:aston-martin-vanquish-vanquish-s-works-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T19:20:13Z",
+      "lastSearchedAt": "2026-09-23T01:46:27Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search executed; no fresh direct current qualifying UK seller advert surfaced. Historical/discussion material was excluded."
+      "limitation": "No direct current 911UK Aston Martin Vanquish/Vanquish S advert with documented Aston Works manual conversion survived."
     },
     "model-069:autotrader:aston-martin-vanquish-vanquish-s-works-manual": {
       "status": "searched",
@@ -6907,17 +6904,17 @@
     },
     "model-069:facebook-groups:aston-martin-vanquish-vanquish-s-works-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T19:20:13Z",
+      "lastSearchedAt": "2026-09-23T01:46:27Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public web search executed; no direct current UK sale post surfaced. Generic group/pages were excluded."
+      "limitation": "Public indexed Facebook group search returned no direct current qualifying Vanquish/Vanquish S with documented Aston Works manual conversion; inaccessible group content was not bypassed."
     },
     "model-069:ferrarichat:aston-martin-vanquish-vanquish-s-works-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-20T19:20:13Z",
+      "lastSearchedAt": "2026-09-23T01:46:27Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search executed; no direct current qualifying UK sale advert surfaced. Historical/discussion material was excluded."
+      "limitation": "No direct current FerrariChat UK Vanquish/Vanquish S advert with documented Aston Works manual conversion survived."
     },
     "model-069:gumtree:aston-martin-vanquish-vanquish-s-works-manual": {
       "status": "searched",
@@ -9628,17 +9625,17 @@
     },
     "model-095:classic-trader:alfa-romeo-156-gta-sportwagon-manual-under-50000-miles-low-owners": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-21T07:19:48Z",
+      "lastSearchedAt": "2026-09-23T01:46:27Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public web query executed against Classic Trader; overseas, generic, duplicate and non-qualifying results were filtered."
+      "limitation": "No direct current UK Classic Trader Alfa Romeo 156 GTA Sportwagon manual advert meeting the mileage/ownership intent survived."
     },
     "model-095:collecting-cars:alfa-romeo-156-gta-sportwagon-manual-under-50000-miles-low-owners": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-21T07:19:48Z",
+      "lastSearchedAt": "2026-09-23T01:46:27Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public web query executed against Collecting Cars; completed auctions and live auctions without a qualifying fixed GBP asking price were filtered."
+      "limitation": "Surfaced Collecting Cars 156 GTA material was historical, non-UK, wrong-body or over the mileage target; no qualifying current Sportwagon advert survived."
     },
     "model-095:ebay:alfa-romeo-156-gta-sportwagon-manual-under-50000-miles-low-owners": {
       "status": "searched",
@@ -10187,59 +10184,59 @@
     },
     "model-011:bonhams-cars:lotus-esprit-v8-v8-gt": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-21T07:19:48Z",
+      "lastSearchedAt": "2026-09-23T01:46:27Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public web query executed against Bonhams Cars/The Market; completed/auction-only/history pages and non-qualifying results were filtered."
+      "limitation": "No current Bonhams Cars Lotus Esprit V8/V8 GT advert with a qualifying fixed asking price survived; completed/auction-only material was excluded."
     },
     "model-011:classic-trader:lotus-esprit-v8-v8-gt": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-21T07:19:48Z",
+      "lastSearchedAt": "2026-09-23T01:46:27Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public web query executed against Classic Trader; overseas, generic, duplicate and non-qualifying results were filtered."
+      "limitation": "No direct current UK Classic Trader Lotus Esprit V8/V8 GT advert with a qualifying fixed asking price survived."
     },
     "model-011:collecting-cars:lotus-esprit-v8-v8-gt": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-21T07:19:48Z",
+      "lastSearchedAt": "2026-09-23T01:46:27Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public web query executed against Collecting Cars; completed auctions and live auctions without a qualifying fixed GBP asking price were filtered."
+      "limitation": "No active current Collecting Cars Lotus Esprit V8/V8 GT advert with a qualifying fixed asking price survived; completed auction pages were excluded."
     },
     "model-012:bonhams-cars:dodge-viper-rt-10-gts-srt-10": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-21T07:19:48Z",
+      "lastSearchedAt": "2026-09-23T01:46:27Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public web query executed against Bonhams Cars/The Market; completed/auction-only/history pages and non-qualifying results were filtered."
+      "limitation": "No current Bonhams Cars Dodge Viper RT/10, GTS or SRT-10 advert with a qualifying fixed asking price survived; historical/auction-only material was excluded."
     },
     "model-012:classic-trader:dodge-viper-rt-10-gts-srt-10": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-21T07:19:48Z",
+      "lastSearchedAt": "2026-09-23T01:46:27Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public web query executed against Classic Trader; overseas, generic, duplicate and non-qualifying results were filtered."
+      "limitation": "No direct current UK Classic Trader Dodge Viper RT/10, GTS or SRT-10 advert with a qualifying fixed asking price survived."
     },
     "model-012:collecting-cars:dodge-viper-rt-10-gts-srt-10": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-21T07:19:48Z",
+      "lastSearchedAt": "2026-09-23T01:46:27Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public web query executed against Collecting Cars; completed auctions and live auctions without a qualifying fixed GBP asking price were filtered."
+      "limitation": "Surfaced Collecting Cars Vipers were completed historical sales, including 1995 RT/10 and 2010 SRT-10 examples; no current purchasable advert survived."
     },
     "model-015:bonhams-cars:tvr-tuscan-tuscan-s-mk2": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-21T07:19:48Z",
+      "lastSearchedAt": "2026-09-23T01:46:27Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public web query executed against Bonhams Cars/The Market; completed/auction-only/history pages and non-qualifying results were filtered."
+      "limitation": "No current Bonhams Cars TVR Tuscan/Tuscan S/Mk2 advert with a qualifying fixed asking price survived."
     },
     "model-015:classic-trader:tvr-tuscan-tuscan-s-mk2": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-21T07:19:48Z",
+      "lastSearchedAt": "2026-09-23T01:46:27Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public web query executed against Classic Trader; overseas, generic, duplicate and non-qualifying results were filtered."
+      "limitation": "No direct current UK Classic Trader TVR Tuscan/Tuscan S/Mk2 advert with a qualifying fixed asking price survived."
     },
     "model-015:collecting-cars:tvr-tuscan-tuscan-s-mk2": {
       "status": "searched",
