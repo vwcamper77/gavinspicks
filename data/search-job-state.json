@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-23T19:53:11Z",
+  "updatedAt": "2026-09-23T20:18:07Z",
   "compactedFromQueueAt": "2026-09-10T06:41:54.207Z",
   "note": "Cumulative worker-write state. Job results are merged from immutable run deltas and folded back into data/search-queue.json by scripts/build-search-queue.mjs.",
   "jobs": {
@@ -484,17 +484,17 @@
     },
     "model-096:autotrader:bmw-e46-m3-manual-coupe-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-23T11:59:08Z",
+      "lastSearchedAt": "2026-09-23T20:18:07Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search executed. No direct current Auto Trader E46 M3 factory-manual Coupe advert at or below 50,000 miles survived filtering."
+      "limitation": "Auto Trader query executed. No direct current car-details advert was established for a 2000-2006 factory-manual E46 M3 Coupe at or below 50,000 miles; generic pages were excluded."
     },
     "model-096:autotrader:bmw-m3-e46-6-speed-manual-coupe-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-23T11:59:08Z",
+      "lastSearchedAt": "2026-09-23T20:18:07Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search executed. No direct current Auto Trader E46 M3 six-speed factory-manual Coupe advert at or below 50,000 miles survived filtering."
+      "limitation": "Auto Trader query executed. No direct current car-details advert was established for a 2000-2006 factory-manual E46 M3 Coupe at or below 50,000 miles; generic pages were excluded."
     },
     "model-096:bonhams-cars:bmw-e46-m3-manual-coupe-uk": {
       "status": "searched",
@@ -1194,10 +1194,10 @@
     },
     "model-078:ebay:renault-clio-182-trophy": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-23T11:59:08Z",
+      "lastSearchedAt": "2026-09-23T20:18:07Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search executed. No current direct eBay Clio 182 Trophy advert survived the strict mileage/ownership/current-availability filters."
+      "limitation": "eBay UK query executed. Results were parts/non-car material or otherwise failed the Clio 182 Trophy under-30,000-mile and maximum-two-total-owner rules; no plausible current qualifying advert retained."
     },
     "model-078:autotrader:renault-clio-182-trophy": {
       "status": "searched",
@@ -1932,17 +1932,17 @@
     },
     "model-082:autotrader:subaru-impreza-p1": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-23T11:59:08Z",
+      "lastSearchedAt": "2026-09-23T20:18:07Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search executed. No direct current Auto Trader car-details advert was established for a P1 satisfying the strict under-30,000-mile and maximum-two-total-owners rules."
+      "limitation": "Auto Trader query executed. No direct current car-details advert meeting the P1 under-30,000-mile and maximum-two-total-owner rules surfaced; generic inventory pages excluded."
     },
     "model-082:car-and-classic:subaru-impreza-p1": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-23T11:59:08Z",
+      "lastSearchedAt": "2026-09-23T20:18:07Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search executed. No current direct Car & Classic Subaru P1 advert survived the strict under-30,000-mile and maximum-two-total-owners rules."
+      "limitation": "Car & Classic query executed. No direct current P1 advert meeting the strict mileage/ownership rules survived pre-verification filtering."
     },
     "model-026:collecting-cars:lotus-exige-s1": {
       "status": "searched",
@@ -2158,24 +2158,24 @@
     },
     "model-082:ebay:subaru-impreza-p1": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-23T11:59:08Z",
+      "lastSearchedAt": "2026-09-23T20:18:07Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search executed. Results were non-P1 cars/parts or otherwise non-qualifying; no current direct qualifying P1 advert was retained."
+      "limitation": "eBay UK query executed. Results were unrelated Impreza variants, parts or otherwise non-qualifying; no current P1 advert under 30,000 miles with qualifying ownership retained."
     },
     "model-082:gumtree:subaru-impreza-p1": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-23T11:59:08Z",
+      "lastSearchedAt": "2026-09-23T20:18:07Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search executed. A direct P1 result at 40,180 miles was an auction-style listing and failed the strict mileage plus fixed-asking-price rules; none retained."
+      "limitation": "Gumtree query executed. A surfaced P1 auction/lot lead was around 40,180 miles and lacked a qualifying fixed asking price, so it was excluded."
     },
     "model-082:pistonheads:subaru-impreza-p1": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-23T11:59:08Z",
+      "lastSearchedAt": "2026-09-23T20:18:07Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search executed. Direct P1 adverts surfaced at 62,587–68,000 miles or with excessive ownership, and one was explicitly no longer available; none qualified."
+      "limitation": "PistonHeads query executed. Direct P1 adverts surfaced at about 41k-68k miles or were explicitly unavailable; all fail the strict under-30,000-mile rule."
     },
     "model-082:specialist-dealers:subaru-impreza-p1": {
       "status": "searched",
@@ -2633,17 +2633,17 @@
     },
     "model-078:gumtree:renault-clio-182-trophy": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-23T11:59:08Z",
+      "lastSearchedAt": "2026-09-23T20:18:07Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search executed. No current direct Gumtree Clio 182 Trophy advert survived the strict mileage/ownership/current-availability filters."
+      "limitation": "Gumtree UK query executed. No direct current Clio 182 Trophy advert with verified sub-30,000 mileage and maximum two total owners surfaced; generic/non-qualifying results excluded."
     },
     "model-078:specialist-dealers:renault-clio-182-trophy": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-23T11:59:08Z",
+      "lastSearchedAt": "2026-09-23T20:18:07Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search executed. No specialist-dealer current-stock advert was found for a Clio 182 Trophy satisfying under 30,000 miles and maximum two total owners."
+      "limitation": "Specialist-dealer query executed. The surfaced Oakwood Clio 182 Trophy is explicitly sold and also far above the mileage cap; no current qualifying advert retained."
     },
     "model-085:gumtree:subaru-impreza-rb320": {
       "status": "searched",
