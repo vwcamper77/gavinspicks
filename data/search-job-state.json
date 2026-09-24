@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-24T14:50:01Z",
+  "updatedAt": "2026-09-24T15:35:30Z",
   "compactedFromQueueAt": "2026-09-10T06:41:54.207Z",
   "note": "Cumulative worker-write state. Job results are merged from immutable run deltas and folded back into data/search-queue.json by scripts/build-search-queue.mjs.",
   "jobs": {
@@ -507,10 +507,10 @@
     },
     "model-096:bonhams-cars:bmw-m3-e46-6-speed-manual-coupe-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-24T05:47:36Z",
+      "lastSearchedAt": "2026-09-24T15:35:30Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No current qualifying fixed-price Bonhams Cars/The Market BMW E46 M3 6-speed manual Coupé advert surfaced; completed/historical auction material was excluded."
+      "limitation": "No current qualifying Bonhams Cars E46 M3 factory-manual Coupe advert within the mileage and price rules was found; completed/historical material was excluded."
     },
     "model-096:car-and-classic:bmw-e46-m3-manual-coupe-uk": {
       "status": "searched",
@@ -740,10 +740,10 @@
     },
     "model-096:classic-trader:bmw-e46-m3-manual-coupe-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-24T05:47:36Z",
+      "lastSearchedAt": "2026-09-24T15:35:30Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Direct current manual E46 M3 adverts surfaced, but the live examples were above the model-096 £50,000 maximum (including £99,995 and £58,330 examples), so none were retained."
+      "limitation": "No qualifying current direct Classic Trader E46 M3 manual Coupe advert at or below 50,000 miles was retained."
     },
     "model-096:classic-trader:bmw-m3-e46-6-speed-manual-coupe-uk": {
       "status": "searched",
@@ -775,10 +775,10 @@
     },
     "model-096:ebay:bmw-m3-e46-6-speed-manual-coupe-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-24T06:58:12Z",
+      "lastSearchedAt": "2026-09-24T15:35:30Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No current eBay factory-manual E46 M3 Coupe within £20,000-£50,000 and at or below 50,000 miles survived preliminary filtering."
+      "limitation": "eBay results were parts, non-M3 cars, ended listings or a convertible/auction result; no factory-manual E46 M3 Coupe within the configured mileage and price rules survived."
     },
     "model-096:facebook-groups:bmw-e46-m3-manual-coupe-uk": {
       "status": "searched",
@@ -810,17 +810,17 @@
     },
     "model-096:gumtree:bmw-e46-m3-manual-coupe-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-24T06:58:12Z",
+      "lastSearchedAt": "2026-09-24T15:35:30Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Gumtree results surfaced convertibles, high-mileage cars and non-M3 BMWs; none satisfied the factory-manual E46 M3 Coupe / maximum-50,000-mile rule."
+      "limitation": "Gumtree surfaced a high-mileage M3 convertible and non-M3 E46 cars; no qualifying manual M3 Coupe at or below 50,000 miles survived."
     },
     "model-096:gumtree:bmw-m3-e46-6-speed-manual-coupe-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-24T08:01:10Z",
+      "lastSearchedAt": "2026-09-24T15:35:30Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "The Gumtree result surfaced was a 96k-mile convertible and failed the factory-manual Coupé / maximum-50k-mile target."
+      "limitation": "No qualifying current Gumtree factory six-speed E46 M3 Coupe at or below 50,000 miles was found."
     },
     "model-096:lamborghini-talk:bmw-e46-m3-manual-coupe-uk": {
       "status": "blocked",
@@ -1101,17 +1101,17 @@
     },
     "model-072:ebay:bmw-1m-coupe-manual-45000-55000-full-service-history": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-24T08:01:10Z",
+      "lastSearchedAt": "2026-09-24T15:35:30Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No current qualifying eBay UK BMW 1M classified advert in the £45k–£55k target band surfaced."
+      "limitation": "No qualifying current eBay BMW 1M Coupe advert within the £45,000-£55,000 target survived; parts, unrelated and non-direct results were rejected."
     },
     "model-072:autotrader:bmw-1m-coupe-manual-45000-55000-full-service-history": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-24T08:01:10Z",
+      "lastSearchedAt": "2026-09-24T15:35:30Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No direct current qualifying Auto Trader BMW 1M car-details advert in the £45k–£55k band survived search-result filtering."
+      "limitation": "No direct current Auto Trader BMW 1M advert meeting the £45,000-£55,000 value-led target and full factory-manual E82 rules was returned; generic search pages were excluded."
     },
     "model-072:pistonheads:bmw-1m-coupe-manual-45000-55000-full-service-history": {
       "status": "searched",
@@ -1122,10 +1122,10 @@
     },
     "model-072:car-and-classic:bmw-1m-coupe-manual-45000-55000-full-service-history": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-24T08:01:10Z",
+      "lastSearchedAt": "2026-09-24T15:35:30Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No new direct Car & Classic BMW 1M advert in the configured £45k–£55k band survived current-availability filtering."
+      "limitation": "No new qualifying current Car & Classic BMW 1M advert within the £45,000-£55,000 target survived this search."
     },
     "model-072:collecting-cars:bmw-1m-coupe-manual-45000-55000-full-service-history": {
       "status": "searched",
@@ -1248,10 +1248,10 @@
     },
     "model-013:autotrader:tvr-sagaris": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-23T02:41:07Z",
+      "lastSearchedAt": "2026-09-24T15:35:30Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search executed; no direct current Auto Trader Sagaris car-details advert was surfaced. Historical/sold specialist pages were excluded."
+      "limitation": "Auto Trader returned generic TVR stock pages rather than a direct Sagaris car-details advert. A specialist Sagaris page checked separately was explicitly SOLD, so nothing qualified."
     },
     "model-013:pistonheads:tvr-sagaris": {
       "status": "searched",
@@ -1527,10 +1527,10 @@
     },
     "model-097:ebay:bmw-m5-e39-6-speed-manual-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-24T06:58:12Z",
+      "lastSearchedAt": "2026-09-24T15:35:30Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "The live E39 M5 result surfaced around £12,750 and 148,000 miles, failing both the model's £25,000 price floor and 50,000-mile cap. No candidate retained."
+      "limitation": "The complete-car eBay E39 M5 result was below the configured £25,000 minimum; other results were parts or non-qualifying. No candidate retained."
     },
     "model-097:facebook-groups:bmw-e39-m5-manual-uk": {
       "status": "searched",
@@ -1562,17 +1562,17 @@
     },
     "model-097:gumtree:bmw-e39-m5-manual-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-24T06:58:12Z",
+      "lastSearchedAt": "2026-09-24T15:35:30Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No current Gumtree E39 M5 manual advert within £25,000-£60,000 and at or below 50,000 miles was found."
+      "limitation": "No qualifying current Gumtree E39 M5 manual advert at or below 50,000 miles survived; surfaced cars were ordinary E39 variants or non-qualifying."
     },
     "model-097:gumtree:bmw-m5-e39-6-speed-manual-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-24T06:58:12Z",
+      "lastSearchedAt": "2026-09-24T15:35:30Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No current Gumtree six-speed E39 M5 advert within the configured price and 50,000-mile limits survived filtering."
+      "limitation": "No qualifying current Gumtree E39 M5 six-speed manual advert at or below 50,000 miles survived."
     },
     "model-097:lamborghini-talk:bmw-e39-m5-manual-uk": {
       "status": "blocked",
@@ -1804,31 +1804,35 @@
     },
     "model-097:pistonheads:bmw-e39-m5-manual-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-24T08:01:10Z",
+      "lastSearchedAt": "2026-09-24T15:35:30Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "PistonHeads results were over the 50,000-mile cap, completed auctions, or unavailable. Listing 16225032 looked plausible in search but the actual advert explicitly says no longer available."
+      "limitation": "Several live E39 M5 adverts were found, but all direct results inspected exceeded the model-097 50,000-mile maximum; none retained."
     },
     "model-097:pistonheads:bmw-m5-e39-6-speed-manual-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-24T08:01:10Z",
+      "lastSearchedAt": "2026-09-24T15:35:30Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No current PistonHeads E39 M5 at or under 50,000 miles survived direct-advert availability filtering; stale/unavailable and higher-mileage adverts were rejected."
+      "limitation": "Live PistonHeads E39 M5 adverts found were all above the 50,000-mile cap (and some outside price rules); no qualifying candidate retained."
     },
     "model-097:specialist-dealers:bmw-e39-m5-manual-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-24T08:01:10Z",
-      "lastResultCount": 0,
-      "candidateUrls": [],
-      "limitation": "Seller-direct results surfaced, but current examples found were above the configured 50,000-mile cap or otherwise not a new qualifying candidate."
+      "lastSearchedAt": "2026-09-24T15:35:30Z",
+      "lastResultCount": 1,
+      "candidateUrls": [
+        "https://www.carandclassic.com/car/C2060885"
+      ],
+      "limitation": "One qualifying current 2003 E39 M5 at £50,000 / 46,637 miles remains live with dealer allAstonMartin.com via Car & Classic; it is already tracked and was not duplicated."
     },
     "model-097:specialist-dealers:bmw-m5-e39-6-speed-manual-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-24T08:01:10Z",
-      "lastResultCount": 0,
-      "candidateUrls": [],
-      "limitation": "No new specialist-dealer E39 M5 manual at or under 50,000 miles survived current-availability and mileage filtering."
+      "lastSearchedAt": "2026-09-24T15:35:30Z",
+      "lastResultCount": 1,
+      "candidateUrls": [
+        "https://www.carandclassic.com/car/C2060885"
+      ],
+      "limitation": "The same current £50,000 / 46,637-mile six-speed E39 M5 already tracked was the only qualifying result retained; sold or high-mileage specialist stock was rejected."
     },
     "model-070:gumtree:ford-focus-rs500": {
       "status": "searched",
@@ -2202,17 +2206,17 @@
     },
     "model-085:ebay:subaru-impreza-rb320": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-24T06:58:12Z",
+      "lastSearchedAt": "2026-09-24T15:35:30Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No plausible current complete-car eBay RB320 advert survived filtering; ended, stale, parts and non-qualifying results were rejected."
+      "limitation": "No qualifying current direct eBay RB320 advert survived. Surfaced results were wrong models/parts or failed the strict under-30,000-mile and maximum-two-total-owner rules."
     },
     "model-085:pistonheads:subaru-impreza-rb320": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-24T06:58:12Z",
+      "lastSearchedAt": "2026-09-24T15:35:30Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "A 2007 RB320 at £39,950 / 23,855 miles surfaced, but its exact PistonHeads advert explicitly says the car is no longer available for purchase. It was rejected before candidate retention."
+      "limitation": "The direct RB320 result found was an auction car at 38,494 miles with four former keepers, so it failed the under-30,000-mile and maximum-two-total-owner rules and was rejected before verification."
     },
     "model-076:bonhams-cars:ford-focus-st500": {
       "status": "searched",
@@ -2645,10 +2649,10 @@
     },
     "model-085:gumtree:subaru-impreza-rb320": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-24T06:58:12Z",
+      "lastSearchedAt": "2026-09-24T15:35:30Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No current qualifying Gumtree RB320 advert was found with enough evidence to retain as a verification candidate."
+      "limitation": "No qualifying current Gumtree Subaru Impreza RB320 advert survived the strict mileage, ownership and exact-edition rules."
     },
     "model-031:911uk:lotus-elise-s1-111s": {
       "status": "searched",
@@ -2870,17 +2874,17 @@
     },
     "model-085:specialist-dealers:subaru-impreza-rb320": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-24T06:58:12Z",
+      "lastSearchedAt": "2026-09-24T15:35:30Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No seller-direct current-stock RB320 was found that met the strict under-30,000-mile and maximum-two-total-owner rules."
+      "limitation": "No current specialist-dealer RB320 advert met the strict under-30,000-mile, maximum-two-total-owner and exact-edition requirements."
     },
     "model-088:autotrader:mitsubishi-evo-vi-tommi-makinen-edition": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-24T06:58:12Z",
+      "lastSearchedAt": "2026-09-24T15:35:30Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No current direct Auto Trader Evo VI Tommi Makinen Edition advert meeting the strict under-30,000-mile / maximum-two-total-owner gate was retained."
+      "limitation": "Auto Trader did not return a qualifying direct current Evo VI Tommi Makinen Edition car-details advert meeting the strict mileage and ownership rules; generic results were excluded."
     },
     "model-088:car-and-classic:mitsubishi-evo-vi-tommi-makinen-edition": {
       "status": "searched",
@@ -3502,45 +3506,45 @@
     },
     "model-004:collecting-cars:ferrari-456-gt-456m-gt-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-22T19:42:02Z",
+      "lastSearchedAt": "2026-09-24T15:35:30Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Results were completed/historical auctions or lacked qualifying fixed price."
+      "limitation": "Collecting Cars results were completed historical Ferrari 456 sales rather than active purchasable adverts; none retained."
     },
     "model-004:bonhams-cars:ferrari-456-gt-456m-gt-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-22T19:42:02Z",
+      "lastSearchedAt": "2026-09-24T15:35:30Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No current UK fixed-price manual 456 advert surfaced."
+      "limitation": "No current qualifying Bonhams Cars Ferrari 456 GT/456M GT manual advert survived; completed/historical lots were excluded."
     },
     "model-004:classic-trader:ferrari-456-gt-456m-gt-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-22T19:42:02Z",
+      "lastSearchedAt": "2026-09-24T15:35:30Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Result was a 1994 ended auction/estimate, outside year rule and not current fixed-price stock."
+      "limitation": "The direct 456 result surfaced was a 1994 car tied to a completed 2025 auction, outside the year rule and no longer current; rejected."
     },
     "model-005:collecting-cars:lamborghini-gallardo-5-0-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-22T19:42:02Z",
+      "lastSearchedAt": "2026-09-24T15:35:30Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Results were completed/historical Gallardo auctions."
+      "limitation": "Surfaced gated-manual Gallardo pages were completed historical auctions, not current adverts; rejected."
     },
     "model-005:bonhams-cars:lamborghini-gallardo-5-0-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-22T19:42:02Z",
+      "lastSearchedAt": "2026-09-24T15:35:30Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No current UK factory-manual Gallardo at £70k–£100k surfaced."
+      "limitation": "No active qualifying Bonhams Cars Gallardo 5.0 factory-manual advert within the configured asking-price range was found."
     },
     "model-005:classic-trader:lamborghini-gallardo-5-0-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-22T19:42:02Z",
+      "lastSearchedAt": "2026-09-24T15:35:30Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No direct current UK factory-manual Gallardo in configured price band surfaced."
+      "limitation": "No qualifying current Classic Trader UK Gallardo 5.0 factory-gated-manual advert was retained."
     },
     "model-006:collecting-cars:audi-r8-v8-manual": {
       "status": "searched",
@@ -9818,154 +9822,152 @@
     },
     "model-009:pistonheads:noble-m12-gto-gto-3-gto-3r": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-23T02:41:07Z",
+      "lastSearchedAt": "2026-09-24T15:35:30Z",
       "lastResultCount": 2,
       "candidateUrls": [
         "https://www.pistonheads.com/buy/listing/20986597",
         "https://www.pistonheads.com/buy/listing/20747336"
       ],
-      "limitation": "Search executed. Listing 20986597 remains current and is already published. Listing 20747336 is a current £44,950 M12 GTO-3 advert but its five gallery images are explicitly placeholders to show the colour combination while the actual car is away for service/inspection, so it cannot clear the photo gate yet. A £54,995 example exceeded the model ceiling; a deposit-taken car and an automatic/ambiguous advert were rejected."
+      "limitation": "Two qualifying-price current direct M12 adverts survived initial filtering: the already-published £43,895 GTO-3R and DT Performance's £44,950 GTO-3. The latter remains verification-pending because the seller explicitly says the displayed pictures are only to show the colour combination while the actual car is away for service/inspection."
     },
     "model-010:autotrader:noble-m400": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-23T02:41:07Z",
+      "lastSearchedAt": "2026-09-24T15:35:30Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search executed; no direct current Noble M400 Auto Trader car-details advert was surfaced."
+      "limitation": "No qualifying current direct Auto Trader Noble M400 advert was found; generic results were excluded."
     },
     "model-010:car-and-classic:noble-m400": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-23T02:41:07Z",
+      "lastSearchedAt": "2026-09-24T15:35:30Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search executed; no direct current qualifying Noble M400 advert was surfaced."
+      "limitation": "No current qualifying direct Car & Classic Noble M400 advert within £55,000-£80,000 was retained."
     },
     "model-010:ebay:noble-m400": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-23T02:41:07Z",
+      "lastSearchedAt": "2026-09-24T15:35:30Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search executed. Returned eBay results were parts/consumables rather than vehicles; rejected before verification."
+      "limitation": "eBay results were Noble parts/non-car items; no current complete M400 advert survived."
     },
     "model-010:gumtree:noble-m400": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-23T02:41:07Z",
+      "lastSearchedAt": "2026-09-24T15:35:30Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search executed; no direct current qualifying Noble M400 vehicle advert was surfaced."
+      "limitation": "No qualifying current Gumtree Noble M400 advert was found."
     },
     "model-010:pistonheads:noble-m400": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-23T02:41:07Z",
+      "lastSearchedAt": "2026-09-24T15:35:30Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search executed. No genuine current M400 advert surfaced; listing 20747336 is labelled M400 in the title but its advert text identifies the vehicle as a Noble M12 GTO-3 and is handled under model-009."
+      "limitation": "PistonHeads surfaced an M12 GTO-3 whose page taxonomy/title mentions M400, but the actual vehicle is not an M400; it was rejected for model-010 rather than misclassified."
     },
     "model-010:specialist-dealers:noble-m400": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-23T02:41:07Z",
+      "lastSearchedAt": "2026-09-24T15:35:30Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Specialist-dealer search executed; no current direct M400 stock advert meeting the rules was surfaced."
+      "limitation": "No qualifying current specialist-dealer Noble M400 advert within the configured range was found."
     },
     "model-011:autotrader:lotus-esprit-v8-v8-gt": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-23T02:41:07Z",
+      "lastSearchedAt": "2026-09-24T15:35:30Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search executed; no direct current qualifying Auto Trader Esprit V8/V8 GT car-details advert was surfaced."
+      "limitation": "Auto Trader returned a generic Lotus/Esprit stock page rather than a qualifying direct car-details advert; generic pages were rejected."
     },
     "model-011:car-and-classic:lotus-esprit-v8-v8-gt": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-23T02:41:07Z",
-      "lastResultCount": 0,
-      "candidateUrls": [],
-      "limitation": "Search executed; no direct current fixed-price qualifying Car & Classic Esprit V8/V8 GT advert was surfaced."
+      "lastSearchedAt": "2026-09-24T15:35:30Z",
+      "lastResultCount": 1,
+      "candidateUrls": [
+        "https://www.carandclassic.com/car/C1831033"
+      ],
+      "limitation": "One current direct advert fully passed hard verification: SWLC Performance's 1998 Esprit V8 GT E2PRY at £54,995 / 38,000 miles, RHD five-speed manual. Seller stock and nine exact gallery images were checked."
     },
     "model-011:ebay:lotus-esprit-v8-v8-gt": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-23T02:41:07Z",
+      "lastSearchedAt": "2026-09-24T15:35:30Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search executed. Returned eBay results were brochures, models, posters or parts rather than actual vehicle adverts; rejected before verification."
+      "limitation": "eBay results were brochures, models, parts or non-qualifying items; no current complete Esprit V8/GT advert survived."
     },
     "model-011:gumtree:lotus-esprit-v8-v8-gt": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-23T02:41:07Z",
+      "lastSearchedAt": "2026-09-24T15:35:30Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search executed; no direct current qualifying vehicle advert was surfaced."
+      "limitation": "No qualifying current Gumtree Lotus Esprit V8/V8 GT advert was found."
     },
     "model-011:pistonheads:lotus-esprit-v8-v8-gt": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-23T02:41:07Z",
+      "lastSearchedAt": "2026-09-24T15:35:30Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search executed. A live 2000 Esprit V8 GT listing at Barry Ely is POA, which is explicitly ineligible; another surfaced listing is no longer available."
+      "limitation": "A current Esprit V8 GT advert was found at POA; hard fixed-price rules exclude it, so no PistonHeads candidate was retained."
     },
     "model-011:specialist-dealers:lotus-esprit-v8-v8-gt": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-23T02:41:07Z",
-      "lastResultCount": 0,
-      "candidateUrls": [],
-      "limitation": "Specialist-dealer search executed. No current fixed-GBP-price qualifying Esprit V8/V8 GT seller advert was surfaced; POA stock was excluded."
+      "lastSearchedAt": "2026-09-24T15:35:30Z",
+      "lastResultCount": 1,
+      "candidateUrls": [
+        "https://www.swlcperformance.com/listings/lotus-esprit-v8-gt/"
+      ],
+      "limitation": "SWLC Performance's current inventory explicitly lists the 1998 Esprit V8 GT at £54,995 while separately labelling sold stock. The exact seller-detail URL timed out, so full verification used the live seller inventory plus the exact current Car & Classic advert/gallery for the same E2PRY vehicle."
     },
     "model-012:autotrader:dodge-viper-rt-10-gts-srt-10": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-23T02:41:07Z",
+      "lastSearchedAt": "2026-09-24T15:35:30Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search executed. Auto Trader exposed a generic model inventory page rather than a direct car-details URL, so no advert URL was retained."
+      "limitation": "Auto Trader returned a generic Viper category page; the visible SRT-10 was below the configured £40,000 minimum. No direct qualifying advert retained."
     },
     "model-012:car-and-classic:dodge-viper-rt-10-gts-srt-10": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-23T02:41:07Z",
-      "lastResultCount": 1,
-      "candidateUrls": [
-        "https://www.carandclassic.com/car/C2008136"
-      ],
-      "limitation": "Exact current Car & Classic advert found for a 2007 SRT-10 Coupe at £71,995 / 19,700 miles / LHD 6-speed manual in Cornwall. It remains verification-pending because exact gallery pixels were not sufficiently inspected for the mandatory unavailable-overlay/manual-control gate."
+      "lastSearchedAt": "2026-09-24T15:35:30Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "The surfaced 2006 Viper was an offline/future auction rather than a fixed current asking-price advert; rejected."
     },
     "model-012:ebay:dodge-viper-rt-10-gts-srt-10": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-23T02:41:07Z",
-      "lastResultCount": 1,
-      "candidateUrls": [
-        "https://www.ebay.co.uk/itm/127827261468"
-      ],
-      "limitation": "Current eBay classified advert found for the 2006 SRT-10 First Edition at £87,495 / 7,334 miles / LHD manual, from 4 Star Classics. The seller-direct advert is retained as the canonical verification candidate for this vehicle identity."
+      "lastSearchedAt": "2026-09-24T15:35:30Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "eBay results were toys/parts/non-car items; no current qualifying complete Dodge Viper advert was retained."
     },
     "model-012:gumtree:dodge-viper-rt-10-gts-srt-10": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-23T02:41:07Z",
+      "lastSearchedAt": "2026-09-24T15:35:30Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search executed; no direct current qualifying Dodge Viper vehicle advert was surfaced."
+      "limitation": "No qualifying current Gumtree Dodge Viper advert survived the UK, year and fixed-price rules."
     },
     "model-012:pistonheads:dodge-viper-rt-10-gts-srt-10": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-23T02:41:07Z",
+      "lastSearchedAt": "2026-09-24T15:35:30Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search executed; no direct current qualifying fixed-price UK Viper advert was surfaced from the returned PistonHeads results."
+      "limitation": "No qualifying current direct PistonHeads Dodge Viper advert within the configured rules was found."
     },
     "model-012:specialist-dealers:dodge-viper-rt-10-gts-srt-10": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-23T02:41:07Z",
-      "lastResultCount": 1,
-      "candidateUrls": [
-        "https://www.4starclassics.com/for-sale/dodge-viper-srt-10-first-edition-for-sale/"
-      ],
-      "limitation": "4 Star Classics' seller-direct advert and current-stock lists show the 2006 First Edition at £87,495 / 7,334 miles / 6-speed manual. An eBay classified mirror for the same car is also live. A Car & Classic mirror is marked sold, so seller-direct inventory is treated as higher authority; publication remains blocked only by incomplete exact interior/manual-control photo verification."
+      "lastSearchedAt": "2026-09-24T15:35:30Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "No qualifying current UK specialist-dealer Dodge Viper advert with a fixed £40,000-£95,000 asking price was found."
     },
     "model-015:car-and-classic:tvr-tuscan-tuscan-s-mk2": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-23T02:41:07Z",
+      "lastSearchedAt": "2026-09-24T15:35:30Z",
       "lastResultCount": 1,
       "candidateUrls": [
         "https://www.carandclassic.com/car/C2176367"
       ],
-      "limitation": "Exact current Car & Classic advert found at £44,995 for a 2005 Tuscan Mk2 S in Northamptonshire. Current indexed metadata says 48,000 miles and 6-speed manual, which conflicts with earlier repository metadata for the same URL; keep verification-pending until specification/mileage are reconciled and gallery evidence is sufficient."
+      "limitation": "One newly checked current direct advert fully passed hard verification: Onyx Vault's 2005 Tuscan Mk2 S WA05URD at £44,995 / 46,500 miles, RHD five-speed manual. Seller inventory and nine exact current gallery images were checked."
     },
     "model-015:gumtree:tvr-tuscan-tuscan-s-mk2": {
       "status": "searched",
@@ -10067,26 +10069,26 @@
     },
     "model-007:specialist-dealers:audi-r8-v10-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-23T02:41:07Z",
+      "lastSearchedAt": "2026-09-24T15:35:30Z",
       "lastResultCount": 1,
       "candidateUrls": [
         "https://www.alxcars.co.uk/audir8spyderv10"
       ],
-      "limitation": "Specialist-dealer search executed. ALX's direct advert is current at £74,995 / 40,300 miles / gated 6-speed manual and matches the already-published vehicle; no new identity added."
+      "limitation": "ALX Specialist Cars' 2010 R8 V10 Spyder six-speed gated manual remains current at £74,995 / 40,300 miles and is already published. A separate 2011 car was rejected as outside the model-007 year ceiling."
     },
     "model-008:specialist-dealers:honda-nsx-nsx-t-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-23T02:41:07Z",
+      "lastSearchedAt": "2026-09-24T15:35:30Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search executed. The surfaced HPC manual NSX was a 1992 car at £64,995, outside the model's 1995-2005 year rule and below its configured floor; no qualifying advert retained."
+      "limitation": "Specialist results were outside the 1995-2005/£65k-£100k rules or generic category pages; no qualifying current direct NSX manual advert retained."
     },
     "model-009:specialist-dealers:noble-m12-gto-gto-3-gto-3r": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-23T02:41:07Z",
+      "lastSearchedAt": "2026-09-24T15:35:30Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Specialist-dealer search executed. Seller-side results found were sold/wanted or did not provide a fresh qualifying current direct stock advert; no URL retained."
+      "limitation": "Specialist search surfaced current-stock references already represented by direct marketplace adverts, but no additional qualifying seller-direct URL suitable to add without duplication."
     },
     "model-017:specialist-dealers:tvr-griffith-500-se": {
       "status": "searched",
