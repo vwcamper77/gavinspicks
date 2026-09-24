@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-24T01:25:05Z",
+  "updatedAt": "2026-09-24T02:58:10Z",
   "candidates": [
     {
       "modelId": "model-056",
@@ -2365,10 +2365,19 @@
       "url": "https://www.carandclassic.com/l/C2093000",
       "source": "car-and-classic",
       "discoveredAt": "2026-09-14T21:56:24Z",
-      "status": "verification-pending",
+      "status": "rejected",
       "note": "Rechecked 14 Sep 2026: Car & Classic explicitly marks this 1997 Ferrari 550 Maranello For Sale at £99,995, RHD and six-speed manual in Broxburn, with advert metadata showing 52,694 miles and a 68-photo gallery. Seller copy records recent belt work in January 2026 and substantial investment since 2023. Exact current gallery images were not sufficiently inspectable for the hard sold-overlay/manual-control visual gate, so keep verification-pending and do not publish.",
-      "lastCheckedAt": "2026-09-14T21:56:24Z",
-      "vehicleIdentity": "1997 Ferrari 550 Maranello | C2093000 | £99,995 | Broxburn"
+      "lastCheckedAt": "2026-09-24T02:58:10Z",
+      "vehicleIdentity": "1997 Ferrari 550 Maranello | 78FR | C2093000 | Roden Jones",
+      "year": 1997,
+      "price": 104995,
+      "mileage": 51694,
+      "seller": "Roden Jones",
+      "location": "Broxburn, West Lothian, United Kingdom",
+      "gearbox": "6-speed gated manual",
+      "evidence": "Car & Classic still shows £99,995, but the originating seller's current advert and current-stock page both show £104,995. Under the evidence hierarchy the seller-direct current price controls, so the car exceeds model-003's £100,000 maximum and is rejected.",
+      "photoEvidence": "Nine exact Car & Classic gallery frames were inspected; no unavailable overlay was visible. One cabin frame clearly shows the gated manual lever. The car fails only on the current seller-direct asking price, not the manual-photo or availability check.",
+      "verificationLimitation": "Rejected because the highest-authority current seller price is £104,995, above the configured £100,000 maximum."
     },
     {
       "modelId": "model-075",
@@ -4103,6 +4112,29 @@
       "photoEvidence": "Search result exposes a 23-image gallery, but the exact canonical advert/gallery cache-missed when opened in this run, so image pixels and unavailable-status overlays were not verified.",
       "note": "Plausible fresh actual advert URL retained for full verification. Do not publish: the exact advert/gallery could not be fetched strongly enough to verify current availability and manual-control photos.",
       "verificationLimitation": "Exact advert/gallery retrieval cache-missed; current status and manual-photo gate remain unverified."
+    },
+    {
+      "modelId": "model-002",
+      "url": "https://www.my-next-car.co.uk/used-ferrari-f355-sandy-bedfordshire-7820811",
+      "source": "specialist-dealers",
+      "discoveredAt": "2026-09-24T02:58:10Z",
+      "status": "verification-pending",
+      "lastCheckedAt": "2026-09-24T02:58:10Z",
+      "vehicleIdentity": "1996 Ferrari F355 Spider | XIG355 | £89,995 | My Next Car",
+      "year": 1996,
+      "price": 89995,
+      "seller": "My Next Car",
+      "location": "Sandy, Bedfordshire, United Kingdom",
+      "gearbox": "6-speed manual (seller-advertised)",
+      "evidence": "Seller-direct advert is live with reserve/test-drive controls at £89,995, UK location, 1996 registration and repeated six-speed-manual description. The advert headline says 29,000 miles while its body notes approximately 30,107 miles observed, so exact mileage remains inconsistent. Seller also discloses a Category D marker from 1998.",
+      "photoEvidence": "The first nine exact current Car & Classic/seller photographs of XIG355 were inspected and show the same blue Spider with no SOLD, RESERVED, DEPOSIT TAKEN or UNDER OFFER overlay. Those accessible frames are exterior views and do not show the gear selector or three pedals clearly enough for the mandatory manual-photo gate.",
+      "verificationLimitation": "Keep unverified: exact current manual-control photo not yet obtained, and advertised mileage is internally inconsistent between headline and body text.",
+      "images": [
+        "https://assets.carandclassic.com/uploads/cars/ferrari/C2043989/1996-ferrari-f355-69d6100c1afb6.jpg?fit=fillmax&h=800&ixlib=php-4.1.0&q=85&s=b9a5850277f6a49cd76c489d55df0d46&w=800",
+        "https://assets.carandclassic.com/uploads/cars/ferrari/C2043989/1996-ferrari-f355-69d6100c8ddeb.jpg?fit=fillmax&h=500&ixlib=php-4.1.0&q=85&s=0380f4889779a985a427f8be3ca6ee74&w=500",
+        "https://assets.carandclassic.com/uploads/cars/ferrari/C2043989/1996-ferrari-f355-69d6100cac05c.jpg?fit=fillmax&h=500&ixlib=php-4.1.0&q=85&s=ddeb32903cf8b50d73fb7100b00ae2db&w=500"
+      ],
+      "note": "New current F355 lead retained for verification only. Do not publish until a clear exact current gated-manual/three-pedal photograph is inspected and the mileage discrepancy is resolved in the evidence record."
     }
   ]
 }
