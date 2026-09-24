@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-24T03:33:40Z",
+  "updatedAt": "2026-09-24T04:48:25Z",
   "compactedFromQueueAt": "2026-09-10T06:41:54.207Z",
   "note": "Cumulative worker-write state. Job results are merged from immutable run deltas and folded back into data/search-queue.json by scripts/build-search-queue.mjs.",
   "jobs": {
@@ -51,10 +51,10 @@
     },
     "model-070:ebay:ford-focus-rs-mk1": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-23T21:15:36Z",
+      "lastSearchedAt": "2026-09-24T04:48:25Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search executed. Results were parts, literature, wheels or other non-car items; no current Mk1 RS vehicle advert retained."
+      "limitation": "Search results were parts, non-car items, or stale/irrelevant pages; no plausible current complete-car advert survived preliminary filtering."
     },
     "model-070:autotrader:ford-focus-rs-mk1": {
       "status": "searched",
@@ -124,10 +124,12 @@
     },
     "model-070:car-and-classic:ford-focus-rs-mk2": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-23T21:15:36Z",
-      "lastResultCount": 0,
-      "candidateUrls": [],
-      "limitation": "Search executed. Visible Car & Classic hits were completed/removed auction pages; no new current fixed-price Mk2 advert retained."
+      "lastSearchedAt": "2026-09-24T04:48:25Z",
+      "lastResultCount": 1,
+      "candidateUrls": [
+        "https://www.carandclassic.com/car/C2117480"
+      ],
+      "limitation": "Current C2117480 surfaced and is already tracked; other returned pages were ended/removed, stale or otherwise ineligible."
     },
     "model-070:gumtree:ford-focus-rs-mk2": {
       "status": "searched",
@@ -430,10 +432,10 @@
     },
     "model-088:911uk:mitsubishi-evo-vi-tommi-makinen-edition": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-23T15:46:24Z",
+      "lastSearchedAt": "2026-09-24T04:48:25Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search executed; no direct current TME advert meeting the strict under-30,000-mile / max-two-owner watch surfaced."
+      "limitation": "Public web query executed; no plausible current actual advert URL survived preliminary filtering."
     },
     "model-088:ferrarichat:mitsubishi-evo-vi-tommi-makinen-edition": {
       "status": "searched",
@@ -493,10 +495,10 @@
     },
     "model-096:bonhams-cars:bmw-e46-m3-manual-coupe-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-23T19:53:11Z",
+      "lastSearchedAt": "2026-09-24T04:48:25Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public search executed. No current direct Bonhams Cars advert with a fixed qualifying asking price for a UK E46 M3 manual coupe was established."
+      "limitation": "No plausible current fixed-price qualifying manual Coupé advert survived preliminary filtering."
     },
     "model-096:bonhams-cars:bmw-m3-e46-6-speed-manual-coupe-uk": {
       "status": "searched",
@@ -663,10 +665,10 @@
     },
     "model-021:911uk:lotus-esprit-gt3": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-21T21:37:36Z",
+      "lastSearchedAt": "2026-09-24T04:48:25Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search completed; no fresh current Esprit GT3 sale thread/advert was returned."
+      "limitation": "Public web query executed; no plausible current actual advert URL survived preliminary filtering."
     },
     "model-021:autotrader:lotus-esprit-gt3": {
       "status": "searched",
@@ -854,10 +856,10 @@
     },
     "model-096:specialist-dealers:bmw-m3-e46-6-speed-manual-coupe-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-23T21:15:36Z",
+      "lastSearchedAt": "2026-09-24T04:48:25Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search executed. Current-looking specialist hits were outside the model rules, including Hexagon's £99,995 example above the configured £50,000 ceiling; no new qualifying advert URL retained."
+      "limitation": "Returned specialist result was a convertible and therefore outside the factory-manual Coupé target."
     },
     "model-097:911uk:bmw-e39-m5-manual-uk": {
       "status": "searched",
@@ -1201,10 +1203,10 @@
     },
     "model-078:pistonheads:renault-clio-182-trophy": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-23T21:15:36Z",
+      "lastSearchedAt": "2026-09-24T04:48:25Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search executed. Returned Trophy auction/history pages and a current 47,000-mile advert; all fail the strict under-30,000-mile / maximum-two-total-owners rule or fixed-price-current-advert gate."
+      "limitation": "Current/historical results exceeded the strict sub-30,000-mile and/or maximum-two-total-owner rules, or were auction pages; none survived preliminary filtering."
     },
     "model-078:car-and-classic:renault-clio-182-trophy": {
       "status": "searched",
@@ -1215,10 +1217,10 @@
     },
     "model-078:collecting-cars:renault-clio-182-trophy": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-23T19:53:11Z",
+      "lastSearchedAt": "2026-09-24T04:48:25Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public search executed. Results were historical/completed auction pages, including otherwise interesting low-mileage cars already sold; no current qualifying advert retained."
+      "limitation": "Returned auction/historical Trophy pages do not satisfy the fixed asking-price/current-advert rule and/or strict mileage/ownership limits."
     },
     "model-078:bonhams-cars:renault-clio-182-trophy": {
       "status": "searched",
@@ -1445,17 +1447,17 @@
     },
     "model-097:autotrader:bmw-e39-m5-manual-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-23T21:15:36Z",
+      "lastSearchedAt": "2026-09-24T04:48:25Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search executed; no plausible current Auto Trader E39 M5 advert within the 50,000-mile and configured price rules surfaced."
+      "limitation": "Public web query executed; no plausible current actual advert URL survived preliminary filtering."
     },
     "model-097:autotrader:bmw-m5-e39-6-speed-manual-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-23T21:15:36Z",
+      "lastSearchedAt": "2026-09-24T04:48:25Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search executed; no plausible current Auto Trader E39 M5 advert within the 50,000-mile and configured price rules surfaced."
+      "limitation": "Public web query executed; no plausible current actual advert URL survived preliminary filtering."
     },
     "model-097:bonhams-cars:bmw-e39-m5-manual-uk": {
       "status": "searched",
@@ -1473,17 +1475,21 @@
     },
     "model-097:car-and-classic:bmw-e39-m5-manual-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-23T21:15:36Z",
-      "lastResultCount": 0,
-      "candidateUrls": [],
-      "limitation": "Search executed. Current Car & Classic £24,995 E39 M5 is 123,000 miles and fails the 50,000-mile cap; other hits were auctions, sold or removed."
+      "lastSearchedAt": "2026-09-24T04:48:25Z",
+      "lastResultCount": 1,
+      "candidateUrls": [
+        "https://www.carandclassic.com/car/C2060885"
+      ],
+      "limitation": "One current qualifying low-mileage advert survived preliminary filtering; other live results exceeded the 50,000-mile cap or were POA."
     },
     "model-097:car-and-classic:bmw-m5-e39-6-speed-manual-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-23T21:15:36Z",
-      "lastResultCount": 0,
-      "candidateUrls": [],
-      "limitation": "Search executed. Current Car & Classic £24,995 E39 M5 is 123,000 miles and fails the 50,000-mile cap; other hits were auctions, sold or removed."
+      "lastSearchedAt": "2026-09-24T04:48:25Z",
+      "lastResultCount": 1,
+      "candidateUrls": [
+        "https://www.carandclassic.com/car/C2060885"
+      ],
+      "limitation": "Same current qualifying advert as the sibling search variant; deduplicated by vehicle identity/advert URL."
     },
     "model-097:classic-trader:bmw-e39-m5-manual-uk": {
       "status": "searched",
@@ -1515,10 +1521,10 @@
     },
     "model-097:ebay:bmw-e39-m5-manual-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-23T21:15:36Z",
+      "lastSearchedAt": "2026-09-24T04:48:25Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search executed. Results were parts or non-qualifying cars; the visible £12,750 E39 M5 is below the configured £25,000 floor and was not retained."
+      "limitation": "A current 2001 manual E39 M5 advert was found at 140,000 miles, far above the 50,000-mile cap, and was rejected before candidacy."
     },
     "model-097:ebay:bmw-m5-e39-6-speed-manual-uk": {
       "status": "searched",
@@ -2221,10 +2227,10 @@
     },
     "model-076:collecting-cars:ford-focus-st500": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-23T19:53:11Z",
+      "lastSearchedAt": "2026-09-24T04:48:25Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public search executed. Returned Focus ST500 Collecting Cars pages were historical/completed sale results rather than current purchasable adverts; none retained."
+      "limitation": "No plausible current fixed-price qualifying ST500 advert survived; auction/historical pages are not eligible."
     },
     "model-070:911uk:ford-focus-rs-mk1": {
       "status": "searched",
@@ -2510,10 +2516,10 @@
     },
     "model-070:car-and-classic:ford-focus-rs500": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-23T21:15:36Z",
+      "lastSearchedAt": "2026-09-24T04:48:25Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search executed; no new current fixed-price RS500 advert URL surfaced after stale/auction filtering."
+      "limitation": "Public web query executed; no plausible current actual advert URL survived preliminary filtering."
     },
     "model-070:pistonheads:ford-focus-rs500": {
       "status": "searched",
@@ -3173,10 +3179,10 @@
     },
     "model-085:facebook-groups:subaru-impreza-rb320": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-23T15:46:24Z",
+      "lastSearchedAt": "2026-09-24T04:48:25Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public web search executed; no direct current qualifying RB320 sale post/ad with sufficient listing evidence survived filtering."
+      "limitation": "Public indexed Facebook-group search executed; no plausible current qualifying advert URL surfaced. Login/member-only content was not bypassed."
     },
     "model-075:bonhams-cars:audi-tt-quattro-sport": {
       "status": "searched",
@@ -3642,17 +3648,17 @@
     },
     "model-088:classic-trader:mitsubishi-evo-vi-tommi-makinen-edition": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-23T19:53:11Z",
+      "lastSearchedAt": "2026-09-24T04:48:25Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public search executed. The plausible Tommi Makinen Edition result surfaced in Switzerland rather than the UK, so it failed the UK-location rule."
+      "limitation": "A TME advert surfaced in Switzerland; it fails the UK-location rule and was rejected before candidacy."
     },
     "model-088:collecting-cars:mitsubishi-evo-vi-tommi-makinen-edition": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-23T19:53:11Z",
+      "lastSearchedAt": "2026-09-24T04:48:25Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public search executed. Returned Collecting Cars TME pages were historical/completed auctions and/or outside the configured mileage rule; none retained."
+      "limitation": "No plausible current fixed-price UK qualifying TME advert survived preliminary filtering."
     },
     "model-056:911uk:bmw-z4-m-coupe": {
       "status": "searched",
@@ -3933,10 +3939,10 @@
     },
     "model-085:911uk:subaru-impreza-rb320": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-23T15:46:24Z",
+      "lastSearchedAt": "2026-09-24T04:48:25Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search executed; no direct current RB320 advert meeting the strict under-30,000-mile / max-two-owner watch surfaced."
+      "limitation": "Public web query executed; no plausible current actual advert URL survived preliminary filtering."
     },
     "model-040:autotrader:renault-clio-v6-phase-2": {
       "status": "searched",
@@ -4150,17 +4156,17 @@
     },
     "model-085:ferrarichat:subaru-impreza-rb320": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-23T15:46:24Z",
+      "lastSearchedAt": "2026-09-24T04:48:25Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search executed; no direct current qualifying RB320 sale advert survived filtering."
+      "limitation": "Public web query executed; no plausible current actual advert URL survived preliminary filtering."
     },
     "model-085:lamborghini-talk:subaru-impreza-rb320": {
       "status": "blocked",
-      "lastSearchedAt": "2026-09-23T15:46:24Z",
+      "lastSearchedAt": "2026-09-24T04:48:25Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public retrieval was blocked by robots/access controls for LamborghiniTalk; no bypass attempted."
+      "limitation": "Public retrieval of LamborghiniTalk was blocked by robots/access policy; no access controls were bypassed."
     },
     "model-088:facebook-groups:mitsubishi-evo-vi-tommi-makinen-edition": {
       "status": "searched",
@@ -6964,10 +6970,10 @@
     },
     "model-071:collecting-cars:bmw-m5-touring-e61-5-0-v10-smg": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-22T08:53:51Z",
+      "lastSearchedAt": "2026-09-24T04:48:25Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Collecting Cars E61 M5 Touring query executed; no live qualifying current auction or fixed-price advert was retained. Completed sales were rejected."
+      "limitation": "Returned Collecting Cars pages were historical/completed auction results; no current fixed-price eligible advert survived."
     },
     "model-071:ebay:bmw-m5-touring-e61-5-0-v10-smg": {
       "status": "searched",
@@ -7034,10 +7040,10 @@
     },
     "model-073:bonhams-cars:audi-ur-quattro": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-22T08:53:51Z",
+      "lastSearchedAt": "2026-09-24T04:48:25Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Bonhams original ur-quattro query executed; no current direct qualifying advert was retained."
+      "limitation": "No plausible current fixed-price original 1980–1991 ur-quattro advert survived preliminary filtering."
     },
     "model-073:car-and-classic:audi-ur-quattro": {
       "status": "searched",
@@ -7048,17 +7054,17 @@
     },
     "model-073:classic-trader:audi-ur-quattro": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-22T08:53:51Z",
+      "lastSearchedAt": "2026-09-24T04:48:25Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Classic Trader original ur-quattro query executed; no current direct qualifying UK advert survived filtering."
+      "limitation": "Returned results were other Audi models/foreign stock rather than a qualifying UK original ur-quattro."
     },
     "model-073:collecting-cars:audi-ur-quattro": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-22T08:53:51Z",
+      "lastSearchedAt": "2026-09-24T04:48:25Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Collecting Cars surfaced a 1985 Audi ur-quattro sold on 3 March 2025; it is a completed historical auction and was rejected."
+      "limitation": "Returned original ur-quattro pages were historical/completed auction results, not current fixed-price adverts."
     },
     "model-073:ebay:audi-ur-quattro": {
       "status": "searched",
@@ -7130,10 +7136,10 @@
     },
     "model-074:bonhams-cars:porsche-996-40th-anniversary-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-22T08:53:51Z",
+      "lastSearchedAt": "2026-09-24T04:48:25Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Bonhams 996 40th Anniversary manual query executed; no current direct qualifying advert was retained."
+      "limitation": "No plausible current fixed-price qualifying 996 40th Anniversary advert survived preliminary filtering."
     },
     "model-074:car-and-classic:porsche-996-40th-anniversary-manual": {
       "status": "searched",
@@ -7146,17 +7152,17 @@
     },
     "model-074:classic-trader:porsche-996-40th-anniversary-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-22T08:53:51Z",
+      "lastSearchedAt": "2026-09-24T04:48:25Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Classic Trader 996 40th Anniversary manual query executed; no current direct qualifying UK advert survived filtering."
+      "limitation": "No plausible current UK fixed-price qualifying 996 40th Anniversary advert survived preliminary filtering."
     },
     "model-074:collecting-cars:porsche-996-40th-anniversary-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-22T08:53:51Z",
+      "lastSearchedAt": "2026-09-24T04:48:25Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Collecting Cars 996 40th Anniversary manual query executed; no live qualifying current auction or fixed-price advert was retained; completed sales were rejected."
+      "limitation": "A 49,120-mile Sheffield 40th Anniversary auction page surfaced, but no fixed qualifying asking price/current purchase status could be established; auction pages are not candidates under the rules."
     },
     "model-074:ebay:porsche-996-40th-anniversary-manual": {
       "status": "searched",
@@ -7919,24 +7925,24 @@
     },
     "model-080:specialist-dealers:renault-clio-172-cup": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-22T14:31:21Z",
+      "lastSearchedAt": "2026-09-24T04:48:25Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Specialist-dealer search for 172 Cup returned sold/unavailable or rule-failing examples; no current qualifying seller-direct advert was retained."
+      "limitation": "Low-mileage result found was marked sold/deposit taken and exceeded the maximum-two-total-owner rule; others exceeded the mileage cap."
     },
     "model-080:specialist-dealers:renault-clio-182-cup": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-22T14:31:21Z",
+      "lastSearchedAt": "2026-09-24T04:48:25Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Specialist-dealer search for 182 Cup returned sold/unavailable or rule-failing examples; no current qualifying seller-direct advert was retained."
+      "limitation": "Returned cars exceeded the strict sub-30,000-mile and/or maximum-two-total-owner rules, or were stale/sold."
     },
     "model-080:specialist-dealers:renault-clio-r27-f1-team": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-22T14:31:21Z",
+      "lastSearchedAt": "2026-09-24T04:48:25Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Specialist-dealer search for R27 F1 Team returned sold/unavailable or rule-failing examples; no current qualifying seller-direct advert was retained."
+      "limitation": "Returned R27 example was 44,500 miles and therefore fails the strict sub-30,000-mile rule."
     },
     "model-081:911uk:renault-megane-r26-f1-team": {
       "status": "searched",
@@ -10413,136 +10419,136 @@
     },
     "model-015:911uk:tvr-tuscan-tuscan-s-mk2": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-21T20:31:32Z",
+      "lastSearchedAt": "2026-09-24T04:48:25Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "911UK query executed; surfaced material was old/general forum content rather than a fresh direct current Tuscan sale advert."
+      "limitation": "Public web query executed; no plausible current actual advert URL survived preliminary filtering."
     },
     "model-015:ferrarichat:tvr-tuscan-tuscan-s-mk2": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-21T20:31:32Z",
+      "lastSearchedAt": "2026-09-24T04:48:25Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "FerrariChat public-web query executed; no plausible current direct UK TVR Tuscan sale advert survived filtering."
+      "limitation": "Public web query executed; no plausible current actual advert URL survived preliminary filtering."
     },
     "model-015:lamborghini-talk:tvr-tuscan-tuscan-s-mk2": {
       "status": "blocked",
-      "lastSearchedAt": "2026-09-21T20:31:32Z",
+      "lastSearchedAt": "2026-09-24T04:48:25Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Lamborghini-Talk blocked automated public access via robots.txt in this run, so no advert could be checked. No access-control bypass attempted."
+      "limitation": "Public retrieval of LamborghiniTalk was blocked by robots/access policy; no access controls were bypassed."
     },
     "model-016:911uk:tvr-cerbera-4-2-4-5-ajp-v8": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-21T20:31:32Z",
+      "lastSearchedAt": "2026-09-24T04:48:25Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "911UK query executed; no fresh direct current Cerbera sale advert survived filtering."
+      "limitation": "Public web query executed; no plausible current actual advert URL survived preliminary filtering."
     },
     "model-016:facebook-groups:tvr-cerbera-4-2-4-5-ajp-v8": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-21T20:31:32Z",
+      "lastSearchedAt": "2026-09-24T04:48:25Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public Facebook-group web query executed. Results were irrelevant Meta/Audience Network/Ad Library pages rather than an accessible current group sale post; no candidate retained."
+      "limitation": "Public indexed Facebook-group search executed; no plausible current qualifying advert URL surfaced. Login/member-only content was not bypassed."
     },
     "model-016:ferrarichat:tvr-cerbera-4-2-4-5-ajp-v8": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-21T20:31:32Z",
+      "lastSearchedAt": "2026-09-24T04:48:25Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "FerrariChat public-web query executed; no plausible current direct UK Cerbera sale advert survived filtering."
+      "limitation": "Public web query executed; no plausible current actual advert URL survived preliminary filtering."
     },
     "model-016:lamborghini-talk:tvr-cerbera-4-2-4-5-ajp-v8": {
       "status": "blocked",
-      "lastSearchedAt": "2026-09-21T20:31:32Z",
+      "lastSearchedAt": "2026-09-24T04:48:25Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Lamborghini-Talk blocked automated public access via robots.txt in this run, so no advert could be checked. No access-control bypass attempted."
+      "limitation": "Public retrieval of LamborghiniTalk was blocked by robots/access policy; no access controls were bypassed."
     },
     "model-017:facebook-groups:tvr-griffith-500-se": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-21T20:31:32Z",
+      "lastSearchedAt": "2026-09-24T04:48:25Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public Facebook-group web query executed. Results were irrelevant Meta pages rather than an accessible current Griffith sale post; no candidate retained."
+      "limitation": "Public indexed Facebook-group search executed; no plausible current qualifying advert URL surfaced. Login/member-only content was not bypassed."
     },
     "model-008:ferrarichat:honda-nsx-nsx-t-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-21T20:31:32Z",
+      "lastSearchedAt": "2026-09-24T04:48:25Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "FerrariChat public-web query executed; no plausible current direct UK manual NSX/NSX-T sale advert survived filtering."
+      "limitation": "Public web query executed; no plausible current actual advert URL survived preliminary filtering."
     },
     "model-008:lamborghini-talk:honda-nsx-nsx-t-manual": {
       "status": "blocked",
-      "lastSearchedAt": "2026-09-21T20:31:32Z",
+      "lastSearchedAt": "2026-09-24T04:48:25Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Lamborghini-Talk blocked automated public access via robots.txt in this run, so no advert could be checked. No access-control bypass attempted."
+      "limitation": "Public retrieval of LamborghiniTalk was blocked by robots/access policy; no access controls were bypassed."
     },
     "model-009:ferrarichat:noble-m12-gto-gto-3-gto-3r": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-21T20:31:32Z",
+      "lastSearchedAt": "2026-09-24T04:48:25Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "FerrariChat public-web query executed; no plausible current direct UK Noble M12 sale advert survived filtering."
+      "limitation": "Public web query executed; no plausible current actual advert URL survived preliminary filtering."
     },
     "model-009:lamborghini-talk:noble-m12-gto-gto-3-gto-3r": {
       "status": "blocked",
-      "lastSearchedAt": "2026-09-21T20:31:32Z",
+      "lastSearchedAt": "2026-09-24T04:48:25Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Lamborghini-Talk blocked automated public access via robots.txt in this run, so no advert could be checked. No access-control bypass attempted."
+      "limitation": "Public retrieval of LamborghiniTalk was blocked by robots/access policy; no access controls were bypassed."
     },
     "model-017:911uk:tvr-griffith-500-se": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-21T20:31:32Z",
+      "lastSearchedAt": "2026-09-24T04:48:25Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "911UK query executed; no fresh direct current Griffith 500/SE sale advert survived filtering."
+      "limitation": "Public web query executed; no plausible current actual advert URL survived preliminary filtering."
     },
     "model-017:ferrarichat:tvr-griffith-500-se": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-21T20:31:32Z",
+      "lastSearchedAt": "2026-09-24T04:48:25Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "FerrariChat public-web query executed; no plausible current direct UK Griffith 500/SE sale advert survived filtering."
+      "limitation": "Public web query executed; no plausible current actual advert URL survived preliminary filtering."
     },
     "model-017:lamborghini-talk:tvr-griffith-500-se": {
       "status": "blocked",
-      "lastSearchedAt": "2026-09-21T21:37:36Z",
+      "lastSearchedAt": "2026-09-24T04:48:25Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public search backend was blocked by lamborghini-talk.com robots.txt; no access-control bypass attempted."
+      "limitation": "Public retrieval of LamborghiniTalk was blocked by robots/access policy; no access controls were bypassed."
     },
     "model-018:911uk:tvr-chimaera-500": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-21T21:37:36Z",
+      "lastSearchedAt": "2026-09-24T04:48:25Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search completed; no fresh owner-sale Chimaera 500 thread with verified current availability was returned."
+      "limitation": "Public web query executed; no plausible current actual advert URL survived preliminary filtering."
     },
     "model-018:facebook-groups:tvr-chimaera-500": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-21T21:37:36Z",
+      "lastSearchedAt": "2026-09-24T04:48:25Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public indexed group search completed; no plausible current actual Chimaera 500 advert URL was returned."
+      "limitation": "Public indexed Facebook-group search executed; no plausible current qualifying advert URL surfaced. Login/member-only content was not bypassed."
     },
     "model-018:ferrarichat:tvr-chimaera-500": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-21T21:37:36Z",
+      "lastSearchedAt": "2026-09-24T04:48:25Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search completed; no plausible current actual Chimaera 500 advert URL was returned."
+      "limitation": "Public web query executed; no plausible current actual advert URL survived preliminary filtering."
     },
     "model-018:lamborghini-talk:tvr-chimaera-500": {
       "status": "blocked",
-      "lastSearchedAt": "2026-09-21T21:37:36Z",
+      "lastSearchedAt": "2026-09-24T04:48:25Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public search backend was blocked by lamborghini-talk.com robots.txt; no access-control bypass attempted."
+      "limitation": "Public retrieval of LamborghiniTalk was blocked by robots/access policy; no access controls were bypassed."
     },
     "src:theparking-the-parking-discovery:aston-martin-v12-vantage:name": {
       "status": "searched",

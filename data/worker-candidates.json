@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-24T03:33:40Z",
+  "updatedAt": "2026-09-24T04:48:25Z",
   "candidates": [
     {
       "modelId": "model-056",
@@ -1030,10 +1030,10 @@
       "url": "https://www.carandclassic.com/au/car/C2060885",
       "source": "car-and-classic",
       "discoveredAt": "2026-09-10T20:56:37Z",
-      "status": "verification-pending",
+      "status": "rejected",
       "note": "Rechecked 17 Sep 2026: a fresh Car & Classic index still explicitly marks KR52ZTT For Sale at £50,000, 46,637 miles, 2003, UK-located and six-speed manual. The actual advert remains accessible with seller contact and a 27-image gallery. The seller's own website is access-challenged in this worker path and the exact gallery was not fully visually re-inspected, so this candidate check does not refresh the publication checkedAt timestamp.",
-      "lastCheckedAt": "2026-09-17T03:15:40Z",
-      "vehicleIdentity": "2003 BMW M5 E39 | KR52ZTT | £50,000 | 46,637 miles | LHD"
+      "lastCheckedAt": "2026-09-24T04:48:25Z",
+      "vehicleIdentity": "2003 BMW M5 E39 | KR52ZTT | £50,000 | 46,637 miles | LHD | allAstonMartin.com"
     },
     {
       "modelId": "model-041",
@@ -1649,10 +1649,26 @@
       "url": "https://www.carandclassic.com/car/C2060885",
       "source": "car-and-classic",
       "discoveredAt": "2026-09-12T10:19:44Z",
-      "lastCheckedAt": "2026-09-22T18:45:21Z",
-      "status": "verification-pending",
+      "lastCheckedAt": "2026-09-24T04:48:25Z",
+      "status": "verified",
       "note": "Rechecked 22 Sep 2026 on the exact Car & Classic advert. It is currently For Sale at £50,000 with active dealer Message/Call controls, 46,637 miles, 2003 registration KR52ZTT, six-speed manual, UK location in Mogador, Surrey, and 27 seller images; the advert was listed 18 Sep 2026. It fits the configured model-097 year, price and 50,000-mile rules. It is left-hand drive and US-supplied originally. Exact gallery pixels were not inspected strongly enough in this run to complete the mandatory unavailable-overlay/manual-control visual gate, so keep verification-pending rather than republishing or alerting.",
-      "vehicleIdentity": "2003 BMW E39 M5 | KR52ZTT | 46,637 miles | £50,000 | allAstonMartin.com"
+      "vehicleIdentity": "2003 BMW M5 E39 | KR52ZTT | £50,000 | 46,637 miles | LHD | allAstonMartin.com",
+      "checkedAt": "2026-09-24T04:48:25Z",
+      "year": 2003,
+      "price": 50000,
+      "mileage": 46637,
+      "seller": "allAstonMartin.com",
+      "location": "Mogador, Surrey, United Kingdom",
+      "gearbox": "6-speed manual",
+      "evidence": "Rechecked 24 Sep 2026 on the exact Car & Classic advert and the dealer's current Car & Classic inventory. KR52ZTT is explicitly For Sale at £50,000, 46,637 miles, 2003, E39 M5, six-speed manual, with the UK dealer showing eight live listings and this exact BMW among them. The advert has active Message/Call controls and no removed/unavailable notice.",
+      "photoEvidence": "Exact current seller-gallery frames were visually inspected, including exterior, cabin and driver-control views. No SOLD, RESERVED, DEPOSIT TAKEN or UNDER OFFER overlay is visible. The cabin images clearly show a conventional manual gear lever and three pedals, consistent with the advertised factory six-speed manual.",
+      "verificationLimitation": "Hard current-availability, price, mileage, UK-location and manual-photo gates are cleared. The accessible advert does not provide enough ownership/service-history detail to make an exceptional best-of-class editorial case, and it is LHD, so it is not promoted to the public feed in this run.",
+      "images": [
+        "https://assets.carandclassic.com/uploads/cars/bmw/C2060885/2003-bmw-m5-69f46033475dd.jpg?fit=fillmax&h=800&ixlib=php-4.1.0&q=85&s=7b530b998a67377fe39a6a47f171a559&w=800",
+        "https://assets.carandclassic.com/uploads/cars/bmw/C2060885/2003-bmw-m5-69f460334aff9.jpg?fit=fillmax&h=500&ixlib=php-4.1.0&q=85&s=8497eb39dc097d60d86827dab44ee056&w=500",
+        "https://assets.carandclassic.com/uploads/cars/bmw/C2060885/2003-bmw-m5-69f460334b8e5.jpg?fit=fillmax&h=800&ixlib=php-4.1.0&q=85&s=3cacf3a56225ebed082bbd64fc86e303&w=800",
+        "https://assets.carandclassic.com/uploads/cars/bmw/C2060885/2003-bmw-m5-69f460334c1b8.jpg?fit=fillmax&h=500&ixlib=php-4.1.0&q=85&s=f69da63ad0f9cfa1ea49625d84c27b8c&w=500"
+      ]
     },
     {
       "modelId": "model-037",
