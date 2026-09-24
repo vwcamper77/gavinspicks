@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-24T04:48:25Z",
+  "updatedAt": "2026-09-24T05:47:36Z",
   "candidates": [
     {
       "modelId": "model-056",
@@ -1914,10 +1914,12 @@
       "url": "https://www.bonnevilles.co.uk/used-bmw-1-series-reading-berkshire-8187315",
       "source": "specialist-dealers",
       "discoveredAt": "2026-09-12T21:04:59Z",
-      "status": "verification-pending",
-      "note": "Rechecked 14 Sep 2026: current Car & Classic cross-post C2178679 is explicitly For Sale at £47,995 for LJ11EZV, 47,000 miles, RHD, six-speed manual, dealer stock in Berkshire, and states two owners from new. The exact Bonnevilles seller URL was not fetchable by the worker and the 48-photo gallery assets could not be visually inspected for manual controls/status overlays. Keep verification-pending; do not publish until seller-page/photo verification and service-history evidence are strong enough.",
-      "lastCheckedAt": "2026-09-14T18:56:10Z",
-      "vehicleIdentity": "2011 BMW 1M Coupe LJ11EZV | Black Sapphire | £47,995 | 47,000 miles | 6-speed manual | Bonnevilles"
+      "status": "unavailable",
+      "note": "Rechecked 24 Sep 2026 against the originating seller, which is the highest-authority source. The former exact Bonnevilles LJ11EZV advert now redirects to Bonnevilles' current BMW inventory; that inventory contains one BMW, a 2024 M3 Touring at £69,995, and no 1M/LJ11EZV. Car & Classic cross-post C2178679 still presents the 2011 1M as For Sale at £47,995 / 47,000 miles, but that syndicated advert conflicts with the seller's current inventory. Mark unavailable under the hard current-availability rule; do not infer that it was sold.",
+      "lastCheckedAt": "2026-09-24T05:47:36Z",
+      "vehicleIdentity": "2011 BMW 1M Coupe LJ11EZV | Black Sapphire | £47,995 | 47,000 miles | 6-speed manual | Bonnevilles",
+      "evidence": "Former exact seller URL redirects to Bonnevilles current BMW stock, which lists only a 2024 BMW M3 Touring and no LJ11EZV/1M. Car & Classic C2178679 still shows For Sale, but seller-direct current inventory takes precedence.",
+      "verificationLimitation": "Unavailable by originating-seller inventory evidence; sale outcome itself is unknown."
     },
     {
       "modelId": "model-054",
@@ -3872,10 +3874,12 @@
       "modelId": "model-072",
       "url": "https://www.carandclassic.com/car/C2178679",
       "source": "car-and-classic",
-      "status": "verification-pending",
-      "lastCheckedAt": "2026-09-22T14:31:21Z",
+      "status": "unavailable",
+      "lastCheckedAt": "2026-09-24T05:47:36Z",
       "vehicleIdentity": "2011 BMW 1M Coupe LJ11EZV | Black Sapphire | £47,995 | 47,000 miles | 6-speed manual | Bonnevilles",
-      "note": "Rechecked 22 Sep 2026 on the exact Car & Classic advert. It remains explicitly For Sale at £47,995, 47,000 miles, six-speed manual, registration LJ11EZV, UK dealer Bonnevilles of Berkshire, with two owners from new and a 48-photo gallery. The price is within the model-072 target band and current advert controls are present. Exact gallery pixels were not fully inspected for unavailable overlays/manual-control evidence in this run, and the seller-direct vehicle-detail page was not independently recovered, so keep verification-pending and do not publish."
+      "note": "Rechecked 22 Sep 2026 on the exact Car & Classic advert. It remains explicitly For Sale at £47,995, 47,000 miles, six-speed manual, registration LJ11EZV, UK dealer Bonnevilles of Berkshire, with two owners from new and a 48-photo gallery. The price is within the model-072 target band and current advert controls are present. Exact gallery pixels were not fully inspected for unavailable overlays/manual-control evidence in this run, and the seller-direct vehicle-detail page was not independently recovered, so keep verification-pending and do not publish.",
+      "evidence": "Car & Classic still displays C2178679 as For Sale, but the originating seller's current BMW inventory does not contain LJ11EZV/1M. Seller-direct evidence controls.",
+      "verificationLimitation": "Syndicated advert conflicts with originating seller inventory; marked unavailable without assuming sold."
     },
     {
       "modelId": "model-081",
