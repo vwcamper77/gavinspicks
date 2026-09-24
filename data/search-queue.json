@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-24T01:24:06.610Z",
+  "generatedAt": "2026-09-24T01:38:48.624Z",
   "modelCount": 96,
   "sourceCount": 13,
   "jobCount": 1482,
@@ -64,12 +64,10 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-22T12:53:47Z",
-      "lastResultCount": 1,
-      "candidateUrls": [
-        "https://www.ebay.co.uk/itm/287369281332"
-      ],
-      "limitation": "One plausible current direct eBay advert survived for the 2004 SN54EFF manual Spider at £74,989; the vehicle is already tracked and remains verification-pending."
+      "lastSearchedAt": "2026-09-24T01:25:05Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "Search results were parts, manuals or non-vehicle material rather than a current qualifying Ferrari 360 manual car advert."
     },
     {
       "id": "model-001:autotrader:ferrari-360-modena-spider-manual",
@@ -83,10 +81,10 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-22T12:53:47Z",
+      "lastSearchedAt": "2026-09-24T01:25:05Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Auto Trader returned generic/category inventory pages rather than direct car-details URLs; generic pages were excluded even where matching manual cars appeared."
+      "limitation": "No direct current qualifying Auto Trader Ferrari 360 manual car-details URL survived; generic inventory pages were excluded."
     },
     {
       "id": "model-001:pistonheads:ferrari-360-modena-spider-manual",
@@ -100,13 +98,12 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-22T12:53:47Z",
-      "lastResultCount": 2,
+      "lastSearchedAt": "2026-09-24T01:25:05Z",
+      "lastResultCount": 1,
       "candidateUrls": [
-        "https://www.pistonheads.com/buy/listing/21068900",
         "https://www.pistonheads.com/buy/listing/19670930"
       ],
-      "limitation": "Two current direct qualifying manual 360 adverts survived. Other results were no-longer-available, SOLD/deposit-taken, below the configured £70,000 minimum, POA, or gearbox-ambiguous/F1 and were excluded."
+      "limitation": "One current qualifying-price actual advert survived: Junction 21 Motors' 2003 360 Spider manual at £79,999 / 25,360 miles. Three other gated-manual 360 adverts checked were explicitly no longer available and were rejected."
     },
     {
       "id": "model-001:car-and-classic:ferrari-360-modena-spider-manual",
@@ -120,12 +117,10 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-22T12:53:47Z",
-      "lastResultCount": 1,
-      "candidateUrls": [
-        "https://www.carandclassic.com/car/C2178925"
-      ],
-      "limitation": "One current direct qualifying advert survived: Godins 2001 Ferrari 360 Spider manual at £84,995 / 38,000 miles. A second Car & Classic cross-post (C2086119) was rejected because the actual seller Car Barn marks that exact car SOLD."
+      "lastSearchedAt": "2026-09-24T01:25:05Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "No new current qualifying direct Car & Classic Ferrari 360 manual advert survived stale/sold/price/specification filtering in this run."
     },
     {
       "id": "model-001:collecting-cars:ferrari-360-modena-spider-manual",
@@ -190,7 +185,7 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-22T12:53:47Z",
+      "lastSearchedAt": "2026-09-24T01:25:05Z",
       "lastResultCount": 0,
       "candidateUrls": [],
       "limitation": "No current qualifying direct Gumtree Ferrari 360 manual advert survived the search."
@@ -207,10 +202,10 @@
       "priority": false,
       "cadenceHours": 24,
       "status": "searched",
-      "lastSearchedAt": "2026-09-21T18:55:58Z",
+      "lastSearchedAt": "2026-09-24T01:25:05Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public web query executed; no direct current qualifying 911UK Ferrari 360 manual advert survived filtering."
+      "limitation": "Public search returned no direct current qualifying 911UK Ferrari 360 manual advert; forum discussion and historical results were excluded."
     },
     {
       "id": "model-001:ferrarichat:ferrari-360-modena-spider-manual",
@@ -258,12 +253,10 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-22T12:53:47Z",
-      "lastResultCount": 1,
-      "candidateUrls": [
-        "https://simonfurlonger.co.uk/car/360-spider-manual/"
-      ],
-      "limitation": "Simon Furlonger's direct seller page remains a plausible current qualifying 360 Spider manual advert. Other specialist results were SOLD/reserved/unavailable or out of rule."
+      "lastSearchedAt": "2026-09-24T01:25:05Z",
+      "lastResultCount": 0,
+      "candidateUrls": [],
+      "limitation": "No new qualifying seller-direct 360 manual advert survived. The previously tracked Platinum Autos exact URL now resolves to an inventory with no Ferrari stock, so it was not treated as a current candidate."
     },
     {
       "id": "model-002:facebook-groups:ferrari-f355-manual",
@@ -430,10 +423,10 @@
       "priority": false,
       "cadenceHours": 24,
       "status": "searched",
-      "lastSearchedAt": "2026-09-21T18:55:58Z",
+      "lastSearchedAt": "2026-09-24T01:25:05Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public web query executed; no direct current qualifying 911UK F355 manual advert survived filtering."
+      "limitation": "Public search returned no direct current qualifying 911UK Ferrari F355 manual advert."
     },
     {
       "id": "model-002:ferrarichat:ferrari-f355-manual",
@@ -2453,10 +2446,10 @@
       "priority": false,
       "cadenceHours": 24,
       "status": "searched",
-      "lastSearchedAt": "2026-09-21T18:55:58Z",
+      "lastSearchedAt": "2026-09-24T01:25:05Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public web query executed; no accessible direct current UK Esprit V8/V8 GT sale advert survived filtering."
+      "limitation": "Public indexing returned no current actual Lotus Esprit V8/V8 GT for-sale advert meeting the target rules."
     },
     {
       "id": "model-011:lamborghini-talk:lotus-esprit-v8-v8-gt",
@@ -2470,10 +2463,10 @@
       "priority": false,
       "cadenceHours": 24,
       "status": "blocked",
-      "lastSearchedAt": "2026-09-21T18:55:58Z",
+      "lastSearchedAt": "2026-09-24T01:25:05Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public search was blocked by lamborghini-talk.com robots/access controls; no bypass was attempted."
+      "limitation": "Public retrieval was blocked by robots/access controls; no bypass attempted."
     },
     {
       "id": "model-011:specialist-dealers:lotus-esprit-v8-v8-gt",
@@ -2504,10 +2497,10 @@
       "priority": false,
       "cadenceHours": 24,
       "status": "searched",
-      "lastSearchedAt": "2026-09-21T18:55:58Z",
+      "lastSearchedAt": "2026-09-24T01:25:05Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public indexed Facebook-group query executed; no accessible current advert URL surfaced. No specific Facebook group URLs are configured."
+      "limitation": "Publicly indexed Facebook results did not establish a current actual qualifying UK Viper advert."
     },
     {
       "id": "model-012:ebay:dodge-viper-rt-10-gts-srt-10",
@@ -2661,10 +2654,10 @@
       "priority": false,
       "cadenceHours": 24,
       "status": "searched",
-      "lastSearchedAt": "2026-09-21T18:55:58Z",
+      "lastSearchedAt": "2026-09-24T01:25:05Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public web query executed; no direct current qualifying UK Viper advert survived filtering."
+      "limitation": "Public search returned no direct current qualifying 911UK Dodge Viper advert."
     },
     {
       "id": "model-012:ferrarichat:dodge-viper-rt-10-gts-srt-10",
@@ -2678,10 +2671,10 @@
       "priority": false,
       "cadenceHours": 24,
       "status": "searched",
-      "lastSearchedAt": "2026-09-21T18:55:58Z",
+      "lastSearchedAt": "2026-09-24T01:25:05Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public web query executed; no accessible direct current UK Viper sale advert survived filtering."
+      "limitation": "Public indexing returned no current actual UK Viper for-sale advert meeting the target rules."
     },
     {
       "id": "model-012:lamborghini-talk:dodge-viper-rt-10-gts-srt-10",
@@ -2695,10 +2688,10 @@
       "priority": false,
       "cadenceHours": 24,
       "status": "blocked",
-      "lastSearchedAt": "2026-09-21T18:55:58Z",
+      "lastSearchedAt": "2026-09-24T01:25:05Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public search was blocked by lamborghini-talk.com robots/access controls; no bypass was attempted."
+      "limitation": "Public retrieval was blocked by robots/access controls; no bypass attempted."
     },
     {
       "id": "model-012:specialist-dealers:dodge-viper-rt-10-gts-srt-10",
@@ -4075,10 +4068,10 @@
       "priority": false,
       "cadenceHours": 24,
       "status": "searched",
-      "lastSearchedAt": "2026-09-21T18:55:58Z",
+      "lastSearchedAt": "2026-09-24T01:25:05Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public indexed Facebook-group query executed; no accessible current advert URL surfaced. No specific Facebook group URLs are configured."
+      "limitation": "Publicly indexed Facebook results did not establish a current actual qualifying Tamora advert."
     },
     {
       "id": "model-019:ebay:tvr-tamora",
@@ -4232,10 +4225,10 @@
       "priority": false,
       "cadenceHours": 24,
       "status": "searched",
-      "lastSearchedAt": "2026-09-21T18:55:58Z",
+      "lastSearchedAt": "2026-09-24T01:25:05Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public web query executed; no direct current qualifying 911UK TVR Tamora advert survived filtering."
+      "limitation": "Public search returned no direct current qualifying 911UK TVR Tamora advert."
     },
     {
       "id": "model-019:ferrarichat:tvr-tamora",
@@ -4249,10 +4242,10 @@
       "priority": false,
       "cadenceHours": 24,
       "status": "searched",
-      "lastSearchedAt": "2026-09-21T18:55:58Z",
+      "lastSearchedAt": "2026-09-24T01:25:05Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public web query executed; no accessible direct current UK TVR Tamora sale advert survived filtering."
+      "limitation": "Public indexing returned no current actual TVR Tamora for-sale advert meeting the target rules."
     },
     {
       "id": "model-019:lamborghini-talk:tvr-tamora",
@@ -4266,10 +4259,10 @@
       "priority": false,
       "cadenceHours": 24,
       "status": "blocked",
-      "lastSearchedAt": "2026-09-21T18:55:58Z",
+      "lastSearchedAt": "2026-09-24T01:25:05Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public search was blocked by lamborghini-talk.com robots/access controls; no bypass was attempted."
+      "limitation": "Public retrieval was blocked by robots/access controls; no bypass attempted."
     },
     {
       "id": "model-019:specialist-dealers:tvr-tamora",
@@ -4300,10 +4293,10 @@
       "priority": false,
       "cadenceHours": 24,
       "status": "searched",
-      "lastSearchedAt": "2026-09-21T18:55:58Z",
+      "lastSearchedAt": "2026-09-24T01:25:05Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public indexed Facebook-group query executed; no accessible current advert URL surfaced. No specific Facebook group URLs are configured."
+      "limitation": "Publicly indexed Facebook results did not establish a current actual qualifying Esprit S4s advert."
     },
     {
       "id": "model-020:ebay:lotus-esprit-s4s",
@@ -4453,10 +4446,10 @@
       "priority": false,
       "cadenceHours": 24,
       "status": "searched",
-      "lastSearchedAt": "2026-09-21T18:55:58Z",
+      "lastSearchedAt": "2026-09-24T01:25:05Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public web query executed; no direct current qualifying 911UK Lotus Esprit S4s advert survived filtering."
+      "limitation": "Public search returned no direct current qualifying 911UK Lotus Esprit S4s advert."
     },
     {
       "id": "model-020:ferrarichat:lotus-esprit-s4s",
@@ -12641,10 +12634,10 @@
       "priority": true,
       "cadenceHours": 3,
       "status": "searched",
-      "lastSearchedAt": "2026-09-23T17:49:26Z",
+      "lastSearchedAt": "2026-09-24T01:25:05Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search executed; no active qualifying UK Z4 M Coupe advert surfaced."
+      "limitation": "No active current Bonhams Z4 M Coupe lot with a qualifying fixed asking price survived filtering."
     },
     {
       "id": "model-056:classic-trader:bmw-z4-m-coupe",
@@ -14846,10 +14839,10 @@
       "priority": false,
       "cadenceHours": 12,
       "status": "searched",
-      "lastSearchedAt": "2026-09-22T07:04:19Z",
+      "lastSearchedAt": "2026-09-24T01:25:05Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Collecting Cars query executed; no live current F430 factory-manual auction or fixed-price advert qualified. Completed auctions were excluded."
+      "limitation": "A current manual F430 auction was above the £100,000 ceiling and was not a fixed-price advert; completed historical auctions were also excluded."
     },
     {
       "id": "model-066:bonhams-cars:ferrari-f430-factory-manual",
@@ -14863,10 +14856,10 @@
       "priority": false,
       "cadenceHours": 12,
       "status": "searched",
-      "lastSearchedAt": "2026-09-22T07:04:19Z",
+      "lastSearchedAt": "2026-09-24T01:25:05Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Bonhams Cars query executed; no live current UK F430 factory-manual lot with a qualifying fixed asking price survived filtering."
+      "limitation": "No active current Bonhams F430 factory-manual advert with a qualifying fixed asking price survived filtering."
     },
     {
       "id": "model-066:classic-trader:ferrari-f430-factory-manual",
@@ -14880,10 +14873,10 @@
       "priority": false,
       "cadenceHours": 12,
       "status": "searched",
-      "lastSearchedAt": "2026-09-22T07:04:19Z",
+      "lastSearchedAt": "2026-09-24T01:25:05Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Classic Trader query executed; no direct current UK Ferrari F430 factory-manual advert with a qualifying fixed ask survived filtering."
+      "limitation": "Results did not yield a current UK factory-manual F430 within the £100,000 ceiling; overseas/over-budget material was excluded."
     },
     {
       "id": "model-066:gumtree:ferrari-f430-factory-manual",
@@ -16300,10 +16293,10 @@
       "priority": true,
       "cadenceHours": 6,
       "status": "blocked",
-      "lastSearchedAt": "2026-09-23T14:11:19Z",
+      "lastSearchedAt": "2026-09-24T01:25:05Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public fetch/search access to LamborghiniTalk was blocked by robots.txt; no advert URLs could be verified from this source."
+      "limitation": "Public retrieval was blocked by robots/access controls; no bypass attempted."
     },
     {
       "id": "model-070:specialist-dealers:ford-focus-rs500",
@@ -16640,10 +16633,10 @@
       "priority": true,
       "cadenceHours": 3,
       "status": "searched",
-      "lastSearchedAt": "2026-09-23T17:49:26Z",
+      "lastSearchedAt": "2026-09-24T01:25:05Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No current UK qualifying BMW 1M advert survived; surfaced results were non-UK or completed auctions."
+      "limitation": "No current qualifying BMW 1M fixed-price advert surfaced; completed/historical auction material was excluded."
     },
     {
       "id": "model-072:bonhams-cars:bmw-1m-coupe-manual-45000-55000-full-service-history",
@@ -16657,10 +16650,10 @@
       "priority": true,
       "cadenceHours": 3,
       "status": "searched",
-      "lastSearchedAt": "2026-09-23T16:55:00Z",
+      "lastSearchedAt": "2026-09-24T01:25:05Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Bonhams Cars search executed; no active direct BMW 1M lot/advert within the configured £45k-£55k rule band survived. Completed/historical results excluded."
+      "limitation": "No active current Bonhams BMW 1M fixed-price advert in the configured £45,000–£55,000 band survived filtering."
     },
     {
       "id": "model-072:classic-trader:bmw-1m-coupe-manual-45000-55000-full-service-history",
@@ -16674,10 +16667,10 @@
       "priority": true,
       "cadenceHours": 3,
       "status": "searched",
-      "lastSearchedAt": "2026-09-23T17:49:26Z",
+      "lastSearchedAt": "2026-09-24T01:25:05Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No current UK qualifying BMW 1M advert survived; surfaced results were non-UK or completed auctions."
+      "limitation": "No current UK Classic Trader BMW 1M advert was established in the configured £45,000–£55,000 value band."
     },
     {
       "id": "model-072:gumtree:bmw-1m-coupe-manual-45000-55000-full-service-history",
@@ -17279,14 +17272,12 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-23T18:31:22Z",
-      "lastResultCount": 3,
+      "lastSearchedAt": "2026-09-24T01:25:05Z",
+      "lastResultCount": 1,
       "candidateUrls": [
-        "https://www.pistonheads.com/buy/listing/19212579",
-        "https://www.pistonheads.com/buy/listing/15472384",
-        "https://www.pistonheads.com/buy/listing/18518581"
+        "https://www.pistonheads.com/buy/listing/19212579"
       ],
-      "limitation": "Three direct PistonHeads Mk1 quattro Sport 240 manual adverts with fixed prices at or above the £10,000 floor appeared current. Explicitly unavailable examples and the £8,999 below-floor private advert were excluded. Full exact gallery/manual-control verification remains required."
+      "limitation": "One current direct TT quattro Sport advert survived. A £8,999 example was below the configured £10,000 floor, an older listing was explicitly unavailable, and weaker/non-qualifying results were excluded."
     },
     {
       "id": "model-075:car-and-classic:audi-tt-quattro-sport",
@@ -17317,10 +17308,10 @@
       "priority": true,
       "cadenceHours": 3,
       "status": "searched",
-      "lastSearchedAt": "2026-09-23T17:49:26Z",
+      "lastSearchedAt": "2026-09-24T01:25:05Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No current UK qualifying TT quattro Sport advert survived; surfaced results were non-UK or completed auctions."
+      "limitation": "No current purchasable TT quattro Sport advert survived; historical/completed auction pages were excluded."
     },
     {
       "id": "model-075:bonhams-cars:audi-tt-quattro-sport",
@@ -17334,10 +17325,10 @@
       "priority": true,
       "cadenceHours": 3,
       "status": "searched",
-      "lastSearchedAt": "2026-09-23T17:49:26Z",
+      "lastSearchedAt": "2026-09-24T01:25:05Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No current UK qualifying TT quattro Sport advert survived; surfaced results were non-UK or completed auctions."
+      "limitation": "No active current Bonhams TT quattro Sport advert with a qualifying fixed asking price survived filtering."
     },
     {
       "id": "model-075:classic-trader:audi-tt-quattro-sport",
@@ -17351,10 +17342,10 @@
       "priority": true,
       "cadenceHours": 3,
       "status": "searched",
-      "lastSearchedAt": "2026-09-23T17:49:26Z",
+      "lastSearchedAt": "2026-09-24T01:25:05Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No current UK qualifying TT quattro Sport advert survived; surfaced results were non-UK or completed auctions."
+      "limitation": "No current UK Classic Trader TT quattro Sport advert survived availability/specification filtering."
     },
     {
       "id": "model-075:gumtree:audi-tt-quattro-sport",
@@ -17368,10 +17359,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-23T18:31:22Z",
+      "lastSearchedAt": "2026-09-24T01:25:05Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Gumtree search returned ordinary later TT quattro Sport trim material rather than a genuine Mk1 quattro Sport 240 candidate; none retained."
+      "limitation": "No plausible current qualifying actual advert URL survived source, availability, price and specification filters."
     },
     {
       "id": "model-075:911uk:audi-tt-quattro-sport",
@@ -17436,10 +17427,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-23T18:31:22Z",
+      "lastSearchedAt": "2026-09-24T01:25:05Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Specialist search surfaced a Philip Raby TT quattro Sport at £8,995, below the configured £10,000 floor; no qualifying direct specialist advert was retained."
+      "limitation": "The current Snippersgate seller-direct page is the same OY06ZZL vehicle already retained through its PistonHeads advert, so it was not added twice; other seller-direct examples were below the £10,000 floor or non-qualifying."
     },
     {
       "id": "model-076:facebook-groups:ford-focus-st500",
@@ -17487,10 +17478,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-23T18:31:22Z",
+      "lastSearchedAt": "2026-09-24T01:25:05Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No direct current Auto Trader Focus ST500 car-details advert surfaced; generic inventory was excluded."
+      "limitation": "No direct current qualifying Auto Trader car-details advert survived; generic/category and stale material was excluded."
     },
     {
       "id": "model-076:pistonheads:ford-focus-st500",
@@ -17521,10 +17512,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-23T18:31:22Z",
+      "lastSearchedAt": "2026-09-24T01:25:05Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No direct current qualifying Car & Classic Focus ST500 advert surfaced."
+      "limitation": "Car & Classic results checked were removed, historical or otherwise not current purchasable ST500 adverts."
     },
     {
       "id": "model-076:collecting-cars:ford-focus-st500",
@@ -17555,10 +17546,10 @@
       "priority": true,
       "cadenceHours": 3,
       "status": "searched",
-      "lastSearchedAt": "2026-09-23T17:49:26Z",
+      "lastSearchedAt": "2026-09-24T01:25:05Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search executed; no direct current qualifying ST500 advert surfaced."
+      "limitation": "No active current Bonhams Focus ST500 advert with a qualifying fixed asking price survived filtering."
     },
     {
       "id": "model-076:classic-trader:ford-focus-st500",
@@ -17878,10 +17869,10 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-22T12:53:47Z",
+      "lastSearchedAt": "2026-09-24T01:25:05Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "A specialist ST170 result was explicitly SOLD; no current qualifying specialist advert survived."
+      "limitation": "No exceptional current seller-direct ST170 under 50,000 miles with sufficiently strong originality/provenance evidence surfaced."
     },
     {
       "id": "model-077:facebook-groups:ford-focus-st170-estate-under-50000-miles-low-owners",
@@ -18320,10 +18311,10 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-22T12:53:47Z",
+      "lastSearchedAt": "2026-09-24T01:25:05Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search surfaced non-specialist/ordinary stock and out-of-rule examples; no qualifying current specialist advert survived."
+      "limitation": "No exceptional current seller-direct ST225/ST2/ST3 under 50,000 miles with sufficiently strong originality/provenance evidence surfaced."
     },
     {
       "id": "model-078:facebook-groups:renault-clio-182-trophy",
@@ -18371,10 +18362,10 @@
       "priority": true,
       "cadenceHours": 1,
       "status": "searched",
-      "lastSearchedAt": "2026-09-23T18:31:22Z",
+      "lastSearchedAt": "2026-09-24T01:25:05Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No direct Auto Trader car-details advert was established for a Clio 182 Trophy under 30,000 miles and within the owner cap. Higher-mileage non-source results were excluded."
+      "limitation": "No direct current Clio 182 Trophy advert meeting the strict under-30,000-mile and maximum-two-total-owner rules was established."
     },
     {
       "id": "model-078:pistonheads:renault-clio-182-trophy",
@@ -18507,10 +18498,10 @@
       "priority": true,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-23T14:11:19Z",
+      "lastSearchedAt": "2026-09-24T01:25:05Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No plausible current advert URL meeting the exact Trophy search was returned."
+      "limitation": "Public indexing returned no current actual for-sale advert meeting the Trophy mileage and owner rules."
     },
     {
       "id": "model-078:lamborghini-talk:renault-clio-182-trophy",
@@ -18524,10 +18515,10 @@
       "priority": true,
       "cadenceHours": 6,
       "status": "blocked",
-      "lastSearchedAt": "2026-09-23T14:11:19Z",
+      "lastSearchedAt": "2026-09-24T01:25:05Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public fetch/search access to LamborghiniTalk was blocked by robots.txt; no advert URLs could be verified from this source."
+      "limitation": "Public retrieval was blocked by robots/access controls; no bypass attempted."
     },
     {
       "id": "model-078:specialist-dealers:renault-clio-182-trophy",
@@ -18575,10 +18566,10 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-22T12:53:47Z",
+      "lastSearchedAt": "2026-09-24T01:25:05Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No current direct eBay Williams 2 advert meeting the strict mileage/owner rules survived."
+      "limitation": "No current eBay Williams 2 vehicle advert meeting the strict mileage/owner rules survived; non-car and stale results were excluded."
     },
     {
       "id": "model-079:autotrader:renault-clio-williams-2",
@@ -18592,10 +18583,10 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-22T12:53:47Z",
+      "lastSearchedAt": "2026-09-24T01:25:05Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Auto Trader returned generic/category inventory pages rather than a qualifying direct car-details advert; generic pages were excluded."
+      "limitation": "No direct current Williams 2 advert meeting the strict under-30,000-mile and maximum-two-total-owner rules was established."
     },
     {
       "id": "model-079:pistonheads:renault-clio-williams-2",
@@ -18626,10 +18617,10 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-22T12:53:47Z",
+      "lastSearchedAt": "2026-09-24T01:25:05Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "A Williams 2 result had 35,000 miles and failed the strict under-30,000-mile rule; no qualifying direct advert remained."
+      "limitation": "No current purchasable Williams 2 advert meeting the mileage/owner limits survived; removed and stale adverts were excluded."
     },
     {
       "id": "model-079:collecting-cars:renault-clio-williams-2",
@@ -18813,10 +18804,10 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-22T12:53:47Z",
+      "lastSearchedAt": "2026-09-24T01:25:05Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Auto Trader returned generic/category inventory pages rather than a qualifying direct car-details advert; generic pages were excluded."
+      "limitation": "No direct current Williams 3 advert meeting the strict under-30,000-mile and maximum-two-total-owner rules was established."
     },
     {
       "id": "model-079:pistonheads:renault-clio-williams-3",
@@ -18847,10 +18838,10 @@
       "priority": false,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-22T12:53:47Z",
+      "lastSearchedAt": "2026-09-24T01:25:05Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No current direct Williams 3 advert meeting the strict mileage/owner rules was found."
+      "limitation": "No current purchasable Williams 3 advert meeting the mileage/owner limits survived; removed and stale adverts were excluded."
     },
     {
       "id": "model-079:collecting-cars:renault-clio-williams-3",
@@ -20107,10 +20098,10 @@
       "priority": true,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-23T14:11:19Z",
+      "lastSearchedAt": "2026-09-24T01:25:05Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No publicly indexed current advert URL meeting the P1, sub-30k-mile and ownership constraints was returned."
+      "limitation": "Publicly indexed Facebook results did not establish a current actual P1 advert meeting the target rules."
     },
     {
       "id": "model-082:ebay:subaru-impreza-p1",
@@ -20260,10 +20251,10 @@
       "priority": true,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-23T14:11:19Z",
+      "lastSearchedAt": "2026-09-24T01:25:05Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No plausible current advert URL meeting the P1, sub-30k-mile and ownership constraints was returned."
+      "limitation": "No current actual P1 advert meeting the strict under-30,000-mile and maximum-two-total-owner rules surfaced on 911UK."
     },
     {
       "id": "model-082:ferrarichat:subaru-impreza-p1",
@@ -20277,10 +20268,10 @@
       "priority": true,
       "cadenceHours": 6,
       "status": "searched",
-      "lastSearchedAt": "2026-09-23T14:11:19Z",
+      "lastSearchedAt": "2026-09-24T01:25:05Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No plausible current advert URL meeting the P1, sub-30k-mile and ownership constraints was returned."
+      "limitation": "Public indexing returned no current actual P1 for-sale advert meeting the target rules."
     },
     {
       "id": "model-082:lamborghini-talk:subaru-impreza-p1",
