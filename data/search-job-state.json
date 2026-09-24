@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-24T02:58:10Z",
+  "updatedAt": "2026-09-24T03:33:40Z",
   "compactedFromQueueAt": "2026-09-10T06:41:54.207Z",
   "note": "Cumulative worker-write state. Job results are merged from immutable run deltas and folded back into data/search-queue.json by scripts/build-search-queue.mjs.",
   "jobs": {
@@ -374,10 +374,10 @@
     },
     "model-005:specialist-dealers:lamborghini-gallardo-5-0-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-22T13:40:51Z",
+      "lastSearchedAt": "2026-09-24T03:33:40Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Dealer results were unavailable/retained old adverts or priced above the £100,000 hard ceiling; no qualifying current factory-manual Gallardo was retained."
+      "limitation": "A Gallardo gated-manual result surfaced, but the exact Car & Classic advert explicitly says it has been removed through sale or otherwise; no current seller-direct qualifying candidate was retained."
     },
     "model-070:lamborghini-talk:ford-focus-rs500": {
       "status": "blocked",
@@ -479,17 +479,17 @@
     },
     "model-096:autotrader:bmw-e46-m3-manual-coupe-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-23T20:18:07Z",
+      "lastSearchedAt": "2026-09-24T03:33:40Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Auto Trader query executed. No direct current car-details advert was established for a 2000-2006 factory-manual E46 M3 Coupe at or below 50,000 miles; generic pages were excluded."
+      "limitation": "No direct current qualifying Auto Trader car-details advert surfaced for a factory-manual E46 M3 Coupe within 50,000 miles; generic and irrelevant results were excluded."
     },
     "model-096:autotrader:bmw-m3-e46-6-speed-manual-coupe-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-23T20:18:07Z",
+      "lastSearchedAt": "2026-09-24T03:33:40Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Auto Trader query executed. No direct current car-details advert was established for a 2000-2006 factory-manual E46 M3 Coupe at or below 50,000 miles; generic pages were excluded."
+      "limitation": "No direct current qualifying Auto Trader car-details advert surfaced for a factory six-speed manual E46 M3 Coupe within 50,000 miles; generic and irrelevant results were excluded."
     },
     "model-096:bonhams-cars:bmw-e46-m3-manual-coupe-uk": {
       "status": "searched",
@@ -507,17 +507,17 @@
     },
     "model-096:car-and-classic:bmw-e46-m3-manual-coupe-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-23T20:18:07Z",
+      "lastSearchedAt": "2026-09-24T03:33:40Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Car & Classic query executed. Surfaced direct adverts were over 50,000 miles, removed/unavailable, convertibles, or manual conversions; none met the factory-manual Coupe rule."
+      "limitation": "Car & Classic E46 M3 manual results were over 50,000 miles, manual conversions, convertibles/track stock, or explicitly removed; no qualifying current candidate was retained."
     },
     "model-096:car-and-classic:bmw-m3-e46-6-speed-manual-coupe-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-23T20:18:07Z",
+      "lastSearchedAt": "2026-09-24T03:33:40Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Car & Classic query executed. Surfaced direct adverts were over 50,000 miles, removed/unavailable, convertibles, or manual conversions; none met the factory-manual Coupe rule."
+      "limitation": "Car & Classic E46 M3 six-speed manual results were over 50,000 miles, manual conversions, convertibles/track stock, or explicitly removed; no qualifying current candidate was retained."
     },
     "model-019:911uk:tvr-tamora": {
       "status": "searched",
@@ -763,10 +763,10 @@
     },
     "model-096:ebay:bmw-e46-m3-manual-coupe-uk": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-23T20:18:07Z",
+      "lastSearchedAt": "2026-09-24T03:33:40Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "eBay UK query executed. No direct current qualifying 2000-2006 factory-manual E46 M3 Coupe at or below 50,000 miles was retained."
+      "limitation": "Search returned non-M3 cars, parts, or ended material; no qualifying current factory-manual E46 M3 Coupe at or below 50,000 miles was retained."
     },
     "model-096:ebay:bmw-m3-e46-6-speed-manual-coupe-uk": {
       "status": "searched",
@@ -1222,10 +1222,10 @@
     },
     "model-078:bonhams-cars:renault-clio-182-trophy": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-23T18:31:22Z",
+      "lastSearchedAt": "2026-09-24T03:33:40Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public Bonhams search returned no direct current qualifying Clio 182 Trophy advert under 30,000 miles and within the owner cap; historical/non-direct results were excluded."
+      "limitation": "No active current Bonhams Clio 182 Trophy lot satisfying under 30,000 miles, no more than two total owners, and a qualifying fixed price surfaced."
     },
     "model-013:facebook-groups:tvr-sagaris": {
       "status": "searched",
@@ -1848,10 +1848,10 @@
     },
     "model-070:classic-trader:ford-focus-rs-mk1": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-23T18:31:22Z",
+      "lastSearchedAt": "2026-09-24T03:33:40Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No direct current Classic Trader Focus RS Mk1 advert surfaced in this source-specific search."
+      "limitation": "No new current direct Classic Trader Ford Focus RS Mk1 advert survived the current-advert and exceptional-example filters."
     },
     "model-070:classic-trader:ford-focus-rs-mk2": {
       "status": "searched",
@@ -2158,17 +2158,17 @@
     },
     "model-082:gumtree:subaru-impreza-p1": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-23T20:18:07Z",
+      "lastSearchedAt": "2026-09-24T03:33:40Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Gumtree query executed. A surfaced P1 auction/lot lead was around 40,180 miles and lacked a qualifying fixed asking price, so it was excluded."
+      "limitation": "Search executed. The only P1 vehicle result surfaced was an auction-estimate advert at 40,180 miles; it is over the strict mileage cap and not a qualifying fixed-price current advert."
     },
     "model-082:pistonheads:subaru-impreza-p1": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-23T20:18:07Z",
+      "lastSearchedAt": "2026-09-24T03:33:40Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "PistonHeads query executed. Direct P1 adverts surfaced at about 41k-68k miles or were explicitly unavailable; all fail the strict under-30,000-mile rule."
+      "limitation": "Current P1 results were 62,000–72,043 miles and/or explicitly unavailable; all fail the strict under-30,000-mile rule."
     },
     "model-082:specialist-dealers:subaru-impreza-p1": {
       "status": "searched",
@@ -2538,31 +2538,31 @@
     },
     "model-082:classic-trader:subaru-impreza-p1": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-23T18:31:22Z",
+      "lastSearchedAt": "2026-09-24T03:33:40Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No direct current Classic Trader Subaru Impreza P1 advert meeting the under-30,000-mile and owner rules surfaced."
+      "limitation": "No current Classic Trader Subaru Impreza P1 advert satisfying the strict under-30,000-mile and maximum-two-total-owner rules surfaced."
     },
     "model-082:collecting-cars:subaru-impreza-p1": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-23T18:31:22Z",
+      "lastSearchedAt": "2026-09-24T03:33:40Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "The surfaced Collecting Cars P1 page was a completed 2024 auction at 52,029 miles, so it was rejected as historical and over the configured mileage cap."
+      "limitation": "No active current qualifying Collecting Cars Subaru Impreza P1 advert satisfied the strict mileage/ownership rules; completed auction material was excluded."
     },
     "model-085:bonhams-cars:subaru-impreza-rb320": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-23T18:31:22Z",
+      "lastSearchedAt": "2026-09-24T03:33:40Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No direct current Bonhams RB320 advert meeting the watch rules surfaced."
+      "limitation": "No active current Bonhams Subaru Impreza RB320 lot satisfied the strict under-30,000-mile, maximum-two-total-owner and fixed-price rules."
     },
     "model-085:collecting-cars:subaru-impreza-rb320": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-23T18:31:22Z",
+      "lastSearchedAt": "2026-09-24T03:33:40Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No active current Collecting Cars RB320 lot meeting the watch rules surfaced; completed/historical material was excluded."
+      "limitation": "No active current qualifying Collecting Cars Subaru Impreza RB320 advert satisfied the strict mileage/ownership rules; completed auction material was excluded."
     },
     "model-075:autotrader:audi-tt-quattro-sport": {
       "status": "searched",
@@ -2907,17 +2907,17 @@
     },
     "model-056:classic-trader:bmw-z4-m-coupe": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-23T18:31:22Z",
+      "lastSearchedAt": "2026-09-24T03:33:40Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No direct current Classic Trader BMW Z4 M Coupe advert surfaced in this source-specific search."
+      "limitation": "No direct current qualifying UK Classic Trader BMW Z4 M Coupe advert surfaced."
     },
     "model-056:collecting-cars:bmw-z4-m-coupe": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-23T18:31:22Z",
+      "lastSearchedAt": "2026-09-24T03:33:40Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No active current Collecting Cars Z4 M Coupe lot surfaced; completed/historical pages were excluded."
+      "limitation": "No active current fixed-price qualifying Collecting Cars BMW Z4 M Coupe advert surfaced; historical/completed auction material was excluded."
     },
     "model-070:bonhams-cars:ford-focus-rs-mk1": {
       "status": "searched",
@@ -3165,11 +3165,11 @@
       "limitation": "Public indexing returned no current actual P1 for-sale advert meeting the target rules."
     },
     "model-082:lamborghini-talk:subaru-impreza-p1": {
-      "status": "blocked",
-      "lastSearchedAt": "2026-09-23T15:46:24Z",
+      "status": "searched",
+      "lastSearchedAt": "2026-09-24T03:33:40Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Public retrieval was blocked by robots/access controls for LamborghiniTalk; no bypass attempted."
+      "limitation": "Public search returned no direct current qualifying LamborghiniTalk Subaru Impreza P1 advert; no access-control bypass was attempted."
     },
     "model-085:facebook-groups:subaru-impreza-rb320": {
       "status": "searched",
@@ -3201,17 +3201,17 @@
     },
     "model-085:classic-trader:subaru-impreza-rb320": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-23T18:31:22Z",
+      "lastSearchedAt": "2026-09-24T03:33:40Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No direct current Classic Trader RB320 advert meeting the watch rules surfaced."
+      "limitation": "No current qualifying UK Classic Trader Subaru Impreza RB320 advert satisfied the strict mileage and ownership rules."
     },
     "model-088:bonhams-cars:mitsubishi-evo-vi-tommi-makinen-edition": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-23T18:31:22Z",
+      "lastSearchedAt": "2026-09-24T03:33:40Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No direct current Bonhams Evo VI Tommi Makinen Edition advert meeting the under-30,000-mile and owner rules surfaced."
+      "limitation": "No active current Bonhams Evo VI Tommi Makinen Edition lot satisfying the strict under-30,000-mile, maximum-two-total-owner and fixed-price rules surfaced."
     },
     "model-035:ferrarichat:lotus-europa-s-se": {
       "status": "searched",
@@ -3656,10 +3656,10 @@
     },
     "model-056:911uk:bmw-z4-m-coupe": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-23T15:46:24Z",
+      "lastSearchedAt": "2026-09-24T03:33:40Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search executed; no direct current qualifying 911UK BMW Z4 M Coupe sale advert survived filtering."
+      "limitation": "Public search returned no direct current qualifying 911UK BMW Z4 M Coupe advert; forum discussion, generic and historical results were excluded."
     },
     "model-056:facebook-groups:bmw-z4-m-coupe": {
       "status": "searched",
@@ -3670,10 +3670,10 @@
     },
     "model-056:ferrarichat:bmw-z4-m-coupe": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-23T15:46:24Z",
+      "lastSearchedAt": "2026-09-24T03:33:40Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Search executed; no direct current qualifying FerrariChat BMW Z4 M Coupe sale advert survived filtering."
+      "limitation": "Public search returned no direct current qualifying FerrariChat BMW Z4 M Coupe advert; discussion and historical results were excluded."
     },
     "model-056:lamborghini-talk:bmw-z4-m-coupe": {
       "status": "blocked",
@@ -6767,17 +6767,17 @@
     },
     "model-068:classic-trader:porsche-996-gt2": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-22T07:41:54Z",
+      "lastSearchedAt": "2026-09-24T03:33:40Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Classic Trader query executed. The surfaced 2002 car was a GT2 Evocation rather than a genuine 996 GT2 and was rejected; no qualifying direct current advert retained."
+      "limitation": "No current qualifying UK Classic Trader Porsche 996 GT2 direct advert surfaced."
     },
     "model-068:collecting-cars:porsche-996-gt2": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-22T07:41:54Z",
+      "lastSearchedAt": "2026-09-24T03:33:40Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Collecting Cars query executed; surfaced 996 GT2 pages were completed/historical sales, not active current adverts."
+      "limitation": "No active current qualifying Collecting Cars Porsche 996 GT2 advert surfaced; completed auction material was excluded."
     },
     "model-068:ebay:porsche-996-gt2": {
       "status": "searched",
@@ -6846,10 +6846,10 @@
     },
     "model-069:bonhams-cars:aston-martin-vanquish-vanquish-s-works-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-22T07:41:54Z",
+      "lastSearchedAt": "2026-09-24T03:33:40Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Bonhams Cars query executed; no current direct UK Vanquish with documented Aston Martin Works manual conversion and qualifying fixed ask was retained."
+      "limitation": "No active current Bonhams Vanquish/Vanquish S Works-manual lot with a qualifying fixed asking price surfaced."
     },
     "model-069:car-and-classic:aston-martin-vanquish-vanquish-s-works-manual": {
       "status": "searched",
@@ -6862,17 +6862,17 @@
     },
     "model-069:classic-trader:aston-martin-vanquish-vanquish-s-works-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-22T07:41:54Z",
+      "lastSearchedAt": "2026-09-24T03:33:40Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Classic Trader query executed. Listing 447344 remains £79,750 / 15,475 miles but is already verification-rejected: exact cabin photos do not evidence a conventional manual and the advert provides no documented Aston Martin Works manual conversion. Other surfaced cars were automatic/semi-automatic or non-UK."
+      "limitation": "No new direct current qualifying UK Classic Trader Vanquish/Vanquish S Works-manual advert surfaced."
     },
     "model-069:collecting-cars:aston-martin-vanquish-vanquish-s-works-manual": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-22T07:41:54Z",
+      "lastSearchedAt": "2026-09-24T03:33:40Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Collecting Cars query executed; no active current fixed-price UK Vanquish Works-manual advert was retained. Completed auction pages were rejected."
+      "limitation": "No active current qualifying Collecting Cars Vanquish/Vanquish S Works-manual advert surfaced; completed auction material was excluded."
     },
     "model-069:ebay:aston-martin-vanquish-vanquish-s-works-manual": {
       "status": "searched",
@@ -6943,10 +6943,10 @@
     },
     "model-071:bonhams-cars:bmw-m5-touring-e61-5-0-v10-smg": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-22T07:41:54Z",
+      "lastSearchedAt": "2026-09-24T03:33:40Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Bonhams Cars query executed; no current qualifying fixed-price BMW E61 M5 Touring 5.0 V10 SMG advert was retained."
+      "limitation": "No current qualifying Bonhams original E61 M5 Touring 5.0 V10 seven-speed SMG fixed-price lot surfaced."
     },
     "model-071:car-and-classic:bmw-m5-touring-e61-5-0-v10-smg": {
       "status": "searched",
@@ -6957,10 +6957,10 @@
     },
     "model-071:classic-trader:bmw-m5-touring-e61-5-0-v10-smg": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-22T07:41:54Z",
+      "lastSearchedAt": "2026-09-24T03:33:40Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Classic Trader query executed; no direct current UK E61 M5 Touring advert satisfying the exact Touring/V10/SMG identity gate was retained."
+      "limitation": "No current qualifying Classic Trader original E61 M5 Touring 5.0 V10 seven-speed SMG advert surfaced; manual conversions were excluded."
     },
     "model-071:collecting-cars:bmw-m5-touring-e61-5-0-v10-smg": {
       "status": "searched",
@@ -7576,10 +7576,10 @@
     },
     "model-079:ebay:renault-clio-williams-3": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-22T14:31:21Z",
+      "lastSearchedAt": "2026-09-24T03:33:40Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No current direct eBay vehicle advert meeting Williams 3, <30,000 miles and maximum-two-owner rules surfaced; non-vehicle/irrelevant results were rejected."
+      "limitation": "No qualifying current eBay Renault Clio Williams 3 advert satisfied the strict mileage/ownership rules; ended, parts and nonmatching results were excluded."
     },
     "model-079:facebook-groups:renault-clio-williams-2": {
       "status": "searched",
@@ -7611,17 +7611,17 @@
     },
     "model-079:gumtree:renault-clio-williams-2": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-22T13:40:51Z",
+      "lastSearchedAt": "2026-09-24T03:33:40Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No plausible current direct Renault Clio Williams 2 advert survived."
+      "limitation": "No direct current Gumtree Renault Clio Williams 2 advert satisfied the strict under-30,000-mile and maximum-two-total-owner rules."
     },
     "model-079:gumtree:renault-clio-williams-3": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-22T13:40:51Z",
+      "lastSearchedAt": "2026-09-24T03:33:40Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No plausible current direct Renault Clio Williams 3 advert survived."
+      "limitation": "No direct current Gumtree Renault Clio Williams 3 advert satisfied the strict under-30,000-mile and maximum-two-total-owner rules."
     },
     "model-079:lamborghini-talk:renault-clio-williams-2": {
       "status": "blocked",
@@ -7639,31 +7639,31 @@
     },
     "model-079:pistonheads:renault-clio-williams-2": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-22T13:40:51Z",
+      "lastSearchedAt": "2026-09-24T03:33:40Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No plausible current direct Renault Clio Williams 2 advert survived."
+      "limitation": "No direct current PistonHeads Renault Clio Williams 2 advert satisfied the strict under-30,000-mile and maximum-two-total-owner rules."
     },
     "model-079:pistonheads:renault-clio-williams-3": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-22T13:40:51Z",
+      "lastSearchedAt": "2026-09-24T03:33:40Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No plausible current direct Renault Clio Williams 3 advert survived."
+      "limitation": "No direct current PistonHeads Renault Clio Williams 3 advert satisfied the strict under-30,000-mile and maximum-two-total-owner rules."
     },
     "model-079:specialist-dealers:renault-clio-williams-2": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-22T13:40:51Z",
+      "lastSearchedAt": "2026-09-24T03:33:40Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No plausible current specialist-seller Renault Clio Williams 2 advert survived."
+      "limitation": "No seller-direct current Renault Clio Williams 2 candidate satisfying the strict low-mileage and low-ownership rules surfaced."
     },
     "model-079:specialist-dealers:renault-clio-williams-3": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-22T13:40:51Z",
+      "lastSearchedAt": "2026-09-24T03:33:40Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No plausible current specialist-seller Renault Clio Williams 3 advert survived."
+      "limitation": "No seller-direct current Renault Clio Williams 3 candidate satisfying the strict low-mileage and low-ownership rules surfaced."
     },
     "model-080:911uk:renault-clio-172-cup": {
       "status": "searched",
@@ -7688,24 +7688,24 @@
     },
     "model-080:autotrader:renault-clio-172-cup": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-22T14:31:21Z",
+      "lastSearchedAt": "2026-09-24T03:33:40Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No fresh direct Auto Trader car-details advert for a 172 Cup satisfying the strict <30,000-mile and maximum-two-owner rules surfaced."
+      "limitation": "No direct current qualifying Auto Trader Renault Clio 172 Cup car-details advert under 30,000 miles with no more than two total owners surfaced."
     },
     "model-080:autotrader:renault-clio-182-cup": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-22T14:31:21Z",
+      "lastSearchedAt": "2026-09-24T03:33:40Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No fresh direct Auto Trader car-details advert for a 182 Cup satisfying the strict <30,000-mile and maximum-two-owner rules surfaced."
+      "limitation": "No direct current qualifying Auto Trader Renault Clio 182 Cup car-details advert under 30,000 miles with no more than two total owners surfaced."
     },
     "model-080:autotrader:renault-clio-r27-f1-team": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-22T14:31:21Z",
+      "lastSearchedAt": "2026-09-24T03:33:40Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No fresh direct Auto Trader car-details advert for a R27 F1 Team satisfying the strict <30,000-mile and maximum-two-owner rules surfaced."
+      "limitation": "No direct current qualifying Auto Trader Renault Clio R27 F1 Team car-details advert under 30,000 miles with no more than two total owners surfaced."
     },
     "model-080:bonhams-cars:renault-clio-172-cup": {
       "status": "searched",
@@ -7730,24 +7730,24 @@
     },
     "model-080:car-and-classic:renault-clio-172-cup": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-22T14:31:21Z",
+      "lastSearchedAt": "2026-09-24T03:33:40Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Current/direct Car & Classic results surfaced for 172 Cup, but all visible candidates failed the strict <30,000-mile and/or maximum-two-owner rules, or were sold/deposit-taken; none retained."
+      "limitation": "Car & Classic 172 Cup results were 56,000–77,000 miles or removed/historical pages; no qualifying under-30,000-mile current advert was retained."
     },
     "model-080:car-and-classic:renault-clio-182-cup": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-22T14:31:21Z",
+      "lastSearchedAt": "2026-09-24T03:33:40Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Current/direct Car & Classic results surfaced for 182 Cup, but all visible candidates failed the strict <30,000-mile and/or maximum-two-owner rules, or were sold/deposit-taken; none retained."
+      "limitation": "Car & Classic 182 Cup results were over the strict mileage cap or sold/unavailable; no qualifying current advert was retained."
     },
     "model-080:car-and-classic:renault-clio-r27-f1-team": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-22T14:31:21Z",
+      "lastSearchedAt": "2026-09-24T03:33:40Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Current/direct Car & Classic results surfaced for R27 F1 Team, but all visible candidates failed the strict <30,000-mile and/or maximum-two-owner rules, or were sold/deposit-taken; none retained."
+      "limitation": "A current R27 advert surfaced at 44,500 miles, which fails the strict under-30,000-mile rule; no candidate was retained."
     },
     "model-080:classic-trader:renault-clio-172-cup": {
       "status": "searched",
@@ -7793,24 +7793,24 @@
     },
     "model-080:ebay:renault-clio-172-cup": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-22T14:31:21Z",
+      "lastSearchedAt": "2026-09-24T03:33:40Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No current direct eBay vehicle advert for a 172 Cup satisfying <30,000 miles and maximum two total owners surfaced; parts/merchandise/irrelevant results were rejected."
+      "limitation": "No qualifying current eBay Renault Clio 172 Cup advert satisfied the strict under-30,000-mile and maximum-two-total-owner rules; historical/sold/parts results were excluded."
     },
     "model-080:ebay:renault-clio-182-cup": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-22T14:31:21Z",
+      "lastSearchedAt": "2026-09-24T03:33:40Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No current direct eBay vehicle advert for a 182 Cup satisfying <30,000 miles and maximum two total owners surfaced; parts/merchandise/irrelevant results were rejected."
+      "limitation": "No qualifying current eBay Renault Clio 182 Cup advert satisfied the strict under-30,000-mile and maximum-two-total-owner rules; historical/sold/parts results were excluded."
     },
     "model-080:ebay:renault-clio-r27-f1-team": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-22T14:31:21Z",
+      "lastSearchedAt": "2026-09-24T03:33:40Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No current direct eBay vehicle advert for a R27 F1 Team satisfying <30,000 miles and maximum two total owners surfaced; parts/merchandise/irrelevant results were rejected."
+      "limitation": "No qualifying current eBay Renault Clio R27 F1 Team advert satisfied the strict under-30,000-mile and maximum-two-total-owner rules; historical/sold/parts results were excluded."
     },
     "model-080:facebook-groups:renault-clio-172-cup": {
       "status": "searched",
@@ -7856,24 +7856,24 @@
     },
     "model-080:gumtree:renault-clio-172-cup": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-22T14:31:21Z",
+      "lastSearchedAt": "2026-09-24T03:33:40Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No current direct Gumtree 172 Cup advert satisfying the strict <30,000-mile and maximum-two-owner rules surfaced."
+      "limitation": "No qualifying direct current Gumtree Renault Clio 172 Cup advert satisfied the strict under-30,000-mile and maximum-two-total-owner rules."
     },
     "model-080:gumtree:renault-clio-182-cup": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-22T14:31:21Z",
+      "lastSearchedAt": "2026-09-24T03:33:40Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No current direct Gumtree 182 Cup advert satisfying the strict <30,000-mile and maximum-two-owner rules surfaced."
+      "limitation": "No qualifying direct current Gumtree Renault Clio 182 Cup advert satisfied the strict under-30,000-mile and maximum-two-total-owner rules."
     },
     "model-080:gumtree:renault-clio-r27-f1-team": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-22T14:31:21Z",
+      "lastSearchedAt": "2026-09-24T03:33:40Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "No current direct Gumtree R27 F1 Team advert satisfying the strict <30,000-mile and maximum-two-owner rules surfaced."
+      "limitation": "No qualifying direct current Gumtree Renault Clio R27 F1 Team advert satisfied the strict under-30,000-mile and maximum-two-total-owner rules."
     },
     "model-080:lamborghini-talk:renault-clio-172-cup": {
       "status": "blocked",
@@ -7898,24 +7898,24 @@
     },
     "model-080:pistonheads:renault-clio-172-cup": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-22T14:31:21Z",
+      "lastSearchedAt": "2026-09-24T03:33:40Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Direct/current PistonHeads 172 Cup adverts surfaced, but visible cars were over the 30,000-mile cap and/or exceeded the owner cap or price floor; none retained."
+      "limitation": "No qualifying direct current PistonHeads Renault Clio 172 Cup advert satisfied the strict under-30,000-mile and maximum-two-total-owner rules."
     },
     "model-080:pistonheads:renault-clio-182-cup": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-22T14:31:21Z",
+      "lastSearchedAt": "2026-09-24T03:33:40Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Direct/current PistonHeads 182 Cup adverts surfaced, but visible cars were over the 30,000-mile cap and/or exceeded the owner cap or price floor; none retained."
+      "limitation": "No qualifying direct current PistonHeads Renault Clio 182 Cup advert satisfied the strict under-30,000-mile and maximum-two-total-owner rules."
     },
     "model-080:pistonheads:renault-clio-r27-f1-team": {
       "status": "searched",
-      "lastSearchedAt": "2026-09-22T14:31:21Z",
+      "lastSearchedAt": "2026-09-24T03:33:40Z",
       "lastResultCount": 0,
       "candidateUrls": [],
-      "limitation": "Direct/current PistonHeads R27 F1 Team adverts surfaced, but visible cars were over the 30,000-mile cap and/or exceeded the owner cap or price floor; none retained."
+      "limitation": "No qualifying direct current PistonHeads Renault Clio R27 F1 Team advert satisfied the strict under-30,000-mile and maximum-two-total-owner rules."
     },
     "model-080:specialist-dealers:renault-clio-172-cup": {
       "status": "searched",
