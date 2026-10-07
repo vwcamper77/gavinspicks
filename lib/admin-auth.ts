@@ -1,7 +1,7 @@
 import {createHash,createHmac,timingSafeEqual} from 'node:crypto';
 export const ADMIN_COOKIE='gp_admin';
 export const SESSION_SECONDS=30*24*60*60;
-const OWNER_PASSCODE_SHA256='ad178de44c4f3753663b8ea75da2e6e9c9defe53c78c638feb00f8c369f1d1c0';
+const OWNER_PASSCODE_SHA256='303a64bf9b9b26cfcf6ff2b0d88322dd93a772e335dd70ab7be259cfb581732a';
 const digest=(value:string)=>createHash('sha256').update(value).digest();
 const hex=(value:string)=>createHash('sha256').update(value).digest('hex');
 export function validAdminKey(value:unknown,key=process.env.GP_ADMIN_KEY):boolean{
